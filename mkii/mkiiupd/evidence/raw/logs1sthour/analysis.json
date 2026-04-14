@@ -1,0 +1,677 @@
+{
+  "source_file": "logs1sthour/All hourlysave.evtx",
+  "total_records": 28748,
+  "matched_events": 6416,
+  "service_installs_count": 35,
+  "process_creations_count": 45,
+  "top_event_ids": {
+    "5379": 3739,
+    "8001": 1897,
+    "4907": 1892,
+    "2006": 1488,
+    "271": 1138,
+    "5858": 934,
+    "2097": 550,
+    "62443": 536,
+    "2007": 388,
+    "10001": 380,
+    "5507": 341,
+    "400": 340,
+    "4624": 334,
+    "2005": 322,
+    "4672": 312,
+    "1002": 295,
+    "633": 294,
+    "9643": 284,
+    "4798": 279,
+    "607": 251
+  },
+  "service_installs": [
+    {
+      "timestamp": "2026-03-18T18:29:05.2897158Z UTC",
+      "service_name": "Realtek RT640 NT Driver",
+      "image_path": "\\SystemRoot\\System32\\drivers\\rt640x64.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T18:29:06.1802801Z UTC",
+      "service_name": "Intel(R) Display Audio",
+      "image_path": "\\SystemRoot\\System32\\drivers\\IntcDAud.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T18:29:08.4145022Z UTC",
+      "service_name": "Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+      "image_path": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\142.0.3595.69\\elevation_service.exe\"",
+      "service_type": "user mode service",
+      "start_type": "demand start",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T18:29:43.5839506Z UTC",
+      "service_name": "igfx",
+      "image_path": "\\SystemRoot\\system32\\DRIVERS\\igdkmd64.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T18:29:43.5839506Z UTC",
+      "service_name": "Intel(R) Content Protection HECI Service",
+      "image_path": "%SystemRoot%\\SysWow64\\IntelCpHeciSvc.exe",
+      "service_type": "user mode service",
+      "start_type": "auto start",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T18:29:43.5995739Z UTC",
+      "service_name": "Intel(R) HD Graphics Control Panel Service",
+      "image_path": "%SystemRoot%\\system32\\igfxCUIService.exe",
+      "service_type": "user mode service",
+      "start_type": "auto start",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T18:29:46.7087338Z UTC",
+      "service_name": "Printer Extensions and Notifications",
+      "image_path": "%SystemRoot%\\system32\\svchost.exe -k print",
+      "service_type": "user mode service",
+      "start_type": "demand start",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:11:03.7741372Z UTC",
+      "service_name": "Intel(R) Management Engine Interface ",
+      "image_path": "\\SystemRoot\\System32\\drivers\\TeeDriverW8x64.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T04:11:08.7659653Z UTC",
+      "service_name": "iaStorA",
+      "image_path": "System32\\drivers\\iaStorA.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "boot start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T04:14:08.5300491Z UTC",
+      "service_name": "Service for Realtek HD Audio (WDM)",
+      "image_path": "\\SystemRoot\\system32\\drivers\\RTKVHD64.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T04:14:10.6011795Z UTC",
+      "service_name": "Realtek Audio Service",
+      "image_path": "\"C:\\Program Files\\Realtek\\Audio\\HDA\\RtkAudioService64.exe\"",
+      "service_type": "user mode service",
+      "start_type": "auto start",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:31:17.2522568Z UTC",
+      "service_name": "Microsoft Update Health Service",
+      "image_path": "\"C:\\Program Files\\Microsoft Update Health Tools\\uhssvc.exe\"",
+      "service_type": "user mode service",
+      "start_type": "disabled",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:32:26.4254321Z UTC",
+      "service_name": "Mozilla Maintenance Service",
+      "image_path": "\"C:\\Program Files (x86)\\Mozilla Maintenance Service\\maintenanceservice.exe\"",
+      "service_type": "user mode service",
+      "start_type": "demand start",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:36:34.6520079Z UTC",
+      "service_name": "Bitdefender Agent RedLine Service",
+      "image_path": "\"C:\\Program Files\\Bitdefender Agent\\redline\\bdredline.exe\"",
+      "service_type": "user mode service",
+      "start_type": "auto start",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:36:41.848698Z UTC",
+      "service_name": "Bitdefender Product Agent Service",
+      "image_path": "\"C:\\Program Files\\Bitdefender Agent\\ProductAgentService.exe\"",
+      "service_type": "user mode service",
+      "start_type": "disabled",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:41:47.5913554Z UTC",
+      "service_name": "Microsoft Defender Core Service",
+      "image_path": "\"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26010.5-0\\MpDefenderCoreService.exe\"",
+      "service_type": "user mode service",
+      "start_type": "auto start",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:41:48.1397134Z UTC",
+      "service_name": "KslD",
+      "image_path": "system32\\drivers\\wd\\KslD.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T04:41:53.6135644Z UTC",
+      "service_name": "vlflt",
+      "image_path": "\\SystemRoot\\System32\\drivers\\vlflt.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T04:41:55.5112887Z UTC",
+      "service_name": "Trufos",
+      "image_path": "\\SystemRoot\\System32\\drivers\\Trufos.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T04:44:28.1649662Z UTC",
+      "service_name": "bduefiscan",
+      "image_path": "\\SystemRoot\\System32\\drivers\\bduefiscan.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T04:44:30.7120665Z UTC",
+      "service_name": "atc",
+      "image_path": "\\SystemRoot\\System32\\drivers\\atc.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T04:44:32.930505Z UTC",
+      "service_name": "BdDci4 Service",
+      "image_path": "\\SystemRoot\\System32\\drivers\\bddci4.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T04:44:33.0242484Z UTC",
+      "service_name": "bdelam",
+      "image_path": "system32\\drivers\\bdelam.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T04:44:33.1804878Z UTC",
+      "service_name": "Gemma",
+      "image_path": "system32\\DRIVERS\\gemma.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "system start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T04:44:34.5249528Z UTC",
+      "service_name": "Ignisv2",
+      "image_path": "\\SystemRoot\\System32\\drivers\\ignisv2.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T04:44:36.0560967Z UTC",
+      "service_name": "bdprivmon",
+      "image_path": "\\SystemRoot\\System32\\drivers\\bdprivmon.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    },
+    {
+      "timestamp": "2026-03-18T04:44:37.8997188Z UTC",
+      "service_name": "Bitdefender Virus Shield",
+      "image_path": "\"C:\\Program Files\\Bitdefender\\Bitdefender Security\\bdservicehost.exe\" \"settings/services/configs/bdshieldsrv_config.json\"",
+      "service_type": "user mode service",
+      "start_type": "disabled",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:44:38.3840619Z UTC",
+      "service_name": "Bitdefender Auxiliary Service",
+      "image_path": "\"C:\\Program Files\\Bitdefender\\Bitdefender Security\\bdservicehost.exe\" \"settings/services/configs/bdauxsrv_config.json\"",
+      "service_type": "user mode service",
+      "start_type": "disabled",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:44:38.9152733Z UTC",
+      "service_name": "Bitdefender App Service",
+      "image_path": "\"C:\\Program Files\\Bitdefender\\Bitdefender Security App\\bdservicehost.exe\" \"settings/services/configs/bdappsrv_config.json\"",
+      "service_type": "user mode service",
+      "start_type": "disabled",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:44:39.3683685Z UTC",
+      "service_name": "Bitdefender Safepay Service",
+      "image_path": "\"C:\\Program Files\\Bitdefender\\Bitdefender Security App\\Safepay\\bdservicehost.exe\" \"settings/services/configs/bdsafepaysrv_config.json\"",
+      "service_type": "user mode service",
+      "start_type": "disabled",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:44:49.1341102Z UTC",
+      "service_name": "Bitdefender Desktop Update Service",
+      "image_path": "\"C:\\Program Files\\Bitdefender\\Bitdefender Security\\updatesrv.exe\" /service",
+      "service_type": "user mode service",
+      "start_type": "auto start",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:44:50.8222951Z UTC",
+      "service_name": "Bitdefender Protected Service",
+      "image_path": "\"C:\\Program Files\\Bitdefender\\Bitdefender Security\\bdservicehost.exe\" \"settings\\services\\configs\\bdprotsrv_config.json\"",
+      "service_type": "user mode service",
+      "start_type": "disabled",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:44:56.0094368Z UTC",
+      "service_name": "Bitdefender RedLine Service",
+      "image_path": "\"C:\\Program Files\\Common Files\\Bitdefender\\SetupInformation\\Bitdefender RedLine\\bdredline.exe\"",
+      "service_type": "user mode service",
+      "start_type": "auto start",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:58:05.0892936Z UTC",
+      "service_name": "Bitdefender VPN Service",
+      "image_path": "\"C:\\Program Files\\Bitdefender\\Bitdefender VPN\\bdvpnservice.exe\" \"service\"",
+      "service_type": "user mode service",
+      "start_type": "auto start",
+      "account": "LocalSystem"
+    },
+    {
+      "timestamp": "2026-03-18T04:58:36.3363813Z UTC",
+      "service_name": "bdvpn_callout",
+      "image_path": "C:\\Program Files\\Bitdefender\\Bitdefender VPN\\Drivers\\x64\\netfilter.sys",
+      "service_type": "kernel mode driver",
+      "start_type": "demand start",
+      "account": ""
+    }
+  ],
+  "process_creations": [
+    {
+      "timestamp": "2026-03-18T18:28:49.0687719Z UTC",
+      "pid": "0x68",
+      "process": "Registry",
+      "parent": "",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:28:49.0731488Z UTC",
+      "pid": "0x1c0",
+      "process": "C:\\Windows\\System32\\smss.exe",
+      "parent": "",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:28:49.4161312Z UTC",
+      "pid": "0x1d0",
+      "process": "C:\\Windows\\System32\\autochk.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:28:50.7588665Z UTC",
+      "pid": "0x224",
+      "process": "C:\\Windows\\System32\\setupcl.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:28:51.0492549Z UTC",
+      "pid": "0x238",
+      "process": "C:\\Windows\\System32\\smss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:28:51.2018566Z UTC",
+      "pid": "0x240",
+      "process": "C:\\Windows\\System32\\csrss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:28:51.2964169Z UTC",
+      "pid": "0x27c",
+      "process": "C:\\Windows\\System32\\smss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:28:51.3014229Z UTC",
+      "pid": "0x284",
+      "process": "C:\\Windows\\System32\\wininit.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:28:51.3092848Z UTC",
+      "pid": "0x290",
+      "process": "C:\\Windows\\System32\\csrss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:28:51.3464845Z UTC",
+      "pid": "0x2d0",
+      "process": "C:\\Windows\\System32\\winlogon.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:28:51.4569506Z UTC",
+      "pid": "0x31c",
+      "process": "C:\\Windows\\System32\\services.exe",
+      "parent": "C:\\Windows\\System32\\wininit.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:28:51.5527538Z UTC",
+      "pid": "0x334",
+      "process": "C:\\Windows\\System32\\lsass.exe",
+      "parent": "C:\\Windows\\System32\\wininit.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:33:18.1747932Z UTC",
+      "pid": "0x68",
+      "process": "Registry",
+      "parent": "",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:33:18.1786978Z UTC",
+      "pid": "0x1a8",
+      "process": "C:\\Windows\\System32\\smss.exe",
+      "parent": "",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:33:18.4886865Z UTC",
+      "pid": "0x1c4",
+      "process": "C:\\Windows\\System32\\autochk.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:33:20.9504351Z UTC",
+      "pid": "0x22c",
+      "process": "C:\\Windows\\System32\\smss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:33:21.1000785Z UTC",
+      "pid": "0x23c",
+      "process": "C:\\Windows\\System32\\csrss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:33:21.3578871Z UTC",
+      "pid": "0x290",
+      "process": "C:\\Windows\\System32\\smss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:33:21.3621148Z UTC",
+      "pid": "0x298",
+      "process": "C:\\Windows\\System32\\wininit.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:33:21.3691604Z UTC",
+      "pid": "0x2a0",
+      "process": "C:\\Windows\\System32\\csrss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:33:21.460536Z UTC",
+      "pid": "0x2fc",
+      "process": "C:\\Windows\\System32\\winlogon.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:33:21.5087397Z UTC",
+      "pid": "0x314",
+      "process": "C:\\Windows\\System32\\services.exe",
+      "parent": "C:\\Windows\\System32\\wininit.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T18:33:21.5838984Z UTC",
+      "pid": "0x340",
+      "process": "C:\\Windows\\System32\\lsass.exe",
+      "parent": "C:\\Windows\\System32\\wininit.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:04:30.2736238Z UTC",
+      "pid": "0x68",
+      "process": "Registry",
+      "parent": "",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:04:30.2778944Z UTC",
+      "pid": "0x1a0",
+      "process": "C:\\Windows\\System32\\smss.exe",
+      "parent": "",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:04:30.5787764Z UTC",
+      "pid": "0x1bc",
+      "process": "C:\\Windows\\System32\\autochk.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:04:33.1234498Z UTC",
+      "pid": "0x21c",
+      "process": "C:\\Windows\\System32\\smss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:04:33.2836335Z UTC",
+      "pid": "0x22c",
+      "process": "C:\\Windows\\System32\\csrss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:04:33.5404104Z UTC",
+      "pid": "0x280",
+      "process": "C:\\Windows\\System32\\smss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:04:33.5441191Z UTC",
+      "pid": "0x288",
+      "process": "C:\\Windows\\System32\\wininit.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:04:33.5530525Z UTC",
+      "pid": "0x290",
+      "process": "C:\\Windows\\System32\\csrss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:04:33.6455932Z UTC",
+      "pid": "0x2ec",
+      "process": "C:\\Windows\\System32\\winlogon.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:04:33.7013614Z UTC",
+      "pid": "0x314",
+      "process": "C:\\Windows\\System32\\services.exe",
+      "parent": "C:\\Windows\\System32\\wininit.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:04:33.7722274Z UTC",
+      "pid": "0x330",
+      "process": "C:\\Windows\\System32\\lsass.exe",
+      "parent": "C:\\Windows\\System32\\wininit.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:27:57.3311595Z UTC",
+      "pid": "0x68",
+      "process": "Registry",
+      "parent": "",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:27:57.3352894Z UTC",
+      "pid": "0x1a0",
+      "process": "C:\\Windows\\System32\\smss.exe",
+      "parent": "",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:27:57.6486406Z UTC",
+      "pid": "0x1bc",
+      "process": "C:\\Windows\\System32\\autochk.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:28:00.3069488Z UTC",
+      "pid": "0x250",
+      "process": "C:\\Windows\\System32\\smss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:28:00.4778577Z UTC",
+      "pid": "0x25c",
+      "process": "C:\\Windows\\System32\\csrss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:28:00.7414823Z UTC",
+      "pid": "0x2b0",
+      "process": "C:\\Windows\\System32\\smss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:28:00.7451122Z UTC",
+      "pid": "0x2b8",
+      "process": "C:\\Windows\\System32\\wininit.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:28:00.7528944Z UTC",
+      "pid": "0x2c0",
+      "process": "C:\\Windows\\System32\\csrss.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:28:00.8510157Z UTC",
+      "pid": "0x31c",
+      "process": "C:\\Windows\\System32\\winlogon.exe",
+      "parent": "C:\\Windows\\System32\\smss.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:28:00.904343Z UTC",
+      "pid": "0x344",
+      "process": "C:\\Windows\\System32\\services.exe",
+      "parent": "C:\\Windows\\System32\\wininit.exe",
+      "cmdline": "",
+      "user": "-"
+    },
+    {
+      "timestamp": "2026-03-18T04:28:00.9756964Z UTC",
+      "pid": "0x360",
+      "process": "C:\\Windows\\System32\\lsass.exe",
+      "parent": "C:\\Windows\\System32\\wininit.exe",
+      "cmdline": "",
+      "user": "-"
+    }
+  ],
+  "pid_findings": {
+    "1052": [],
+    "3992": []
+  }
+}

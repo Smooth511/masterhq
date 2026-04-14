@@ -1,0 +1,16 @@
+2 chatlogs (long!!!!) detailing the eventual breakthrough on linux
+
+Text versions (converted 2026-03-26):
+- Linux raw pt1.txt (3499 lines) - extracted from pt1.pdf
+- Linux raw pt2.txt (4957 lines) - extracted from pt2.pdf
+
+Conversion details:
+- Tool: pdftotext (poppler-utils)
+- Command: pdftotext -layout "Linux raw pt1.pdf" "Linux raw pt1.txt"
+          pdftotext -layout "Linux raw pt2.pdf" "Linux raw pt2.txt"
+- No manual content edits beyond redaction of password hashes and external links.
+
+Note: file names contain spaces. Quote paths when using in shells/scripts:
+  cat "Linux raw pt1.txt"
+
+Original PDFs preserved alongside for reference.

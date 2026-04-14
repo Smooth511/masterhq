@@ -1,0 +1,206 @@
+name: Phantom Data Pull
+
+# Cross-repo data pull using MK2_PHANTOM_TOKEN
+# Pulls copies of key files from all Smooth511 repos to database/
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_repos:
+        description: 'Repos to pull from (comma-separated, or "all" for all Smooth511 repos)'
+        required: false
+        default: 'all'
+      files_to_pull:
+        description: 'Files to pull (comma-separated paths)'
+        required: false
+        default: 'README.md,.github/copilot-instructions.md'
+      include_tree:
+        description: 'Also save directory tree structure'
+        required: false
+        default: 'true'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  data-pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.MK2_PHANTOM_TOKEN }}
+
+      - name: Setup database directory
+        run: |
+          mkdir -p database/repos
+          mkdir -p database/manifests
+          echo "## Phantom Data Pull" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Started:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+      - name: Get repo list
+        id: repos
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+          TARGET_REPOS: ${{ inputs.target_repos }}
+        run: |
+          if [ "$TARGET_REPOS" == "all" ]; then
+            # Get all Smooth511 repos
+            REPOS=$(gh api user/repos --paginate --jq '.[] | select(.owner.login == "Smooth511") | .name' | tr '\n' ' ')
+          else
+            # Use provided list
+            REPOS=$(echo "$TARGET_REPOS" | tr ',' ' ')
+          fi
+          echo "repos=$REPOS" >> $GITHUB_OUTPUT
+          echo "### Target Repositories" >> $GITHUB_STEP_SUMMARY
+          for repo in $REPOS; do
+            echo "- $repo" >> $GITHUB_STEP_SUMMARY
+          done
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+      - name: Pull data from repos
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+          REPOS: ${{ steps.repos.outputs.repos }}
+          FILES_TO_PULL: ${{ inputs.files_to_pull }}
+          INCLUDE_TREE: ${{ inputs.include_tree }}
+        run: |
+          set +e
+          echo "### Data Pull Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Repo | File | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|------|--------|" >> $GITHUB_STEP_SUMMARY
+
+          TOTAL_PULLED=0
+          TOTAL_FAILED=0
+
+          for REPO in $REPOS; do
+            REPO_DIR="database/repos/$REPO"
+            mkdir -p "$REPO_DIR"
+            
+            echo "Processing $REPO..."
+            
+            # Get repo tree if requested - use explicit if/else to handle empty/broken repos
+            if [ "$INCLUDE_TREE" == "true" ]; then
+              echo "  Fetching tree..."
+              if TREE_OUTPUT=$(gh api "repos/Smooth511/$REPO/git/trees/HEAD?recursive=1" --jq '.tree[] | "\(.type)\t\(.path)"' 2>&1); then
+                echo "$TREE_OUTPUT" > "$REPO_DIR/_tree.txt"
+              else
+                echo "  Warning: Tree fetch failed - $TREE_OUTPUT"
+                echo "# Failed to get tree (repo may be empty or have no commits)" > "$REPO_DIR/_tree.txt"
+              fi
+            fi
+
+            # Get repo info - use explicit if/else
+            echo "  Fetching repo info..."
+            if REPO_INFO=$(gh api "repos/Smooth511/$REPO" 2>&1); then
+              echo "$REPO_INFO" > "$REPO_DIR/_repo-info.json"
+            else
+              echo "  Warning: Repo info fetch failed - $REPO_INFO"
+              echo '{"error": "Failed to fetch repo info"}' > "$REPO_DIR/_repo-info.json"
+            fi
+
+            # Pull each file
+            for FILE_PATH in $(echo "$FILES_TO_PULL" | tr ',' ' '); do
+              # Create subdirectory if needed
+              FILE_DIR=$(dirname "$FILE_PATH")
+              if [ "$FILE_DIR" != "." ]; then
+                mkdir -p "$REPO_DIR/$FILE_DIR"
+              fi
+              
+              # Fetch file content - capture output first, then decode
+              echo "  Fetching $FILE_PATH..."
+              if CONTENT=$(gh api "repos/Smooth511/$REPO/contents/$FILE_PATH" --jq '.content' 2>&1); then
+                if echo "$CONTENT" | base64 -d > "$REPO_DIR/$FILE_PATH" 2>/dev/null; then
+                  echo "| $REPO | $FILE_PATH | ✅ Pulled |" >> $GITHUB_STEP_SUMMARY
+                  TOTAL_PULLED=$((TOTAL_PULLED + 1))
+                else
+                  echo "  Warning: Base64 decode failed for $FILE_PATH"
+                  echo "| $REPO | $FILE_PATH | ❌ Decode failed |" >> $GITHUB_STEP_SUMMARY
+                  rm -f "$REPO_DIR/$FILE_PATH" 2>/dev/null
+                  TOTAL_FAILED=$((TOTAL_FAILED + 1))
+                fi
+              else
+                echo "  Warning: $FILE_PATH - $CONTENT"
+                echo "| $REPO | $FILE_PATH | ❌ Not found |" >> $GITHUB_STEP_SUMMARY
+                rm -f "$REPO_DIR/$FILE_PATH" 2>/dev/null
+                TOTAL_FAILED=$((TOTAL_FAILED + 1))
+              fi
+            done
+            
+            echo "  Done with $REPO"
+          done
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Total:** $TOTAL_PULLED pulled, $TOTAL_FAILED not found" >> $GITHUB_STEP_SUMMARY
+
+      - name: Generate manifest
+        run: |
+          TIMESTAMP=$(date -u '+%Y-%m-%d_%H-%M-%S')
+          MANIFEST_FILE="database/manifests/pull-$TIMESTAMP.md"
+          
+          echo "# Data Pull Manifest" > "$MANIFEST_FILE"
+          echo "" >> "$MANIFEST_FILE"
+          echo "**Timestamp:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> "$MANIFEST_FILE"
+          echo "**Triggered by:** workflow_dispatch" >> "$MANIFEST_FILE"
+          echo "" >> "$MANIFEST_FILE"
+          echo "## Files Pulled" >> "$MANIFEST_FILE"
+          echo "" >> "$MANIFEST_FILE"
+          
+          find database/repos -type f | sort | while read -r file; do
+            SIZE=$(stat -c%s "$file" 2>/dev/null || echo "0")
+            echo "- \`$file\` ($SIZE bytes)" >> "$MANIFEST_FILE"
+          done
+          
+          echo "" >> "$MANIFEST_FILE"
+          echo "---" >> "$MANIFEST_FILE"
+          echo "*Generated by phantom-data-pull.yml*" >> "$MANIFEST_FILE"
+
+          # Update database index
+          echo "# Database Index" > database/INDEX.md
+          echo "" >> database/INDEX.md
+          echo "**Last updated:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> database/INDEX.md
+          echo "" >> database/INDEX.md
+          echo "## Repositories" >> database/INDEX.md
+          echo "" >> database/INDEX.md
+          
+          for dir in database/repos/*/; do
+            REPO_NAME=$(basename "$dir")
+            echo "### $REPO_NAME" >> database/INDEX.md
+            echo "" >> database/INDEX.md
+            ls -la "$dir" 2>/dev/null | tail -n +4 | while read -r line; do
+              echo "    $line" >> database/INDEX.md
+            done
+            echo "" >> database/INDEX.md
+          done
+
+      - name: Commit and push
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+        run: |
+          git config user.name "mk2-phantom"
+          git config user.email "phantom@claude-mkii.local"
+          
+          git add database/
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit" >> $GITHUB_STEP_SUMMARY
+          else
+            git commit -m "phantom: Data pull $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+            
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "---" >> $GITHUB_STEP_SUMMARY
+            echo "✅ **Changes committed and pushed**" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Summary
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "**Completed:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "*Run by mk2-phantom data pull workflow*" >> $GITHUB_STEP_SUMMARY

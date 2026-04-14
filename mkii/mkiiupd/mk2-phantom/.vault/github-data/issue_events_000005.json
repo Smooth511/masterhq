@@ -1,0 +1,394 @@
+[
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/21#event-23633909413",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/21",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-17T07:58:55Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23#event-23633921540",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T07:59:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23#event-23633921603",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T07:59:26Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23#event-23633921998",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-17T07:59:27Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23#event-23633922702",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-17T07:59:29Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20#event-23633951838",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Analyze full Copilot chat JSON export for agent definition",
+    "title_is": "Add ClaudeMKII agent kit derived from full GRUB recovery chat transcript",
+    "created_at": "2026-03-17T08:00:44Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20#event-23633954702",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-17T08:00:51Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20#event-23633954894",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-17T08:00:52Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22#event-23634233682",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Extract ClaudeMKII persona and transition point from chat",
+    "title_is": "Add ClaudeMKII agent kit derived from full Mar 16 chat transcript analysis",
+    "created_at": "2026-03-17T08:12:01Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22#event-23634236505",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-17T08:12:08Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22#event-23634237283",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-17T08:12:10Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23#event-23634246001",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Analyze full chat export JSON for ClaudeMKII persona",
+    "title_is": "docs: Add ClaudeMKII behavioral analysis and custom agent kit from GRUB recovery chat export",
+    "created_at": "2026-03-17T08:12:29Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23#event-23634249064",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-17T08:12:37Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23#event-23634251831",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/23",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-17T08:12:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/1#event-23659858120",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/1",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T21:28:28Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/1#event-23659858196",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/1",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T21:28:28Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/1#event-23659859503",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/1",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-17T21:28:32Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/1#event-23659904158",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/1",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Fix issue with selecting custom agent file",
+    "title_is": "Fix custom agent not selectable: malformed YAML front matter",
+    "created_at": "2026-03-17T21:30:22Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/1#event-23659906263",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/1",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-17T21:30:28Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/1#event-23659906807",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/1",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-17T21:30:29Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/1#event-23659987868",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/1",
+    "actor": "https://github.com/Smooth511",
+    "event": "ready_for_review",
+    "created_at": "2026-03-17T21:33:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/1#event-23659988553",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/1",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T21:33:41Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/1#event-23659989496",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/1",
+    "actor": "https://github.com/Smooth511",
+    "event": "merged",
+    "commit_id": "dff169f78f36fcc40cd0a66c6ed02ad87f94029b",
+    "created_at": "2026-03-17T21:33:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/1#event-23659989533",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/1",
+    "actor": "https://github.com/Smooth511",
+    "event": "closed",
+    "created_at": "2026-03-17T21:33:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/1#event-23660000131",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/1",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-17T21:34:06Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/2#event-23663098466",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/2",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-18T00:05:02Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/2#event-23663098504",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/2",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-18T00:05:02Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/2#event-23663099694",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/2",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-18T00:05:06Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/2#event-23663128771",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/2",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Add functionality to pull chat log",
+    "title_is": "Preserve audit log export from .github/ to repo root",
+    "created_at": "2026-03-18T00:06:42Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/2#event-23663130132",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/2",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-18T00:06:47Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/2#event-23663130831",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/2",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-18T00:06:49Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/2#event-23663140602",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/2",
+    "actor": "https://github.com/Smooth511",
+    "event": "ready_for_review",
+    "created_at": "2026-03-18T00:07:21Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/2#event-23663140827",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/2",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-18T00:07:21Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/2#event-23663142282",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/2",
+    "actor": "https://github.com/Smooth511",
+    "event": "merged",
+    "commit_id": "0b498063112d257de67562d37ce2522900fad383",
+    "created_at": "2026-03-18T00:07:26Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/2#event-23663142311",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/2",
+    "actor": "https://github.com/Smooth511",
+    "event": "closed",
+    "created_at": "2026-03-18T00:07:26Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/2#event-23663152816",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/2",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-18T00:07:58Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/3#event-23663271932",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/3",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-18T00:14:33Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/3#event-23663271963",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/3",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-18T00:14:34Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/3#event-23663274303",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/3",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-18T00:14:42Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/3#event-23663339899",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/3",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Investigate lost chat history and files",
+    "title_is": "Document recovery findings for lost Literatefool chat session",
+    "created_at": "2026-03-18T00:18:33Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/3#event-23663341582",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/3",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-18T00:18:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/3#event-23663343471",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/3",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-18T00:18:44Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/3#event-23663401921",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/3",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-18T00:22:17Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/3#event-23663470696",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/3",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "Document recovery findings for lost Literatefool chat session",
+    "title_is": "Lock ClaudeMKII agent to claude-opus-4.5 and document Smooth511 chat recovery path",
+    "created_at": "2026-03-18T00:26:23Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Claude-MKII/pull/3#event-23663472363",
+    "pull_request": "https://github.com/Smooth511/Claude-MKII/pull/3",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-18T00:26:29Z"
+  }
+]

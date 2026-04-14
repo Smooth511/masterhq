@@ -1,0 +1,3 @@
+⚠️  running as root, file operations might not work correctly
+⚠️  running as root, file operations might not work correctly
+2026-03-09 12:57:12.004 fileproviderctl[627:9260] 🧹 About to launch FPCK checks for 1 domains

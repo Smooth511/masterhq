@@ -1,0 +1,15 @@
+{
+  "eventInformation" : {
+    "assetSetName" : "com.apple.siri.findmy",
+    "autoAssetEntries" : [
+      {
+        "assetSpecifier" : "com.apple.siri.findmy.primary_device_files",
+        "assetLockedInhibitsRemoval" : false
+      }
+    ],
+    "maxTargetOSVersion" : "26.4.9999",
+    "minTargetOSVersion" : "26.4",
+    "platformAssetVersion" : "1.0.295071122.13.203605,0"
+  },
+  "timestamp" : "2026-03-09T12:54:40.432Z"
+}

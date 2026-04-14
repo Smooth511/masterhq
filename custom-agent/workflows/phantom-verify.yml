@@ -1,0 +1,118 @@
+name: Phantom Verify
+
+on:
+  workflow_dispatch:
+    inputs:
+      check_repos:
+        description: 'List all accessible repos'
+        required: false
+        default: 'true'
+      check_permissions:
+        description: 'Check token permissions'
+        required: false
+        default: 'true'
+
+permissions:
+  contents: read
+
+jobs:
+  verify-token:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify MK2_PHANTOM_TOKEN exists
+        env:
+          HAS_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN != '' }}
+        run: |
+          echo "## Phantom Token Verification" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "$HAS_TOKEN" == "true" ]; then
+            echo "✅ MK2_PHANTOM_TOKEN is set" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ MK2_PHANTOM_TOKEN is NOT set" >> $GITHUB_STEP_SUMMARY
+            echo "::error::MK2_PHANTOM_TOKEN secret is not configured"
+            exit 1
+          fi
+
+      - name: Check token validity
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Token Validation" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Check authenticated user
+          USER_INFO=$(gh api user 2>&1) || {
+            echo "❌ Token authentication failed" >> $GITHUB_STEP_SUMMARY
+            echo "::error::Token failed to authenticate"
+            exit 1
+          }
+
+          USERNAME=$(echo "$USER_INFO" | jq -r '.login')
+          echo "✅ Authenticated as: **$USERNAME**" >> $GITHUB_STEP_SUMMARY
+
+      - name: List accessible repos
+        if: inputs.check_repos == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Accessible Repositories" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Repository | Private | Push | Admin |" >> $GITHUB_STEP_SUMMARY
+          echo "|------------|---------|------|-------|" >> $GITHUB_STEP_SUMMARY
+
+          gh api user/repos --paginate --jq '.[] | "| \(.full_name) | \(.private) | \(.permissions.push) | \(.permissions.admin) |"' >> $GITHUB_STEP_SUMMARY 2>&1 || {
+            echo "| ❌ Failed to list repos | - | - | - |" >> $GITHUB_STEP_SUMMARY
+          }
+
+      - name: Check specific permissions
+        if: inputs.check_permissions == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Permission Check (Claude-MKII)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          REPO="Smooth511/Claude-MKII"
+
+          # Check each permission type
+          check_perm() {
+            local name=$1
+            local endpoint=$2
+            if gh api "$endpoint" --silent 2>/dev/null; then
+              echo "✅ $name" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "❌ $name" >> $GITHUB_STEP_SUMMARY
+            fi
+          }
+
+          check_perm "Contents (read)" "repos/$REPO/contents"
+          check_perm "Issues (read)" "repos/$REPO/issues?per_page=1"
+          check_perm "Pull Requests (read)" "repos/$REPO/pulls?per_page=1"
+          check_perm "Actions (read)" "repos/$REPO/actions/workflows"
+          check_perm "Secrets (list)" "repos/$REPO/actions/secrets"
+
+          # Check if we can create issues (write test)
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Write Permissions" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Test issue creation by checking labels (less destructive)
+          if gh api "repos/$REPO/labels" --silent 2>/dev/null; then
+            echo "✅ Labels (read) — implies write access likely" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ Labels not accessible" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Summary
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "**Verification completed:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "*Run by mk2-phantom activation workflow*" >> $GITHUB_STEP_SUMMARY

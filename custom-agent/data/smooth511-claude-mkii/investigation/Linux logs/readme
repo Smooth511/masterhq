@@ -1,0 +1,11 @@
+a collection of screenshot
+-confirmed compromise
+-computer off
+removed the hardrive
+turned computer on, and let it fail boot
+plugged linux live usb in (same as prior to log off)
+let it load, selected ubuntu 5.6gb live version
+loaded in, loaded journalctl and logged
+checked out the 0kb files from previous log in
+still in inventory, same names, same size
+evaluate, ensure a % read figure attached to each image so we know what eas actually evaluated

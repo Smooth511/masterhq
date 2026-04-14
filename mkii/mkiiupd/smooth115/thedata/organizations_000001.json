@@ -1,0 +1,83 @@
+[
+  {
+    "type": "organization",
+    "url": "https://github.com/agent",
+    "login": "agent",
+    "name": "AGENT, Inc.",
+    "description": "Where Companies Book Talent",
+    "website": "https://joinagent.com",
+    "location": "Los Angeles, CA",
+    "email": "support@joinagent.com",
+    "members": [],
+    "owners_team": null,
+    "webhooks": [],
+    "created_at": "2015-12-02T20:16:25Z",
+    "member_privileges": {
+      "default_repository_permission": "write",
+      "members_can_create_public_repositories": true,
+      "members_can_create_private_repositories": true,
+      "members_can_create_internal_repositories": false,
+      "members_can_invite_outside_collaborators": true,
+      "allows_private_repository_forking": false,
+      "members_can_create_pages": true,
+      "members_can_change_repo_visibility": true,
+      "members_can_delete_repositories": true,
+      "members_can_delete_issues": false,
+      "display_commenter_full_name_setting_enabled": false,
+      "readers_can_create_discussions": true,
+      "members_can_create_teams": true,
+      "members_can_view_dependency_insights": true
+    },
+    "repository_defaults": {
+      "repository_default_branch": "main",
+      "commit_signoff": false,
+      "repository_labels": [
+        {
+          "name": "bug",
+          "description": "Something isn't working",
+          "color": "d73a4a"
+        },
+        {
+          "name": "documentation",
+          "description": "Improvements or additions to documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "duplicate",
+          "description": "This issue or pull request already exists",
+          "color": "cfd3d7"
+        },
+        {
+          "name": "enhancement",
+          "description": "New feature or request",
+          "color": "a2eeef"
+        },
+        {
+          "name": "good first issue",
+          "description": "Good for newcomers",
+          "color": "7057ff"
+        },
+        {
+          "name": "help wanted",
+          "description": "Extra attention is needed",
+          "color": "008672"
+        },
+        {
+          "name": "invalid",
+          "description": "This doesn't seem right",
+          "color": "e4e669"
+        },
+        {
+          "name": "question",
+          "description": "Further information is requested",
+          "color": "d876e3"
+        },
+        {
+          "name": "wontfix",
+          "description": "This will not be worked on",
+          "color": "ffffff"
+        }
+      ]
+    }
+  }
+]

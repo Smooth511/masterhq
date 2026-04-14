@@ -1,0 +1,69 @@
+# ╔══════════════════════════════════════════════════════════════════════════╗
+# ║  ⛔ WARNING — DO NOT ADD ENTRIES TO THIS FILE WITHOUT AUTHORIZATION ⛔  ║
+# ║                                                                        ║
+# ║  This .dockerignore is LOCKED. No agent, bot, workflow, or automated   ║
+# ║  process may add, remove, or modify entries without EXPLICIT written    ║
+# ║  approval from the repository owner (Smooth115).                       ║
+# ║                                                                        ║
+# ║  Same rules as .gitignore — see Issue #3 lockdown directive.           ║
+# ║                                                                        ║
+# ║  Last authorized edit: 2026-03-23 by Copilot (Issue #3 lockdown)      ║
+# ╚══════════════════════════════════════════════════════════════════════════╝
+
+# ── Version control ───────────────────────────────────────────────────────
+.git/
+.gitignore
+
+# ── Python cache ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.whl
+
+# ── Virtual environments ──────────────────────────────────────────────────
+venv/
+env/
+.env
+.venv/
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS artefacts ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Large binary / asset files ────────────────────────────────────────────
+assets/
+*.png
+*.PNG
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+
+# ── Windows event log files ───────────────────────────────────────────────
+*.evtx
+
+# ── Temporary / generated files ───────────────────────────────────────────
+*.tmp
+*.bak
+logs/*.json
+
+# ╔══════════════════════════════════════════════════════════════════════════╗
+# ║  🔐 INTEGRITY VERIFICATION — MK2_PHANTOM AUTHORIZED                     ║
+# ╠══════════════════════════════════════════════════════════════════════════╣
+# ║  Size (bytes): 2917                                                     ║
+# ║  SHA256 (lines 1-58): d358baca0b2fb0436b5398203184fbddcc9dd35677453383   ║
+# ║  Last verified: 2026-03-23T14:38:00Z by ClaudeMKII                      ║
+# ║                                                                         ║
+# ║  To verify: head -58 .dockerignore | sha256sum                          ║
+# ║  Any mismatch = unauthorized modification = security incident           ║
+# ╚══════════════════════════════════════════════════════════════════════════╝

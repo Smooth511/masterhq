@@ -1,0 +1,24 @@
+
+APPLYING PREDICATE NOT lastPathComponent == "brctl-dump.txt":
+/private/var/mobile/Library/Logs/CrashReporter/Cloud/clouddocs_2026.03.09_12-56-54+0000/brctl-container-list.txt, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/Cloud/clouddocs_2026.03.09_12-56-54+0000/defaults-com.apple.iclouddrive.features.txt, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/Cloud/clouddocs_2026.03.09_12-56-54+0000/diagnose-errors.log, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/Cloud/clouddocs_2026.03.09_12-56-54+0000/defaults-com.apple.bird.txt, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/Cloud/clouddocs_2026.03.09_12-56-54+0000/brctl-dump.txt, File did not match predicate
+
+APPLYING DEFAULT FILTERS:
+/private/var/mobile/Library/Logs/CrashReporter/Cloud/clouddocs_2026.03.09_12-56-54+0000/brctl-dump.txt, Added to Candidate logs
+
+APPLYING DEFAULT FILTERS:
+SDUnitLogDirectory with directory '/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/brctl_sysdiagnose_temp.5usflH/brctl': found no matches
+
+
+ENFORCING SIZE LIMIT OF 5 MB ON FILTERED CANDIDATES:
+
+/private/var/mobile/Library/Logs/CrashReporter/Cloud/clouddocs_2026.03.09_12-56-54+0000/defaults-com.apple.iclouddrive.features.txt, Added (181 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Cloud/clouddocs_2026.03.09_12-56-54+0000/defaults-com.apple.bird.txt, Added (1469 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Cloud/clouddocs_2026.03.09_12-56-54+0000/brctl-container-list.txt, Added (16561 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Cloud/clouddocs_2026.03.09_12-56-54+0000/diagnose-errors.log, Added (0 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Cloud/clouddocs_2026.03.09_12-56-54+0000/brctl-dump.txt, Added (165387 bytes)
+
+** DONE Enforcing size limit **

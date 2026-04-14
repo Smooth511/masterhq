@@ -1,0 +1,60 @@
+other Failed to start Wait until snapd is fully seeded.
+Security GetManagedobjects) failed: org. freedesktop.DBus. Error NoReply: Did not receive a reply. Possible causes include: the remote application did not send a repl
+System
+/dev/sda1: Can't open blockdev
+System
+Buffer I/0 error on dev nvme0n1, logical block 31258688, async page read
+System
+blk_update_request: I/O error, dev nvmeon1, sector 250069504 op 0x0: (READ) flags Ox0 phys_seg 1 prio class o 2
+Other
+log-output -t ubiquity debconf-copyd configdb targetdb -p ^console-setup/ --config-Name: targetdb --config=Driver:File --config=Mode:0644 --config=Filename:
+Other
+log-output -t ubiquity debconf-copydb configdb targetdb -p^console-setup/ --config-Name: targetdb--config=Driver:File --config-Mode:0644 --config=Filename:/
+Other
+log-output -t ubiquity debconf-copydb configdb targetdb -p ~keyboard-configuration/ --config=Name: targetdb --config-Driver:File --config=Mode: 0644 --config=F
+Other
+log-output -t ubiquity debconf-copydb configdb targetdb -p noem-config/ --config-Name: target - config=Driver:File -config=Mode:0644 --config=Filenane:/tar
+Security GetManagedobjects) failed: org. freedesktop DBus,Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply
+System Buffer I/0 error on dev nvmeon1, logical block 31258688, async page read systen blk_update_request: I/0 error, dev nvmeon1, sector 250069504 op 0X0: (READ) flags 0x0 phys_seg 1 prio class 0
+System
+Buffer I/0 error on dev nvmeon1, logical block 31258688, async page read
+System
+blk_update_request: I/0 error, dev nmeon1, sector 250069504 op 0x0: (READ) flags 0x0 phys_seg 1 prio class o
+System
+Buffer I/0 error on dev nvneon1, logical block 31258688, async page read
+System
+blk_update_request: 1/0 error, dev nyment, sector 250069504 OPOx0:(READ) flags 0x0 physseg 1 prioclass o
+System
+Buffer I/0 error on dev nvmeon1, logical block 31258688, async page read
+System
+blk_update_request: I/0 error, dev numeon, sector 250069504 op 0x0: (READ) flags Ox phys_seg 1 prio class 0 2
+System
+Buffer I/0 error on dev nvmeön1, logical block 31258688, async page read
+System
+blk_update_request: I/0 error, dev numeon1, sector 250069504 op 0X0: (READ) flags 0x0 phys seg 1 prio class o
+System
+[drm: amdgpu_init [amdgpu]] *ERROR* VGACON disables amdgpu kernel modesetting.
+System
+mtd device must be supplied (device name is empty)
+System
+Buffer I/0 error on dev nvme0n1, logical block 31258688, async page read
+System
+blk_update_request: I/0 error, dev nmeon1, sector 250069504 Op 0x0: (READ) flags 0x0 phys_seg 1 prio class 0 2
+System
+mtd device must be supplied (device name is empty)
+System blk_update_request: I/0 error, dev nvmeon1, sector 0 op 0x0: (READ) flags 0x0 phys_seg 1 prio class 2
+Hardware sd 10:0:0:0: [sda] Assuming drive cache: write through
+System
+[drm: amdgpu_init [amdgpu]] *ERROR* VGACON disables amdgpu kernel modesetting.
+System
+Buffer I/0 error on dev nvmeon1, logical block 3, async page read
+System
+blk_update_request: I/0 error, dev nvmeon1, sector 24 op 0x0: (READ) flags 0x0 phys_seg 1 prio class o
+System
+Buffer I/0 error on dev nvme0n1, logical block 0, async page read
+System
+blk_update_request: I/0 error, dev nvme0n1, sector 0 op 0x0: (READ) flags 0x0 phys_seg 1 prio class o
+System
+Buffer I/0 error on dev nvme0n1, logical block 0, async page read
+System
+blk_update_request: I/0 error, dev nvmeon1, sector 0 op Ox0: (READ) Flags Ox0 phys_seg 1 prio class

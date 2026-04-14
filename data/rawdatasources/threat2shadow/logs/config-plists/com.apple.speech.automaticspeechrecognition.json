@@ -1,0 +1,19 @@
+{
+  "eventInformation" : {
+    "assetSetName" : "com.apple.speech.automaticspeechrecognition",
+    "autoAssetEntries" : [
+      {
+        "assetSpecifier" : "com.apple.speech.asr.language.identification",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.speech.asr.transcription.en",
+        "assetLockedInhibitsRemoval" : false
+      }
+    ],
+    "maxTargetOSVersion" : "26.4.9999",
+    "minTargetOSVersion" : "26.4",
+    "platformAssetVersion" : "1.0.295071122.13.203605,0"
+  },
+  "timestamp" : "2026-03-09T12:54:40.263Z"
+}

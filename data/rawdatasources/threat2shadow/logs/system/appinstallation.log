@@ -1,0 +1,20 @@
+
+APPLYING DEFAULT FILTERS:
+/private/var/mobile/Library/Logs/com.apple.appstored, File not found
+
+APPLYING DEFAULT FILTERS:
+/private/var/containers/Data/System/C1D26C57-7638-4F46-822F-ABE0554A6C10/Documents/appstored.sqlitedb, File not found
+/private/var/containers/Data/System/C1D26C57-7638-4F46-822F-ABE0554A6C10/Documents/appstored.sqlitedb-shm, File not found
+/private/var/containers/Data/System/C1D26C57-7638-4F46-822F-ABE0554A6C10/Documents/appstored.sqlitedb-wal, File not found
+/private/var/containers/Data/System/C1D26C57-7638-4F46-822F-ABE0554A6C10/Documents/iapinfo.sqlitedb, File not found
+/private/var/containers/Data/System/C1D26C57-7638-4F46-822F-ABE0554A6C10/Documents/iapinfo.sqlitedb-shm, File not found
+/private/var/containers/Data/System/C1D26C57-7638-4F46-822F-ABE0554A6C10/Documents/iapinfo.sqlitedb-wal, File not found
+/private/var/containers/Data/System/C1D26C57-7638-4F46-822F-ABE0554A6C10/Documents/AppUpdates.sqlitedb, File not found
+/private/var/containers/Data/System/C1D26C57-7638-4F46-822F-ABE0554A6C10/Documents/AppUpdates.sqlitedb-shm, File not found
+/private/var/containers/Data/System/C1D26C57-7638-4F46-822F-ABE0554A6C10/Documents/AppUpdates.sqlitedb-wal, File not found
+
+
+ENFORCING SIZE LIMIT OF 5 MB ON FILTERED CANDIDATES:
+
+
+** DONE Enforcing size limit **

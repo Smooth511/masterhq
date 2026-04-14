@@ -1,0 +1,1330 @@
+2024-08-08T14:51:14.263098+00:00 lloyddesk systemd-logind[2156]: New seat seat0.
+2024-08-08T14:51:21.465436+00:00 lloyddesk useradd[2649]: new group: name=lloyd, GID=1000
+2024-08-08T14:51:21.465480+00:00 lloyddesk useradd[2649]: new user: name=lloyd, UID=1000, GID=1000, home=/home/lloyd, shell=/bin/bash, from=none
+2024-08-08T14:51:21.465926+00:00 lloyddesk useradd[2649]: add 'lloyd' to group 'adm'
+2024-08-08T14:51:21.465947+00:00 lloyddesk useradd[2649]: add 'lloyd' to group 'cdrom'
+2024-08-08T14:51:21.465967+00:00 lloyddesk useradd[2649]: add 'lloyd' to group 'sudo'
+2024-08-08T14:51:21.465991+00:00 lloyddesk useradd[2649]: add 'lloyd' to group 'dip'
+2024-08-08T14:51:21.466008+00:00 lloyddesk useradd[2649]: add 'lloyd' to group 'plugdev'
+2024-08-08T14:51:21.466021+00:00 lloyddesk useradd[2649]: add 'lloyd' to group 'users'
+2024-08-08T14:51:21.466038+00:00 lloyddesk useradd[2649]: add 'lloyd' to group 'lpadmin'
+2024-08-08T14:51:21.466060+00:00 lloyddesk useradd[2649]: add 'lloyd' to shadow group 'adm'
+2024-08-08T14:51:21.466076+00:00 lloyddesk useradd[2649]: add 'lloyd' to shadow group 'cdrom'
+2024-08-08T14:51:21.466094+00:00 lloyddesk useradd[2649]: add 'lloyd' to shadow group 'sudo'
+2024-08-08T14:51:21.466107+00:00 lloyddesk useradd[2649]: add 'lloyd' to shadow group 'dip'
+2024-08-08T14:51:21.466120+00:00 lloyddesk useradd[2649]: add 'lloyd' to shadow group 'plugdev'
+2024-08-08T14:51:21.466141+00:00 lloyddesk useradd[2649]: add 'lloyd' to shadow group 'users'
+2024-08-08T14:51:21.466156+00:00 lloyddesk useradd[2649]: add 'lloyd' to shadow group 'lpadmin'
+2024-08-08T14:51:23.208474+00:00 lloyddesk gdm-launch-environment]: pam_unix(gdm-launch-environment:account): account gdm has password changed in future
+2024-08-08T14:51:23.210783+00:00 lloyddesk gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-08-08T14:51:23.216383+00:00 lloyddesk systemd-logind[2156]: New session c1 of user gdm.
+2024-08-08T14:51:23.284440+00:00 lloyddesk (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-08-08T14:51:24.500286+00:00 lloyddesk polkitd[2132]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-08-08T14:52:01.163868+00:00 lloyddesk CRON[3401]: pam_unix(cron:account): account root has password changed in future
+2024-08-08T14:52:01.164412+00:00 lloyddesk CRON[3401]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-08-08T14:52:01.165583+00:00 lloyddesk CRON[3401]: pam_unix(cron:session): session closed for user root
+2024-08-08T14:52:09.501069+00:00 lloyddesk gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=lloyd
+2024-08-08T14:52:49.802648+00:00 lloyddesk gdm-password]: gkr-pam: unable to locate daemon control file
+2024-08-08T14:52:49.802819+00:00 lloyddesk gdm-password]: gkr-pam: stashed password to try later in open session
+2024-08-08T14:52:49.807240+00:00 lloyddesk gdm-password]: pam_unix(gdm-password:session): session opened for user lloyd(uid=1000) by lloyd(uid=0)
+2024-08-08T14:52:49.827247+00:00 lloyddesk systemd-logind[2156]: New session 3 of user lloyd.
+2024-08-08T14:52:49.837489+00:00 lloyddesk (systemd): pam_unix(systemd-user:session): session opened for user lloyd(uid=1000) by lloyd(uid=0)
+2024-08-08T14:52:49.978176+00:00 lloyddesk gdm-password]: gkr-pam: unlocked login keyring
+2024-08-08T14:52:50.444428+00:00 lloyddesk gnome-keyring-daemon[3459]: The PKCS#11 component was already initialized
+2024-08-08T14:52:50.444650+00:00 lloyddesk gnome-keyring-daemon[3801]: discover_other_daemon: 1
+2024-08-08T14:52:50.453101+00:00 lloyddesk gnome-keyring-daemon[3459]: The Secret Service was already initialized
+2024-08-08T14:52:50.453220+00:00 lloyddesk gnome-keyring-daemon[3803]: discover_other_daemon: 1
+2024-08-08T14:52:50.453378+00:00 lloyddesk gnome-keyring-daemon[3804]: discover_other_daemon: 1
+2024-08-08T14:52:51.231547+00:00 lloyddesk polkitd[2132]: Registered Authentication Agent for unix-session:3 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-08-08T14:52:52.050639+00:00 lloyddesk gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-08-08T14:52:52.060149+00:00 lloyddesk systemd-logind[2156]: Session c1 logged out. Waiting for processes to exit.
+2024-08-08T14:52:52.071556+00:00 lloyddesk systemd-logind[2156]: Removed session c1.
+2024-08-08T14:52:52.077023+00:00 lloyddesk polkitd[2132]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-08-08T14:53:02.203646+00:00 lloyddesk (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-03-27T23:21:51.289358+00:00 lloyddesk dbus-daemon[2126]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-27T23:22:32.384406+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt upgrade
+2026-03-27T23:22:32.384684+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:22:32.535038+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:22:36.841717+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt upgrade all
+2026-03-27T23:22:36.842322+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:22:36.875792+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:22:44.802775+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt search package
+2026-03-27T23:22:44.803240+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:22:44.897375+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:22:50.937055+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install
+2026-03-27T23:22:50.937329+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:22:51.004836+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:23:00.488835+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt full-upgrade package
+2026-03-27T23:23:00.499401+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:23:00.523231+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:23:07.112973+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt update package
+2026-03-27T23:23:07.113389+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:23:07.116597+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:23:10.952932+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt update
+2026-03-27T23:23:10.953423+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:23:26.654937+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:23:34.938014+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:23:34.938502+00:00 lloyddesk pkexec[9260]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-27T23:23:57.936606+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install ClamAv
+2026-03-27T23:23:57.937148+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:23:58.210233+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:24:06.160428+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt search clamav
+2026-03-27T23:24:06.160955+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:24:06.767852+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:24:12.705285+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt search clama cache
+2026-03-27T23:24:12.705585+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:24:13.305483+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:24:21.016487+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install clam
+2026-03-27T23:24:21.017002+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:24:21.291960+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:24:23.648411+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install clam*
+2026-03-27T23:24:23.648947+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:25:01.959971+00:00 lloyddesk CRON[9502]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-27T23:25:01.962518+00:00 lloyddesk CRON[9502]: pam_unix(cron:session): session closed for user root
+2026-03-27T23:25:38.254758+00:00 lloyddesk groupadd[10109]: group added to /etc/group: name=clamav, GID=124
+2026-03-27T23:25:38.261307+00:00 lloyddesk groupadd[10109]: group added to /etc/gshadow: name=clamav
+2026-03-27T23:25:38.262081+00:00 lloyddesk groupadd[10109]: new group: name=clamav, GID=124
+2026-03-27T23:25:38.279045+00:00 lloyddesk useradd[10116]: new user: name=clamav, UID=122, GID=124, home=/var/lib/clamav, shell=/bin/false, from=/dev/pts/2
+2026-03-27T23:25:40.322905+00:00 lloyddesk groupadd[10382]: group added to /etc/group: name=postfix, GID=125
+2026-03-27T23:25:40.329573+00:00 lloyddesk groupadd[10382]: group added to /etc/gshadow: name=postfix
+2026-03-27T23:25:40.330297+00:00 lloyddesk groupadd[10382]: new group: name=postfix, GID=125
+2026-03-27T23:25:40.378383+00:00 lloyddesk useradd[10393]: new user: name=postfix, UID=123, GID=125, home=/var/spool/postfix, shell=/usr/sbin/nologin, from=none
+2026-03-27T23:25:40.464062+00:00 lloyddesk groupadd[10444]: group added to /etc/group: name=postdrop, GID=126
+2026-03-27T23:25:40.470710+00:00 lloyddesk groupadd[10444]: group added to /etc/gshadow: name=postdrop
+2026-03-27T23:25:40.471599+00:00 lloyddesk groupadd[10444]: new group: name=postdrop, GID=126
+2026-03-27T23:25:49.004818+00:00 lloyddesk groupadd[12284]: group added to /etc/group: name=clamsmtp, GID=127
+2026-03-27T23:25:49.011103+00:00 lloyddesk groupadd[12284]: group added to /etc/gshadow: name=clamsmtp
+2026-03-27T23:25:49.011755+00:00 lloyddesk groupadd[12284]: new group: name=clamsmtp, GID=127
+2026-03-27T23:25:49.027619+00:00 lloyddesk useradd[12291]: new user: name=clamsmtp, UID=124, GID=127, home=/var/spool/clamsmtp, shell=/bin/false, from=none
+2026-03-27T23:25:49.088615+00:00 lloyddesk usermod[12308]: add 'clamav' to group 'clamsmtp'
+2026-03-27T23:25:49.088667+00:00 lloyddesk usermod[12308]: add 'clamav' to shadow group 'clamsmtp'
+2026-03-27T23:25:55.348136+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:26:34.923936+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:26:34.924444+00:00 lloyddesk pkexec[12593]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-27T23:30:01.970435+00:00 lloyddesk CRON[12906]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-27T23:30:01.971463+00:00 lloyddesk CRON[12906]: pam_unix(cron:session): session closed for user root
+2026-03-27T23:30:08.196762+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt-get install clamav clamav-daemon
+2026-03-27T23:30:08.207504+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:30:08.559521+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:30:31.838876+00:00 lloyddesk polkitd[2132]: Registered Authentication Agent for unix-process:12925:78594 (system bus name :1.172 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-03-27T23:30:31.850846+00:00 lloyddesk polkitd[2132]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-03-27T23:30:36.664250+00:00 lloyddesk polkitd[2132]: Operator of unix-session:3 successfully authenticated as unix-user:lloyd to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.173 [systemctl stop clamav-freshclam] (owned by unix-user:lloyd)
+2026-03-27T23:30:36.672181+00:00 lloyddesk polkitd[2132]: Unregistered Authentication Agent for unix-process:12925:78594 (system bus name :1.172, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-03-27T23:30:46.599465+00:00 lloyddesk polkitd[2132]: Registered Authentication Agent for unix-process:13005:80071 (system bus name :1.175 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-03-27T23:30:46.610204+00:00 lloyddesk polkitd[2132]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-03-27T23:30:50.691552+00:00 lloyddesk polkitd[2132]: Operator of unix-session:3 successfully authenticated as unix-user:lloyd to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.176 [systemctl stop clamav-freshclam] (owned by unix-user:lloyd)
+2026-03-27T23:30:50.698638+00:00 lloyddesk polkitd[2132]: Unregistered Authentication Agent for unix-process:unknown (system bus name :1.175, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-03-27T23:31:00.611710+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2026-03-27T23:31:00.612127+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:31:22.332143+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl stop clamav-freshclam
+2026-03-27T23:31:22.332394+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-27T23:31:22.338570+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:32:22.099520+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl start clamav.service*
+2026-03-27T23:32:22.099834+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-27T23:32:22.103775+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:32:28.819811+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl start clamav.service
+2026-03-27T23:32:28.820231+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-27T23:32:28.831256+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:33:07.891209+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl start clamav
+2026-03-27T23:33:07.891422+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-27T23:33:07.895699+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:33:13.811088+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl start ClamAv
+2026-03-27T23:33:13.811342+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-27T23:33:13.815181+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:34:59.517310+00:00 lloyddesk PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.package-install-untrusted auth (only_trusted:0)
+2026-03-27T23:34:59.521952+00:00 lloyddesk polkitd[2132]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-03-27T23:35:01.975889+00:00 lloyddesk CRON[13589]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-27T23:35:01.977486+00:00 lloyddesk CRON[13589]: pam_unix(cron:session): session closed for user root
+2026-03-27T23:35:04.128533+00:00 lloyddesk polkitd[2132]: Operator of unix-session:3 successfully authenticated as unix-user:lloyd to gain ONE-SHOT authorization for action org.freedesktop.packagekit.package-install-untrusted for system-bus-name::1.188 [/snap/snap-store/1173/bin/snap-store /home/lloyd/Downloads/code_1.113.0-1774364744_amd64.deb] (owned by unix-user:lloyd)
+2026-03-27T23:35:04.128865+00:00 lloyddesk PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.package-install-untrusted
+2026-03-27T23:35:35.392823+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:35:35.393305+00:00 lloyddesk pkexec[13737]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-27T23:36:32.590387+00:00 lloyddesk dbus-daemon[2126]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-27T23:39:46.367358+00:00 lloyddesk sudo:    lloyd : TTY=pts/2 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt systemctl start clamav-freshclam
+2026-03-27T23:39:46.378344+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:39:46.379279+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:40:00.563031+00:00 lloyddesk polkitd[2132]: Registered Authentication Agent for unix-process:14818:135466 (system bus name :1.203 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-03-27T23:40:00.590277+00:00 lloyddesk polkitd[2132]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-03-27T23:40:05.347676+00:00 lloyddesk polkitd[2132]: Operator of unix-session:3 successfully authenticated as unix-user:lloyd to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.204 [systemctl start clamav-freshclam] (owned by unix-user:lloyd)
+2026-03-27T23:40:05.353902+00:00 lloyddesk polkitd[2132]: Unregistered Authentication Agent for unix-process:14818:135466 (system bus name :1.203, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-03-27T23:40:16.431326+00:00 lloyddesk sudo:    lloyd : TTY=pts/2 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install rkhunter
+2026-03-27T23:40:16.431705+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:40:44.099489+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:40:58.695239+00:00 lloyddesk sudo: pam_unix(sudo:auth): conversation failed
+2026-03-27T23:40:58.695435+00:00 lloyddesk sudo: pam_unix(sudo:auth): auth could not identify password for [lloyd]
+2026-03-27T23:41:35.190370+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:41:35.191097+00:00 lloyddesk pkexec[33374]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-27T23:45:01.995799+00:00 lloyddesk CRON[33703]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-27T23:45:01.999224+00:00 lloyddesk CRON[33703]: pam_unix(cron:session): session closed for user root
+2026-03-27T23:47:05.842806+00:00 lloyddesk dbus-daemon[2126]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-27T23:51:00.727737+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install chkrootkit
+2026-03-27T23:51:00.728050+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-27T23:51:04.166579+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:52:14.016277+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/chkrootkit --propupd-
+2026-03-27T23:52:14.016681+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-27T23:52:14.019359+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:52:56.204812+00:00 lloyddesk dbus-daemon[2126]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-27T23:53:18.182714+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt search package
+2026-03-27T23:53:18.182976+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-27T23:53:19.148729+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:53:24.799087+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install paackage
+2026-03-27T23:53:24.799335+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-27T23:53:25.075149+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:53:35.154782+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:53:35.155264+00:00 lloyddesk pkexec[36870]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-27T23:53:57.919548+00:00 lloyddesk dbus-daemon[2126]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-27T23:55:02.006155+00:00 lloyddesk CRON[37464]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-27T23:55:02.007577+00:00 lloyddesk CRON[37464]: pam_unix(cron:session): session closed for user root
+2026-03-27T23:55:04.872921+00:00 lloyddesk dbus-daemon[2126]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-27T23:55:50.661768+00:00 lloyddesk dbus-daemon[2126]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-27T23:56:43.405454+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install synaptic
+2026-03-27T23:56:43.405813+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-27T23:56:48.891124+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-27T23:56:53.440272+00:00 lloyddesk polkitd[2132]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-03-27T23:56:56.103915+00:00 lloyddesk polkitd[2132]: Operator of unix-session:3 successfully authenticated as unix-user:lloyd to gain ONE-SHOT authorization for action com.ubuntu.pkexec.synaptic for unix-process:37968:236754 [/bin/sh /usr/bin/synaptic-pkexec] (owned by unix-user:lloyd)
+2026-03-27T23:56:56.107292+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:56:56.108146+00:00 lloyddesk pkexec[37971]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/sbin/synaptic]
+2026-03-27T23:57:59.183798+00:00 lloyddesk dbus-daemon[2126]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-27T23:58:56.310093+00:00 lloyddesk dbus-daemon[2126]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-27T23:59:01.015307+00:00 lloyddesk CRON[39148]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-27T23:59:01.016724+00:00 lloyddesk CRON[39148]: pam_unix(cron:session): session closed for user root
+2026-03-27T23:59:35.174547+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-27T23:59:35.175248+00:00 lloyddesk pkexec[39200]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T00:00:58.356246+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -rf /tmp/codespaces_logs /tmp/copilot-tool-output-1774654889508-mdcc5j.txt /tmp/mcp-4wGvAC /tmp/mcp-I4OBuN /tmp/pulse-PKdhtXMmr18n /tmp/snap-private-tmp /tmp/systemd-private-bbdeb563fdd045aeae52bc3313f0e9e3-colord.service-5m5AoS /tmp/systemd-private-bbdeb563fdd045aeae52bc3313f0e9e3-fwupd.service-5FmqRB /tmp/systemd-private-bbdeb563fdd045aeae52bc3313f0e9e3-ModemManager.service-XhFxlo /tmp/systemd-private-bbdeb563fdd045aeae52bc3313f0e9e3-polkit.service-B6Wxj7 /tmp/systemd-private-bbdeb563fdd045aeae52bc3313f0e9e3-power-profiles-daemon.service-DJ8ryP /tmp/systemd-private-bbdeb563fdd045aeae52bc3313f0e9e3-switcheroo-control.service-FyBKg0 /tmp/systemd-private-bbdeb563fdd045aeae52bc3313f0e9e3-systemd-logind.service-IVUCh0 /tmp/systemd-private-bbdeb563fdd045aeae52bc3313f0e9e3-systemd-oomd.service-8ubIj6 /tmp/systemd-private-bbdeb563fdd045aeae52bc3313f0e9e3-systemd-resolved.service-wyA5Ju
+2026-03-28T00:00:58.356349+00:00 lloyddesk sudo:     root : (command continued) /tmp/systemd-private-bbdeb563fdd045aeae52bc3313f0e9e3-systemd-timesyncd.service-qEnQzX /tmp/systemd-private-bbdeb563fdd045aeae52bc3313f0e9e3-ubuntu-advantage-desktop-daemon.service-NstFNa /tmp/systemd-private-bbdeb563fdd045aeae52bc3313f0e9e3-upower.service-1V2GLo /tmp/vscode-azure-github-copilot /tmp/vscode-typescript1000
+2026-03-28T00:00:58.356559+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:00:58.366720+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:01:11.715260+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt update chkrootkit
+2026-03-28T00:01:11.715481+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:01:11.718892+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:01:32.380512+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt clean
+2026-03-28T00:01:32.380810+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:01:32.398108+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:02:06.210747+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rkhunter --propup
+2026-03-28T00:02:06.211069+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:02:06.254163+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:02:11.322692+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rkhunter --propupdd
+2026-03-28T00:02:11.322964+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:02:11.356111+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:02:19.996406+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rkhunter --propupd
+2026-03-28T00:02:19.996634+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:02:38.273207+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:05:01.034370+00:00 lloyddesk CRON[49772]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-28T00:05:01.036177+00:00 lloyddesk CRON[49772]: pam_unix(cron:session): session closed for user root
+2026-03-28T00:08:46.503742+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -rf cd /X11/X11
+2026-03-28T00:08:46.504005+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:08:46.505270+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:08:58.185531+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -rf
+2026-03-28T00:08:58.185716+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:08:58.186875+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:09:17.982151+00:00 lloyddesk sudo:    lloyd : TTY=pts/2 ; PWD=/usr/bin ; USER=root ; COMMAND=/usr/bin/rm -rf X11
+2026-03-28T00:09:17.982454+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T00:09:17.983881+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:09:30.912157+00:00 lloyddesk sudo:    lloyd : TTY=pts/2 ; PWD=/usr/bin ; USER=root ; COMMAND=/usr/bin/rm -rf X11
+2026-03-28T00:09:30.912505+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T00:09:30.913610+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:09:37.079125+00:00 lloyddesk sudo:    lloyd : TTY=pts/2 ; PWD=/usr/bin ; USER=root ; COMMAND=/usr/bin/apt autoremove
+2026-03-28T00:09:37.079445+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T00:09:49.041037+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session closed for user root
+2026-03-28T00:10:08.248020+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt remove dpkg -f
+2026-03-28T00:10:08.248304+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T00:14:44.694432+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:14:53.752679+00:00 lloyddesk polkitd[2132]: Reloading rules
+2026-03-28T00:14:53.752779+00:00 lloyddesk polkitd[2132]: Collecting garbage unconditionally...
+2026-03-28T00:14:53.752806+00:00 lloyddesk polkitd[2132]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:14:53.752824+00:00 lloyddesk polkitd[2132]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:14:53.755117+00:00 lloyddesk polkitd[2132]: Finished loading, compiling and executing 16 rules
+2026-03-28T00:14:53.755156+00:00 lloyddesk polkitd[2132]: Reloading rules
+2026-03-28T00:14:53.755176+00:00 lloyddesk polkitd[2132]: Collecting garbage unconditionally...
+2026-03-28T00:14:53.755195+00:00 lloyddesk polkitd[2132]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:14:53.755211+00:00 lloyddesk polkitd[2132]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:14:53.757876+00:00 lloyddesk polkitd[2132]: Finished loading, compiling and executing 16 rules
+2026-03-28T00:15:01.048954+00:00 lloyddesk CRON[52686]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-28T00:15:01.056080+00:00 lloyddesk CRON[52686]: pam_unix(cron:session): session closed for user root
+2026-03-28T00:15:27.445058+00:00 lloyddesk polkitd[2132]: Reloading rules
+2026-03-28T00:15:27.445398+00:00 lloyddesk polkitd[2132]: Collecting garbage unconditionally...
+2026-03-28T00:15:27.445783+00:00 lloyddesk polkitd[2132]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:15:27.445802+00:00 lloyddesk polkitd[2132]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:15:27.446855+00:00 lloyddesk polkitd[2132]: Finished loading, compiling and executing 16 rules
+2026-03-28T00:15:27.446887+00:00 lloyddesk polkitd[2132]: Reloading rules
+2026-03-28T00:15:27.446906+00:00 lloyddesk polkitd[2132]: Collecting garbage unconditionally...
+2026-03-28T00:15:27.446922+00:00 lloyddesk polkitd[2132]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:15:27.446938+00:00 lloyddesk polkitd[2132]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:15:27.448169+00:00 lloyddesk polkitd[2132]: Finished loading, compiling and executing 16 rules
+2026-03-28T00:15:27.631994+00:00 lloyddesk polkitd[2132]: Reloading rules
+2026-03-28T00:15:27.632481+00:00 lloyddesk polkitd[2132]: Collecting garbage unconditionally...
+2026-03-28T00:15:27.632523+00:00 lloyddesk polkitd[2132]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:15:27.632550+00:00 lloyddesk polkitd[2132]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:15:27.634284+00:00 lloyddesk polkitd[2132]: Finished loading, compiling and executing 16 rules
+2026-03-28T00:15:27.634320+00:00 lloyddesk polkitd[2132]: Reloading rules
+2026-03-28T00:15:27.634339+00:00 lloyddesk polkitd[2132]: Collecting garbage unconditionally...
+2026-03-28T00:15:27.634353+00:00 lloyddesk polkitd[2132]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:15:27.634368+00:00 lloyddesk polkitd[2132]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:15:27.635838+00:00 lloyddesk polkitd[2132]: Finished loading, compiling and executing 16 rules
+2026-03-28T00:15:30.615434+00:00 lloyddesk polkitd[2132]: Reloading rules
+2026-03-28T00:15:30.615630+00:00 lloyddesk polkitd[2132]: Collecting garbage unconditionally...
+2026-03-28T00:15:30.615651+00:00 lloyddesk polkitd[2132]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:15:30.615671+00:00 lloyddesk polkitd[2132]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:15:30.617639+00:00 lloyddesk polkitd[2132]: Finished loading, compiling and executing 16 rules
+2026-03-28T00:15:30.617671+00:00 lloyddesk polkitd[2132]: Reloading rules
+2026-03-28T00:15:30.617689+00:00 lloyddesk polkitd[2132]: Collecting garbage unconditionally...
+2026-03-28T00:15:30.617706+00:00 lloyddesk polkitd[2132]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:15:30.617721+00:00 lloyddesk polkitd[2132]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:15:30.618997+00:00 lloyddesk polkitd[2132]: Finished loading, compiling and executing 16 rules
+2026-03-28T00:15:30.619031+00:00 lloyddesk polkitd[2132]: Reloading rules
+2026-03-28T00:15:30.619049+00:00 lloyddesk polkitd[2132]: Collecting garbage unconditionally...
+2026-03-28T00:15:30.619065+00:00 lloyddesk polkitd[2132]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:15:30.619081+00:00 lloyddesk polkitd[2132]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:15:30.620268+00:00 lloyddesk polkitd[2132]: Finished loading, compiling and executing 16 rules
+2026-03-28T00:15:30.620291+00:00 lloyddesk polkitd[2132]: Reloading rules
+2026-03-28T00:15:30.620308+00:00 lloyddesk polkitd[2132]: Collecting garbage unconditionally...
+2026-03-28T00:15:30.620323+00:00 lloyddesk polkitd[2132]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:15:30.620339+00:00 lloyddesk polkitd[2132]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:15:30.621484+00:00 lloyddesk polkitd[2132]: Finished loading, compiling and executing 16 rules
+2026-03-28T00:15:36.072519+00:00 lloyddesk polkitd[2132]: Reloading rules
+2026-03-28T00:15:36.073147+00:00 lloyddesk polkitd[2132]: Collecting garbage unconditionally...
+2026-03-28T00:15:36.073213+00:00 lloyddesk polkitd[2132]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:15:36.073256+00:00 lloyddesk polkitd[2132]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:15:36.076103+00:00 lloyddesk polkitd[2132]: Finished loading, compiling and executing 16 rules
+2026-03-28T00:15:36.076159+00:00 lloyddesk polkitd[2132]: Reloading rules
+2026-03-28T00:15:36.076190+00:00 lloyddesk polkitd[2132]: Collecting garbage unconditionally...
+2026-03-28T00:15:36.076218+00:00 lloyddesk polkitd[2132]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:15:36.076244+00:00 lloyddesk polkitd[2132]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:15:36.078074+00:00 lloyddesk polkitd[2132]: Finished loading, compiling and executing 16 rules
+2026-03-28T00:15:43.025761+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:16:15.423608+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:16:15.423661+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:16:15.425664+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 16 rules
+2026-03-28T00:16:15.426230+00:00 lloyddesk polkitd[61214]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-03-28T00:16:15.470228+00:00 lloyddesk polkitd[61214]: Registered Authentication Agent for unix-session:3 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-03-28T00:17:01.085733+00:00 lloyddesk CRON[70670]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-28T00:17:01.093706+00:00 lloyddesk CRON[70670]: pam_unix(cron:session): session closed for user root
+2026-03-28T00:17:34.795747+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T00:17:34.796261+00:00 lloyddesk pkexec[70705]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T00:18:40.341658+00:00 lloyddesk sudo:    lloyd : TTY=pts/2 ; PWD=/usr/bin ; USER=root ; COMMAND=/usr/bin/rkhunter --checkall
+2026-03-28T00:18:40.342235+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T00:18:46.661655+00:00 lloyddesk rkhunter: Rootkit hunter check started (version 1.4.6)
+2026-03-28T00:20:11.041906+00:00 lloyddesk dbus-daemon[2126]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-28T00:23:56.449889+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/passwd -S root
+2026-03-28T00:23:56.450388+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T00:23:56.451800+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:25:01.104301+00:00 lloyddesk CRON[221893]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-28T00:25:01.115508+00:00 lloyddesk CRON[221893]: pam_unix(cron:session): session closed for user root
+2026-03-28T00:26:15.139715+00:00 lloyddesk sudo:    lloyd : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2026-03-28T00:26:15.140029+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T00:26:31.651819+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get install chkrootkit
+2026-03-28T00:26:31.652161+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:26:32.865229+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:26:47.939236+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt remove
+2026-03-28T00:26:47.939470+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:26:48.367879+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:27:17.299053+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/chkrootkit
+2026-03-28T00:27:17.299296+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:27:22.557715+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:27:32.023512+00:00 lloyddesk rkhunter: Scanning took 8 minutes and 45 seconds
+2026-03-28T00:27:32.028979+00:00 lloyddesk rkhunter: Please inspect this machine, because it may be infected.
+2026-03-28T00:27:32.082564+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:27:40.385202+00:00 lloyddesk sudo:    lloyd : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2026-03-28T00:27:40.385550+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T00:27:47.513085+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rkhunter --propupd -d
+2026-03-28T00:27:47.513351+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:27:47.546664+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:27:50.937057+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rkhunter --propupd
+2026-03-28T00:27:50.937377+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:28:03.316548+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:28:14.440151+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rkhunter --checkall
+2026-03-28T00:28:14.440385+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:28:20.134505+00:00 lloyddesk rkhunter: Rootkit hunter check started (version 1.4.6)
+2026-03-28T00:28:44.352892+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/chkrootkit -p -x
+2026-03-28T00:28:44.354377+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:28:44.377183+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:28:50.401419+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/chkrootkit -p
+2026-03-28T00:28:50.403121+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:28:50.415268+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:28:56.009908+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/chkrootkit -p checkall
+2026-03-28T00:28:56.011397+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:28:56.034255+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:29:08.000540+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/chkrootkit -p
+2026-03-28T00:29:08.002139+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:29:08.009918+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:29:37.422563+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/chkrootkit
+2026-03-28T00:29:37.424028+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:29:43.164723+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:32:10.371176+00:00 lloyddesk dbus-daemon[2126]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-28T00:32:34.764824+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T00:32:34.765352+00:00 lloyddesk pkexec[326402]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T00:34:02.380634+00:00 lloyddesk dbus-daemon[2126]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-28T00:35:01.110088+00:00 lloyddesk CRON[326978]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-28T00:35:01.111403+00:00 lloyddesk CRON[326978]: pam_unix(cron:session): session closed for user root
+2026-03-28T00:36:54.683730+00:00 lloyddesk polkitd[61214]: Registered Authentication Agent for unix-process:327070:476879 (system bus name :1.374 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-03-28T00:36:54.694551+00:00 lloyddesk polkitd[61214]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-03-28T00:36:57.204052+00:00 lloyddesk polkitd[61214]: Operator of unix-session:3 successfully authenticated as unix-user:lloyd to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.375 [systemctl start clamav-freshclam] (owned by unix-user:lloyd)
+2026-03-28T00:36:57.210674+00:00 lloyddesk polkitd[61214]: Unregistered Authentication Agent for unix-process:unknown (system bus name :1.374, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-03-28T00:42:51.257727+00:00 lloyddesk sudo: pam_unix(sudo-i:auth): authentication failure; logname=lloyd uid=1000 euid=0 tty=/dev/pts/4 ruser=lloyd rhost=  user=lloyd
+2026-03-28T00:42:55.681779+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2026-03-28T00:42:55.682158+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T00:43:12.522441+00:00 lloyddesk sudo:     root : TTY=pts/6 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -rf
+2026-03-28T00:43:12.522863+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:43:12.524129+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:43:24.554438+00:00 lloyddesk sudo:     root : TTY=pts/6 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -rf
+2026-03-28T00:43:24.554747+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:43:24.556031+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:45:01.132030+00:00 lloyddesk CRON[327870]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-28T00:45:01.136778+00:00 lloyddesk CRON[327870]: pam_unix(cron:session): session closed for user root
+2026-03-28T00:47:09.315830+00:00 lloyddesk sudo:     root : TTY=pts/6 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rkhunter --propup
+2026-03-28T00:47:09.316112+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:47:09.349114+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:47:57.301553+00:00 lloyddesk sudo:     root : TTY=pts/6 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rkhunter --checkall
+2026-03-28T00:47:57.303057+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:47:58.757087+00:00 lloyddesk rkhunter: Rootkit hunter check started (version 1.4.6)
+2026-03-28T00:48:43.092269+00:00 lloyddesk rkhunter: Scanning took 20 minutes and 22 seconds
+2026-03-28T00:48:43.100072+00:00 lloyddesk rkhunter: Please inspect this machine, because it may be infected.
+2026-03-28T00:48:43.113713+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:51:27.137797+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rkhunter --checkall
+2026-03-28T00:51:27.148956+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:51:32.889197+00:00 lloyddesk rkhunter: Rootkit hunter check started (version 1.4.6)
+2026-03-28T00:52:08.058694+00:00 lloyddesk rkhunter: Scanning took 4 minutes and 9 seconds
+2026-03-28T00:52:08.064194+00:00 lloyddesk rkhunter: Please inspect this machine, because it may be infected.
+2026-03-28T00:52:08.117501+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:52:37.743538+00:00 lloyddesk polkitd[61214]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-03-28T00:52:41.196964+00:00 lloyddesk polkitd[61214]: Operator of unix-session:3 successfully authenticated as unix-user:lloyd to gain TEMPORARY authorization for action org.freedesktop.udisks2.modify-device-system for system-bus-name::1.274 [/usr/bin/gnome-disks --gapplication-service] (owned by unix-user:lloyd)
+2026-03-28T00:55:01.145585+00:00 lloyddesk CRON[594373]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-28T00:55:01.153169+00:00 lloyddesk CRON[594373]: pam_unix(cron:session): session closed for user root
+2026-03-28T00:55:59.025327+00:00 lloyddesk polkitd[61214]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-03-28T00:56:02.018158+00:00 lloyddesk polkitd[61214]: Operator of unix-session:3 successfully authenticated as unix-user:lloyd to gain TEMPORARY authorization for action org.freedesktop.fwupd.verify-update for system-bus-name::1.392 [/snap/firmware-updater/127/bin/firmware-updater --gapplication-service] (owned by unix-user:lloyd)
+2026-03-28T00:58:14.857153+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session closed for user root
+2026-03-28T00:58:58.134342+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt remove core22
+2026-03-28T00:58:58.134680+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:58:58.422144+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:59:04.318139+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt remove firefox
+2026-03-28T00:59:04.325893+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:59:08.291944+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:59:20.222736+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt remove gnome*
+2026-03-28T00:59:20.223014+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T00:59:26.099247+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T00:59:26.099359+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T00:59:26.099380+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:59:26.099396+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:59:26.102851+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 15 rules
+2026-03-28T00:59:26.156901+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T00:59:26.157478+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T00:59:26.157527+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:59:26.157549+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:59:26.159290+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 14 rules
+2026-03-28T00:59:27.636157+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T00:59:27.636551+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T00:59:27.636582+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T00:59:27.636609+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T00:59:27.638175+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 13 rules
+2026-03-28T00:59:35.054890+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T00:59:35.055385+00:00 lloyddesk pkexec[595356]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T00:59:36.125862+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T00:59:59.390100+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt purge gnome*
+2026-03-28T00:59:59.390291+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:00:03.079614+00:00 lloyddesk userdel[595649]: delete user 'gnome-initial-setup'
+2026-03-28T01:00:04.208717+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:00:12.165189+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt remove snap
+2026-03-28T01:00:12.165374+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:00:12.580478+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:00:24.100986+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt full-upgrade
+2026-03-28T01:00:24.101186+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:00:32.072322+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T01:00:32.073195+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T01:00:32.073286+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T01:00:32.073335+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T01:00:32.075991+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 13 rules
+2026-03-28T01:00:32.076111+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T01:00:32.076143+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T01:00:32.076172+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T01:00:32.076204+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T01:00:32.077566+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 13 rules
+2026-03-28T01:00:37.412595+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T01:00:37.413021+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T01:00:37.413067+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T01:00:37.413103+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T01:00:37.414722+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 13 rules
+2026-03-28T01:00:37.414752+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T01:00:37.414770+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T01:00:37.414786+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T01:00:37.414803+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T01:00:37.416145+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 13 rules
+2026-03-28T01:00:38.855203+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T01:00:38.855538+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T01:00:38.855561+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T01:00:38.855586+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T01:00:38.857231+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 13 rules
+2026-03-28T01:00:38.857262+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T01:00:38.857281+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T01:00:38.857297+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T01:00:38.857312+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T01:00:38.858677+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 13 rules
+2026-03-28T01:00:43.008884+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T01:00:43.008950+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T01:00:43.008971+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T01:00:43.008987+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T01:00:43.010395+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 13 rules
+2026-03-28T01:00:43.010437+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T01:00:43.010458+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T01:00:43.010474+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T01:00:43.010491+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T01:00:43.012248+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 13 rules
+2026-03-28T01:01:26.905214+00:00 lloyddesk systemd-logind[2156]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-03-28T01:01:26.905622+00:00 lloyddesk systemd-logind[2156]: Watching system buttons on /dev/input/event3 (SEMICO USB Keyboard)
+2026-03-28T01:01:26.906235+00:00 lloyddesk systemd-logind[2156]: Watching system buttons on /dev/input/event5 (SEMICO USB Keyboard System Control)
+2026-03-28T01:01:26.906748+00:00 lloyddesk systemd-logind[2156]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-03-28T01:01:26.907735+00:00 lloyddesk systemd-logind[2156]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2026-03-28T01:01:26.912831+00:00 lloyddesk systemd-logind[2156]: Watching system buttons on /dev/input/event4 (SEMICO USB Keyboard Consumer Control)
+2026-03-28T01:02:05.436628+00:00 lloyddesk sudo:    lloyd : TTY=pts/7 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt remove kitty
+2026-03-28T01:02:05.437867+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:02:34.820728+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:02:34.821239+00:00 lloyddesk pkexec[611360]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T01:02:55.053057+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:03:09.207292+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:03:11.584851+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt purge gnome*
+2026-03-28T01:03:11.585065+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:03:18.606228+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:04:11.630109+00:00 lloyddesk sudo:    lloyd : TTY=pts/7 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt purge firefox*
+2026-03-28T01:04:11.630397+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:04:17.241414+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:04:31.894765+00:00 lloyddesk sudo:    lloyd : TTY=pts/7 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt purge firefox*
+2026-03-28T01:04:31.895211+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:04:32.442382+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:05:01.161659+00:00 lloyddesk CRON[623592]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-28T01:05:01.163586+00:00 lloyddesk CRON[623592]: pam_unix(cron:session): session closed for user root
+2026-03-28T01:05:34.598127+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:05:34.605862+00:00 lloyddesk pkexec[623613]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T01:11:39.720915+00:00 lloyddesk sudo: pam_unix(sudo:auth): conversation failed
+2026-03-28T01:11:39.721426+00:00 lloyddesk sudo: pam_unix(sudo:auth): auth could not identify password for [lloyd]
+2026-03-28T01:14:01.142593+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/chkrootkit
+2026-03-28T01:14:01.144173+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:14:07.469781+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:14:26.195560+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt purge xt*
+2026-03-28T01:14:26.207787+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:14:32.744792+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:14:34.571891+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:14:34.572392+00:00 lloyddesk pkexec[658829]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T01:14:41.072995+00:00 lloyddesk login[658851]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T01:14:41.073294+00:00 lloyddesk login[658851]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T01:14:42.625666+00:00 lloyddesk login[658851]: pam_unix(login:session): session opened for user lloyd(uid=1000) by lloyd(uid=0)
+2026-03-28T01:14:42.639760+00:00 lloyddesk systemd-logind[2156]: New session 19 of user lloyd.
+2026-03-28T01:14:51.238784+00:00 lloyddesk sudo: pam_unix(sudo-i:auth): authentication failure; logname=lloyd uid=1000 euid=0 tty=/dev/tty3 ruser=lloyd rhost=  user=lloyd
+2026-03-28T01:14:57.911021+00:00 lloyddesk sudo:    lloyd : TTY=tty3 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2026-03-28T01:14:57.911399+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:15:01.172082+00:00 lloyddesk CRON[659059]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-28T01:15:01.173537+00:00 lloyddesk CRON[659059]: pam_unix(cron:session): session closed for user root
+2026-03-28T01:15:37.158871+00:00 lloyddesk sudo:     root : TTY=pts/7 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt purge gnome*
+2026-03-28T01:15:37.159176+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:15:44.437801+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:15:54.678454+00:00 lloyddesk sudo:     root : TTY=pts/7 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt purge gnome-she*
+2026-03-28T01:15:54.678784+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:15:55.204906+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:16:04.158125+00:00 lloyddesk sudo:     root : TTY=pts/7 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt purge snap
+2026-03-28T01:16:04.158377+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:16:04.644344+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:16:15.189774+00:00 lloyddesk sudo:     root : TTY=pts/7 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt purge cron*
+2026-03-28T01:16:15.190051+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:16:21.134785+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:16:32.053553+00:00 lloyddesk sudo:     root : TTY=pts/7 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/chkrootkit
+2026-03-28T01:16:32.053896+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:16:37.230581+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:16:50.381535+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt purge xt*
+2026-03-28T01:16:50.382138+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:16:56.966642+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:16:58.466848+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt purge xt*
+2026-03-28T01:16:58.467240+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:16:59.130342+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:17:25.247852+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/chkrootkit
+2026-03-28T01:17:25.248257+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:17:30.792403+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:17:34.985829+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:17:34.986350+00:00 lloyddesk pkexec[674677]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T01:17:42.113188+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/chkrootkit
+2026-03-28T01:17:42.113418+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:17:47.779624+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:18:37.997549+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt remove snapd*
+2026-03-28T01:18:37.998418+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:18:46.829526+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:18:54.487146+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt purge snapd*
+2026-03-28T01:18:54.489107+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:18:59.447409+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:19:11.288530+00:00 lloyddesk dbus-daemon[2126]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-28T01:19:35.941318+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt update sudo* apt* deb* lib/ lib64/ lib.usr-is-merged/ secur* net*
+2026-03-28T01:19:35.951946+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:19:35.951981+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:19:46.412797+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt full-upgrade sudo* apt* deb* lib/ lib64/ lib.usr-is-merged/ secur* net*
+2026-03-28T01:19:46.413320+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:19:46.935952+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:19:55.907990+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install ubunt*
+2026-03-28T01:19:55.908313+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:19:56.338412+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:20:24.827988+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install ubunt*
+2026-03-28T01:20:24.828309+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:20:25.272001+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:20:33.354942+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install ubunt* -f
+2026-03-28T01:20:33.355442+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:20:33.785235+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:20:34.671074+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:20:34.671641+00:00 lloyddesk pkexec[717759]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T01:20:37.813761+00:00 lloyddesk rkhunter: Scanning took 29 minutes and 5 seconds
+2026-03-28T01:20:37.819058+00:00 lloyddesk rkhunter: Please inspect this machine, because it may be infected.
+2026-03-28T01:20:37.873542+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:21:51.153000+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/var ; USER=root ; COMMAND=/usr/bin/rkhunter --checkall
+2026-03-28T01:21:51.153313+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:21:54.682912+00:00 lloyddesk rkhunter: Rootkit hunter check started (version 1.4.6)
+2026-03-28T01:23:34.419031+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install back-u*
+2026-03-28T01:23:34.427576+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:23:34.708537+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:23:40.254373+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install backu*
+2026-03-28T01:23:40.254827+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:24:13.339449+00:00 lloyddesk groupadd[780311]: group added to /etc/group: name=backuppc, GID=128
+2026-03-28T01:24:13.345689+00:00 lloyddesk groupadd[780311]: group added to /etc/gshadow: name=backuppc
+2026-03-28T01:24:13.346451+00:00 lloyddesk groupadd[780311]: new group: name=backuppc, GID=128
+2026-03-28T01:24:13.395284+00:00 lloyddesk useradd[780323]: new user: name=backuppc, UID=119, GID=128, home=/var/lib/backuppc, shell=/bin/sh, from=none
+2026-03-28T01:24:13.425448+00:00 lloyddesk chfn[780330]: changed user 'backuppc' information
+2026-03-28T01:24:16.007401+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:24:27.676988+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+2026-03-28T01:24:27.677466+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:24:28.102532+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:24:44.308766+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt-get install kali-
+2026-03-28T01:24:44.319590+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:24:44.677484+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:24:48.301450+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt-get install kali-*
+2026-03-28T01:24:48.302037+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:24:48.706110+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:25:11.924117+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt-get install appA*
+2026-03-28T01:25:11.924516+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:25:19.763750+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:25:27.859818+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt-get update appA*
+2026-03-28T01:25:27.860095+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:25:27.863387+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:25:30.571533+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt-get update appA*
+2026-03-28T01:25:30.572083+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:25:30.575213+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:25:35.756201+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt-get upgrade appA*
+2026-03-28T01:25:35.756510+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:25:36.350126+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:25:43.539373+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install systemd*
+2026-03-28T01:25:43.539944+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:25:43.914207+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:25:54.371050+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install systemd --fix-missing
+2026-03-28T01:25:54.371528+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:25:54.765135+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:26:00.986998+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt purge gnome*
+2026-03-28T01:26:00.987474+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:26:06.863123+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:26:14.706453+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt purge cron*
+2026-03-28T01:26:14.706922+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:26:15.126767+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:26:33.506261+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd/.cache/kitty ; USER=root ; COMMAND=/usr/bin/apt remove kitty
+2026-03-28T01:26:33.506486+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:26:33.882561+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:26:34.598652+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:26:34.599231+00:00 lloyddesk pkexec[781411]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T01:26:41.889978+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd/.cache/kitty ; USER=root ; COMMAND=/usr/bin/apt purge kitty
+2026-03-28T01:26:41.890432+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:26:42.266758+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:28:18.232591+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt purge naut*
+2026-03-28T01:28:18.232890+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:28:22.773353+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:28:39.230930+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install files
+2026-03-28T01:28:39.231211+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:28:39.430244+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:28:50.519890+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-cache files
+2026-03-28T01:28:50.520270+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:28:50.531759+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:29:02.231379+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt search files
+2026-03-28T01:29:02.231703+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:29:02.945566+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:29:09.710688+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install files
+2026-03-28T01:29:09.710985+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:29:09.912282+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:29:34.626911+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:29:34.627367+00:00 lloyddesk pkexec[781605]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T01:29:45.102563+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt upgrade files*
+2026-03-28T01:29:45.113492+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:29:50.144462+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:32:34.581760+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:32:34.582356+00:00 lloyddesk pkexec[781763]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T01:32:48.937518+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt search files
+2026-03-28T01:32:48.937788+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:32:49.654461+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:33:27.392057+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install Z* z*
+2026-03-28T01:33:27.392324+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:33:27.837737+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:33:33.137853+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install Z*
+2026-03-28T01:33:33.138082+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:33:33.542222+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:33:44.128401+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt full-upgrade Z*
+2026-03-28T01:33:44.128676+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:33:48.318957+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:34:01.103233+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt reinstall Z*
+2026-03-28T01:34:01.103541+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:34:01.500787+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:34:26.871578+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt autoclean
+2026-03-28T01:34:26.873314+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:34:27.153429+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:34:31.352598+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt autoremove
+2026-03-28T01:34:31.355304+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:34:34.434994+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T01:34:34.435077+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T01:34:34.435099+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T01:34:34.435119+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T01:34:34.439500+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 12 rules
+2026-03-28T01:34:42.278761+00:00 lloyddesk polkitd[61214]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-03-28T01:34:46.674758+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:34:47.248127+00:00 lloyddesk polkitd[61214]: Operator of unix-session:3 successfully authenticated as unix-user:lloyd to gain ONE-SHOT authorization for action com.ubuntu.pkexec.synaptic for unix-process:805865:823638 [/bin/sh /usr/bin/synaptic-pkexec] (owned by unix-user:lloyd)
+2026-03-28T01:34:47.251483+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:34:47.252638+00:00 lloyddesk pkexec[805883]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/sbin/synaptic]
+2026-03-28T01:35:34.841704+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:35:34.842463+00:00 lloyddesk pkexec[818808]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T01:37:03.794996+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install py*
+2026-03-28T01:37:03.795377+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:37:12.074584+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:38:21.572493+00:00 lloyddesk rkhunter: Scanning took 16 minutes and 26 seconds
+2026-03-28T01:38:21.578069+00:00 lloyddesk rkhunter: Please inspect this machine, because it may be infected.
+2026-03-28T01:38:21.630543+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:41:13.403900+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/fdisk -l
+2026-03-28T01:41:13.404345+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:41:13.417482+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:44:34.559888+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:44:34.560392+00:00 lloyddesk pkexec[866699]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T01:49:33.264736+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/chmod 700
+2026-03-28T01:49:33.265209+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:49:33.266304+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:49:50.368576+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/chmod 700 user:lloyd
+2026-03-28T01:49:50.369056+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:49:50.370106+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:50:00.409174+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/chmod 700 user:/lloyd
+2026-03-28T01:50:00.409460+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:50:00.410754+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:50:04.937131+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/chmod 700 --help
+2026-03-28T01:50:04.937459+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:50:04.938698+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:50:21.984860+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt chmod 700 -R
+2026-03-28T01:50:21.985176+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:50:21.988361+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:50:26.616455+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt chmod 700 -R
+2026-03-28T01:50:26.616970+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:50:26.620065+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:50:29.864436+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt chmod 700 -R
+2026-03-28T01:50:29.864953+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:50:29.867846+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:50:34.730707+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:50:34.741574+00:00 lloyddesk pkexec[867108]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T01:51:25.103402+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt chmod 700 -R /bin /bin.usr-is-merged /boot /cdrom /dev /etc /home /lib /lib64 /lib.usr-is-merged /lost+found /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /srv /swap.img /sys /tmp /usr /var
+2026-03-28T01:51:25.103947+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:51:25.106953+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:51:30.494957+00:00 lloyddesk sudo:    lloyd : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt chmod 700 /bin /bin.usr-is-merged /boot /cdrom /dev /etc /home /lib /lib64 /lib.usr-is-merged /lost+found /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /srv /swap.img /sys /tmp /usr /var
+2026-03-28T01:51:30.495398+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:51:30.498549+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:52:24.444290+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt reinstall Z*
+2026-03-28T01:52:24.444561+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T01:53:34.559863+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:53:34.560335+00:00 lloyddesk pkexec[867461]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T01:56:36.365872+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install firefox
+2026-03-28T01:56:36.366279+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:57:47.235022+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T01:58:08.151004+00:00 lloyddesk systemd-logind[2156]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-03-28T01:58:08.151361+00:00 lloyddesk systemd-logind[2156]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2026-03-28T01:58:08.152180+00:00 lloyddesk systemd-logind[2156]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-03-28T01:58:08.155691+00:00 lloyddesk systemd-logind[2156]: Watching system buttons on /dev/input/event5 (SEMICO USB Keyboard System Control)
+2026-03-28T01:58:08.156491+00:00 lloyddesk systemd-logind[2156]: Watching system buttons on /dev/input/event3 (SEMICO USB Keyboard)
+2026-03-28T01:58:08.157012+00:00 lloyddesk systemd-logind[2156]: Watching system buttons on /dev/input/event4 (SEMICO USB Keyboard Consumer Control)
+2026-03-28T01:58:58.665800+00:00 lloyddesk rkhunter: Rootkit hunter check started (version 1.4.6)
+2026-03-28T01:59:13.831679+00:00 lloyddesk sudo:    lloyd : TTY=pts/8 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/chkrootkit
+2026-03-28T01:59:13.839392+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T01:59:20.334958+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:00:30.626972+00:00 lloyddesk polkitd[61214]: Registered Authentication Agent for unix-process:933626:978473 (system bus name :1.500 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-03-28T02:00:30.635234+00:00 lloyddesk polkitd[61214]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-03-28T02:00:32.892649+00:00 lloyddesk polkitd[61214]: Operator of unix-session:3 successfully authenticated as unix-user:lloyd to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.501 [systemctl start clamav-freshclam] (owned by unix-user:lloyd)
+2026-03-28T02:00:32.897935+00:00 lloyddesk polkitd[61214]: Unregistered Authentication Agent for unix-process:unknown (system bus name :1.500, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-03-28T02:00:42.850235+00:00 lloyddesk polkitd[61214]: Registered Authentication Agent for unix-process:933657:979696 (system bus name :1.503 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-03-28T02:00:42.857832+00:00 lloyddesk polkitd[61214]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-03-28T02:00:44.807222+00:00 lloyddesk polkitd[61214]: Operator of unix-session:3 successfully authenticated as unix-user:lloyd to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.504 [systemctl start clamav-freshclam] (owned by unix-user:lloyd)
+2026-03-28T02:00:44.811668+00:00 lloyddesk polkitd[61214]: Unregistered Authentication Agent for unix-process:unknown (system bus name :1.503, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-03-28T02:01:12.257586+00:00 lloyddesk sudo:    lloyd : TTY=pts/8 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/clamscan --infected --remove --recursive/*
+2026-03-28T02:01:12.268605+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:01:12.269681+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:01:14.585389+00:00 lloyddesk sudo:    lloyd : TTY=pts/8 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/clamscan --infected --remove --recursive /bin /bin.usr-is-merged /boot /cdrom /dev /etc /home /lib /lib64 /lib.usr-is-merged /lost+found /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /swap.img /sys /tmp /usr /var
+2026-03-28T02:01:14.585876+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:02:22.942713+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt upgrade
+2026-03-28T02:02:22.942920+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T02:02:30.035540+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:02:40.233100+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:04:19.722130+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:05:11.028888+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt upgrade
+2026-03-28T02:05:11.030061+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T02:05:11.725163+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:05:31.529211+00:00 lloyddesk sudo:     root : TTY=pts/3 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install gnome-control-ce*
+2026-03-28T02:05:31.529528+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T02:05:34.922137+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:05:34.922567+00:00 lloyddesk pkexec[972285]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T02:05:59.152330+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T02:05:59.152401+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T02:05:59.152421+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T02:05:59.152437+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T02:05:59.156715+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 13 rules
+2026-03-28T02:05:59.156767+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T02:05:59.156785+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T02:05:59.156801+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T02:05:59.156817+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T02:05:59.158059+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 13 rules
+2026-03-28T02:06:00.066704+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T02:06:00.067145+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T02:06:00.067181+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T02:06:00.067207+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T02:06:00.069504+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 14 rules
+2026-03-28T02:06:00.069580+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T02:06:00.069614+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T02:06:00.069645+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T02:06:00.069691+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T02:06:00.071661+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 14 rules
+2026-03-28T02:06:02.874008+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T02:06:02.874513+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T02:06:02.874555+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T02:06:02.874574+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T02:06:02.876080+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 15 rules
+2026-03-28T02:06:02.876120+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T02:06:02.876140+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T02:06:02.876159+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T02:06:02.876177+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T02:06:02.878073+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 15 rules
+2026-03-28T02:06:09.305186+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T02:06:09.307021+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T02:06:09.307075+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T02:06:09.307103+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T02:06:09.308716+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 16 rules
+2026-03-28T02:06:09.308779+00:00 lloyddesk polkitd[61214]: Reloading rules
+2026-03-28T02:06:09.308808+00:00 lloyddesk polkitd[61214]: Collecting garbage unconditionally...
+2026-03-28T02:06:09.308837+00:00 lloyddesk polkitd[61214]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T02:06:09.308869+00:00 lloyddesk polkitd[61214]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T02:06:09.310944+00:00 lloyddesk polkitd[61214]: Finished loading, compiling and executing 16 rules
+2026-03-28T02:06:14.746754+00:00 lloyddesk groupadd[1015438]: group added to /etc/group: name=pulse, GID=129
+2026-03-28T02:06:14.757067+00:00 lloyddesk groupadd[1015438]: group added to /etc/gshadow: name=pulse
+2026-03-28T02:06:14.758472+00:00 lloyddesk groupadd[1015438]: new group: name=pulse, GID=129
+2026-03-28T02:06:14.778303+00:00 lloyddesk useradd[1015500]: new user: name=pulse, UID=125, GID=129, home=/run/pulse, shell=/usr/sbin/nologin, from=/dev/pts/6
+2026-03-28T02:06:14.809734+00:00 lloyddesk chfn[1015569]: changed user 'pulse' information
+2026-03-28T02:06:14.858662+00:00 lloyddesk usermod[1015654]: add 'pulse' to group 'audio'
+2026-03-28T02:06:14.858844+00:00 lloyddesk usermod[1015654]: add 'pulse' to shadow group 'audio'
+2026-03-28T02:06:14.927282+00:00 lloyddesk groupadd[1015772]: group added to /etc/group: name=pulse-access, GID=130
+2026-03-28T02:06:14.933551+00:00 lloyddesk groupadd[1015772]: group added to /etc/gshadow: name=pulse-access
+2026-03-28T02:06:14.934314+00:00 lloyddesk groupadd[1015772]: new group: name=pulse-access, GID=130
+2026-03-28T02:06:18.008871+00:00 lloyddesk dbus-daemon[2126]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.536" (uid=988 pid=1018974 comm="/usr/libexec/gnome-remote-desktop-daemon --system" label="unconfined") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.28" (uid=0 pid=2754 comm="/usr/sbin/gdm3" label="unconfined")
+2026-03-28T02:06:18.008912+00:00 lloyddesk dbus-daemon[2126]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.536" (uid=988 pid=1018974 comm="/usr/libexec/gnome-remote-desktop-daemon --system" label="unconfined") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination=":1.28" (uid=0 pid=2754 comm="/usr/sbin/gdm3" label="unconfined")
+2026-03-28T02:06:20.491782+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:06:39.995113+00:00 lloyddesk rkhunter: Scanning took 7 minutes and 41 seconds
+2026-03-28T02:06:39.996122+00:00 lloyddesk rkhunter: Please inspect this machine, because it may be infected.
+2026-03-28T02:06:43.692797+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session closed for user root
+2026-03-28T02:06:47.150432+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session closed for user root
+2026-03-28T02:06:57.534728+00:00 lloyddesk systemd-logind[2156]: The system will reboot now!
+2026-03-28T02:06:57.680819+00:00 lloyddesk systemd-logind[2156]: System is rebooting.
+2026-03-28T02:06:57.696941+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session closed for user root
+2026-03-28T02:06:57.697163+00:00 lloyddesk gdm-password]: pam_unix(gdm-password:session): session closed for user lloyd
+2026-03-28T02:16:39.116705+00:00 lloyddesk systemd-logind[1840]: New seat seat0.
+2026-03-28T02:16:39.116791+00:00 lloyddesk systemd-logind[1840]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-03-28T02:16:39.117251+00:00 lloyddesk systemd-logind[1840]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-03-28T02:16:48.643603+00:00 lloyddesk login[2274]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:16:48.643637+00:00 lloyddesk login[2274]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:16:50.471797+00:00 lloyddesk login[2274]: pam_unix(login:session): session opened for user lloyd(uid=1000) by lloyd(uid=0)
+2026-03-28T02:16:50.477033+00:00 lloyddesk systemd-logind[1840]: New session 1 of user lloyd.
+2026-03-28T02:16:50.511655+00:00 lloyddesk (systemd): pam_unix(systemd-user:session): session opened for user lloyd(uid=1000) by lloyd(uid=0)
+2026-03-28T02:18:26.250844+00:00 lloyddesk sudo:    lloyd : TTY=tty1 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/chkrootkit
+2026-03-28T02:18:26.251075+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:18:32.036954+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:18:56.280747+00:00 lloyddesk sudo:    lloyd : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2026-03-28T02:18:56.281054+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:19:21.479024+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --c
+2026-03-28T02:19:21.479279+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T02:19:21.516184+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:19:24.350747+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter -c
+2026-03-28T02:19:24.350980+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T02:19:25.577754+00:00 lloyddesk rkhunter: Rootkit hunter check started (version 1.4.6)
+2026-03-28T02:19:30.707473+00:00 lloyddesk agetty[2918]: tty2: invalid character 0x1b in login name
+2026-03-28T02:19:45.924005+00:00 lloyddesk login[42716]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:19:45.924094+00:00 lloyddesk login[42716]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:19:49.322719+00:00 lloyddesk login[42716]: pam_unix(login:auth): check pass; user unknown
+2026-03-28T02:19:49.322786+00:00 lloyddesk login[42716]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty2 ruser= rhost= 
+2026-03-28T02:19:52.289395+00:00 lloyddesk login[42716]: FAILED LOGIN (1) on '/dev/tty2' FOR 'UNKNOWN', Authentication failure
+2026-03-28T02:19:57.938342+00:00 lloyddesk login[42716]: pam_unix(login:auth): check pass; user unknown
+2026-03-28T02:19:57.938397+00:00 lloyddesk login[42716]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty2 ruser= rhost= 
+2026-03-28T02:20:01.348686+00:00 lloyddesk login[42716]: FAILED LOGIN (2) on '/dev/tty2' FOR 'UNKNOWN', Authentication failure
+2026-03-28T02:20:07.795534+00:00 lloyddesk login[42716]: pam_unix(login:session): session opened for user lloyd(uid=1000) by LOGIN(uid=0)
+2026-03-28T02:20:07.797197+00:00 lloyddesk systemd-logind[1840]: New session 3 of user lloyd.
+2026-03-28T02:20:15.813271+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2026-03-28T02:20:15.813526+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:20:26.233933+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session closed for user root
+2026-03-28T02:20:29.942177+00:00 lloyddesk login[42716]: pam_unix(login:session): session closed for user lloyd
+2026-03-28T02:20:29.958172+00:00 lloyddesk systemd-logind[1840]: Session 3 logged out. Waiting for processes to exit.
+2026-03-28T02:20:29.958998+00:00 lloyddesk systemd-logind[1840]: Removed session 3.
+2026-03-28T02:20:32.410644+00:00 lloyddesk login[66601]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:20:32.410705+00:00 lloyddesk login[66601]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:20:37.400980+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session closed for user root
+2026-03-28T02:20:37.401204+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:21:03.506170+00:00 lloyddesk systemd-logind[1620]: New seat seat0.
+2026-03-28T02:21:03.506177+00:00 lloyddesk systemd-logind[1620]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-03-28T02:21:03.506180+00:00 lloyddesk systemd-logind[1620]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-03-28T02:21:03.506182+00:00 lloyddesk systemd-logind[1620]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2026-03-28T02:21:03.506185+00:00 lloyddesk systemd-logind[1620]: Watching system buttons on /dev/input/event3 (SEMICO USB Keyboard)
+2026-03-28T02:21:03.506192+00:00 lloyddesk systemd-logind[1620]: Watching system buttons on /dev/input/event4 (SEMICO USB Keyboard Consumer Control)
+2026-03-28T02:21:03.506194+00:00 lloyddesk systemd-logind[1620]: Watching system buttons on /dev/input/event5 (SEMICO USB Keyboard System Control)
+2026-03-28T02:21:03.512455+00:00 lloyddesk polkitd[1600]: Finished loading, compiling and executing 16 rules
+2026-03-28T02:21:03.512869+00:00 lloyddesk polkitd[1600]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-03-28T02:21:19.557400+00:00 lloyddesk login[2055]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:21:19.557461+00:00 lloyddesk login[2055]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:21:23.670453+00:00 lloyddesk login[2055]: pam_unix(login:auth): check pass; user unknown
+2026-03-28T02:21:23.670478+00:00 lloyddesk login[2055]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2026-03-28T02:21:27.005406+00:00 lloyddesk login[2055]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+2026-03-28T02:21:29.487451+00:00 lloyddesk login[2523]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:21:29.487480+00:00 lloyddesk login[2523]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:21:32.230450+00:00 lloyddesk login[2523]: pam_unix(login:auth): check pass; user unknown
+2026-03-28T02:21:32.237733+00:00 lloyddesk login[2523]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty2 ruser= rhost= 
+2026-03-28T02:21:34.617034+00:00 lloyddesk login[2523]: FAILED LOGIN (1) on '/dev/tty2' FOR 'UNKNOWN', Authentication failure
+2026-03-28T02:21:39.575564+00:00 lloyddesk login[2532]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:21:39.575625+00:00 lloyddesk login[2532]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:22:49.390955+00:00 lloyddesk systemd-logind[2429]: New seat seat0.
+2026-03-28T02:22:49.391163+00:00 lloyddesk systemd-logind[2429]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-03-28T02:22:49.391298+00:00 lloyddesk systemd-logind[2429]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-03-28T02:22:49.391367+00:00 lloyddesk systemd-logind[2429]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2026-03-28T02:22:49.391433+00:00 lloyddesk systemd-logind[2429]: Watching system buttons on /dev/input/event3 (SEMICO USB Keyboard)
+2026-03-28T02:22:49.391518+00:00 lloyddesk systemd-logind[2429]: Watching system buttons on /dev/input/event4 (SEMICO USB Keyboard Consumer Control)
+2026-03-28T02:22:49.391578+00:00 lloyddesk systemd-logind[2429]: Watching system buttons on /dev/input/event5 (SEMICO USB Keyboard System Control)
+2026-03-28T02:22:49.384222+00:00 lloyddesk systemd-logind[1767]: New seat seat0.
+2026-03-28T02:22:49.384227+00:00 lloyddesk systemd-logind[1767]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-03-28T02:22:49.384229+00:00 lloyddesk systemd-logind[1767]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-03-28T02:22:49.384232+00:00 lloyddesk systemd-logind[1767]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2026-03-28T02:22:49.384235+00:00 lloyddesk systemd-logind[1767]: Watching system buttons on /dev/input/event3 (SEMICO USB Keyboard)
+2026-03-28T02:22:49.384237+00:00 lloyddesk systemd-logind[1767]: Watching system buttons on /dev/input/event4 (SEMICO USB Keyboard Consumer Control)
+2026-03-28T02:22:49.384240+00:00 lloyddesk systemd-logind[1767]: Watching system buttons on /dev/input/event5 (SEMICO USB Keyboard System Control)
+2026-03-28T02:22:49.384322+00:00 lloyddesk polkitd[1748]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T02:22:49.384326+00:00 lloyddesk polkitd[1748]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T02:22:49.384328+00:00 lloyddesk polkitd[1748]: Finished loading, compiling and executing 16 rules
+2026-03-28T02:22:49.384331+00:00 lloyddesk polkitd[1748]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-03-28T02:23:00.077606+00:00 lloyddesk login[2214]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:23:00.077642+00:00 lloyddesk login[2214]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:23:02.773451+00:00 lloyddesk login[2214]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=lloyd
+2026-03-28T02:23:05.905357+00:00 lloyddesk login[2214]: FAILED LOGIN (1) on '/dev/tty1' FOR 'lloyd', Authentication failure
+2026-03-28T02:23:15.334752+00:00 lloyddesk login[2214]: FAILED LOGIN (2) on '/dev/tty1' FOR 'lloyd', Authentication failure
+2026-03-28T02:22:49.390943+00:00 lloyddesk systemd-logind[1764]: New seat seat0.
+2026-03-28T02:22:49.390973+00:00 lloyddesk systemd-logind[1764]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-03-28T02:22:49.390975+00:00 lloyddesk systemd-logind[1764]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-03-28T02:22:49.390978+00:00 lloyddesk systemd-logind[1764]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2026-03-28T02:22:49.390980+00:00 lloyddesk systemd-logind[1764]: Watching system buttons on /dev/input/event3 (SEMICO USB Keyboard)
+2026-03-28T02:22:49.390981+00:00 lloyddesk systemd-logind[1764]: Watching system buttons on /dev/input/event4 (SEMICO USB Keyboard Consumer Control)
+2026-03-28T02:22:49.390983+00:00 lloyddesk systemd-logind[1764]: Watching system buttons on /dev/input/event5 (SEMICO USB Keyboard System Control)
+2026-03-28T02:22:49.391002+00:00 lloyddesk polkitd[1745]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T02:22:49.391008+00:00 lloyddesk polkitd[1745]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T02:22:49.391013+00:00 lloyddesk polkitd[1745]: Finished loading, compiling and executing 16 rules
+2026-03-28T02:22:49.391017+00:00 lloyddesk polkitd[1745]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-03-28T02:23:16.732233+00:00 lloyddesk login[2215]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:23:16.732310+00:00 lloyddesk login[2215]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:23:19.743689+00:00 lloyddesk login[2215]: pam_unix(login:auth): check pass; user unknown
+2026-03-28T02:23:19.743734+00:00 lloyddesk login[2215]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2026-03-28T02:23:22.672434+00:00 lloyddesk login[2215]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+2026-03-28T02:23:31.127690+00:00 lloyddesk login[2215]: pam_unix(login:auth): check pass; user unknown
+2026-03-28T02:23:35.283379+00:00 lloyddesk login[2215]: FAILED LOGIN (2) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+2026-03-28T02:23:47.391664+00:00 lloyddesk login[2215]: pam_unix(login:auth): check pass; user unknown
+2026-03-28T02:23:47.391700+00:00 lloyddesk login[2215]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2026-03-28T02:23:50.222758+00:00 lloyddesk login[2215]: FAILED LOGIN (3) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+2026-03-28T02:24:05.295524+00:00 lloyddesk agetty[2706]: tty6: invalid character 0x1b in login name
+2026-03-28T02:25:41.625069+00:00 lloyddesk login[2700]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:25:41.625212+00:00 lloyddesk login[2700]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:25:57.199775+00:00 lloyddesk login[2700]: pam_unix(login:auth): check pass; user unknown
+2026-03-28T02:25:57.199812+00:00 lloyddesk login[2700]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty2 ruser= rhost= 
+2026-03-28T02:26:00.979118+00:00 lloyddesk login[2700]: FAILED LOGIN (1) on '/dev/tty2' FOR 'UNKNOWN', Authentication failure
+2026-03-28T02:26:21.575680+00:00 lloyddesk login[2700]: pam_unix(login:auth): check pass; user unknown
+2026-03-28T02:26:24.263943+00:00 lloyddesk login[2700]: FAILED LOGIN (2) on '/dev/tty2' FOR 'UNKNOWN', Authentication failure
+2026-03-28T02:26:33.371805+00:00 lloyddesk login[2700]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=lloyd
+2026-03-28T02:26:36.006591+00:00 lloyddesk login[2700]: FAILED LOGIN (3) on '/dev/tty2' FOR 'lloyd', Authentication failure
+2026-03-28T02:27:06.425016+00:00 lloyddesk login[2713]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:27:06.425143+00:00 lloyddesk login[2713]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:27:09.559721+00:00 lloyddesk login[2713]: pam_unix(login:auth): check pass; user unknown
+2026-03-28T02:27:09.559758+00:00 lloyddesk login[2713]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty2 ruser= rhost= 
+2026-03-28T02:27:12.338505+00:00 lloyddesk login[2713]: FAILED LOGIN (1) on '/dev/tty2' FOR 'UNKNOWN', Authentication failure
+2026-03-28T02:27:17.243880+00:00 lloyddesk login[2713]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=lloyd
+2026-03-28T02:27:19.758854+00:00 lloyddesk login[2713]: FAILED LOGIN (2) on '/dev/tty2' FOR 'lloyd', Authentication failure
+2026-03-28T02:28:17.479602+00:00 lloyddesk agetty[2747]: tty2: invalid character 0x1b in login name
+2026-03-28T02:28:32.352940+00:00 lloyddesk login[2711]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:28:32.352996+00:00 lloyddesk login[2711]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:28:35.623782+00:00 lloyddesk login[2711]: pam_unix(login:auth): check pass; user unknown
+2026-03-28T02:28:35.623822+00:00 lloyddesk login[2711]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2026-03-28T02:28:38.613131+00:00 lloyddesk login[2711]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+2026-03-28T02:28:48.184857+00:00 lloyddesk login[2753]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:28:48.184900+00:00 lloyddesk login[2753]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:28:52.919739+00:00 lloyddesk login[2711]: pam_unix(login:auth): check pass; user unknown
+2026-03-28T02:28:56.646484+00:00 lloyddesk login[2711]: FAILED LOGIN (2) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+2026-03-28T02:31:23.945082+00:00 lloyddesk login[2758]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:31:23.945237+00:00 lloyddesk login[2758]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:31:25.711814+00:00 lloyddesk login[2758]: pam_unix(login:auth): check pass; user unknown
+2026-03-28T02:31:25.711851+00:00 lloyddesk login[2758]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2026-03-28T02:31:29.416015+00:00 lloyddesk login[2758]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+2026-03-28T02:32:16.379233+00:00 lloyddesk login[2758]: pam_unix(login:session): session opened for user lloyd(uid=1000) by LOGIN(uid=0)
+2026-03-28T02:32:16.385062+00:00 lloyddesk systemd-logind[1764]: New session 1 of user lloyd.
+2026-03-28T02:32:16.424933+00:00 lloyddesk (systemd): pam_unix(systemd-user:session): session opened for user lloyd(uid=1000) by lloyd(uid=0)
+2026-03-28T02:32:42.123094+00:00 lloyddesk sudo:    lloyd : TTY=tty1 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit
+2026-03-28T02:32:42.123511+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:32:47.839858+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:32:56.432964+00:00 lloyddesk login[2760]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T02:32:56.433023+00:00 lloyddesk login[2760]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T02:32:58.651974+00:00 lloyddesk login[2760]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=lloyd
+2026-03-28T02:33:02.009237+00:00 lloyddesk login[2760]: FAILED LOGIN (1) on '/dev/tty2' FOR 'lloyd', Authentication failure
+2026-03-28T02:33:14.964312+00:00 lloyddesk login[2760]: pam_unix(login:session): session opened for user lloyd(uid=1000) by LOGIN(uid=0)
+2026-03-28T02:33:14.966243+00:00 lloyddesk systemd-logind[1764]: New session 3 of user lloyd.
+2026-03-28T02:33:40.035164+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt full-upgrade
+2026-03-28T02:33:40.035613+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:33:40.551882+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:33:44.323022+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt
+2026-03-28T02:33:44.323507+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:33:44.326283+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:33:48.626720+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install
+2026-03-28T02:33:48.627014+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:33:49.190738+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:34:00.259002+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit
+2026-03-28T02:34:00.259450+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:34:04.838041+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:34:20.691234+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit --checkall
+2026-03-28T02:34:20.691670+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:34:20.699833+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:34:24.803111+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit -checkall
+2026-03-28T02:34:24.803564+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:34:24.813537+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:34:30.043048+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit -x
+2026-03-28T02:34:30.043495+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:34:47.673849+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:36:10.875285+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install rkhunter
+2026-03-28T02:36:10.875747+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:36:11.442192+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:36:20.107450+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter -v
+2026-03-28T02:36:20.107838+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:36:20.147570+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:36:26.459364+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter -version
+2026-03-28T02:36:26.459733+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:36:26.491225+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:36:32.595480+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter -help
+2026-03-28T02:36:32.595948+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:36:32.628361+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:36:35.715355+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --help
+2026-03-28T02:36:35.715753+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:36:35.793511+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:36:48.307560+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter -C
+2026-03-28T02:36:48.307889+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:36:49.025989+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:37:05.795420+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter -C
+2026-03-28T02:37:05.795784+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:37:06.503610+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:37:08.091465+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter -C
+2026-03-28T02:37:08.091893+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:37:08.799127+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T02:37:19.411569+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter -C
+2026-03-28T02:37:19.411985+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T02:37:20.120188+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T14:21:41.614543+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --cronjob
+2026-03-28T14:21:41.614818+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T14:21:42.948644+00:00 lloyddesk rkhunter: Rootkit hunter check started (version 1.4.6)
+2026-03-28T14:22:09.835205+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T14:22:16.126687+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt rkhunter
+2026-03-28T14:22:16.126971+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T14:22:16.130309+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T14:22:22.358327+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter -c
+2026-03-28T14:22:22.358734+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T14:22:23.676481+00:00 lloyddesk rkhunter: Rootkit hunter check started (version 1.4.6)
+2026-03-28T14:23:41.215076+00:00 lloyddesk rkhunter: Scanning took 1 minute and 18 seconds
+2026-03-28T14:23:41.216039+00:00 lloyddesk rkhunter: Please inspect this machine, because it may be infected.
+2026-03-28T14:23:41.225997+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T14:24:48.325627+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --update
+2026-03-28T14:24:48.325937+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T14:24:48.744583+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T14:25:03.549408+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --propupd
+2026-03-28T14:25:03.549790+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T14:25:07.939052+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T14:25:14.493391+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --update
+2026-03-28T14:25:14.493785+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T14:25:14.911487+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T14:26:39.276228+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/nano /etc/rkhunter.conf
+2026-03-28T14:26:39.276677+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:05:35.785775+00:00 lloyddesk dbus-daemon[1737]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-28T15:14:18.973932+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:14:33.360652+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter -C
+2026-03-28T15:14:33.360924+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:14:34.255934+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:15:15.752142+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --help
+2026-03-28T15:15:15.752512+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:15:15.831184+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:15:43.991761+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --update
+2026-03-28T15:15:43.992103+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:15:46.339691+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:16:37.655302+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --propupd
+2026-03-28T15:16:37.655796+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:16:49.645190+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:17:18.695113+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --check --rwo
+2026-03-28T15:17:18.706114+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:17:19.311072+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:17:55.134511+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/nano /etc/rkhunter.conf
+2026-03-28T15:17:55.134974+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:25:56.150588+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:26:00.905289+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --propupd
+2026-03-28T15:26:00.905641+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:26:12.551938+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:27:49.727967+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install debsums
+2026-03-28T15:27:49.728320+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:27:55.165378+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:27:57.495757+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/debsums -s
+2026-03-28T15:27:57.496140+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:28:14.414041+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:31:16.844347+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --check --enable all --fast --skip-keypress --rwo --pkgmgr DPKG --hash SHA256 --scanrootkitmode THOROUGH
+2026-03-28T15:31:16.858286+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:31:16.876596+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:32:20.698940+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --check --enable all --fast --skip-keypress --rwo --pkgmgr DPKG --hash SHA256 --scanrootkitmode THOROUGH
+2026-03-28T15:32:20.699372+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:32:20.731072+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:32:29.170804+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --check --enable all --skip-keypress --rwo --pkgmgr DPKG --hash SHA256 --scanrootkitmode THOROUGH
+2026-03-28T15:32:29.171134+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:32:29.203417+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:32:33.850729+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter --check --enable all --skip-keypress --rwo --pkgmgr DPKG --hash SHA256
+2026-03-28T15:32:33.851109+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:40:51.340893+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:44:11.830579+00:00 lloyddesk sudo:    lloyd : TTY=tty2 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2026-03-28T15:44:11.830982+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:49:21.786521+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /var/log/rkhunter.log.2026-03-28_15:40:51 /home/lloyd/rootkit_report.log
+2026-03-28T15:49:21.797571+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:49:21.797601+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:49:50.897755+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chown lloyd:lloyd /home/lloyd/rootkit_report.log
+2026-03-28T15:49:50.898062+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:49:50.899105+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:51:09.184837+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/mkdir -p /mnt/usb
+2026-03-28T15:51:09.185180+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:51:09.186507+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:51:45.904367+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/mount /dev/sda /mnt/usb
+2026-03-28T15:51:45.904715+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:51:45.977753+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:52:14.703978+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/mount /dev/sda2 /mnt/usb
+2026-03-28T15:52:14.704295+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:52:14.769698+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:52:56.167367+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /home/lloyd/rootkit_report.log /mnt/usb/
+2026-03-28T15:52:56.167628+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:52:56.169037+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:53:16.422905+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/umount /mnt/usb
+2026-03-28T15:53:16.423217+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:53:16.479580+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:54:31.661400+00:00 lloyddesk systemd-logind[1764]: The system will reboot now!
+2026-03-28T15:54:31.673560+00:00 lloyddesk systemd-logind[1764]: System is rebooting.
+2026-03-28T15:54:31.684976+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session closed for user root
+2026-03-28T15:55:09.693831+00:00 lloyddesk systemd-logind[1766]: New seat seat0.
+2026-03-28T15:55:09.693833+00:00 lloyddesk systemd-logind[1766]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-03-28T15:55:09.693836+00:00 lloyddesk systemd-logind[1766]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-03-28T15:55:09.693841+00:00 lloyddesk systemd-logind[1766]: Watching system buttons on /dev/input/event0 (Sleep Button)
+2026-03-28T15:55:09.693845+00:00 lloyddesk systemd-logind[1766]: Watching system buttons on /dev/input/event3 (SEMICO USB Keyboard)
+2026-03-28T15:55:09.693850+00:00 lloyddesk systemd-logind[1766]: Watching system buttons on /dev/input/event4 (SEMICO USB Keyboard Consumer Control)
+2026-03-28T15:55:09.693853+00:00 lloyddesk systemd-logind[1766]: Watching system buttons on /dev/input/event5 (SEMICO USB Keyboard System Control)
+2026-03-28T15:55:09.693976+00:00 lloyddesk polkitd[1749]: Loading rules from directory /etc/polkit-1/rules.d
+2026-03-28T15:55:09.693979+00:00 lloyddesk polkitd[1749]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-03-28T15:55:09.693984+00:00 lloyddesk polkitd[1749]: Finished loading, compiling and executing 16 rules
+2026-03-28T15:55:09.693991+00:00 lloyddesk polkitd[1749]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-03-28T15:55:52.204029+00:00 lloyddesk login[2223]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-03-28T15:55:52.204125+00:00 lloyddesk login[2223]: PAM adding faulty module: pam_lastlog.so
+2026-03-28T15:55:54.189424+00:00 lloyddesk login[2223]: pam_unix(login:session): session opened for user lloyd(uid=1000) by lloyd(uid=0)
+2026-03-28T15:55:54.195006+00:00 lloyddesk systemd-logind[1766]: New session 1 of user lloyd.
+2026-03-28T15:55:54.226989+00:00 lloyddesk (systemd): pam_unix(systemd-user:session): session opened for user lloyd(uid=1000) by lloyd(uid=0)
+2026-03-28T15:55:59.802897+00:00 lloyddesk sudo:    lloyd : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2026-03-28T15:55:59.803285+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:56:21.050386+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl set-default graphical.target
+2026-03-28T15:56:21.050659+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:56:21.236367+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:56:52.491053+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl isolate graphical.target
+2026-03-28T15:56:52.491389+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:56:52.541024+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:57:12.426861+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl start gdm
+2026-03-28T15:57:12.427118+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:57:12.430665+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:57:21.458710+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install gdm
+2026-03-28T15:57:21.459004+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:57:21.818489+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:57:28.123104+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install gdm.service
+2026-03-28T15:57:28.123431+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:57:28.462752+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:57:38.347115+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-cache gdm*
+2026-03-28T15:57:38.347440+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:57:38.358682+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:57:49.242925+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-cache gdm*
+2026-03-28T15:57:49.243197+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:57:49.246094+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:57:55.474894+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt search gdm*
+2026-03-28T15:57:55.475204+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:57:57.666881+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:58:04.811072+00:00 lloyddesk sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install gdm*
+2026-03-28T15:58:04.811364+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T15:58:29.284728+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session closed for user root
+2026-03-28T15:58:29.301899+00:00 lloyddesk systemd-logind[1766]: Session 1 logged out. Waiting for processes to exit.
+2026-03-28T15:58:30.295689+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T15:58:30.309804+00:00 lloyddesk systemd-logind[1766]: Removed session 1.
+2026-03-28T15:58:30.479953+00:00 lloyddesk gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-03-28T15:58:30.483485+00:00 lloyddesk systemd-logind[1766]: New session c1 of user gdm.
+2026-03-28T15:58:30.507959+00:00 lloyddesk (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-03-28T15:58:31.582276+00:00 lloyddesk polkitd[1749]: Registered Authentication Agent for unix-session:c1 (system bus name :1.56 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-03-28T15:58:40.405050+00:00 lloyddesk (sd-pam): pam_unix(systemd-user:session): session closed for user lloyd
+2026-03-28T15:58:41.050917+00:00 lloyddesk gdm-password]: gkr-pam: unable to locate daemon control file
+2026-03-28T15:58:41.050969+00:00 lloyddesk gdm-password]: gkr-pam: stashed password to try later in open session
+2026-03-28T15:58:41.074207+00:00 lloyddesk gdm-password]: pam_unix(gdm-password:session): session opened for user lloyd(uid=1000) by lloyd(uid=0)
+2026-03-28T15:58:41.087780+00:00 lloyddesk systemd-logind[1766]: New session 4 of user lloyd.
+2026-03-28T15:58:41.097960+00:00 lloyddesk (systemd): pam_unix(systemd-user:session): session opened for user lloyd(uid=1000) by lloyd(uid=0)
+2026-03-28T15:58:41.231296+00:00 lloyddesk gdm-password]: gkr-pam: unlocked login keyring
+2026-03-28T15:58:41.635758+00:00 lloyddesk gnome-keyring-daemon[4546]: The Secret Service was already initialized
+2026-03-28T15:58:41.635994+00:00 lloyddesk gnome-keyring-daemon[4719]: discover_other_daemon: 1
+2026-03-28T15:58:41.637077+00:00 lloyddesk gnome-keyring-daemon[4546]: The PKCS#11 component was already initialized
+2026-03-28T15:58:41.637283+00:00 lloyddesk gnome-keyring-daemon[4720]: discover_other_daemon: 1
+2026-03-28T15:58:41.637580+00:00 lloyddesk gnome-keyring-daemon[4722]: discover_other_daemon: 1
+2026-03-28T15:58:42.386803+00:00 lloyddesk polkitd[1749]: Registered Authentication Agent for unix-session:4 (system bus name :1.91 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8)
+2026-03-28T15:58:42.869620+00:00 lloyddesk gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-03-28T15:58:42.881672+00:00 lloyddesk systemd-logind[1766]: Session c1 logged out. Waiting for processes to exit.
+2026-03-28T15:58:42.893639+00:00 lloyddesk polkitd[1749]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.56, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-03-28T15:58:42.897097+00:00 lloyddesk systemd-logind[1766]: Removed session c1.
+2026-03-28T15:58:53.160053+00:00 lloyddesk (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-03-28T15:59:24.052338+00:00 lloyddesk dbus-daemon[1742]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-03-28T15:59:44.734071+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T15:59:44.734664+00:00 lloyddesk pkexec[5486]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T16:00:55.831258+00:00 lloyddesk sudo:    lloyd : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2026-03-28T16:00:55.831521+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:01:01.992093+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install files
+2026-03-28T16:01:01.992345+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:01:02.299688+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:02:12.911289+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt full-upgrade
+2026-03-28T16:02:12.911570+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:02:13.339406+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:02:37.679663+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt update
+2026-03-28T16:02:37.679861+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:02:49.416660+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:02:49.421093+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install mc -y
+2026-03-28T16:02:49.421555+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:02:53.266771+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:02:57.039252+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt update
+2026-03-28T16:02:57.039531+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:02:58.307002+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:02:58.311421+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install mc -y
+2026-03-28T16:02:58.311733+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:02:58.865135+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:03:10.855645+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt update
+2026-03-28T16:03:10.856051+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:03:12.272914+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:03:12.277264+00:00 lloyddesk sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt full-upgrade mc -y
+2026-03-28T16:03:12.277568+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:03:12.733655+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:04:45.278981+00:00 lloyddesk sudo:    lloyd : TTY=pts/3 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install files
+2026-03-28T16:04:45.279219+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:04:45.565470+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:04:59.830905+00:00 lloyddesk sudo:    lloyd : TTY=pts/3 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install file
+2026-03-28T16:04:59.831408+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:05:00.373697+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:05:43.636831+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:05:43.637354+00:00 lloyddesk pkexec[8987]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T16:05:43.670781+00:00 lloyddesk sudo:    lloyd : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2026-03-28T16:05:43.671062+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:05:54.119622+00:00 lloyddesk sudo:     root : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/chkrootkit
+2026-03-28T16:05:54.119859+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:05:59.753581+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:06:09.215668+00:00 lloyddesk sudo:     root : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rkhunter -c
+2026-03-28T16:06:09.215931+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:06:58.199915+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install nautilus
+2026-03-28T16:06:58.200336+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:07:04.512848+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:08:44.072853+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:08:44.073595+00:00 lloyddesk pkexec[69444]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T16:13:36.692929+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt install chkrootkit
+2026-03-28T16:13:36.703788+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:13:37.267365+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:13:48.933275+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit update
+2026-03-28T16:13:48.933714+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:13:48.954146+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:13:52.220999+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit -update
+2026-03-28T16:13:52.221466+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:13:52.223573+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:14:31.726753+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit -r DIR /
+2026-03-28T16:14:31.727041+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:14:31.747574+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:14:40.110822+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit -r DIR: /bin /bin.usr-is-merged /boot /cdrom /dev /etc /home /lib /lib64 /lib.usr-is-merged /lost+found /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /swap.img /sys /tmp /usr /var
+2026-03-28T16:14:40.111210+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:14:40.131899+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:14:46.478745+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit -r DIR: /ubunuto/
+2026-03-28T16:14:46.479015+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:14:46.499237+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:14:51.166905+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit -r DIR /ubunuto/
+2026-03-28T16:14:51.167192+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:14:51.187956+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:14:54.142908+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit -r DIR /ubunuto
+2026-03-28T16:14:54.143192+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:14:54.163914+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:15:04.879521+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit -r /
+2026-03-28T16:15:04.879802+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:15:05.628803+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:15:43.160642+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/sbin/chkrootkit -r /bin /bin.usr-is-merged /boot /cdrom /dev /etc /home /lib /lib64 /lib.usr-is-merged /lost+found /media /mnt /opt /proc /root /run /sbin /sbin.usr-is-merged /snap /srv /swap.img /sys /tmp /usr /var -checkall
+2026-03-28T16:15:43.171820+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:15:43.181693+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:16:06.952888+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt remove chkrootkit
+2026-03-28T16:16:06.953201+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:16:11.214582+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:16:18.665217+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/home/lloyd ; USER=root ; COMMAND=/usr/bin/apt purge chkrootkit
+2026-03-28T16:16:18.665783+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:16:22.800538+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:17:43.794534+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:17:43.795037+00:00 lloyddesk pkexec[241531]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T16:17:52.947726+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt update
+2026-03-28T16:17:52.948099+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:17:55.457617+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:17:58.314786+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt update
+2026-03-28T16:17:58.315067+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:17:59.635085+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:18:14.170827+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install chkrootkit -y
+2026-03-28T16:18:14.171078+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:18:17.887619+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:19:37.972535+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install gnome-softwaare
+2026-03-28T16:19:37.972981+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:19:38.303800+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:19:45.908213+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt search gnome-softwaare
+2026-03-28T16:19:45.908654+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:19:46.521662+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:19:55.892361+00:00 lloyddesk sudo:    lloyd : TTY=pts/6 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt install gnome*
+2026-03-28T16:19:55.892742+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:20:43.772441+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:20:43.778677+00:00 lloyddesk pkexec[270198]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T16:23:06.177257+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:28:40.022949+00:00 lloyddesk sudo:     root : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/cp /var/log /home/lloyd/
+2026-03-28T16:28:40.023299+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:28:40.024787+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:28:56.551664+00:00 lloyddesk sudo:     root : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/cp /var/log/ /home/lloyd/
+2026-03-28T16:28:56.552018+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:28:56.553816+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:31:39.154722+00:00 lloyddesk sudo: pam_unix(sudo-i:auth): authentication failure; logname=lloyd uid=1000 euid=0 tty=/dev/pts/5 ruser=lloyd rhost=  user=lloyd
+2026-03-28T16:31:43.819236+00:00 lloyddesk sudo:    lloyd : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2026-03-28T16:31:43.819601+00:00 lloyddesk sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:32:43.331080+00:00 lloyddesk sudo:     root : TTY=pts/8 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/sync -a/var/log/ /home/lloyd/logs1627/
+2026-03-28T16:32:43.331316+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:32:43.340367+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:32:48.986416+00:00 lloyddesk sudo:     root : TTY=pts/8 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/sync -a /var/log/ /home/lloyd/logs1627/
+2026-03-28T16:32:48.986642+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:32:48.987968+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:33:18.306838+00:00 lloyddesk sudo:     root : TTY=pts/8 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /var/log/ /home/lloyd/logs1627/
+2026-03-28T16:33:18.307073+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:33:18.308565+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:34:22.698587+00:00 lloyddesk sudo:     root : TTY=pts/8 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /var/log/ /home/lloyd/logs1627/
+2026-03-28T16:34:22.698867+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:34:22.700507+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:35:41.321831+00:00 lloyddesk sudo:     root : TTY=pts/8 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/mkdir -p /home/lloyd/logs1627
+2026-03-28T16:35:41.322016+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:35:41.323514+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:35:41.327712+00:00 lloyddesk sudo:     root : TTY=pts/8 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chown lloyd:lloyd /home/lloyd/logs1627
+2026-03-28T16:35:41.327942+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:35:41.329106+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:35:43.649035+00:00 lloyddesk pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lloyd(uid=1000)
+2026-03-28T16:35:43.649748+00:00 lloyddesk pkexec[298319]: lloyd: Executing command [USER=root] [TTY=unknown] [CWD=/home/lloyd] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-03-28T16:36:12.849313+00:00 lloyddesk sudo:     root : TTY=pts/8 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp -a /var/log/./home/lloyd/logs1627/
+2026-03-28T16:36:12.849658+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:36:12.851185+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:37:44.712708+00:00 lloyddesk sudo:     root : TTY=pts/8 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp -a /var/log/./home/lloyd/logs1627/
+2026-03-28T16:37:44.712943+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:37:44.714634+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:39:31.712431+00:00 lloyddesk sudo:     root : TTY=pts/8 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/mkdir -p /home/lloyd/logs1627
+2026-03-28T16:39:31.712703+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:39:31.714026+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:41:20.960069+00:00 lloyddesk sudo:     root : TTY=pts/8 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp -a /vasr/log/. /home/lloyd/logs1627/
+2026-03-28T16:41:20.960321+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)
+2026-03-28T16:41:20.961813+00:00 lloyddesk sudo: pam_unix(sudo:session): session closed for user root
+2026-03-28T16:41:26.392047+00:00 lloyddesk sudo:     root : TTY=pts/8 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp -a /var/log/. /home/lloyd/logs1627/
+2026-03-28T16:41:26.392351+00:00 lloyddesk sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lloyd(uid=0)

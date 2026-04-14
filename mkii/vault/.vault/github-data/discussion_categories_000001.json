@@ -1,0 +1,50 @@
+[
+  {
+    "type": "discussion_category",
+    "url": "https://github.com/Smooth511/Claude-MKII/discussion_categories/Announcements",
+    "repository": "https://github.com/Smooth511/Claude-MKII",
+    "name": "Announcements",
+    "emoji": ":mega:",
+    "description": "Updates from maintainers"
+  },
+  {
+    "type": "discussion_category",
+    "url": "https://github.com/Smooth511/Claude-MKII/discussion_categories/General",
+    "repository": "https://github.com/Smooth511/Claude-MKII",
+    "name": "General",
+    "emoji": ":speech_balloon:",
+    "description": "Chat about anything and everything here"
+  },
+  {
+    "type": "discussion_category",
+    "url": "https://github.com/Smooth511/Claude-MKII/discussion_categories/Q%26A",
+    "repository": "https://github.com/Smooth511/Claude-MKII",
+    "name": "Q&A",
+    "emoji": ":pray:",
+    "description": "Ask the community for help"
+  },
+  {
+    "type": "discussion_category",
+    "url": "https://github.com/Smooth511/Claude-MKII/discussion_categories/Ideas",
+    "repository": "https://github.com/Smooth511/Claude-MKII",
+    "name": "Ideas",
+    "emoji": ":bulb:",
+    "description": "Share ideas for new features"
+  },
+  {
+    "type": "discussion_category",
+    "url": "https://github.com/Smooth511/Claude-MKII/discussion_categories/Show%20and%20tell",
+    "repository": "https://github.com/Smooth511/Claude-MKII",
+    "name": "Show and tell",
+    "emoji": ":raised_hands:",
+    "description": "Show off something you've made"
+  },
+  {
+    "type": "discussion_category",
+    "url": "https://github.com/Smooth511/Claude-MKII/discussion_categories/Polls",
+    "repository": "https://github.com/Smooth511/Claude-MKII",
+    "name": "Polls",
+    "emoji": ":ballot_box:",
+    "description": "Take a vote from the community"
+  }
+]

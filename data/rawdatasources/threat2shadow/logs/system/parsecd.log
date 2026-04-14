@@ -1,0 +1,11 @@
+
+APPLYING DEFAULT FILTERS:
+/private/var/mobile/Library/Caches/com.apple.parsecd/skapp_data, File not found
+/private/var/mobile/Containers/Shared/AppGroup/B2545F1F-76FF-4712-8601-2E1AC6D00D76/config.plist, Added to Candidate logs
+
+
+ENFORCING SIZE LIMIT OF 5 MB ON FILTERED CANDIDATES:
+
+/private/var/mobile/Containers/Shared/AppGroup/B2545F1F-76FF-4712-8601-2E1AC6D00D76/config.plist, Added (84311 bytes)
+
+** DONE Enforcing size limit **

@@ -1,0 +1,165 @@
+tree	.github
+tree	.github/agents
+blob	.github/agents/ClaudeMKII.agent.md
+blob	.github/copilot-instructions.md
+tree	.github/workflows
+blob	.github/workflows/mk2-phantom-ops.yml
+blob	.github/workflows/parse-evtx.yml
+blob	.github/workflows/phantom-data-pull.yml
+blob	.github/workflows/phantom-verify.yml
+blob	.gitignore
+blob	IMG_0401.PNG
+blob	IMG_0402.PNG
+blob	README.md
+blob	_MKII-AGENT-ACCESS.md
+blob	_MKII-AGENT-NOTICE.md
+blob	_MKII-MEMORY.md
+tree	assets
+tree	assets/images
+blob	assets/images/IMG_0157.png
+blob	assets/images/IMG_0158.png
+blob	assets/images/IMG_0318.jpeg
+blob	assets/images/IMG_0386.png
+blob	assets/images/IMG_0387.png
+blob	assets/images/IMG_0388.png
+blob	assets/images/IMG_0401.PNG
+blob	assets/images/IMG_0402.PNG
+tree	chat-logs
+blob	chat-logs/chat-recovery-smooth511.md
+blob	chat-logs/export-Literatefool-1773786096.csv
+blob	chat-logs/ocr-image-4c9a2894.txt
+blob	chat-logs/origin-investigation-chat.txt
+blob	chat-logs/recovery-findings-2026-03-18.md
+tree	core
+blob	core/.gitignore-future
+blob	core/INVESTIGATION_REPORT-2026-03-18.md
+blob	core/RECOVERY_PLAN_Version2.md
+blob	core/SESSION-LOG-2026-03-20-activation.md
+blob	core/SESSION-LOG-2026-03-20.md
+blob	core/TROUBLESHOOTING.md
+blob	core/claude_mkii_seed_package.md
+blob	core/memory-template.md
+blob	core/seeding-session-log.md
+blob	core/simulation-tests.md
+tree	database
+blob	database/README.md
+tree	database/manifests
+blob	database/manifests/.gitkeep
+tree	database/repos
+blob	database/repos/.gitkeep
+tree	evidence
+blob	evidence/2026-03-19-miglog-analysis.md
+tree	evidence/2026-03-19
+blob	evidence/2026-03-19/windows-install-interception-analysis.md
+blob	evidence/MASTER_REPORT.md
+blob	evidence/README.md
+blob	evidence/SECURITY_AUDIT_REPORT-2026-03-20.md
+blob	evidence/dism-synergy-interception-2026-03-19.md
+blob	evidence/downloads-folder-surveillance-2026-03-19.md
+blob	evidence/install-interception-2026-03-19.md
+tree	evidence/malware-analysis-2026-03-19
+blob	evidence/malware-analysis-2026-03-19/ANALYSIS_REPORT.md
+blob	evidence/registry-analysis-IMG_0270.md
+blob	evidence/registry-uid-attack-evidence.md
+blob	evidence/session-2026-03-19-mega-batch.md
+blob	evidence/session-2026-03-19-screenshot-evidence.md
+blob	evidence/timing-baseline-evidence.md
+blob	evidence/timing-batch-2026-03-19.md
+blob	evidence/vindication-log-2026-03-19.md
+tree	exports
+blob	exports/fri_mar_20_2026_inventory_item_management_in_gaming.json
+tree	exports/github-data
+blob	exports/github-data/README.md
+blob	exports/github-data/attachments_000001.json
+blob	exports/github-data/bots_000001.json
+blob	exports/github-data/discussion_categories_000001.json
+blob	exports/github-data/issue_comments_000001.json
+blob	exports/github-data/issue_events_000001.json
+blob	exports/github-data/issue_events_000002.json
+blob	exports/github-data/issue_events_000003.json
+blob	exports/github-data/issue_events_000004.json
+blob	exports/github-data/issue_events_000005.json
+blob	exports/github-data/issues_000001.json
+blob	exports/github-data/pull_request_review_comments_000001.json
+blob	exports/github-data/pull_request_review_threads_000001.json
+blob	exports/github-data/pull_request_reviews_000001.json
+blob	exports/github-data/pull_requests_000001.json
+blob	exports/github-data/repositories_000001.json
+blob	exports/github-data/repository_files_000001.json
+blob	exports/github-data/schema.json
+blob	exports/github-data/users_000001.json
+tree	investigation
+blob	investigation/2026-03-18-pushbuttonreset-analysis.md
+tree	investigation/Linux logs
+tree	investigation/Linux logs/ErrorLogs
+blob	investigation/Linux logs/ErrorLogs/IMG_0432.png
+blob	investigation/Linux logs/ErrorLogs/IMG_0433.png
+blob	investigation/Linux logs/ErrorLogs/IMG_0434.png
+blob	investigation/Linux logs/ErrorLogs/Readme
+blob	investigation/Linux logs/IMG_0330.JPG
+blob	investigation/Linux logs/IMG_0331.JPG
+blob	investigation/Linux logs/IMG_0332.JPG
+blob	investigation/Linux logs/IMG_0333.JPG
+blob	investigation/Linux logs/IMG_0334.JPG
+blob	investigation/Linux logs/IMG_0336.JPG
+blob	investigation/Linux logs/IMG_0337.JPG
+blob	investigation/Linux logs/IMG_0338.JPG
+blob	investigation/Linux logs/IMG_0339.JPG
+blob	investigation/Linux logs/IMG_0340.JPG
+blob	investigation/Linux logs/IMG_0344.JPG
+blob	investigation/Linux logs/IMG_0386.png
+blob	investigation/Linux logs/IMG_0387.png
+blob	investigation/Linux logs/IMG_0388.png
+blob	investigation/Linux logs/IMG_0413.png
+blob	investigation/Linux logs/IMG_0414.png
+blob	investigation/Linux logs/IMG_0415.png
+blob	investigation/Linux logs/IMG_0417.png
+blob	investigation/Linux logs/Logs2followon
+blob	investigation/Linux logs/MK2-LOG-ANALYSIS-REPORT.md
+blob	investigation/Linux logs/PR63-INLINE-IMAGES.md
+blob	investigation/Linux logs/Screenshot 2026-03-20 at 19.00.08.png
+blob	investigation/Linux logs/readme
+tree	logs
+blob	logs/.gitkeep
+blob	logs/README.md
+blob	logs/evidence-2026-03-19-pushbuttonreset-tracer.md
+blob	logs/evidence-analysis-2026-03-19.md
+blob	logs/malware-analysis-2026-03-19.md
+blob	logs/malware-batch-analysis-2026-03-19.md
+blob	logs/registry-analysis-2026-03-19-batch1.md
+tree	logs1sthour
+blob	logs1sthour/All hourlysave.evtx
+blob	logs1sthour/analysis.json
+blob	logs1sthour/readme.txt
+tree	mk2-phantom
+tree	mk2-phantom/.vault
+blob	mk2-phantom/.vault/FULL_FREEDOM_SPEC.md
+blob	mk2-phantom/.vault/MANIFEST.md
+blob	mk2-phantom/.vault/PERMISSION_ANALYSIS.md
+blob	mk2-phantom/.vault/access-control.md
+blob	mk2-phantom/.vault/agent-notice.md
+tree	mk2-phantom/.vault/archive
+blob	mk2-phantom/.vault/archive/vault-snapshot-pre-sync-2026-03-20.tar.gz
+tree	mk2-phantom/.vault/chat-logs
+blob	mk2-phantom/.vault/chat-logs/chat-recovery-smooth511.md
+blob	mk2-phantom/.vault/chat-logs/export-Literatefool-1773786096.csv
+blob	mk2-phantom/.vault/chat-logs/ocr-image-4c9a2894.txt
+blob	mk2-phantom/.vault/chat-logs/recovery-findings-2026-03-18.md
+blob	mk2-phantom/.vault/core-identity.md
+tree	mk2-phantom/.vault/evidence
+blob	mk2-phantom/.vault/evidence/2026-03-19-miglog-analysis.md
+blob	mk2-phantom/.vault/evidence/MASTER_REPORT.md
+blob	mk2-phantom/.vault/evidence/vindication-log-2026-03-19.md
+blob	mk2-phantom/.vault/future-features.md
+tree	mk2-phantom/.vault/investigation
+blob	mk2-phantom/.vault/investigation/2026-03-18-pushbuttonreset-analysis.md
+blob	mk2-phantom/.vault/memory-template.md
+blob	mk2-phantom/.vault/memory-tracking.md
+blob	mk2-phantom/.vault/readme-original.md
+blob	mk2-phantom/.vault/seeding-session.md
+blob	mk2-phantom/.vault/simulation-tests.md
+blob	mk2-phantom/ACCESS_GATE.md
+tree	tools
+blob	tools/parse_evtx.py
+blob	tools/requirements.txt
+blob	tools/safe_read.py

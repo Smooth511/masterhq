@@ -1,0 +1,23 @@
+{
+  "name": "mk2-bridge",
+  "version": "1.0.0",
+  "description": "Claude-MK2 JavaScript Bridge - V8 runtime for hard bridge capability",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "mk2-bridge": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "watch": "node --watch server.js",
+    "test": "node --test tests/"
+  },
+  "keywords": ["mcp", "bridge", "v8", "mk2"],
+  "author": "Smooth115",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {}
+}

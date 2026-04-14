@@ -1,0 +1,23 @@
+{
+  "eventInformation" : {
+    "assetSetName" : "com.apple.sequoia.asset",
+    "autoAssetEntries" : [
+      {
+        "assetSpecifier" : "com.apple.sequoia.asset.config",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.sequoia.asset.endpointer",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.sequoia.asset.lid",
+        "assetLockedInhibitsRemoval" : false
+      }
+    ],
+    "maxTargetOSVersion" : "26.4.9999",
+    "minTargetOSVersion" : "26.4",
+    "platformAssetVersion" : "1.0.295071122.13.203605,0"
+  },
+  "timestamp" : "2026-03-09T12:54:40.372Z"
+}

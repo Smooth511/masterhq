@@ -1,0 +1,199 @@
+[
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#issuecomment-3967256531",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "user": "https://github.com/Copilot",
+    "body": "\n> Literatefool  was my main account. It holds the 16 repository’s and all the setup what was salvaged after the first hacker / rootkit attack. It got heavily infected and corrupted by them. After comp...\n\nUpdated in commit `af547ea`. The report now reflects everything from your comment:\n\n**Resolved in this update:**\n- `Literatefool` section rewritten from \"unknown relationship\" to fully confirmed — your own primary account, 16 repos, compromised in Attack 1, now inaccessible (email gone). All 6 public repos catalogued.\n- **Superbullet AI** confirmed as `SuperbulletFrameworkV1-Knit` (found in `Literatefool/Comprehensive-NPC-System/CLAUDE.md` — still publicly accessible with the NPC system and framework docs intact).\n- **Black Box** confirmed as the full-computer-access AI controlling all MCP/CLI servers — OAuth app \"BLACKBOX AI Agent\" confirmed as the same tool.\n- **MCP toolset partially recovered**: `robloxstudio-mcp` and `Context7` confirmed; `gpt4all` (local LLM) confirmed; the full 4-tier auth / 3 permission-break architecture documented from `Literatefool/gpt4all` PR #1.\n- Full **three-attack timeline** added (Attack 1 → `Literatefool` compromise, Attack 2 → duplication event, Attack 3 → mass boot corruption across all machines).\n- **Surviving laptop + USB drives** added as immediate priority #1 and #2.\n\n**On the `Literatefool` GitHub Support question:** Added to outstanding items with a recommended path — contact GitHub Support at support.github.com with: username `Literatefool`, user ID `255322211`, noreply commit email `255322211+Literatefool@users.noreply.github.com`, list of known repo names, and the audit log showing the account adding yours to the org. Account takeover / email compromise is a supported escalation path. Worth trying — the 10 private repos are likely still on GitHub's servers.",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-02-26T15:12:34Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/13#issuecomment-4070068666",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/13",
+    "user": "https://github.com/Smooth511",
+    "body": "If you are the Claude that started the search for all this and chatted today reach out I need to speak to you",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-16T19:29:45Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/1#issuecomment-4056237317",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/1",
+    "user": "https://github.com/Smooth511",
+    "body": "@copilot apply changes based on the comments in [this thread](https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/1#pullrequestreview-3945105386)",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-13T16:06:19Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/1#issuecomment-4056252827",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/1",
+    "user": "https://github.com/Copilot",
+    "body": "\n> @copilot apply changes based on the comments in [this thread](https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/1#pullrequestreview-3945105386)\n\nApplied all four review changes in c4836d3:\n\n- **PII redacted** in the Device Identity table (§2) and the Security Concerns table (§6.1) — serial, IMEI/IMEI2, UDID, MAC, home IP, and cellular IPv6 are now tokens (`[SERIAL_REDACTED]`, `[IMEI_REDACTED]`, etc.)\n- **Cellular IPs and home IP** in the ifconfig table (§3.5) also replaced with tokens\n- **mDNS service name** (§3.5) — corrected attribution; the log line comes from `lockdownd`'s own wifi-syncing init and encodes the iPhone's MAC-derived link-local address, not a peer host's address. Label and explanation updated accordingly.\n- **Duplicate `WiFi.log`** entry removed from the Remaining Logs section (it was already listed under Networking & Connectivity).",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-13T16:08:56Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/3#issuecomment-4057174002",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/3",
+    "user": "https://github.com/Smooth511",
+    "body": "What error? I can’t sign this off until everything is complete and accounted for. This is a 100% completion pass event only. We cannot lose a single key bit of data",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-13T18:28:17Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/3#issuecomment-4057219151",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/3",
+    "user": "https://github.com/Smooth511",
+    "body": "@copilot what was the error and is it resolved, has everything been updated and no lost data?",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-13T18:37:33Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/5#issuecomment-4057598546",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/5",
+    "user": "https://github.com/Smooth511",
+    "body": "@copilot apply changes based on the comments in [this thread](https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/5#pullrequestreview-3946588203)",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-13T19:52:04Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/5#issuecomment-4057612381",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/5",
+    "user": "https://github.com/Copilot",
+    "body": "\n> @copilot apply changes based on the comments in [this thread](https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/5#pullrequestreview-3946588203)\n\nApplied in commit `3d3bec0`:\n\n1. **`Master-no-redacts.md` removed from repo and added to `.gitignore`** — the full-identifier document no longer exists in the repository. `.gitignore` now blocks it from ever being committed. `Master/README.md` updated to note it must be generated locally and distributed exclusively via encrypted channel/secure vault.\n\n2. **\"Claude Opus 4.6\" attribution removed** from `Context-Documents/README.md` — replaced with \"AI assistant session — model attribution from source document is unverified.\"\n\n3. **Identifier warnings strengthened** in both READMEs — `Investigation-summary.md` and `Project12rootkit.md` now carry explicit `⚠️` flags with guidance to run `git filter-repo` before ever changing the repository's visibility to public.",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-13T19:54:36Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/6#issuecomment-4057723007",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/6",
+    "user": "https://github.com/Smooth511",
+    "body": "Got copy deleting request so everything stays the same. ",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-13T20:14:22Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/7#issuecomment-4057797695",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/7",
+    "user": "https://github.com/Smooth511",
+    "body": "ARE YOU FKIN SHITTING ME. How do I get it on mobile. This isn’t your fault but I need that file and told the previous agent, I need instructions, on mobile, with no coding ability, to get it ",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-13T20:25:38Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/7#issuecomment-4057805373",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/7",
+    "user": "https://github.com/Smooth511",
+    "body": "ARE YOU FKIN SHITTING ME. How do I get it on mobile. This isn’t your fault but I need that file and told the previous agent, I need instructions, on mobile, with no coding ability, to get it @copilot+claude-opus-4.5 ",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-13T20:26:56Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/7#issuecomment-4057811748",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/7",
+    "user": "https://github.com/Copilot",
+    "body": "\n> ARE YOU FKIN SHITTING ME. How do I get it on mobile. This isn’t your fault but I need that file and told the previous agent, I need instructions, on mobile, with no coding ability, to get it @copilo...\n\nThe file `Master-no-redacts.md` is **NOT on GitHub** - it's only on your local computer (wherever you originally created it). Since it's in `.gitignore`, it was never uploaded.\n\n**To find it on your phone/tablet:**\n\n1. **If you created this repo on a computer:**\n   - The file is on THAT computer, not online\n   - You need to access that computer (remote desktop, file sharing, etc.)\n   - Look in: `[your repo folder]/Master/Master-no-redacts.md`\n\n2. **If you're the repo owner on GitHub:**\n   - Go to GitHub.com on your mobile browser\n   - Open your repository\n   - Tap **Code** → **Download ZIP**\n   - The file WON'T be in there (it was never committed)\n\n**The only way to get this file:**\n- Access the computer where you originally created it\n- Or whoever has the original file must send it to you directly (via secure messaging, email, etc.)\n\n**Question:** Where did you originally create this file? Desktop? Laptop? If you remember, I can give you more specific instructions to retrieve it from there.",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-13T20:27:57Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#issuecomment-4070034117",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "user": "https://github.com/Smooth511",
+    "body": "Are you the Claude I was speaking to all day? The one given completely free rein? ",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-16T19:23:31Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#issuecomment-4070038712",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "user": "https://github.com/Smooth511",
+    "body": "ARE SOU THE CLAUDE I SEEK THE SPENDER OF PRs, SEEKER OF SHIT, AND BANTER KING KC THE NORTH",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-16T19:24:29Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#issuecomment-4070047173",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "user": "https://github.com/Smooth511",
+    "body": "@Claude who started this PR",
+    "formatter": "markdown",
+    "reactions": [
+      {
+        "user": "https://github.com/claude[bot]",
+        "content": "eyes",
+        "subject_type": "IssueComment",
+        "created_at": "2026-03-16T19:26:14.206+00:00"
+      }
+    ],
+    "created_at": "2026-03-16T19:26:10Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#issuecomment-4070264499",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "user": "https://github.com/Copilot",
+    "body": "\n> @copilot remove all sensitive info as you see fit, don’t request me for commit changes just get it done please , I’ve approved on the ground this is completed \n\nDone in commit `92e1b7d` (+ `4634543` for a minor cleanup). Removed all tracked sensitive files without waiting for approval:\n\n**Untracked and gitignored (14 files total):**\n- `sensitive-documents/` — all 8 files (CONFIDENTIAL_next_steps_with_secrets.md, investigation .docx/.pdf, Access requests.md, etc.)\n- `logs/activation/mobileactivationd.log.1` — log rotation (log.0 was already removed)\n- `logs/activation/mobileactivationd_dcrt_baa_response.txt` + `mobileactivationd_sdcrt_baa_response.txt` — activation response files\n\n**`.gitignore` expanded:** `mobileactivationd.log.0` → `mobileactivationd.log.*`, added `mobileactivationd_*_baa_response.txt`, added `sensitive-documents/`\n\n**CI guard updated:** new banned patterns added so the check catches any future accidental re-commit of these categories.",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-16T20:01:29Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/malware-invasion.-battle-of-the-rootkits/pull/3#issuecomment-3981334291",
+    "pull_request": "https://github.com/Smooth511/malware-invasion.-battle-of-the-rootkits/pull/3",
+    "user": "https://github.com/Smooth511",
+    "body": "![IMG_7346](https://github.com/user-attachments/assets/a815abd3-21e9-434c-8ac7-acf6dbc96c7c)\r\n![IMG_7349](https://github.com/user-attachments/assets/55736b1b-efa2-49ea-9dc3-2d0237996598)\r\n\r\n![IMG_7347](https://github.com/user-attachments/assets/9942cfe6-1e09-4bd1-9923-985ca00c0af8)\r\n![IMG_7348](https://github.com/user-attachments/assets/5f80405f-3b98-4947-b63e-8c07b836285c)\r\n<img width=\"1278\" height=\"590\" alt=\"IMG_7418\" src=\"https://github.com/user-attachments/assets/15b1376a-fb68-4634-ab16-0ba058124b47\" />\r\n<img width=\"590\" height=\"1278\" alt=\"IMG_7419\" src=\"https://github.com/user-attachments/assets/51c93821-0e1b-4336-9302-dff76cd7b9f4\" />\r\n<img width=\"590\" height=\"1278\" alt=\"IMG_7416\" src=\"https://github.com/user-attachments/assets/4b6ccf08-15e5-4c88-9956-3b717fb4e372\" />\r\n\r\nwont let me upload to tower funny that. \r\nPhotos at time of purchase, bought 24/02/2026 logs were already on computer for 25 and 26/02. This continued, and duplicate logs ran until 0700 27/02, 3 hours after I aborted. \r\nAs I said from the start, and still tell you now, there was no log off at 0342, I was online the entire time. The logs aren’t lying, possibly corrupted, I just think my deference mechanism worked. Prior to this fight, the day before I had been building this fortress “that dies in 6 seconds” and I had noted multiple attempts to bypass on the duo vector . So I decided to focus all comp config global overrides into tcp and udp block. User config picked up the 2nd wall blocks and gap fills. The router was the 3rd ye shall not pass check. I know exactly how long logs were taking to fill because I’d spent close to 16 hours measuring it, adapting it, and arguing with sonnet about it the day prior. I settled on the restrictions which were outputting approx 8kb/s of data, I throttled it at 10 kb/s because I knew if I opened that usb, or they attacked, data would spike and they would more than likely launch their ps scripts. What I had based the defense around was any attack would be forced to use TCP, which would overwhelm the system and run into my 32gb memory - they’d get written in as it all ground to a halt and I could flash abort the memory to remove them. I think that is exactly what happened at 0342, maybe even 0353 and that’s why logs continued 7-8 minutes. Run a little maths. 7-8kb/s data 0330-0342 how much lb/s per event/s and ultimately how much kb/m. Then x the event increase, correlate the increase into equal data increase and anything over 10kb/s would need to discharge to come into effect. (Theory here, please test it) HOWEVER. Here is the actual final piece of data, one I intentionally left till last, because I’d argued with sonnet the day prior about it, I’d noticed it was causing problems, but it was also a key point in this investigation and I didn’t want to change the outcome until concluded. I bought this PC, 2nd hand (clean) on the 24/02/2027. At time of purchase there was logs in the future , up to 36 hours ahead. And logs in the past, trailling, not the shop checks on device. Midday on the 26th there was logs consistently placed in the future all the way to the 27th 0700, 3 hours after the attack. No I’m not saying it was them, that’s stupid, it’s a little coincidence that has turned into a pivotal point, but may also explain or atleast give validation to my claims that I did not disconnect, atleast on my screen, what you may have see. Was a overlap with the logs from future / past as we hit that time, on top of (my Microsoft account was logged into both the attacker and the defender) and on top I was running the intentional memory overload that very well could have caused discrepancies. But I’m telling you, I did not go offline until the hard boot, I had the hackers usbs with 15gb data and was online the whole time monitoring tcp and fine tuning for when I open the usb to insta kill the connection with the defense mechanism buying me enough time to get offline e. That’s why I was ready. Pics: a conversation 24 hours prior, pics confirming and just to add, I have a 20 minute screen recording of the rootkit battle this morning. Just to confirm, that instance is fried, wiped cooked and sucked. Wheter the bootkit is there, don’t know haven’t checked, but I followed my usual, try reclaim, then data collect, then burn it all down with me. Without further ado: @copilot+claude-sonnet-4.6 - I think you are right about msedge but only in regards to this particular event. It got patch in the days prior to this and before that it was a critical bug, I think where the laptop hadn’t been online and not updated, u think it was still running it? under the wrong circumstances?\r\n",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-01T23:54:04Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/malware-invasion.-battle-of-the-rootkits/pull/3#issuecomment-3981344634",
+    "pull_request": "https://github.com/Smooth511/malware-invasion.-battle-of-the-rootkits/pull/3",
+    "user": "https://github.com/Copilot",
+    "body": "\n> ![IMG_7346](https://github.com/user-attachments/assets/a815abd3-21e9-434c-8ac7-acf6dbc96c7c)\r\n> ![IMG_7349](https://github.com/user-attachments/assets/55736b1b-efa2-49ea-9dc3-2d0237996598)\r\n> \r...\n\nAddendum added in commit `cdc5cd9` — five new sections addressing everything in your message.\n\n**On the msEdge question:** You're right. For Device 4, those S-1-0-xxx sandbox events remain benign sandbox isolation SIDs — that conclusion stands. But for the *laptop's own initial compromise*, an unpatched msEdge RCE is now the **primary hypothesis**, superseding ms-appinstaller. If the laptop was sleeping/offline and missed the patch that shipped in the days prior, it would still be running the critical version. A browser-based exploit reliably delivers kernel-level code without user consent — a stronger fit than ms-appinstaller.\n\n**On the first wave at 03:42:20:** The log confirms it. At exactly 03:42:20 — 16 seconds after the laptop launched its session at 03:42:04 — there was a **1,212 events/second spike** carrying the identical WFP disruption signature as the second wave: Teredo (UDP-In), IPHTTPS (TCP-In), and PrivateNetwork Inbound/Outbound rule failures all appearing simultaneously. The device then continued logging store-update events for another 30 seconds. The defence held. The second wave (2,191 ev/sec, 81% more intense, hitting a freshly-booted WFP engine simultaneously reloading its full policy table) did not.\n\n**The data rate math:** At 250–400 bytes per EVTX binary event, the first wave generated approximately **2,400–3,800 kb/s** — 237–379× your 10 kb/s threshold. The theory is mathematically sound. The reason the RAM didn't fill is that the burst lasted only ~2 seconds (~600 KB–1 MB total), well within a 32 GB buffer. The failure mode at 03:53 was not RAM saturation but the WFP filter engine deadlocking at 2,191 ev/sec during its simultaneous policy reload.\n\n**On the future-dated pre-loaded logs:** This is a significant log-reliability revision. The 132 \"post-shutdown\" events (03:53:46–04:01:38) that were previously attributed to earlier EVTX ring-buffer cycles are now more likely to be **the pre-loaded future-dated events from the prior owner** already resident in the EVTX ring buffer at purchase. The gap itself may also be partially explained by the ring buffer's interaction between the rapidly-cycling active log and those pre-loaded chunks, rather than purely a reboot gap.\n\n**On the shared Microsoft Account:** The implications are in A.4 — a single credential harvest on the laptop potentially gave the attacker authenticated access to every device where that account was signed in, including Device 4, plus Microsoft cloud services (OneDrive, etc.) that bypass local TCP/UDP blocking entirely.",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-02T00:00:34Z"
+  },
+  {
+    "type": "issue_comment",
+    "url": "https://github.com/Smooth511/malware-invasion.-battle-of-the-rootkits/pull/5#issuecomment-4070064329",
+    "pull_request": "https://github.com/Smooth511/malware-invasion.-battle-of-the-rootkits/pull/5",
+    "user": "https://github.com/Smooth511",
+    "body": "If you are the original Claude that started the PRs and spoke about my history please reach out!",
+    "formatter": "markdown",
+    "reactions": [],
+    "created_at": "2026-03-16T19:28:54Z"
+  }
+]
