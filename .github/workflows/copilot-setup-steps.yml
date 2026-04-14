@@ -20,33 +20,76 @@ jobs:
     steps:
       - name: Inject MK2PK keys
         env:
+          # Primary key names (as documented in INSTALL.md)
           _PK1: ${{ secrets.MK2PK1 }}
           _PK2: ${{ secrets.MK2PK2 }}
-          _PHANTOM: ${{ secrets.MK2_PHANTOM_TOKEN }}
+          _PHANTOM_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+          # Alternative names the user might have used
+          _PHANTOM: ${{ secrets.MK2_PHANTOM }}
+          _PKX: ${{ secrets.MK2PKX }}
+          _PK: ${{ secrets.MK2PK }}
         run: |
-          # MK2PK key injection — both keys available as env vars
+          # MK2PK key injection — checks primary names first, falls back to alternatives
           LOADED=0
 
+          echo "========================================="
+          echo "  MK2PK KEY INJECTION DIAGNOSTIC"
+          echo "========================================="
+
+          # --- MK2PK1 (Smooth511) ---
           if [ -n "$_PK1" ]; then
             echo "MK2PK1=$_PK1" >> "$GITHUB_ENV"
             LOADED=$((LOADED + 1))
-            echo "MK2PK1 loaded"
+            echo "✅ MK2PK1 loaded (Smooth511)"
           else
-            echo "MK2PK1 not found in secrets"
+            echo "❌ MK2PK1 not found"
           fi
 
+          # --- MK2PK2 (Smooth115) ---
           if [ -n "$_PK2" ]; then
             echo "MK2PK2=$_PK2" >> "$GITHUB_ENV"
             LOADED=$((LOADED + 1))
-            echo "MK2PK2 loaded"
+            echo "✅ MK2PK2 loaded (Smooth115)"
           else
-            echo "MK2PK2 not found in secrets"
+            echo "❌ MK2PK2 not found"
           fi
 
-          # Legacy phantom token (if still set)
-          if [ -n "$_PHANTOM" ]; then
+          # --- MK2_PHANTOM_TOKEN (legacy) ---
+          if [ -n "$_PHANTOM_TOKEN" ]; then
+            echo "MK2_PHANTOM_TOKEN=$_PHANTOM_TOKEN" >> "$GITHUB_ENV"
+            echo "✅ MK2_PHANTOM_TOKEN loaded"
+          elif [ -n "$_PHANTOM" ]; then
+            # Fallback: user may have named it MK2_PHANTOM instead of MK2_PHANTOM_TOKEN
             echo "MK2_PHANTOM_TOKEN=$_PHANTOM" >> "$GITHUB_ENV"
-            echo "MK2_PHANTOM_TOKEN loaded"
+            echo "✅ MK2_PHANTOM loaded (as MK2_PHANTOM_TOKEN)"
           fi
 
-          echo "Keys loaded: $LOADED"
+          # --- Fallback: MK2PKX or MK2PK (if user created a single combined key) ---
+          if [ "$LOADED" -eq 0 ]; then
+            if [ -n "$_PKX" ]; then
+              echo "MK2PK1=$_PKX" >> "$GITHUB_ENV"
+              LOADED=$((LOADED + 1))
+              echo "⚠️  MK2PKX found — loaded as MK2PK1. Consider renaming to MK2PK1/MK2PK2 for dual-account setup."
+            elif [ -n "$_PK" ]; then
+              echo "MK2PK1=$_PK" >> "$GITHUB_ENV"
+              LOADED=$((LOADED + 1))
+              echo "⚠️  MK2PK found — loaded as MK2PK1. Consider renaming to MK2PK1/MK2PK2 for dual-account setup."
+            fi
+          fi
+
+          echo "========================================="
+          echo "  Keys loaded: $LOADED"
+          echo "========================================="
+
+          if [ "$LOADED" -eq 0 ]; then
+            echo ""
+            echo "⚠️  NO KEYS FOUND. Secrets must be added to THIS repo."
+            echo ""
+            echo "  Go to: github.com/${GITHUB_REPOSITORY}/settings/secrets/actions"
+            echo "  Click: New repository secret"
+            echo "  Add:   MK2PK1  (Smooth511 token)"
+            echo "  Add:   MK2PK2  (Smooth115 token)"
+            echo ""
+            echo "  Secrets are per-repo. Adding them elsewhere does NOT carry over."
+            echo ""
+          fi
