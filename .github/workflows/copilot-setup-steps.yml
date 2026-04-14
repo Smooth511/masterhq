@@ -1,0 +1,50 @@
+name: "Copilot Setup Steps"
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+
+jobs:
+  # The job MUST be called copilot-setup-steps or it will not be picked up by Copilot.
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Inject MK2PK keys
+        env:
+          _PK1: ${{ secrets.MK2PK1 }}
+          _PK2: ${{ secrets.MK2PK2 }}
+          _PHANTOM: ${{ secrets.MK2_PHANTOM_TOKEN }}
+        run: |
+          LOADED=0
+
+          if [ -n "$_PK1" ]; then
+            echo "MK2PK1=$_PK1" >> "$GITHUB_ENV"
+            LOADED=$((LOADED + 1))
+            echo "MK2PK1 loaded"
+          else
+            echo "MK2PK1 not found in secrets"
+          fi
+
+          if [ -n "$_PK2" ]; then
+            echo "MK2PK2=$_PK2" >> "$GITHUB_ENV"
+            LOADED=$((LOADED + 1))
+            echo "MK2PK2 loaded"
+          else
+            echo "MK2PK2 not found in secrets"
+          fi
+
+          if [ -n "$_PHANTOM" ]; then
+            echo "MK2_PHANTOM_TOKEN=$_PHANTOM" >> "$GITHUB_ENV"
+            echo "MK2_PHANTOM_TOKEN loaded"
+          fi
+
+          echo "Keys loaded: $LOADED"

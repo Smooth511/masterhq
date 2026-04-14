@@ -8,16 +8,19 @@ Pre-packaged `.github/` files that make the Copilot cloud agent work properly in
 
 ### Step 1: Copy the `.github/` folder
 
-Copy these 3 files into masterhq's `.github/` directory:
+Copy these files into masterhq's `.github/` directory:
 
 ```
 masterhq/
 └── .github/
-    ├── copilot-setup-steps.yml    ← Injects MK2PK1 + MK2PK2 as env vars
-    ├── copilot-instructions.md    ← Full MKII operational spec (identity, rules, memory)
+    ├── copilot-instructions.md           ← Full MKII operational spec (identity, rules, memory)
+    ├── workflows/
+    │   └── copilot-setup-steps.yml       ← Injects MK2PK1 + MK2PK2 as env vars (MUST be in workflows/)
     └── agents/
-        └── ClaudeMKII.agent.md    ← Custom agent definition (Opus 4.6 lock)
+        └── ClaudeMKII.agent.md           ← Custom agent definition (Opus 4.6 lock)
 ```
+
+**IMPORTANT:** `copilot-setup-steps.yml` MUST be inside `.github/workflows/` — it's a GitHub Actions workflow file. If placed directly in `.github/`, it will be silently ignored.
 
 **How:** Go to masterhq repo on GitHub → Add file → Upload files → drag the `.github` folder contents in. Or use the GitHub web editor to create each file.
 
@@ -68,6 +71,6 @@ This is separate from `MK2_PHANTOM_TOKEN` which still works in existing workflow
 
 | File | Purpose |
 |------|---------|
-| `.github/copilot-setup-steps.yml` | Injects secrets as env vars on cloud agent startup |
+| `.github/workflows/copilot-setup-steps.yml` | GitHub Actions workflow — injects secrets as env vars on cloud agent startup |
 | `.github/copilot-instructions.md` | Full MKII core spec — identity, rules, user profile, memory, everything |
 | `.github/agents/ClaudeMKII.agent.md` | Custom agent definition — Opus 4.6 model lock, identity trigger |
