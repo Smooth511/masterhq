@@ -24,6 +24,7 @@ jobs:
           _PK2: ${{ secrets.MK2PK2 }}
           _PHANTOM: ${{ secrets.MK2_PHANTOM_TOKEN }}
         run: |
+          # MK2PK key injection — both keys available as env vars
           LOADED=0
 
           if [ -n "$_PK1" ]; then
@@ -42,6 +43,7 @@ jobs:
             echo "MK2PK2 not found in secrets"
           fi
 
+          # Legacy phantom token (if still set)
           if [ -n "$_PHANTOM" ]; then
             echo "MK2_PHANTOM_TOKEN=$_PHANTOM" >> "$GITHUB_ENV"
             echo "MK2_PHANTOM_TOKEN loaded"
