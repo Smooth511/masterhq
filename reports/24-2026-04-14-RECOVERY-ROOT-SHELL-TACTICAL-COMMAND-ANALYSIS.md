@@ -664,6 +664,73 @@ Commands run during the session (67+ commands before session was terminated):
 | `/boot/efi/EFI/BOOT/fbx64.efi` | `8f57751703470403ff7377c26a90a810eba9f6db36f262ac6ad94d132ddc5a60` |
 | `/boot/efi/EFI/BOOT/mmx64.efi` | `d2fa8e52fddc99dad94a0009fee23cb2478c28373b777d50b2f784eb4e96f88e` (= ubuntu/mmx64.efi) |
 
+### 11.3a UEFI Firmware db Certificates (mokutil --export --db → DB-*.der)
+
+`mokutil --export --db` (Command 64) produced 7 DER certificate files. The previous Copilot agent reported "no output" — it wrote to files, not stdout. User subsequently ran `sha256sum DB-*.der` and `openssl x509` on each, then preserved originals to Ventoy USB with `cp -r DB-* /mount/sdb1 && sync && umount -l /mount/sdb1`.
+
+**Certificate Hashes:**
+
+| File | SHA256 |
+|------|--------|
+| DB-0001.der | `76b7c0c943a59275d5726145035fc733d446697f425d105a22c390fd6f56fca2` |
+| DB-0002.der | `24cfd954fa85dd1538db5d9ce8b6db616d2905ccfb118a058643bcde332bb58e` |
+| DB-0003.der | `48e99b991f57fc52f76149599bff0a58c47154229b9f8d603ac40d3500248507` |
+| DB-0004.der | `e8e95f0733a55e8bad7be0a1413ee23c51fcea64b3c8fa6a786935fddcc71961` |
+| DB-0005.der | `e5be3e64c6e66a281457ecdece0d6d0787577aad2a3a0144262c10c14ba8d8f1` |
+| DB-0006.der | `f6124e34125bee3fe6d79a574eaa7b91c0e7bd9d929c1a321178efd611dad901` |
+| DB-0007.der | `e76f1fea90ac29155ebf77c17682f75f1fdd1be196da302dc8461e350a9ae330` |
+
+**Certificate Identity (openssl x509 -inform DER -noout -subject -issuer -serial):**
+
+| # | Subject | Issuer | Serial | Verdict |
+|---|---------|--------|--------|---------|
+| DB-0001 | CN=ASUSTeK MotherBoard SW Key Certificate | CN=ASUSTeK MotherBoard SW Key Certificate (self-signed) | 257C466FBDD14373BBE07274FC659A5E | ✅ ASUS desktop motherboard firmware signing key — expected for PRIME B460M-A |
+| DB-0002 | CN=ASUSTeK **Notebook** SW Key Certificate | CN=ASUSTeK Notebook SW Key Certificate (self-signed) | 471A7E1820885A44BD7D2A3303FF3F8F | ⚠️ ASUS **Notebook** key on a **desktop** motherboard. Wrong hardware class — needs comparison against clean B460M-A BIOS |
+| DB-0003 | Microsoft Corporation UEFI CA 2011 | Microsoft Corporation Third Party Marketplace Root | 6108D3C4000000000004 | ✅ Standard — signs third-party UEFI applications (shim, GRUB, Linux bootloaders) |
+| DB-0004 | Microsoft Windows Production PCA 2011 | Microsoft Root Certificate Authority 2010 | 61077656000000000008 | ✅ Standard — signs Windows bootloader |
+| DB-0005 | Microsoft Option ROM UEFI CA 2023 | Microsoft RSA Devices Root CA 2021 | 3300000017B3EC4D8F01E27005000000000017 | ✅ Standard — newer cert for PCIe option ROMs |
+| DB-0006 | Microsoft UEFI CA 2023 | Microsoft RSA Devices Root CA 2021 | 330000001636BF36899F1575CC000000000016 | ✅ Standard — replaces 2011 third-party UEFI cert |
+| DB-0007 | Windows UEFI CA 2023 | Microsoft Root Certificate Authority 2010 | 330000001A888B9800562284C100000000001A | ✅ Standard — replaces 2011 Windows boot cert |
+
+**Analysis:**
+
+1. **CN=grub is NOT in the firmware db.** All 7 certs are legitimate ASUS/Microsoft keys. The rootkit's trust anchor sits **exclusively in the MOK layer** (MokListRT) — shim checks MOK before firmware db, so the CN=grub cert in MOK is sufficient to validate the compromised grubx64.efi without touching the firmware db.
+
+2. **DB-0002 (ASUSTeK Notebook key) is anomalous.** The PRIME B460M-A is a desktop motherboard — a notebook signing key has no business being in the firmware db. Two possibilities:
+   - ASUS ships both desktop and notebook keys in all BIOS versions (lazy but possible — needs verification against a clean BIOS dump)
+   - Something enrolled the notebook key as an additional trust anchor (would allow signing firmware components with either key)
+
+3. **7 certs is higher than minimal** but within normal range for a modern ASUS board. The 2023 Microsoft certs (DB-0005/0006/0007) are renewals — ASUS BIOS 1806 (dated 12/18/2025) would include both 2011 and 2023 generations for compatibility.
+
+4. **Evidence preserved:** User copied DB-*.der originals to Ventoy USB, ran `sync`, then `umount -l`. Original .der files are on the USB alongside script.txt (524KB), script2.txt (333KB), BIOS update files, and install ISOs.
+
+### 11.3b Evidence Preservation Actions
+
+Commands observed at end of session:
+
+```bash
+cp -r DB-* /mount/sdb1        # Copy all 7 DER cert files to Ventoy USB
+cp -r script* /mount/sdb1     # Copy both script captures to USB
+ls -la /mount/sdb1             # Verify copy
+sync                           # Flush to disk
+umount -l /mount/sdb1          # Lazy unmount (safe — no open files)
+lsblk                          # Verify device state
+```
+
+USB contents after copy (Ventoy sdb1):
+
+| File | Size | Purpose |
+|------|------|---------|
+| `clamav-1.5.2.linux.x86_64 (1).deb` | 107 MB | ClamAV AV package |
+| `PRIME-B460M-A-ASUS-1806 (3).zip` | 8.3 MB | ASUS BIOS update (zipped) — 3 downloads |
+| `PRIME-B460M-A-ASUS-1806.CAP` | 110 KB | Extracted BIOS capsule — matches running BIOS version |
+| `System Volume Information/` | dir | Windows/Ventoy artifact |
+| `ubuntu-26.04-beta-desktop-amd64.iso` | 6.96 GB | Clean install ISO |
+| `Win11_25H2_EnglishInternational_x64_v2 - Copy - Copy.iso` | 8.49 GB | Windows 11 25H2 ISO |
+| `DB-0001.der` — `DB-0007.der` | 845–1556 bytes | UEFI db certificate exports |
+| `script.txt` | 524 KB | First terminal capture |
+| `script2.txt` | 333 KB | Terminal injection evidence (see Section 14) |
+
 ### 11.4 CN=grub Certificate — Full Details (Confirmed in UEFI NVRAM)
 
 | Field | Value |
@@ -682,12 +749,15 @@ Commands run during the session (67+ commands before session was terminated):
 
 ```
 EFI firmware → SHIMX64.EFI (Boot0003)
-  → checks MokListRT → finds CN=grub cert (CA:TRUE, Code Signing)
+  → checks firmware db: 7 certs (2x ASUS, 5x Microsoft) — all legitimate
+  → checks MokListRT: 2 certs → finds CN=grub cert (CA:TRUE, Code Signing) 🔴
     → validates grubx64.efi (hash 076ceb48..., signed by CN=grub)
       → GRUB loads vmlinuz-6.8.0-41-generic (hash 1e894dc2...)
         → Kernel blacklisted from apt auto-upgrades (linux- in Package-Blacklist)
           → secureboot-db.service runs every boot (chattr -i on KEK/db/dbx, sbkeysync)
 ```
+
+**Key insight:** The rootkit's trust is isolated to the MOK layer. The firmware db is clean. This means the rootkit cert was enrolled via `mokutil --import` or MokManager at the UEFI console — NOT by modifying the firmware's own db. Removing it requires only `mokutil --delete` + reboot to MokManager, without touching the firmware db.
 
 ### 11.6 Persistence Mechanisms Identified
 
@@ -779,6 +849,8 @@ The assisting agent made several analytical claims that need MK2 verification ag
 - ✅ `mount` — now done (Session 3, Command 10)
 - ✅ `lsmod` — now done (Session 3, Command 3)
 - ✅ `cat /proc/cmdline` — now done in recovery context (Session 3, Command 4)
+- ✅ **UEFI db certificate dump** — `mokutil --export --db` produced 7 .der files, all decoded with `openssl x509`. Firmware db is clean (2x ASUS, 5x Microsoft). CN=grub is MOK-only (Section 11.3a)
+- ✅ **Evidence preservation** — DB-*.der, script.txt, script2.txt all copied to Ventoy USB with sync+umount (Section 11.3b)
 
 ---
 
@@ -915,6 +987,9 @@ The user holds the original `script2.txt` file. The raw binary content should be
 | Finding | Evidence Type | Source Sessions | Confidence |
 |---------|-------------|-----------------|------------|
 | CN=grub MOK cert in UEFI NVRAM | Direct firmware read + mokutil output | Session 3 | **CONFIRMED** — certificate bytes visible in hex dump |
+| UEFI firmware db clean (7 certs: 2x ASUS, 5x Microsoft) | mokutil --export --db + openssl decode + SHA256 | Session 3 | **CONFIRMED** — all 7 certs identified, CN=grub NOT in db |
+| CN=grub trust isolated to MOK layer only | db export vs MokListRT comparison | Session 3 | **CONFIRMED** — rootkit cert in MOK, not firmware db |
+| ASUSTeK Notebook key on desktop board (DB-0002) | openssl x509 decode of DB-0002.der | Session 3 | **ANOMALOUS** — needs comparison against clean B460M-A BIOS |
 | Kernel hash matches Report 09 VT anomaly | SHA256 comparison | Sessions 1-2 + Session 3 | **CONFIRMED** — `1e894dc2...` on both Ventoy live and installed HDD |
 | Active TTY keystroke injection | Raw `script` capture | Session 3 | **CONFIRMED** — escape sequences prove programmatic injection |
 | `nomodules` kernel parameter ignored | cmdline + modules_disabled=0 | Session 3 | **CONFIRMED** — parameter present but not enforced |
@@ -926,7 +1001,8 @@ The user holds the original `script2.txt` file. The raw binary content should be
 | Boot journal timestamp spoofing | journalctl --list-boots output | Session 3 | **HIGH** — Aug 8 2024 dates mixed with Apr 13 2026 |
 | secureboot-db.service persistence | Service file read | Session 3 | **CONFIRMED** — chattr -i + sbkeysync every boot |
 | Unattended-upgrades weaponized | Config file read | Session 3 | **CONFIRMED** — proposed/backports enabled, kernel blacklisted |
+| Evidence preserved to external media | cp + sync + umount + SHA256 verified | Session 3 | **CONFIRMED** — DB-*.der + script*.txt on Ventoy USB |
 
 ---
 
-*Report 24 updated by ClaudeMKII (MK2PK). Source evidence: OCRRoot.txt, OCRRoot2.txt (Sessions 1-2), Report24Commands.txt (Session 3 transcript), script2.txt (terminal injection capture). User holds all original screenshots and raw script output for verification.*
+*Report 24 updated by ClaudeMKII (MK2PK). Source evidence: OCRRoot.txt, OCRRoot2.txt (Sessions 1-2), Report24Commands.txt (Session 3 transcript), script2.txt (terminal injection capture), DB-0001.der through DB-0007.der (UEFI db certificate exports, SHA256 verified). User holds all original screenshots, raw script output, and DER certificate files for verification.*
