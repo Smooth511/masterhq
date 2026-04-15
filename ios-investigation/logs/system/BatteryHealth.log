@@ -1,0 +1,7 @@
+Battery 0 health info:
+{
+    "Battery Service Flags" = 1048579;
+    "Battery Service State" = 1;
+    "Maximum Capacity Percent" = 77;
+    calibration0 = "";
+}

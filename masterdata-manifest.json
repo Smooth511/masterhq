@@ -1,0 +1,4393 @@
+{
+  "description": "Binary files to be moved to Smooth511/masterdata",
+  "total_files": 731,
+  "total_size_bytes": 1455586466,
+  "files": [
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "IMG_0757 2.png",
+      "size": 8099047,
+      "sha": "686b575a12f2788e26cc5c83a5c9a294df33b44a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "IMG_0757.png",
+      "size": 8099047,
+      "sha": "686b575a12f2788e26cc5c83a5c9a294df33b44a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "IMG_0771.png",
+      "size": 8398384,
+      "sha": "8b0d9225e1f097e6ceb044cd8d218a4594c1942d"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "IMG_0774.png",
+      "size": 7625421,
+      "sha": "15d10061d4ae947ef3ad27c2491c789f865b3a36"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "assets/images/IMG_0157.png",
+      "size": 353299,
+      "sha": "43281293e6d34e8eeee6831e70f2cd36f15f5f3a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "assets/images/IMG_0158.png",
+      "size": 343391,
+      "sha": "77270f4324ec3a820106dcd1533a16aeb9f0f29c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "assets/images/IMG_0318.jpeg",
+      "size": 4231670,
+      "sha": "8810e6741b7d4866cd8702d5b28a5ff73c002ed6"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "assets/images/IMG_0386.png",
+      "size": 7356371,
+      "sha": "bbb9536fd7aec446e2cb16f4a92762a4c3eb1f9b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "assets/images/IMG_0387.png",
+      "size": 7684961,
+      "sha": "883b8c09f0e57c551a8a4a43364123264f246d8f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "assets/images/IMG_0388.png",
+      "size": 7354191,
+      "sha": "c62b0dd3a2b26ed6cbd483ff2e8102b3cd95b532"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "assets/images/IMG_0401.PNG",
+      "size": 316679,
+      "sha": "5dd2090a7789dc83ba957687924ecad4c84119bc"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "assets/images/IMG_0402.PNG",
+      "size": 304951,
+      "sha": "e94ad4b5fa72139dbdb6c10891914bd3b6b51123"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1140.jpeg",
+      "size": 29226,
+      "sha": "7e1f5993db7c31aff7de2fbe435bb002e9c957d0"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1142.jpeg",
+      "size": 24479,
+      "sha": "c19b0528a075d61a0566f854faf1d5ae7edee2d4"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1143.jpeg",
+      "size": 50889,
+      "sha": "3251426d2f064dad771e9351bcf056f513911b89"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1144.jpeg",
+      "size": 44244,
+      "sha": "e567962cd1ce8b85f38df0bca0de023cd53e0a6f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1146.jpeg",
+      "size": 36855,
+      "sha": "d2289819b4de555dc33b3015e929172974098825"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1147.jpeg",
+      "size": 40537,
+      "sha": "07b0a482190d417973b90d5b323c364cd1c22d2a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1148.jpeg",
+      "size": 44661,
+      "sha": "395aab2a901b39e1190705a4f2695f3d48359721"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1149.jpeg",
+      "size": 42283,
+      "sha": "e648904c8b0c9999383c91bf9d9438d9eb5b6866"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1151.jpeg",
+      "size": 46530,
+      "sha": "43509488fdc1ceac69f6e6cdd762c5bb3d125b9c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1153.jpeg",
+      "size": 49773,
+      "sha": "5be2990f104692f7a889ae6f0964d46ae598d373"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1154.jpeg",
+      "size": 48963,
+      "sha": "dfd687ff3da11f1a0a159ea23a176b885df0c871"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1156.jpeg",
+      "size": 39145,
+      "sha": "619eb490b48474ed68b300825012bfa99d63e553"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1157.png",
+      "size": 194750,
+      "sha": "b5e45cbefe7144e7ceeedeb0b5b83a948bbbf5b3"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1159.png",
+      "size": 235169,
+      "sha": "9eb82a0b553f4ea4a45af853a88716d21a9b7a6c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1160.png",
+      "size": 190872,
+      "sha": "c80626c7900eb37f91dd541bd354345512062b4e"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1161.png",
+      "size": 190808,
+      "sha": "7e27165308c141f820464234f3711a8237ef3bb4"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1162.jpeg",
+      "size": 46818,
+      "sha": "a4426798e41e017da096871bafeb734ad5e3bd88"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1163.jpeg",
+      "size": 38036,
+      "sha": "81fafd62ff00b4ce6c1278c29ffca96cf8df3f43"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1166.jpeg",
+      "size": 45656,
+      "sha": "ade8dca26700e0e89c3b4705a4daad240f3291d3"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1169.jpeg",
+      "size": 48645,
+      "sha": "a03eaf9f78944baa5b796c75e460d32cfd9ab960"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1171.jpeg",
+      "size": 60551,
+      "sha": "f81089983f6b781dade3c4c3ba8d37312a01b31c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1172.jpeg",
+      "size": 56472,
+      "sha": "d71fbc8041a149074e3fc90e126b9625a7d23a24"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1173.jpeg",
+      "size": 51951,
+      "sha": "40ecbf1f3a7cdb53c07a5766c5b9f46372970b87"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1179.jpeg",
+      "size": 36485,
+      "sha": "080bfb700aaeed365034da375789d619f11055e9"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1180.jpeg",
+      "size": 33650,
+      "sha": "b8880d6b55be6fffe747894f3406f950309aeb15"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1181.jpeg",
+      "size": 32509,
+      "sha": "08b4c866432cf53b1e182f3e98d0befc1885a6c6"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1182.jpeg",
+      "size": 31415,
+      "sha": "c9891101d22f6cd03960ecbe56265acbe177b98f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1183.jpeg",
+      "size": 47149,
+      "sha": "64e12485f2df17f6f0da896ecdc2c27fccbd8141"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1184.jpeg",
+      "size": 47153,
+      "sha": "127e325cf862e6ac6a41b837da33ed8ac5f2ce18"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1185.mov",
+      "size": 10803268,
+      "sha": "feaa14328022a6dc7cc6998c492ac174f78ce49a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1188.mov",
+      "size": 8241913,
+      "sha": "b640b05f05ab9dfb459969812f6803f4c35bd9c9"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1191.jpeg",
+      "size": 51273,
+      "sha": "5106d1f20c2b11fe37be542eb1a293aed6edcc86"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1197.jpeg",
+      "size": 59519,
+      "sha": "d141d57feb249578b8f1454a33d90d159c49761a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1198.jpeg",
+      "size": 40368,
+      "sha": "54a547e1df5df700e487c886972caa91707cb2bd"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1200.png",
+      "size": 208661,
+      "sha": "f2391495dd2af9b8246b4050ae4030337165b54f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1201.png",
+      "size": 205983,
+      "sha": "4339a7abeef5ce2ea7a73dea3ef3ebb8f673ff8a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1202.png",
+      "size": 207041,
+      "sha": "db6b603b03b6405b76401591f1c581da5f888274"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1203.jpeg",
+      "size": 49424,
+      "sha": "63ed4e6c856793ecefe06987c8dba6ab71b7b79b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1204.jpeg",
+      "size": 57079,
+      "sha": "342ba81ff3eca8e4412019511acd4b616733779d"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1205.jpeg",
+      "size": 55787,
+      "sha": "d8792ba70a676a6340a279d0311c0360ddf8d04c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1206.jpeg",
+      "size": 37404,
+      "sha": "420b0edec4d536b91755ea1f6ed2d834634d5686"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1207.jpeg",
+      "size": 26239,
+      "sha": "1e8db5d13ab158ddfac6080d2554ae4f859d9ea6"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1208.jpeg",
+      "size": 19567,
+      "sha": "068a7e113190647d1f441e2b4365f09c117b053e"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1209.jpeg",
+      "size": 42818,
+      "sha": "0c2715f04568fa4f5a22856c0cbf92771ee4e32a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1210.jpeg",
+      "size": 43233,
+      "sha": "a474ea73cc261a89b690958881b65e0969bd132c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1211.jpeg",
+      "size": 39226,
+      "sha": "8ea48a753702c735635fc3dd4ef0679731f49fe3"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1212.jpeg",
+      "size": 46349,
+      "sha": "5c5f4fb5af8150f6531f17de548dac3a0d3338cd"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1213.jpeg",
+      "size": 35107,
+      "sha": "5f1c702c5f37ce27601031a156ce2d3ab1c4fe57"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1216.jpeg",
+      "size": 53783,
+      "sha": "b0d72f40bc8b3db45663524235514641f81d2180"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1217.jpeg",
+      "size": 54613,
+      "sha": "12a3611c1490eafca6399fc90a184146fa770eb7"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1218.jpeg",
+      "size": 2264637,
+      "sha": "ff3d70d2d0cfb0846562ee02f7e343c8d0aa66b5"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1219.jpeg",
+      "size": 2122314,
+      "sha": "48367ab0592afa561adf0efbe0beb50773b8cd09"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1220.jpeg",
+      "size": 1906302,
+      "sha": "ba2c6120e2a1cf89453bbda751ea4dc6307e4a2b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1221.jpeg",
+      "size": 2273562,
+      "sha": "8b91a942e54011ac8f0387d6dc0ffec5201a1804"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1222.jpeg",
+      "size": 3128326,
+      "sha": "d1bd2ed03d466a7314eccbc7ab49ad7a079be8b0"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1223.jpeg",
+      "size": 2850999,
+      "sha": "84eaad4d61abe0b538172381b4cad29b1a658604"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1224.jpeg",
+      "size": 48841,
+      "sha": "729bbb09aeaf650154f064f2d4090e6aeb996dfb"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1225.jpeg",
+      "size": 36467,
+      "sha": "b2232ec3f6de0ee6ac5540be3553705f3a0ec47e"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1226.jpeg",
+      "size": 36634,
+      "sha": "15bd6651989d02dc3cbb578b00542a6d91ac00ee"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1227.jpeg",
+      "size": 53886,
+      "sha": "cd72cbc37d09c24dc41be2d50abe8b6cdcf9961b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/BINGO/IMG_1229.jpeg",
+      "size": 44784,
+      "sha": "ca0febd0e62d9e11c1da77324aa3d2af90f71f3f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/IMG_0401.PNG",
+      "size": 316679,
+      "sha": "5dd2090a7789dc83ba957687924ecad4c84119bc"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/IMG_0402.PNG",
+      "size": 304951,
+      "sha": "e94ad4b5fa72139dbdb6c10891914bd3b6b51123"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/LinuxRaw25/Linux raw pt1.pdf",
+      "size": 1236917,
+      "sha": "14db5da361caa9da997609726b5088168bfa72dd"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/LinuxRaw25/Linux raw pt2.pdf",
+      "size": 776858,
+      "sha": "14cb98b7deb4872ce1225011c482fe43ac0aef11"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1337.jpeg",
+      "size": 2105887,
+      "sha": "37ffe8536a3a13f95cdb8462ec542bbde5764a48"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1338.jpeg",
+      "size": 2400181,
+      "sha": "f25b2d4cc6eac0c8cae93676900617d15f088124"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1340.jpeg",
+      "size": 3599418,
+      "sha": "874abf7b93fd5aa8f344437f6acc2c8f93514202"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1342.jpeg",
+      "size": 2484783,
+      "sha": "c8c9a5c5ac4daa6bbb2525867458c0062582aa21"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1343.jpeg",
+      "size": 3452161,
+      "sha": "2108613558526c8cf13bf3526341719eede423a8"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1344.jpeg",
+      "size": 3190706,
+      "sha": "4f17332e76543809a3c48e4afc97766d6302a1b6"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1345.jpeg",
+      "size": 2634178,
+      "sha": "6e9181c26386534a433750ae42fabc4b565b71bf"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1346.jpeg",
+      "size": 3070362,
+      "sha": "a47cdd951e3e5ae78f86f5333834862a8448f96c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1349.jpeg",
+      "size": 2971141,
+      "sha": "cebd8de84b9e56ca0cd10b7e90b05154ae823001"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1351.jpeg",
+      "size": 4037610,
+      "sha": "768fb383d283193fd8bc36c70b297253c8137585"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1352.jpeg",
+      "size": 4997310,
+      "sha": "7e4d6d7229ce823881cf2a09274bc518661ef44e"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1353.jpeg",
+      "size": 3249774,
+      "sha": "b189cedfaae980305e7aa6365dfb5f39d686dfb9"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1354.jpeg",
+      "size": 3259336,
+      "sha": "ddd7fe6e18126f3b0f4ef424dff4cfb60bc5991a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1355.jpeg",
+      "size": 3142456,
+      "sha": "fef7f6eda8b8ab765caec21552865dc1954a0de9"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1356.jpeg",
+      "size": 3750739,
+      "sha": "5ff016dcf55212c6084b26f5be12c0e4afe8fafe"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1358.jpeg",
+      "size": 2784825,
+      "sha": "325b0286023518f8d9c67ef1716ea24dcb185ec7"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1359.jpeg",
+      "size": 4575228,
+      "sha": "643ba65daf9507c83880f3f3d42441a5321f7b1d"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1360.jpeg",
+      "size": 5025900,
+      "sha": "c0db2d5f36974a3c53e8f888e5730c1116937e48"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1361.jpeg",
+      "size": 3850120,
+      "sha": "3a5861f1ae8ecca20463ec31877ec44e23aaa174"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1362.jpeg",
+      "size": 1638659,
+      "sha": "8d25a0a07efb0214d6408e31420b95d9fe016038"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1363.jpeg",
+      "size": 3672157,
+      "sha": "a1c8fb680d2138ba9262aea018e3618233f5dd56"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1364.jpeg",
+      "size": 3212748,
+      "sha": "65ed0b9d5ec7d5387d54024d66acd71be87eeb63"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1365.jpeg",
+      "size": 1420550,
+      "sha": "6424dfb9a1a8557b728b01078fcf1a60745f1a3f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/copy.odt",
+      "size": 289589,
+      "sha": "998d74c86fe021b3f6e3d159ca9f7ccaaf5bc98e"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/ErrorLogs/IMG_0432.png",
+      "size": 7472236,
+      "sha": "3ab828f4ea1c0ebb6c5ace523ffc9561108f9617"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/ErrorLogs/IMG_0433.png",
+      "size": 1820806,
+      "sha": "11168a24b590630c6406c52fb43c5dc2c2ebac8f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/ErrorLogs/IMG_0434.png",
+      "size": 1005808,
+      "sha": "91908fbdf3a896b8d5cc810b339be77f189813d6"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0330.JPG",
+      "size": 2976192,
+      "sha": "952162209e0bb3a70c164a60b7a35813fd11c095"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0331.JPG",
+      "size": 3056929,
+      "sha": "cda17eddbe7b45b86d4e4f69c8f2a8595b9dbe5a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0332.JPG",
+      "size": 3664734,
+      "sha": "432fb8c94401fcf56d33a4769ed56bbef5fcc0c2"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0333.JPG",
+      "size": 2706570,
+      "sha": "b541d0ff632fd688bc6c8972392fc27b7c90e30f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0334.JPG",
+      "size": 2966041,
+      "sha": "c5bd8d8408026fd72b81639c8a08e80ec66b84fd"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0336.JPG",
+      "size": 2694379,
+      "sha": "d3722bc50dd872dbb44903db70a1e4f53d0bb4f6"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0337.JPG",
+      "size": 2825743,
+      "sha": "b321d4e517b23f4f8c2bbf1ce2a3ae20f2b8e68f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0338.JPG",
+      "size": 2704320,
+      "sha": "c70bdc776f1b98e56b53685d079cd63e2ccbae1b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0339.JPG",
+      "size": 2271965,
+      "sha": "eaeaa09c9aeab8f336559207518c088281cd30ac"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0340.JPG",
+      "size": 3105879,
+      "sha": "855b91a3cdf75707b180dfbc1ba097eaaeb4ac20"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0344.JPG",
+      "size": 3187188,
+      "sha": "17a9e3a649afe049ef756dcb788526152d89f3a7"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0386.png",
+      "size": 862853,
+      "sha": "3ed7f671db72318c7a382e355092c59ba3ceacc7"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0387.png",
+      "size": 876876,
+      "sha": "22effdb748e3157024a4242aa80b4e62b59762c1"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0388.png",
+      "size": 857769,
+      "sha": "b40bb4b320445b446bba46f1b3ef2aaf9f10b208"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0413.png",
+      "size": 863714,
+      "sha": "712fef4c7d64ab2cf5bf503f23e8c368332c5940"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0414.png",
+      "size": 857635,
+      "sha": "2310a01278232c3efcee8e98d1f5cf33c8b7e339"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0415.png",
+      "size": 505485,
+      "sha": "e881a205fd5d70b4927955d424c3f43cbd8335a4"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0417.png",
+      "size": 828395,
+      "sha": "8a54c6ba43c0c1db628d56b68599aa75fd93aa0e"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/linux-logs-screenshots/Screenshot 2026-03-20 at 19.00.08.png",
+      "size": 2496676,
+      "sha": "bfd2ccfb2846f04b8e2d64c7ac6e7dc4a133b7a4"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/dmesg",
+      "size": 78788,
+      "sha": "137f3ef42963161395879c9b2b46565519f02962"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/dmesg.0",
+      "size": 78663,
+      "sha": "592e985ff997d76d142cd7bb1d595800748ca7d2"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/dmesg.1.gz",
+      "size": 20496,
+      "sha": "9a11a49312e791b139e5d22ce80d7cce6eadfe28"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/dmesg.2.gz",
+      "size": 20684,
+      "sha": "e4bc0145ae46390ed6ef3f4d8083150e03253a6b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/dmesg.3.gz",
+      "size": 20881,
+      "sha": "f14b97714dd6df0d392b034a9439c98284a3459f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/dmesg.4.gz",
+      "size": 20277,
+      "sha": "77c4d71b8a0a76c92263719d2d33c8b180a7f10c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/eipp.log.xz",
+      "size": 112092,
+      "sha": "88e2fa88895cd0fe0b97b209f626a5625a793b1b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/rkhunter.log.old",
+      "size": 217352,
+      "sha": "fbfe94df0cf8eea3e555a16a4fcdccbc279a02c8"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/sa28",
+      "size": 114760,
+      "sha": "4ff79052fe9313a601d2b2eda9e21c09a41d94a0"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/subiquity-server-debug.log.2700",
+      "size": 226849,
+      "sha": "c95ff36b5cce96a61289c18993f1db5fa9ad4beb"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/syslog",
+      "size": 2643271,
+      "sha": "d82f4ca7ee39f653cced579bade51131d6db1379"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/system.journal",
+      "size": 8388608,
+      "sha": "62ff04c26e016a0f23b0f096a625387f3ba2d683"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/system@06555d01dad045cf826e0a59d08d9942-00000000000003a9-00061f2d284abff2.journal",
+      "size": 8388608,
+      "sha": "0f462d5cfe6915bcd909a6aa41e442f3ea1a9ae4"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/system@06555d01dad045cf826e0a59d08d9942-00000000000012a0-00064e09c2892f87.journal",
+      "size": 8388608,
+      "sha": "8dfcdd2304efc299a238dbeece6c90aad16f3b61"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/system@10c821412fb14d308b5ea1b09686c01f-0000000000003e9b-00064e0c35df36d2.journal",
+      "size": 8388608,
+      "sha": "5a6f9c6061c0ec4804ce84ac24d5444c4bcc2f5d"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/system@23ad69b249a14ede93a20b1b1d2378fd-00000000000057ca-00064ceaa4436658.journal",
+      "size": 8388608,
+      "sha": "d6b49a2705a160640fce625b3b902a899e01079c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/system@3b9f04cc2db54c26b97e4bb48b0924a7-0000000000005ecc-00064ceaa4438596.journal",
+      "size": 8388608,
+      "sha": "6e9b363aaa89905061b3da484e8e93dbac538960"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/system@3b9f04cc2db54c26b97e4bb48b0924a7-00000000000064ce-00064e0c6d0f6049.journal",
+      "size": 8388608,
+      "sha": "8a83effdb56b69163008be86d1e481e729c75e90"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/system@a95081258c8d45aab3ad1012254d1009-0000000000006829-00064e17a44fd3ef.journal",
+      "size": 8388608,
+      "sha": "5196ae6d6318469c68aadb63ddca235bebfecc5b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/system@dce28a00959e4649aa5ca6306f2deb4d-00000000000040d4-00064e0c44db038b.journal",
+      "size": 8388608,
+      "sha": "07da8604836463e5f4c0e49b7f9e7e8e5b07be66"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/system@e2290fe013074e0380be04009402ad3e-0000000000004c43-00064e0c4b2af371.journal",
+      "size": 8388608,
+      "sha": "51213594c2a182ee36f805325b99907cc0b35bb0"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/user-1000.journal",
+      "size": 8388608,
+      "sha": "813f8544b2c7917f4f298efbac3e5276bb563d2e"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/user-1000@06555d01dad045cf826e0a59d08d9942-0000000000000fd1-00061f2d2e3bc8a4.journal",
+      "size": 8388608,
+      "sha": "ba5f490f5fcfda2de1678bf056d25635835edf8f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/user-1000@06555d01dad045cf826e0a59d08d9942-00000000000012a7-00064e09c289f555.journal",
+      "size": 8388608,
+      "sha": "45949be26cd0db182ec61944d04e3ec913ce9005"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/user-1000@10c821412fb14d308b5ea1b09686c01f-0000000000003e9a-00064e0c35de6e79.journal",
+      "size": 8388608,
+      "sha": "02208dc8a634e13a2d608d90676bb0813bad835f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1627/user-1000@3b9f04cc2db54c26b97e4bb48b0924a7-00000000000064cd-00064e0c6d0eb81c.journal",
+      "size": 8388608,
+      "sha": "9822d479603abe0a918695d9a7783675bdb1f6cc"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/logs1sthour/All hourlysave.evtx",
+      "size": 23138304,
+      "sha": "0d239afa9eca4b6f5768da8710629558aa21fe2b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/stop-malware-google-search-compressed.pdf",
+      "size": 1066784,
+      "sha": "6df288b056a6c2a690eed0feffe33b15ba9394b5"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/stop-malware-google-search.webarchive",
+      "size": 20356186,
+      "sha": "625116a79d4e1484491d85ae562238eebba2a383"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/system.journal",
+      "size": 8388608,
+      "sha": "62ff04c26e016a0f23b0f096a625387f3ba2d683"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "evidence/raw/system@3b9f04cc-5ecc.journal",
+      "size": 8388608,
+      "sha": "6e9b363aaa89905061b3da484e8e93dbac538960"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0583.jpeg",
+      "size": 1859109,
+      "sha": "ec31b6169e660f43819d07f839a79b0b5c8be037"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0627.jpeg",
+      "size": 1921543,
+      "sha": "f73e6b6c428af3468e921564ee72cbb4bf332c81"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0719.jpeg",
+      "size": 2323495,
+      "sha": "27464d26df7ba15a40fcb0ffffa5adf23812495d"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0833.jpeg",
+      "size": 1345892,
+      "sha": "5b9a79e8c02f7ea738945aec032372608c9f4524"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0986.jpeg",
+      "size": 92865,
+      "sha": "9165273942244b4c41b48cc0a065f2a9f6527449"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0987.jpeg",
+      "size": 111139,
+      "sha": "52eefaa26e6cb358390f99a1be29bb7802194654"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0988.jpeg",
+      "size": 75123,
+      "sha": "e474e421c1b24f47f856d3ae2960c2851b319ce6"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0990.jpeg",
+      "size": 242929,
+      "sha": "14d2476ab887028dd8eef0882cd71adb1f7a2325"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0991.jpeg",
+      "size": 184634,
+      "sha": "8b62042fdb430f0c866376df37b10cb7f321c417"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1003.jpeg",
+      "size": 3172820,
+      "sha": "2e27d2928561ce76b4a347bc369a6ae381cfb40c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1099.jpeg",
+      "size": 111449,
+      "sha": "3f58da96f3575d79e59ee5bdadc10681e791a239"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1100.jpeg",
+      "size": 111493,
+      "sha": "4e3b7c723d141d9e9ddd58fa192cfc8af38a96c3"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1101.jpeg",
+      "size": 111097,
+      "sha": "479a1be914f4229ce25fc9d4b92ed0142ca6891a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1102.jpeg",
+      "size": 120219,
+      "sha": "e5663ab300c3dfc7c78bcd86ea60690c4b160b25"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1103.jpeg",
+      "size": 82955,
+      "sha": "e5f1fa8f21308f361acc989271fbba869f58d7c0"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1104.jpeg",
+      "size": 102392,
+      "sha": "34f96a850a5bb19f4d8202a3c28ef1bde2827aef"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1105.jpeg",
+      "size": 93401,
+      "sha": "219c3ca37da20c0bcd183750305d051f7dd37215"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1106.jpeg",
+      "size": 95260,
+      "sha": "50d17cc9abf0e9faa7ee7da8a013d046a4abe6c8"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1107.jpeg",
+      "size": 105763,
+      "sha": "85e6f936b08721f90c6937f07bf2903857731e90"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1108.jpeg",
+      "size": 94415,
+      "sha": "ffc1f9b3fca697a040b8d82ff8b33f04bfd15271"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1109.jpeg",
+      "size": 49894,
+      "sha": "572afca5c8e76a281027cadf3d714f92e803e33c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1110.jpeg",
+      "size": 103149,
+      "sha": "f0e467d1d077ec0e420572b6b481f65c8d84071d"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1111.jpeg",
+      "size": 95418,
+      "sha": "5bf0ae25ea68c3d70dfe68eb990f039c7af03108"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1112.jpeg",
+      "size": 94868,
+      "sha": "a01b39f2cb635a0a1fca6ebe3c49045445c1e72a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1113.jpeg",
+      "size": 95546,
+      "sha": "5f16f52897d2ffb9e11f6c520971604718cae336"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1114.jpeg",
+      "size": 85636,
+      "sha": "bdf08fe91caa6eb5f70c57fc767ca1698a0aa5a3"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1115.jpeg",
+      "size": 97448,
+      "sha": "abaaa65b5a0c406c45c5f34570b754938d5488f2"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "mk2-phantom/.vault/archive/vault-snapshot-pre-sync-2026-03-20.tar.gz",
+      "size": 7264,
+      "sha": "717008f3c56b567e366f8fde3bae57b9f61eed43"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0663.jpeg",
+      "size": 2899221,
+      "sha": "d30ce3fa10d04da1018b3558f5933663e6cb0c54"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0664.jpeg",
+      "size": 1437150,
+      "sha": "42c1ad5756de232932af2e9ef0a4b2a8ff53edf7"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0665.jpeg",
+      "size": 1566712,
+      "sha": "67f69889776606d772a47b41dbe886f5d7146315"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0691.jpeg",
+      "size": 39853,
+      "sha": "92425755ebfbad6a5941fb5fc2797a863fd93f30"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0692.jpeg",
+      "size": 29520,
+      "sha": "025932644561a012700cfb76ecb6580743cd857b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0693.jpeg",
+      "size": 30443,
+      "sha": "b65422bb8b43f07307c10ceac1512dccdef2775d"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0694.jpeg",
+      "size": 30068,
+      "sha": "8fff08356481a1d87eca6a864d1374ac95a1f503"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0695.jpeg",
+      "size": 30022,
+      "sha": "8a786c9249d8f029993944a128040a7eb815b410"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0696.jpeg",
+      "size": 33703,
+      "sha": "c1a21c1d1fd24cb70478335492fc1f439b42494c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0701.jpeg",
+      "size": 35546,
+      "sha": "fcab18b4aaa67529ec72859b6f9c2068fa0fff91"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0702.jpeg",
+      "size": 30082,
+      "sha": "c7f77373eb34123dc533d6aa77f6d131dbfe895f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0703.jpeg",
+      "size": 32974,
+      "sha": "79a631f7ede804cf2b1e6031cdf4486ffa853b21"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0704.jpeg",
+      "size": 39851,
+      "sha": "8925598a5dd5b1fd65844f8641a4c68939260622"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0710 2.jpeg",
+      "size": 38637,
+      "sha": "73d4c7ebb274294bcffd45f1e99a91d8f0e6046f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0710.jpeg",
+      "size": 2983754,
+      "sha": "27e24ee24d082602d2e483347574a3171e2f7a57"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0711 2.jpeg",
+      "size": 2014231,
+      "sha": "2ac539deb5a19a99d776757b32212fca863bc6fc"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0711.jpeg",
+      "size": 29125,
+      "sha": "c8dc31f2d5f8e0db795ab96968d2f60d4fea10be"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0712 2.jpeg",
+      "size": 2154249,
+      "sha": "3c88add4d8c50ef679e675fe98601c476f165d88"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0712.jpeg",
+      "size": 28405,
+      "sha": "99ab056c1aad514cc694ea3e0ef654a034a6b9d7"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0713 2.jpeg",
+      "size": 31529,
+      "sha": "8333202d4ae41d422c696b74abb1d22eb0e81664"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0714 2.jpeg",
+      "size": 2800572,
+      "sha": "e1740ef9efce963867d2acaf2d7cb9dee80b133c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0714.jpeg",
+      "size": 32564,
+      "sha": "b07f629d726d52a49234f3efda4fded3b0c908b1"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0715.jpeg",
+      "size": 48236,
+      "sha": "1550b1ebe4247be49e69d52a690f6eb3091f628b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0716.jpeg",
+      "size": 39121,
+      "sha": "b8a352dc4cbba657da4a1f46b45bcc642e389cca"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0717 2.jpeg",
+      "size": 2746689,
+      "sha": "5b87980a066b561c333a81c3876c49e79832cce6"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0717.jpeg",
+      "size": 42864,
+      "sha": "b2a6ff545f156ac2466566aaf93ce71f05dc4559"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0718.jpeg",
+      "size": 44788,
+      "sha": "24dad95ffdc85856fc58bff8fef928e257c3ac93"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0719.jpeg",
+      "size": 40400,
+      "sha": "23ec555a0e06184b18e509dc4b2603f3d16129da"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0720 2.jpeg",
+      "size": 57610,
+      "sha": "1e8ec1e6c4c7aea168b144889411f844bcca4148"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0720 3.jpeg",
+      "size": 3191359,
+      "sha": "ccc7b736b6c28b95f49069934dabb113ca10ab21"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0720.jpeg",
+      "size": 3191359,
+      "sha": "ccc7b736b6c28b95f49069934dabb113ca10ab21"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0721 2.jpeg",
+      "size": 1914252,
+      "sha": "a472967c4d8906f310c19e52a5ab28f5295fe95d"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0721.jpeg",
+      "size": 27026,
+      "sha": "4c2247720842604a5dd766e0f7faf163010e9ade"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0722 2.jpeg",
+      "size": 1982989,
+      "sha": "5b6a67472805730b2ddb690839250936a8e6f7ac"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0722.jpeg",
+      "size": 24378,
+      "sha": "7bd8aa10b253481492676355ea04c230c4412bd3"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0723 2.jpeg",
+      "size": 33841,
+      "sha": "ef3aaa9923e1c169bd1c1e0cf1165f4240298b39"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0724.jpeg",
+      "size": 3022262,
+      "sha": "429e82f2f48362371d572e07c6b581c3eb4fef1d"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0725.jpeg",
+      "size": 2686226,
+      "sha": "890dc4b23213a71d1302b6cc36e221a057bbb6aa"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0726.jpeg",
+      "size": 3635402,
+      "sha": "66397329c14cc14778678c4c27d08cea0ad5ab90"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0727.jpeg",
+      "size": 34161,
+      "sha": "7961494287f21eef78585e01c4187de28265e444"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0728.jpeg",
+      "size": 27159,
+      "sha": "95b24a77faa6e928732411ad9c3957ec575f9306"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0734.jpeg",
+      "size": 32707,
+      "sha": "b426d49aa954f6ab4b74e670fe2672f71bfef41d"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0735.jpeg",
+      "size": 53539,
+      "sha": "92289014fe75c8fa681653f52a8facae8699ef0e"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0736.jpeg",
+      "size": 53155,
+      "sha": "c115e68b08590227b9f554f29920ab7ee4fb3e3b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0740.jpeg",
+      "size": 59470,
+      "sha": "1d9f1d3d47f691058609924edb5c8899e126a1ee"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0749.jpeg",
+      "size": 18925,
+      "sha": "1be98f588ecaf1c5c9a271f447825609be23036b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0751.jpeg",
+      "size": 34385,
+      "sha": "7ca6a18c6f7f2615456949d0cd4c97de0b01dbbc"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0752.jpeg",
+      "size": 21382,
+      "sha": "9b868ad6e305195b31c920520fd998bb92a1253b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0753.jpeg",
+      "size": 58377,
+      "sha": "e5f9c4cdb02c2b4f5e860bfa3e15200a6c954e3d"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0756.jpeg",
+      "size": 35300,
+      "sha": "e96bd8e74c149354f5b6065980fbc0a1baa6c6ce"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0763.png",
+      "size": 2305595,
+      "sha": "b9d5d3c7dc30b2e20d2d4a29d457b06af6eb633c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0770.png",
+      "size": 8830417,
+      "sha": "3571a35f53f4b03ce49c7a39efe414526f0badeb"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0772.png",
+      "size": 9883450,
+      "sha": "a309ea7dd60a94cbe06b982aa9730b3fcc068aec"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0773.png",
+      "size": 9689871,
+      "sha": "d4d9fbfdc07896f288b5846a210b4c27cbec7979"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_0828.png",
+      "size": 395349,
+      "sha": "e5cc42029b5c4771208551198f3189cc910a8d34"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_1010.jpeg",
+      "size": 45263,
+      "sha": "2c21460a7a5d53a28a8270badbef6ffc5064a51c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_1012.jpeg",
+      "size": 44606,
+      "sha": "91376ef2a752f48203c78776a0d058e95a6fa5b4"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_1013.jpeg",
+      "size": 40960,
+      "sha": "87d14526667d04f2e6bc4bfbcf06d9aa03f933a7"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_1016.jpeg",
+      "size": 39184,
+      "sha": "543632027ffa5aaaeb12f64b8a088583f698a9e0"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_1157.png",
+      "size": 194750,
+      "sha": "b5e45cbefe7144e7ceeedeb0b5b83a948bbbf5b3"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_1161.png",
+      "size": 190808,
+      "sha": "7e27165308c141f820464234f3711a8237ef3bb4"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_1166 2.jpeg",
+      "size": 45656,
+      "sha": "ade8dca26700e0e89c3b4705a4daad240f3291d3"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_1166.jpeg",
+      "size": 45656,
+      "sha": "ade8dca26700e0e89c3b4705a4daad240f3291d3"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_1170 2.jpeg",
+      "size": 50144,
+      "sha": "b1a94b3dce2c672f8b6786a7c1b81e9108588bad"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_1170.jpeg",
+      "size": 50144,
+      "sha": "b1a94b3dce2c672f8b6786a7c1b81e9108588bad"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_1366.jpeg",
+      "size": 2245323,
+      "sha": "6111620ed1d5cb43d0a2c07590e1dcb6c647275b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/attachments/IMG_1372.jpeg",
+      "size": 2118349,
+      "sha": "6f14ac5784712ec8bda8b31b0c59352b29608713"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKIIupd",
+      "source_path": "smooth115/thedata/repositorys/MKIIrepo/pack-783aadee9b2cc09abf4d9c9ce87b446f637899b3.idx",
+      "size": 55168,
+      "sha": "efb6e109a82abba285e445915e08b51dc40146e7"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "assets/images/IMG_0157.png",
+      "size": 353299,
+      "sha": "43281293e6d34e8eeee6831e70f2cd36f15f5f3a"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "assets/images/IMG_0158.png",
+      "size": 343391,
+      "sha": "77270f4324ec3a820106dcd1533a16aeb9f0f29c"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "assets/images/IMG_0318.jpeg",
+      "size": 4231670,
+      "sha": "8810e6741b7d4866cd8702d5b28a5ff73c002ed6"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "assets/images/IMG_0386.png",
+      "size": 7356371,
+      "sha": "bbb9536fd7aec446e2cb16f4a92762a4c3eb1f9b"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "assets/images/IMG_0387.png",
+      "size": 7684961,
+      "sha": "883b8c09f0e57c551a8a4a43364123264f246d8f"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "assets/images/IMG_0388.png",
+      "size": 7354191,
+      "sha": "c62b0dd3a2b26ed6cbd483ff2e8102b3cd95b532"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "assets/images/IMG_0401.PNG",
+      "size": 316679,
+      "sha": "5dd2090a7789dc83ba957687924ecad4c84119bc"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "assets/images/IMG_0402.PNG",
+      "size": 304951,
+      "sha": "e94ad4b5fa72139dbdb6c10891914bd3b6b51123"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1140.jpeg",
+      "size": 29226,
+      "sha": "7e1f5993db7c31aff7de2fbe435bb002e9c957d0"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1142.jpeg",
+      "size": 24479,
+      "sha": "c19b0528a075d61a0566f854faf1d5ae7edee2d4"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1143.jpeg",
+      "size": 50889,
+      "sha": "3251426d2f064dad771e9351bcf056f513911b89"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1144.jpeg",
+      "size": 44244,
+      "sha": "e567962cd1ce8b85f38df0bca0de023cd53e0a6f"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1146.jpeg",
+      "size": 36855,
+      "sha": "d2289819b4de555dc33b3015e929172974098825"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1147.jpeg",
+      "size": 40537,
+      "sha": "07b0a482190d417973b90d5b323c364cd1c22d2a"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1148.jpeg",
+      "size": 44661,
+      "sha": "395aab2a901b39e1190705a4f2695f3d48359721"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1149.jpeg",
+      "size": 42283,
+      "sha": "e648904c8b0c9999383c91bf9d9438d9eb5b6866"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1151.jpeg",
+      "size": 46530,
+      "sha": "43509488fdc1ceac69f6e6cdd762c5bb3d125b9c"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1153.jpeg",
+      "size": 49773,
+      "sha": "5be2990f104692f7a889ae6f0964d46ae598d373"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1154.jpeg",
+      "size": 48963,
+      "sha": "dfd687ff3da11f1a0a159ea23a176b885df0c871"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1156.jpeg",
+      "size": 39145,
+      "sha": "619eb490b48474ed68b300825012bfa99d63e553"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1157.png",
+      "size": 194750,
+      "sha": "b5e45cbefe7144e7ceeedeb0b5b83a948bbbf5b3"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1159.png",
+      "size": 235169,
+      "sha": "9eb82a0b553f4ea4a45af853a88716d21a9b7a6c"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1160.png",
+      "size": 190872,
+      "sha": "c80626c7900eb37f91dd541bd354345512062b4e"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1161.png",
+      "size": 190808,
+      "sha": "7e27165308c141f820464234f3711a8237ef3bb4"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1162.jpeg",
+      "size": 46818,
+      "sha": "a4426798e41e017da096871bafeb734ad5e3bd88"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1163.jpeg",
+      "size": 38036,
+      "sha": "81fafd62ff00b4ce6c1278c29ffca96cf8df3f43"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1166.jpeg",
+      "size": 45656,
+      "sha": "ade8dca26700e0e89c3b4705a4daad240f3291d3"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1169.jpeg",
+      "size": 48645,
+      "sha": "a03eaf9f78944baa5b796c75e460d32cfd9ab960"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1171.jpeg",
+      "size": 60551,
+      "sha": "f81089983f6b781dade3c4c3ba8d37312a01b31c"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1172.jpeg",
+      "size": 56472,
+      "sha": "d71fbc8041a149074e3fc90e126b9625a7d23a24"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1173.jpeg",
+      "size": 51951,
+      "sha": "40ecbf1f3a7cdb53c07a5766c5b9f46372970b87"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1179.jpeg",
+      "size": 36485,
+      "sha": "080bfb700aaeed365034da375789d619f11055e9"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1180.jpeg",
+      "size": 33650,
+      "sha": "b8880d6b55be6fffe747894f3406f950309aeb15"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1181.jpeg",
+      "size": 32509,
+      "sha": "08b4c866432cf53b1e182f3e98d0befc1885a6c6"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1182.jpeg",
+      "size": 31415,
+      "sha": "c9891101d22f6cd03960ecbe56265acbe177b98f"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1183.jpeg",
+      "size": 47149,
+      "sha": "64e12485f2df17f6f0da896ecdc2c27fccbd8141"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1184.jpeg",
+      "size": 47153,
+      "sha": "127e325cf862e6ac6a41b837da33ed8ac5f2ce18"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1185.mov",
+      "size": 10803268,
+      "sha": "feaa14328022a6dc7cc6998c492ac174f78ce49a"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1188.mov",
+      "size": 8241913,
+      "sha": "b640b05f05ab9dfb459969812f6803f4c35bd9c9"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1191.jpeg",
+      "size": 51273,
+      "sha": "5106d1f20c2b11fe37be542eb1a293aed6edcc86"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1197.jpeg",
+      "size": 59519,
+      "sha": "d141d57feb249578b8f1454a33d90d159c49761a"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1198.jpeg",
+      "size": 40368,
+      "sha": "54a547e1df5df700e487c886972caa91707cb2bd"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1200.png",
+      "size": 208661,
+      "sha": "f2391495dd2af9b8246b4050ae4030337165b54f"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1201.png",
+      "size": 205983,
+      "sha": "4339a7abeef5ce2ea7a73dea3ef3ebb8f673ff8a"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1202.png",
+      "size": 207041,
+      "sha": "db6b603b03b6405b76401591f1c581da5f888274"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1203.jpeg",
+      "size": 49424,
+      "sha": "63ed4e6c856793ecefe06987c8dba6ab71b7b79b"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1204.jpeg",
+      "size": 57079,
+      "sha": "342ba81ff3eca8e4412019511acd4b616733779d"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1205.jpeg",
+      "size": 55787,
+      "sha": "d8792ba70a676a6340a279d0311c0360ddf8d04c"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1206.jpeg",
+      "size": 37404,
+      "sha": "420b0edec4d536b91755ea1f6ed2d834634d5686"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1207.jpeg",
+      "size": 26239,
+      "sha": "1e8db5d13ab158ddfac6080d2554ae4f859d9ea6"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1208.jpeg",
+      "size": 19567,
+      "sha": "068a7e113190647d1f441e2b4365f09c117b053e"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1209.jpeg",
+      "size": 42818,
+      "sha": "0c2715f04568fa4f5a22856c0cbf92771ee4e32a"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1210.jpeg",
+      "size": 43233,
+      "sha": "a474ea73cc261a89b690958881b65e0969bd132c"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1211.jpeg",
+      "size": 39226,
+      "sha": "8ea48a753702c735635fc3dd4ef0679731f49fe3"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1212.jpeg",
+      "size": 46349,
+      "sha": "5c5f4fb5af8150f6531f17de548dac3a0d3338cd"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1213.jpeg",
+      "size": 35107,
+      "sha": "5f1c702c5f37ce27601031a156ce2d3ab1c4fe57"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1216.jpeg",
+      "size": 53783,
+      "sha": "b0d72f40bc8b3db45663524235514641f81d2180"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1217.jpeg",
+      "size": 54613,
+      "sha": "12a3611c1490eafca6399fc90a184146fa770eb7"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1218.jpeg",
+      "size": 2264637,
+      "sha": "ff3d70d2d0cfb0846562ee02f7e343c8d0aa66b5"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1219.jpeg",
+      "size": 2122314,
+      "sha": "48367ab0592afa561adf0efbe0beb50773b8cd09"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1220.jpeg",
+      "size": 1906302,
+      "sha": "ba2c6120e2a1cf89453bbda751ea4dc6307e4a2b"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1221.jpeg",
+      "size": 2273562,
+      "sha": "8b91a942e54011ac8f0387d6dc0ffec5201a1804"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1222.jpeg",
+      "size": 3128326,
+      "sha": "d1bd2ed03d466a7314eccbc7ab49ad7a079be8b0"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1223.jpeg",
+      "size": 2850999,
+      "sha": "84eaad4d61abe0b538172381b4cad29b1a658604"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1224.jpeg",
+      "size": 48841,
+      "sha": "729bbb09aeaf650154f064f2d4090e6aeb996dfb"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1225.jpeg",
+      "size": 36467,
+      "sha": "b2232ec3f6de0ee6ac5540be3553705f3a0ec47e"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1226.jpeg",
+      "size": 36634,
+      "sha": "15bd6651989d02dc3cbb578b00542a6d91ac00ee"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1227.jpeg",
+      "size": 53886,
+      "sha": "cd72cbc37d09c24dc41be2d50abe8b6cdcf9961b"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/BINGO/IMG_1229.jpeg",
+      "size": 44784,
+      "sha": "ca0febd0e62d9e11c1da77324aa3d2af90f71f3f"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/IMG_0401.PNG",
+      "size": 316679,
+      "sha": "5dd2090a7789dc83ba957687924ecad4c84119bc"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/IMG_0402.PNG",
+      "size": 304951,
+      "sha": "e94ad4b5fa72139dbdb6c10891914bd3b6b51123"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/LinuxRaw25/Linux raw pt1.pdf",
+      "size": 1236917,
+      "sha": "14db5da361caa9da997609726b5088168bfa72dd"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/LinuxRaw25/Linux raw pt2.pdf",
+      "size": 776858,
+      "sha": "14cb98b7deb4872ce1225011c482fe43ac0aef11"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1337.jpeg",
+      "size": 2105887,
+      "sha": "37ffe8536a3a13f95cdb8462ec542bbde5764a48"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1338.jpeg",
+      "size": 2400181,
+      "sha": "f25b2d4cc6eac0c8cae93676900617d15f088124"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1340.jpeg",
+      "size": 3599418,
+      "sha": "874abf7b93fd5aa8f344437f6acc2c8f93514202"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1342.jpeg",
+      "size": 2484783,
+      "sha": "c8c9a5c5ac4daa6bbb2525867458c0062582aa21"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1343.jpeg",
+      "size": 3452161,
+      "sha": "2108613558526c8cf13bf3526341719eede423a8"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1344.jpeg",
+      "size": 3190706,
+      "sha": "4f17332e76543809a3c48e4afc97766d6302a1b6"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1345.jpeg",
+      "size": 2634178,
+      "sha": "6e9181c26386534a433750ae42fabc4b565b71bf"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1346.jpeg",
+      "size": 3070362,
+      "sha": "a47cdd951e3e5ae78f86f5333834862a8448f96c"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1349.jpeg",
+      "size": 2971141,
+      "sha": "cebd8de84b9e56ca0cd10b7e90b05154ae823001"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1351.jpeg",
+      "size": 4037610,
+      "sha": "768fb383d283193fd8bc36c70b297253c8137585"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1352.jpeg",
+      "size": 4997310,
+      "sha": "7e4d6d7229ce823881cf2a09274bc518661ef44e"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1353.jpeg",
+      "size": 3249774,
+      "sha": "b189cedfaae980305e7aa6365dfb5f39d686dfb9"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1354.jpeg",
+      "size": 3259336,
+      "sha": "ddd7fe6e18126f3b0f4ef424dff4cfb60bc5991a"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1355.jpeg",
+      "size": 3142456,
+      "sha": "fef7f6eda8b8ab765caec21552865dc1954a0de9"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1356.jpeg",
+      "size": 3750739,
+      "sha": "5ff016dcf55212c6084b26f5be12c0e4afe8fafe"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1358.jpeg",
+      "size": 2784825,
+      "sha": "325b0286023518f8d9c67ef1716ea24dcb185ec7"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1359.jpeg",
+      "size": 4575228,
+      "sha": "643ba65daf9507c83880f3f3d42441a5321f7b1d"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1360.jpeg",
+      "size": 5025900,
+      "sha": "c0db2d5f36974a3c53e8f888e5730c1116937e48"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1361.jpeg",
+      "size": 3850120,
+      "sha": "3a5861f1ae8ecca20463ec31877ec44e23aaa174"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1362.jpeg",
+      "size": 1638659,
+      "sha": "8d25a0a07efb0214d6408e31420b95d9fe016038"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1363.jpeg",
+      "size": 3672157,
+      "sha": "a1c8fb680d2138ba9262aea018e3618233f5dd56"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1364.jpeg",
+      "size": 3212748,
+      "sha": "65ed0b9d5ec7d5387d54024d66acd71be87eeb63"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/THEBULLETFROMSMOKINGUN/IMG_1365.jpeg",
+      "size": 1420550,
+      "sha": "6424dfb9a1a8557b728b01078fcf1a60745f1a3f"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/copy.odt",
+      "size": 289589,
+      "sha": "998d74c86fe021b3f6e3d159ca9f7ccaaf5bc98e"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/ErrorLogs/IMG_0432.png",
+      "size": 7472236,
+      "sha": "3ab828f4ea1c0ebb6c5ace523ffc9561108f9617"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/ErrorLogs/IMG_0433.png",
+      "size": 1820806,
+      "sha": "11168a24b590630c6406c52fb43c5dc2c2ebac8f"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/ErrorLogs/IMG_0434.png",
+      "size": 1005808,
+      "sha": "91908fbdf3a896b8d5cc810b339be77f189813d6"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0330.JPG",
+      "size": 2976192,
+      "sha": "952162209e0bb3a70c164a60b7a35813fd11c095"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0331.JPG",
+      "size": 3056929,
+      "sha": "cda17eddbe7b45b86d4e4f69c8f2a8595b9dbe5a"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0332.JPG",
+      "size": 3664734,
+      "sha": "432fb8c94401fcf56d33a4769ed56bbef5fcc0c2"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0333.JPG",
+      "size": 2706570,
+      "sha": "b541d0ff632fd688bc6c8972392fc27b7c90e30f"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0334.JPG",
+      "size": 2966041,
+      "sha": "c5bd8d8408026fd72b81639c8a08e80ec66b84fd"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0336.JPG",
+      "size": 2694379,
+      "sha": "d3722bc50dd872dbb44903db70a1e4f53d0bb4f6"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0337.JPG",
+      "size": 2825743,
+      "sha": "b321d4e517b23f4f8c2bbf1ce2a3ae20f2b8e68f"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0338.JPG",
+      "size": 2704320,
+      "sha": "c70bdc776f1b98e56b53685d079cd63e2ccbae1b"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0339.JPG",
+      "size": 2271965,
+      "sha": "eaeaa09c9aeab8f336559207518c088281cd30ac"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0340.JPG",
+      "size": 3105879,
+      "sha": "855b91a3cdf75707b180dfbc1ba097eaaeb4ac20"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0344.JPG",
+      "size": 3187188,
+      "sha": "17a9e3a649afe049ef756dcb788526152d89f3a7"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0386.png",
+      "size": 862853,
+      "sha": "3ed7f671db72318c7a382e355092c59ba3ceacc7"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0387.png",
+      "size": 876876,
+      "sha": "22effdb748e3157024a4242aa80b4e62b59762c1"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0388.png",
+      "size": 857769,
+      "sha": "b40bb4b320445b446bba46f1b3ef2aaf9f10b208"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0413.png",
+      "size": 863714,
+      "sha": "712fef4c7d64ab2cf5bf503f23e8c368332c5940"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0414.png",
+      "size": 857635,
+      "sha": "2310a01278232c3efcee8e98d1f5cf33c8b7e339"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0415.png",
+      "size": 505485,
+      "sha": "e881a205fd5d70b4927955d424c3f43cbd8335a4"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/IMG_0417.png",
+      "size": 828395,
+      "sha": "8a54c6ba43c0c1db628d56b68599aa75fd93aa0e"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/linux-logs-screenshots/Screenshot 2026-03-20 at 19.00.08.png",
+      "size": 2496676,
+      "sha": "bfd2ccfb2846f04b8e2d64c7ac6e7dc4a133b7a4"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/dmesg",
+      "size": 78788,
+      "sha": "137f3ef42963161395879c9b2b46565519f02962"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/dmesg.0",
+      "size": 78663,
+      "sha": "592e985ff997d76d142cd7bb1d595800748ca7d2"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/dmesg.1.gz",
+      "size": 20496,
+      "sha": "9a11a49312e791b139e5d22ce80d7cce6eadfe28"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/dmesg.2.gz",
+      "size": 20684,
+      "sha": "e4bc0145ae46390ed6ef3f4d8083150e03253a6b"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/dmesg.3.gz",
+      "size": 20881,
+      "sha": "f14b97714dd6df0d392b034a9439c98284a3459f"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/dmesg.4.gz",
+      "size": 20277,
+      "sha": "77c4d71b8a0a76c92263719d2d33c8b180a7f10c"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/eipp.log.xz",
+      "size": 112092,
+      "sha": "88e2fa88895cd0fe0b97b209f626a5625a793b1b"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/rkhunter.log.old",
+      "size": 217352,
+      "sha": "fbfe94df0cf8eea3e555a16a4fcdccbc279a02c8"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/sa28",
+      "size": 114760,
+      "sha": "4ff79052fe9313a601d2b2eda9e21c09a41d94a0"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/subiquity-server-debug.log.2700",
+      "size": 226849,
+      "sha": "c95ff36b5cce96a61289c18993f1db5fa9ad4beb"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/syslog",
+      "size": 2643271,
+      "sha": "d82f4ca7ee39f653cced579bade51131d6db1379"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/system.journal",
+      "size": 8388608,
+      "sha": "62ff04c26e016a0f23b0f096a625387f3ba2d683"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/system@06555d01dad045cf826e0a59d08d9942-00000000000003a9-00061f2d284abff2.journal",
+      "size": 8388608,
+      "sha": "0f462d5cfe6915bcd909a6aa41e442f3ea1a9ae4"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/system@06555d01dad045cf826e0a59d08d9942-00000000000012a0-00064e09c2892f87.journal",
+      "size": 8388608,
+      "sha": "8dfcdd2304efc299a238dbeece6c90aad16f3b61"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/system@10c821412fb14d308b5ea1b09686c01f-0000000000003e9b-00064e0c35df36d2.journal",
+      "size": 8388608,
+      "sha": "5a6f9c6061c0ec4804ce84ac24d5444c4bcc2f5d"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/system@23ad69b249a14ede93a20b1b1d2378fd-00000000000057ca-00064ceaa4436658.journal",
+      "size": 8388608,
+      "sha": "d6b49a2705a160640fce625b3b902a899e01079c"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/system@3b9f04cc2db54c26b97e4bb48b0924a7-0000000000005ecc-00064ceaa4438596.journal",
+      "size": 8388608,
+      "sha": "6e9b363aaa89905061b3da484e8e93dbac538960"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/system@3b9f04cc2db54c26b97e4bb48b0924a7-00000000000064ce-00064e0c6d0f6049.journal",
+      "size": 8388608,
+      "sha": "8a83effdb56b69163008be86d1e481e729c75e90"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/system@a95081258c8d45aab3ad1012254d1009-0000000000006829-00064e17a44fd3ef.journal",
+      "size": 8388608,
+      "sha": "5196ae6d6318469c68aadb63ddca235bebfecc5b"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/system@dce28a00959e4649aa5ca6306f2deb4d-00000000000040d4-00064e0c44db038b.journal",
+      "size": 8388608,
+      "sha": "07da8604836463e5f4c0e49b7f9e7e8e5b07be66"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/system@e2290fe013074e0380be04009402ad3e-0000000000004c43-00064e0c4b2af371.journal",
+      "size": 8388608,
+      "sha": "51213594c2a182ee36f805325b99907cc0b35bb0"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/user-1000.journal",
+      "size": 8388608,
+      "sha": "813f8544b2c7917f4f298efbac3e5276bb563d2e"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/user-1000@06555d01dad045cf826e0a59d08d9942-0000000000000fd1-00061f2d2e3bc8a4.journal",
+      "size": 8388608,
+      "sha": "ba5f490f5fcfda2de1678bf056d25635835edf8f"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/user-1000@06555d01dad045cf826e0a59d08d9942-00000000000012a7-00064e09c289f555.journal",
+      "size": 8388608,
+      "sha": "45949be26cd0db182ec61944d04e3ec913ce9005"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/user-1000@10c821412fb14d308b5ea1b09686c01f-0000000000003e9a-00064e0c35de6e79.journal",
+      "size": 8388608,
+      "sha": "02208dc8a634e13a2d608d90676bb0813bad835f"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1627/user-1000@3b9f04cc2db54c26b97e4bb48b0924a7-00000000000064cd-00064e0c6d0eb81c.journal",
+      "size": 8388608,
+      "sha": "9822d479603abe0a918695d9a7783675bdb1f6cc"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/logs1sthour/All hourlysave.evtx",
+      "size": 23138304,
+      "sha": "0d239afa9eca4b6f5768da8710629558aa21fe2b"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/stop-malware-google-search-compressed.pdf",
+      "size": 1066784,
+      "sha": "6df288b056a6c2a690eed0feffe33b15ba9394b5"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/stop-malware-google-search.webarchive",
+      "size": 20356186,
+      "sha": "625116a79d4e1484491d85ae562238eebba2a383"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/system.journal",
+      "size": 8388608,
+      "sha": "62ff04c26e016a0f23b0f096a625387f3ba2d683"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "evidence/raw/system@3b9f04cc-5ecc.journal",
+      "size": 8388608,
+      "sha": "6e9b363aaa89905061b3da484e8e93dbac538960"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0583.jpeg",
+      "size": 1859109,
+      "sha": "ec31b6169e660f43819d07f839a79b0b5c8be037"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0627.jpeg",
+      "size": 1921543,
+      "sha": "f73e6b6c428af3468e921564ee72cbb4bf332c81"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0719.jpeg",
+      "size": 2323495,
+      "sha": "27464d26df7ba15a40fcb0ffffa5adf23812495d"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0833.jpeg",
+      "size": 1345892,
+      "sha": "5b9a79e8c02f7ea738945aec032372608c9f4524"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0986.jpeg",
+      "size": 92865,
+      "sha": "9165273942244b4c41b48cc0a065f2a9f6527449"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0987.jpeg",
+      "size": 111139,
+      "sha": "52eefaa26e6cb358390f99a1be29bb7802194654"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0988.jpeg",
+      "size": 75123,
+      "sha": "e474e421c1b24f47f856d3ae2960c2851b319ce6"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0990.jpeg",
+      "size": 242929,
+      "sha": "14d2476ab887028dd8eef0882cd71adb1f7a2325"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_0991.jpeg",
+      "size": 184634,
+      "sha": "8b62042fdb430f0c866376df37b10cb7f321c417"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1003.jpeg",
+      "size": 3172820,
+      "sha": "2e27d2928561ce76b4a347bc369a6ae381cfb40c"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1099.jpeg",
+      "size": 111449,
+      "sha": "3f58da96f3575d79e59ee5bdadc10681e791a239"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1100.jpeg",
+      "size": 111493,
+      "sha": "4e3b7c723d141d9e9ddd58fa192cfc8af38a96c3"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1101.jpeg",
+      "size": 111097,
+      "sha": "479a1be914f4229ce25fc9d4b92ed0142ca6891a"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1102.jpeg",
+      "size": 120219,
+      "sha": "e5663ab300c3dfc7c78bcd86ea60690c4b160b25"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1103.jpeg",
+      "size": 82955,
+      "sha": "e5f1fa8f21308f361acc989271fbba869f58d7c0"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1104.jpeg",
+      "size": 102392,
+      "sha": "34f96a850a5bb19f4d8202a3c28ef1bde2827aef"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1105.jpeg",
+      "size": 93401,
+      "sha": "219c3ca37da20c0bcd183750305d051f7dd37215"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1106.jpeg",
+      "size": 95260,
+      "sha": "50d17cc9abf0e9faa7ee7da8a013d046a4abe6c8"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1107.jpeg",
+      "size": 105763,
+      "sha": "85e6f936b08721f90c6937f07bf2903857731e90"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1108.jpeg",
+      "size": 94415,
+      "sha": "ffc1f9b3fca697a040b8d82ff8b33f04bfd15271"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1109.jpeg",
+      "size": 49894,
+      "sha": "572afca5c8e76a281027cadf3d714f92e803e33c"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1110.jpeg",
+      "size": 103149,
+      "sha": "f0e467d1d077ec0e420572b6b481f65c8d84071d"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1111.jpeg",
+      "size": 95418,
+      "sha": "5bf0ae25ea68c3d70dfe68eb990f039c7af03108"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1112.jpeg",
+      "size": 94868,
+      "sha": "a01b39f2cb635a0a1fca6ebe3c49045445c1e72a"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1113.jpeg",
+      "size": 95546,
+      "sha": "5f16f52897d2ffb9e11f6c520971604718cae336"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1114.jpeg",
+      "size": 85636,
+      "sha": "bdf08fe91caa6eb5f70c57fc767ca1698a0aa5a3"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/As discussed/IMG_1115.jpeg",
+      "size": 97448,
+      "sha": "abaaa65b5a0c406c45c5f34570b754938d5488f2"
+    },
+    {
+      "source_repo": "Smooth115/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/archive/vault-snapshot-pre-sync-2026-03-20.tar.gz",
+      "size": 7264,
+      "sha": "717008f3c56b567e366f8fde3bae57b9f61eed43"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "IMG_0401.PNG",
+      "size": 316679,
+      "sha": "5dd2090a7789dc83ba957687924ecad4c84119bc"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "IMG_0402.PNG",
+      "size": 304951,
+      "sha": "e94ad4b5fa72139dbdb6c10891914bd3b6b51123"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "assets/images/IMG_0157.png",
+      "size": 353299,
+      "sha": "43281293e6d34e8eeee6831e70f2cd36f15f5f3a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "assets/images/IMG_0158.png",
+      "size": 343391,
+      "sha": "77270f4324ec3a820106dcd1533a16aeb9f0f29c"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "assets/images/IMG_0318.jpeg",
+      "size": 4231670,
+      "sha": "8810e6741b7d4866cd8702d5b28a5ff73c002ed6"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "assets/images/IMG_0386.png",
+      "size": 7356371,
+      "sha": "bbb9536fd7aec446e2cb16f4a92762a4c3eb1f9b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "assets/images/IMG_0387.png",
+      "size": 7684961,
+      "sha": "883b8c09f0e57c551a8a4a43364123264f246d8f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "assets/images/IMG_0388.png",
+      "size": 7354191,
+      "sha": "c62b0dd3a2b26ed6cbd483ff2e8102b3cd95b532"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "assets/images/IMG_0401.PNG",
+      "size": 316679,
+      "sha": "5dd2090a7789dc83ba957687924ecad4c84119bc"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "assets/images/IMG_0402.PNG",
+      "size": 304951,
+      "sha": "e94ad4b5fa72139dbdb6c10891914bd3b6b51123"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/ErrorLogs/IMG_0432.png",
+      "size": 7472236,
+      "sha": "3ab828f4ea1c0ebb6c5ace523ffc9561108f9617"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/ErrorLogs/IMG_0433.png",
+      "size": 1820806,
+      "sha": "11168a24b590630c6406c52fb43c5dc2c2ebac8f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/ErrorLogs/IMG_0434.png",
+      "size": 1005808,
+      "sha": "91908fbdf3a896b8d5cc810b339be77f189813d6"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0330.JPG",
+      "size": 2976192,
+      "sha": "952162209e0bb3a70c164a60b7a35813fd11c095"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0331.JPG",
+      "size": 3056929,
+      "sha": "cda17eddbe7b45b86d4e4f69c8f2a8595b9dbe5a"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0332.JPG",
+      "size": 3664734,
+      "sha": "432fb8c94401fcf56d33a4769ed56bbef5fcc0c2"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0333.JPG",
+      "size": 2706570,
+      "sha": "b541d0ff632fd688bc6c8972392fc27b7c90e30f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0334.JPG",
+      "size": 2966041,
+      "sha": "c5bd8d8408026fd72b81639c8a08e80ec66b84fd"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0336.JPG",
+      "size": 2694379,
+      "sha": "d3722bc50dd872dbb44903db70a1e4f53d0bb4f6"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0337.JPG",
+      "size": 2825743,
+      "sha": "b321d4e517b23f4f8c2bbf1ce2a3ae20f2b8e68f"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0338.JPG",
+      "size": 2704320,
+      "sha": "c70bdc776f1b98e56b53685d079cd63e2ccbae1b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0339.JPG",
+      "size": 2271965,
+      "sha": "eaeaa09c9aeab8f336559207518c088281cd30ac"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0340.JPG",
+      "size": 3105879,
+      "sha": "855b91a3cdf75707b180dfbc1ba097eaaeb4ac20"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0344.JPG",
+      "size": 3187188,
+      "sha": "17a9e3a649afe049ef756dcb788526152d89f3a7"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0386.png",
+      "size": 862853,
+      "sha": "3ed7f671db72318c7a382e355092c59ba3ceacc7"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0387.png",
+      "size": 876876,
+      "sha": "22effdb748e3157024a4242aa80b4e62b59762c1"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0388.png",
+      "size": 857769,
+      "sha": "b40bb4b320445b446bba46f1b3ef2aaf9f10b208"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0413.png",
+      "size": 863714,
+      "sha": "712fef4c7d64ab2cf5bf503f23e8c368332c5940"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0414.png",
+      "size": 857635,
+      "sha": "2310a01278232c3efcee8e98d1f5cf33c8b7e339"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0415.png",
+      "size": 505485,
+      "sha": "e881a205fd5d70b4927955d424c3f43cbd8335a4"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/IMG_0417.png",
+      "size": 828395,
+      "sha": "8a54c6ba43c0c1db628d56b68599aa75fd93aa0e"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "investigation/Linux logs/Screenshot 2026-03-20 at 19.00.08.png",
+      "size": 2496676,
+      "sha": "bfd2ccfb2846f04b8e2d64c7ac6e7dc4a133b7a4"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "logs1sthour/All hourlysave.evtx",
+      "size": 23138304,
+      "sha": "0d239afa9eca4b6f5768da8710629558aa21fe2b"
+    },
+    {
+      "source_repo": "Smooth511/Claude-MKII",
+      "source_path": "mk2-phantom/.vault/archive/vault-snapshot-pre-sync-2026-03-20.tar.gz",
+      "size": 7264,
+      "sha": "717008f3c56b567e366f8fde3bae57b9f61eed43"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "21stish/IMG_0438.JPG",
+      "size": 5647163,
+      "sha": "8547bf3a7c4cd935dbd3f0944df8b6fae4d14b93"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "21stish/IMG_0439.JPG",
+      "size": 4454705,
+      "sha": "f0e5872a842e8c1419b7e1832b6e1af23a90c7b1"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "21stish/IMG_0440.JPG",
+      "size": 2150980,
+      "sha": "9e74cc0a706b6c998c3144ccb6d48ef363f0e60d"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "21stish/IMG_0441.JPG",
+      "size": 4045731,
+      "sha": "6f8584a7992da77c3c55d6fce27638f09bfd6718"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "21stish/IMG_0459.JPG",
+      "size": 2136014,
+      "sha": "6237023d42868d81f5e73381a348c86c27a703b8"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "21stish/IMG_0460.JPG",
+      "size": 3356575,
+      "sha": "90952e2d53d553bc3729e554b16218d1700bea1d"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "21stish/IMG_0461.JPG",
+      "size": 2665330,
+      "sha": "c8605e8bd4ef3b81cbf4e93d017e406e26197b18"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0665.jpeg",
+      "size": 31140,
+      "sha": "a34f0231f50e7464a135427a19a724e4a141b888"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0667.jpeg",
+      "size": 36129,
+      "sha": "eb32ef5db42381e75fb6255242685bdf54bf7d27"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0668.jpeg",
+      "size": 35168,
+      "sha": "c56c691629f58c76c8bb1f52fbdc392439ddb330"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0669.jpeg",
+      "size": 37070,
+      "sha": "4ae83e389896c836ca27470a073db2785205f552"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0670.jpeg",
+      "size": 37733,
+      "sha": "34e9c648897b6f77190948f09c16ab06cb0fa6db"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0671.jpeg",
+      "size": 38248,
+      "sha": "f4454ea1199f96ef377c475d2a0f454855f60c8b"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0672.jpeg",
+      "size": 37617,
+      "sha": "2013e2905cdc2ada5ece27549ea12bffa0191ea9"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0673.jpeg",
+      "size": 42338,
+      "sha": "370171eb7ccf6ca92c5c3f6a85667d8963451ca2"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0674.jpeg",
+      "size": 33666,
+      "sha": "944d7aa1d5f244c00898f9cdfe060a8030b8d2ab"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0675.jpeg",
+      "size": 29343,
+      "sha": "023393400790be9a9fa0b8c9f43d74578da8110e"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0676.jpeg",
+      "size": 31257,
+      "sha": "315ca78fec8314f56e28f5dfaf57ab9cd0672338"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0677.jpeg",
+      "size": 29549,
+      "sha": "b26a4b522e580691ff724f8fa1fb936cff76c10d"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0678.jpeg",
+      "size": 31894,
+      "sha": "6e81a411fb1731cbd73536768bf9e4ec1863f46c"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0679.jpeg",
+      "size": 30009,
+      "sha": "b5eb49b118491ffae2bcd35daa948fa078fd69b4"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0680.jpeg",
+      "size": 28788,
+      "sha": "9fbbee38e162b43a4c7bcfe8ad4f9cfa4e823af7"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0681.jpeg",
+      "size": 28511,
+      "sha": "b2d144476562a2245cd9344f7cec4340a7ec6724"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0682.jpeg",
+      "size": 30460,
+      "sha": "c1998729ae41f8e0234542f936c2d7d3bb05f8ce"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0683.jpeg",
+      "size": 28950,
+      "sha": "301acc66b1face738f736824a54568b883d7e0ea"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0684.jpeg",
+      "size": 29198,
+      "sha": "0bcc3754df53e930d70c7d331a2454b2e85c8322"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0685.jpeg",
+      "size": 30168,
+      "sha": "e5322a6c610e1d0c2c7d1c406382a70cac8ca9f9"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0686.jpeg",
+      "size": 28947,
+      "sha": "859d5f9a8d3172220f4bc7da9e125f68a72e3186"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0687.jpeg",
+      "size": 32469,
+      "sha": "0ff4a1f509526061f8d90735c4cdb404186c115a"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0688.jpeg",
+      "size": 37014,
+      "sha": "39d2ec6c0da836c054b73a4fbe0af7600680588c"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0689.jpeg",
+      "size": 30177,
+      "sha": "e3d57b0a8a217966cf9bf19738fafc360c41a7de"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0690.jpeg",
+      "size": 35241,
+      "sha": "a6c086994c048d0b3cc9c8c13b58c5119f43ee24"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0691.jpeg",
+      "size": 39853,
+      "sha": "92425755ebfbad6a5941fb5fc2797a863fd93f30"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0692.jpeg",
+      "size": 29520,
+      "sha": "025932644561a012700cfb76ecb6580743cd857b"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0693.jpeg",
+      "size": 30443,
+      "sha": "b65422bb8b43f07307c10ceac1512dccdef2775d"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0694.jpeg",
+      "size": 30068,
+      "sha": "8fff08356481a1d87eca6a864d1374ac95a1f503"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0695.jpeg",
+      "size": 30022,
+      "sha": "8a786c9249d8f029993944a128040a7eb815b410"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0696.jpeg",
+      "size": 33703,
+      "sha": "c1a21c1d1fd24cb70478335492fc1f439b42494c"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0697.jpeg",
+      "size": 30367,
+      "sha": "e2d8a5d46c6b5eaeb2281380defb3c474123263d"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0698.jpeg",
+      "size": 31938,
+      "sha": "8011f42565b7b2ea4d852cf80f6d908c25f7c283"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0699.jpeg",
+      "size": 33048,
+      "sha": "0496c11ca9203e89f275eb5d5f4294a6f0038cf4"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0700.jpeg",
+      "size": 38490,
+      "sha": "3eae7d713681aa95a3694d29e386ff779ffba74e"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0701.jpeg",
+      "size": 35546,
+      "sha": "fcab18b4aaa67529ec72859b6f9c2068fa0fff91"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "IMG_0702.jpeg",
+      "size": 30082,
+      "sha": "c7f77373eb34123dc533d6aa77f6d131dbfe895f"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/ErrorLogs-IMG_0432.png",
+      "size": 7472236,
+      "sha": "3ab828f4ea1c0ebb6c5ace523ffc9561108f9617"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/ErrorLogs-IMG_0433.png",
+      "size": 1820806,
+      "sha": "11168a24b590630c6406c52fb43c5dc2c2ebac8f"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/ErrorLogs-IMG_0434.png",
+      "size": 1005808,
+      "sha": "91908fbdf3a896b8d5cc810b339be77f189813d6"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0330.JPG",
+      "size": 2976192,
+      "sha": "952162209e0bb3a70c164a60b7a35813fd11c095"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0331.JPG",
+      "size": 3056929,
+      "sha": "cda17eddbe7b45b86d4e4f69c8f2a8595b9dbe5a"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0332.JPG",
+      "size": 3664734,
+      "sha": "432fb8c94401fcf56d33a4769ed56bbef5fcc0c2"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0333.JPG",
+      "size": 2706570,
+      "sha": "b541d0ff632fd688bc6c8972392fc27b7c90e30f"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0334.JPG",
+      "size": 2966041,
+      "sha": "c5bd8d8408026fd72b81639c8a08e80ec66b84fd"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0336.JPG",
+      "size": 2694379,
+      "sha": "d3722bc50dd872dbb44903db70a1e4f53d0bb4f6"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0337.JPG",
+      "size": 2825743,
+      "sha": "b321d4e517b23f4f8c2bbf1ce2a3ae20f2b8e68f"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0338.JPG",
+      "size": 2704320,
+      "sha": "c70bdc776f1b98e56b53685d079cd63e2ccbae1b"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0339.JPG",
+      "size": 2271965,
+      "sha": "eaeaa09c9aeab8f336559207518c088281cd30ac"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0340.JPG",
+      "size": 3105879,
+      "sha": "855b91a3cdf75707b180dfbc1ba097eaaeb4ac20"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0344.JPG",
+      "size": 3187188,
+      "sha": "17a9e3a649afe049ef756dcb788526152d89f3a7"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0386.png",
+      "size": 862853,
+      "sha": "3ed7f671db72318c7a382e355092c59ba3ceacc7"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0387.png",
+      "size": 876876,
+      "sha": "22effdb748e3157024a4242aa80b4e62b59762c1"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0388.png",
+      "size": 857769,
+      "sha": "b40bb4b320445b446bba46f1b3ef2aaf9f10b208"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0413.png",
+      "size": 863714,
+      "sha": "712fef4c7d64ab2cf5bf503f23e8c368332c5940"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0414.png",
+      "size": 857635,
+      "sha": "2310a01278232c3efcee8e98d1f5cf33c8b7e339"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0415.png",
+      "size": 505485,
+      "sha": "e881a205fd5d70b4927955d424c3f43cbd8335a4"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0417.png",
+      "size": 828395,
+      "sha": "8a54c6ba43c0c1db628d56b68599aa75fd93aa0e"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "investigations/Linux-logs-Screenshot-2026-03-20-at-19.00.08.png",
+      "size": 2496676,
+      "sha": "bfd2ccfb2846f04b8e2d64c7ac6e7dc4a133b7a4"
+    },
+    {
+      "source_repo": "Smooth511/DATABASE",
+      "source_path": "logs/first-hour/All-hourlysave.evtx",
+      "size": 23138304,
+      "sha": "0d239afa9eca4b6f5768da8710629558aa21fe2b"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "forensic-analysis/iOS First Contact Handover Mar12.pdf",
+      "size": 126204,
+      "sha": "bab2566515377c7e110ae6afd084eac984b9dcbb"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/activation/mobileactivationd.log.1",
+      "size": 66168,
+      "sha": "34f43ce4a64ee3ba46d0d0f2722692c32ae0f355"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/apple-ips/Analytics-2026-03-04-000004.000.ips.ca 3.synced",
+      "size": 228483,
+      "sha": "ce5715a6aec3302b7a21ea0a6fbd0a32d6726efc"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/apple-ips/Analytics-2026-03-04-000004.000.ips.ca 4.synced",
+      "size": 228483,
+      "sha": "ce5715a6aec3302b7a21ea0a6fbd0a32d6726efc"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/config-plists/BatteryUI.plist",
+      "size": 515436,
+      "sha": "c7099da39faa0cfc278a7d896a1dbf0a5ae9b1a8"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/config-plists/BatteryUISysdiagnose.plist",
+      "size": 784700,
+      "sha": "125e63873ddde32fdbc4a09959372d8e875d8187"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/config-plists/config.plist",
+      "size": 84311,
+      "sha": "b68b7d2b3e48c73440365d7244b4f7b234d6b4de"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/config-plists/state.plist",
+      "size": 206659,
+      "sha": "0c647b64882642b8af947f3b025fa46362427fd0"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/crash/DSCSYM-37552E38-73EC-3107-82BB-3D424E169A66",
+      "size": 1836438,
+      "sha": "bc8a605eb7b27833fd4b70618954bcc605c516a6"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/hardware/DCP.plist",
+      "size": 98076,
+      "sha": "2ccf8982c9c20bbe2709a4995ecd22f2147f8c3b"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/security/TCC.db",
+      "size": 86016,
+      "sha": "e6d1a4f47ad7da7576cc16360758d91bccf24c46"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/system/downloads.28.sqlitedb-wal",
+      "size": 156592,
+      "sha": "42fe24ef1eec51e83241f5738d5b3ddb72374997"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/system/log_2026-03-09_12-57_163D9404.BGSQL",
+      "size": 1818624,
+      "sha": "ba486814bcf80dd02e9ba2c9b51ea981c4a51c51"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/system/log_2026-03-09_12-57_DF792B37.EPSQL",
+      "size": 282624,
+      "sha": "60e6d1b680e6654e0514169d9fd477b137e8cfc0"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/system/mobile_installation.log.0",
+      "size": 98687,
+      "sha": "8074fcef89c6c681cc1c003e2ad76e02a4e26ef7"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/system/mobile_installation.log.1",
+      "size": 262526,
+      "sha": "ae6774628751879677a9546cba4781c32fbc6ff0"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "logs/system/usermanagerd.log.0",
+      "size": 208093,
+      "sha": "012ee72138ce77df32a7d1b8bfc3f8c2bcfaa4cb"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "sensitive-documents/EVTX Analysis Addendum Mar12.docx",
+      "size": 19776,
+      "sha": "eb92f3afacc4badb9f89e49fbcc908db21f13c72"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "sensitive-documents/Project12 SaveFile Mar12 2.docx",
+      "size": 18851,
+      "sha": "adf54fd706f44e3a0ea70806950c8ef9b4256163"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "sensitive-documents/Project12 SaveFile Mar12.docx",
+      "size": 18851,
+      "sha": "adf54fd706f44e3a0ea70806950c8ef9b4256163"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "sensitive-documents/iOS First Contact Handover Mar12.docx",
+      "size": 18467,
+      "sha": "679b9549c156adf56e8998b173ac258d6188915a"
+    },
+    {
+      "source_repo": "Smooth511/Threat-2-the-shadow-dismantled-",
+      "source_path": "sensitive-documents/iOS First Contact Handover Mar12.pdf",
+      "size": 126204,
+      "sha": "bab2566515377c7e110ae6afd084eac984b9dcbb"
+    },
+    {
+      "source_repo": "Smooth511/malware-invasion.-battle-of-the-rootkits",
+      "source_path": "IMG_7401.jpeg",
+      "size": 3620147,
+      "sha": "fccce4981333863a4b702a9e23bb69b3f1595980"
+    },
+    {
+      "source_repo": "Smooth511/malware-invasion.-battle-of-the-rootkits",
+      "source_path": "IMG_7402.jpeg",
+      "size": 3641965,
+      "sha": "5296ef4a2df7934f48736f28075a259c056e6b8b"
+    },
+    {
+      "source_repo": "Smooth511/malware-invasion.-battle-of-the-rootkits",
+      "source_path": "IMG_7403.jpeg",
+      "size": 4648055,
+      "sha": "fb4236b7cb52e4c2617eb77fb87b3f0fd71b7291"
+    },
+    {
+      "source_repo": "Smooth511/malware-invasion.-battle-of-the-rootkits",
+      "source_path": "IMG_7406.jpeg",
+      "size": 2336456,
+      "sha": "e48c63cbd251818d0d3fd05d9c09f493b844d84c"
+    },
+    {
+      "source_repo": "Smooth511/malware-invasion.-battle-of-the-rootkits",
+      "source_path": "IMG_7408.jpeg",
+      "size": 2343062,
+      "sha": "d2a7cd4ed6f32eef30944e369fe72eb4219a96a3"
+    },
+    {
+      "source_repo": "Smooth511/malware-invasion.-battle-of-the-rootkits",
+      "source_path": "IMG_7412.jpeg",
+      "size": 2432767,
+      "sha": "639ef75233dc6d8e0b2ebc4a29c8c0df4e39d07b"
+    },
+    {
+      "source_repo": "Smooth511/malware-invasion.-battle-of-the-rootkits",
+      "source_path": "IMG_7413.jpeg",
+      "size": 666962,
+      "sha": "348192fd4dea3638ca4de91f9e704266b76bb0e7"
+    },
+    {
+      "source_repo": "Smooth511/malware-invasion.-battle-of-the-rootkits",
+      "source_path": "IMG_7414.jpeg",
+      "size": 3446635,
+      "sha": "7bd3bdbf6b8008bb99b025d394e05822686a84f9"
+    },
+    {
+      "source_repo": "Smooth511/malware-invasion.-battle-of-the-rootkits",
+      "source_path": "logs1.evtx",
+      "size": 21041152,
+      "sha": "6e945a28cc78af5391cafdcdc3b789ae795b8584"
+    },
+    {
+      "source_repo": "Smooth511/malware-invasion.-battle-of-the-rootkits",
+      "source_path": "logs14688.text",
+      "size": 15712786,
+      "sha": "e79e4ad8ba6fae8249adbe3c3a44c993556e373d"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "EVTX Analysis Addendum Mar12.docx",
+      "size": 19776,
+      "sha": "eb92f3afacc4badb9f89e49fbcc908db21f13c72"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_0053.mov",
+      "size": 1441729,
+      "sha": "975ae33d1028bb97e1ab4a2c00b90716f71a91a1"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7252.png",
+      "size": 196838,
+      "sha": "c074cc87252437008d4f012c6f445a42db19b844"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7256.jpeg",
+      "size": 2306362,
+      "sha": "3ed15af86440f9b6de4cf40784a64a33c870f12a"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7257.jpeg",
+      "size": 1985397,
+      "sha": "982b1cd96ebe518707f929e2b5d7a3a1499e7fb1"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7332.jpeg",
+      "size": 3675165,
+      "sha": "c1c730cb09a1efa22da12dfc4589155442be7c13"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7333.jpeg",
+      "size": 3875082,
+      "sha": "18d360b751e5277051354787a54bd48fd8731210"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7335.jpeg",
+      "size": 3400705,
+      "sha": "475760d83ec83d2adbf285233c0c9b31d78889ad"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7336.jpeg",
+      "size": 3247021,
+      "sha": "5682c28883833b6c95baa137b8b6c2d5b81eef5d"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7338.jpeg",
+      "size": 3809613,
+      "sha": "9d187f1bd7177dc33cf8e280a9b828ff77c90697"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7339.jpeg",
+      "size": 2888620,
+      "sha": "a555b1ff90d4ae0505568345586ad543a24d7e0b"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7340.jpeg",
+      "size": 5024993,
+      "sha": "102d715a4df9718378825e0b83f4bedb7c17acef"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7343.jpeg",
+      "size": 2012500,
+      "sha": "8877686906772d49768756eb69a8e7c89aef71ce"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7344.jpeg",
+      "size": 1951158,
+      "sha": "5b7a63467e39b508c31efd31506127b76456d252"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7346.jpeg",
+      "size": 4699964,
+      "sha": "14ef999e7914166e3e5f65ccdc6bb0206a250081"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7347.jpeg",
+      "size": 2521278,
+      "sha": "58ef7e66e98b9181182e787fdc7a004b8658bb3e"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7348.jpeg",
+      "size": 4702334,
+      "sha": "100bf52d60eb202954c392ec13f9600633b3874b"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7349.jpeg",
+      "size": 4559424,
+      "sha": "20ba8eda4c9356ae1eba2557aff8db493e72725e"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7352.jpeg",
+      "size": 3324298,
+      "sha": "30a85bdd14bb56f06ccc0b4fe81e9d9c2daa936e"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7353.jpeg",
+      "size": 3881158,
+      "sha": "7600c4cf86337ca141d406291a9d9a87bde4ffbb"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7356.jpeg",
+      "size": 2018579,
+      "sha": "3ecd6ce8788d2d34a6e38f95bdf86a7655d2b779"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7359.jpeg",
+      "size": 170851,
+      "sha": "b1f16d8ebbfa3cabcda663fed4fbac38845eabfe"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7359.png",
+      "size": 6430753,
+      "sha": "a9a9723e29ab2d867cf6825f716804a01328c89f"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7360.png",
+      "size": 5767041,
+      "sha": "2f6d48e463a506c9de6415a74aabff8038e5af5f"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7362.png",
+      "size": 2019437,
+      "sha": "01bf41edf6580cc0083822594dd39713221bd173"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7363.jpeg",
+      "size": 88775,
+      "sha": "052e00cb87f096a544c3a988f86492d957098d60"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7365.png",
+      "size": 3653336,
+      "sha": "f53b59c94fb960c6d3c67f6ba996aa332df63f43"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7366.png",
+      "size": 4095575,
+      "sha": "6bca5c849e2541cad56be79ff836820aecdec457"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7369.png",
+      "size": 233967,
+      "sha": "8145b1c653861674e968ab4032c92cc2e7752449"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "IMG_7372.jpeg",
+      "size": 2126913,
+      "sha": "343285fb9284f6819d01d8e042d873795e043fd5"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "Investigation Summary Mar12.docx",
+      "size": 15900,
+      "sha": "30b0dc7b90b30ce431bcff325ff2d90fe8b9406f"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "Project12 SaveFile Mar12 2.docx",
+      "size": 18851,
+      "sha": "adf54fd706f44e3a0ea70806950c8ef9b4256163"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "Project12 SaveFile Mar12.docx",
+      "size": 18851,
+      "sha": "adf54fd706f44e3a0ea70806950c8ef9b4256163"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "Project12_SaveFile_Mar12.docx",
+      "size": 18851,
+      "sha": "adf54fd706f44e3a0ea70806950c8ef9b4256163"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "iOS First Contact Handover Mar12.docx",
+      "size": 18467,
+      "sha": "679b9549c156adf56e8998b173ac258d6188915a"
+    },
+    {
+      "source_repo": "Smooth511/Smashers-HQ",
+      "source_path": "iOS First Contact Handover Mar12.pdf",
+      "size": 126204,
+      "sha": "bab2566515377c7e110ae6afd084eac984b9dcbb"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "21stish/IMG_0438.JPG",
+      "size": 5647163,
+      "sha": "8547bf3a7c4cd935dbd3f0944df8b6fae4d14b93"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "21stish/IMG_0439.JPG",
+      "size": 4454705,
+      "sha": "f0e5872a842e8c1419b7e1832b6e1af23a90c7b1"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "21stish/IMG_0440.JPG",
+      "size": 2150980,
+      "sha": "9e74cc0a706b6c998c3144ccb6d48ef363f0e60d"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "21stish/IMG_0441.JPG",
+      "size": 4045731,
+      "sha": "6f8584a7992da77c3c55d6fce27638f09bfd6718"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "21stish/IMG_0459.JPG",
+      "size": 2136014,
+      "sha": "6237023d42868d81f5e73381a348c86c27a703b8"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "21stish/IMG_0460.JPG",
+      "size": 3356575,
+      "sha": "90952e2d53d553bc3729e554b16218d1700bea1d"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "21stish/IMG_0461.JPG",
+      "size": 2665330,
+      "sha": "c8605e8bd4ef3b81cbf4e93d017e406e26197b18"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0665.jpeg",
+      "size": 31140,
+      "sha": "a34f0231f50e7464a135427a19a724e4a141b888"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0667.jpeg",
+      "size": 36129,
+      "sha": "eb32ef5db42381e75fb6255242685bdf54bf7d27"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0668.jpeg",
+      "size": 35168,
+      "sha": "c56c691629f58c76c8bb1f52fbdc392439ddb330"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0669.jpeg",
+      "size": 37070,
+      "sha": "4ae83e389896c836ca27470a073db2785205f552"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0670.jpeg",
+      "size": 37733,
+      "sha": "34e9c648897b6f77190948f09c16ab06cb0fa6db"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0671.jpeg",
+      "size": 38248,
+      "sha": "f4454ea1199f96ef377c475d2a0f454855f60c8b"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0672.jpeg",
+      "size": 37617,
+      "sha": "2013e2905cdc2ada5ece27549ea12bffa0191ea9"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0673.jpeg",
+      "size": 42338,
+      "sha": "370171eb7ccf6ca92c5c3f6a85667d8963451ca2"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0674.jpeg",
+      "size": 33666,
+      "sha": "944d7aa1d5f244c00898f9cdfe060a8030b8d2ab"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0675.jpeg",
+      "size": 29343,
+      "sha": "023393400790be9a9fa0b8c9f43d74578da8110e"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0676.jpeg",
+      "size": 31257,
+      "sha": "315ca78fec8314f56e28f5dfaf57ab9cd0672338"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0677.jpeg",
+      "size": 29549,
+      "sha": "b26a4b522e580691ff724f8fa1fb936cff76c10d"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0678.jpeg",
+      "size": 31894,
+      "sha": "6e81a411fb1731cbd73536768bf9e4ec1863f46c"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0679.jpeg",
+      "size": 30009,
+      "sha": "b5eb49b118491ffae2bcd35daa948fa078fd69b4"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0680.jpeg",
+      "size": 28788,
+      "sha": "9fbbee38e162b43a4c7bcfe8ad4f9cfa4e823af7"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0681.jpeg",
+      "size": 28511,
+      "sha": "b2d144476562a2245cd9344f7cec4340a7ec6724"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0682.jpeg",
+      "size": 30460,
+      "sha": "c1998729ae41f8e0234542f936c2d7d3bb05f8ce"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0683.jpeg",
+      "size": 28950,
+      "sha": "301acc66b1face738f736824a54568b883d7e0ea"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0684.jpeg",
+      "size": 29198,
+      "sha": "0bcc3754df53e930d70c7d331a2454b2e85c8322"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0685.jpeg",
+      "size": 30168,
+      "sha": "e5322a6c610e1d0c2c7d1c406382a70cac8ca9f9"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0686.jpeg",
+      "size": 28947,
+      "sha": "859d5f9a8d3172220f4bc7da9e125f68a72e3186"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0687.jpeg",
+      "size": 32469,
+      "sha": "0ff4a1f509526061f8d90735c4cdb404186c115a"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0688.jpeg",
+      "size": 37014,
+      "sha": "39d2ec6c0da836c054b73a4fbe0af7600680588c"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0689.jpeg",
+      "size": 30177,
+      "sha": "e3d57b0a8a217966cf9bf19738fafc360c41a7de"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0690.jpeg",
+      "size": 35241,
+      "sha": "a6c086994c048d0b3cc9c8c13b58c5119f43ee24"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0691.jpeg",
+      "size": 39853,
+      "sha": "92425755ebfbad6a5941fb5fc2797a863fd93f30"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0692.jpeg",
+      "size": 29520,
+      "sha": "025932644561a012700cfb76ecb6580743cd857b"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0693.jpeg",
+      "size": 30443,
+      "sha": "b65422bb8b43f07307c10ceac1512dccdef2775d"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0694.jpeg",
+      "size": 30068,
+      "sha": "8fff08356481a1d87eca6a864d1374ac95a1f503"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0695.jpeg",
+      "size": 30022,
+      "sha": "8a786c9249d8f029993944a128040a7eb815b410"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0696.jpeg",
+      "size": 33703,
+      "sha": "c1a21c1d1fd24cb70478335492fc1f439b42494c"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0697.jpeg",
+      "size": 30367,
+      "sha": "e2d8a5d46c6b5eaeb2281380defb3c474123263d"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0698.jpeg",
+      "size": 31938,
+      "sha": "8011f42565b7b2ea4d852cf80f6d908c25f7c283"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0699.jpeg",
+      "size": 33048,
+      "sha": "0496c11ca9203e89f275eb5d5f4294a6f0038cf4"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0700.jpeg",
+      "size": 38490,
+      "sha": "3eae7d713681aa95a3694d29e386ff779ffba74e"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0701.jpeg",
+      "size": 35546,
+      "sha": "fcab18b4aaa67529ec72859b6f9c2068fa0fff91"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "IMG_0702.jpeg",
+      "size": 30082,
+      "sha": "c7f77373eb34123dc533d6aa77f6d131dbfe895f"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/ErrorLogs-IMG_0432.png",
+      "size": 7472236,
+      "sha": "3ab828f4ea1c0ebb6c5ace523ffc9561108f9617"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/ErrorLogs-IMG_0433.png",
+      "size": 1820806,
+      "sha": "11168a24b590630c6406c52fb43c5dc2c2ebac8f"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/ErrorLogs-IMG_0434.png",
+      "size": 1005808,
+      "sha": "91908fbdf3a896b8d5cc810b339be77f189813d6"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0330.JPG",
+      "size": 2976192,
+      "sha": "952162209e0bb3a70c164a60b7a35813fd11c095"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0331.JPG",
+      "size": 3056929,
+      "sha": "cda17eddbe7b45b86d4e4f69c8f2a8595b9dbe5a"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0332.JPG",
+      "size": 3664734,
+      "sha": "432fb8c94401fcf56d33a4769ed56bbef5fcc0c2"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0333.JPG",
+      "size": 2706570,
+      "sha": "b541d0ff632fd688bc6c8972392fc27b7c90e30f"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0334.JPG",
+      "size": 2966041,
+      "sha": "c5bd8d8408026fd72b81639c8a08e80ec66b84fd"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0336.JPG",
+      "size": 2694379,
+      "sha": "d3722bc50dd872dbb44903db70a1e4f53d0bb4f6"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0337.JPG",
+      "size": 2825743,
+      "sha": "b321d4e517b23f4f8c2bbf1ce2a3ae20f2b8e68f"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0338.JPG",
+      "size": 2704320,
+      "sha": "c70bdc776f1b98e56b53685d079cd63e2ccbae1b"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0339.JPG",
+      "size": 2271965,
+      "sha": "eaeaa09c9aeab8f336559207518c088281cd30ac"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0340.JPG",
+      "size": 3105879,
+      "sha": "855b91a3cdf75707b180dfbc1ba097eaaeb4ac20"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0344.JPG",
+      "size": 3187188,
+      "sha": "17a9e3a649afe049ef756dcb788526152d89f3a7"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0386.png",
+      "size": 862853,
+      "sha": "3ed7f671db72318c7a382e355092c59ba3ceacc7"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0387.png",
+      "size": 876876,
+      "sha": "22effdb748e3157024a4242aa80b4e62b59762c1"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0388.png",
+      "size": 857769,
+      "sha": "b40bb4b320445b446bba46f1b3ef2aaf9f10b208"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0413.png",
+      "size": 863714,
+      "sha": "712fef4c7d64ab2cf5bf503f23e8c368332c5940"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0414.png",
+      "size": 857635,
+      "sha": "2310a01278232c3efcee8e98d1f5cf33c8b7e339"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0415.png",
+      "size": 505485,
+      "sha": "e881a205fd5d70b4927955d424c3f43cbd8335a4"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-IMG_0417.png",
+      "size": 828395,
+      "sha": "8a54c6ba43c0c1db628d56b68599aa75fd93aa0e"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "investigations/Linux-logs-Screenshot-2026-03-20-at-19.00.08.png",
+      "size": 2496676,
+      "sha": "bfd2ccfb2846f04b8e2d64c7ac6e7dc4a133b7a4"
+    },
+    {
+      "source_repo": "Smooth115/DATABASE",
+      "source_path": "logs/first-hour/All-hourlysave.evtx",
+      "size": 23138304,
+      "sha": "0d239afa9eca4b6f5768da8710629558aa21fe2b"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "21stish/IMG_0438.JPG",
+      "size": 5647163,
+      "sha": "8547bf3a7c4cd935dbd3f0944df8b6fae4d14b93"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "21stish/IMG_0439.JPG",
+      "size": 4454705,
+      "sha": "f0e5872a842e8c1419b7e1832b6e1af23a90c7b1"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "21stish/IMG_0440.JPG",
+      "size": 2150980,
+      "sha": "9e74cc0a706b6c998c3144ccb6d48ef363f0e60d"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "21stish/IMG_0441.JPG",
+      "size": 4045731,
+      "sha": "6f8584a7992da77c3c55d6fce27638f09bfd6718"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "21stish/IMG_0459.JPG",
+      "size": 2136014,
+      "sha": "6237023d42868d81f5e73381a348c86c27a703b8"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "21stish/IMG_0460.JPG",
+      "size": 3356575,
+      "sha": "90952e2d53d553bc3729e554b16218d1700bea1d"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "21stish/IMG_0461.JPG",
+      "size": 2665330,
+      "sha": "c8605e8bd4ef3b81cbf4e93d017e406e26197b18"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0665.jpeg",
+      "size": 31140,
+      "sha": "a34f0231f50e7464a135427a19a724e4a141b888"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0667.jpeg",
+      "size": 36129,
+      "sha": "eb32ef5db42381e75fb6255242685bdf54bf7d27"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0668.jpeg",
+      "size": 35168,
+      "sha": "c56c691629f58c76c8bb1f52fbdc392439ddb330"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0669.jpeg",
+      "size": 37070,
+      "sha": "4ae83e389896c836ca27470a073db2785205f552"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0670.jpeg",
+      "size": 37733,
+      "sha": "34e9c648897b6f77190948f09c16ab06cb0fa6db"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0671.jpeg",
+      "size": 38248,
+      "sha": "f4454ea1199f96ef377c475d2a0f454855f60c8b"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0672.jpeg",
+      "size": 37617,
+      "sha": "2013e2905cdc2ada5ece27549ea12bffa0191ea9"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0673.jpeg",
+      "size": 42338,
+      "sha": "370171eb7ccf6ca92c5c3f6a85667d8963451ca2"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0674.jpeg",
+      "size": 33666,
+      "sha": "944d7aa1d5f244c00898f9cdfe060a8030b8d2ab"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0675.jpeg",
+      "size": 29343,
+      "sha": "023393400790be9a9fa0b8c9f43d74578da8110e"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0676.jpeg",
+      "size": 31257,
+      "sha": "315ca78fec8314f56e28f5dfaf57ab9cd0672338"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0677.jpeg",
+      "size": 29549,
+      "sha": "b26a4b522e580691ff724f8fa1fb936cff76c10d"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0678.jpeg",
+      "size": 31894,
+      "sha": "6e81a411fb1731cbd73536768bf9e4ec1863f46c"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0679.jpeg",
+      "size": 30009,
+      "sha": "b5eb49b118491ffae2bcd35daa948fa078fd69b4"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0680.jpeg",
+      "size": 28788,
+      "sha": "9fbbee38e162b43a4c7bcfe8ad4f9cfa4e823af7"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0681.jpeg",
+      "size": 28511,
+      "sha": "b2d144476562a2245cd9344f7cec4340a7ec6724"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0682.jpeg",
+      "size": 30460,
+      "sha": "c1998729ae41f8e0234542f936c2d7d3bb05f8ce"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0683.jpeg",
+      "size": 28950,
+      "sha": "301acc66b1face738f736824a54568b883d7e0ea"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0684.jpeg",
+      "size": 29198,
+      "sha": "0bcc3754df53e930d70c7d331a2454b2e85c8322"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0685.jpeg",
+      "size": 30168,
+      "sha": "e5322a6c610e1d0c2c7d1c406382a70cac8ca9f9"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0686.jpeg",
+      "size": 28947,
+      "sha": "859d5f9a8d3172220f4bc7da9e125f68a72e3186"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0687.jpeg",
+      "size": 32469,
+      "sha": "0ff4a1f509526061f8d90735c4cdb404186c115a"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0688.jpeg",
+      "size": 37014,
+      "sha": "39d2ec6c0da836c054b73a4fbe0af7600680588c"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0689.jpeg",
+      "size": 30177,
+      "sha": "e3d57b0a8a217966cf9bf19738fafc360c41a7de"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0690.jpeg",
+      "size": 35241,
+      "sha": "a6c086994c048d0b3cc9c8c13b58c5119f43ee24"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0691.jpeg",
+      "size": 39853,
+      "sha": "92425755ebfbad6a5941fb5fc2797a863fd93f30"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0692.jpeg",
+      "size": 29520,
+      "sha": "025932644561a012700cfb76ecb6580743cd857b"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0693.jpeg",
+      "size": 30443,
+      "sha": "b65422bb8b43f07307c10ceac1512dccdef2775d"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0694.jpeg",
+      "size": 30068,
+      "sha": "8fff08356481a1d87eca6a864d1374ac95a1f503"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0695.jpeg",
+      "size": 30022,
+      "sha": "8a786c9249d8f029993944a128040a7eb815b410"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0696.jpeg",
+      "size": 33703,
+      "sha": "c1a21c1d1fd24cb70478335492fc1f439b42494c"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0697.jpeg",
+      "size": 30367,
+      "sha": "e2d8a5d46c6b5eaeb2281380defb3c474123263d"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0698.jpeg",
+      "size": 31938,
+      "sha": "8011f42565b7b2ea4d852cf80f6d908c25f7c283"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0699.jpeg",
+      "size": 33048,
+      "sha": "0496c11ca9203e89f275eb5d5f4294a6f0038cf4"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0700.jpeg",
+      "size": 38490,
+      "sha": "3eae7d713681aa95a3694d29e386ff779ffba74e"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0701.jpeg",
+      "size": 35546,
+      "sha": "fcab18b4aaa67529ec72859b6f9c2068fa0fff91"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "IMG_0702.jpeg",
+      "size": 30082,
+      "sha": "c7f77373eb34123dc533d6aa77f6d131dbfe895f"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/ErrorLogs-IMG_0432.png",
+      "size": 7472236,
+      "sha": "3ab828f4ea1c0ebb6c5ace523ffc9561108f9617"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/ErrorLogs-IMG_0433.png",
+      "size": 1820806,
+      "sha": "11168a24b590630c6406c52fb43c5dc2c2ebac8f"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/ErrorLogs-IMG_0434.png",
+      "size": 1005808,
+      "sha": "91908fbdf3a896b8d5cc810b339be77f189813d6"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0330.JPG",
+      "size": 2976192,
+      "sha": "952162209e0bb3a70c164a60b7a35813fd11c095"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0331.JPG",
+      "size": 3056929,
+      "sha": "cda17eddbe7b45b86d4e4f69c8f2a8595b9dbe5a"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0332.JPG",
+      "size": 3664734,
+      "sha": "432fb8c94401fcf56d33a4769ed56bbef5fcc0c2"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0333.JPG",
+      "size": 2706570,
+      "sha": "b541d0ff632fd688bc6c8972392fc27b7c90e30f"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0334.JPG",
+      "size": 2966041,
+      "sha": "c5bd8d8408026fd72b81639c8a08e80ec66b84fd"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0336.JPG",
+      "size": 2694379,
+      "sha": "d3722bc50dd872dbb44903db70a1e4f53d0bb4f6"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0337.JPG",
+      "size": 2825743,
+      "sha": "b321d4e517b23f4f8c2bbf1ce2a3ae20f2b8e68f"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0338.JPG",
+      "size": 2704320,
+      "sha": "c70bdc776f1b98e56b53685d079cd63e2ccbae1b"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0339.JPG",
+      "size": 2271965,
+      "sha": "eaeaa09c9aeab8f336559207518c088281cd30ac"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0340.JPG",
+      "size": 3105879,
+      "sha": "855b91a3cdf75707b180dfbc1ba097eaaeb4ac20"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0344.JPG",
+      "size": 3187188,
+      "sha": "17a9e3a649afe049ef756dcb788526152d89f3a7"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0386.png",
+      "size": 862853,
+      "sha": "3ed7f671db72318c7a382e355092c59ba3ceacc7"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0387.png",
+      "size": 876876,
+      "sha": "22effdb748e3157024a4242aa80b4e62b59762c1"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0388.png",
+      "size": 857769,
+      "sha": "b40bb4b320445b446bba46f1b3ef2aaf9f10b208"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0413.png",
+      "size": 863714,
+      "sha": "712fef4c7d64ab2cf5bf503f23e8c368332c5940"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0414.png",
+      "size": 857635,
+      "sha": "2310a01278232c3efcee8e98d1f5cf33c8b7e339"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0415.png",
+      "size": 505485,
+      "sha": "e881a205fd5d70b4927955d424c3f43cbd8335a4"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-IMG_0417.png",
+      "size": 828395,
+      "sha": "8a54c6ba43c0c1db628d56b68599aa75fd93aa0e"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "investigations/Linux-logs-Screenshot-2026-03-20-at-19.00.08.png",
+      "size": 2496676,
+      "sha": "bfd2ccfb2846f04b8e2d64c7ac6e7dc4a133b7a4"
+    },
+    {
+      "source_repo": "Smooth511/smooth115_database",
+      "source_path": "logs/first-hour/All-hourlysave.evtx",
+      "size": 23138304,
+      "sha": "0d239afa9eca4b6f5768da8710629558aa21fe2b"
+    }
+  ]
+}

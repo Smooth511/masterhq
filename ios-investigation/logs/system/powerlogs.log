@@ -1,0 +1,12 @@
+
+APPLYING DEFAULT FILTERS:
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/powerlogs_sysdiagnose_temp.KDmOWI/powerlogs/powerlog_2026-03-09_12-57_DEC06787.PLSQL, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/powerlogs_sysdiagnose_temp.KDmOWI/powerlogs/log_2026-03-09_12-57_DF792B37.EPSQL, Added to Candidate logs
+
+
+ENFORCING SIZE LIMIT OF 0 MB ON FILTERED CANDIDATES:
+
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/powerlogs_sysdiagnose_temp.KDmOWI/powerlogs/powerlog_2026-03-09_12-57_DEC06787.PLSQL, Added (26497024 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/powerlogs_sysdiagnose_temp.KDmOWI/powerlogs/log_2026-03-09_12-57_DF792B37.EPSQL, Added (282624 bytes)
+
+** DONE Enforcing size limit **

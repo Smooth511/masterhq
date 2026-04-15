@@ -1,0 +1,20 @@
+
+APPLYING DEFAULT FILTERS:
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/FileProvider_sysdiagnose_temp.sU2vVp/FileProvider/fileproviderctl_check.log, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/FileProvider_sysdiagnose_temp.sU2vVp/FileProvider/com.apple.CloudDocs.iCloudDriveFileProvider/C{34}9_2_dump.log, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/FileProvider_sysdiagnose_temp.sU2vVp/FileProvider/com.apple.FileProvider.LocalStorage/N{35}r_0_dump.log, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/FileProvider_sysdiagnose_temp.sU2vVp/FileProvider/com.apple.mobileslideshow.PhotosFileProvider/d{9}p_3_dump.log, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/FileProvider_sysdiagnose_temp.sU2vVp/FileProvider/com.apple.mobileslideshow.PhotosFileProvider/b{2}p_4_dump.log, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/FileProvider_sysdiagnose_temp.sU2vVp/FileProvider/com.apple.mobileslideshow.PhotosFileProvider/p{10}r_1_dump.log, Added to Candidate logs
+
+
+ENFORCING SIZE LIMIT OF 5 MB ON FILTERED CANDIDATES:
+
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/FileProvider_sysdiagnose_temp.sU2vVp/FileProvider/fileproviderctl_check.log, Added (483 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/FileProvider_sysdiagnose_temp.sU2vVp/FileProvider/com.apple.mobileslideshow.PhotosFileProvider/b{2}p_4_dump.log, Added (3196 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/FileProvider_sysdiagnose_temp.sU2vVp/FileProvider/com.apple.mobileslideshow.PhotosFileProvider/d{9}p_3_dump.log, Added (3196 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/FileProvider_sysdiagnose_temp.sU2vVp/FileProvider/com.apple.CloudDocs.iCloudDriveFileProvider/C{34}9_2_dump.log, Added (191267 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/FileProvider_sysdiagnose_temp.sU2vVp/FileProvider/com.apple.mobileslideshow.PhotosFileProvider/p{10}r_1_dump.log, Added (3199 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/FileProvider_sysdiagnose_temp.sU2vVp/FileProvider/com.apple.FileProvider.LocalStorage/N{35}r_0_dump.log, Added (2978 bytes)
+
+** DONE Enforcing size limit **

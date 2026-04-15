@@ -1,0 +1,125 @@
+
+APPLYING PREDICATE (NOT lastPathComponent BEGINSWITH "ExcResource") AND (NOT lastPathComponent BEGINSWITH "stacks-") AND (NOT lastPathComponent BEGINSWITH "Analytics-") AND (NOT lastPathComponent BEGINSWITH "xp_amp_app_usage_dnu-") AND (lastPathComponent ENDSWITH ".ips" OR lastPathComponent ENDSWITH ".ips.beta" OR lastPathComponent ENDSWITH ".ips.synced" OR lastPathComponent ENDSWITH ".ips.beta.synced"):
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-111409.000.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-105013.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-102152.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-09-035154.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/searchd.diskwrites_resource-2026-03-08-233743.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-105217.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-100409.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-102112.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ANECompilerService.diskwrites_resource-2026-03-09-121620.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-111800.000.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-08-223232.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/stacks-2026-03-09-125654.ips, File did not match predicate
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-08-233220.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-08-183125.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-103758.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-08-233018.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-08-160318.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-104801.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-08-183259.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-111409.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_Preferences-2026-03-08-214354.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-102110.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/MobileSafari.diskwrites_resource-2026-03-09-014253.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-08-170113.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-08-154020.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-09-121611.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-104826.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-095858.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-110259.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-125745.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-095858.000.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_Preferences-2026-03-08-214354.000.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-094655.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-09-074614.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-084041.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-111800.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-105423.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-102402.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-08-195226.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-08-155245.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-105754.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-122224.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-08-190922.000.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-08-171831.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/stacks-2026-03-09-125639.ips, File did not match predicate
+/private/var/mobile/Library/Logs/CrashReporter/JetsamEvent-2026-03-08-170719.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-08-171415.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/MobileMail.diskwrites_resource-2026-03-09-083737.ips, Added to Candidate logs
+
+APPLYING PREDICATE (NOT lastPathComponent BEGINSWITH "ExcResource") AND (NOT lastPathComponent BEGINSWITH "stacks-") AND (NOT lastPathComponent BEGINSWITH "Analytics-") AND (NOT lastPathComponent BEGINSWITH "xp_amp_app_usage_dnu-") AND (lastPathComponent ENDSWITH ".ips" OR lastPathComponent ENDSWITH ".beta" OR lastPathComponent ENDSWITH ".ips.synced" OR lastPathComponent ENDSWITH ".beta.synced"):
+/private/var/mobile/Library/Logs/CrashReporter/Retired/ExcUserFault_Setup-2026-03-08-132908.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/Retired/JetsamEvent-2026-03-08-145532.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/Retired/com.apple.migrationpluginwrapper.cpu_resource-2026-03-08-132754.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/Retired/SiriSearchFeedback-2026-03-08-133214.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/Retired/SiriSearchFeedback-2026-03-08-144659.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/Retired/forceReset-full-2026-03-08-062414.0002.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/Retired/ExcUserFault_MobileSafari-2026-03-08-134058.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/Retired/ExcUserFault_Setup-2026-03-08-132908.000.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/Retired/restore_perform.txt, File did not match predicate
+/private/var/mobile/Library/Logs/CrashReporter/Retired/ExcUserFault_MobileSafari-2026-03-08-145705.000.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/Retired/SiriSearchFeedback-2026-03-08-133059.ips, Added to Candidate logs
+
+
+ENFORCING SIZE LIMIT OF 20 MB ON FILTERED CANDIDATES:
+
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-125745.ips, Added (358 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-122224.ips, Added (4449 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ANECompilerService.diskwrites_resource-2026-03-09-121620.ips, Added (67525 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-09-121611.ips, Added (3730 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/MobileMail.diskwrites_resource-2026-03-09-083737.ips, Added (262290 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/MobileSafari.diskwrites_resource-2026-03-09-014253.ips, Added (221068 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/searchd.diskwrites_resource-2026-03-08-233743.ips, Added (212854 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_Preferences-2026-03-08-214354.000.ips, Added (6656 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/JetsamEvent-2026-03-08-170719.ips, Added (326869 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Retired/ExcUserFault_MobileSafari-2026-03-08-145705.000.ips, Added (4422 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Retired/JetsamEvent-2026-03-08-145532.ips, Added (140283 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Retired/SiriSearchFeedback-2026-03-08-144659.ips, Added (346 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Retired/ExcUserFault_Setup-2026-03-08-132908.ips, Added (6221 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Retired/com.apple.migrationpluginwrapper.cpu_resource-2026-03-08-132754.ips, Added (38907 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Retired/forceReset-full-2026-03-08-062414.0002.ips, Added (286127 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-111800.000.ips, Added (4445 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-111800.ips, Added (359 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-09-074614.ips, Added (3733 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_Preferences-2026-03-08-214354.ips, Added (6804 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-111409.000.ips, Added (4449 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-111409.ips, Added (359 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-09-035154.ips, Added (3733 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-110259.ips, Added (359 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-102112.ips, Added (5647 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-08-233018.ips, Added (3733 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-105754.ips, Added (359 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-095858.000.ips, Added (4453 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-08-223232.ips, Added (3733 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-105423.ips, Added (344 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-094655.ips, Added (4453 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-08-195226.ips, Added (3733 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-105217.ips, Added (346 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-09-084041.ips, Added (4453 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_SafariViewService-2026-03-08-171831.ips, Added (3730 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-105013.ips, Added (344 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-08-233220.ips, Added (5079 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-104826.ips, Added (359 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-08-190922.000.ips, Added (4452 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-104801.ips, Added (358 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-08-171415.ips, Added (5652 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-103758.ips, Added (359 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/ExcUserFault_MobileSafari-2026-03-08-154020.ips, Added (4426 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-102402.ips, Added (358 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-102152.ips, Added (346 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-102110.ips, Added (359 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-100409.ips, Added (359 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-09-095858.ips, Added (359 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-08-183259.ips, Added (346 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-08-183125.ips, Added (358 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-08-170113.ips, Added (349 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-08-160318.ips, Added (358 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/SiriSearchFeedback-2026-03-08-155245.ips, Added (358 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Retired/ExcUserFault_MobileSafari-2026-03-08-134058.ips, Added (4917 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Retired/SiriSearchFeedback-2026-03-08-133214.ips, Added (346 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Retired/ExcUserFault_Setup-2026-03-08-132908.000.ips, Added (6073 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/Retired/SiriSearchFeedback-2026-03-08-133059.ips, Added (347 bytes)
+
+** DONE Enforcing size limit **

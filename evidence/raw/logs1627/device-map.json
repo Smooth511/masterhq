@@ -1,0 +1,1 @@
+{"disk-nvme1n1": "/dev/nvme1n1", "partition-0": "/dev/nvme1n1p1", "partition-1": "/dev/nvme1n1p2", "partition-2": "/dev/nvme1n1p3", "dm_crypt-0": "/dev/mapper/dm_crypt-0", "lvm_partition-0": "/dev/ubuntu-vg/ubuntu-lv"}

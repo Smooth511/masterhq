@@ -1,0 +1,12 @@
+
+APPLYING DEFAULT FILTERS:
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/BatteryUIPlist_sysdiagnose_temp.MXMM1j/BatteryUIPlist/BatteryUI.plist, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/BatteryUIPlist_sysdiagnose_temp.MXMM1j/BatteryUIPlist/BatteryUISysdiagnose.plist, Added to Candidate logs
+
+
+ENFORCING SIZE LIMIT OF 5 MB ON FILTERED CANDIDATES:
+
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/BatteryUIPlist_sysdiagnose_temp.MXMM1j/BatteryUIPlist/BatteryUISysdiagnose.plist, Added (784700 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/BatteryUIPlist_sysdiagnose_temp.MXMM1j/BatteryUIPlist/BatteryUI.plist, Added (515436 bytes)
+
+** DONE Enforcing size limit **

@@ -1,0 +1,32 @@
+services:
+
+  # ── MCP Server ──────────────────────────────────────────────────────────
+  # Runs the Model Context Protocol server over stdio.
+  # VS Code can connect to this via the docker exec transport.
+  mcp-server:
+    build: .
+    container_name: mk2-mcp-server
+    volumes:
+      # Mount the live project directory so file tools work against real data
+      - .:/project
+    stdin_open: true
+    tty: false
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["python", "/project/mcp-server/server.py"]
+    restart: unless-stopped
+
+  # ── CLI ─────────────────────────────────────────────────────────────────
+  # Interactive shell with the mk2 CLI available.
+  cli:
+    build: .
+    container_name: mk2-cli
+    volumes:
+      - .:/project
+    stdin_open: true
+    tty: true
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["python", "/project/cli/mk2_cli.py", "status"]
+    profiles:
+      - cli

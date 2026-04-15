@@ -1,0 +1,19 @@
+{
+  "eventInformation" : {
+    "assetSetName" : "com.apple.MobileAsset.UAF.Handwriting.Synthesis",
+    "autoAssetEntries" : [
+      {
+        "assetSpecifier" : "com.apple.handwriting.synthesis.uaf.metadata",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.fm.handwriting.synthesis_multilingual.generic",
+        "assetLockedInhibitsRemoval" : false
+      }
+    ],
+    "maxTargetOSVersion" : "26.4.9999",
+    "minTargetOSVersion" : "26.4",
+    "platformAssetVersion" : "1.0.295071122.13.203605,0"
+  },
+  "timestamp" : "2026-03-09T12:54:39.900Z"
+}

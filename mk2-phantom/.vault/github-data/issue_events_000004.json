@@ -1,0 +1,862 @@
+[
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/11#event-23610701119",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/11",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T14:53:00Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/11#event-23610705330",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/11",
+    "actor": "https://github.com/Smooth511",
+    "event": "merged",
+    "commit_id": "13a8dc78e4a4c7c0a8c194603ba9ca4406869f47",
+    "created_at": "2026-03-16T14:53:08Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/11#event-23610705363",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/11",
+    "actor": "https://github.com/Smooth511",
+    "event": "closed",
+    "created_at": "2026-03-16T14:53:08Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/11#event-23610780990",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/11",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T14:55:20Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#event-23618623335",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T18:57:16Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#event-23618623455",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T18:57:17Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#event-23618623591",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-16T18:57:17Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#event-23618625208",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T18:57:21Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13#event-23618770843",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:02:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13#event-23618770951",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:02:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13#event-23618772045",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-16T19:02:40Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13#event-23618773543",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:02:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14#event-23618815665",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:04:09Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14#event-23618815764",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:04:09Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14#event-23618816501",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-16T19:04:10Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14#event-23618818155",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:04:13Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15#event-23618873564",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:06:09Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15#event-23618873653",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:06:10Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15#event-23618875375",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:06:14Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#event-23618921453",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Hunt through Literatefool GitHub data export",
+    "title_is": "Add Literatefool Hunt Compilation — exhaustive repository search for Jan 26–Feb 26 2026 period",
+    "created_at": "2026-03-16T19:07:54Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#event-23618925087",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-16T19:08:03Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#event-23618925371",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-16T19:08:03Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13#event-23618939832",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Investigate repository for previous Claude conversation artifacts",
+    "title_is": "Add Claude/Copilot conversation artifacts recovery guide",
+    "created_at": "2026-03-16T19:08:32Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13#event-23618942851",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-16T19:08:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13#event-23618943168",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/13",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-16T19:08:40Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15#event-23619023820",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Update and deliver in-progress report file",
+    "title_is": "Deliver consolidated investigation report index with Literatefool Hunt Compilation",
+    "created_at": "2026-03-16T19:11:26Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15#event-23619026915",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-16T19:11:33Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15#event-23619028087",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-16T19:11:36Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14#event-23619041806",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Add consolidated report for repository sweep",
+    "title_is": "Add Feb 24–27 2026 TCP/UDP memory buffer countermeasures consolidated report",
+    "created_at": "2026-03-16T19:12:05Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14#event-23619045622",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-16T19:12:12Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14#event-23619045871",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-16T19:12:13Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/16#event-23619236294",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/16",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:19:19Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/16#event-23619236400",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/16",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:19:19Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/16#event-23619238276",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/16",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:19:24Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#event-23619368274",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "ready_for_review",
+    "created_at": "2026-03-16T19:24:26Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#event-23619368858",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:24:27Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/16#event-23619377000",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/16",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Investigate and remediate cause of CI PR failures",
+    "title_is": "Add CI pipeline and sensitive-file guard to documentation repository",
+    "created_at": "2026-03-16T19:24:47Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/16#event-23619379819",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/16",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-16T19:24:54Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/16#event-23619379907",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/16",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-16T19:24:54Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#event-23619385150",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:25:06Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#event-23619400975",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "convert_to_draft",
+    "created_at": "2026-03-16T19:25:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12#event-23619413076",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/12",
+    "actor": "https://github.com/claude",
+    "event": "mentioned",
+    "created_at": "2026-03-16T19:26:12Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14#event-23619601019",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14",
+    "actor": "https://github.com/Smooth511",
+    "event": "ready_for_review",
+    "created_at": "2026-03-16T19:33:12Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14#event-23619601553",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:33:13Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14#event-23619612065",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14",
+    "actor": "https://github.com/Smooth511",
+    "event": "merged",
+    "commit_id": "84674cdab991d3da044651957099e1075366ae9f",
+    "created_at": "2026-03-16T19:33:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14#event-23619612089",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14",
+    "actor": "https://github.com/Smooth511",
+    "event": "closed",
+    "created_at": "2026-03-16T19:33:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14#event-23619612396",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/14",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:33:40Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23619629309",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:34:20Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23619629402",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:34:21Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23619631332",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:34:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23619859861",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Smooth511",
+    "event": "ready_for_review",
+    "created_at": "2026-03-16T19:42:20Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23619860638",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:42:21Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23619874318",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:42:46Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10#event-23619880170",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10",
+    "actor": "https://github.com/Smooth511",
+    "event": "ready_for_review",
+    "created_at": "2026-03-16T19:42:58Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10#event-23619880624",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:43:00Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10#event-23619894244",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:43:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23619894836",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Investigate CI/PR failures due to earlier Claude edition access",
+    "title_is": "Add CI pipeline, fix markdownlint config, untrack gitignored sensitive files",
+    "created_at": "2026-03-16T19:43:26Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15#event-23619897579",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15",
+    "actor": "https://github.com/Smooth511",
+    "event": "ready_for_review",
+    "created_at": "2026-03-16T19:43:32Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23619898123",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-16T19:43:33Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15#event-23619898197",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:43:33Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23619898483",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-16T19:43:34Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15#event-23619916295",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/15",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:43:59Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23620149061",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:50:01Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10#event-23620232373",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:52:48Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23620261704",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-16T19:53:55Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23620262455",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-16T19:53:56Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10#event-23620263297",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10",
+    "actor": "https://github.com/Smooth511",
+    "event": "merged",
+    "commit_id": "69912796b210a0ce76a44bbf4d90aca9caccef3d",
+    "created_at": "2026-03-16T19:53:58Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10#event-23620263337",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10",
+    "actor": "https://github.com/Smooth511",
+    "event": "closed",
+    "created_at": "2026-03-16T19:53:58Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10#event-23620285281",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/10",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-16T19:54:49Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23620313639",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:55:51Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23620459454",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-16T20:01:30Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23620482935",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-16T20:02:28Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17#event-23620483174",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/17",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-16T20:02:28Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18#event-23633377368",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T07:36:24Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18#event-23633377438",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T07:36:24Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18#event-23633377646",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-17T07:36:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18#event-23633378948",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-17T07:36:28Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19#event-23633568499",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T07:44:22Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19#event-23633568580",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T07:44:22Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19#event-23633568995",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-17T07:44:23Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19#event-23633570697",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-17T07:44:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20#event-23633660809",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T07:48:10Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20#event-23633660891",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T07:48:10Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20#event-23633661351",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-17T07:48:11Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20#event-23633662261",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/20",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-17T07:48:14Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18#event-23633694949",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Add custom agent kit for ClaudeMKII",
+    "title_is": "Add ClaudeMKII custom agent kit",
+    "created_at": "2026-03-17T07:49:34Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18#event-23633698102",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-17T07:49:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18#event-23633698409",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/18",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-17T07:49:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/21#event-23633755107",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/21",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T07:52:11Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/21#event-23633755159",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/21",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T07:52:11Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/21#event-23633756309",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/21",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-17T07:52:15Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19#event-23633885064",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Add ClaudeMKII agent definition based on chat JSON analysis",
+    "title_is": "Add ClaudeMKII custom agent kit derived from Mar 17 chat transcript",
+    "created_at": "2026-03-17T07:57:50Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19#event-23633887807",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-17T07:57:57Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19#event-23633888288",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/19",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-17T07:57:58Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22#event-23633889130",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T07:58:00Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22#event-23633889185",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-17T07:58:01Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22#event-23633889346",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-17T07:58:01Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22#event-23633890415",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/22",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-17T07:58:04Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/21#event-23633906696",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/21",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Extract answers from chat export JSON",
+    "title_is": "Add docs/claude-mkii/why-i-ask-less.md — full transcript analysis of ClaudeMKII behavior",
+    "created_at": "2026-03-17T07:58:47Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/21#event-23633909233",
+    "pull_request": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/pull/21",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-17T07:58:54Z"
+  }
+]

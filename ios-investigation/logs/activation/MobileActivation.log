@@ -1,0 +1,36 @@
+
+APPLYING DEFAULT FILTERS:
+/private/var/mobile/Library/Logs/mobileactivationd/ucrt_oob_request.txt, File not found
+/private/var/mobile/Library/Logs/mobileactivationd/ucrt_oob_response.txt, File not found
+/private/var/mobile/Library/Logs/mobileactivationd/collection_oob_request.txt, File not found
+/private/var/mobile/Library/Logs/mobileactivationd/collection_oob_response.txt, File not found
+
+APPLYING DEFAULT FILTERS:
+/private/var/mobile/Library/Logs/mobileactivationd/mobileactivationd.log.0, Added to Candidate logs
+/private/var/mobile/Library/Logs/mobileactivationd/mobileactivationd.log.1, Added to Candidate logs
+
+APPLYING DEFAULT FILTERS:
+/private/var/mobile/Library/Logs/mobileactivationd/mobileactivationd_dcrt_baa_request.txt, Added to Candidate logs
+/private/var/mobile/Library/Logs/mobileactivationd/mobileactivationd_sdcrt_baa_request.txt, Added to Candidate logs
+
+APPLYING DEFAULT FILTERS:
+/private/var/mobile/Library/Logs/mobileactivationd/mobileactivationd_sdcrt_baa_response.txt, Added to Candidate logs
+/private/var/mobile/Library/Logs/mobileactivationd/mobileactivationd_dcrt_baa_response.txt, Added to Candidate logs
+
+APPLYING DEFAULT FILTERS:
+SDUnitLogGlob with glob '/private/var/mobile/Library/Logs/mobileactivationd/*baa_su_request.txt': found no matches
+
+APPLYING DEFAULT FILTERS:
+SDUnitLogGlob with glob '/private/var/mobile/Library/Logs/mobileactivationd/*baa_su_response.txt': found no matches
+
+
+ENFORCING SIZE LIMIT OF 5 MB ON FILTERED CANDIDATES:
+
+/private/var/mobile/Library/Logs/mobileactivationd/mobileactivationd.log.0, Added (41130 bytes)
+/private/var/mobile/Library/Logs/mobileactivationd/mobileactivationd.log.1, Added (66168 bytes)
+/private/var/mobile/Library/Logs/mobileactivationd/mobileactivationd_dcrt_baa_request.txt, Added (72454 bytes)
+/private/var/mobile/Library/Logs/mobileactivationd/mobileactivationd_sdcrt_baa_request.txt, Added (72455 bytes)
+/private/var/mobile/Library/Logs/mobileactivationd/mobileactivationd_dcrt_baa_response.txt, Added (2922 bytes)
+/private/var/mobile/Library/Logs/mobileactivationd/mobileactivationd_sdcrt_baa_response.txt, Added (2926 bytes)
+
+** DONE Enforcing size limit **

@@ -1,0 +1,19 @@
+{
+  "eventInformation" : {
+    "assetSetName" : "com.apple.siri.understanding.nl.overrides",
+    "autoAssetEntries" : [
+      {
+        "assetSpecifier" : "com.apple.siri.understanding.nl.overrides.uaf.metadata",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.nl.overrides.en_GB",
+        "assetLockedInhibitsRemoval" : false
+      }
+    ],
+    "maxTargetOSVersion" : "26.4.9999",
+    "minTargetOSVersion" : "26.4",
+    "platformAssetVersion" : "1.0.295071122.13.203605,0"
+  },
+  "timestamp" : "2026-03-09T12:54:40.665Z"
+}

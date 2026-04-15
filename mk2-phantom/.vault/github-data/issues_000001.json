@@ -1,0 +1,60 @@
+[
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-/issues/2",
+    "repository": "https://github.com/Smooth511/Threat-2-the-shadow-dismantled-",
+    "user": "https://github.com/Smooth511",
+    "title": "Repository settings and documents  copilot",
+    "body": "Copilot can you create the sufficient documents and settings to allow agents to enter please. \n\nNo deleting any data, mark it to be deleted if required by me. \nRedact identifying information at all times, if the identifier needs further follow up list it in another file. \nAny files or logs that are not in a folder are to be quickly sorted by any agent entering AFTER theey have checked them for new info. Store them by context. Network, pc, date of event etc @copilot",
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "labels": [],
+    "reactions": [],
+    "closed_at": "2026-03-13T19:59:01Z",
+    "created_at": "2026-03-13T17:17:31Z",
+    "updated_at": "2026-03-13T19:59:01Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth511/Smashers-HQ/issues/3",
+    "repository": "https://github.com/Smooth511/Smashers-HQ",
+    "user": "https://github.com/Smooth511",
+    "title": "For agent chat - Claude Opus 4.6 only",
+    "body": "[export-Smooth511-1772106952.json.gz](https://github.com/user-attachments/files/25575136/export-Smooth511-1772106952.json.gz)",
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "labels": [],
+    "reactions": [],
+    "closed_at": null,
+    "created_at": "2026-02-26T12:08:02Z",
+    "updated_at": "2026-02-26T12:08:02Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth511/Smashers-HQ/issues/10",
+    "repository": "https://github.com/Smooth511/Smashers-HQ",
+    "user": "https://github.com/Smooth511",
+    "title": "Account in ubuntu",
+    "body": "Need agent to assist in linux / ubuntu with a stick situation.  @copilot",
+    "assignee": "https://github.com/Copilot",
+    "assignees": [
+      "https://github.com/Copilot",
+      "https://github.com/Smooth511"
+    ],
+    "milestone": null,
+    "labels": [],
+    "reactions": [
+      {
+        "user": "https://github.com/Copilot",
+        "content": "eyes",
+        "subject_type": "Issue",
+        "created_at": "2026-03-05T13:46:50.325+00:00"
+      }
+    ],
+    "closed_at": "2026-03-06T17:02:59Z",
+    "created_at": "2026-03-05T13:44:17Z",
+    "updated_at": "2026-03-06T17:02:59Z"
+  }
+]

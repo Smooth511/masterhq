@@ -1,0 +1,850 @@
+[
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/21#event-23855597027",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/21",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-24T14:47:59Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/21#event-23855844232",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/21",
+    "actor": "https://github.com/Smooth115",
+    "event": "ready_for_review",
+    "created_at": "2026-03-24T14:54:29Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/21#event-23855845100",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/21",
+    "actor": "https://github.com/Smooth115",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T14:54:30Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/21#event-23855862429",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/21",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-24T14:55:00Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/21#event-23856384155",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/21",
+    "actor": "https://github.com/Smooth115",
+    "event": "convert_to_draft",
+    "created_at": "2026-03-24T15:08:33Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/22#event-23856723959",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/22",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T15:18:00Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/22#event-23856724134",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/22",
+    "actor": "https://github.com/Smooth115",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T15:18:00Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/22#event-23856726967",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/22",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-24T15:18:05Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/22#event-23857269688",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/22",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Finalize completion and audit of PR #21",
+    "title_is": "Complete PR #21 audit: extract deferred content, fix stale refs, sync all tracking files, formal closure report",
+    "created_at": "2026-03-24T15:32:36Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/22#event-23857275406",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/22",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-24T15:32:45Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/22#event-23857275433",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/22",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth115",
+    "created_at": "2026-03-24T15:32:45Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/23#event-23857525324",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/23",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T15:39:20Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/23#event-23857525499",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/23",
+    "actor": "https://github.com/Smooth115",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T15:39:20Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/23#event-23857538170",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/23",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-24T15:39:40Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/24#event-23857814665",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/24",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T15:46:38Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/24#event-23857814806",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/24",
+    "actor": "https://github.com/Smooth115",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T15:46:38Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/24#event-23857818805",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/24",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-24T15:46:45Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/23#event-23858123201",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/23",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Finalize documentation and review for PR #21",
+    "title_is": "PR #21 finalization: full cross-audit, memory/config sync, content extraction, audit trail",
+    "created_at": "2026-03-24T15:54:52Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/23#event-23858128535",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/23",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth115",
+    "created_at": "2026-03-24T15:55:01Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/23#event-23858129018",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/23",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-24T15:55:02Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/24#event-23858201278",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/24",
+    "actor": "https://github.com/github-actions[bot]",
+    "event": "labeled",
+    "label": "https://github.com/Smooth115/Claude-MKII/labels/RagingbullMK",
+    "label_name": "RagingbullMK",
+    "label_color": "B60205",
+    "label_text_color": "ffffff",
+    "created_at": "2026-03-24T15:57:10Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/26#event-23858205252",
+    "issue": "https://github.com/Smooth115/Claude-MKII/issues/26",
+    "actor": "https://github.com/github-actions[bot]",
+    "event": "labeled",
+    "label": "https://github.com/Smooth115/Claude-MKII/labels/RagingbullMK",
+    "label_name": "RagingbullMK",
+    "label_color": "B60205",
+    "label_text_color": "ffffff",
+    "created_at": "2026-03-24T15:57:17Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/24#event-23858213038",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/24",
+    "actor": "https://github.com/Smooth115",
+    "event": "mentioned",
+    "created_at": "2026-03-24T15:57:30Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/24#event-23858213075",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/24",
+    "actor": "https://github.com/Smooth115",
+    "event": "subscribed",
+    "created_at": "2026-03-24T15:57:30Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/24#event-23858257365",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/24",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Implement preventive protocol RagingbullMK for core repository defense",
+    "title_is": "feat: RagingbullMK — automated core file defence protocol",
+    "created_at": "2026-03-24T15:58:49Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/25#event-23858259265",
+    "issue": "https://github.com/Smooth115/Claude-MKII/issues/25",
+    "actor": "https://github.com/github-actions[bot]",
+    "event": "labeled",
+    "label": "https://github.com/Smooth115/Claude-MKII/labels/RagingbullMK",
+    "label_name": "RagingbullMK",
+    "label_color": "B60205",
+    "label_text_color": "ffffff",
+    "created_at": "2026-03-24T15:58:52Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/24#event-23858261578",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/24",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth115",
+    "created_at": "2026-03-24T15:58:57Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/24#event-23858261879",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/24",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-24T15:58:57Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/24#event-23858271584",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/24",
+    "actor": "https://github.com/Smooth115",
+    "event": "mentioned",
+    "created_at": "2026-03-24T15:59:15Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/24#event-23858271622",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/24",
+    "actor": "https://github.com/Smooth115",
+    "event": "subscribed",
+    "created_at": "2026-03-24T15:59:15Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/28#event-23858273536",
+    "issue": "https://github.com/Smooth115/Claude-MKII/issues/28",
+    "actor": "https://github.com/github-actions[bot]",
+    "event": "labeled",
+    "label": "https://github.com/Smooth115/Claude-MKII/labels/RagingbullMK",
+    "label_name": "RagingbullMK",
+    "label_color": "B60205",
+    "label_text_color": "ffffff",
+    "created_at": "2026-03-24T15:59:19Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/23#event-23858716020",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/23",
+    "actor": "https://github.com/Smooth115",
+    "event": "ready_for_review",
+    "created_at": "2026-03-24T16:11:10Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/23#event-23858717067",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/23",
+    "actor": "https://github.com/Smooth115",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T16:11:11Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/23#event-23858735318",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/23",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-24T16:11:41Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/30#event-23859504592",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/30",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T16:34:54Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/30#event-23859504775",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/30",
+    "actor": "https://github.com/Smooth115",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T16:34:54Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/30#event-23859505410",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/30",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-24T16:34:55Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/30#event-23859526633",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/30",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-24T16:35:33Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/30#event-23859665526",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/30",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "MK2_PHANTOM: Fix stale Smooth511 refs in workflows/config, enable PR bulk closure",
+    "title_is": "Fix stale Smooth511 refs in workflows/config, add PR write perms for bulk closure",
+    "created_at": "2026-03-24T16:39:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/30#event-23859668920",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/30",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth115",
+    "created_at": "2026-03-24T16:39:46Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/30#event-23859670727",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/30",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-24T16:39:49Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/30#event-23859680461",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/30",
+    "actor": "https://github.com/Smooth115",
+    "event": "ready_for_review",
+    "created_at": "2026-03-24T16:40:08Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/30#event-23859680929",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/30",
+    "actor": "https://github.com/Smooth115",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T16:40:08Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/30#event-23859683452",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/30",
+    "actor": "https://github.com/Smooth115",
+    "event": "merged",
+    "commit_id": "45b5cf22e343eeb9afbc525ac2e32fbe2ae64e2e",
+    "created_at": "2026-03-24T16:40:13Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/30#event-23859683512",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/30",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:40:13Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/30#event-23859700158",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/30",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-24T16:40:45Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/24#event-23859748985",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/24",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:42:19Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/24#event-23859750335",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/24",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T16:42:22Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/23#event-23859750565",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/23",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:42:22Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/23#event-23859751805",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/23",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T16:42:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/22#event-23859752079",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/22",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:42:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/22#event-23859753401",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/22",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T16:42:28Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/21#event-23859753613",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/21",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:42:28Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/21#event-23859755179",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/21",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T16:42:31Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/20#event-23859755333",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/20",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:42:31Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/20#event-23859756516",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/20",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T16:42:34Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/19#event-23859756807",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/19",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:42:34Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/19#event-23859758155",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/19",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T16:42:37Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/18#event-23859758303",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/18",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:42:37Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/18#event-23859759442",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/18",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T16:42:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/17#event-23859759695",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/17",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:42:40Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/17#event-23859761003",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/17",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T16:42:42Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/16#event-23859761109",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/16",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:42:42Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/16#event-23859762403",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/16",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T16:42:45Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/15#event-23859762683",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/15",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:42:45Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/15#event-23859763905",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/15",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T16:42:48Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/13#event-23859764076",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/13",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:42:48Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/13#event-23859765314",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/13",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T16:42:51Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/12#event-23859765363",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/12",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:42:51Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/12#event-23859766599",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/12",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T16:42:54Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/11#event-23859766715",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/11",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T16:42:54Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/11#event-23859767858",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/11",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T16:42:56Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/31#event-23860357533",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/31",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T17:01:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/31#event-23860357714",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/31",
+    "actor": "https://github.com/Smooth115",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T17:01:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/31#event-23860358181",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/31",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-24T17:01:44Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/31#event-23860360762",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/31",
+    "actor": "https://github.com/Smooth115",
+    "event": "ready_for_review",
+    "created_at": "2026-03-24T17:01:48Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/31#event-23860361604",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/31",
+    "actor": "https://github.com/Smooth115",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-24T17:01:50Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/31#event-23860365199",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/31",
+    "actor": "https://github.com/Smooth115",
+    "event": "merged",
+    "commit_id": "4f9f7f615a90874d41c78fd132e287136997d642",
+    "created_at": "2026-03-24T17:01:57Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/31#event-23860365242",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/31",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T17:01:57Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/31#event-23860378047",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/31",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-24T17:02:22Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/5#event-23860461795",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/5",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T17:05:11Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/1#event-23860462243",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T17:05:12Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/30#event-23860466110",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/30",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T17:05:19Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/31#event-23860466150",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/31",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T17:05:19Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/7#event-23860466306",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/7",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T17:05:20Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/10#event-23860468017",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/10",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T17:05:23Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/4#event-23860472951",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/4",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T17:05:32Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/9#event-23860473144",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/9",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T17:05:33Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/8#event-23860474451",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/8",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T17:05:35Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/2#event-23860475093",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T17:05:36Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/14#event-23860475380",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/14",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-24T17:05:37Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/25#event-23860489660",
+    "issue": "https://github.com/Smooth115/Claude-MKII/issues/25",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T17:06:06Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/26#event-23860489930",
+    "issue": "https://github.com/Smooth115/Claude-MKII/issues/26",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T17:06:07Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/27#event-23860490223",
+    "issue": "https://github.com/Smooth115/Claude-MKII/issues/27",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T17:06:07Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/28#event-23860490449",
+    "issue": "https://github.com/Smooth115/Claude-MKII/issues/28",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T17:06:08Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/29#event-23860490716",
+    "issue": "https://github.com/Smooth115/Claude-MKII/issues/29",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-24T17:06:08Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/32#event-23886950036",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/32",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-25T11:20:32Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/32#event-23886950137",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/32",
+    "actor": "https://github.com/Smooth115",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-25T11:20:32Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/32#event-23886951795",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/32",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-25T11:20:36Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Claude-MKII/pull/32#event-23887131165",
+    "pull_request": "https://github.com/Smooth115/Claude-MKII/pull/32",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Create session review for MK2_PHANTOM on 2026-03-25",
+    "title_is": "Add session review report: 2026-03-25 Ubuntu/VS Code connection attempt",
+    "created_at": "2026-03-25T11:26:35Z"
+  }
+]
