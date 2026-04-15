@@ -1894,7 +1894,7 @@ The installed GRUB config at `/mount/nvme1/cdrom/boot/grub/grub.cfg` (the one wi
 - Have empty `30_os-prober` (no dual-boot detected by grub-mkconfig)
 - Have stock/empty `40_custom` and `41_custom` — no attacker-added entries
 
-**This is the critical proof:** The rootkit's signed GRUB bootloader (CN=grub MOK cert) does NOT use this config. The CN=grub GRUB has its own **internal configuration** that boots `/casper/vmlinuz` with `rdinit=/vtoy/vtoy` — completely ignoring the legitimate installed GRUB menu. The original Ubuntu GRUB config is left on disk as a decoy/artifact, but it is never loaded.
+**This is the critical proof:** The rootkit's signed GRUB bootloader (CN=grub MOK cert) does NOT use this config. The EFI firmware loads the rootkit's `grubx64.efi` binary (signed by CN=grub), which contains its own **embedded configuration** rather than reading from `/boot/grub/grub.cfg` on the filesystem. This embedded config boots `/casper/vmlinuz` with `rdinit=/vtoy/vtoy` — completely ignoring the legitimate installed GRUB menu. The original Ubuntu GRUB config is left on disk as a decoy/artifact, but it is never loaded.
 
 **Note:** The full config output shows grub.d sections appearing to be duplicated (00_header through 41_custom listed twice). This is most likely an OCR artifact from multiple phone screenshots of scrolled terminal output, but could also indicate a broken `grub-mkconfig` run that appended sections twice. In either case, the config's functional content (kernel 6.8.0-41, LVM root, UUID) is consistent throughout.
 
