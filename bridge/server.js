@@ -24,6 +24,18 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const PROJECT_ROOT = resolve(__dirname, '..');
 
+// Security: exec_command requires explicit opt-in
+const EXEC_ENABLED = process.env.MK2_BRIDGE_EXEC === '1';
+
+// Security: validate that a resolved path is within PROJECT_ROOT
+function assertWithinProject(targetPath) {
+  const resolved = resolve(targetPath);
+  if (!resolved.startsWith(PROJECT_ROOT + '/') && resolved !== PROJECT_ROOT) {
+    throw new Error(`Access denied: path '${targetPath}' resolves outside PROJECT_ROOT`);
+  }
+  return resolved;
+}
+
 // MCP Protocol constants
 const JSONRPC_VERSION = '2.0';
 
@@ -249,23 +261,51 @@ const toolHandlers = {
   network_connections: async (args) => {
     try {
       let output;
+      let connections;
+
       if (platform() === 'win32') {
         output = execSync('netstat -ano', { encoding: 'utf8', timeout: 10000 });
+        connections = output
+          .split('\n')
+          .map(line => line.trim())
+          .filter(line => /^(TCP|UDP)\s+/i.test(line))
+          .map(line => {
+            const parts = line.split(/\s+/);
+            const proto = parts[0];
+            if (proto.toUpperCase() === 'TCP') {
+              return {
+                proto,
+                local: parts[1] || '',
+                remote: parts[2] || '',
+                state: parts[3] || '',
+                pid: parts[4] || ''
+              };
+            }
+            return {
+              proto,
+              local: parts[1] || '',
+              remote: parts[2] || '',
+              state: '',
+              pid: parts[3] || ''
+            };
+          });
       } else {
-        output = execSync('netstat -tunapl 2>/dev/null || ss -tunapl', { encoding: 'utf8', timeout: 10000 });
+        output = execSync('ss -H -tunap', { encoding: 'utf8', timeout: 10000 });
+        connections = output
+          .split('\n')
+          .map(line => line.trim())
+          .filter(line => /^(tcp|udp)\b/i.test(line))
+          .map(line => {
+            const parts = line.split(/\s+/);
+            return {
+              proto: parts[0] || '',
+              state: parts[1] || '',
+              local: parts[4] || '',
+              remote: parts[5] || '',
+              pid: parts.slice(6).join(' ') || ''
+            };
+          });
       }
-      
-      const lines = output.trim().split('\n').slice(2); // Skip headers
-      const connections = lines.map(line => {
-        const parts = line.trim().split(/\s+/);
-        return {
-          proto: parts[0],
-          local: parts[3] || parts[1],
-          remote: parts[4] || parts[2],
-          state: parts[5] || parts[3],
-          pid: parts[6] || parts[4]
-        };
-      });
       
       if (args.state) {
         return connections.filter(c => c.state?.toUpperCase() === args.state.toUpperCase());
@@ -277,7 +317,7 @@ const toolHandlers = {
   },
 
   watch_directory: async (args) => {
-    const targetPath = resolve(args.path);
+    const targetPath = assertWithinProject(args.path);
     
     if (!existsSync(targetPath)) {
       return { error: `Path does not exist: ${targetPath}` };
@@ -323,6 +363,9 @@ const toolHandlers = {
   },
 
   exec_command: async (args) => {
+    if (!EXEC_ENABLED) {
+      return { error: 'exec_command is disabled. Set MK2_BRIDGE_EXEC=1 to enable.' };
+    }
     const timeout = args.timeout || 30000;
     
     try {
@@ -343,7 +386,7 @@ const toolHandlers = {
   },
 
   read_binary: async (args) => {
-    const targetPath = resolve(args.path);
+    const targetPath = assertWithinProject(args.path);
     const offset = args.offset || 0;
     const length = args.length || 256;
     
@@ -377,7 +420,7 @@ const toolHandlers = {
   },
 
   find_files: async (args) => {
-    const searchDir = resolve(args.directory);
+    const searchDir = assertWithinProject(args.directory);
     const results = [];
     const modifiedAfter = args.modified_after ? new Date(args.modified_after) : null;
     const pattern = args.pattern ? new RegExp(args.pattern.replace(/\*/g, '.*'), 'i') : null;
@@ -436,7 +479,7 @@ const toolHandlers = {
   },
 
   hash_file: async (args) => {
-    const targetPath = resolve(args.path);
+    const targetPath = assertWithinProject(args.path);
     
     if (!existsSync(targetPath)) {
       return { error: `File does not exist: ${targetPath}` };

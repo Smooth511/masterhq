@@ -1,5 +1,7 @@
 # Timeline — January 2025 to March 20, 2025
 
+> **Note:** This timeline covers events from the original 2025 investigation period. For 2026 investigation reports and analysis, see the [reports/](../reports/) directory.
+
 Chronological record of key events, battles, and milestones across all
 investigations.
 

@@ -31,6 +31,7 @@ deletions** in the diff.
 ### Reproduction
 
 ```bash
+# Requires Bash (uses process substitution)
 # character-level match (strip newlines, compare)
 diff <(git show main:Dancesong.txt | tr -d '\n') \
      <(cat Dancesong_chunk_*.txt  | tr -d '\n')

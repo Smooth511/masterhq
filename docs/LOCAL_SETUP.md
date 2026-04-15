@@ -18,6 +18,8 @@ This guide covers running the Claude-MKII MCP servers, bridge, CLI, and Docker e
 
 ## Quick Start — Install Everything
 
+> **Note:** The commands below are for the separate [Claude-MKII](https://github.com/Smooth115/Claude-MKII) repository, not this `masterhq` repo.
+
 ```bash
 git clone https://github.com/Smooth115/Claude-MKII.git
 cd Claude-MKII
@@ -205,7 +207,7 @@ Claude-MKII/
 │   └── requirements.txt
 ├── core/                  # Core documentation / memory files
 ├── evidence/              # Investigation evidence
-├── investigation/         # Investigation reports
+├── investigations/        # Investigation reports
 ├── logs/                  # Log files
 ├── mk2-phantom/           # Phantom vault
 ├── Dockerfile

@@ -40,7 +40,7 @@ Before performing ANY action (read, write, commit, PR, issue, or modification) o
 ## EXCEPTIONS
 
 ### Permitted read-only for authorization check:
-- AGENT_ACCESS.md (this file) — all models may read this file to check if they are authorized
+- core/_MKII-AGENT-ACCESS.md (this file) — all models may read this file to check if they are authorized
 - No other files are accessible to unauthorized models
 
 ### User override:
