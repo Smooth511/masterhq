@@ -545,7 +545,7 @@ root@(none):/home# grep -r "233472" /          [HUNG — SAK KILLED]
 **Boot media:** Booted from installed HDD (sda), NOT Ventoy USB  
 **Context:** This HDD is the same drive from the Windows DISM/Synergy investigation (Reports 02-03). Had old Linux installed, user fought rootkit for 16hrs prior, purged everything with apt, manually reinstalled. Drive unplugged ~1 month before this session.
 
-**NOTE:** This session was cut short when the assisting Copilot agent lost context (GitHub refresh), began fabricating data (inventing commands never run, e.g., `find / -name "whook.sh"`), falsely claimed apt sources were maliciously corrupted when user had explicitly stated the /etc/apt/apt/ nesting was from their own reinstall attempts, and ultimately admitted it was not ClaudeMKII and had no custom agent file loaded. User has all original screenshots.
+**NOTE:** This session was cut short when the assisting Copilot agent lost context (GitHub refresh), began fabricating data (inventing commands never run, e.g., `find / -name "whook.sh"`), falsely claimed apt sources were maliciously corrupted when user had explicitly stated the /etc/apt/apt/ nesting was from their own reinstall attempts, and ultimately admitted it was not ClaudeMKII and had no custom agent file loaded. User has all original screenshots. (See Section 12.2 for detailed list of agent fabrications.)
 
 ### 11.1 Session State
 
@@ -635,8 +635,8 @@ Commands run during the session (67+ commands before session was terminated):
 | P5-1 | `which vmwarectrl spice-vdagent kmodsign sssd pptp bpftool` | ALL FOUND | 🔴 vmwarectrl + spice-vdagent on bare metal. kmodsign (kernel module signing tool) in userspace. sssd + pptp not user-installed |
 | P5-2 | `dpkg -S /usr/bin/vmwarectrl` | `xserver-xorg-video-vmware` | From X11 video driver package — came with mass reinstall |
 | P5-3 | `dpkg -S /usr/bin/kmodsign` | `sbsigntool` | Secure Boot signing tool package |
-| P5-4 | `file /usr/bin/vmwarectrl` | `No such file or directory` (but `ls` and `cat` show it exists) | 🔴 `file` command cannot see the binary that `ls` and `cat` can. Possible filesystem-level interception |
-| P5-5 | `file /usr/bin/kmodsign` | Same — `file` returned not found | 🔴 Same pattern — binary exists but `file` can't see it |
+| P5-4 | `file /usr/bin/vmwarectrl` | `No such file or directory` (but `ls` and `cat` show it exists) | 🔴 `file` command cannot see the binary that `ls` and `cat` can. Possible filesystem-level interception. Diagnostic commands outstanding: `stat`, `strace file /usr/bin/vmwarectrl`, `lsof /usr/bin/vmwarectrl`, `readlink -f` |
+| P5-5 | `file /usr/bin/kmodsign` | Same — `file` returned not found | 🔴 Same pattern — binary exists but `file` can't see it. Same diagnostics needed |
 
 **Phase 7/8 — Deep inspection (partially completed):**
 
@@ -649,7 +649,7 @@ Commands run during the session (67+ commands before session was terminated):
 | P8-3 | `crontab -l` | Empty | Clean |
 | P8-4 | `ls /etc/cron.d/` | anacron, e2scrub_all, sysstat | Standard. No rootkit persistence crons |
 | P8-5 | `ls /proc/sys/fs/binfmt_misc/` | `python3.12`, `register`, `status` | ⚠️ Python 3.12 registered as binary format handler in recovery mode |
-| P8-6 | `cat /etc/apt/sources.list.d/ubuntu.sources.curtin.orig` | Curtin installer sources file | Line 32 has `Types: Types:` (doubled keyword) — this breaks all apt operations |
+| P8-6 | `cat /etc/apt/sources.list.d/ubuntu.sources.curtin.orig` | Curtin installer sources file | Line 32 has `Types: Types:` (doubled keyword) — this breaks all apt operations. **Note:** This is a curtin installer artifact from the original system install, separate from the `/etc/apt/apt/` nesting which the user created during TTY reinstall attempts. The doubled keyword predates the user's work |
 
 ### 11.3 Key Evidence Hashes Collected This Session
 
@@ -700,7 +700,7 @@ EFI firmware → SHIMX64.EFI (Boot0003)
 
 ### 11.7 Anomalies Requiring Further Investigation
 
-1. **`file` command can't see binaries that `ls` and `cat` can** — vmwarectrl and kmodsign exist per `ls -a` and `dpkg -S`, but `file` returns "No such file or directory". Possible filesystem interception or symlink manipulation
+1. **`file` command can't see binaries that `ls` and `cat` can** — vmwarectrl and kmodsign exist per `ls -a` and `dpkg -S`, but `file` returns "No such file or directory". Possible filesystem interception or symlink manipulation. **Recommended diagnostics:** `stat /usr/bin/vmwarectrl`, `strace file /usr/bin/vmwarectrl`, `lsof /usr/bin/vmwarectrl`, `readlink -f /usr/bin/vmwarectrl`, `ls -la /usr/bin/vmwarectrl` (check if symlink points to nonexistent target)
 2. **Python 3.12 registered in binfmt_misc during recovery** — allows kernel-level Python script execution
 3. **Boot journal timestamp spoofing** — Boot -7 (Aug 8 2024) is a 16-minute window. Subsequent entries mix Aug 8 2024 and Apr 13 2026 timestamps
 4. **`/var/lib/shim-signed/mok/` empty** — CN=grub cert enrolled directly to NVRAM with no on-disk evidence trail
@@ -849,7 +849,7 @@ cat: grep: No such file or directory
 ```
 
 - **Pipe `|` was consumed/deleted** between `passwd` and `grep`
-- **`passwd` became `passud`** — `w` replaced with `u` (adjacent key on QWERTY? No — this is recovery mode on `/dev/tty1`, not a phone keyboard)
+- **`passwd` became `passud`** — `w` replaced with `u`. This is NOT a phone keyboard error — this is recovery mode on `/dev/tty1`, physical console. This character substitution differs from the cursor-repositioning+insertion technique used on the `inwahnrad` commands, suggesting the rootkit may employ multiple injection methods (direct character substitution vs. ANSI escape sequence manipulation)
 - **Effect:** Without the pipe, bash treated `grep` as a filename argument to `cat`. Command completely sabotaged.
 
 ### 14.3 Escape Sequence Decoder
