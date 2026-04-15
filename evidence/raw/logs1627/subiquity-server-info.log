@@ -1,0 +1,85 @@
+2024-08-08 14:51:46,014 INFO subiquity:201 Starting Subiquity server revision 237 of snap /snap/ubuntu-desktop-bootstrap/237 of version 0+git.66bf8d183
+2024-08-08 14:51:46,015 INFO subiquity:205 Arguments passed: ['/snap/ubuntu-desktop-bootstrap/237/bin/subiquity/subiquity/cmd/server.py', '--use-os-prober', '--storage-version=2', '--postinst-hooks-dir=/snap/ubuntu-desktop-bootstrap/237/etc/subiquity/postinst.d']
+2024-08-08 14:52:16,961 INFO root:38 start: subiquity/apply_autoinstall_config: 
+2024-08-08 14:52:16,964 INFO root:38 finish: subiquity/apply_autoinstall_config: SUCCESS: 
+2024-08-08 14:52:16,988 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:52:16,988 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "WAITING", "confirming_tty": "", "error": null, "nonreportable_erro...
+2024-08-08 14:52:16,991 INFO root:38 start: subiquity/Meta/client_variant_POST: 
+2024-08-08 14:52:16,992 INFO root:38 finish: subiquity/Meta/client_variant_POST: SUCCESS: 200 null
+2024-08-08 14:52:16,993 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:52:16,993 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "WAITING", "confirming_tty": "", "error": null, "nonreportable_erro...
+2024-08-08 14:52:16,993 INFO root:38 start: subiquity/Meta/mark_configured_POST: 
+2024-08-08 14:52:16,996 INFO root:38 finish: subiquity/Meta/mark_configured_POST: SUCCESS: 200 null
+2024-08-08 14:52:17,332 ERROR probert.multipath:38 Failed to run cmd: ['multipathd', 'show', 'maps', 'raw', 'format', '%w,%d,%N']
+2024-08-08 14:52:17,332 ERROR probert.multipath:38 Failed to run cmd: ['multipathd', 'show', 'paths', 'raw', 'format', '%d,%z,%m,%N,%n,%R,%r,%a']
+2024-08-08 14:52:18,120 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:52:18,120 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "WAITING", "confirming_tty": "", "error": null, "nonreportable_erro...
+2024-08-08 14:52:18,121 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:52:18,121 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "WAITING", "confirming_tty": "", "error": null, "nonreportable_erro...
+2024-08-08 14:52:18,121 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:52:18,121 INFO root:38 start: subiquity/Meta/interactive_sections_GET: 
+2024-08-08 14:52:18,121 INFO root:38 finish: subiquity/Meta/interactive_sections_GET: SUCCESS: 200 null
+2024-08-08 14:52:20,187 WARNING curtin:1150 ignoring mount for device /dev/dm-0
+2024-08-08 14:52:20,202 INFO curtin:1396 Validating extracted storage config components
+2024-08-08 14:52:49,545 ERROR subiquity.server.controllers.refresh:197 checking for snap update failed
+Traceback (most recent call last):
+  File "/snap/ubuntu-desktop-bootstrap/237/bin/subiquity/subiquity/server/controllers/refresh.py", line 195, in check_for_update
+    result = await self.app.snapdapi.v2.find.GET(select="refresh")
+  File "/snap/ubuntu-desktop-bootstrap/237/bin/subiquity/subiquity/common/api/client.py", line 47, in impl
+    async with make_request(
+  File "/snap/ubuntu-desktop-bootstrap/237/usr/lib/python3.10/contextlib.py", line 199, in __aenter__
+    return await anext(self.gen)
+  File "/snap/ubuntu-desktop-bootstrap/237/bin/subiquity/subiquity/server/snapdapi.py", line 298, in make_request
+    content = await async_snapd.get(path[1:], **params)
+  File "/snap/ubuntu-desktop-bootstrap/237/bin/subiquity/subiquitycore/snapd.py", line 226, in get
+    response.raise_for_status()
+  File "/snap/ubuntu-desktop-bootstrap/237/usr/lib/python3/dist-packages/requests/models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: http+unix://%2Frun%2Fsnapd.socket/v2/find?select=refresh
+2024-08-08 14:53:01,010 ERROR probert.multipath:38 Failed to run cmd: ['multipathd', 'show', 'maps', 'raw', 'format', '%w,%d,%N']
+2024-08-08 14:53:01,011 ERROR probert.multipath:38 Failed to run cmd: ['multipathd', 'show', 'paths', 'raw', 'format', '%d,%z,%m,%N,%n,%R,%r,%a']
+2024-08-08 14:53:02,137 WARNING curtin:1150 ignoring mount for device /dev/dm-0
+2024-08-08 14:53:02,153 INFO curtin:1396 Validating extracted storage config components
+2024-08-08 14:53:24,187 ERROR probert.multipath:38 Failed to run cmd: ['multipathd', 'show', 'maps', 'raw', 'format', '%w,%d,%N']
+2024-08-08 14:53:24,188 ERROR probert.multipath:38 Failed to run cmd: ['multipathd', 'show', 'paths', 'raw', 'format', '%d,%z,%m,%N,%n,%R,%r,%a']
+2024-08-08 14:53:25,184 WARNING curtin:1150 ignoring mount for device /dev/dm-0
+2024-08-08 14:53:25,201 INFO curtin:1396 Validating extracted storage config components
+2024-08-08 14:54:27,780 INFO root:38 start: subiquity/Meta/mark_configured_POST: 
+2024-08-08 14:54:27,781 INFO root:38 finish: subiquity/Meta/mark_configured_POST: SUCCESS: 200 null
+2024-08-08 14:54:31,199 WARNING curtin:1150 ignoring mount for device /dev/dm-0
+2024-08-08 14:54:31,216 INFO curtin:1396 Validating extracted storage config components
+2024-08-08 14:54:32,931 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:54:32,932 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "WAITING", "confirming_tty": "", "error": null, "nonreportable_erro...
+2024-08-08 14:54:32,950 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:54:32,950 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "WAITING", "confirming_tty": "", "error": null, "nonreportable_erro...
+2024-08-08 14:54:32,953 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:54:33,136 INFO root:38 start: subiquity/Meta/mark_configured_POST: 
+2024-08-08 14:54:33,137 INFO root:38 finish: subiquity/Meta/mark_configured_POST: SUCCESS: 200 null
+2024-08-08 14:54:33,138 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "NEEDS_CONFIRMATION", "confirming_tty": "", "error": null, "nonrepo...
+2024-08-08 14:54:33,138 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "NEEDS_CONFIRMATION", "confirming_tty": "", "error": null, "nonrepo...
+2024-08-08 14:54:33,150 INFO root:38 start: subiquity/Meta/confirm_POST: 
+2024-08-08 14:54:33,151 INFO root:38 finish: subiquity/Meta/confirm_POST: SUCCESS: 200 null
+2024-08-08 14:54:33,151 INFO root:38 start: subiquity/Install/install/configure_apt: configuring apt
+2024-08-08 14:54:33,152 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:54:33,152 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "RUNNING", "confirming_tty": "/dev/tty1", "error": null, "nonreport...
+2024-08-08 14:54:33,152 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:54:33,152 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "RUNNING", "confirming_tty": "/dev/tty1", "error": null, "nonreport...
+2024-08-08 14:54:33,153 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:54:33,153 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:54:43,153 ERROR root:38 finish: subiquity/Mirror/waiting: FAIL: 
+2024-08-08 14:54:46,466 INFO root:38 finish: subiquity/Install/install/configure_apt: SUCCESS: configuring apt
+2024-08-08 14:54:46,467 INFO root:38 start: subiquity/Install/install/curtin_install: installing system
+2024-08-08 14:57:43,931 INFO root:38 finish: subiquity/Install/install/curtin_install: SUCCESS: installing system
+2024-08-08 14:57:43,931 INFO root:38 start: subiquity/Install/install/postinstall: final system configuration
+2024-08-08 14:57:43,938 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "RUNNING", "confirming_tty": "/dev/tty1", "error": null, "nonreport...
+2024-08-08 14:57:43,939 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "RUNNING", "confirming_tty": "/dev/tty1", "error": null, "nonreport...
+2024-08-08 14:57:44,008 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:57:44,008 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:57:44,216 WARNING subiquity.server.apt:359 failed to rmdir /target/cdrom: [Errno 16] Device or resource busy: '/target/cdrom'
+2024-08-08 14:57:44,216 INFO root:38 finish: subiquity/Install/install/postinstall: SUCCESS: final system configuration
+2024-08-08 14:57:44,223 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "LATE_COMMANDS", "confirming_tty": "/dev/tty1", "error": null, "non...
+2024-08-08 14:57:44,223 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "LATE_COMMANDS", "confirming_tty": "/dev/tty1", "error": null, "non...
+2024-08-08 14:57:44,320 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:57:44,320 INFO root:38 start: subiquity/Meta/status_GET: 
+2024-08-08 14:57:46,236 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "DONE", "confirming_tty": "/dev/tty1", "error": null, "nonreportabl...
+2024-08-08 14:57:46,237 INFO root:38 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "DONE", "confirming_tty": "/dev/tty1", "error": null, "nonreportabl...

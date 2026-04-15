@@ -1,0 +1,16 @@
+
+APPLYING DEFAULT FILTERS:
+/private/var/installd/Library/Logs/MobileInstallation/mobile_installation.log.0, Added to Candidate logs
+/private/var/installd/Library/Logs/MobileInstallation/mobile_installation.log.1, Added to Candidate logs
+
+APPLYING DEFAULT FILTERS:
+/private/var/containers/Shared/SystemGroup/A7EC3809-2068-4642-91B0-91F1F049553D/Library/Logs/mobile_installation_helper.log.0, Added to Candidate logs
+
+
+ENFORCING SIZE LIMIT OF 5 MB ON FILTERED CANDIDATES:
+
+/private/var/installd/Library/Logs/MobileInstallation/mobile_installation.log.0, Added (98687 bytes)
+/private/var/installd/Library/Logs/MobileInstallation/mobile_installation.log.1, Added (262526 bytes)
+/private/var/containers/Shared/SystemGroup/A7EC3809-2068-4642-91B0-91F1F049553D/Library/Logs/mobile_installation_helper.log.0, Added (244 bytes)
+
+** DONE Enforcing size limit **

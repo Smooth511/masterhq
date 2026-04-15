@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LastAttempt</key>
+	<date>2026-03-08T16:41:08Z</date>
+	<key>LastSuccess</key>
+	<date>2026-03-08T16:41:09Z</date>
+	<key>PollFrequencySeconds</key>
+	<integer>86400</integer>
+	<key>kNWSettingsKeyLastRun</key>
+	<date>2026-03-08T13:24:15Z</date>
+</dict>
+</plist>

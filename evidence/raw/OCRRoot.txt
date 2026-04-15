@@ -1,0 +1,2927 @@
+
+
+pute
+
+1.185415] nume 0000:04:00.0: platform quirk: setting simple suspend
+
+1.185825] nume nvmee: pci function 0000:04:00.0
+
+1.187206] input: USB Optical Mouse as /devices/pc10000:00/0000:00:14.0/usb1/1-7/1-7:1.0/0003:30FA:0400.0001/input/Input3 1.187397] hid-generic 0003:30FA:0400.0001: input,hidrave: USB HID v1.11 Mouse [USB Optical Mouse ] on usb-0000:00:14.0-7/2 1.187754] input: SEMICO USB Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:1A2C:4894.0062/input/input4 1.192558] nve nee: 03 entry latency set to 8 seconds 1.206196] nvme nvmee: 16/0/0 default/read/poll queues 1.209622] nvcn1: p1
+
+8/inpute
+
+1.238312] hid-generic 6063:1A2C:4094.0002: input,hidrawl: USB HID v1.10 Keyboard [SENICO USB Keyboard] on usb-0000:00:14.6- E 1.238746] input: SEMICO USB Keyboard Consumer Control as /devices/pc10000:00/0000:00:14.0/usb1/1-8/1-8:1.1/6863:12:4894.e 663/input/inputs
+
+[ 1.296332] input: SEMICO USB Keyboard System Control as /devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0683:1A2C:4994.00€ 3/input/input6 E 1.292624] hid-generic 6063:1A2C:4094.0003: input,hidrau2: USB HID v1.10 Device [SEMICO USB Keyboard] on usb-0000:00:14.0-8 input1 1.394961] tsc: Refined TSC clocksource calibration: 2903.999 MHz
+
+[
+
+1.395216] clocksource: tsc: mask: 0xfffffffffffffff max cycles: ex29dc050a48e, max_idle_ns: 440795325696 ns 1.395519] clocksource: Switched to clocksource tsc Begin: Loading essential drivers
+
+[
+
+***
+
+[ 1.450019] raid6: avx2x4
+
+gen() 50400 MB/s
+
+1.466976] raid6: avx2x2 1.483966] raids: avx2x1 gen() 43441 MB/s
+
+1.484171] raid6: using algorithm avx2x2 gen() 50400 MB/s 1.560971] raid6:
+
+xor() 31513 MB/s, rm enabled
+
+1.501213] raid6: using avx2x2 recovery algorithm
+
+gen() 50241 MB/s
+
+1.5652431 xor: automatically using best checksumming function avx 1.566896] async_tx: api initialized (async)
+
+done. Begin: Running /scripts/init-premount... done. Begin: Mounting root file system
+
+Begin: Running /scripts/nfs-top
+
+...done.
+
+Kingston DataTraveler 3.0 0000 PQ: ANSI: 6
+
+Begin: Running /scripts/nfs-premount... done. 2.163771] scsi 0:0:0:0: Direct-Access 2.1664381 sd 0:0:0:0: Attached scsi generic sge type e
+
+2.1677241 sd 0:0:0:0: [sda] 121077760 512-byte logical blocks: (62.0 GB/57.7 GiB)
+
+2.169530] sd 0:0:0:0: [sda] Hrite Protect is off
+
+2.169771] sd 0:0:0:0: [sda] Mode Sense: 23 00 00 00
+
+2.176694] sd 0:0:0:0: [sda] Hrite cache: disabled, read cache: enabled, doesn't support DPO or FUA 2.189777) sda: sda1 sda2
+
+2.196681] sd 0:0:0:0: [sda] Attached SCSI removable disk 2.589755] ISO 9660 Extensions: Microsoft Joliet Level 3 2.596765] ISO 9660 Extensions: RRIP 1991A
+
+2.616927) loope: detected capacity change from to 6666912
+
+2.6551761 loop1: detected capacity change from 0 to 1159544 2.6957621 loop2: detected capacity change from 0 to 2040568
+
+2.7623911 overlayfs: null uuid in non-single lower fs '/', falling back to xino-off, index=off,nfs_export=off. 3.1872731) evm: overlay not supported
+
+Лос
+
+Begin: Mounting root file system
+
+Begin: Running /scripts/nfs-top Begin: Running /scripts/nfs-premount ... done.
+
+***
+
+done.
+
+2.163771] scsi 0:0:0:0: Direct-Access Kingston DataTraveler 3.0 0000 PQ: 0 ANSI: 6 2.166438] sd 0:0:0:0: Attached scsi generic sge type 2.167724] sd 0:0:0:0: [sda] 121077760 512-byte logical blocks: (62.0 GB/57.7 GiB) 2.169530] sd 0:0:0:0: [sda] Hrite Protect is off 2.169771] sd 0:0:0:0: [sda] Mode Sense: 23 00 00 00 2.170094] sd 0:0:0:0: [sda] 2.189777) sda: sdal sda2 2.190081] sd 0:0:0:0: [sda] Attached SCSI removable disk 2.589755] ISO 9660 Extensions: Microsoft Joliet Level 3 2.590705] ISO 9660 Extensions: RRIP_1991A
+
+Hrite cache: disabled, read cache: enabled, doesn't support DPO or FUA
+
+2.610927] loope: detected capacity change from 0 to 6666912 2.655170] loop1: detected capacity change from 0 to 1159544
+
+t 2.695762] loop2: detected capacity change from 0 to 2040568
+
+[
+
+2.702391] overlayfs: null uuid in non-single lower fs '/', falling back to xino-off, index=off,nfs_export=off. 3.187273] evm: overlay not supported Begin: Running /scripts/casper-premount
+
+done.
+
+done.
+
+...
+
+done.
+
+Begin: Creating debconf-communicate fifo mechanism... done.
+
+Begin: Running /scripts/casper-bottom Begin: Configuring fstab...... done. Begin: Setting up swap...
+
+...
+
+done.
+
+done.
+
+Begin: Moving mount points... ... done.
+
+done.
+
+-
+
+... done. done.
+
+hostname: Name or service not known
+
+Begin: Setting up locales...... done. Begin: Setting up automatic login... Begin: Setting hostname... Begin: Setting up console keyboard.. Begin: Applying desktop settings... Begin: Regenerating SSL certificate... make-ssl-cert: Could not get FQDN, using (none)
+
+...
+
+make-ssl-cert: You may want to fix your /etc/hosts and/or DNS setup and run make-ssl-cert: 'make-ssl-cert generate-default-snakeoil --force-overwrite make-ssl-cert: again.
+
+done.
+
+Begin: Loading preseed file...
+
+done.
+
+Begin: Adding live session user... ...passwd: password changed. Failed to create stream fd: No such file or directory
+
+Failed to create stream fd: No such file or directory
+
+Failed to create stream fd: No such file or directory
+
+dbus-daemon (895]: [session uid=1000 pid=18446744073709551615 pidfd=5] Activating service name='org.gtk.vfs.Daemon' requested by :1.0 (uid=1000 label="unconfined")
+
+done.
+
+Begin: Running /scripts/nfs-bottom
+
+done.
+
+Begin: Running /scripts/init-bottom... done.
+
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device bash: no job control in this shell
+
+root@(none):/#
+
+bash: no job control in this shell root@(none):/# ls -la /cdrom/inwahnrad
+
+1s: cannot access /cdrom/inwahnrad: No such file or directory root@(none):/# file /cdrom/inwahnrad /cdrom/inwahnrad: cannot open root (none):/# ls -a /cdrom
+
+.disk boot
+
+casper
+
+EFI boot.catalog dists
+
+/cdrom/inwahnrad' (No such file or directory)
+
+md5sum.txt pool
+
+root@(none):/# find / -name "wahnж**"
+
+ubuntu
+
+/var/lib/snapd/assertions/asserts-ve/snap-revision/wahnpkJ3LLNMSIQPOW1M9PaHgDYck6In9Rry6HM8m04pzн01123eggsn_KVbg02C
+
+/rofs/var/lib/snapd/assertions/asserts-ve/snap-revision/wahnpkJ3LLNM5IQPON1M9PaHgDYck6
+
+In9Rry6HM8m04pzH01123eggsn_KVbg02C
+
+root (none):/# cat /rofs/var/lib/snapd/assertions/asserts-ve/snap-revision/wahnpkj3* /rofs/var/lib/snapd/assertions/asserts-ve/snap-revision/wahnpkJ3LLNMSIQPOW1M9PaHgDYck6
+
+cat:
+
+s a directory
+
+In9Rry6HM8m04pzH01123eggsn_KVbg02C: I
+
+root@(none):/# ls -la /rofs/var/lib/snapd/assertions/asserts-ve/snap-revision/wahnpkJ3LLNM5IQPOH1M9PaHgDYck6 3eggsn_KVbg02C/
+
+total 1
+
+drwxr-xr-x 2 root root
+
+29 Mar 25
+
+2026.
+
+drwxr-xr-x 14 root root 879 Mar 25 2026 --r--r-- 1 root root 1101 Mar 25 2026 active
+
+In9Rгy6HM8m04pzH0112
+
+root@(none):/# ls -la /rofs/var/lib/snapd/assertions/asserts-ve/snap-revision/wahnpkj3LLNMSIQPOW1M9PaHgDYck6 In9Rry6HM8m04pzH0112 3eggsn_KVbg02C/active -rw-r--r-- 1 root root 1101 Mar 25 2026 /rofs/var/lib/snapd/assertions/asserts-ve/snap-revision/wahnpkJ3LLNMSIQPOH1M9PaHgDYck61 n9Rгy6HM8m04pzH01123eggsn_KVbg02C/active roote (none):/# cat /rofs/var/lib/snapd/assertions/asserts-ve/snap-revision/wahnpkJ3LLNMSIQPOH1M9PaнgDYck6 In9Rгy6HM8m04pzH01123eg gsn_KVbg02C/active
+
+type: snap-revision
+
+authority-id: canonical
+
+snap-sha3-384: wahnpk j3LLNM5IQPOW1M9PaHgDYck6 In9Rry6HM8m04pzH01123eggsn_KVbg02C
+
+developer-id: canonical
+
+provenance: global-upload
+
+snap-id: aoc51fc8aUd2VL8VpvynUJJHGXp5K6DJ snap-revision: 204
+
+snap-size: 19738624
+
+timestamp: 2026-03-19T11:07:22.8350072
+
+sign-key-sha3-384: BHDEoaqyr25nF5SNCvEv2v7QnM9Qsfcc0PBMYD_12NGSQ32EF2d4D0hqUe 13mBul
+
+ACLBUgQAAQOABgUCabvY6gAATb4QADmFbPidm+Vrpjg9nyaR0mqsX4kU4UBHQIC1GGOKqfzS8FqZ FGRDQ8IFF6a+6mVQE3bb0CNHtnxJJka0b0bd/EJgxsouNctrya2e4cMR4cnVMluL0r4ED1HVK19M SiDpgOpeRweFxM7/8Fua69x3gzUTdG+VcTz00d2XjnAuLhPBhqzHdS+kXx1SXURGYAnt H061EubC JUHATN3DK1rfNNtnbLk 1kHzMm5mrPYS11dGgcRbHT@MYFBx+YBaT5CX4ZVJrf 7qsFaHyXvPX343V Bx0oxhxXfzAHY9mFr50eUpJQAL TrCV+yv2UufgV641IHLMd93+rKJYE 7x92dzL8Zwhsdl1yar3y vk HUUCmOM8EyWFrzu9NfAvrsAGKP41HnQSh8u9VYA4KYV1mwefKDV/00/dqw4u65hbnQEAPEDfwb
+
+RAFVIVG13cEеTE 1x1MJH7ADan21M3VTгq330ЕelvHbAозa IBXfKXC9z6ILJwFzSLK4KKPxuk+ctc 23HNFEг4XUZEJZrEaEBTvRkPahcssH18e9A4y2kgfxRCaGmraq7F0fHpxFsd IjueRSka/UY19EQ1
+
+DOPj3b/q/cupIjHS36wm+jgTaXL/JQGMMv77dPYNMN2RX9+tKHX8igXe+LiгH5Hq7RyeQ31gbdD7
+
+1906hkc80A114EE9Yna3XeapExvR
+
+Coote (none):/#
+
+total 1
+
+drwxr-xr-x 2 root root
+
+drwxr-xr-x 14 root root
+
+29 Mar 25 2026 879 Mar 25 2026
+
+-rw-r--r-- 1 root root 1101 Mar 25 2026 active
+
+root@(none):/# ls -la /rofs/var/lib/snapd/assertions/asserts-ve/snap-revision/wahnpk jзLLNMSIQPOH1M9PаHgDYck6 In9Rгy6HM8m04pzW0112 3eggsn_KVbg02C/active
+
+-rw-r--r-- 1 root root 1101 Mar 25 2026 /rofs/var/lib/snapd/assertions/asserts-ve/snap-revision/wahnpk j3LLNM5IQPOW1M9PаHgDYck61 n9Rry6HM8m04pzH01123eggsn_KVbg02C/active root (none):/# cat
+
+gsn_KVbg02C/active
+
+type: snap-revision
+
+/rofs/var/lib/snapd/assertions/asserts-ve/snap-revision/wahnpkjзLLNM5IQPOW1M9PaHgDYck6 In9Rгy6HM8m04pzH01123eg
+
+authority-id: canonical
+
+snap-sha3-384: wahnpkj3LLNM5IQPOW1M9PaHgDYck6 In9Rгy6HM8m04pzH01123eggsn_KVbg02C
+
+developer-id: canonical
+
+provenance: global-upload
+
+snap-id: aoc51fc8aUd2VL8vpvynUJJHGXp5K6DJ snap-revision: 204
+
+snap-size: 19738624
+
+timestamp: 2026-03-19T11:07:22.8350072
+
+sign-key-sha3-384: BHDEoaqyr25nF5SNCvEv2v7QnM9Qsfcc0PBMYD_12NGSQ32EF2d4D0hqUe13mBul
+
+ACLBUgQAAQOABgUCabvY6gAATb4QADmFbPidm+Vrpjg9nyaR0mqsX4kU4U8HQIC1GGOKqfzS8FqZ
+
+FGRDQ8IFF6a+6mVQE3bb0CNHtnxJjkaeb0bd/EJgxsowNctrya2e4cMR4cnVMluL0г4D19M SiDpgOpeRweFxM7/8Fua69x3gzUTdG+VcTz00d2XjnAuLhPBhqzHdS+kXx1SXURGYAntH061EubC
+
+YUHATN3DK1rfNNtnbLk 1kHzMm5mrPYS11dGgcRbWTOMYFBx+YBaT5CX4ZVJrf7qsFaHyXvPX343V
+
+yBx0oxhxXfZAWY9mFr50eUpJQAL TrCV+yv2UufgV641IHLMd93+rKJYE7x9ZdzL8Zwhsdl1yar3y
+
+vKHUUCm0M8EyWFrzu9NfAvrsAGKP41HnQsh8u9VYA4KYV1mwefKDV/00/dqw4u65hbnQEAPEDfwb еPj3b/q/cwpIjHS36wm+jgTaXL/JQGMMv77dPYNmN2RX9+tKHX81gXe+LiгH5Hq7RyeQ31gbdD7 z3HNFEr4XUZEJZrEaEBTVRkPahcssH18e9A4y2kgfxRCaGmraq7F0fHpxFsdIjueRSka/UY19EQ1
+
+RAFVIVG13CEеTE 1x1MJH7ADan21M3VTгq330EelvWbAo3a IBXfKXC9z6ILJwFzsLK4KKPxuk+ctc
+
+1y06hkc80A114EE9Yna3XeapExvR
+
+2026
+
+root@(none):/# ls -la /rofs/var/lib/snapd/assertions/asserts-ve/snap-revision/ total o drwxr-xr-x 14 root root 879 Mar 25 2026. drwxr-xr-x 7 root root 107 Mar 25 drwxr-xr-x 2 root root drwxr-xr-x 2 root root drwxr-xr-x 2 root root drwxr-xr-x 2 root root drwxr-xr-x 2 root root drwxr-xr-x 2 root root drwxr-xr-x 2 root root drwxr-xr-x 2 root root drwxr-xr-x 2 root root drwxr-xr-x 2 root root drwxr-xr-x 2 root root drwxr-xr-x 2 root root coot (none) :/#
+
+29 Mar 25 2026 62rRwo_VHrOda jhL 1nNTqUJBgfWoZZNSFWhxn2AszCKYUAD0d8guxddMFеH5LVKP 29 Mar 25 2026 FmDjx16E_uogSNMt 1dHbmUHh2rxvNDhTV9K2n36eam2qc9291RdwOTSZ-2LEB1CS 29 Mar 25 2026 UtH4QJ156FteSrCJ_ae3R401-45aZTtOеBJZP9-5yJkQ4821NwCvEcxQb2-AIU-y 29 Mar 25 2026 WLgr t7fv8z10b0FuCgTdNzHJfR5nUCJLKs5uZKikQbaMeSBnnqo8gM60tBG-V12 29 Mar 25 2026 XnmR48g5tLBMGNbUiadQdPlizqdykxyMBC662KnKwvbn81JtEMOXY9917c1D-6eN 29 Mar 25 2026 ZRpvIacd-gpTA990f 1ZhunqSE9UXfNyZrJ8KF5jke9buSzgFBj6PhtofexuMбerL
+
+29 Mar 29 Mar 29 Mar 29 Mar 29 Mar 29 Mar
+
+25
+
+25
+
+25
+
+25
+
+25 25
+
+2026 a48L1SDRJRnXxeZ31Q0JGBD6JT40118xKz36HK-dke6гnVubNIPPDabf2vI_P1-N 2026 hpKwDJNvb0bpBjpJPеcpStgoWmx93230KB880McqnWGG-VAECyqEDO11H6w0AJcy 2026 q9SJIINgWnS5R49141nb1jNmlfa547q1FmNYPDEWWW3QMNGVSy-m3ere3sP3Npk2 2026 qdY7Vkboka2QXfU7zQ30IghY_THCU3gDbt 1V2PckFa-SddiLc_butaZOEA7ZUIWY 2026 s_abDhgR1Q9Luz7cZEADGMR77uW86A861wJwqyhp12x8XnoEQ8_XSXknx-jz1ZXB 2026 wahnpkJ3LLNM5IQPOW1M9PaнgDYck6 In9Rгy6HM8m04pzW01123eggsn_KVbg02C
+
+FGRDQ8IFF6a+6mVQE3bb0CNHtnxJjkaeb0bd/EJgxsowNctrya2e4cMR4cnVMluL0r4ED1WVK19M
+
+SiDpgOpeRweFxM7/8Fua69x3gzUTdG+VcTz00d2XjnAuLhPBhqzHdS+kXx1SXURGYAnt W061EubC yuHATN3DK1rfNNtnbLk 1kHzMm5mrPYS11dGgcRbWTOMYFBx+YBaT5cX4ZVJrf 7qsFaHyXvPX343V yBx0oxhxXfzAWY9mFr50eUpJQAL TrCV+yv2UufgV641 IWLMd93+гKJYE 7x92dzL8Zwhsdl1yar3y vkWUUCm0M8EyWFrzu9NfAvrsAGKP41HnQSh8u9VYA4KYV1mwefKDV/00/dqW4u65hbnQEAPEDfwb POPj3b/q/cwpIjHS36wm+jgTaXL/JQGMMv77dPYNmN2RX9++KHX8igXe+L1гH5Hq7RyeQ31gbdD7 z3HNFEг4XUZEJZrEaEBTVRkPahcssH18e9A4y2kgfxRCaGmraq7F0fHpxFsdIjueRSka/UY19EQ1
+
+RAFVIVG13cEеTE 1x1MJH7ADan21M3VTгq330EelvWbAo3a IBXfKXc9z6IL jwFzsLK4KKPxuk+ctc
+
+1y06hkc80A114EE9Yna3XeapExvR
+
+root@(none):/# ls -la /rofs/var/lib/snapd/assertions/asserts-ve/snap-revision/ total 0
+
+2026
+
+drwxr-xr-x 14 root root 879 Mar 25 2026. drwxr-xr-x 7 root root 107 Mar 25 drwxr-xr-x 2 root root 29 Mar 25 2026 62rRwo_VHrOdajhL 1nNTqUJ8gf HoZZNSFHhxn2AszCKYUAD0d8guxddMFH5LVKP drwxr-xr-x 2 root root 29 Mar 25 2026 FmDjx16E_uogSNMt 1dHbmUHh2rxvNDHTV9K2n36eam2qc9291RdwOTSZ-2LEB1CS drwxr-xr-x 2 root root 29 Mar 25 2026 UtH4QJI56FteSrCj_ae3R401-45aZTt0eBJZP9-5yJkQ48ZiNwCvEcxQb2-AIU-Y drwxr-xr-x 2 root root 29 Mar 25 2026 WLgr t7fv8z10b0FuCgTdNzHJfR5nUCJLKS5uZKikQbaMeSBnnqo8gM60tBG-V12 drwxr-xr-x 2 root root 29 Mar 25 2026 XnmR48g5tLBMGNbUiadQdPlizqdykxyMBC662KnKwvbn81JtEMOXY9917c1D-6eN drwxr-xr-x 2 root root 29 Mar 25 2026 ZRpvIacd-gpTA990f 1ZhunqSE9UxfNyZrJ8KF5jke9buSzgFBj6PhtofexuM6erL drwxr-xr-x 2 root root 29 Mar 25 2026 a48LISDRJRnXxeZ31Q0jGBD6JT40118xKz36HK-dke6rnVwbNIPPDabfZvI_P1-N drwxr-xr-x 2 root root 29 Mar 25 2026 hpKwDJNvb0bpBjpJPеcpStgoWmx93230KB880McqnHGG-VAECyqED011H6wAJcy drwxr-xr-x 2 root root 29 Mar 25 2026 q9SJIINgWnS5R49141nbljNmlfa547q1FmHYPDEHWH3QMNGVSy-m3ere3sP3Npk2 drwxr-xr-x 2 root root 29 Mar 25 2026 qdY7Vkbeka2QXfU7zQ3oIghY_THCU3gDbt 1v2PckFa-SddiLc_butaZOEA7ZUIWY drwxr-xr-x 2 root root 29 Mar 25 2026 s_abDhgR1Q9Luz7cZEADGMR77uH86A861wJwqyhp12x8XnoEQ8_XSXknx-jZ1ZXB drwxr-xr-x 2 root root 29 Mar 25 2026 wahnpkJ3LLNMSIQPеH1M9PаHgDYck6In9Rry6HM8m04pzH01123eggsn_KVbg02C root@(none):/# ls -la /rofs/var/lib/snapd/snaps/prompting-client_204.snap
+
+-rw- 2 root root 19738624 Mar 25 2026 /rofs/var/lib/snapd/snaps/prompting-client_204.snap root@(none):/# ls -la /rofs/var/lib/snapd/snaps/prompting-client_204**
+
+-rw-2 root root 19738624 Mar 25 2026 /rofs/var/lib/snapd/snaps/prompting-client_204.snap root@(none):/# ls -la /rofs/var/lib/snapd/snaps/* -ՐԱ- - - - - - 2 root root -rw------- 2 root root -րա- -
+
+-ՐԱ- - - - - - -
+
+2 root root
+
+4096 Mar 25 2026 /rofs/var/lib/snapd/snaps/bare_5.snap
+
+2
+
+70078464 Mar 25 20647936 Mar 25 2 root root 288116736 Mar 25 2 root root 17248256 Mar 25 2 root root 635518976 Mar 25 root root 96141312 Mar 25
+
+2 root root 414167040 Mar 25
+
+-rw-
+
+-rw-
+
+-rw-
+
+-rw-
+
+-rw-
+
+2 root root
+
+-rw- -rw-
+
+2 root root
+
+2 root root
+
+16326656 Mar 25 593920 Mar 25
+
+-rw-
+
+19738624 Mar 25
+
+2026
+
+/rofs/var/lib/snapd/snaps/core24_1499.snap
+
+2026 /rofs/var/lib/snapd/snaps/desktop-security-center_139.snap 2026 /rofs/var/lib/snapd/snaps/firefox_8032.snap 2026 /rofs/var/lib/snapd/snaps/firmware-updater_223.snap 2026 /rofs/var/lib/snapd/snaps/gnome-46-2404_153.snap 2026 /rofs/var/lib/snapd/snaps/gtk-common-themes_1535.snap 2026 /rofs/var/lib/snapd/snaps/mesa-2404_1165.snap 2026 /rofs/var/lib/snapd/snaps/prompting-client_204.snap 2026 /rofs/var/lib/snapd/snaps/snap-store_1338.snap
+
+2026
+
+/rofs/var/lib/snapd/snaps/snapd-desktop-integration_357.snap
+
+2 root root 52371456 Mar 25 2026 /rofs/var/lib/snapd/snaps/snapd_26812.snap
+
+/rofs/var/lib/snapd/snaps/partial:
+
+total o
+
+drwxr-xr-x 2 root root
+
+3 Feb 12 2026
+
+2026.
+
+drwxr-xr-x 3 root root 450 Mar 25 root@(none):/#
+
+Лос
+
+-rw-
+
+2 root root 96141312 Mar 25 2026 /rofs/var/lib/snapd/snaps/gtk-common-themes_1535.snap -rw- 2 root root 414167040 Mar 25 2026 /rofs/var/lib/snapd/snaps/mesa-2404_1165.snap -rw- 2 root root 19738624 Mar 25 2026 /rofs/var/lib/snapd/snaps/prompting-client_204.snap -rw- 2 root root 16326656 Mar 25 2026 /rofs/var/lib/snapd/snaps/snap-store_1338.snap -rw- 2 root root -rw- 2 root root
+
+593920 Mar 25 2026 /rofs/var/lib/snapd/snaps/snapd-desktop-integration_357.snap 52371456 Mar 25 2026 /rofs/var/lib/snapd/snaps/snapd_26812.snap
+
+/rofs/var/lib/snapd/snaps/partial:
+
+total e
+
+drwxr-xr-x 2 root root 3 Feb 12 2026 drwxr-xr-x 3 root root 450 Mar 25 2026 root@(none):/# grep -r "wahn" /scripts grep: /scripts: No such file or directory root (none):/# grep -r "wahnж" /scripts grep: /scripts: No such file or directory root (none):/# grep -r "wahn" /*<scripts grep: /scripts: No such file or directory root@(none):/# grep -r wahn" scripts grep: scripts: No such file or directory root@(none):/# grep -r "wahn*" .*scripts* grep: scripts: No such file or directory root@(none):/# grep -r "wahn"
+
+grep: proc/sys/net/ipv4/route/flush: Permission denied
+
+grep: proc/sys/net/ipv6/conf/all/stable_secret: Input/output error grep: proc/sys/net/ipv6/conf/default/stable_secret: Input/output error grep: proc/sys/net/ipv6/conf/enp3s0/stable_secret: Input/output error grep: proc/sys/net/ipv6/conf/10/stable_secret: Input/output error
+
+[844.503660] ICMPV6: process grep' is using deprecated sysctl (syscall) net.ipv6.neigh.default.base_reachable_time ipv6.neigh.default.base_reachable_time_ms instead
+
+grep:
+
+proc/sys/net/ipv6/route/flush: Permission denied
+
+grep: proc/sys/vm/compact_memory: Permission denied grep: proc/sys/vm/drop_caches: Permission denied grep: proc/kmsg: Resource temporarily unavailable
+
+C[sis [s (s^ [s^ [s^ [s^ [s^ [s^c^c^c^c^c^c
+
+C/C/
+
+C/
+
+C/C/C
+
+C
+
+-
+
+use net.
+
+-
+
+use net.
+
+grep: /scripts: No such file or directory root@(none):/# grep -r *wahnж" scripts* grep: scripts*: No such file or directory root@(none):/# grep -r "wahn".*scripts* grep: scripts*: No such file or directory root (none):/# grep -r "wahnж"
+
+grep: proc/sys/net/ipv4/route/flush: Permission denied
+
+grep: proc/sys/net/ipv6/conf/all/stable_secret: Input/output error grep: proc/sys/net/ipv6/conf/default/stable_secret: Input/output error grep: proc/sys/net/ipv6/conf/enp3s0/stable_secret: Input/output error grep: proc/sys/net/ipv6/conf/10/stable_secret: Input/output error
+
+[ 844.503660) ICMPV6: process, grep is using deprecated sysctl (syscall) net.ipv6.neigh.default.base_reachable_time ipv6.neigh.default.base_reachable_time_ms instead grep: proc/sys/net/ipv6/route/flush: Permission denied grep: proc/sys/vm/compact_memory: Permission denied grep: proc/sys/vm/drop_caches: Permission denied grep: proc/kmsg: Resource temporarily unavailable
+
+^C^s^ [s^ [s^[s^ [s^ [s^ [s^ [s^ [s^c^c^c^c^c
+
+C/C/
+
+C/ C/C/C
+
+C
+
+c923.310562) sysrq: HELP: loglevel(0-9) reboot (b) crash (c) terminate-all-tasks (e) memory-full-oom-kill(f) kill-all-tasks (1) thaw-filesystems (3) sak (k) show-backtrace-all-active-cpus (1) show-memory-usage (m) nice-all-RT-tasks (n) poweroff (o) show-register s(p) show-all-timers (q) unraw(r) sync(s) show-task-states (t) unmount (u) force-fb(v) show-blocked-tasks (w) dump-ftrace-buffer (z) dump-sched-ext (D) replay-kernel-logs (R) reset-sched-ext(S) 926.030563) sysrq: Keyboard mode set to system default
+
+[ 931.438570) sysrq: Emergency Sync
+
+[931.438875) Emergency Sync complete
+
+C
+
+942.246569] sysrq: This sysrq operation is disabled. 945.358570] sysrq: This sysra operation is disabled. 948.262571] sysrq: This sysrq operation is disabled. 951.254573] sysrq: This sysrq operation is disabled. [952.534574] sysrq: SAK
+
+952.534863) tty tty1: SAK: killed process 1 (bash): by fdwe 952.534906] tty tty1: SAK: killed process 1019 (grep): by fdwe
+
+root@(none):/#
+
+880000
+
+[
+
+0.4569311 eun: security.SMACK64 (1577852297.531:3): action neasure func MODULE CHECK res-1 0.457246] eun: security.SMACK64EXEC
+
+0.4573721 cun: security.SMACK64TRANSMUTE
+
+[
+
+0.457495] cun: security.SMACK6AMMARSHUTE 0.4576161 cun: security.apparmorMAP
+
+[
+
+0.4577341 cun: security.inaarnor
+
+[
+
+0.4578491 cun: security.capability
+
+0.4579621 cun: HMACrattrs: 0x1lity
+
+0.459437] integrity: Loading X.509 certificate: UEF1:4b
+
+[
+
+I
+
+I
+
+E
+
+zz P2'
+
+E
+
+53 63'
+
+1
+
+I
+
+E
+
+6.4588731 integrity: Loaded X509 certusTek Motherboard Vey Certificates da
+
+0.4596791 integrity: Loading X.509 certificate UE Board SU Key Certificate: dau36990122ebelic11178381 0.4594001 integrity: Loaded (X509 cert ASUSTek Notebook Key Certificate: MeeMTIM 0.4599901 integrity: Loading X.509 certificatek UEFabk Su Key Certificate: b8e581e1d1/7a5bb120245ccfc002071 0.4597961 integrity: Loaded X2509cert Microsoft Corporation UEFI CA 2011: 13db4399ARZION 0.1600261 integrity: Loading XX:909 certificates fULFsabration UEFI CA 2011: 13adbf1309bd82709ebe4511s 0.4682511 integrity: Loaded (X509cert Microsoft Windous Production PCA 2011: ZAITI 0.460521 integrity: Loading XX:909 certificates UEFI bus Production PCA 2011: a92902398e16c1977Beds
+
+229886 164
+
+JeffJae17655a53
+
+0.4609551 integrity: Loaded (X509cert ticrosoftption HOM UETS CA 2023: 514649371 4A/M911 ww 0.4608651 integrity: Loading XX5999 certificates E34 ROM UEFI CA 2023: 511fbf9371a16fb57bf07af8bcd8163686161711 0.4611623 integrity: Loaded 2509cert Microsoft UEFS CA 2023: 81aa6AZMAMAZ
+
+0.4613463 integrity: Loading XX:909 certificates E46 CA 2023: 81aa6b3244c935bce0d6628af398271210321974' 0.4619563 integrity: Loaded 569cert Microsoft Corporation: Windows UET1 CA 2023: aefes 0.461561] integrity: Loaded X.509 cert 'Microsoft Corporation: Windous UEFI CA 2023: acfc5fbbbe055d8f8daa585 0.4626921 integrity: Loading X.509 certificate: UEFI:HoListET (Muar table) 0.462533 integrity: Loaded 569cert Canonica Corrente Authority: NDILLAFADOZAM 0.4629341 integrity: Loaded X.509 cert 'Canonical Ltd. Master Certificate Authority: ad91990bc22ab1f5170-18c23b6655a26 9.4632961 integrity: Loading X.509 certificate: UEFI MokListET (Har table) 0.4638953 integrity: Laado2569cert bt49949220097 9.463253 tegic addrX 4923311 grub: d939395cda059c19a699c85f38564023be259007' 0.4699291 RS: GlinnoctarddoBidctor initialized.
+
+0.4616793
+
+retired; see nan kernel lock
+
+kDimmy paneled hitastion is restricted; see nan kernel lockdown.?
+
+9.4 kgdipabung dalek power domains 9.4657 Bee apps addnyte sudwysins 9.4612191 Freeing used alereptilagenorwit2938Kemory: 5284% CARA Britte einast read actor 38K 944973 Bridge age gapy: 946303 Freeky used here dage sendete yoy) memory 9492471 sndade 92K 947938) his Checkadings: passed, no U+X pages found. 9479230 Ritt process
+
+9479940
+
+உ
+
+gunents:
+
+withieldvisnewt:
+
+witironnent:
+
+1101-Yranx
+
+9-speed 3 device under 2 using xhci_Jed
+
+Write Protect is off Mode Sense: 23 00 00 00
+
+2.232059] sd 0:0:0:0: [sda] 121077760 512-byte logical blocks: (62.0 GB/57.7 GiB) 2.233572] sd 0:0:0:0: [sda] 2.233885] sd 0:0:0:0: [sda] 2.234330] sd 0:0:0:0: [sda] 2.253090] sda: sda1 sda2 2.255286] sd 0:0:0:0: [sda] Attached SCSI removable disk 2.653109] ISO 9660 Extensions: Microsoft Joliet Level 3 2.654029] ISO 9660 Extensions: RRIP 1991A
+
+Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+2.670803] loope: detected capacity change from 0 to 6666912 2.719003] loop1: detected capacity change from 0 to 1159544 2.773499] loop2: detected capacity change from 0 to 2040568
+
+[
+
+2.797349] overlayfs: null uuid in non-single lower fs '/', falling back to xino off, index=off,nfs_export=off. [ 3.234980] evm: overlay not supported Begin: Running /scripts/casper-premount ... done.
+
+done.
+
+done.
+
+Begin: Creating debconf-communicate fifo mechanism ... done.
+
+Begin: Running /scripts/casper-bottom... Begin: Moving mount points...
+
+done.
+
+...
+
+Begin: Configuring fstab... ... done.
+
+Begin: Setting up swap... ... done. Begin: Setting up locales... ... done. Begin: Setting up automatic login... Begin: Setting hostname... ... done. Begin: Setting up console keyboard... Begin: Applying desktop settings... ... done. Begin: Regenerating SSL certificate... make-ssl-cert: Could not get FQDN, using (none)'.
+
+done.
+
+done.
+
+hostname: Name or service not known
+
+make-ssl-cert: You may want to fix your /etc/hosts and/or DNS setup and run make-ssl-cert: 'make-ssl-cert generate-default-snakeoil --force-overwrite' make-ssl-cert: again.
+
+done.
+
+Begin: Loading preseed file...
+
+Begin: Adding live session user.
+
+done.
+
+passwd: password changed.
+
+Failed to create stream fd: No such file or directory
+
+Failed to create stream fd: No such file or directory Failed to create stream fd: No such file or directory
+
+dbus-daemon [891]: [session uid=1000 pid=18446744073709551615 pidfd=5] Activating service name='org.gtk.vfs.Daemon' requested by '1.0' (uid=1000 label="unconfined")
+
+done.
+
+Begin: Running /scripts/nfs-bottom
+
+done.
+
+Begin: Running /scripts/init-bottom ... done.
+
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device bash: no job control in this shell
+
+root@(none):/# grep -r "aoc51fc8a" /cdrom
+
+[
+
+c^c^c^c^c^c^c^ct
+
+95.869459] sysrq: SAK
+
+95.871069] tty tty1: SAK: killed process 1 (bash): by fdwe 95.871254] tty tty1: SAK: killed process 998 (grep): by fdwe
+
+root@(none) :/#
+
+лос
+
+Begin: Configuring fstab...
+
+...
+
+done.
+
+done.
+
+done.
+
+Begin: Setting up swap... ... done. Begin: Setting up locales...
+
+...
+
+Begin: Setting up automatic login... Begin: Setting hostname....
+
+done.
+
+Begin: Setting up console keyboard... Begin: Applying desktop settings... Begin: Regenerating SSL certificate. make-ssl-cert: Could not get FQDN, using
+
+...
+
+...
+
+done. done.
+
+hostname: Name or service not known (none) '
+
+make-ssl-cert: You may want to fix your /etc/hosts and/or DNS setup and run make-ssl-cert: 'make-ssl-cert generate-default-snakeoil --force-overwrite' make-ssl-cert: again.
+
+done.
+
+Begin: Loading preseed file... .. done.
+
+Begin: Adding live session user... ... passwd: password changed.
+
+Failed to create stream fd: No such file or directory
+
+Failed to create stream fd: No such file or directory
+
+Failed to create stream fd: No such file or directory
+
+dbus-daemon [891]: [session uid=1000 pid=18446744073709551615 pidfd=5] Activating service name='org.gtk.vfs.Daemon' requested by ':1.0' (uid=1000 label="unconfined")
+
+done.
+
+Begin: Running /scripts/nfs-bottom... done.
+
+Begin: Running /scripts/init-bottom ... done.
+
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device bash: no job control in this shell
+
+root@(none):/# grep -r "aoc51fc8a" /cdrom ^c^c^c^c^c^c^c^c[
+
+[
+
+[
+
+95.869459] sysrq: SAK
+
+95.871069) tty tty1: SAK: killed process 1 (bash): by fdwe 95.871254] tty tty1: SAK: killed process 998 (grep): by fd#0 root@(none):/# ls -la /rofs/var/lib/snapd/snaps/*<
+
+-rw- 2 root root -rw- 2 root root -rw- --- 2 root root -rw--
+
+-rw-
+
+----
+
+-rw-
+
+-րա-
+
+-rw-
+
+-րա- ---O
+
+4096 Mar 25 2026 /rofs/var/lib/snapd/snaps/bare_5.snap 70078464 Mar 25 2026 /rofs/var/lib/snapd/snaps/core24_1499.snap 20647936 Mar 25 2 root root 288116736 Mar 25 root root 17248256 Mar 25 root root 635518976 Mar
+
+/rofs/var/lib/snapd/snaps/desktop-security-center_139.snap
+
+2026
+
+2026 2026 /rofs/var/lib/snapd/snaps/firefox_8032.snap /rofs/var/lib/snapd/snaps/firmware-updater_223.snap 2026 /rofs/var/lib/snapd/snaps/gnome-46-2404_153.snap 2026 /rofs/var/lib/snapd/snaps/gtk-common-themes_1535.snap root root 414167040 Mar 25 2026 /rofs/var/lib/snapd/snaps/mesa-2404_1165.snap 19738624 Mar 25 2026
+
+2
+
+2
+
+25
+
+2
+
+root root 96141312 Mar 25
+
+2
+
+2 root root
+
+2 root root -rw-- 2 root root -rw-- 2 root root
+
+/rofs/var/lib/snapd/snaps/prompting-client_204.snap 16326656 Mar 25 2026 /rofs/var/lib/snapd/snaps/snap-store_1338.snap 593920 Mar 25
+
+2026
+
+/rofs/var/lib/snapd/snaps/snapd-desktop-integration_357.snap
+
+52371456 Mar 25 2026 /rofs/var/lib/snapd/snaps/snapd_26812.snap
+
+/rofs/var/lib/snapd/snaps/partial:
+
+total
+
+drwxr-xr-x 2 root root 3 Feb 12 2026 drwxr-xr-x 3 root root 450 Mar 25 2026 root (none) :/#
+
+/rofs/var/lib/snapd/snaps/partial:
+
+total 0
+
+2026
+
+druxr-xr-x 2 root root 3 Feb 12 drwxr-xr-x 3 root root 450 Mar 25 2026
+
+root@(none):/# la -la /cdrom/preseed
+
+la: command not found
+
+root@(none):/# ls -la /cdrom/preseed
+
+1s: cannot access '/cdrom/preseed': No such file or directory root@(none):/# la -la /cdrom/preseed
+
+la: command not found
+
+root@(none):/# ls -a /cdrom
+
+.disk boot
+
+casper
+
+md5sum.txt ubuntu
+
+EFI boot.catalog dists pool
+
+root (none):/# journalctl | less
+
+No journal files were found. -No entries --
+
+root@(none):/# journalctl.d | less
+
+journalctl.d: command not found
+
+root@(none):/# find / -name "journal" | tee /cdrom/log.txt
+
+/cdrom/log.txt: Read-only file system (os error 30)
+
+/etc/systemd/journald.conf
+
+/etc/systemd/journald.conf.d
+
+/usr/bin/journalctl
+
+/usr/lib/python3/dist-packages/systemd/ _ pycache_journal.cpython-314.pyc
+
+/usr/lib/python3/dist-packages/systemd/journal.py
+
+/usr/lib/systemd/journald.conf.d
+
+/usr/lib/tmpfiles.d/journal-nocow.conf
+
+/usr/share/bash-completion/completions/journalctl
+
+/usr/share/man/man1/journalct1.1.gz
+
+/usr/share/man/man5/journald.conf.5.gz
+
+/usr/share/man/man5/Journald.conf.d.5.gz
+
+/usr/share/man/man5/journalde.conf.5.gz
+
+/usr/src/linux-headers-7.0.0-10/include/linux/journal-head.h
+
+/var/log/journal
+
+/rofs/etc/systemd/journald.conf
+
+/rofs/usr/bin/journalctl
+
+/rofs/usr/lib/python3/dist-packages/systemd/ __ pycache__/journal.cpython-314.pyc
+
+/rofs/usr/lib/python3/dist-packages/systemd/journal.py
+
+/rofs/usr/lib/systemd/journald.conf.d
+
+/rofs/usr/lib/tmpfiles.d/journal-nocow.conf
+
+/rofs/usr/share/bash-completion/completions/journalctl
+
+/rofs/usr/share/man/man1/journalctl.1.gz
+
+/rofs/usr/share/man/man5/journald.conf.5.gz
+
+/rofs/usr/share/man/man5/Journald.conf.d.5.gz
+
+/rofs/usr/share/man/man5/Journalde.conf.5.gz
+
+/rofs/usr/src/linux-headers-7.0.0-10/include/linux/Journal-head.h
+
+/rofs/var/log/journal
+
+root@(none):/#
+
+root@(none):/#
+
+root@(none):/# ls -la /rofs/var/log/journal/ total o
+
+drwxr-sr-x 2 root systemd-journal 3 Mar 25 drwxrwxr-x 14 root syslog
+
+2026
+
+348 Mar 25 2026
+
+root@(none):/# cat /rofs/var/log/journal/syslog | Tail -n -50 less cat: /rofs/var/log/journal/syslog: No such file or directory Command 'Tail' not found, did you mean:
+
+command 'sail' from deb bsdgames (2.17-35)
+
+command 'sail' from deb sail-ocami (0.19.1+dfsg5-1build3) command 'tail' from deb coreutils-from-gnu (0.0.0~ubuntu24) command 'tail' from deb coreutils-from-uutils (0.0.0~ubuntu24) command 'tail' from deb coreutils-from-busybox (0.0.0~ubuntu24) command 'tail' from deb coreutils-from-toybox (0.0.0~ubuntu24) command 'mail' from deb mailutils (1:3.20-3buildi) Try: apt install <deb name>
+
+root@(none):/# cat /rofs/var/log/journal/syslog | tail -n-50 less cat: /rofs/var/log/journal/syslog: No such file or directory tail: cannot open 'less' for reading: No such file or directory root@(none):/# ls -la /rofs/var/log/journal/
+
+total 0
+
+drwxr-sr-x 2 root systemd-journal 3 Mar 25 2026 drwxrwxr-x 14 root syslog
+
+348 Mar 25 2026
+
+root@(none):/# ls -la /rofs/var/log/journal/..
+
+total 948
+
+drwxrwxr-x 14 root
+
+348 Mar 25 2026 224 Mar 25
+
+39 Mar 25 22007 Mar 25 53 Mar 25 150229 Mar 25
+
+Mar 25
+
+3 Dec 5
+
+syslog
+
+drwxr-xr-x 14 root
+
+root
+
+1rwxrwxrwx 1 root
+
+root
+
+-r-r--r-- 1 root
+
+root
+
+drwxr-xr-x 2 root
+
+root
+
+-rw-r--r-- 1 root
+
+root
+
+-rw-rw---- 1 root
+
+utmp
+
+drwxr-xr-x 2 root
+
+root
+
+drwxr-xr-x 2 cups-browsed
+
+Ipadmin
+
+drwxr-xr-x 2 root
+
+root
+
+-rw-r--r-- 1 root
+
+root
+
+793757 Mar 25
+
+-rw-r--r-- 1 root
+
+root
+
+root
+
+systemd-journal
+
+utmp
+
+root
+
+root
+
+drwxr-xr-x 3 root
+
+drwxr-sr-x 2 root -rw-rw-r-- 1 root drwxr-xr-x 2 root
+
+2 speech-dispatcher root
+
+drwx---
+
+2 root
+
+drwx--
+
+--
+
+drwxrwx---
+
+2 sssd
+
+drwxr-xr-x
+
+2 root
+
+2 root
+
+drwxr-x-
+
+-rw-rw-r-- 1 root root@(none):/#
+
+sssd
+
+root
+
+adm
+
+utmp
+
+3 Mar 25
+
+3 Feb 25
+
+4644 Mar 25 26 Mar 25 3 Mar 25 Mar 25
+
+3 Feb 12
+
+3 Mar 25
+
+3 Oct 30
+
+3 Mar 17
+
+27 Mar 25
+
+3 Feb 10
+
+Mar 25
+
+2026
+
+2026 README -> ../../usr/share/doc/systemd/README.logs 2026 alternatives.log
+
+2026 apt
+
+2026 bootstrap.log 2026 btmp
+
+2025 cups
+
+2026 cups-browsed 2026 dist-upgrade 2026 dpkg.log
+
+2026 fontconfig.log 2026 hp
+
+2026 Journal 2026 last log 2026 openvpn
+
+2026 private
+
+2025 speech-dispatcher 2026 sssd
+
+2026 sysstat
+
+2026 unattended-upgrades 2026 wtmp
+
+update-alternatives 2026-03-25 02:31:49: run with --install /usr/bin/awk awk /usr/bin/mauk 5-slave /usr/share/man/man1/auk.1.2 z awk.1.gz /usr/share/man/man1/mawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/mauk slave /usr/share/man/man1/nauk.1.gz nauk.1.g z /usr/share/man/man1/mawk.1.gz update-alternatives 2026-03-25 02:31:49: link group awk updated to point to /usr/bin/mawk
+
+update-alternatives 2026-03-25 02:31:55: run with --install /usr/bin/which which /usr/bin/which.debianutils-slave /usr/share /man/man1/which.1.gz which.1.gz /usr/share/man/man1/which.debianutils.1.gz --slave /usr/share/man/de/man1/which.1.gz which.de1.g z /usr/share/man/de/man1/which.debianutils.1.gz --slave /usr/share/man/es/man1/which.1.gz which.es1.gz /usr/share/man/es/man1/u ich.debianutils.1.gz --slave /usr/share/man/fr/man1/which.1.gz which.fr1.gz /usr/share/man/fr/man1/which.debianutils.1.gz --slav e /usr/share/man/it/man1/which.1.gz which.iti.gz /usr/share/man/it/man1/which.debianutils.1.gz --slave /usr/share/man/ja/man1/wh ich.1.gz which. Jai.gz /usr/share/man/ja/man1/which.debianutils.1.gz --slave /usr/share/man/pl/man1/which.1.gz which.pl1.gz /usr/ share/man/pl/man1/which.debianutils.1.gz --slave /usr/share/man/sl/man1/which.1.gz which.sl1.gz /usr/share/man/sl/man1/which.deb ianutils.1.gz update-alternatives 2026-03-25 02:31:55: link group which updated to point to /usr/bin/which.debianutils
+
+update-alternatives 2026-03-25 02:31:55: run with --install /usr/bin/awk awk /usr/bin/mauk 5 --slave /usr/share/man/man1/awk.1.g z awk.1.gz /usr/share/man/man1/mawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/mawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.8 z /usr/share/man/man1/mawk.1.gz update-alternatives 2026-03-25 02:31:56: run with --install /usr/share/man/man7/builtins.7.gz builtins.7.gz /usr/share/man/man7/ bash-builtins.7.gz 10 update-alternatives 2026-03-25 02:31:56: link group builtins.7.gz updated to point to /usr/share/man/man7/bash-builtins.7.gz update-alternatives 2026-03-25 02:31:56: run with --install /usr/sbin/rmt rmt /usr/sbin/rmt-tar 50 --slave /usr/share/man/man8/r mt.8.gz rmt.8.gz /usr/share/man/man8/rmt-tar.8.gz update-alternatives 2026-03-25 02:31:56: link group rmt updated to point to /usr/sbin/rmt-tar update-alternatives 2026-03-25 02:31:57: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager. 1.gz pager.1.gz /usr/share/man/man1/more.1.gz
+
+update-alternatives 2026-03-25 02:31:57: link group pager updated to point to /bin/more
+
+update-alternatives 2026-03-25 02:32:13: run with --install /bin/nc nc /bin/nc.openbsd 50 --slave /bin/netcat netcat /bin/nc.ope nbsd-slave /usr/share/man/man1/nc.1.gz nc.1.gz /usr/share/man/man1/nc_openbsd.1.gz --slave /usr/share/man/man1/netcat.1.gz net cat.1.gz /usr/share/man/man1/nc_openbsd.1.gz
+
+update-alternatives 2026-03-25 02:32:13: link group nc updated to point to /bin/nc.openbsd
+
+update-alternatives 2026-03-25 02:32:13: run with --quiet--install /usr/bin/pager pager /usr/bin/less 77 --slave /usr/share/mar /man1/pager.1.gz pager.1.gz /usr/share/man/man1/less.1.gz
+
+update-alternatives 2026-03-25 02:32:13: link group pager updated to point to /usr/bin/less
+
+update-alternatives 2026-03-25 02:32:15: run with --install /usr/bin/sudo sudo /usr/bin/sudo.ws 40 slave /usr/sbin/visudo visu do /usr/sbin/visudo.ws --slave /usr/bin/sudoedit sudoedit /usr/bin/sudo.ws --slave /usr/share/man/man8/sudo.8.gz sudo.8.gz /usr/ share/man/man8/sudo.ws.8.gz --slave /usr/share/man/man8/sudoedit.8.gz sudoedit.8.gz /usr/share/man/man8/sudo.ws.8.gz --slave /us r/share/man/man5/sudoers.5.gz sudoers.5.gz /usr/share/man/man5/sudoers.ws.5.gz --slave /usr/share/man/man8/visudo.8.gz visudo.8. update-alternatives 2026-03-25 02:32:15: link group sudo updated to point to /usr/bin/sudo.ws
+
+gz /usr/share/man/man8/visudo.ws.8.gz
+
+--
+
+update-alternatives 2026-03-25 02:32:16: run with --install /etc/newt/palette newt-palette /etc/newt/palette.ubuntu 50 update-alternatives 2026-03-25 02:32:16: link group newt-palette updated to point to /etc/newt/palette.ubuntu update-alternatives 2026-03-25 02:32:16: run with --install /etc/newt/palette newt-palette /etc/newt/palette.original 20 update-alternatives 2026-03-25 02:32:17: run with -install /usr/bin/editor editor /usr/bin/vim.tiny 15 --slave /usr/share/man/m an1/editor.1.gz editor.1.gz /usr/share/man/man1/vim.1.gz --slave /usr/share/man/da/man1/editor.1.gz editor.da.1.gz /usr/share/ma n/da/man1/vim.1.gz --slave /usr/share/man/de/man1/editor.1.gz editor.de.1.gz /usr/share/man/de/man1/vim.1.gz --slave /usr/share/ man/fr/man1/editor.1.gz editor.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/editor.1.gz editor.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/ja/man1/editor.1.gz editor.ja.1.gz /usr/share/man/ja/man1/vim.1.gz --sla ve /usr/share/man/pl/man1/editor.1.gz editor.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/editor.1.gz
+
+/usr/share/man/it/mani/vim.1.gz --slave /usr/share/man/ja/man1/editor.1.gz editor.Ja.1.gz /usr/share/man/Ja/mani/vim.1.gz --sla ve /usr/share/man/pl/man1/editor.1.gz editor.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/editor.1.gz editor.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/tr/man1/editor.1.gz editor.tr.1.gz /usr/share/man/tr/man1/ vim.1.gz update-alternatives 2026-03-25 02:32:17: link group editor updated to point to /usr/bin/vim.tiny
+
+update-alternatives 2026-03-25 02:32:17: run with --install /usr/bin/ex ex /usr/bin/vim.tiny 15 --slave /usr/share/man/man1/ex.1 .gz ex.1.gz /usr/share/man/man1/vim.1.gz --slave /usr/share/man/da/man1/ex.1.gz ex.da.1.gz /usr/share/man/da/man1/vim.1.gz --sla ve /usr/share/man/de/man1/ex.1.gz ex.de.1.gz /usr/share/man/de/man1/vim.1.gz --slave /usr/share/man/fr/man1/ex.1.gz ex.fr.1.gz / usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/ex.1.gz ex.it.1.gz /usr/share/man/it/man1/vim.1.gz slave /usr/sh are/man/ja/man1/ex.1.gz ex.ja.1.gz /usr/share/man/ja/man1/vim.1.gz --slave /usr/share/man/pl/man1/ex.1.gz ex.pl.1.gz /usr/share/ man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/ex.1.gz ex.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/tr /man1/ex.1.gz ex.tr.1.gz /usr/share/man/tr/man1/vim.1.gz update-alternatives 2026-03-25 02:32:17: link group ex updated to point to /usr/bin/vim.tiny update-alternatives 2026-03-25 02:32:17: run with --install /usr/bin/rview rview /usr/bin/vim.tiny 15 update-alternatives 2026-03-25 02:32:17: link group rview updated to point to /usr/bin/vim.tiny
+
+update-alternatives 2026-03-25 02:32:17: run with install /usr/bin/vi vi /usr/bin/vim.tiny 15 --slave /usr/share/man/man1/v1.1 .gz vi.1.gz /usr/share/man/man1/vim.1.gz --slave /usr/share/man/da/man1/v1.1.gz vi.da.1.gz /usr/share/man/da/man1/vim.1.gz --sla ve /usr/share/man/de/man1/vi.1.gz vi.de.1.gz /usr/share/man/de/man1/vim.1.gz --slave /usr/share/man/fr/man1/vi.1.gz vi.fr.1.gz / usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/vi.1.gz vi.it.1.gz /usr/share/man/it/mani/vim.1.gz --slave /usr/sh are/man/ja/man1/vi.1.gz vi.ja.1.gz /usr/share/man/ja/man1/vim.1.gz --slave /usr/share/man/pl/man1/vi.1.gz vi.pl.1.gz /usr/share/ man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/vi.1.gz vi.ru.1.gz /usr/share/man/ru/man1/vim.1.gz slave /usr/share/man/tr /man1/v1.1.gz vị.tr.1.gz /usr/share/man/tr/man1/vim.1.82 update-alternatives 2026-03-25 02:32:17: link group vi updated to point to /usr/bin/vim.tiny update-alternatives 2026-03-25 02:32:17: run with --install /usr/bin/view view /usr/bin/vim.tiny 15 slave /usr/share/man/man1/ view.1.gz view.1.gz /usr/share/man/man1/vim.1.gz --slave /usr/share/man/da/man1/view.1.gz view.da.1.gz /usr/share/man/da/man1/vi m.1.gz slave /usr/share/man/de/man1/view.1.gz view.de.1.gz /usr/share/man/de/man1/vim.1.gz --slave /usr/share/man/fr/man1/vieu .1.gz view.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/view.1.gz view.it.1.gz /usr/share/man/it/man1/ vim.1.gz --slave /usr/share/man/ja/man1/view.1.gz view. ja.1.gz /usr/share/man/ja/man1/vim.1.gz --slave /usr/share/man/pl/man1/vi ew.1.gz view.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/view.1.gz view.ru.1.gz /usr/share/man/ru/man 1/vim.1.gz --slave /usr/share/man/tr/man1/view.1.gz view.tr.1.gz /usr/share/man/tr/man1/vim.1.gz update-alternatives 2026-03-25 02:32:17: link group view updated to point to /usr/bin/vim.tiny
+
+update-alternatives 2026-03-25 02:32:29: run with --install /usr/bin/sudo sudo /usr/lib/cargo/bin/sudo 50 --slave /usr/sbin/visu do visudo /usr/lib/cargo/bin/visudo --slave /usr/bin/sudoedit sudoedit /usr/lib/cargo/bin/sudo --slave /usr/share/man/man8/sudo. 8.gz sudo.8.gz /usr/share/man/man8/sudo-rs.8.gz --slave /usr/share/man/man5/sudoers.5.gz sudoers.5.gz /usr/share/man/man5/sudoer s-rs.5.gz --slave /usr/share/man/man8/sudoedit.8.gz sudoedit.8.gz /usr/share/man/man8/sudo-rs.8.gz --slave /usr/share/man/man8/v isudo.8.gz visudo.8.gz /usr/share/man/man8/visudo-rs.8.gz update-alternatives 2026-03-25 02:32:29: link group sudo updated to point to /usr/lib/cargo/bin/sudo update-alternatives 2026-03-25 02:32:31: run with --install /etc/vtrgb vtrgb /etc/console-setup/vtrgb 50 update-alternatives 2026-03-25 02:32:31: link group vtrgb updated to point to /etc/console-setup/vtrgb update-alternatives 2026-03-25 02:32:31: run with --install /etc/vtrgb vtrgb /etc/console-setup/vtrgb.vga 20
+
+update-alternatives 2026-03-25 02:34:51: run with --install /usr/bin/mt mt /usr/bin/mt-gnu 10 --slave /usr/share/man/man1/mt.1.g z mt.1.gz /usr/share/man/man1/mt-gnu.1.gz update-alternatives 2026-03-25 02:34:51: link group mt updated to point to /usr/bin/mt-gnu
+
+update-alternatives 2026-03-25 02:34:54: run with --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/firefox 40 update-alternatives 2026-03-25 02:34:54: link group gnome-www-browser updated to point to /usr/bin/firefox update-alternatives 2026-03-25 02:34:54: run with --install /usr/bin/x-www-browser x-www-browser /usr/bin/firefox 40 update-alternatives 2026-03-25 02:34:54: link group x-www-browser updated to point to /usr/bin/firefox
+
+update-alternatives 2026-03-25 02:34:54: run with --install /usr/bin/x-www-browser x-www-browser /usr/bin/firefox 40 update-alternatives 2026-03-25 02:34:54: link group x-www-browser updated to point to /usr/bin/firefox update-alternatives 2026-03-25 02:34:54: run with --install /usr/share/gnome-shell/gdm-theme.gresource gdm-theme.gresource /usr/ share/gnome-shell/theme/Yaru/gnome-shell-theme.gresource 15
+
+update-alternatives 2026-03-25 02:34:54: link group gdm-theme.gresource updated to point to /usr/share/gnome-shell/theme/Yaru/gn ome-shell-theme.gresource
+
+update-alternatives 2026-03-25 02:34:54: run with --install /usr/share/gnome-shell/gdm-icons.gresource gdm-icons.gresource /usr/ share/gnome-shell/theme/Yaru/gnome-shell-icons.gresource 15 update-alternatives 2026-03-25 02:34:54: link group gdm-icons.gresource updated to point to /usr/share/gnome-shell/theme/Yaru/gn ome-shell-icons.gresource update-alternatives 2026-03-25 02:34:56: run with --install /usr/bin/telnet telnet /usr/bin/inetutils-telnet 150 --slave /usr/sh are/man/man1/telnet.1.gz telnet.1.gz /usr/share/man/man1/inetutils-telnet.1.gz update-alternatives 2026-03-25 02:34:56: link group telnet updated to point to /usr/bin/inetutils-telnet update-alternatives 2026-03-25 02:35:00: run with --install /usr/share/icons/default/index.theme x-cursor-theme /usr/share/icons /DMZ-White/cursor.theme 50 update-alternatives 2026-03-25 02:35:00: link group x-cursor-theme updated to point to /usr/share/icons/DMZ-White/cursor.theme update-alternatives 2026-03-25 02:35:00: run with --install /usr/share/icons/default/index.theme x-cursor-theme /usr/share/icons /DMZ-Black/cursor.theme 30 update-alternatives 2026-03-25 02:35:02: run with --quiet--install /usr/bin/editor editor /bin/ed -100 --slave /usr/share/man/m an1/editor.1.gz editor.1.gz /usr/share/man/man1/ed.1.gz update-alternatives 2026-03-25 02:35:05: run with --install /usr/bin/lzma 1zma /usr/bin/xz 20 slave /usr/share/man/man1/lzma.1 .gz lzma.1.gz /usr/share/man/man1/xz.1.gz --slave /usr/bin/unizma unlzma /usr/bin/unxz --slave /usr/share/man/man1/unlzma.1.gz u nizma.1.gz /usr/share/man/man1/unxz.1.gz --slave /usr/bin/lzcat lzcat /usr/bin/xzcat --slave /usr/share/man/man1/1zcat.1.gz Izca t.1.gz /usr/share/man/man1/xzcat.1.gz --slave /usr/bin/lzmore lzmore /usr/bin/xzmore --slave /usr/share/man/man1/1zmore.1.gz lzm ore.1.gz /usr/share/man/man1/xzmore.1.gz --slave /usr/bin/lzless Izless /usr/bin/xzless --slave /usr/share/man/man1/lzless.1.gz lzless.1.gz /usr/share/man/man1/xzless.1.gz --slave /usr/bin/lzdiff lzdiff /usr/bin/xzdiff --slave /usr/share/man/man1/lzdiff.1. gz lzdiff.1.gz /usr/share/man/man1/xzdiff.1.gz --slave /usr/bin/lzcmp 1zcmp /usr/bin/xzcmp --slave /usr/share/man/man1/lzcmp.1.g z lzcmp.1.gz /usr/share/man/man1/xzcmp.1.gz --slave /usr/bin/lzgrep lzgrep /usr/bin/xzgrep --slave /usr/share/man/man1/lzgrep.1. gz lzgrep.1.gz /usr/share/man/man1/xzgrep.1.gz --slave /usr/bin/lzegrep 1zegrep /usr/bin/xzegrep --slave /usr/share/man/man1/lze grep.1.gz Izegrep.1.gz /usr/share/man/man1/xzegrep.1.gz --slave /usr/bin/lzfgrep 1zfgrep /usr/bin/xzfgrep --slave /usr/share/man /man1/1zfgrep.1.gz lzfgrep.1.gz /usr/share/man/man1/xzfgrep.1.gz update-alternatives 2026-03-25 02:35:05: link group izma updated to point to /usr/bin/xz
+
+update-alternatives 2026-03-25 02:35:07: run with --install /usr/bin/editor editor /bin/nano 40 --slave /usr/share/man/man1/edit or.1.gz editor.1.gz /usr/share/man/man1/nano.1.gz
+
+update-alternatives 2026-03-25 02:35:07: link group editor updated to point to /bin/nano
+
+update-alternatives 2026-03-25 02:35:07: run with --install /usr/bin/pico pico /bin/nano 10 --slave /usr/share/man/man1/pico.1.g z pico.1.gz /usr/share/man/man1/nano.1.gz
+
+update-alternatives 2026-03-25 02:35:07: link group pico updated to point to /bin/nano
+
+update-alternatives 2026-03-25 02:35:11: run with --install /usr/bin/ftp ftp /usr/bin/tnftp 120 --slave /usr/share/man/man1/ftp. 1.gz ftp.1.gz /usr/share/man/man1/tnftp.1.gz
+
+update-alternatives 2026-03-25 02:35:11: link group ftp updated to point to /usr/bin/tnftp
+
+update-alternatives 2026-03-25 02:35:13: run with --install /usr/bin/sar sar /usr/bin/sar.sysstat --slave /usr/share/man/man1/ sar.1.gz sar.1.gz /usr/share/man/man1/sar.sysstat.1.gz
+
+update-alternatives 2026-03-25 02:35:13: link group sar updated to point to /usr/bin/sar.sysstat
+
+update-alternatives 2026-03-25 02:35:13: run with --install /usr/bin/open open /usr/bin/xdg-open 50 --slave /usr/share/man/man1/ open.1.gz open.1.gz /usr/share/man/man1/xdg-open.1.gz update-alternatives 2026-03-25 02:35:13: link group open updated to point to /usr/bin/xdg-open
+
+update-alternatives 2026-03-25 02:35:13: link group open updated to point to /usr/bin/xdg-open
+
+update-alternatives 2026-03-25 02:35:14: run with --install /usr/bin/infobrowser infobrowser /usr/bin/info 60 --slave /usr/share /man/man1/infobrowser.1.gz infobrowser.1.gz /usr/share/man/man1/info.1.gz update-alternatives 2026-03-25 02:35:14: link group infobrowser updated to point to /usr/bin/info
+
+update-alternatives 2026-03-25 02:35:14: run with --install /usr/share/icons/default/index.theme x-cursor-theme /etc/X11/cursors
+
+/core.theme 30
+
+/handhelds. theme 20
+
+update-alternatives 2026-03-25 02:35:14: run with --install /usr/share/icons/default/index.theme x-cursor-theme /etc/X11/cursors /redglass.theme 20 update-alternatives 2026-03-25 02:35:14: run with --install /usr/share/icons/default/index.theme x-cursor-theme /etc/X11/cursors /whiteglass.theme 20 update-alternatives 2026-03-25 02:35:14: run with --install /usr/share/icons/default/index.theme x-cursor-theme /etc/X11/cursors update-alternatives 2026-03-25 02:35:15: run with --quiet--install /usr/bin/pinentry pinentry /usr/bin/pinentry-curses 50 --sla ve /usr/share/man/man1/pinentry.1.gz pinentry.1.gz /usr/share/man/man1/pinentry-curses.1.gz update-alternatives 2026-03-25 02:35:15: link group pinentry updated to point to /usr/bin/pinentry-curses update-alternatives 2026-03-25 02:35:16: run with --install /usr/bin/pybabel pybabel /usr/bin/pybabel-python3 200 update-alternatives 2026-03-25 02:35:16: link group pybabel updated to point to /usr/bin/pybabel-python3 update-alternatives 2026-03-25 02:35:17: run with --install /usr/bin/jsondiff Jsondiff /usr/bin/json-patch-jsondiff 200 update-alternatives 2026-03-25 02:35:17: link group Jsondiff updated to point to /usr/bin/json-patch-jsondiff update-alternatives 2026-03-25 02:35:31: run with --. install /usr/sbin/iptables iptables /usr/sbin/iptables-legacy 10 --slave /us r/sbin/iptables-restore iptables-restore /usr/sbin/iptables-legacy-restore
+
+in/iptables-legacy-save
+
+slave /usr/sbin/iptables-save iptables-save /usr/st
+
+update-alternatives 2026-03-25 02:35:31: link group iptables updated to point to /usr/sbin/iptables-legacy update-alternatives 2026-03-25 02:35:31: run with --install /usr/sbin/ip6tables ip6tables /usr/sbin/ip6tables-legacy 10 --slave /usr/sbin/ip6tables-restore ip6tables-restore /usr/sbin/ip6tables-legacy-restore --slave /usr/sbin/ip6tables-save ip6tables-save /usr/sbin/ip6tables-legacy-save
+
+update-alternatives 2026-03-25 02:35:31: link group ip6tables updated to point to /usr/sbin/ip6tables-legacy update-alternatives 2026-03-25 02:35:31: run with --install /usr/sbin/iptables iptables /usr/sbin/iptables-nft 20 slave /usr/s bin/iptables-restore iptables-restore /usr/sbin/iptables-nft-restore --slave /usr/sbin/iptables-save iptables-save /usr/sbin/ipt ables-nft-save
+
+update-alternatives 2026-03-25 02:35:31: link group iptables updated to point to /usr/sbin/iptables-nft update-alternatives 2026-03-25 02:35:31: run with --install /usr/sbin/ip6tables ip6tables /usr/sbin/ip6tables-nft 20 --slave /us r/sbin/ip6tables-restore ip6tables-restore /usr/sbin/ip6tables-nft-restore --slave /usr/sbin/ip6tables-save ip6tables-save /usr/ sbin/ip6tables-nft-save
+
+update-alternatives 2026-03-25 02:35:31: link group ip6tables updated to point to /usr/sbin/ip6tables-nft update-alternatives 2026-03-25 02:35:31: run with --install /usr/sbin/arptables arptables /usr/sbin/arptables-nft 20 --slave /us r/sbin/arptables-restore arptables-restore /usr/sbin/arptables-nft-restore --slave /usr/sbin/arptables-save arptables-save /usr/ sbin/arptables-nft-save
+
+update-alternatives 2026-03-25 02:35:31: link group arptables updated to point to /usr/sbin/arptables-nft
+
+update-alternatives 2026-03-25 02:35:31: run with --install /usr/sbin/ebtables ebtables /usr/sbin/ebtables-nft 20 --slave /usr/s bin/ebtables-restore ebtables-restore /usr/sbin/ebtables-nft-restore --slave /usr/sbin/ebtables-save ebtables-save /usr/sbin/ebt ables-nft-save
+
+update-alternatives 2026-03-25 02:35:31: link group ebtables updated to point to /usr/sbin/ebtables-nft
+
+update-alternatives 2026-03-25 02:35:31: run with --install /usr/share/gnome-shell/gdm-theme.gresource gdm-theme.gresource /usr/ share/gnome-shell/gnome-shell-theme.gresource 10
+
+update-alternatives 2026-03-25 02:35:31: run with --install /usr/share/gnome-shell/gdm-icons.gresource gdm-icons.gresource /usr/ share/gnome-shell/gnome-shell-icons.gresource 10
+
+sbin/arptables-nft-save
+
+update-alternatives 2026-03-25 02:35:31: link group arptables updated to point to /usr/sbin/arptables-nft update-alternatives 2026-03-25 02:35:31: run with --install /usr/sbin/ebtables ebtables /usr/sbin/ebtables-nft 20 slave /usr/s bin/ebtables-restore ebtables-restore /usr/sbin/ebtables-nft-restore --slave /usr/sbin/ebtables-save ebtables-save /usr/sbin/ebt ables-nft-save
+
+update-alternatives 2026-03-25 02:35:31: link group ebtables updated to point to /usr/sbin/ebtables-nft update-alternatives 2026-03-25 02:35:31: run with --install /usr/share/gnome-shell/gdm-theme.gresource gdm-theme.gresource /usr/ share/gnome-shell/gnome-shell-theme.gresource
+
+10 update-alternatives 2026-03-25 02:35:31: run with --install /usr/share/gnome-shell/gdm-icons.gresource gdm-icons.gresource /usr/ share/gnome-shell/gnome-shell-icons.gresource 10 update-alternatives 2026-03-25 02:35:36: run with --quiet-install /lib/cpp cpp /usr/bin/cpp 10 update-alternatives 2026-03-25 02:35:36: link group cpp updated to point to /usr/bin/cpp update-alternatives 2026-03-25 02:37:16: run with --install /usr/share/icons/default/index.theme x-cursor-theme /usr/share/icons /Adwaita/cursor.theme 90 update-alternatives 2026-03-25 02:37:16: link group x-cursor-theme updated to point to /usr/share/icons/Adwaita/cursor.theme update-alternatives 2026-03-25 02:37:21: run with --quiet--install /usr/bin/pinentry pinentry /usr/bin/pinentry-gnome3 90 --sla ve /usr/share/man/man1/pinentry.1.gz pinentry.1.gz /usr/share/man/man1/pinentry-gnome3.1.gz update-alternatives 2026-03-25 02:37:21: link group pinentry updated to point to /usr/bin/pinentry-gnome3 update-alternatives 2026-03-25 02:37:21: run with --quiet -install /usr/bin/pinentry-x11 pinentry-x11 /usr/bin/pinentry-gnome3 90 slave /usr/share/man/man1/pinentry-x11.1.gz pinentry-x11.1.gz /usr/share/man/man1/pinentry-gnome3.1.gz update-alternatives 2026-03-25 02:37:21: link group pinentry-x11 updated to point to /usr/bin/pinentry-gnome3 update-alternatives 2026-03-25 02:37:22: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/ptyxis 40 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/ptyxis.1.gz update-alternatives 2026-03-25 02:37:22: link group x-terminal-emulator updated to point to /usr/bin/ptyxis update-alternatives 2026-03-25 02:37:24: run with --install /usr/bin/x-session-manager x-session-manager /usr/bin/gnome-session 50 slave /usr/share/man/man1/x-session-manager.1.gz x-session-manager.1.gz /usr/share/man/man1/gnome-session.1.gz update-alternatives 2026-03-25 02:37:24: link group x-session-manager updated to point to /usr/bin/gnome-session update-alternatives 2026-03-25 02:37:30: run with --install /usr/share/plymouth/themes/text.plymouth text.plymouth /usr/share/pl ymouth/themes/ubuntu-text/ubuntu-text.plymouth 50 update-alternatives 2026-03-25 02:37:30: link group text.plymouth updated to point to /usr/share/plymouth/themes/ubuntu-text/ubu ntu-text.plymouth
+
+ymouth
+
+1
+
+update-alternatives 2026-03-25 02:37:30: run with --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/sh are/plymouth/themes/bgrt/bgrt.plymouth 110 update-alternatives 2026-03-25 02:37:30: link group default.plymouth updated to point to /usr/share/plymouth/themes/bgrt/bgrt.pl update-alternatives 2026-03-25 02:37:34: run with --install /usr/bin/gstreamer-codec-install gstreamer-codec-install /usr/libexe c/pk-gstreamer-install 80 update-alternatives 2026-03-25 02:37:34: link group gstreamer-codec-install updated to point to /usr/libexec/pk-gstreamer-instal update-alternatives 2026-03-25 02:37:35: run with --install /etc/pam.d/gdm-smartcard gdm-smartcard /etc/pam.d/gdm-smartcard-sssd -exclusive 40 update-alternatives 2026-03-25 02:37:35: link group gdm-smartcard updated to point to /etc/pam.d/gdm-smartcard-sssd-exclusive update-alternatives 2026-03-25 02:37:35: run with --install /etc/pam.d/gdm-smartcard gdm-smartcard /etc/pam.d/gdm-smartcard-sssd -or-password 50 update-alternatives 2026-03-25 02:37:35: link group gdm-smartcard updated to point to /etc/pam.d/gdm-smartcard-sssd-or-password update-alternatives 2026-03-25 02:37:35: run with --install /etc/pam.d/gdm-smartcard gdm-smartcard /etc/pam.d/gdm-smartcard-pkcs
+
+11-exclusive 30
+
+(END)
+
+00000000: 96d5 7521 0c07 0700 5001 0000 0000 0000 00000010: 0100 0000 0100 0000 0000 0000 0000 0000 00000020: 0000 0000 0000 0000 0000000000000000 00000030: 00000000000000000000000000000000 00000040: 0000 0000 0000 0000 0000 0000 e149 c369 00000050: 0000 0000 6400 0000 0000 0000 0500 0000 00000060: 1400 0000 700000000000000000000000 00000070: 0900 0000 0200 0000 0000 0000 0100 0000 00000080: 2400 0000 1800 0000 0000 0000 1902 084c 00000090: 696e 7578 0000 0000 0000 0000 0000 0000 0000000: 00000000000000000000000000000000
+
+.d.
+
+.u!
+
+$. inux.
+
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000 00000000: 6c63 7930 322d 616d 6436 342d 3035 3300 00000000: 0000 0000 0000 00000000000000000000 000000f0: 0000 0000 0000 0000 0000 0000 0000 0000 00000100: 0000 0000 0000 0000 0000 0000 0000 0000 00000110: 0036 2e38 2e30 2d31 3036 2d67 656e 6572 00000120: 6963 0000 0000 0000 0000 0000 0000 0000 00000130: 0000 0000000000000000000000000000 00000140: 0000 0000 0000 0000 0000 0000 0000 0000 00000150: 0000 7838 365f 3634 0000 0000 0000 0000 00000160: 00000000000000000000000000000000 00000170: 0000 0000 0000 0000 0000 0000 0000 0000 00000180: 0000 0000 0000 0000 0000 0000 0000 0000 00000190: 0000 0055 5443 0000 0000 0000 0100 0000 00000180: 8b00 0000 0500 0000 0100 0000 0100 0000 000001b0: 5000 0000 0a00 0000 0000 0000 0000 0000 000001c0: 0200 0000 8b00 0000 0100 0000 0100 0000 00000100: 0000 0000 1000 0000 0100 0000 0100 0000 00000100: 0000 0000 0400 0000 8a00 0000 0100 0000 000001f0: 0100 0000 0000 0000 1000 0000 0000 0000 00000200: 0200 0000 0000 0000 0500 0000 8a00 0000 00000210: 0100 0000 0100 0000 0000 0000 5000 0000 00000220: 0000 0000 0000 0000 0000 0000 0600 0000 00000230: 8b00 0000 0100 0000 0100 0000 0000 0000 00000240: 3800 0000 0700 0000 0000 0000 0000 0000 00000250: 0700 0000 8b00 0000 0100 0000 0100 0000 00000260: 0000 0000 8800 0000 1100 0000 0000 0000 00000270: 0000 0000 2200 0000 8b00 0000 0100 0000 00000280: 0100 0000 0000 0000 2000 0000 0400 0000 00000290: 0000 0000 0000 0000 0800 0000 8b00 0000 0000020: 0100 0000 0100 0000 0000 0000 2000 0000 000002b0: 0400 0000 0000 0000 0000 0000 0900 0000 000002c0: 8c00 0000 0100 0000 0100 0000 0000 0000 00000200: 2800 0000 0300 0000 0000 0000 0300 0000 000002e0: 0a00 0000 8b00 0000 0100 0000 0100 0000
+
+1cy02-amd64-053.
+
+.6.8.0-106-gener
+
+ic.
+
+.x86_64.
+
+UTC
+
+P
+
+000002c0: 8c00 0000 0100 0000 0100 0000 0000  00000200: 2800 0000 0300 0000 0000 0000 0300 0000 000002e0: 0a00 0000 8b00 0000 0100 0000 0100 0000 000002f0: 0100 0000 1000 0000 0000 0000 0000 0000 00000300: 0700 0000 0000 0000 8c00 0000 0600 0000 00000310: 0100 0000 0100 0000 5000 0000 0300 0000 00000320: 0300 0000 0800 0000 0000 0000 8d00 0000 00000330: 0200 0000 0100 0000 0100 0000 5000 0000 00000340: 0700 0000 0000 0000 0100 0000 0d00 0000 00000350: 8c00 0000 0200 0000 0100 0000 0100 0000 00000360: 5800 0000 0900 0000 0000 0000 0000 0000 00000370: 0000 0000 8a00 0000 0100 0000 0100 0000 00000380: 0000 0000 1800 0000 0000 0000 0000 0000 00000390: 0600 0000 0f00 0000 8a00 0000 0100 0000 00000380: 0100 0000 0000 0000 2c00 0000 0000 0000 00000360: 0000 0000 0000 0000 1000 0000 8800 0000 000003c0: 0100 0000 0100 0000 0000 0000 1800 0000 00000300: 0000 0000 0000 0000 0600 0000 2700 0000 000003e0: 8a00 0000 0500 0000 0100 0000 0100 0000 000003f0: 1800 0000 0000 0000 0000 0000 0600 0000 00000400: 2800 0000 8a00 0000 0100 0000 0100 0000 00000410: 0000 0000 2000 0000 0100 0000 0300 0000 00000420: 0000 0000 2900 0000 8a00 0000 0100 0000 00000430: 0100 0000 0000 0000 4000 0000 0200 0000 00000440: 0600 0000 0000 0000 2800 0000 8a00 0000 00000450: 0100 0000 0100 0000 0000 0000 4000 0000 00000460: 0200 0000 0600 0000 0000 0000 9626 0100 00000470: 0000 0000 e149 c369 0000 0000 0000 0000 00000480: 0102 230d 0500 0000 9f3f 0000 0000 0000 00000490: 0000 0000 0000 0000 315a 0000 0000 0000 000004a0: 14df 0300 0000 0000 b214 0000 0000 0000 000004b0: e900 0000 0000 0000 0000 0000 0000 0000 000004c0: b202 0000 0000 0000 0000 0000 0000 0000 00000400: 0000 0000 0000 0000 460f 0000 0000 0000 00000400: 0000 0000 0000 0000 1d15 0000 0000 0000 000004f0: 5bfa 0000 0000 0000 5a05 0000 0000 0000 00000500: 3400 0000 0000 0000 0000 0000 0000 0000 00000510: be00 0000 0000 0000 0000 0000 0000 0000 00000520: 0000 0000 0000 0000 6710 0000 0000 0000 00000530: 0000 0000 0000 0000 9e17 0000 0000 0000 00000540: dcf7 0000 0000 0000 3804 0000 0000 0000 00000550: 3900 0000 0000 0000 0000 0000 0000 0000 00000560: ab00 0000 0000 0000 0000 0000 0000 0000 00000570: 0000 0000 0000 0000 a50e 0000 0000 0000 00000580: 0000 0000 0000 0000 5717 0000 0000 0000 00000590: 9cf6 0000 0000 0000 df05 0000 0000 0000 000005a0: 3900 0000 0000 0000 0000 0000 0000 0000 :
+
+9
+
+@.
+
+00000580: 3900 0000 0000 0000 0000 0000 0000 0000 000005b0: c300 0000 0000 0000 0000 0000 0000 0000 000005c0: 0000 0000 0000 0000 4b11 0000 0000 0000 000005de: 0000 0000 0000 0000 1e16 9000 0999 0000 000005e0: 40f6 0000 0000 0000 4005 0000 0000 0000 000005f0: 4200 0000 0000 0000 0000 0000 0000 0000 B 00000600: 8500 0000 0000 0000 0000 0000 0000 0000 00000610: 0000 0000 0000 0000 c7d7 3600 0000 0000 00000620: ea11 0100 0000 0000 0000 0000 0000 0000 00000630: 0000 0000 0000 0000 0f27 0800 0000 0000 00000640: ffe1 b400 0000 0000 0336 4401 0000 0000 00000650: fa0a 0000 0000 0000 b59d 3201 0000 0000 00000660: 0000 0000 0000 0000 0000 0000 0000 0000 00000670: 0000 0000 0000 0000 0000 0000 0000 0000 00000680: 0000 0000 0000 0000 5d8b 0400 0000 0000 00000690: c92b 0000 0000 0000 6933 0400 0000 0000 000006a0: ae95 1100 0000 0000 46e3 a901 0000 0000 00000660: 2b2c 0000 0000 0000 7843 3301 0000 0000 000006c0: 6072 4b00 0000 0000 880a 0400 0000 0000 00000600: 583c 9500 0000 0000 d0e4 f900 0000 0000 00000600: fcff 3f00 0000 0000 fcff 3f00 0000 0000 000006f0: 0000 0000 0000 0000 0c76 1100 0000 0000 00000700: 7818 0c00 0000 0000 987e 9000 0000 0000 00000710: 482e 0000 0000 0000 e0ba 0300 0000 0000 00000720: cc48 0d00 0000 0000 3010 0000 0000 0000 00000730: 5014 0000 0000 0000 6ccc 0000 0000 0000 00000740: a46b e900 0000 0000 0000 0000 0000 0000 00000750: 0000 0000 0000 0000 0000 0000 0000 0000 00000760: 0000 0000 0000 0000 8006 0000 0000 0000 00000770: cc24 0400 0000 0000 cdf9 0600 0000 0000 00000780: 0200 0000 0000 0000 0000 0000 0000 0000 00000790: 0100 0000 0000 0000 fe00 0000 0000 0000 00000780: 7000 0000 4f00 0000 2700 0000 0000 0000 000007b0: 0100 0000 0000 0000 25a9 0000 0000 0000 000007c0: 0000 0000 0000 0000 0000 0000 0000 0000 00000700: 0600 0000 d502 0000 0000 0000 0000 0000 00000780: 0000 0000 0000 0000 0000 0000 c4cc 0000 000007f0: 0000 0000 0000 0000 0000 0000 0000 0000 00000800: 0000 0000 1b00 0000 0000 0000 1000 0000 00000810: 1b00 0000 0700 0000 0000 0000 0000 0000 00000820: 0000 0000 8b03 0000 0000 0000 0000 0000 00000830: 0000 0000 0000 0000 0000 0000 fa84 0000 00000840: 0000 0000 0000 0000 0000 0000 0000 0000 00000850: 0000 0000 1500 0000 0000 0000 1100 0000 00000860: 1500 0000 0700 0000 0100 0000 0000 0000 00000870: 0000 0000 6f05 0000 0000 0000 0000 0000 00000880: 0000 0000 0000 0000 0000 0000 b266 0100 =
+
+x< x. ዘ. ?. .H. P .k. xC3.
+
+9.
+
+00000830: 0000 0000 0000 0000 0000 0000 fa84 0000 00000840: 0000 0000 0000 0000 0000 0000 0000 0000 00000850: 0000 0000 1500 0000 0000 0000 1100 0000 00000860: 1500 0000 0700 0000 0100 0000 0000 0000 00000870: 0000 0000 6f05 0000 0000 0000 0000 0000 00000880: 0000 0000 0000 0000 0000 0000 b266 0100 00000890: 0000 0000 0000 0000 0000 0000 0000 0000 00000880: 0000 0000 3300 0000 0000 0000 3500 0000 000008b0: 3300 0000 0700 0000 0200 0000 0000 0000 000008c0: 0000 0000 8389 0400 0000 0000 0000 0000 00000800: 0000 0000 0000 0000 0000 0000 9255 1100 00000820: 0000 0000 46e3 a901 0000 0000 7843 3301 000008f0: 0000 0000 8310 0000 2c58 0700 3129 0100 00000900: 39ba 0700 fd00 0000 0000 0000 e403 0000 00000910: 0000 0000 5701 0000 0000 0000 0000 0000 00000920: 0000 0000 0000 0000 0000 0000 383c 0000 00000930: 0000 0000 0000 0000 0000 0000 0000 0000 00000940: 0000 0000 2800 0000 0000 0000 2800 0000 00000950: 2800 0000 fd00 0000 1000 0000 0000 0000 00000960: 0000 0000 8300 0000 0000 0000 0000 0000 00000970: 0000 0000 0000 0000 0000 0000 e403 0000 00000980: 0000 0000 0000 0000 0000 0000 0000 0000 00000990: 0000 0000 4000 0000 0000 0000 4400 0000 00000980: 4000 0000 0000 0000 0000 0000 0000 0000 000009b0: 0000 0000 0200 0000 0000 0000 0000 0000 000009c0: 0909 9999 0000 0000 0000 0000 0000 0000 00000900: 0000 0000 0000 0000 0000 0000 0000 0000 00000900: 0000 0000 0000 0000 0000 0000 0000 0000 000009fe: 0909 0909 6c6f 0000 0000 0000 0000 0000 00000a00: 0000 0000 0000 0000 3f09 0200 0000 0000 00000a10: 8121 0100 0000 0000 dбaf aa7d 0000 0000 00000a20: e37d 5000 0000 0000 0000 0000 0000 0000 00000a30: 0000 0000 0000 0000 0000 0000 0000 0000 00000a40: 1027 0000 6574 6830 0000 0000 0000 0000 00000a50: 0000 0000 0200 0000 0200 0000 0000 0000 00000a60: 0000 0000 0000 0000 0000 0000 0000 0000 00000a70: 0000 0000 0000 0000 0000 0000 0000 0000 00000a80: 0000 0000 0000 0000 0000 0000 0000 0000 00000a90: 0000 0000 0000 0000 0000 0000 0000 0000 00000aa0: 0000 0000 6c6f 0000 0000 0000 0000 0000 00000ab0: 0000 0000 0000 0000 0000 0000 0000 0000 00000ac0: 0000 0000 0000 0000 0000 0000 0000 0000 00000ad0: 0000 0000 0000 0000 0000 0000 0000 0000 00000ae0: 0000 0000 0000 0000 0000 0000 0000 0000 00000af0: 0000 0000 0000 0000 0000 0000 6574 6830 00000000: 0000 0000 0000 0000 0000 0000 0000 0000 00000b10: 0000 0000 0000 0000 0000 0000 0000 0000 :
+
+3. 9 @ .!. .\P .U. .F .XC3. ,x..1). .W. 8< lo. .ethe
+
+lo.
+
+ethe
+
+00000900:
+
+lo.
+
+.!.
+
+.ethe
+
+00000980: 4000 0000 0000 0000 0000 0000 0000 0000 @ 000009b0: 0000 0000 0200 0000 0000 0000 0000 0000 00000000000000000000000000000000 00000900: 0000 0000 0000 0000 0000 0000 0000 0000 00000900: 0000 0000 0000 0000 0000 0000 0000 0000 000009fe: 0000 0000 6c6f 0000 0000 0000 0000 0000 00000000: 0000 0000 0000 0000 3f09 0200 0000 0000 00000a10: 8121 0100 0000 0000 d6af aa7d 0000 0000 00000a20: e37d 5000 0000 0000 0000 0000 0000 0000 .3Р 00000530: 00000000000000000000000000000000 00000a40: 1027 0000 6574 6830 0000 0000 0000 0000 00000a50: 0000 0000 0200 0000 0200 0000 0000 0000 00000260: 00000000000000000000000000000000 00000a70: 0000 0000 0000 0000 0000 0000 0000 0000 00000380: 00000000000000000000000000000000 00000a90: 0000 0000 0000 0000 0000 0000 0000 0000 000000: 0000 0000 6c6f 0000 0000 0000 0000 0000 00000ab0: 0000 0000 0000 0000 0000 0000 0000 0000
+
+lo
+
+00000ad0: 0000 0000 0000 0000 0000 0000 0000 0000 00000ae0: 0000 0000 0000 0000 0000 0000 0000 0000 00000af0: 0000 0000 0000 0000 0000 0000 6574 6830
+
+00000b10: 0000 0000 0000 0000 0000 0000 0000 0000 00000b20: 0000 0000 0000 0000 0000 0000 0000 0000 99999b39: 9999 0999 0999 0999 0999 9999 9999 9999 99990b49: 0909 9999 0999 0999 0999 9999 9999 9999 00000b50: 5300 0000 0200 0000 0000 0000 0200 0000 00000b60: 0000 0000 0000 0000 0500 0000 0000 0000 00000b70: 0000 0000 0000 0000 0000 0000 0000 0000 00000b80: 0000 0000 C221 0000 0000 0000 0000 0000 00000b90: 0000 0000 0000 0000 0000 0000 cd65 0000 09999bae: 0909 9999 9199 0999 0999 9909 9999 9999 00000bb0: 0000 0000 b8d9 0500 0000 0000 0000 0000 00000bc0: 0000 0000 0000 0000 0000 0000 9be1 0000 00000bd0: 0000 0000 0100 0000 0000 0000 0000 0000 00000be0: 0000 0000 6bb1 a800 0000 0000 2f00 0000 00000bf0: 0000 0000 7d00 0000 0000 0000 6000 0000 00000c00: 0000 0000 379a 3d01 0000 0000 01b7 2c01 00000c10: 0000 0000 C401 0000 0000 0000 9302 0000 00000c20: 0000 0000 8401 0000 0000 0000 ac01 0000 00000c30: 0000 0000 7702 0000 0000 0000 7201 0000 00000040: 0000 0000 1106 0000 0000 0000 2104 0000 00000c50: 0000 0000 0000 0000 0000 0000 0000 0000 00000c60: 0000 0000 0000 0000 0000 0000 0000 0000 00000c70: 0000 0000 0000 0000 0000 0000 0000 0000 00000c80: 0000 0000 KEND)
+
+etho
+
+# If set to SHA256, SHA256-based algorithm will be used for encrypting password # If set to SHA512, SHA512-based algorithm will be used for encrypting password If set to BCRYPT, BCRYPT-based algorithm will be used for encrypting password # If set to YESCRYPT, YESCRYPT-based algorithm will be used for encrypting password # If set to DES, DES-based algorithm will be used for encrypting password (default) #
+
+# MDS and DES should not be used for new hashes, see crypt (5) for recommendations. # Overrides the MD5_CRYPT_ENAB option
+
+# # Note: It is recommended to use a value consistent with
+
+# If set to MDS, MDS-based algorithm will be used for encrypting password
+
+W should login be allowed if we can't cd to the home directory? Default is no.
+
+# the PAM modules configuration.
+
+ENCRYPT_METHOD YESCRYPT
+
+yes
+
+# The puck (8) utility emits a warning for any system account with a home # directory that does not exist. Some system accounts intentionally do # not have a home directory. Such accounts may have this string as # their home directory in /etc/passwd to avoid a spurious warning.
+
+If set to yes, userdel(8) will remove the user's group if it contains no more members, and useradd(8) will create by default a group with the name of the
+
+# If defined, this command is run when removing a user. It should remove any at/cron/print jobs etc. owned by #the user to be removed (passed as the first argument).
+
+/usr/sbin/userdel_local
+
+/nonexistent
+
+Other former uses of this variable are not used in PAM environments, such as Debian.
+
+DEFAULT_HOME
+
+USERDEL_CHD
+
+NONEXISTENT
+
+user.
+
+USERGROUPS ENAB yes
+
+#
+
+KEND
+
+rwh
+
+1100
+
+CHFN_RESTRICT
+
+# Min/max values for automatic gid selection in groupadd(8)
+
+100000
+
+600100000 65536
+
+600100000 65536
+
+1000 60000
+
+999
+
+101
+
+1000
+
+60000
+
+100000
+
+# Extra per user group ids
+
+101
+
+999
+
+# Extra per user uids
+
+# System accounts
+
+# This will most likely be overriden by PAM, since the default pam_unix module # has it's own built in of 3 retries. However, this is a safe fallback in case # you are using an authentication module that does not enforce PAM_MAXTRIES. LOGIN_RETRIES 5
+
+use
+
+# Max number of login(1) retries if password is bad
+
+Max time in seconds for login(1)
+
+60
+
+# System accounts
+
+# which fields may be changed by regular users using chfn(1) # any combination of letters "fruh" (full name, room number, work #phone, home phone). If not defined, no changes are allowed. # For backward compatibility, "yes" = "rwh" and "no" = "frwh".
+
+LOGIN_TIMEOUT
+
+rwh
+
+#SYS_UID_MAX
+
+#SYS_UID_MIN
+
+#SYS_GID_MIN
+
+#SYS_GID_MAX
+
+SUB_UID_MAX SUB_UID COUNT
+
+SUB_GID_COUNT
+
+GID_MAX
+
+SUB_GID_MIN
+
+GID MIN
+
+SUB_GID_MAX
+
+-
+
+#
+
+SUB_UID MIN
+
+CHFN_RESTRICT
+
+# If set to MDS, MDS-based algorithm will be used for encrypting password
+
+UID MIN
+
+UID_MAX
+
+:/usr/bin:/sbin:/bin games:/usr/games
+
+(they are minimal, add the rest in the shell startup files) ENV_SUPATH ENV_PATH PATH=/usr/local/sbin:/usr/local/bin:/usr/sbinPATH=/usr/local/bin:/usr/bin:/bin:/usr/local/
+
+Login tty will be assigned this group ownership. Login tty will be set to this permission.
+
+Terminal ERASE character ('\010' = backspace). Terminal KILL character ('\025' = CTRL/U).
+
+Maximum number of days a password may be used. Minimum number of days allowed between password changes. Number of days warning given before a password expires.
+
+These settings are ignored for remote and other logins.
+
+The default PATH settings, for superuser and normal users.
+
+Terminal permissions for terminals after login(1).
+
+tty 0600
+
+TTYGROUP TTYPERM
+
+Login configuration initializations:
+
+# HOME MODE is used by useradd(8) and newusers (8) to set the mode for new # home directories.
+
+The ERASECHAR and KILLCHAR are used only on System V machines.
+
+ERASECHAR KILLCHAR
+
+#TTYGROUP
+
+0177 025
+
+Password aging controls:
+
+0750
+
+TTYPERM
+
+PASS HARN_AGE
+
+99999
+
+PASS_MAX_DAYS PASS_MIN_DAYS
+
+0 7
+
+ERASECHAR KILLCHAR
+
+HOME_MODE
+
+# *REQUIRED*
+
+PASS MAX_DAYS
+
+PASS MIN_DAYS
+
+Min/max values for automatic uid selection in useradd(8)
+
+PASS HARN AGE
+
+1FP 100 UHS, 300 UMS, 500 UMS (supports application/ogg only after firmware upgrade), N10 UMS usb:v4102p1101* iriver_0x1101_0x1103_0x1105_0x1111
+
+iFP 100 UHS, 300 UMS, 500 UMS (supports application/ogg only after firmware upgrade), N10 UMS usb:v4102p1101* =iriver_0x1101_0x1103_0x1105_0x1111
+
+iFP 100 UMS, 300 UMS, 500 UMS (supports application/ogg only after firmware upgrade), N10 UMS usb:v4102p1101*
+
+ID MEDIA PLAYER=multimedia-player
+
+ID MEDIA PLAYER=multimedia-player
+
+ID MEDIA PLAYER=iriver_0x1101_0x1103_0x1105_0x1111 multimedia-player
+
+ID_MEDIA_PLAYER_ICON_NAME-player
+
+ID_MEDIA_PLAYER_ICON_NAME=
+
+ID_MEDIA_PLAYER_ICON_NAME
+
+ID_MEDIA_PLAYER_ICON_NAME=
+
+ID MEDIA PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+ID_MEDIA_PLAYER_ICON_NAME=multimedia-player
+
+iFP 100 UMS, 300 UHS, 500 UMS (supports application/ogg only after firmware upgrade), N10 UMS usb:v4102p1101*
+
+ID_MEDIA_PLAYER=iriver_0x1101_0x1103_0x1105_0x1111 ID_MEDIA_PLAYER_ICON_NAME=multimedia-player
+
+ID MEDIA PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+ID MEDIA PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+ID MEDIA PLAYER=iriver_0x1101_0x1103_0x1105_0x1111
+
+ID MEDIA PLAYER=iriver_0x1101_0x1103_0x1105_0x1111 ID MEDIA PLAYER_ICON_NAME=multimedia-player
+
+ID MEDIA PLAYER_ICON_NAME=multimedia-player
+
+ID MEDIA PLAYER_ICON_NAME=multimedia-player
+
+ID_MEDIA_PLAYER_ICON_NAME=multimedia-player
+
+usb:v4102p1103*
+
+usb:v4102p1103*
+
+usb:v4102p1103**
+
+usb:v4102p1105*
+
+usb:v4102p1105*
+
+usb:v4102p1111*
+
+ID MEDIA PLAYER=iriver_0x1101_0x1103_0x1105_0x1111 ID MEDIA PLAYER_ICON_NAME=multimedia-player
+
+ID_MEDIA_PLAYER=insignia_ns-8v24 =multimedia
+
+usb:v19FFp0308*
+
+лос
+
+240125: 2 -rw-r--r-- 1 root root 240126: 3 -rw-r--r-- 1 root root 245513: 8 -rw-r--r-- 1 root root 245983: 1 -rw-r--r-- 1 root root 246046: 2 -rw-r--r-- 1 root root 246373: 1 -rw-r--r-- 1 root root 246704: 2 -rw-r--r-- 1 root root 247136: 7 -rw-r--r-- 1 root root 247552: 8 -rw-r--r-- 1 root root 247969: 7 -rw-r--r-- 1 root root 248403: 7 -rw-r--r-- 1 root root 248818: 8 -rw-r--r-- 1 root root 249210: 9 -rw-r--r-- 1 root root 249633: 7 -rw-r--r-- 1 root root 253284:
+
+2035 Feb 3 2834 Feb 3
+
+7923 Mar 21 1260 Mar 21 1712 Mar 21
+
+2026 gaomon-wh850.svg 2026 gaomon-wh851.svg
+
+2026 baobab.mo 2026 baobab.mo 2026 baobab.mo
+
+709 Mar 21 2026 baobab.mo 2321 Mar 21 2026 baobab.mo
+
+1 root root 1 root root
+
+5 -r-r--r--
+
+253285:
+
+2 -r-r--r--
+
+253286:
+
+3 -rw-r----
+
+1 root root
+
+7080 Mar 21 7912 Mar 21 6873 Mar 21
+
+7039 Mar 21 7811 Mar 21
+
+8843 Mar 21 6746 Mar 21
+
+2026 baobab.mo 2026 baobab.mo 2026 baobab.mo
+
+2026 baobab.mo 2026 baobab.mo
+
+2
+
+4914 Feb 2339 Feb 2 3299 Feb 2 2034 Feb
+
+636 Dec 6 9 Feb 11
+
+1088 Dec 6 936 Mar 20
+
+253287: 2 -rw-r--r-- 1 root root 254900: 1 -r-r---- 1 root root 258432: lrwxrwxrwx 1 root root 259602: 1 -rw-r--r-- 1 root root 260413: 1 -rw-r---- 1 root root 260414: 1 -rw-r---- 1 root root 260518: 0 -rw-r--r-- 1 root root 260963: 1 -rw-r--r-- 262764: 76 -rw-r--r--
+
+1 root root
+
+263051:3 -rw-r--r-- 1 root root
+
+1 root root
+
+944 Mar 20
+
+199 Mar 20 1236 Mar 16
+
+78108 Dec 3347 Mar 25
+
+266635:1 -rw-r--r-- 1 root root 601 Sep 11
+
+2
+
+2026 baobab.mo 2026 baobab.mo
+
+2026 LA00-ALICE.flt 2026 LA00-GENERIC.flt 2026 LAO0-MULE.flt
+
+2026 LA00-OTF.flt
+
+2025
+
+baobab.1.gz
+
+2026 inet_lnaof.3.gze -> inet.3.gz
+
+2025 libao.conf.5.gz
+
+2026 libpipewire-module-raop-discover.7.gz 2026 libpipewire-module-raop-sink.7.gz
+
+2026 pipewire-pulse-module-raop-discover.7.gz 2026 javaobjnew-bpfcc.8.gz
+
+6
+
+2025 org.gnome.baobab.metainfo.xml
+
+2026 x-cdrdao-toc.xml 2025 Lao.pl
+
+267152:2 -rw-r--r-- 1 root root 2272 Mar 25 1998 HelveticaOblique.pm 267646:0 -rw-r--r-- 1 root root 174 Mar 20 2026 50-raop.conf
+
+269080: 1 -rw-r--r-- 1 root root
+
+269237:
+
+636 Dec 3 2025 1n_AO.dat 1022 Dec
+
+3 2025 pt_AO.dat
+
+279766:0
+
+279809:0 -rw-r--r-
+
+1 -rw-r--r-- 1 root root
+
+-rw-r--r--
+
+1 root root
+
+254 Mar 5
+
+2026 Sao Tome
+
+1 root root
+
+186 Mar
+
+5
+
+2026 Curacao
+
+7 Mar
+
+5
+
+2026 Kralendijke -> Curacao
+
+7 Mar
+
+5
+
+2026 Lower Princese -> Curacao 2026 Sao Paulo
+
+279839:0 1rwxrwxrwx 1 root root 279843:0 1rwxrwxrwx 1 root root 279889:1 -rw-r--r-- 1 root root 1430 Mar 280240:0 -rw-r--r-
+
+280503:0
+
+280506:
+
+5 1 root root 186 Mar 5 2026 Fakaofo drwxr-xr-x 2 root root 74 Mar 25 2026 aoe/
+
+./rofs/usr/src/linux-headers-7.0.0-10/Documentation/admin-guide/aoe: 46 Mar 25 2026 amigaone/
+
+286997: 0 drwxr-xr-x 2 root root
+
+287066: ./rofs/usr/src/linux-headers-7.0.0-10/arch/powerpc/platforms/amigaone : 289660:0 drwxr-xr-x 2 root root 31 Mar 25 2026 zhaoxin/ 289674:./rofs/usr/src/linux-headers-7.0.0-10/arch/x86/events/zhaoxin:
+
+291473: 0 drwxr-xr-x 2 root root
+
+31 Mar 25 2026 aoe/
+
+291482:./rofs/usr/src/linux-headers-7.0.0-10/drivers/block/aoe:
+
+306383: 1 -rw-r--r-- 1 root root
+
+839 Oct 22 2025 axg-aoclkc.h
+
+335235: 336473:
+
+336474:
+
+336475:
+
+336476: 336477: 336478: 336479: 336480:
+
+336481:
+
+336482:
+
+336483:
+
+336484: 336485: 337794: 337795: 337796:
+
+337797:
+
+2 -rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root 1 -rw-r--r-- 1 root root 1 -rw-r--r-- 1 root root e-rw-r--r-- 1 root root 1 -rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root 2 -rw-r--r-- 1 root root e-rw-r--r-- 1 root root e -rw-r--r-- 1 root root -rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root
+
+342028:0 drwxr-xr-x 2 root root
+
+31
+
+1957 Dec 6
+
+16 Dec 6 308 Mar 25 355 Dec 6 561 Mar 25 629 Dec 6 35 Dec 6 623 Dec 6
+
+2025 baobab.md5sums
+
+2025 libao-common.conf files 2026 libao-common.list 2025 libao-common.md5sums 2026 libao4:amd64.list 2025 libao4:amd64.md5sums 2025 liba04:amd64.shlibs 2025 libao4:amd64.symbols 2025 liba04:amd64.triggers 2026 libaom3: amd64.list 2025 libaom3: amd64.md5sums 2025 libaom3:amd64.shlibs 2025 libaom3:amd64.symbols 2025 libaom3:amd64.triggers
+
+75 Dec 6 249 Mar 25 218 Oct 28 29 Oct 28 1897 Oct 28 75 Oct 28 346 Mar 25 2026 libheif-plugin-aomdec:amd64.list 263 Feb 21 2026 libheif-plugin-aomdec:amd64.md5sums 346 Mar 25 2026 libheif-plugin-aomenc: amd64.list 173 Feb 21 2026 libheif-plugin-aomenc:amd64.md5sums 2026 aoc51fc8aUd2VL8VpvynUJJHGXp5K6Dj/
+
+Mar 25
+
+342076:./rofs/var/lib/snapd/assertions/asserts-ve/snap-declaration/16/aoc51fc8aUd2VL8vpvynUJJHGXp5K6Dj: 342654:1 -rwxr-xr-x 1 root root 1498 Nov 25 2025 baobab_org.gnome.baobab.png* 342709:2 -rwxr-xr-x 1 root root 1944 Nov 25 2025 baobab_org.gnome.baobab.png* 404304: 271 -rwxr-xr-x 1 root root 404319: 4018 -rwxr-xr-x 1 root root 411229: 1 -rw-r--r-
+
+417266: 100 -rw-r--r
+
+417267:
+
+418889:
+
+419213:
+
+419856:
+
+1 root root 1 root root
+
+3 -rw-r--r--
+
+1 root root
+
+1 -rw-r--r-- 1 root root
+
+1-rw-r--r-- 1 root root
+
+277008 Dec 6 2025 baobab*
+
+4114632 Mar 15 2026 bpftrace-aotrt*
+
+1072 Mar 19 2026 'brcmfmac4356-pcie.Xiaomi Inc-Mipad2.txt.zst' 102687 Mar 19 2026 aop.mbn.zst
+
+2664 Mar 19 2026 aop_devcfg.mbn.zst 956 Mar 6 2026 aout.mod
+
+1376 Aug 12 2025 aout.mod
+
+2026 hangulhanjaoptdialog.ui 2026 mediaobjectbar.xml 2026 mediaobjectbar.xml 2026 mediaobjectbar.xml 2026 mediaobjectbar.xml 2026 mediaobjectbar.xml 2026 mediaobjectbar.xml 2026 mediaobjectbar.xml 2026 mediaobjectbar.xml 2026 mediaobjectbar.xml 33 Mar 25 2026 a0e/
+
+2875 -r-r--r-- 1 root root 2944096 Mar 20 2026 libvbaobjlo.so 421288:20 -rw-r--r-- 1 root root 20317 Mar 19 421704:1 -rw-r--r-- 1 root root 1227 Mar 19 422105:1 -rw-r--r-- 1 root root 1227 Mar 19 422221:1 -rw-r--r-- 1 root root 1227 Mar 19 422329:1 -rw-r--r-- 1 root root 1227 Mar 19 422577:1 -rw-r--r-- 1 root root 1227 Mar 19 422659:1 -rw-r--r-- 1 root root 1227 Mar 19 422742:1 -rw-r--r-- 1 root root 1227 Mar 19 422834:1 -rw-r--r-- 1 root root 1227 Mar 19 423175:1 -rw-r--r-- 1 root root 1227 Mar 19 425494: drwxr-xr-x 2 root root 425508: ./usr/lib/modules/7.0.0-10-generic/kernel/drivers/block/aoe: 425512:34 -rw-r--r-- 1 root root 34931 Mar 19 2026 aoe.ko.zst 425822: 6 -rw-r--r-- 1 root root 5751 Mar 19 426851: 3 -rw-r--r-- 1 root root 427338: 6 -rw-r--r-- 1 root root 427343: 6 -rw-r--r-- 1 root root
+
+2026 ni_at_ao.ko.zst
+
+2781 Mar 19 6312 Mar 19
+
+5979 Mar 19
+
+2026 hid-xiaomi.ko.zst 2026 12c-taos-evm.ko.zst 2026
+
+12c-viai2c-zhaoxin.ko.zst
+
+2 root root
+
+2026 mediaobjectbar.xml 2026 mediaobjectbar.xml 33 Mar 25 2026 aoe/
+
+5979 Mar 19
+
+2026 ni_at_ao.ko.zst
+
+19
+
+2026 hid-xiaomi.ko.zst 2026 12c-taos-evm.ko.zst 2026 12c-viai2c-zhaoxin.ko.zst 2026 xiaomi-wmi.ko.zst 2026 chaoskey.ko.zst 2026 aosc.py
+
+422834:1 -rw-r--r-- 1 root root 1227 Mar 19 423175:1 -rw-r--r-- 1 root root 1227 Mar 19 425494: 0 drwxr-xr-x 425508: /usr/lib/modules/7.0.0-10-generic/kernel/drivers/block/aoe: 425512:34 -rw-r--r-- 1 root root 34931 Mar 19 2026 aoe.ko.zst 425822: 6 -rw-r--r-- 1 root root 5751 Mar 19 426851: 3 -rw-r--r-- 1 root root 2781 Mar 427338: 6 -rw-r--r-- 1 root root 6312 Mar 19 427343: 6 -rw-r--r-- 1 root root 434065: 3 -rw-r--r-- 1 root root 435817:10 -rw-r--r-- 1 root root 441642: 4 -rw-r--r-- 1 root root 441692: 7 -rw-r--r-- 1 root root 455249:1 -rw-r--r-- 1 root root 666 Mar 13 455250:1 -rw-r--r-- 1 root root 708 Mar 13 drwxr-xr-x 3 root root e1rwxrwxrwx 1 root root 40 -rw-r---- 1 root root elrwxrwxrwx 1 root root
+
+456586:
+
+456911: 456912:
+
+456913:
+
+3362 Mar 19 10552 Mar 19 4482 Feb 27
+
+7992 Mar 25
+
+2026 aosc.cpython-314.pyt
+
+2026 2026
+
+quotaon-root.service quotaone.service
+
+32 Mar 25
+
+14 Dec 6
+
+40552 Dec 6
+
+16 Oct 28
+
+456914: S896 -րա------- 1 root root 5525832 Oct 28 458710:./usr/lib/x86_64-linux-gnu/ao:
+
+458716:./usr/lib/x86_64-linux-gnu/ao/plugins-4:
+
+2026 80/
+
+2025 libao.so.40 -> libao.so.4.1.1 2025 11bao.so.4.1.1
+
+2025 11baom.so.30 -> libaom.so.3.13.1 2025 11baom.so.3.13.1
+
+460575:22 -rw-r--r-- 1 root root 22800 Feb 21 2026 libheif-aomdec.so 460576:46 -rw-r--r-- 1 root root 47384 Feb 21
+
+461141: 1 -rw-r--r-- 1 root root 463109:1 -rw-r--r-- 1 root root 463771: 26 -rw-r--r-- 1 root root
+
+982 Sep 11
+
+2026 libheif-aomenc.so 2025 Amigaos.pm 601 Sep 11 2025 Lao.pl 26976 Mar 20
+
+2026 libpipewire-module-raop-discover.so 463772:198 -rw-r--r-- 1 root root 203104 Mar 20 2026 libpipewire-module-raop-sink.so 464862:14 -rw-r--r-- 1 root root 14704 Oct 30 2025 spd_libao.so 466198: e-rwxr-xr-x 1 root root 467044: 0 drwxr-xr-x
+
+56 Mar 16 2026 Javaobjnew-bpfcc><
+
+66 Mar 25 2026 mulelao-1/
+
+2 root root 467387:./usr/share/X11/locale/mulelao-1:
+
+469047:1 -rw-r--r--
+
+613 Dec 6
+
+2026 Aorus-Master-Main-Audio-HiFi.conf 2026 Aorus-Master-Main-Audio.conf 2025 org.gnome.baobab.desktop
+
+18
+
+6 Dec 5 Dec 18 5 Dec 18 20350 Mar 2 4838 Mar 5891 Mar 6481 Mar
+
+1 root root 1154 Jan 13 469048:0 -rw-r--r-- 1 root root 162 Jan 13 470735: 1 -rw-r--r-- 1 root root 471127: elrwxrwxrwx 1 root root 472088: elrwxrwxrwx 1 root root 472089: e Irwxrwxrwx 1 root root 474103: 20 -rw-r--r-- 1 root root 474104: 5 -rw-r--r-- 1 root root 474105: 6 -rw-r--r-- 1 root root 474106: 6 -rw-r--r-- 1 root root 474107: 8 -rw-r--r-- 1 root root 474108: 9 -rw-r--r-- 1 root root 474109: 11 -rw-r--r-- 1 root root 474110: 14 -rw-r--r-- 1 root root 474111: 19 -rw-r--r-- 1 root root
+
+2025 bao0 -> _vault 2025 quotaoff@ -> quota 2025 quotaone -> quota 2026 Lao-DejaVu118x64.psf.gz
+
+2
+
+2026
+
+2
+
+2026
+
+Lao-DejaVu30x16.psf.gz Lao-DejaVu36x20.psf.gz
+
+2
+
+2026
+
+Lao-DejaVu43x24.psf.gz
+
+8041 Mar
+
+2
+
+2026
+
+Lao-DejaVu51x28.psf.gz
+
+8954 Mar
+
+2
+
+2026
+
+Lao-DejaVu59x32.psf.gz
+
+2
+
+2026
+
+Lao-DejaVu74x40.psf.gz
+
+2
+
+2026
+
+Lao-DejaVu89x48.psf.gz
+
+2
+
+2026 Lao-DejaVuBold118x64.psf.gz
+
+11644 Mar 14729 Mar 19863 Mar
+
+325908: 326075:
+
+e -rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root e -rw-r--r-- 1 root root 334721:0 -rw-r--r-- 1 root root
+
+326083:
+
+331393:
+
+331811:
+
+332852:
+
+335234:
+
+335235:
+
+336473:
+
+336474:
+
+336475:
+
+336476: 336477: 336478: 336479: 336480:
+
+336481:
+
+336482:
+
+336483: 336484: 336485: 337794:
+
+337795: 337796:
+
+337797:
+
+3 18 -rw-r--r-- 1 root root 2 -rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root 1 -rw-r--r-- 1 root root 1 -rw-r--r-- 1 root root e-rw-r--r-- 1 root root 1 -rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root 2 -rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root e -rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root
+
+342028:0 drwxr-xr-x 2 root root
+
+Mar 19 2026 HID XIAOMI Mar 19 2026 I2C_TAOS_EVM Mar 19 2026 I2C_ZHAOXIN
+
+Mar 19 2026 TCP_AO
+
+Mar 19 2026 USB_CHAOSKEY Mar 19 2026 XIAOMI_WMI
+
+Mar 25
+
+2026 aoc51fc8aUd2VL8VpvynUJJHGXp5K6DJ.Json
+
+18418 Mar 25
+
+1957 Dec 6
+
+16 Dec 6 308 Mar 25 355 Dec 6 561 Mar 25 629 Dec 6 35 Dec 6 623 Dec
+
+6
+
+75 Dec 6 249 Mar 25 218 Oct 28
+
+29 Oct 28 1897 Oct 28
+
+75 Oct 28
+
+346 Mar 25 263 Feb 21
+
+2026 baobab.list
+
+2025 baobab.md5sums
+
+2025 libao-common.conf files 2026 libao-common. list 2025 libao-common.md5sums 2026 liba04:amd64.list 2025 liba04:amd64.md5sums 2025 liba04:amd64.shlibs 2025 libao4:amd64.symbols 2025 liba04: amd64.triggers 2026 libaom3: amd64.list 2025 libaom3: amd64.md5sums 2025 libaom3: amd64.shlibs 2025 libaom3: amd64.symbols 2025 libaom3:amd64.triggers
+
+2026 libheif-plugin-aomdec: amd64.list 2026 libheif-plugin-aomdec: amd64.md5sums 2026 libheif-plugin-aomenc: amd64.list 173 Feb 21 2026 libheif-plugin-aomenc: amd64.md5sums 2026 aoc51fc8aUd2VL8VpvynUJJHGXp5K6DJ/
+
+346 Mar 25
+
+31 Mar 25
+
+342076: ./rofs/var/lib/snapd/assertions/asserts-ve/snap-declaration/16/aoc51fc8aUd2VL8vpvynUJJHGXp5K6DJ: 342654:1 -rwxr-xr-x 1 root root 1498 Nov 25 2025 baobab org.gnome.baobab.png* 342709:2 -rwxr-xr-x 1 root root 1944 Nov 25 2025 baobab_org.gnome.baobab.png* 404304: 271 -rwxr-xr-x 1 root root 404319: 4018 -ruxr-xr-x 1 root root 411229: 1 -r-r--r--
+
+417266: 100 -rw-r----
+
+277008 Dec 6 2025 baobab* 4114632 Mar 15 2026 bpftrace-aotrt*
+
+1 root root 1072 Mar 19 2026 'brcmfmac4356-pcie.Xiaomi Inc-Mipad2.txt.zst' 1 root root 102687 Mar 19 2026 aop.mbn.zst
+
+417267: 3 -rw-r---- 1 root root
+
+root@(none):/home# ls -a /rofs/var/lib/snapd/assertions/asserts-ve/snap-declaration/16/
+
+3wdHCAVyZEMYSCMFDE9qt92UV8гC8Wdk
+
+EI0D1KHJP8X1uMZKqSjuh6W8zvcowUVP
+
+2664 Mar 19 2026 aop_devcfg.mbn.zst
+
+FppXHunHzuRT2NUT9CwoBPNJNZBYOCK
+
+HyhSEBPv3vHsH6u0HkQR384NgI7S6zpj
+
+IrwRHakqtzhFRHJOOPXKVPUØKK 7Erhcu PMrrV4m18uHuEUDBT8dSGnKUYbevVhc4 aoc51fc8aUd2VL8VpvynUJJHGXp5K6DJ
+
+dwTAh7MZZ01zyr10ZErqd1JynQL10GVM ew70xpbRTxfK7ImpIygRR85 IkxvU7Pzt gjf3IPXoRiipCu9kekvu52f0H56f Iksg
+
+JZLfBRzf1cY1Yys IJD2bwSzNtngY0qit
+
+EISPgh06mRh1vordZY90234QHdd70rdR
+
+root@(none): /home# ls -a /rofs/var/lib/snapd/assertions/asserts-ve/snap-declaration/16/aoc51fc8aUd2VL8vpvynUJJHGXp5K6DJ/
+
+active.1
+
+root@(none):/home# ls -a /rofs/var/lib/snapd/assertions/asserts-ve/snap-declaration/16/aoc51fc8aUd2VL8vpvynUJJHGXp5K6Dj/active.1 root@(none):/home# file /rofs/var/lib/snapd/assertions/asserts-ve/snap-declaration/16/aoc51fc8aUd2VL8VpvynUJJhGXp5K6Dj/active.1
+
+/rofs/var/lib/snapd/assertions/asserts-ve/snap-declaration/16/aoc51fc8aUd2VL8VpvynUJJHGXp5K6DJ/active.1 /rofs/var/lib/snapd/assertions/asserts-ve/snap-declaration/16/aoc51fc8aUd2VL8VpvynUJJHGXp5K6Dj/active.1: ASCII text
+
+root (none):/home#
+
+1 root root e-rear-xr-x 1 root root
+
+-
+
+xr-x 1 root root 3-r - 1 root root 3-rw-r-- 1 root root
+
+3404682
+
+346469:
+
+3404702
+
+e-r
+
+340471: 1
+
+341881:240
+
+342491:0 N
+
+r-x 1 root root xr-x 1 root root xr-x 1 root root
+
+3590 Nov 27 2025 python3-Jsonschema-specifications.md5sums 301 Nov 27 2025 python3-Jsonschema-specifications.post inst 2025 python3-Jsonschema-specifications.prerme 2026 python3-Jsonschema.list
+
+414 Nov 27 2726 Mar 25 3582 Dec 6 271 Dec
+
+6
+
+2025 python3-Jsonschema.md5sums 2025 python3-Jsonschema.post inst✶ 2025 python3-Jsonschema.postrm* 2025 python3-Jsonschema.prerm 2026 state.Json
+
+2026 bare.Json 2026 core24.Json 2026 desktop-security-center.Json 2026 firefox.Json
+
+157 Dec 6 531 Dec 6 1 root root 246199 Mar 25 1 root root 158 Mar 25 1 root root 166 Mar 25 1 root root 181 Mar 25 1 root root 167 Mar 25 1 root root 174 Mar 25 1 root root 171 Mar 25 1 root root 177 Mar 25 1 root root 169 Mar 25 1 root root 174 Mar 25 1 root root 170 Mar 25 1 root root 183 Mar 25 1 root root 167 Mar 25 xr-xr-x 1 root root S-rar-xr-x 1 root root
+
+-ru
+
+342500: -rw
+
+342501:0 -rw-
+
+342502:0 -rw-r- --
+
+crub -x
+
+404909:
+
+1
+
+404910:
+
+404911:
+
+e Irur
+
+1 root root
+
+404912:
+
+4-rubr
+
+1 root root
+
+404913:
+
+2-rupcr
+
+404914:
+
+e-r
+
+cr-x -xr-x
+
+405439:
+
+419026:
+
+419343:
+
+1 root root 1 root root 1 root root 4 -rw-r--r-- 1 root root 6 -rw-r--r-- 1 root root
+
+439862:
+
+439863:
+
+439864:
+
+22 -rar-xr-x
+
+e druxxr-xr-x 2 root root 28 -rw-r--r-- 1 root root e drup r-x 2 root root 439865: 11 -rw-r- r-- 1 root root
+
+439866:
+
+e drur
+
+e drupe
+
+dru
+
+r-x 5 root root 439867: r-x 2 root root 439868: r-x 5 root root 439869: e drupcr-xr-x 2 root root 440522: 35 -rw-r--r-- 1 root root 440523: 13 -rw-r--r-- 1 root root 441620:154 -rw-r--r-- 1 root root 441621 22 -rw-r--r-- 1 root root 441622: 17 -rw-r--r-- 1 root root 441623: 1 -rw-r--r-- 1 root root
+
+2026 firmware-updater.json 2026 gnome-46-2404.Json 2026 gtk-common-themes.json 2026 mesa-2404.Json
+
+2026 prompting-client.Json 2026 snap-store.Json 2026 snapd-desktop-integration.Json 2026 snapd.Json 1004 Feb 12 2026 5021 Sep 11 2025 26 Feb 12 3859 Feb 12
+
+2026
+
+1838 Feb 10
+
+2026 2026
+
+Json-patch-Jsondiff*
+
+Json pp
+
+Jsondiffe -> /etc/alternatives/jsondiff Jsonpatch*
+
+Jsonpointer*
+
+214 Dec 6 2025 Jsonschema 22992 Mar 20 2026
+
+4200 Har 6 2026 json.mod
+
+5792 Aug 12 2025 Json.mod
+
+spa-Json-dump
+
+100 Mar 25 2026 Jsonpatch-1.32.egg-info/ 28813 Mar 13
+
+80 Mar 25
+
+10964 Jun 16
+
+308 Mar 25
+
+85 Mar 25
+
+2021 Jsonpatch.py
+
+2026 Jsonpointer-2.4.egg-info/ 2023 Jsonpointer.py
+
+2026 Jsonschema/
+
+2026 Jsonschema-4.19.2.dist-info/
+
+97 Mar 25 2026 Jsonschema_specifications/
+
+36063 Mar 25 13792 Mar 25 157260 Feb 27
+
+61 Mar 25 2026 Jsonschema_specifications-2023.12.1.dist-info/ 2026 Jsonpatch.cpython-314.pyc 2026 Jsonpointer.cpython-314.pyc 2026 schema-cloud-config-v1.json 22494 Feb 27 2026 schema-network-config-vi.json 17906 Feb 27 2026 schema-network-config-v2.Json 557 Feb 27 2026 versions.schema.cloud-config.json
+
+443261:./usr/lib/python3/dist-packages/jsonpatch-1.32.egg-info:
+
+443270: /usr/lib/python3/dist-packages/jsonpointer-2.4.egg-info: 443278: /usr/lib/python3/dist-packages/Jsonschema:
+
+452776:
+
+drwxr-xr-x 3 root root 453850:./usr/lib/python3.14/json:
+
+141 Mar 25
+
+2026 json/
+
+453862:./usr/lib/python3.14/json/_ pycache ___:
+
+456253:50 -ruxr-xr-x 1 root root 51608 Mar 11 2026 apt-esm-json-hook*
+
+Iruxrwxrwx 1 root root
+
+457286:
+
+457287: 457684: 457685: 457686:
+
+50 -rw-r--r-- 1 root root e Iruxruxxrux 1 root root 78 -rw-r---- 1 root root e Iruxrux 1 root root
+
+457687: 174 -rw-r--r-- 1 root root
+
+20 Dec 6 51536 Dec 6 18 Feb 12 80352 Feb 12
+
+28 Nov 6
+
+2025 libfast json.so.40 -> libfast json.so.4.3.0 2025 libfast json.so.4.3.0
+
+2026 libjson-c.so.50 -> libjson-c.so.5.4.0 2026 libjson-c.so.5.4.0
+
+2025 libjson-glib-1.0.so.00 -> libjson-glib-1.0.so.0.1000.8 178400 Nov 6 2025 libjson-glib-1.0.so.0.1000.8
+
+464206:19 -rw-r--r-- 1 root root 19592 Mar 10 2026 mmjsonparse.so
+
+27120 Mar 13
+
+858 Dec 18 672 Dec 18 59 Mar 25 92 Mar 25
+
+74 Mar 25 59 Mar 25
+
+465712: 26 -rw-r--r-- 1 root root 471778: 1 -rw-r--r-- 1 root root 471779: 1 -rw-r--r-- 1 root root 476700:0 druxr-xr-x 2 root root 476899:0 drwxr-xr-x 2 root root 476900:0 druxr-xr-x 2 root root 476901:0 druxr-xr-x 2 root root 477278:0 druxr-xr-x 2 root root 477604:0 druxr-xr-x 2 root root 477605:0 druxr-xr-x 2 root root 477606:0 druxr-xr-x 2 root root 477607:0 druxr-xr-x 2 root root 484320:/usr/share/doc/libfast json4:
+
+59 Mar 25
+
+76 Mar 25
+
+76 Mar 25
+
+59 Mar 25
+
+2026 audit_json.so
+
+2025 Json xs
+
+2025 Jsonschema
+
+2026 libfast json4/
+
+2026 libjson-c5/
+
+2026 libjson-glib-1.0-0/
+
+2026 libjson-glib-1.0-common/
+
+2026 1ibunity-scopes-json-def-desktop/ 2026 python3-json-pointer/
+
+2026 python3-Jsonpatch/
+
+2026 python3-jsonschema/
+
+59 Mar 25 2026 python3-jsonschema-specifications/
+
+485861:9 -rw-r--r-- 1 root root 8824 Sep 9 2021 json process.c 485945:./usr/share/doc/libjson-c5:
+
+485954: ./usr/share/doc/libjson-glib-1.0-0:
+
+485962:./usr/share/doc/libjson-glib-1.0-common:
+
+489032:./usr/share/doc/libunity-scopes-json-def-desktop:
+
+492454:./usr/share/doc/python3-json-pointer: 492462:./usr/share/doc/python3-jsonpatch: 492470:./usr/share/doc/python3-jsonschema:
+
+492477:./usr/share/doc/python3-jsonschema-specifications:
+
+497403:4 -rw-r--r-- 1 root root 4128 Mar
+
+2026 metadata.json
+
+9 2026 thinkpad-pi-iommu.json.gz 498295:0 -rw-r--r-- 1 root root 105 Mar 13 2026 50 mesa.json 498508: 0 -rw-r--r-- 1 root root 314 Feb 18 2026 metadata.json 498548: -rw-r--r-- 1 root root 227 Feb 18 2026 metadata.json 498580:0 -rw-r--r-- 1 root root 374 Feb 18 2026 metadata.json 498589: 0 -rw-r--r-- 1 root root 465 Feb 18 498608:3 -rw-r--r-- 1 root root 2661 Feb 18 2026 layouts example.json 498684: 1 -rw-r--r-- 1 root root 575 Feb 18 498758: 1 -rw-r--r-- 1 root root 498801:0 -rw-r--r-- 1 root root 316 Feb 18 498808:0 -rw-r--r-- 1 root root 188 Mar 19 498809:1 -rw-r--r-- 1 root root 599 Mar 21 533478:1 -rw-r--r-
+
+1 root root 533479:0 Iruorupcrux 1 root root
+
+=
+
+529 Feb
+
+18
+
+2026 metadata.json
+
+2026 metadata.json
+
+2026 metadata.json
+
+2026 initial-setup.json 2026 ubuntu.json
+
+646 Mar 19
+
+2026 application-geo+json.png
+
+24 Mar 19 2026 application-gpx+xml.pnge -> application-geo+json.png
+
+712637: 7126982
+
+7126392
+
+7126402
+
+7126
+
+-PW PP. 1 root root Pwrp 1 root root
+
+P. 1 root root P. 1 root root Pwrp 1 root root @pwr 1 root root 712643: 12 pp. 1 root root
+
+71264
+
+7154
+
+7154
+
+715480
+
+7154812
+
+715482
+
+715483
+
+P. 1 root root -P. 1 root root P1 root root P. 1 root root Pwrp 1 root root 1PW PP 1 root root 1-1 - 1 root root -rwxr-xr-x 1 root root -rwxr-xr-x 1 root root 1-rwxr-xr-x 1 root root 1 Pwrp 1 root root 1Pwrp 1 root root
+
+715484
+
+715485:
+
+715486:
+
+715487:
+
+715488:
+
+715492
+
+715493
+
+715494
+
+7154952
+
+xr-x 1 root root xr-x 1 root root 1-rwxr-xr-x 1 root root 4 -rw-r--r-- 1 root root Pwrp 1 root root root root -rwxr-xr-x 1 root root 3-rw-r--r-- 1 root root -rw-r--r-- 1 root root
+
+א-יא
+
+-rwxr-xr-x 1 root root -rwxr-xr-x 1 root root 1-rwxr-xr-x 1 root root
+
+83 Feb 12
+
+8743 Feb 12 73 Feb 12 346 Mar 25
+
+2026 Libson-csiamd64.shiibs 2026 1ibson-cs:amd64.symbols 2026 libson-c51amd64.triggers 2026 libson-glib-1.0-0:amd64.1ist 327 Nov 62025 libson-glib-1.0-0:amd64.md5sums 53 Nov 62025 libson-11b-1.0-01amd64.shlibs 12167 NOV 6 2025 libson-glib-1.0-0:amd64.symbols 75 NOV 62025 libjson-glib-1.0-01amd64.triggers 2026 libson-glib-1.0-common.list 2025 libjson-glib-1.0-common.md5sums 2026 libunity-scopes-Json-def-desktop.list 2026
+
+181 Mar 25 174 Nov 6 261 Mar 25 261 Feb 16 619 Mar 25 691 Feb 10
+
+283 Feb 10 158 Feb 10 537 Feb 10 696 Mar 25 838 Feb 12 416 Feb 12 287 Feb 12 660 Feb 12 3657 Mar 25 3590 Nov 27 301 Nov 27 414 Nov 27 2726 Mar 25 3582 Dec 6 271 Dec 6
+
+2026 2026
+
+libunity-scopes-json-def-desktop.md5sums
+
+2026 python3-Json-pointer.list 2026 python3-Json-pointer.md5sums 2026 python3-Json-pointer.postinst* 2026 python3-3son-pointer.postrm python3-Json-pointer.prerm python3-Jsonpatch.list 2026 python3-Jsonpatch.md5sums 2026 python3-Jsonpatch.postinst* 2026 python3-Jsonpatch.postrm 2026 python3-Jsonpatch.prerm
+
+2026 python3-Jsonschema-specifications. list 2025 python3-Jsonschema-specifications.md5sums 2025 python3-Jsonschema-specifications.postinst* 2025 python3-Jsonschema-specifications.prerm* 2026 python3-Jsonschema.list
+
+2025 python3-Jsonschema.md5sums 2025 python3-Jsonschema.postinst* 157 Dec 6 2025 python3-Jsonschema.postrm 531 Dec 6 2025 python3-Jsonschema.prerm
+
+2026 aux-info.Json 2026 bare.Json 2026 core24.Json
+
+2026 desktop-security-center.Json 2026 firefox.Json
+
+2026 firmware-updater.Json 2026 gnome-46-2404.Json 2026 gtk-common-themes.json 2026 mesa-2404.Json
+
+717152:282 -rw-1 root root 288864 Mar 25 2026 state.Json 717867:3 -rw-r--r-- 1 root root 2917 Mar 25 71787320 -rw-r--r-- 1 root root 158 Mar 25 71787420 -rw-r--r root root 166 Mar 25 717875:0 -rw-r--r-- 1 root root 181 Mar 25 71787610 -rw-r--r-- 1 root root 167 Mar 25 71787720 -rw-r--r-- 1 root root 174 Mar 25 71787810 -rw- - 1 root root 171 Mar 25 71787920 -rw- root root 177 Mar 25 71788020 -rw- - 1 root root 169 Mar 25 71788120 -rw-r--r-- 1 root root 174 Mar 25 71788220 -rw-r--r-- 1 root root 170 Mar 25 71788320 -rw-r- 1 root root 183 Mar 25 71788420 -rw-r--r-- 1 root root 167 Mar 25 717885:0 -rw-r--r-- 1 root root 171 Mar 25 71788610 -rw-r--r-- 1 root root 182 Mar 25 KEND
+
+2026 prompting-client.Json 2026 snap-store.Json 2026 2026 snapd.Json
+
+snapd-desktop-integration.Json
+
+2026 thunderbird.Json
+
+2026 ubuntu-desktop-bootstrap.Json
+
+65: Is-LaRFs 33 grep "overlay".txt & grep "overlay".conf less 92637: 1 root root
+
+6--
+
+5725 Mar 12 mesa-overlay-control.pys 9558 dix 2 root root 97 Mar 25 226 squash-live-autooverlay 55533 diru-xr-x 2 root root 116 Mar 25 226 over Zayfs 56011:./refs/usr/Lib/dracut/modules.d/edsquash-live-autooverlays
+
+95015:8 -
+
+1 root root 306 Mar 21 2026 create-overlay-genrules.shx 96816:4--- 1 root root 3735 Mar 21 2026 create-overlay.she 96116:./rofs/usr/lib/dracut/modules.d/over layfs: 96121:1-r-xr-x 1 root root 997 Mar 21 2026 mount-overlaufs.sh 96122:0 -r-xr-x 1 root root 471 Mar 21 2026 overlayfs-lib.sh 96123:3-ar-xr-x 1 root root 3496 Mar 21 2026 prepare-overlayfs.sh 118729: drunar-xr-x 2 root root 37 Mar 25 2026 overlayfs
+
+119677:./rofs/usr/lib/modules/7.0.0-10-generic/kernel/fs/overlayfs: 119681:106 -rw-r-- 1 root root 108159 Mar 19 2026 overlay.ko.st 132641:1 -rw-r--r-- 1 root root 783 Dec 18 2025 overlay.py
+
+132650:1 -rw-r--r-- 1 root root 1507 Mar 25 2026 overlay.cpython-314.pyc
+
+138336: 980 -rw-r---- 1 root root 1003344 Mar 13 2026 11bVkLayer NESA overlay.so 141480: 35 -rw-r--r 1 root root 35352 Jan 28 2026 libgstoverlaycomposition.80 162396:2 -rw-r--r-- 1 root root 2169 Oct 20 2024 gst-cairo-overlay.pl, 278686:0 -rw-r--r-- 1 root root 301 Mar 13 2026 VkLayer NESA _overlay.Json 305094: 0 drapar-xr-x 2 root root 46 Mar 25 2026 overlayfs
+
+365558:./rofs/usr/src/linux-headers-7.0.0-10/fs/overlayfs:
+
+309914: 1 -rw-r--r-- 1 root root 316543: 4 -rw-r--
+
+657 Feb 92026 touch-overlay.h 1 root root 4576 Feb 9 2026 fdtoverlay.c 316585:27 -rw-r--r-- 1 root root 27480 Mar 19 2026 fdt_overlay.c 320413:0 druxxr-xr-x 31 Mar 25 2026 overlayfs
+
+2 root root
+
+e-rw-r--r-- 1 root root
+
+320465:./rofs/usr/src/linux-headers-7.0.0-10/tools/testing/selftests/filesystems/overlaufs: Mar 19 2026 EFI CUSTON SSDT OVERLAYS Mar 19 2026 LD CAN USE KEEP IN OVERLAY Har 19 2026 OVERLAY FS
+
+324992: 326967: 328640: 328641:
+
+e-rw-r--r-- 1 root root
+
+-rw-r--r-- 1 root root e-rw-r--r-- 1 root root 328642: e-rw-r--r-- 1 root root 38360110 ------ 1 root root 400184:0 drwxr-xr-x 402245:./sys/module/overlay:
+
+6 root root
+
+Mar 19
+
+Mar 19
+
+2026 OVERLAY FS REDIRECT ALWAYS FOLLON 2026 OVERLAY FS XINO AUTO
+
+21432 Jan Jan 1 04:18 overlay
+
+1 04:38 overlay
+
+402261:./sys/module/overlay/holders: 402266: ./sys/module/overlay/notes: 402274:./sys/module/overlay/parameters: 402287:./sys/module/overlay/sections:
+
+405041:
+
+6 -rwxr-xr-x 1 root root
+
+436605: 0 drwxr-xr-x 2 root root
+
+5725 Mar 12 2026 mesa-overlay-control.py* 37 Mar 25 2026 overlayfs/
+
+436953:./usr/lib/modules/7.0.0-10-generic/kernel/fs/overlays! 436957:106 -rw-r--r-- 1 root root 108159 Mar 19 2026 overlay.ko.zst 448893: 2 -rw-r--r-- 1 root root 2269 Mar 14 2026 drag overlay.py 448903: 5 -rw-r--r-- 1 root root 5625 Mar 25 450811:1 -rw-r--r-- 1 root root 783 Dec 18 450820:1 -rw-r--r-- 1 root root 1507 Mar 25
+
+2026 drag overlay.cpython-314.pye
+
+2025 overlay.py
+
+2026 overlay.cpython-314.pye
+
+278086:0 -rw-r--r-- 1 root root 301 Mar 13 2026 VkLayer MESA_overlay.Json 305094: 0 drwxr-xr-x 2 root root 46 Mar 25 2026 overlayfs/
+
+305558:./rofs/usr/src/linux-headers-7.0.0-10/fs/overlayfs:
+
+309914: 1 -rw-r--r-- 1 root root
+
+657 Feb 9 2026 touch-overlay.h 316543: 4 -rw-r--r-- 1 root root 4576 Feb 9 2026 fdtoverlay.c 316585:27 -rw-r--r-- 1 root root 27480 Mar 19 320413:0 drwxr-xr-x 2 root root 31 Mar 25
+
+2026 fdt overlay.c 2026 overlayfs/
+
+320465:./rofs/usr/src/linux-headers-7.0.0-10/tools/testing/selftests/filesystems/overlayfs:
+
+324992:
+
+e-rw-r--r-- 1 root root
+
+326967: e -rw-r--r-- 1 root root
+
+328640: 328641:
+
+e -rw-r--r-- 1 root root e-rw-r--r-- 1 root root 328642: e-rw-r--r-- 1 root root 383601:0 -r--r--r-- 1 root root 400184:0 drwxr-xr-x 6 root root 402245:./sys/module/overlay:
+
+Mar 19 2026 EFI_CUSTOM_SSDT_OVERLAYS Mar 19 2026 LD CAN_USE_KEEP_IN_OVERLAY 2026 OVERLAY_FS
+
+Mar 19
+
+Mar 19
+
+e Mar 19
+
+21432 Jan
+
+2026 OVERLAY FS_REDIRECT_ALWAYS FOLLOW 2026 OVERLAY FS_XINO_AUTO
+
+1 04:38 overlay
+
+8 Jan 1 04:18 overlay/
+
+402261:./sys/module/overlay/holders: 402266: ./sys/module/overlay/notes: 402274:./sys/module/overlay/parameters: 402287:./sys/module/overlay/sections:
+
+405041: 6 -rwxr-xr-x 1 root root 436605: drwxr-xr-x 2 root root
+
+5725 Mar 12
+
+2026 mesa-overlay-control.py*
+
+37 Mar 25 2026 overlayfs/ 436953: ./usr/lib/modules/7.0.0-10-generic/kernel/fs/overlayfs: 436957:106 -rw-r--r--
+
+1 root root 108159 Mar 19 2026 overlay.ko.zst 448893: 2 -rw-r--r-- 1 root root 2269 Mar 14 2026 drag_overlay.py 448903: 5 -rw-r--r-- 1 root root 5625 Mar 25 2026 drag_overlay.cpython-314.pyc 450811:1 -rw-r--r-- 1 root root 783 Dec 18 2025 overlay.py
+
+450820:1 -rw-r--r-- 1 root root 1507 Mar 25 2026 overlay.cpython-314.pyc
+
+456662: 980 -rw-r--r-- 1 root root 1003344 Mar 13 2026 11bVkLayer MESA_overlay.so 460104: 35 -rw-r--r-- 1 root root 35352 Jan 28 2026 libgstover laycomposition.so
+
+483356:2 -rw-r--r-- 1 root root 2169 Oct 20 2024 gst-cairo-overlay.pl
+
+591161: 1 -rw-r--r-- 1 root root 1229 Mar 20 2026 slide sorter_hide_slide_overlay.svg 652083:0 -rw-r--r-- 1 root root 301 Mar 13 2026 VkLayer_MESA_overlay.Json 679179:
+
+drwxr-xr-x 2 root root
+
+46 Mar 25 2026 overlayfs/
+
+679643:./usr/src/linux-headers-7.0.0-10/fs/overlayfs:
+
+683999: 1 -rw-r--r-- 1 root root
+
+657 Feb 9 2026 touch-overlay.h 690628: 4 -rw-r--r-- 1 root root 4576 Feb 9 2026 fdtoverlay.c 690670:27 -rw-r--r-- 1 root root 27480 Mar 19 2026 fdt overlay.c 694498:0 drwxr-xr-x 2 root root 31 Mar 25 2026 overlayfs/
+
+694550:./usr/src/linux-headers-7.0.0-10/tools/testing/selftests/filesystems/overlayfs:
+
+699077:
+
+701052: 702725: 702726:
+
+e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root e-rw-r--r-- 1 root root
+
+Mar 19 2026 EFI_CUSTOM_SSDT_OVERLAYS Mar 19 2026 LD_CAN_USE_KEEP_IN_OVERLAY Mar 19 2026 OVERLAY_FS
+
+Mar 19 2026 OVERLAY_FS_REDIRECT_ALWAYS FOLLOW Mar 19 2026 OVERLAY_FS_XINO_AUTO 2024 goverlay_goverlay.png 2024 goverlay_goverlay.png
+
+702727:
+
+e-rw-r--r-- 1 root root
+
+719048:1 -rwxr-xr-x 1 root root 1089 May 30 720804: 1 -rwxr-xr-x 1 root root
+
+1123 May 30
+
+(END)
+
+raidi raide
+
+linear
+
+nvme
+
+hid_generic
+
+nvme_core
+
+usbhid
+
+nvme_keyring
+
+uas
+
+ghash_clmulni intel
+
+nvme_auth
+
+r8169
+
+hid
+
+video
+
+aesni_intel
+
+usb_storage
+
+hkdf
+
+realtek
+
+wmi
+
+pinctrl_sunrisepoint
+
+61440 24576
+
+16384 0
+
+69632
+
+12288
+
+241664 1 nvme
+
+86016 0
+
+20480 1 nvme_core
+
+32768 0
+
+12288 0
+
+28672 1 nvme_core
+
+151552
+
+278528
+
+0
+
+2 usbhid,hid_generic
+
+77824 0
+
+98304
+
+86016 3 uas
+
+12288 1 nvme_auth
+
+57344 0
+
+28672 0
+
+36864
+
+1 video
+
+root@(none):/home# grep -inr "233472" /home/monkey, txt | less root (none):/home# grep "233472" /home/monkey.txt | less root@(none):/home# grep "233472" /home/*
+
+grep: /home/ubuntu: Is a directory root@(none):/home# grep "233472".
+
+grep: Is a directory
+
+root@(none):/home# grep "233472" /etc
+
+grep: /etc: Is a directory
+
+root@(none):/home# grep "233472" /etc/ grep: /etc/: Is a directory,
+
+root@(none):/home# grep -r "233472" /etc root@(none):/home# grep -r "233472"/
+
+grep: /proc/sys/net/ipv4/route/flush: Permission denied
+
+grep: /proc/sys/net/ipv6/conf/all/stable_secret: Input/output error grep: /proc/sys/net/ipv6/conf/default/stable_secret: Input/output error grep: /proc/sys/net/ipv6/conf/enp3se/stable_secret: Input/output error grep: /proc/sys/net/ipv6/conf/10/stable_secret: Input/output error [4027.870466] ICMPV6: process
+
+grep is using deprecated sysctl (syscall) net.ipv6.neigh.default.base_reachable_time - use net.
+
+ipv6.neigh.default.base_reachable_time_ms instead
+
+grep: /proc/sys/net/ipv6/route/flush: Permission denied grep: /proc/sys/vm/compact_memory: Permission denied grep: /proc/sys/vm/drop_caches: Permission denied grep: /proc/kmsg: Resource temporarily unavailable [4047.382783] sysrq: SAK
+
+[4047.383068] tty tty1: SAK: killed process 1 (bash): by fdwe [4047.383132] tty tty1: SAK: killed process 1266 (grep): by fdwe root@(none):/home# [4057.217256] hrtimer: interrupt took 12862 ns
+
+GNU GRUB version 2.04
+
+Minimal BASH-like line editing is supported. For the first word, TAB lists possible command completions. Anywhere else TAB lists possible device or file completions. ESC at any time exits.
+
+grub> 1s
+
+(proc) (100p) (loop, gpt3) (loop, gpt2) (loop,gpt1) (vt_menu_tarfs) (hd0) (hd0, msdos2) (hd0,msdos1) (hd1) (hd1, gpt1)
+
+grub> ls -la
+
+* *(**)*
+
+-
+
+Device loop: Filesystem type is09660 Label Ubuntu 26.04 amd64' time 2026-03-25 03:43:00 Wednesday, UUID 2026-03-25-03-43-00-00 Total size 6794100KiB
+
+-
+
+Device vt_menu_tarfs: Filesystem type tarfs Sector size 512B Device hd0: No known filesystem detected Sector size 512B Device hd1: No known filesystem detected - Sector size 512B grub>
+
+-
+
+-
+
+-
+
+Sector size 512B Last modification
+
+Total size 190KiB Total size 60538880KiB
+
+Total size 250059096KiB
+
+pute
+
+8/inpute
+
+3.074194] input: SEMICO USB Keyboard as /devices/pc10000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:1A2C:4094.0002/input/input4 3.125444] hid-generic 0003:1A2C:4094.0002: input,hidrawi: USB HID v1.10 Keyboard [SEMICO USB Keyboard] on usb-0000:00:14.0- [ 3.128051] input: SEMICO USB Keyboard Consumer Control as /devices/pc10000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003: 1A2C:4094. 003/input/inputs [ 3.180223] input: SEMICO USB Keyboard System Control as /devices/pc10000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:1A2C:4094.00€ 3/input/input6 [ 3.181155] hid-generic 0003:1A2C:4094.0003: input, hidraw2: USB HID v1.10 Device [SEMICO USB Keyboard) on usb-0000:00:14.0-8/ input1 Spawning shell within the initramfs
+
+BusyBox v1.37.0 (Ubuntu 1:1.37.0-7ubuntu1) built-in shell (ash) Enter 'help' for a list of built-in commands.
+
+(initramfs) ls -a
+
+ventoy
+
+bin
+
+etc
+
+kernel
+
+conf
+
+lib
+
+usr
+
+cryptroot
+
+11b64
+
+run sbin scripts
+
+var
+
+root
+
+tmp
+
+init
+
+sys
+
+dev
+
+proc
+
+(initramfs) is -a /ventoy/
+
+init_chain
+
+ventoy_image_map ventoy_chain.sh
+
+Loop
+
+init_loop
+
+ventoy os param
+
+ventoy loop.sh
+
+init
+
+ventoy arch
+
+hook
+
+busybox
+
+log
+
+tool
+
+(initramfs) is -aF ventow
+
+init chain
+
+ventoy Image map
+
+init_loop*
+
+ventoy_os_param
+
+init
+
+ventoy arch
+
+hook/
+
+busybox/
+
+log
+
+tool/
+
+(initramfs) is -aF ventoy/hook/
+
+smg 1/
+
+pc los
+
+ventoy_chain.she loop/ ventoy_loop.she
+
+blackPanther/
+
+t2/
+
+parabola/
+
+kaos/
+
+rhe15/
+
+crux
+
+debian/
+
+gentoo/
+
+primeos/
+
+nixos/
+
+alt/
+
+che17/
+
+zeroshell/
+
+omagic/
+
+gobo/
+
+vine/
+
+cucumber/
+
+mageia/ alpine/
+
+clear/
+
+rancher/ lunar/
+
+(initramfs)
+
+suse/
+
+photon/
+
+tinycore/ berry ewe/
+
+kiosk/
+
+fatdog/
+
+daphile/
+
+adelie
+
+chimera/
+
+wifislax/
+
+ploplinux/
+
+phoenixos/
+
+Slackware/
+
+arch/
+
+default/
+
+ventoy-hook-lib.she guix/
+
+easystartup/
+
+deepin/
+
+nutyx/ android/
+
+dragora/ cdlinux/
+
+aryalinux/ openEuler/
+
+manjaro/ Smoothwall/
+
+kwort/
+
+austrumi/
+
+ventoy-os-lib.she hyperbola/
+
+xen/
+
+pisilinux/ rhe16/
+
+pute
+
+3.074194] input: SEMICO USB Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003:1A2C:4094.0002/input/input 4 [ 3.125444] hid-generic 0003: 1A2C:4094.0002: input, hidraw1: USB HID v1.10 Keyboard [SEMICO USB Keyboard) on usb-0000:00:14.0- 8/inpute [ 3.128051] input: SEMICO USB Keyboard Consumer Control as /devices/pc10000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003: 1A2C: 4094.e 003/input/inputs 3.180223] input: SEMICO USB Keyboard System Control as /devices/pc10000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:1A2C:4094.000 3/input/input6 [ 3.181155] hid-generic 0003:1A2C:4094.0003: input, hidrau2: USB HID v1.10 Device [SEMICO USB Keyboard] on usb-0000:00:14.0-8/ input 1 Spawning shell within the initramfs
+
+[
+
+BusyBox v1.37.0 (Ubuntu 1:1.37.0-7ubuntu1) built-in shell (ash) Enter 'help' for a list of built-in commands.
+
+(initramfs) ls -a
+
+etc lib
+
+cryptroot lib64
+
+ventoy
+
+bin
+
+run
+
+var
+
+root
+
+tmp
+
+kernel
+
+conf
+
+sbin
+
+init
+
+sys
+
+usr
+
+scripts
+
+dev
+
+proc
+
+(initramfs) ls -a /ventoy/
+
+init_chain
+
+ventoy_image_map
+
+ventoy_chain.sh
+
+loop
+
+init_loop
+
+ventoy_os_param
+
+ventoy loop.sh
+
+init
+
+ventoy_arch
+
+hook
+
+busybox
+
+log
+
+tool
+
+(initramfs) ls -aF /ventoy/
+
+init_chain*
+
+init_loop**
+
+ventoy_image_map* ventoy_chain.sh* loop/
+
+ventoy_os_param ventoy_loop.sh*
+
+init*
+
+ventoy_arch
+
+hook/
+
+busybox/
+
+log
+
+tool/
+
+(initramfs) is -aF ventoy/hook/
+
+smg1/
+
+pclos/
+
+t2/
+
+parabola/
+
+debian/
+
+gentoo/
+
+nixos/
+
+suse/
+
+blackPanther/
+
+kaos/
+
+primeos/ adelie/
+
+rhe15/
+
+alt/
+
+rhel7/
+
+pmagic/
+
+gobo/
+
+zeroshell/
+
+vine/
+
+cucumber/ mageia/ alpine/
+
+clear/
+
+rancher/ lunar/
+
+(initramfs)
+
+photon/
+
+tinycore/
+
+berry/ ewe/
+
+kiosk/ fatdog/
+
+ventoy-hook-lib.shx guix/
+
+daphile/
+
+easystartup/
+
+deepin/ nutyx/ android/
+
+cdlinux/
+
+aryalinux/ openEuler/
+
+chimera/ wifislax/
+
+ploplinux/
+
+phoenixos/ slackware/
+
+arch/
+
+default/
+
+dragora/
+
+crux/ manjaro/ smoothwall/
+
+kwart/ austrumi/
+
+ventoy-os-lib.sh* hyperbola/
+
+xen/
+
+pisilinux/ rhe16/

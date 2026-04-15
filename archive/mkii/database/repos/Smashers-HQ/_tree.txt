@@ -1,0 +1,68 @@
+blob	.gitattributes
+blob	AttackShortened.txt
+blob	Dancesong_chunk_01.txt
+blob	Dancesong_chunk_02.txt
+blob	Dancesong_chunk_03.txt
+blob	Dancesong_chunk_04.txt
+blob	Dancesong_chunk_05.txt
+blob	Dancesong_chunk_06.txt
+blob	Dancesong_chunk_07.txt
+blob	Dancesong_chunk_08.txt
+blob	Dancesong_chunk_09.txt
+blob	Dancesong_chunk_10.txt
+blob	Dancesong_chunk_11.txt
+blob	EVTX Analysis Addendum Mar12.docx
+blob	Evtxinvestigation.md
+blob	Firstcontact.md
+blob	HiveCurrent.reg
+blob	IMG_0053.mov
+blob	IMG_7252.png
+blob	IMG_7256.jpeg
+blob	IMG_7257.jpeg
+blob	IMG_7332.jpeg
+blob	IMG_7333.jpeg
+blob	IMG_7335.jpeg
+blob	IMG_7336.jpeg
+blob	IMG_7338.jpeg
+blob	IMG_7339.jpeg
+blob	IMG_7340.jpeg
+blob	IMG_7343.jpeg
+blob	IMG_7344.jpeg
+blob	IMG_7346.jpeg
+blob	IMG_7347.jpeg
+blob	IMG_7348.jpeg
+blob	IMG_7349.jpeg
+blob	IMG_7352.jpeg
+blob	IMG_7353.jpeg
+blob	IMG_7356.jpeg
+blob	IMG_7359.jpeg
+blob	IMG_7359.png
+blob	IMG_7360.png
+blob	IMG_7362.png
+blob	IMG_7363.jpeg
+blob	IMG_7365.png
+blob	IMG_7366.png
+blob	IMG_7369.png
+blob	IMG_7372.jpeg
+blob	Investigation Summary Mar12.docx
+blob	Investigation summary.md
+blob	Ioshandover.md
+blob	Project12 SaveFile Mar12 2.docx
+blob	Project12 SaveFile Mar12.docx
+blob	Project12_SaveFile_Mar12.docx
+blob	Project12rootkit.md
+blob	README.md
+tree	docs
+blob	docs/Dancesong-chunk-verification.md
+tree	docs/archaeological-dig
+blob	docs/archaeological-dig/dormant-information-report.md
+tree	docs/attack-analysis
+blob	docs/attack-analysis/AttackShortened-Forensic-Report.md
+tree	docs/chat-reports
+blob	docs/chat-reports/2026-02-26-chat-export.md
+tree	docs/guides
+blob	docs/guides/iphone14pro-dfu-ubuntu-guide.md
+blob	export-Smooth511-1772109956.csv
+blob	iOS First Contact Handover Mar12.docx
+blob	iOS First Contact Handover Mar12.pdf
+blob	thu_mar_05_2026_apple_i_phone_logs_analysis_for_rootkit.json

@@ -1,0 +1,14 @@
+
+APPLYING DEFAULT FILTERS:
+/private/var/MobileSoftwareUpdate/lastOTA/ota_tolerated_failures.plist, Added to Candidate logs
+/private/var/MobileSoftwareUpdate/lastOTA/restore_perform.txt, Added to Candidate logs
+/private/var/MobileSoftwareUpdate/lastOTA/mtree_remap.xml, Added to Candidate logs
+
+
+ENFORCING SIZE LIMIT OF 5 MB ON FILTERED CANDIDATES:
+
+/private/var/MobileSoftwareUpdate/lastOTA/restore_perform.txt, Added (28111 bytes)
+/private/var/MobileSoftwareUpdate/lastOTA/mtree_remap.xml, Added (491 bytes)
+/private/var/MobileSoftwareUpdate/lastOTA/ota_tolerated_failures.plist, Added (4149 bytes)
+
+** DONE Enforcing size limit **

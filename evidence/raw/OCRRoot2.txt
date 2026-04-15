@@ -1,0 +1,5403 @@
+kerel online BOST SAGE=/casper/vndinuz boots.casper nomodules breskstop ignore loglevet
+
+ses/Sockdowne
+
+keel caline BST GE=/casper/vndinuz boots.casper nomodules breakstop ignore loglevel inses/sses Socidouinone Randover to init chain
+
+Handswer to init chain
+
+remove whole sbin directory
+
+resove whole sbis directory
+
+Popoverty.anpackitrants: /initrd991 2937/initrd991 p toypack instrands: #/initrd991 e 2937/initrd991 tip
+
+597 Blocks
+
+597 blocks yarak oltrants: /initrd9e1 e 2967/initrd991 tape sssssy.anpack instrands: #/initrd991 2967/initrd991 tips
+
+www.packstrands: #/initrd991 212 2937/initrd991 tmp wwwwwty pack instrants: #/initrd9e1 212 2937/initrd991 tap
+
+wwwwww.packstrands: #/initrd91
+
+2885/initrd991 tmpe
+
+wwwwww.knstrands: #/initrd991 e 2005/initrd991 p
+
+ミミ
+
+SHA1AM-19- (bus14-4-951) (8664-11nux-gnu-gcc (Ubuntu 15.2.9-15ubuntu2) 15.2.4. O is $
+
+kenel cmdline=BOOT_IMAGE=/casper/vmlinuz boot.casper nomodules break-top ignore_loglevel init-/bin/bash lockdown=none kenel cmdline-BOOT_IMAGE=/casper/vmlinuz boot.casper nomodules break-top ignore_loglevel init-/bin/bash lockdown=none handover to init_chain
+
+handover to init_chain
+
+remove whole sbin directory
+
+remove whole sbin directory
+
+=====ventoy_unpack_initramfs: #/initrde01 e 3037 /initrd001_tmp# =====ventoy_unpack_initramfs: #/initrde01 e 3037 /initrde01_tmp#
+
+vtx=3037 cat
+
+vtx=3037 cat 597 blocks
+
+597 blocks
+
+=====ventoy_unpack_initramfs: #/initrde01 0 3037 /initrde01_tmp# =====ventoy_unpack_initramfs: #/initrd001 e 3037 /initrd001_tmp#
+
+vtx=3037 cat
+
+vtx=3037 cat 28908 blocks
+
+28908 blocks
+
+=====ventoy_unpack_initramfs: #/initrde01 212 3037 /initrde01_tmp# =====ventoy_unpack_initramfs: #/initrd001 212 3037 /initrde01_tmp#
+
+vtx=3037 cat
+
+vtx=3037 cat 102882 blocks
+
+102882 blocks
+
+=====ventoy_unpack_initramfs: #/initrde01 e 2885 /initrde01_tmp# =====ventoy_unpack_initramfs: #/initrde01 e 2885 /initrd001_tmp# vtx=2885 zstdcat
+
+vtx=2885 zstdcat 137634 blocks 137634 blocks
+
+Now hand over to ventoy.sh Now hand over to ventoy.sh #### install vtoytool ##### #### install vtoytool ##### try/ventoy/tool/vtoytool/00/ try/ventoy/tool/vtoytool/00/ vtoytool_64 OK
+
+vtoytool_64 OK
+
+use vtoy_fuse_iso_64 use unsquashfs_64
+
+use veritysetup64
+
+kernel version
+
+Linux version 7.0.0-10-generic (builddelcy02-amd64-051) (x86_64-linux-gnu-gcc (Ubuntu 15.2.0-15ubuntu2) 15.2.0, GNU ld (GNU Binu tils for Ubuntu) 2.46) #10-Ubuntu SMP PREEMPT DYNAMIC Thu Mar 19 10:24:42 UTC 2026
+
+OS=###debian###
+
+wwwww distribution = default ######
+
+Here before mountroot ... (initramfs)
+
+vtx=3037 cat vtx=3037 cat
+
+102882 blocks
+
+102882 blocks
+
+=====ventoy_unpack_initramfs: #/initrd001 e 2885 /initrd001_tmp# =====ventoy_unpack_initramfs: #/initrd001
+
+vtx=2885 zstdcat
+
+vtx=2885 zstdcat 137634 blocks
+
+137634 blocks
+
+Now hand over to ventoy.sh Now hand over to ventoy.sh #### install vtoytool ##### #### install vtoytool ##### try/ventoy/tool/vtoytool/00/ try/ventoy/tool/vtoytool/00/ vtoytool_64 OK
+
+vtoytool 64 OK
+
+use vtoy_fuse_iso_64 use unsquashfs_64 use veritysetup64
+
+kernel version
+
+2885 /initrd001_tmp#
+
+Linux version 7.0.0-10-generic (builddelcy02-amd64-051) (x86_64-linux-gnu-gcc (Ubuntu 15.2.0-15ubuntu2) 15.2.0, GNU ld (GNU Binu tils for Ubuntu) 2.46) #10-Ubuntu SMP PREEMPT DYNAMIC Thu Mar 19 10:24:42 UTC 2026 OS=###debian###
+
+##### distribution = default ######
+
+Here before mountroot
+
+(initramfs) sed '1,2p' /ventoy/ventoy.sh
+
+sed: /ventoy/ventoy.sh: No such file or directory
+
+(initramfs) ls -aF /ventoy/
+
+init_chain*
+
+init_loop*
+
+init*
+
+busybox/
+
+ventoy_image_map* ventoy_chain.sh* loop/
+
+ventoy_os_param
+
+ventoy_arch
+
+log
+
+ventoy_loop.sh
+
+hook/
+
+tool/
+
+(initramfs) ls -aF /ventoy/tool/
+
+1z4cat64*
+
+zstdcat64*
+
+dmsetup64*
+
+ventoy_loader.sh*
+
+vtoytool/
+
+vtoydump vtoydm
+
+vblade_32*
+
+loader*
+
+ar*
+
+lunzip64*
+
+hald**
+
+veritysetup32*<
+
+vtoy fuse iso_32*
+
+inotifyd* unsquashfs_64*
+
+vtoy fuse iso_64*
+
+lunzip32*
+
+dmsetup32*
+
+unsquashfs_32*
+
+(initramfs)
+
+vtoytool_install.sh* vtoyksym
+
+vblade_64*
+
+vtoykmod**
+
+veritysetup64*
+
+dmsetupe
+
+lunzipe
+
+1z4cate
+
+vtoyexpand*< vtoy_fuse iso*
+
+vtoy_unsquashfs* veritysetup**
+
+zstdcate
+
+vine_patch_loader*
+
+лос
+
+=====ventoy_unpack_initramfs: #/initrd001 0 2885 /initrd001_tmp# =====ventoy_unpack_initramfs: #/initrd001 e 2885 /initrd001_tmp# vtx=2885 zstdcat
+
+vtx=2885 zstdcat 137634 blocks
+
+137634 blocks
+
+Now hand over to ventoy.sh Now hand over to ventoy.sh #### install vtoytool ##### #### install vtoytool ##### try/ventoy/tool/vtoytool/00/ try/ventoy/tool/vtoytool/00/ vtoytool_64 OK
+
+vtoytool_64 OK
+
+use vtoy_fuse_iso_64 use unsquashfs_64 use veritysetup64
+
+kernel version
+
+Linux version 7.0.0-10-generic (builddelcy02-amd64-051) (x86_64-linux-gnu-gcc (Ubuntu 15.2.0-15ubuntu2) 15.2.0, GNU ld (GNU Bin tils for Ubuntu) 2.46) #10-Ubuntu SMP PREEMPT DYNAMIC Thu Mar 19 10:24:42 UTC 2026 OS=###debian###
+
+##### distribution = default ######
+
+Here before mountroot
+
+(initramfs) sed '1,2p' /ventoy/ventoy.sh
+
+sed: /ventoy/ventoy.sh: No such file or directory
+
+(initramfs) ls -aF /ventoy/
+
+init_chainж*
+
+init_loop**
+
+init*
+
+busybox/
+
+ventoy_image_map* ventoy_chain.sh* loop/
+
+ventoy_os_param
+
+ventoy_arch
+
+log
+
+ventoy_loop.sh*
+
+hook/
+
+tool/
+
+vtoytool/
+
+dmsetupo
+
+(initramfs) ls -aF ventoy/tool/
+
+1z4cat64*
+
+zstdcat64*
+
+ar*
+
+dmsetup64**
+
+veritysetup32*
+
+vtoy_fuse_iso_32*
+
+inotifyd*
+
+unsquashfs_64*
+
+ventoy_loader.sh* vtoydump**
+
+vtoydm³
+
+loader*
+
+hald**<
+
+vtoytool_install.sh* vtoyksym
+
+vblade_32*
+
+lunzip64*<
+
+vblade_64**
+
+veritysetup64*
+
+vtoykmodж<
+
+vtoyexpand*<
+
+vtoy_fuse iso_64*
+
+lunzipe
+
+lunzip32*
+
+1z4cate
+
+vtoy_fuse_iso**
+
+vtoy_unsquashfs* veritysetup*
+
+dmsetup32*
+
+zstdcate
+
+unsquashfs_32*
+
+vine_patch_loader*<
+
+easyos/
+
+endless/
+
+(initramfs) ls -aF /ventoy/loop/
+
+cloudready/ batocera/
+
+openwrt/
+
+recalbox/
+
+fwts/
+
+tails/
+
+fydeos/
+
+esysrescue/
+
+ubos/
+
+lakka/
+
+volumio/
+
+LibreELEC/
+
+freedombox/ paldo/
+
+(initramfs)
+
+-
+
+(initramfs) sed '1,10p' /ventoy/log ============== VENTOY
+
+============== VENTOY 779 blocks
+
+779 blocks 6965 blocks 6965 blocks 129 blocks
+
+129 blocks
+
+Use x86_64 busybox toolkit
+
+Use x86_64 busybox toolkit
+
+kenel version Linux version 7.0.0-10-generic (builddelcy02-amd64-051) (x86_64-linux-gnu-gcc (Ubuntu 15.2.0-15ubuntu2) 15.2.0, GA Uld (GNU Binutils for Ubuntu) 2.46) #10-Ubuntu SMP PREEMPT DYNAMIC Thu Mar 19 10:24:42 UTC 2026
+
+kenel version-Linux version 7.0.0-10-generic (builddelcy02-amd64-051) (x86_64-linux-gnu-gcc (Ubuntu 15.2.0-15ubuntu2) 15.2.0, GA Uld (GNU Binutils for Ubuntu) 2.46) #10-Ubuntu SMP PREEMPT DYNAMIC Thu Mar 19 10:24:42 UTC 2026
+
+cmdline-BOOT_IMAGE=/casper/vmlinuz boot.casper nomodules break-top ignore_loglevel init-/bin/bash lockdown=none cmdline-BOOT_IMAGE=/casper/vmlinuz boot.casper nomodules break-top ignore_loglevel init-/bin/bash lockdown=none
+
+kenel kenel handover to init_chain handover to init_chain
+
+remove whole sbin directory
+
+remove whole sbin directory
+
+=====ventoy_unpack_initramfs: #/initrd001 03037 /initrd001_tmp# =====ventoy_unpack_initramfs: #/initrd001 03037 /initrd001_tmp#
+
+vtx=3037 cat
+
+597 blocks
+
+=====ventoy_unpack_initramfs: #/initrde01 0 3037 /initrde01_tmp#
+
+vtx=3037 cat
+
+28908 blocks
+
+=====ventoy_unpack_initramfs: #/initrde01 212 3037 /initrde01_tmp#
+
+vtx=3037 cat
+
+102882 blocks
+
+=====ventoy_unpack_initramfs: #/initrd00102885 /initrd001_tmp#
+
+vtx=2885 zstdcat
+
+137634 blocks
+
+Now hand over to ventoy.sh
+
+wwww install vtoytool wwwww try/ventoy/tool/vtoytool/00/
+
+vtoytool_64 OK
+
+use vtoy_fuse_iso_64 use unsquashfs_64
+
+use veritysetup64
+
+kernel version
+
+Linux version 7.0.0-16-generic (builddelcy02-amd64-051) (x86_64-linux-gnu-gcc (Ubuntu 15.2.0-15ubuntu2) 15.2.0, GNU 1d (GNU Binu tils for Ubuntu) 2.46) #10-Ubuntu SMP PREEMPT DYNAMIC Thu Mar 19 10:24:42 UTC 2026
+
+OS-WW#debianwww
+
+wwwww distribution = default wwwwww
+
+here before mountroot ... (initramfs)
+
+cryptpw* cttyhack*
+
+iptunnel** kbd_mode**
+
+kill*
+
+killall* killall5**
+
+readprofile**< realpath* reboot**
+
+udhcpd
+
+udpsvdж
+
+uevent*
+
+umount*
+
+uname**
+
+unexpand**
+
+reformime*
+
+remove-shell*< renice* reset*
+
+resize*
+
+resume*
+
+rev*
+
+cut*
+
+date*
+
+dc*
+
+dd**<
+
+klogd**<
+
+deallocvt*
+
+last*
+
+delgroup**
+
+less*
+
+deluser*
+
+link**
+
+depmod**
+
+linux32*
+
+devmem
+
+linux64*
+
+гmk
+
+df*
+
+linuxrc*
+
+rmdir
+
+dhcprelay*
+
+1n**
+
+rmmod
+
+diff**<
+
+loadfont*
+
+route*
+
+dirname*
+
+loadkmap*
+
+граж
+
+dmesg*
+
+logger*
+
+dnsd**
+
+login**
+
+logname*
+
+dnsdomainname*
+
+dos2unix*
+
+logread*<
+
+dpkg*
+
+losetup*
+
+dpkg-deb*
+
+1pdж**
+
+duж
+
+1pq**
+
+dumpkmap*
+
+1pr*
+
+dumpleases*
+
+1s
+
+echoж*
+
+ed*
+
+egrepж*
+
+eject*
+
+env*
+
+envdir*
+
+envuidgid⭑*<
+
+ether-wake*
+
+expand*
+
+expr*
+
+factor*
+
+fakeidentd* fallocate*
+
+false*
+
+fatattr*
+
+fbset* fbsplash* fdf lush*
+
+fdformat*
+
+fdisk
+
+fgconsole*
+
+fgrep*
+
+find*
+
+lsattr*
+
+rpm2cpio*<
+
+rtcwake*
+
+run-init**
+
+run-parts* runlevel*
+
+runsv*
+
+runsvdir*
+
+ГХЖ script>*<
+
+scriptreplay*
+
+sed*
+
+sendmail*
+
+setarch*
+
+Ismod
+
+1sof*
+
+lspci*
+
+seqж*
+
+Isscsi*
+
+lsusb*
+
+lzcat*
+
+Izmaж*
+
+lzop*
+
+makedevs* makemime*
+
+man md5sum
+
+mdev**
+
+mesg*
+
+microcomp mkdir* mkdosfs*
+
+mke2fs*
+
+setconsole* setfattr* setfont* setkeycodes* set logcons** setpriv* setserial* setsid*
+
+setuidgid*<
+
+sh**
+
+shaisum
+
+sha256sump✶ sha3sum*
+
+sha512sum*
+
+showkey*
+
+shred*
+
+mkfifo*
+
+mkfs.ext2*
+
+mkfs.minix**
+
+mkfs.vfat*
+
+(initramfs) ls -aF /ventoy/busybox/_
+
+shuf*
+
+slattach*
+
+uniq**
+
+unix2dos**
+
+unlink*** unlzmaж*
+
+unshare* unxzx unzip** uptime**
+
+users*
+
+usleep*
+
+uudecode** uuencode** vconfig* vi* vlock** volname*
+
+uk wall** watch* watchdog*<
+
+WC
+
+wget* which** who whoami* whois*
+
+xargs* xxd*
+
+XZ* xzcat* yes* zcat* zcip*
+
+xzcat_mus1* xzminidece
+
+are
+
+inotifyde
+
+#
+
+Step 5: Hand over to real init
+
+$BUSYBOX_PATH/umount /proc
+
+if "srmproc" = "y" ]; then
+
+fi
+
+$BUSYBOX_PATH/rm -rf /proc
+
+if -f SVTOY_PATH/ventoy_persistent_map ]; then
+
+fi
+
+cd /
+
+export PERSISTENT='YES
+
+export PERSISTENCE='true'
+
+unset VTLOG FIND GREP EGREP CAT AHK SED SLEEP HEAD vtcmdline
+
+for vtinit in suser_rdinit /init /sbin/init /linuxrc; do
+
+if [-d/ventoy_rdroot ]; then
+
+else
+
+if
+
+fi
+
+if
+
+-e "/ventoy_rdrootsvtinit" ]; then
+
+#switch root will check /init file, this is a cheat code echo 'switch root'>/init
+
+exec $BUSYBOX_PATH/Switch root /ventoy_rdroot "svtinit"
+
+-e "svtinit" ]; then
+
+if [ -f "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh" ]; then fi
+
+SBUSYBOX_PATH/sh "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh"
+
+if [ -z "svtEnvExport" ]; then
+
+else
+
+exec "svtinit"
+
+f1
+
+exec env svtEnvExport "svtinit"
+
+done
+
+#Should never reach here
+
+echo -e "\n\n\033[31m ####### # INIT NOT FOUND #########
+
+exec $BUSYBOX_PATH/sh
+
+(initramfs)
+
+#### \033[0m\n"
+
+fi
+
+#
+
+# Step 5: Hand over to real init
+
+#
+
+$BUSYBOX_PATH/umount /proc
+
+if ["srmproc" = "y" ]; then
+
+fi
+
+$BUSYBOX_PATH/rm -rf /proc
+
+if [ -f SVTOY_PATH/ventoy persistent_map ]; then
+
+f1
+
+cd /
+
+export PERSISTENT='YES'
+
+export PERSISTENCE='true'
+
+unset VTLOG FIND GREP EGREP CAT AHK SED SLEEP HEAD vtcmdline
+
+for vtinit in suser rdinit /init /sbin/init /linuxrc; do
+
+if [-d/ventoy_rdroot ]; then
+
+else
+
+if -e "/ventoy_rdrootsvtinit" ]; then
+
+#switch root will check /init file, this is a cheat code echo 'switch root' > /init
+
+exec $BUSYBOX_PATH/switch root /ventoy_rdroot "svtinit"
+
+if -e "svtinit" ]; then
+
+if [ -f "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh" ]; then
+
+fi
+
+SBUSYBOX_PATH/sh "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh"
+
+if [ -z "svtEnvExport" ]; then
+
+else
+
+exec "svtinit"
+
+exec env svt EnvExport "svtinit"
+
+f1
+
+done
+
+# Should never reach here
+
+echo -e "\n\n\033[31m www######### INIT NOT FOUND ##
+
+exec $BUSYBOX_PATH/sh (initramfs)
+
+\033[0m\n"
+
+fi
+
+$BUSYBOX_PATH/sh "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh"
+
+if [ -z "svtEnvExport" ]; then
+
+exec "svtinit"
+
+else
+
+exec env svtEnvExport "svtinit"
+
+fi
+
+fi
+
+done
+
+fi
+
+# Should never reach here
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND ##
+
+exec $BUSYBOX_PATH/sh
+
+(initramfs) sed '1,1p' /log.txt | head -50
+
+sh: head: not found
+
+(initramfs) sed '1,1p' /log.txt|tail -n -10
+
+else
+
+exec env svtEnvExport "svtinit"
+
+fi
+
+fi
+
+fi
+
+### \033[0m\n"
+
+done
+
+# Should never reach here
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND ### exec $BUSYBOX_PATH/sh (initramfs) grep "1.
+
+/log.txt
+
+# Step 1: Parse kernel parameter
+
+#Maybe rhe19 rhelix use the same way? Who knows! elif SEGREP -q 'el9lel1 [0-9] /proc/version; then if $BUSYBOX_PATH/dmesg | $GREP -q-m1 "Xen:"; then if $GREP -q -m1 't2sde' /etc/initrd-release; then
+
+#### \033[0m\n"
+
+if $BUSYBOX_PATH/1s -1 /hooks/ | SGREP -q'.*isos'; then if $BUSYBOX_PATH/1S -1 /hook/ | SGREP -q .*isos'; then
+
+#Kylin V10 Server
+
+if $BUSYBOX_PATH/strings /usr/sbin/dhclient | SGREP -1 -q -m1 openeuler; then if $GREP -1 -q -m1 'Kylin. *Server.* V1 [1-9]
+
+if $GREP -q '4.19.' /proc/version; then
+
+/etc/kylin-release; then
+
+vtItemkey=$(echo $vtPara | SAHK -F= '{print $1}')
+
+if $GREP -q-m1 "svtItemkey\s" SVTOY_PATH/hook/default/export.list; then if [ -f "/live_injection_7ed136ec_7a61_4b54_adc3_ae494d5106ea/hook.sh" ]; then SBUSYBOX_PATH/sh "/live_injection_7ed136ec_7a61_4b54_adc3_ae494d5106ea/hook.sh" $VTOS "SVTOY BREAK_LEVEL" = "03" ] || [ "SVTOY BREAK_LEVEL" = "13" ]; then
+
+if
+
+if "SVTOY BREAK_LEVEL" = "13" ]; then
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND ######N (initramfs)
+
+#### \033[0m\n"
+
+date deallocvt deluser devmem df dirname du dumpkmap echo egrep env expr false fbset fgrep find fold fstrim getfattr grep gunzip gzip hostname hwclock 12ctransfer ifconfig ip kill in loadfont loadkmap 1s lzop mkdir mkfifo mknod mkswap mktemp modinfo more mount mv nuke openvt pidof printf ps pwd readlink reboot reset rm rmdir run-init sed seq setkeycodes sh sleep sort stat static-sh stty switch_root sync tail tee test touch tr true ts tty umount uname uniq wc wget which yes
+
+(initramfs) egrep --help
+
+BusyBox v1.37.0 (Ubuntu 1:1.37.0-7ubuntu1) multi-call binary.
+
+No help available
+
+(initramfs) export --help
+
+sh: export: illegal option
+
+(initramfs) cat << 'EOF' > read_file.sh
+
+> count=0
+
+> while IFS= read -r line; do
+
+printf '%s\n" "sline" count=$((count + 1))
+
+if [ $count -ge 20 ]; then read -p "-- Press Enter
+
+fi
+
+count=0
+
+done < "$1"
+
+(initramfs) ls
+
+> EOF
+
+ventoy
+
+kernel
+
+usr
+
+bin
+
+conf
+
+pause
+
+cryptroot
+
+sbin
+
+root
+
+read_file.sh
+
+etc
+
+scripts
+
+sys
+
+lib
+
+var
+
+proc
+
+lib64
+
+init
+
+tmp
+
+run
+
+dev
+
+log.txt
+
+(initramfs) chmod +x read_file.sh (initramfs).read_file.sh/log.txt sh: .read_file.sh: not found (initramfs) read_file.sh/log.txt sh: read_file.sh: not found (initramfs) pwd
+
+(initramfs) cd /
+
+(initramfs) is
+
+ventoy
+
+cryptroot
+
+sbin
+
+root
+
+read_file.sh
+
+kernel
+
+etc
+
+scripts
+
+sys
+
+usr
+
+lib
+
+var
+
+proc
+
+bin
+
+conf
+
+lib64
+
+init
+
+tmp
+
+run
+
+dev
+
+log.txt
+
+(initramfs).read_file.sh
+
+sh: .read_file.sh: not found
+
+(initramfs)
+
+done
+
+if -d/ventoy_rdroot ]; then
+
+if -e "/ventoy_rdroot $vtinit" ]; then if e "/ventoy_rdroot $vtinit" ]; then
+
+fi
+
+# switch root will check /init file, this is a cheat code # switch root will check /init file, this is a cheat code echo switch root' > /init
+
+echo 'switch_root'>/init
+
+exec $BUSYBOX_PATH/Switch_root/ventoy_rdroot "svtinit" exec $BUSYBOX_PATH/switch_root/ventoy_rdroot "svtinit"
+
+else else
+
+if
+
+if
+
+-e "svtinit" ]; then
+
+-e "$vtinit" ]; then
+
+if [ -f "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh" ]; then -f "$VTOY_PATH/hook/$VTOS/ventoy-before-init.sh" ]; then
+
+if
+
+[
+
+$BUSYBOX_PATH/sh "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh" $BUSYBOX_PATH/sh "SVTOY_PATH/hook/$VTOS/ventoy-before-init.sh"
+
+fi
+
+fi
+
+if [ -z "svtEnvExport" ]; then if [ -z "svt EnvExport" ]; then
+
+else
+
+else
+
+exec "svtinit"
+
+exec "svtinit"
+
+exec env svtEnvExport "svtinit"
+
+exec env svt EnvExport "svtinit"
+
+fi
+
+fi
+
+done
+
+Should never reach here
+
+#Should never reach here
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND ############### \033[0m\n" echo -e "\n\n\033[31m ############ INIT NOT FOUND ############### \033[0m\n" exec $BUSYBOX_PATH/sh
+
+exec $BUSYBOX_PATH/sh (initramfs)
+
+cd /
+
+unset VTLOG FIND GREP EGREP CAT AHK SED SLEEP HEAD vtcmdline unset VTLOG FIND GREP EGREP CAT AHK SED SLEEP HEAD vtcmdline
+
+for vtinit in suser_rdinit /init /sbin/init /linuxrc; do for vtinit in suser_rdinit init /sbin/init /linuxrc; do
+
+if if
+
+else else
+
+-d/ventoy_rdroot ]; then -d/ventoy_rdroot ]; then
+
+if -e "/ventoy_rdroot svt init" ]; then if -e "/ventoy_rdroot svtinit" ]; then #switch root will check /init file, #switch root will check /init file, echo 'switch_root' > /init echo 'switch_root' > /init
+
+this is a cheat code this is a cheat code
+
+exec $BUSYBOX_PATH/switch_root/ventoy_rdroot "svtinit" exec $BUSYBOX_PATH/switch_root/ventoy_rdroot "svtinit"
+
+ife "svtinit" ]; then
+
+if -e "svtinit" ]; then
+
+if [ -f "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh" ]; then [ -f "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh" ]; then
+
+if
+
+f1
+
+f1
+
+$BUSYBOX_PATH/sh "$VTOY_PATH/hook/$VTOS/ventoy-before-init.sh" $BUSYBOX_PATH/sh "$VTOY_PATH/hook/SVTOS/ventoy-before-init.sh"
+
+exec "svtinit"
+
+exec "svtinit"
+
+done
+
+done
+
+# Should never reach here
+
+# Should never reach here
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND ###### echo -e "\n\n\033[31m ############ INIT NOT FOUND ###### exec $BUSYBOX_PATH/sh
+
+exec $BUSYBOX_PATH/sh
+
+(initramfs)
+
+#### \033[0m\n" #### \033[0m\n"
+
+100
+
+for vtinit in $user_rdinit init /sbin/init /linuxrc: do
+
+if
+
+if
+
+else else
+
+-d/ventoy_rdroot ]; then -d/ventoy_rdroot 1: then
+
+if -e "ventoy_rdroot svtinit" ]; then
+
+if
+
+fi
+
+-e "/ventoy_rdrootsvtinit" ]; then
+
+#switch root will check /init file, this is a cheat code # switch root will check /init file, this is
+
+echo 'switch_root'>/init
+
+echo 'switch_root'>/init
+
+cheat code
+
+exec $BUSYBOX_PATH/switch_root/ventoy_rdroot "svtinit" exec $BUSYBOX_PATH/switch_root/ventoy_rdroot "svtinit"
+
+fi
+
+if
+
+-e "svtinit" ]; then
+
+if
+
+-e "svtinit" ]; then
+
+if [ -f "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh" ]; then if [ -f "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh" ]; then
+
+fi fi
+
+$BUSYBOX_PATH/sh "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh" $BUSYBOX_PATH/sh "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh"
+
+exec "svtinit"
+
+exec "svtinit"
+
+done done
+
+# Should never reach here
+
+# Should never reach here echo -e "\n\n\033[31m ########
+
+INIT NOT FOUND
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND
+
+exec $BUSYBOX_PATH/sh
+
+exec $BUSYBOX_PATH/sh
+
+\033[0m\n"
+
+## 033 tem \n"
+
+(initramfs) grep "Step 1" /ventoy/ventoy_loop.sh | tee /scanning.txt # Step 1: Parse kernel parameter
+
+(initramfs) grep "Step 2"/ventoy/ventoy_loop.sh | tee /scanning.txt # Step 2: Process ko
+
+(initramfs) grep "Step 3" ventoy/ventoy_loop.sh | tee /scanning.txt # Step 3: Do OS specific hook
+
+(initramfs) grep "Step 4"/ventoy/ventoy_loop.sh | tee /scanning.txt # Step 4: Check for debug break
+
+(initramfs) grep "Step 5" ventoy/ventoy_loop.sh | tee /scanning.txt
+
+W step 2 Process ko
+
+If BOREP mi 'tesde' /etc/initrd-release; then echo '12' return
+
+echo en 933 (32M WHI
+
+NNNNNNNNNNNNN
+
+echo "eas (32m NNNNNNNNNNANAMAN VENTOY DEBUG
+
+echo "09992 NNNNNNNN
+
+wwwwwwwwwwwwwwwwwwwwwww
+
+(initramfs) grep "ventoy/ventoy 188p.sh /scanning 4x4
+
+"AVTOY BREAK LEVEL
+
+then. WWWWWWWW 999. (om
+
+# published by the Free Software Foundations either version 9 of the # Step 91 De OS specifle hook, if "SVTOY BREAK LEVEL = "89" echo en 999 (92M WWW echo 99 (92M ANNI echo e "e99 9am #WW 17 SVTOY BREAK LEVEL
+
+echo en
+
+WWW VENTOY DEBUG NANA
+
+191 then
+
+WH INIT NOT FOUND NNNNNNNNNNNNNNN 099 (om " (initramfs) grep 1. ventoy/ventoy loop.sh tee /scanning.txt Step Parse kernel parameter
+
+SBUSYBOX_PATH/SCENE.ko, (gize' | while read vtlines de
+
+14
+
+17(vlin@10111"
+
+1 then
+
+SBUSYBOX PATH/w/stvtline) ventoy/modules/${vtline111
+
+SSED ventoyosa-zA-Z0-9--1/17/BF06/6mine; return # Maybe Phe19 Pheli use the same way? Who knows! 117 SEGREP 0901109/proc/version then 17 BUSYBOX PATH/dines SQREP 1"xent" then 14 SOREF 4-11 12sde 0167inked-releases, then
+
+TOY BREAK LEVEL" 09" 11.1vVTOY BREAK LEVEL" = "19" 11 then 14 (10Y BREAK LEVEL" "19" 11 then echo em 33 (91m www AN INIT NOT FOUND NNNNNNNNNNNNNNN 099 (0m\n" (initramfs) grep ventoy/ventoy 1000 shee/96anning 4x4 Copyright 16) 2020, longpanda <adinineventoy.net # Step 2 Process ko
+
+echo sche
+
+14 SOREP echo
+
+W published
+
+'425de' /etc/initrd-release; then
+
+return
+
+33 (92m #NH
+
+(2m NNNNN
+
+NNNN VENTOY DEBUG WWWWW
+
+wwwwwwwwwwwwww
+
+ventoy/ventay 100p.sh 400/96anning 4x Software Foundations either version
+
+"AVTOY BREAK LEVEL"
+
+wwwwwwwwwwwwwww
+
+099 Toman"
+
+wwwwwwwwww 1HT NOT FOUND wwwwwwwwwwwwwww 699 (em\n"
+
+Vento/Ventoy 1888.sh | tee /scanning.txt
+
+Step 2 Process ko
+
+if $GREP 9m1 'tasde' /etc/initrd-release; then
+
+echo '12' return
+
+echo -e "\n\n\033[32m #www
+
+wwwwwwwww
+
+echo -e "\033[32m #####*********** VENTOY DEBUG #####A
+
+echo -e "\033[32m ######
+
+(initramfs) grep "3."/ventoy/ventoy_loop.sh | tee /scanning.txt
+
+#published by the Free Software Foundation; either version 3 of the # Step 3: Do OS specific hook
+
+wwwwww\033[om" 1093 (om \033[0m\n"
+
+if ("SVTOY BREAK LEVEL" = "03" ] || [ "SVTOY_BREAK_LEVEL" = "19" ]; then echo -e "\n\n\033[32m #########
+
+echo -e "\033[32m ################ VENTOY DEBUG echo -e "\033[32m ######
+
+if ("SVTOY BREAK_LEVEL" = "13" ]; then
+
+wwwwwwwwww\033[om" wwwww\033[om" #### \033[om \n"
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND #W************* \033[0m\n" (initramfs) grep "1." ventoy/ventoy_loop.sh | tee /scanning.txt # Step 1: Parse kernel parameter
+
+$BUSYBOX_PATH/is-ia
+
+| SEGREP \.kos|\.ko. [gx) zs' | while read vtline: do
+
+if "stvtline:0:1}" = "" ]; then
+
+SBUSYBOX_PATH/mv/s(vtline) ventoy/modules/s(vtline:1).
+
+SSED "s/ventoyos=\([a-zA-Z0-9_-]*\). */\1/" /proc/cmdline: return #Maybe rhel9 rhelix use the same way? Who knows!
+
+elif SEGREP -a 'el9leli[0-9]' /proc/version: then
+
+if $BUSYBOX_PATH/dmesg | SGREP -q-m1 "Xen:"; then
+
+if $GREP -q -m1 '+2sde' /etc/initrd-release: then.
+
+if ("SVTOY BREAK_LEVEL" = "03" ] || [ "SVTOY BREAK_LEVEL" = "13" ]; then
+
+if ("SVTOY BREAK LEVEL" = "13" ]; then
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND WW************* \033[0m\n" (initramfs) grep "2." ventoy/ventoy_loop.sh | tee /scanning.txt
+
+# Copyright (c) 2020, longpanda <admin@ventoy.net>
+
+# Step 2: Process ko
+
+if SGREP -q-m1 't2sde' /etc/initrd-release; then echo 't2' return
+
+echo -e "\n\n\033[32m wwwwwwwwwwwwwwwwwwwwwwwwww
+
+echo "\033[32m #####wwwwwwwwwww VENTOY DEBUG WWWWWW
+
+echo -e "\033[32m NNNNNwwwwwwwwwwwwww
+
+(initramfs) grep "3."/ventoy/ventoy_loop.sh | tee /scanning.txt
+
+wwwwwwww\033[om" www\033[om" 1033 (om \n"
+
+W published by the Free Software Foundation: either version 3 of the W Step 3: Do OS specific hook
+
+if "SVTOY BREAK LEVEL" = "03" ] || [ "SVTOY BREAK_LEVEL" = "13") then echo "\n\n\033[32m Wwwwwwwwwwwwwwwwwwwwwwwwww
+
+echo "033 [32m #####wwwwwwwwwww VENTOY DEBUG WWW echo "033 (32m NNNNNNN wwwwwwwwwwwwwwwwwww if ("SVTOY BREAK_LEVEL" = "13" ]; then
+
+wwwwwwwww\039 tom" wwwwwww\033[om" wwwwwww\033[0m\n"
+
+echo "\n\n\033[31m wwwwwwwwwwww INIT NOT FOUND wwwww********** \033 (om \n" (initramfs) grep /ventoy/ventoy_loop.sh | tee /scanning.txt
+
+4.
+
+#Step 4: Check for debug break
+
+(initramfs) grep "5."/ventoy/ventoy_loop.sh | tee /scanning.txt
+
+echo -e "\033[32m ##################################### (initramfs) grep "3." /ventoy/ventoy_loop.sh | tee /scanning.txt #published by the Free Software Foundation; either version 3 of the # Step 3: Do OS specific hook
+
+#
+
+### \033 tom \n"
+
+if ("SVTOY BREAK_LEVEL" = "03" ] || ["SVTOY BREAK_LEVEL " = "13" ]; then echo -e "\n\n\033[32m ############################*#** echo -e "\033[32m ################ VENTOY DEBUG ##### echo -e "\033[32m ######################
+
+if ["SVTOY BREAK_LEVEL" = "13" ]; then
+
+********** \033[om" *####### \033[om" ##### \033[0m\n"
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND ############### \033[0m\n" (initramfs) grep "1." /ventoy/ventoy_loop.sh | tee /scanning.txt
+
+# Step 1: Parse kernel parameter
+
+SBUSYBOX_PATH/ls -1a | SEGREP .kos|\.ko. [gx] zs' | while read vtline; do if ["s{vtline:0:1}" = "." ]; then
+
+SBUSYBOX_PATH/mv /${vtline}/ventoy/modules/${vtline:1}
+
+SSED "s/.*ventoyos=\([a-zA-Z0-9_-]*\).*/\1/" /proc/cmdline; return #Maybe rhe19 rhelix use the same way? Who knows! elif SEGREP -q 'e19 el1 [0-9]' /proc/version; then
+
+if SBUSYBOX_PATH/dmesg | SGREP -q -m1 "Xen:"; then
+
+if SGREP -q -m1 't2sde' /etc/initrd-release; then
+
+if ("SVTOY BREAK_LEVEL" = "03"] || [ "SVTOY BREAK_LEVEL" = "13" ]; then if ["SVTOY BREAK_LEVEL" = "13" ]; then
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND ############### \033[0m\n" (initramfs) grep "2."/ventoy/ventoy_loop.sh | tee /scanning.txt
+
+# Copyright (c) 2020, longpanda <admin@ventoy.net>
+
+# Step 2: Process ko
+
+if SGREP -q -m1 't2sde' /etc/initrd-release; then echo 't2'; return
+
+echo -e "\n\n\033[32m #######
+
+echo -e "\033[32m ################ VENTOY DEBUG #Wwwwww echo -e "\033[32m ####################################
+
+(initramfs) grep "3." /ventoy/ventoy_loop.sh | tee /scanning.txt
+
+wwwwwwww\033[em"
+
+#### \033[em" #### \033[0m\n"
+
+# published by the Free Software Foundation; either version 3 of the # Step 3: Do OS specific hook
+
+"
+
+if "SVTOY BREAK LEVEL" = "03" ] || ["SVTOY BREAK_LEVEL" = "13" ]; then
+
+echo -e "\n\n\033[32m ###########################*
+
+echo -e "\033[32m ################ VENTOY DEBUG ##### echo -e "\033 [32m ############################
+
+if ["SVTOY BREAK_LEVEL" = "13" ]; then
+
+*********** \033[em" ######## \033[em" ####### \033[0m\n"
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND ############### \033[0m\n" (initramfs) grep "4." /ventoy/ventoy_loop.sh | tee /scanning.txt
+
+# Step 4: Check for debug break
+
+(initramfs) grep "5."
+
+"
+
+/ventoy/ventoy_loop.sh | tee /scanning.txt #rhel5/Centoss and all other distributions based on them if SGREP -q 'e15' /proc/version; then
+
+echo 'rhel5'; return
+
+# Step 5: Hand over to real init
+
+(initramfs)
+
+DC
+
+echo -e "\033[32m ################ VENTOY DEBUG ###### echo -e "\033[32m ###### ############################# if ("SVTOY BREAK_LEVEL" = "13" ]; then
+
+####### \033[0m" ######## \033[0m\n"
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND ############### \033[0m\n" (initramfs) grep "1." /ventoy/ventoy_loop.sh | tee /scanning.txt # Step 1: Parse kernel parameter
+
+#
+
+SBUSYBOX_PATH/1s-1a | SEGREP '\.kos|\.ko. [gx] zs' | while read vtline; do
+
+if "s{vtline:0:1}" = ""]; then
+
+SBUSYBOX_PATH/mv /${vtline} /ventoy/modules/${vtline:1}
+
+SSED "s/.*ventoyos=\([a-zA-Z0-9_-]*\).*/\1/" /proc/cmdline; return
+
+# Maybe rhe19 rhelix use the same way? Who knows!
+
+elif SEGREP -q 'e19|el1 [0-9]' /proc/version; then
+
+if SBUSYBOX_PATH/dmesg | SGREP -q -m1 "Xen:"; then if SGREP -q -m1 't2sde' /etc/initrd-release; then
+
+if ("SVTOY BREAK LEVEL' = "03" ["SVTOY BREAK LEVEL" = "13" ]; then if ("SVTOY BREAK LEVEL" = "13" ]; then
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND ############### \033[0m\n" (initramfs) grep "2." /ventoy/ventoy_loop.sh | tee /scanning.txt # Copyright (c) 2020, longpanda <admin@ventoy.net>
+
+# Step 2: Process ko
+
+if SGREP -q-m1 't2sde' /etc/initrd-release; then echo 't2'; return
+
+echo -e "\n\n\033[32m #####
+
+echo -e "\033[32m ####wwwwwwwwwww# VENTOY DEBUG ####### echo -e "\033[32m ####wwwwwwwwwww********************** (initramfs) grep "3."/ventoy/ventoy_loop.sh | tee /scanning.txt
+
+W published by the Free Software Foundation; either version 3 of the W Step 3: Do OS specific hook
+
+#
+
+##### \033[em" ## \033[0m"
+
+## \033[0m\n"
+
+if ("SVTOY BREAK_LEVEL" = "03" ] || [ "SVTOY BREAK_LEVEL" = "13" ]; then echo -e "\n\n\033[32m ######################********** echo -e "\033[32m ################ VENTOY DEBUG ### echo -e "\033[32m ###############*********
+
+if ("SVTOY_BREAK_LEVEL = "13" ]; then
+
+*#*#*#*#*#*#* \033[0m" ######## \033[0m" ###### \033[0m\n"
+
+echo -e "\n\n\033[31m ############ INIT NOT FOUND ############### \033[0m\n" (initramfs) grep "4."/ventoy/ventoy_loop.sh | tee /scanning.txt
+
+# Step 4: Check for debug break
+
+(initramfs) grep "5."/ventoy/ventoy_loop.sh | tee /scanning.txt #rhel5/Centoss and all other distributions based on them if SGREP -q 'els' /proc/version; then
+
+echo 'rhel5'; return
+
+Step 5: Hand over to real init
+
+(initramfs) grep "5"/ventoy/ventoy_loop.sh | tee /scanning.txt Wrhel5/CentOSS and all other distributions based on them if SGREP -a 'e15' /proc/version; then
+
+echo 'rhel5'; return
+
+$SLEEP 5
+
+Step 5: Hand over to real init (initramfs)
+
+лос
+
+(initramfs) grep "5."/ventoy/ventoy_loop.sh | tee /scanning.txt #rhe15/Centoss and all other distributions based on them if SGREP -q 'e15' /proc/version; then
+
+echo 'rhel5'; return
+
+# Step 5: Hand over to real init
+
+(initramfs) grep "5"/ventoy/ventoy_loop.sh | tee /scanning.txt #rhe15/CentOSS and all other distributions based on them if SGREP -a 'els' /proc/version; then
+
+echo 'rhel5'; return
+
+$SLEEP 5
+
+# Step 5: Hand over to real init
+
+(initramfs) grep "inject" /ventoy/ventoy_loop.sh | tee /scanning.txt (initramfs) grep "DEBUG" /ventoy/ventoy_loop.sh | tee /scanning.txt
+
+echo -e033 [32m ###wwwwwwwwwww## VENTOY DEBUG #NNNNNNNNNNNNNNNNNN \033[em" (initramfs) grep "DEBUG" /ventoy/ventoy_loop.sh | tail -n-30
+
+echo -e 033 [32m ################ VENTOY DEBUG ################### \033[0m" (initramfs) cat /ventoy/ventoy_loop.sh | tail-n -30
+
+if - SVTOY_PATH/ventoy_persistent_map ]; then
+
+fi
+
+cd /
+
+export PERSISTENT='YES
+
+export PERSISTENCE='true'
+
+unset VTLOG FIND GREP EGREP CAT AHK SED SLEEP HEAD vtcmdline
+
+for vtinit in suser_rdinit /init /sbin/init /linuxrc; do if (d/ventoy_rdroot ]; then
+
+else
+
+if
+
+f1
+
+if
+
+-e "/ventoy_rdrootsvtinit" ]; then
+
+#switch root will check /init file, this is a cheat code echo 'switch_root'>/init
+
+exec $BUSYBOX_PATH/switch root /ventoy_rdroot "svtinit"
+
+-e "svtinit" 11then
+
+if
+
+-f "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh" ]; then
+
+SBUSYBOX_PATH/sh "SVTOY_PATH/hook/SVTOS/ventoy-before-init.sh" exec "svtinit"
+
+f1
+
+done
+
+# Should never reach here echo -e "\n\n\033[31m NNNNN exec $BUSYBOX_PATH/sh (initramfs)
+
+INIT NOT FOUND WWW
+
+###### \033[0m\n"
+
+гос
+
+wget
+
+mkfifo
+
+WC
+
+mkdir
+
+uniq
+
+lzop
+
+uname
+
+ls
+
+yes
+
+which
+
+mkswap
+
+mknod
+
+chroot chmod cat
+
+busybox blockdev basename
+
+umount
+
+loadkmap
+
+base32
+
+tty
+
+loadfont
+
+awk
+
+ts
+
+In
+
+ash
+
+true
+
+kill
+
+ascii
+
+tr
+
+ip
+
+touch
+
+ifconfig
+
+arch acpid
+
+test
+
+12ctransfer
+
+tee
+
+hwclock
+
+tail
+
+hostname
+
+sync
+
+gzip
+
+switch root
+
+gunzip
+
+(initramfs) ls -a /
+
+ventoy
+
+cryptroot
+
+sbin
+
+root
+
+kernel
+
+etc
+
+scripts
+
+usr
+
+lib
+
+var
+
+sys proc
+
+bin
+
+lib64
+
+init
+
+tmp
+
+conf
+
+run
+
+dev
+
+preinit.txt
+
+(initramfs) ls -a /conf
+
+arch.conf
+
+initramfs.conf uuid.conf
+
+conf.d
+
+modules
+
+(initramfs) ls -a /conf/conf.d/
+
+casperize.conf
+
+default-boot-to-casper.conf
+
+default-layer.conf
+
+(initramfs) ls -a /conf/conf.d/casperize.conf /conf/conf.d/casperize.conf
+
+(initramfs) sed 'e,ep' /conf/conf.d/casperize.conf export CASPER GENERATE_UUID=1
+
+export CASPER GENERATE_UUID=1
+
+(initramfs) sed '0,2p' /conf/conf.d/casperize.conf
+
+export CASPER_GENERATE_UUID=1
+
+(initramfs) sed '0,10p' /conf/conf.d/casperize.conf export CASPER GENERATE_UUID=1
+
+(initramfs) cat /conf/conf.d/casperize.conf
+
+export CASPER GENERATE_UUID=1
+
+(initramfs) cat /conf/conf.d/default-boot-to-casper.conf if [ -z "$800T" ]; then
+
+fi
+
+export BOOT=casper
+
+(initramfs) cat /conf/conf.d/default-layer.conf (initramfs)
+
+LAYERFS_PATH=minimal.standard.live.squashfs
+
+scanning.txt
+
+1100
+
+(initramfs) is -a /conf
+
+arch.conf
+
+conf.d
+
+initramfs.conf uuid.conf
+
+modules
+
+(initramfs) ls -a /conf/conf.d/
+
+casperize.conf
+
+default-boot-to-casper.conf
+
+default-layer.conf
+
+(initramfs) is -a /conf/conf.d/casperize.conf /conf/conf.d/casperize.conf
+
+(initramfs) sed 'e,ep /conf/conf.d/casperize.conf export CASPER GENERATE UUID=1
+
+export CASPER_GENERATE_UUID=1
+
+(initramfs) sed '0,2p' /conf/conf.d/casperize.conf
+
+export CASPER_GENERATE_UUID=1
+
+(initramfs) sed '0,10p' /conf/conf.d/casperize.conf
+
+export CASPER_GENERATE_UUID=1
+
+(initramfs) cat /conf/conf.d/casperize.conf
+
+export CASPER_GENERATE_UUID=1
+
+(initramfs) cat /conf/conf.d/default-boot-to-casper.conf if [ -z "$800T" ]; then
+
+fi
+
+export BOOT=casper
+
+(initramfs) cat /conf/conf.d/default-layer.conf LAYERFS PATH=minimal.standard.live.squashfs (initramfs) cat /conf/conf.d/ cat: read error: Is a directory (initramfs) ls -a /conf/conf.d/ casperize.conf
+
+default-boot-to-casper.conf default-layer.conf
+
+(initramfs) ls -a /conf/
+
+arch.conf
+
+conf.d
+
+initramfs.conf uuid.conf
+
+modules
+
+(initramfs) is -a /conf/uuid.conf
+
+/conf/uuid.conf
+
+(initramfs) cat /conf/uuid.conf
+
+bedie5ac-c89d-4c5b-bb9c-f9cad3e04b06
+
+(initramfs) cat /conf/modules
+
+linear
+
+multipath
+
+raide
+
+raidi
+
+raid456
+
+raids
+
+raid6
+
+raidie
+
+efivarfs (initramfs)
+
+NFSROOT: [ auto | HOST:MOUNT ] NFSROOT: [ auto | HOST:MOUNT ]
+
+NFSROOT=auto NFSROOT=auto
+
+"
+
+RUNSIZE:
+
+RUNSIZE:
+
+#The size of the /run tmpfs mount point, like 256M or 10% #The size of the /run tmpfs mount point, like 256H or 10% #Overridden by optional initramfs.runsize= bootarg #Overridden by optional initramfs.runsize= bootarg
+
+RUNSIZE=10% RUNSIZE=10%
+
+FSTYPE:
+
+FSTYPE:
+
+The filesystem type(s) to support, or "auto" to use the current root The filesystem type(s) to support, or "auto" to use the current root filesystem type
+
+filesystem type
+
+FSTYPE=auto
+
+FSTYPE=auto
+
+(initramfs)
+
+AOC
+
+COMPRESS=zstd
+
+#
+
+# COMPRESSLEVEL: ...
+
+#
+
+# Set a compression level for the compressor.
+
+# Defaults vary by compressor.
+
+#
+
+# Valid values are:
+
+# 1 - 9 for gzip bzip2|1zma|izop
+
+#09 for 1z4|xz
+
+#019 for zstd
+
+#
+
+COMPRESSLEVEL=1
+
+# DEVICE: ...
+
+#
+
+Specify a specific network interface, like ethe # Overridden by optional ip- or BOOTIF= bootarg
+
+DEVICE=
+
+NFSROOT: [auto | HOST: MOUNT]
+
+NFSROOT=auto
+
+RUNSIZE: ...
+
+The size of the /run tmpfs mount point, like 256M or 10% Overridden by optional initramfs.runsize= bootarg
+
+RUNSIZE=10%
+
+FSTYPE: ...
+
+The filesystem type(s) to support, or "auto" to use the current root
+
+filesystem type
+
+FSTYPE=auto
+
+(initramfs)
+
+Valid values are:
+
+1
+
+#
+
+#
+
+9 for gzip|bzip2|1zma | Izop 1z4|xz
+
+9 for
+
+19 for zstd
+
+COMPRESSLEVEL=1
+
+# DEVICE: ...
+
+Specify a specific network interface, like ethe #Overridden by optional ip= or BOOTIF= bootarg
+
+DEVICE=
+
+#
+
+NFSROOT: [ auto | HOST:MOUNT]
+
+NFSROOT=auto
+
+#
+
+# RUNSIZE: ...
+
+#
+
+# The size of the /run tmpfs mount point, like 256M or 10%
+
+# Overridden by optional initramfs.runsize= bootarg
+
+#
+
+RUNSIZE=10%
+
+# FSTYPE: ...
+
+The filesystem type(s) to support, or "auto" to use the current root filesystem type
+
+FSTYPE=auto
+
+(initramfs) ls -a /conf/
+
+arch.conf
+
+conf.d
+
+initramfs.conf uuid.conf
+
+modules
+
+(initramfs) ls -a /conf/arch.conf"
+
+/conf/arch.conf
+
+(initramfs) cat /conf/arch.conf DPKG_ARCH=amd64
+
+(initramfs)
+
+NFSROOT=auto
+
+#
+
+# RUNSIZE: ...
+
+# The size of the /run tmpfs mount point, like 256M or 10% Overridden by optional initramfs.runsize= bootarg
+
+RUNSIZE=10%
+
+# FSTYPE:
+
+The filesystem type(s) to support, or "auto" to use the current root filesystem type
+
+FSTYPE=auto
+
+(initramfs) is -a /conf/
+
+arch.conf
+
+conf.d
+
+initramfs.conf uuid.conf
+
+modules
+
+(initramfs) is -a /conf/arch.conf
+
+/conf/arch.conf
+
+(initramfs) cat /conf/arch.conf DPKG_ARCH=amd64
+
+(initramfs) cat /
+
+cat: read error: Is a directory
+
+(initramfs) ls -a /
+
+ventoy
+
+kernel
+
+usr
+
+bin
+
+conf
+
+cryptroot
+
+etc
+
+lib
+
+11b64
+
+run
+
+sbin
+
+root
+
+scripts
+
+sys
+
+var
+
+proc
+
+init
+
+dev
+
+tmp
+
+preinit.txt
+
+(initramfs) ls -a /cryptroot/
+
+crypttab
+
+..
+
+(initramfs) is -a /cryptroot/crypttab /cryptroot/crypttab
+
+(initramfs) cat /cryptroot/crypttab (initramfs) ls -a /etc
+
+casper.conf
+
+console-setup
+
+fstab
+
+mdadm
+
+ld.so.cache
+
+ld.so.conf
+
+motd
+
+dhcpcd.conf
+
+ld.so.conf.d
+
+1vm
+
+default
+
+fonts
+
+(initramfs)
+
+modprobe.d
+
+nsswitch.conf
+
+os-release
+
+passwd plymouth
+
+ssl udev
+
+mt ab
+
+scanning.txt
+
+ROC
+
+FSTYPE=auto
+
+(initramfs) is -a /conf/
+
+arch.conf
+
+conf.d
+
+initramfs.conf uuid.conf
+
+modules
+
+(initramfs) is -a /conf/arch.conf
+
+/conf/arch.conf
+
+(initramfs) cat /conf/arch.conf DPKG ARCH=amd64
+
+(initramfs) cat /
+
+cat: read error: Is a directory
+
+(initramfs) ls -a /
+
+ventoy
+
+kernel
+
+usr
+
+bin
+
+conf
+
+cryptroot
+
+etc
+
+lib
+
+lib64
+
+run
+
+sbin
+
+root
+
+scripts
+
+var
+
+sys proc
+
+init
+
+dev
+
+tmp
+
+preinit.txt
+
+(initramfs) ls -a /cryptroot/
+
+crypttab
+
+(initramfs) is -a /cryptroot/crypttab
+
+/cryptroot/crypttab
+
+(initramfs) cat /cryptroot/crypttab
+
+(initramfs) ls -a /etc
+
+casper.conf
+
+fstab
+
+mdadm
+
+passwd
+
+console-setup
+
+ld.so.cache
+
+modprobe.d
+
+plymouth
+
+default
+
+ld.so.conf
+
+motd
+
+ssl
+
+dhcpcd.conf ld.so.conf.d
+
+nsswitch.conf
+
+udev
+
+fonts
+
+1vm
+
+os-release
+
+mt ab
+
+scanning.txt
+
+(initramfs) cat /etc/passwd
+
+dhcpcd:x:996:996: DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+
+root:x:0:0:root:/root:/bin/sh
+
+(initramfs) cat /etc/console-setup
+
+cat: read error: Is a directory
+
+(initramfs) cat /etc/casper.conf
+
+# This file should go in /etc/casper.conf
+
+# Supported variables are:
+
+# USERNAME, USERFULLNAME, HOST, BUILD_SYSTEM, FLAVOUR
+
+export USERNAME="ubuntu"
+
+export USERFULLNAME="Live session user"
+
+export HOST="ubuntu"
+
+export BUILD_SYSTEM="Ubuntu"
+
+USERNAME and HOSTNAME as specified above won't be honoured and will be set to Wflavour string acquired at boot time, unless you set FLAVOUR to any #non-empty string.
+
+#export FLAVOUR="Ubuntu"
+
+(initramfs)
+
+# This file should go in /etc/casper.conf
+
+# Supported variables are:
+
+# USERNAME, USERFULLNAME, HOST, BUILD_SYSTEM, FLAVOUR
+
+export USERNAME="ubuntu"
+
+export USERFULLNAME="Live session user"
+
+export HOST="ubuntu"
+
+export BUILD SYSTEM="Ubuntu"
+
+# USERNAME and HOSTNAME as specified above won't be honoured and will be set to #flavour string acquired at boot time, unless you set FLAVOUR to any #non-empty string.
+
+# export FLAVOUR="Ubuntu"
+
+(initramfs) cat /etc/
+
+cat: read error: Is a directory
+
+(initramfs) ls -a /etc/
+
+casper.conf
+
+console-setup
+
+default
+
+dhcpcd.conf
+
+fonts
+
+fstab
+
+ld.so.cache
+
+ld.so.conf
+
+ld.so.conf.d
+
+1vm
+
+mdadm modprobe.d motd
+
+passwd
+
+plymouth
+
+ssl
+
+nsswitch.conf
+
+udev
+
+os-release
+
+mtab
+
+(initramfs) ls -a /etc/mdadm
+
+mdadm.conf
+
+(initramfs) cat /etc/mdadm/mdadm.conf
+
+#mdadm.conf
+
+#
+
+#INB! Run update-initramfs -u after updating this file.
+
+#INBI This will ensure that initramfs has an uptodate copy.
+
+Please refer to mdadm.conf (5) for information about this file.
+
+# by default (built-in), scan all partitions (/proc/partitions) and all #containers for MD superblocks. alternatively, specify devices to scan, using #wildcards if desired.
+
+#DEVICE partitions containers
+
+#automatically tag new arrays as belonging to the local system
+
+HOMEHOST <system>
+
+#instruct the monitoring daemon where to send mail alerts
+
+MAILADDR root
+
+#definitions of existing MD arrays
+
+This configuration was auto-generated on Wed, 25 Mar 2026 03:04:20 +0000 by mkconf (initramfs)
+
+(initramfs) ls -a root
+
+(initramfs) is -a /root
+
+(initramfs) is -a /tmp
+
+(initramfs) is -a /dev
+
+rfkill
+
+tty22
+
+tty62
+
+ttyprintk
+
+vga_arbiter
+
+tty23
+
+tty63
+
+hpet
+
+mem
+
+tty24
+
+hurng
+
+null
+
+tty25
+
+snapshot
+
+tpme tpmrme
+
+port
+
+tty26
+
+userfaultfd
+
+loop-control
+
+zero
+
+tty27
+
+ecryptfs
+
+loope
+
+full
+
+tty28
+
+fuse
+
+loop1
+
+random
+
+tty29
+
+ptm
+
+loop2
+
+urandom
+
+tty30
+
+ttyse
+
+loop3
+
+kmsg
+
+tty31
+
+ttysi
+
+loop4
+
+tty
+
+tty32
+
+ttys2
+
+loops
+
+console
+
+tty33
+
+ttyss
+
+loop6
+
+ttye
+
+tty34
+
+ttys4
+
+VCS
+
+tty35
+
+ttyss
+
+VCSU
+
+tty36
+
+ttys6
+
+loop? dma_heap udmabuf
+
+vcsa
+
+tty37
+
+ttys?
+
+net
+
+vcs1
+
+tty38
+
+ttys8
+
+ppp
+
+vcsul
+
+tty39
+
+ttys9
+
+bus
+
+vcsal
+
+tty40
+
+ttys10
+
+input
+
+ttyl
+
+tty41
+
+ttyS11
+
+tty2
+
+tty42
+
+ttyS12
+
+tty3
+
+tty43
+
+ttyS13
+
+tty4
+
+tty44
+
+ttyS14
+
+ttys
+
+tty45
+
+ttys15
+
+psaux
+
+uinput rtce mapper dri
+
+tty6
+
+tty46
+
+ttyS16
+
+fbe
+
+tty7
+
+tty47
+
+ttyS17
+
+tty8
+
+tty48
+
+tty9
+
+tty49
+
+tyS1
+
+ttylo
+
+ttyse
+
+tty11
+
+tty51
+
+tty12
+
+tty52
+
+ttys22
+
+tty13
+
+tty53
+
+ttys23
+
+tty14
+
+tty54
+
+ttys24
+
+tty15
+
+tty55
+
+ttys25
+
+tty16
+
+tty56
+
+tys26
+
+tty17
+
+tty57
+
+ttys2
+
+mcelog
+
+cpu_dma latency cpu_wakeup latency
+
+fd
+
+stdin stdout stderr
+
+pts
+
+hidrawe hidrawi hidraw?
+
+tty18
+
+tty58
+
+ttys28
+
+tty19
+
+tty59
+
+tty20
+
+ttys29
+
+tty60
+
+ttys30
+
+tty21
+
+tty61
+
+(initramfs)
+
+ttys31
+
+# No init on rootmount
+
+if
+
+fi
+
+validate_init "s{init}"; then
+
+panic "No init found. Try passing init bootarg."
+
+maybe break init
+
+# don't leak too much of env some init (8) don't clear it # (keep init, rootmnt, drop_caps)
+
+unset debug
+
+unset MODPROBE_OPTIONS
+
+unset DPKG_ARCH
+
+unset ROOTFLAGS
+
+unset ROOTFSTYPE unset ROOTDELAY unset ROOT
+
+unset IP
+
+unset IP6
+
+unset VLAN
+
+unset BOOT
+
+unset BOOTIF
+
+unset DEVICE
+
+unset UBIMTD unset blacklist unset break
+
+unset noresume
+
+unset panic
+
+unset quiet
+
+unset readonly unset resume
+
+unset resume_offset
+
+unset noresume unset fastboot unset forcefsck unset fsckfix
+
+unset starttime
+
+# Move virtual filesystems over to the real filesystem
+
+mount -n-o move /sys ${rootmnt}/sys
+
+mount -n-o move /proc ${rootmnt}/proc
+
+# Chain to real filesystem
+
+#shellcheck disable=SC2086, SC2094
+
+exec run-init ${drop_caps} "s{rootmnt}" "s(init}" "se" <"${rootmnt}/dev/console" >"s(rootmnt}/dev/console" 2>81 echo "Something went badly wrong in the initramfs."
+
+panic "Please file a bug on initramfs-tools."
+
+(initramfs)
+
+400
+
+unset USINTO unset blacklist unset blacklist
+
+unset break
+
+unset break
+
+unset noresume
+
+unset noresume
+
+unset panic
+
+unset panic
+
+unset quiet
+
+unset quiet
+
+unset readonly unset readonly
+
+unset resume
+
+unset resume
+
+unset resume_offset unset resume_offset
+
+unset noresume
+
+unset noresume
+
+unset fastboot unset fastboot unset forcefsck unset forcefsck unset fsckfix
+
+unset fsckfix unset starttime
+
+unset starttime
+
+# Move virtual filesystems over to the real filesystem # Move virtual filesystems over to the real filesystem mount -n-o move /sys ${rootmnt}/sys mount -n-o move /sys ${rootmnt}/sys mount -n-o move /proc ${rootmnt}/proc mount -n -o move /proc ${rootmnt}/proc
+
+# Chain to real filesystem #Chain to real filesystem
+
+# shellcheck disable=SC2086, SC2094 #shellcheck disable=SC2086, SC2094
+
+exec run-init s{drop_caps} "${rootmnt}" "${init}" exec run-init $(drop_caps} "${rootmnt)" "s(init}" echo "Something went badly wrong in the initramfs. echo "Something went badly wrong in the initramfs. panic "Please file a bug on initramfs-tools." panic "Please file a bug on initramfs-tools." (initramfs)
+
+"
+
+<"${rootmnt/dev/console" >"s(rootmnt/dev/console" 2>&1 "<"${rootmnt/dev/console" >"s(rootmnt)/dev/console" 2>&1
+
+thread-self
+
+Vension_signature
+
+latency state dynamic_debug
+
+139
+
+80
+
+20
+
+uptime
+
+138
+
+79
+
+19
+
+mounts
+
+137
+
+78
+
+18
+
+mdstat
+
+136
+
+77
+
+17
+
+driver
+
+135
+
+76
+
+16
+
+134
+
+crypto
+
+75
+
+15
+
+133
+
+swaps
+
+74
+
+14
+
+locks
+
+132
+
+73
+
+13
+
+kcore
+
+131
+
+72
+
+12
+
+iomem
+
+130
+
+71
+
+11
+
+stat
+
+129
+
+70
+
+10
+
+scsi
+
+128
+
+69
+
+mtrr
+
+127
+
+68
+
+misc
+
+126
+
+67
+
+kmsg
+
+125
+
+66
+
+124
+
+keys
+
+65
+
+acpi
+
+123
+
+64
+
+tty
+
+122
+
+63
+
+sys
+
+121
+
+62
+
+net
+
+120
+
+61
+
+1
+
+irq
+
+119
+
+thread-self
+
+dma
+
+118
+
+self
+
+bus
+
+117
+
+version_signature fs
+
+116
+
+57
+
+sysrq-trigger
+
+fb
+
+115
+
+55
+
+latency_stats
+
+114
+
+54
+
+dynamic_debug
+
+(initramfs)
+
+ls -a /
+
+cryptroot
+
+sbin scripts
+
+scanning.txt
+
+ventoy kernel
+
+etc
+
+root sys
+
+FEEL
+
+usr
+
+bin conf
+
+lib
+
+11b64
+
+run
+
+(initramfs)
+
+ls -a /var
+
+cache lib
+
+lock
+
+var
+
+init dev
+
+(initramfs) is -a /var/cache/ fontconfig
+
+(initramfs) is -a /var/lib
+
+dhcpcd
+
+-á
+
+(initramfs) ls -a /var/lock
+
+(initramfs) ls -a /sbin
+
+mkfs.ext4
+
+proc tmp
+
+preinit.txt
+
+blkid
+
+dumpe2fs
+
+britty-setup
+
+losetup
+
+mount.cifs
+
+cache_check
+
+1vm
+
+mount.fuse3
+
+vgchange
+
+cryptsetup
+
+mdadm
+
+pdata_tools
+
+swapon
+
+thin_check
+
+wait-for-root
+
+mount.ntfs-3g
+
+rmmod
+
+dhcpcd
+
+mdmon
+
+dmsetup
+
+mke2fs
+
+plymouthd sfdisk
+
+modprobe
+
+mount.ntfs
+
+(initramfs)
+
+[
+
+0.351594] pci_bus 0000:00: resource 7 0.351597] pci_bus 0000:00: resource 8 0.351606] pci_bus 0000:01: resource 1 0.351609) pcl_bus 0000:01: resource 2 0.351615] pci_bus 0000:02: resource 1 0.351617] pci_bus 0000:02: resource 2 0.351627] pci_bus 0000:04: resource 1 [mem 0x92000000-0x920fffff]
+
+[mem 0x00000000-0x000effff window] [mem 0x90800000-0xdfffffff window] [mem 0x90800000-0x909fffff] [mem 0x90a00000-0x90bfffff 64bit pref] [mem 0x90c00000-0x90dfffff]
+
+[mem 0x90e00000-0x90ffffff 64bit pref]
+
+0.351998] pci 0000:00:1f.1: BAR [mem 0xfd000000-0xfdffffff 64bit]
+
+0.352143] software 10 TLB: mapped [mem 0x000000007e514000-0x0000000082514000] (64MB)
+
+0.418276] xhci_hcd 0000:00:14.0: hcc params ex200077c1 hci version 0x100 quirks ex0000000000109810 0.427792] microcode: Current revision: 0x00000100
+
+3.069531] input: USB Optical Mouse as /devices/pc10000:00/0000:00:14.0/usb1/1-7/1-7:1.0/0003:30FA:0400.0001/input/input3 3.070345] input: SEMICO USB Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/0003: 1A2C:4094.0002/input/input4 3.122191] input: SEMICO USB Keyboard Consumer Control as /devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003: 1A2C:4094. 003/input/inputs 3.174348] input: SEMICO USB Keyboard System Control as /devices/pc10000:00/0000:00:14.0/usb1/1-8/1-8:1.1/0003:1A2C:4094.00€ 3/input/input6 (initramfs) grep "0.0100" /dmesg.txt
+
+[
+
+System RAM System RAM
+
+0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007a768fff] 0.000000] BIOS-e820: [mem 0x0000000100000000-0x00000001feffffff] 0.009466) ACPI: FACP 0x00000000893A7000 000114 (v06 ALASKA AMI 01072009 AMI 00010013) 0.009488] ACPI: FIDT 0x0000000089360000 00009C (v01 ALASKA AMI 01072009 AMI 00010013) 0.009498] ACPI: SSDT 0x0000000089364000 001478 (v02 ALASKA Ther Rvp 00001000 INTL 20160527) 0.009514] ACPI: SSDT 0x0000 59000 002720 (v02 ALASKA PtidDevc 00001000 INTL 20160527) 0.009523] ACPI: BGRT 0x00000000 9356000 000038 (v01 ALASKA A MI 01072009 AMI 00010013) 0.009533) ACPI: APIC 0x0000000089268000 00012C (v04 ALASKA A MI 01072009 AMI 00010013) 0.010479] DMA [mem 0x0000000000001000-0x0000000000ffffff] 0.010481] DMA32 [mem 0x0000000001000000-0x00000000ffffffff] [mem 0x0000000100000000-0x000000
+
+0.010483]
+
+0.010488]
+
+Normal
+
+0.010491]
+
+node 0: [mem 0x0000000000001000-0x00000 node 0: [mem 0x0000000000100000-0x000000
+
+0.010495] node 0: [mem 0x0000000100000000-0x00000001feffff
+
+0.010497] Initmem setup node [mem 0x0000000000001000-0x00000001feffffff]
+
+0.281005] pci 0000:00:1f.0: [8086:a3c8] type 00 class 0x060100 conventional PCI endpoint 0.427792] microcode: Current revision: 0x00000100
+
+(initramfs) grep "0.00000001" /dmesg.txt
+
+0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007a768fff] 0.000000] BIOS-e820: [mem 0x0000000100000000-0x00000001feffffff]
+
+System RAM
+
+System RAM
+
+0.009866] Faking a node at [mem 0x0000000000000000-0x00000001feffffff] 0.010479) DMA
+
+0.010481]
+
+0.010483]
+
+DMA32 Normal
+
+[mem 0x0000000000001000-0x00000 [mem 0x0000000001000000-0x00000 [mem 0x0000000100000000-0x00000
+
+0.010488] node 0: [mem 0x0000000000001000-0x0000000
+
+0.010491] node 0: [mem 0x0000000000100000-0x000000007a768
+
+0.010495] node 0: [mem 0x0000000100000000-0x00000001feffffff
+
+0.010497] Initmem setup node [mem 0x0000000000001000-0x00000001feffffff]
+
+0.418276] xhci_hcd 0000:00:14.0: hcc params ex200077c1 hci version 0x100 quirks 0x0000000000109810
+
+(initramfs)
+
+100
+
+[
+
+fff]
+
+fff]
+
+ffff]
+
+System RAM
+
+device reserved
+
+System RAM
+
+device reserved
+
+System RAM
+
+ACPI NVS
+
+System RAM
+
+0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009dfff] 0.000000] BIOS-e820: [mem 0x000000000009e000-0x00000000000 0.000000] BIOS-e820: [mem 0x000000000009f000-0x000000 0.000000] BIOS-e820: [mem 0x00000000000a0000-0x0000000 0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007a768fff] 0.000000] BIOS-e820: [mem 0x000000007a769000-0x000000007a769fff] 0.000000] BIOS-e820: [mem 0x000000007a76a000-0x000000007a790fff] 0.000000] BIOS-e820: [mem 0x000000007a791000-0x000000007a791fff] 0.000000] BIOS-e820: [mem 0x000000007a792000-0x0000000087386fff] 0.000000] BIOS-e820: [mem 0x0000000087387000-0x0000000089218fff] 0.000000] BIOS-e820: [mem 0x0000000089219000-0x00000000893aefff] 0.000000] BIOS-e820: [mem 0x00000000893af000-0x00000000894d8fff] ACPI NVS 0.000000] BIOS-e820: [mem 0x00000000894d9000-0x0000000089ffdfff] 0.000000] BIOS-e820: [mem 0x0000000089ffe000-0x0000000089ffefff] 0.000000] BIOS-e820: [mem 0x0000000089fff000-0x000000008f7fffff]
+
+[ 0.000000] BIOS-e820: [gap 0x000000008f800000-0x00000000dff
+
+[
+
+0.000000] BIOS-e820: [mem 0x0000000000000000-0x00000000eff
+
+[ 0.000000] BIOS-e820: [gap 0x00000000f0000000-0x00000000fdf
+
+[
+
+0.000000] BIOS-e820: [mem 0x00000000fe000000-0x00000000fe010f
+
+[ 0.000000] BIOS-e820: [gap 0x00000000fe011000-0x00000000febfffff
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+device reserved
+
+System RAM device reserved ACPI data
+
+device reserved System RAM device reserved
+
+device reserved
+
+device reserved
+
+device reserved
+
+device reserved System RAM
+
+0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff. device reserved 0.000000] BIOS-e820: [gap 0x00000000fec01000-0x00000000fedfffff 0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] 0.000000] BIOS-e820: [gap 0x00000000fee01000-0x00000000fefffff 0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff 0.000000] BIOS-e820: [mem 0x0000000100000000-0x00000001feffff 0.000000] printk: debug: ignoring loglevel setting. 0.000000] NX (Execute Disable) protection: active 0.000000] APIC: Static calls initialized 0.000000] efi: EFI v2.7 by American Megatrends 0.000000] efi: ACPI=0x893ae000 ACPI 2.0=0x893ae014
+
+TPMFinalLog=0x89427000 SMBIOS=0x89bb7000 SMBIOS 3.0=0x89bb6000 MEMATTR= x832a5018 ESRT=0x85717c18 MOKvar=0x89be3000 INITRD=0x79526e18 RNG=0x8935ec18 TPMEventLog=0x8925e018 0.000000] random: crng init done
+
+[
+
+[
+
+[
+
+[
+
+0.000000] efi: Remove mem81: MMIO range= [0x00000000-0xefffffff] (256MB) from e820 map 0.000000] e820: remove [mem 0xe0000000-0xefffffff] device reserved 0.000000] efi: Not removing mem82: MMIO range= [exfe000000-0xfe010fff] (68KB) from e820 map 0.000000] efi: Not removing mem83: MMIO range= [exfec00000-0xfec00fff] (4KB) from e820 map 0.000000] efi: Not removing mem84: MMIO range= [exfee00000-0xfee00fff] (4KB) from e820 map 0.000000] efi: Remove mem85: MMIO range= [0xff000000-0xffffffff] (16MB) from e820 map 0.000000] e820: remove [mem 0xff000000-0xffffffff] device reserved
+
+0.000000] SMBIOS 3.2.0 present.
+
+0.000000] DMI: ASUS System Product Name/PRIME B460M-A, BIOS 1806 12/18/2025 0.000000] DMI: Memory slots populated: 1/4
+
+0.000000] secureboot: Secure boot enabled
+
+0.000000] Kernel is locked down from EFI Secure Boot mode; see man kernel_lockdown.7 0.000000] tsc: Detected 2900.000 MHz processor
+
+0.000000] tsc: Detected 2899.886 MHZ TSC
+
+(initramfs)
+
+System RAM device reserved device reserved
+
+device reserved
+
+device reserved
+
+device reserved
+
+0.000000] BIOS-e820: [mem 0x00000000894d9000-0x0000000089ffdfff] device reserved 0.000000] BIOS-e820: [mem 0x0000000089ffe000-0x0000000089ffefff] 0.000000] BIOS-e820: [mem 0x0000000089fff000-0x000000008f7f1 0.000000] BIOS-e820: [gap 0x000000008f800000-0x00000000dff: 0.000000] BIOS-e820: [mem 0x00000000e0000000-0x00000000ef 0.000000] BIOS-e820: [gap 0x00000000f0000000-0x00000000fdf1 0.000000] BIOS-e820: [mem 0x00000000fe000000-0x00000000fe010 0.000000] BIOS-e820: [gap 0x00000000fe011000-0x00000000febff 0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00 0.000000] BIOS-e820: [gap 0x00000000fec01000-0x00000000fedff 0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00f 0.000000] BIOS-e820: [gap 0x00000000fee01000-0x00000000fefff 0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000 0.000000] BIOS-e820: [mem 0x0000000100000000-0x00000001fef 0.000000] printk: debug: ignoring loglevel setting. 0.000000] NX (Execute Disable) protection: active 0.000000] APIC: Static calls initialized 0.000000] efi: EFI v2.7 by American Megatrends 0.000000] efi: ACPI=0x893ae000 ACPI 2.0=0x893ae014
+
+device reserved System RAM
+
+TPMFinalLog=0x89427000 SMBIOS=0x89bb7000 SMBIOS 3.0=0x89bb6000 MEMATTR=
+
+x832a5018 ESRT=0x85717c18 MOKvar=0x89be3000 INITRD=0x79526e18 RNG=0x8935ec18 TPMEventLog=0x8925e018 0.000000] random: crng init done
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+0.000000] efi: Remove mem81: MMIO range= [0xe0000000-0xefffffff] (256MB) from e820 map 0.000000] e820: remove [mem 0x00000000-0xefffffff] device reserved
+
+[
+
+[
+
+0.000000] efi: Not removing mem82: MMIO range= [exfe000000-0xfe010fff] (68KB) from e820 map 0.000000] efi: Not removing mem83: MMIO range= [exfec00000-0xfec00fff] (4KB) from e820 map 0.000000] efi: Not removing mem84: MMIO range= [exfee00000-0xfee00fff] (4KB) from e820 map 0.000000] efi: Remove mem85: MMIO range= [0xff000000-0xffffffff] (16MB) from e820 map 0.000000] e820: remove [mem 0xff000000-0xffffffff] device reserved
+
+[
+
+[
+
+[
+
+[
+
+0.000000] secureboot: Secure boot enabled
+
+[
+
+[
+
+[
+
+0.000000] SMBIOS 3.2.0 present.
+
+0.000000] DMI: ASUS System Product Name/PRIME B460M-A, BIOS 1806 12/18/2025 0.000000] DMI: Memory slots populated: 1/4
+
+0.000000] Kernel is locked down from EFI Secure Boot mode; see man kernel_lockdown.7 0.000000] tsc: Detected 2900.000 MHz processor 0.000000] tsc: Detected 2899.886 MHz TSC
+
+(initramfs) journalctl
+
+sh: journalctl: not found
+
+(initramfs) journal
+
+sh: journal: not found
+
+(initramfs) grep vml/dmesg.txt
+
+[ 0.000000] Command line: BOOT_IMAGE=/casper/vmlinuz boot.casper nomodules break-top ignore_loglevel init/bin/bash noprompt [ 0.023886] Kernel command line: BOOT_IMAGE=/casper/vmlinuz boot.casper nomodules break-top ignore_loglevel init/bin/bash n (initramfs) grep "command line" /dmesg.txt
+
+oprompt
+
+oprompt
+
+[ 0.023886) Kernel command line: BOOT_IMAGE=/casper/vmlinuz boot.casper nomodules break-top ignore_loglevel init/bin/bash n [ 0.023995] Unknown kernel command line parameters "noprompt boot.casper break-top", will be passed to user space.
+
+(initramfs)
+
+Лос
+
+[
+
+00
+
+[
+
+[
+
+[
+
+00
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+[
+
+0.276275] pcl_bus 0000:00: root bus resource [io exedee-0xffff window] 0.276278] pcl_bus 0000:00: root bus resource [mem 0x00000000-0x00ebffff window] 0.276282] pcl_bus 0000:00: root bus resource [mem 0x00000000-0x000effff window] 0.276285] pcl_bus 0000:00: root bus resource [mem 0x90800000-0xdfffffff window] 0.276289] pc1_bus 0000:00: root bus resource [mem 0xfc800000-0xfdffffff window] 0.276292] pc1_bus 0000:00: root bus resource [bus 00-fe] 0.278556] pci 0000:00:1b.0: PCI bridge to [bus 01] 0.279166] pci 0000:00:1c.0: PCI bridge to [bus 02] 0.279754] pci 0000:00:1c.3: PCI bridge to [bus 03] 0.280388] pci 0000:00:1d.0: PCI bridge to [bus 04] 0.283717] pci 0000:00:1b.0: PCI bridge to [bus 01] 0.283798] pci 0000:00:1c.e: PCI bridge to [bus 02] 0.284248] pci 0000:00:1c.3: PCI bridge to [bus 03] 0.284643] pci 0000:00:1d.0: PCI bridge to [bus 04] 0.292390] ACPI: bus type USB registered
+
+0.351463] pci 0000:00:1b.0: bridge window [io ex1000-0x0fff] to [bus 01] add_size 1000 0.351469] pci 0000:00:1b.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 01] add_size 200000 add_align 100
+
+0.351475] pci 0000:00:1b.0: bridge window [mem 0x00100000-0x000fffff] to [bus 01] add_size 200000 add_align 100000 0.351479] pci 0000:00:1c.e: bridge window [io ex1000-0x0fff] to [bus 02] add_size 1000 0.351483] pci 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 02] add_size 200000 add_align 100€
+
+[mem 0x00100000-0x000fffff] to [bus 02] add_size 200000 add_align 100000 [bus 01]
+
+[bus 02] [bus 03] [bus 04]
+
+0.351487] pci 0000:00:1c.0: bridge window 0.351521] pci 0000:00:1b.0: PCI bridge to 0.351540] pci 0000:00:1c.0: PCI bridge to 0.351558] pci 0000:00:1c.3: PCI bridge to 0.351574] pci 0000:00:1d.e: PCI bridge to 0.351585] pci_bus 0000:00: resource 4 [10 0.351588] pci_bus 0000:00: resource 5 0.351591] pci_bus 0000:00: resource 6 [mem 0x00000000-0x000bffff window] 0.351594] pci_bus 0000:00: resource 7 [mem 0x00000000-0x000effff window] 0.351597] pci_bus 0000:00: resource 8 [mem 0x90800000-0xdfffffff window] 0.351600] pci_bus 0000:00: resource 9 [mem 0xfc800000-0xfdffffff window] 0.351603] pci_bus 0000:01: resource [io 0x5000-0x5fff]
+
+[io
+
+0x0000-0x0cf7 window] exedee-exffff window]
+
+[mem 0x90a00000-0x90bfffff 64bit pref] 0x6000-0x6fff]
+
+[mem 0x90c00000-0x90dfffff]
+
+0.351606] pci_bus 0000:01: resource 1 [mem 0x90800000-0x909fffff] 0.351609] pc1_bus 0000:01: resource 2 0.351612] pci_bus 0000:02: resource [io 0.351615] pci_bus 0000:02: resource 1 0.351617] pc1_bus 0000:02: resource 2 0.351621] pci_bus 0000:03: resource [10 0.351624] pci_bus 0000:03: resource 1 0.351627] pci_bus 0000:04: resource 1 [mem 0x92000000-0x920fffff] 0.415682] ACPI: bus type drm_connector registered
+
+[mem 0x90e00000-0x90ffffff 64bit pref] 0x3000-0x3fff] [mem 0x92100000-0x921fffff]
+
+0.417191] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1 0.418683] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+
+(initramfs) grep "panic" /dmesg.txt
+
+0.424545) simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+
+(initramfs)
+
+[
+
+[bus 01) [bus 02) [bus 09) [bus 04]
+
+ex0000-0x0cf? window)
+
+0.351521] pci 0000:00:1b.0: PCI bridge to 0.351540] pci 0000:00:10.0: PCI bridge to 0.351558] pci 0000:00:1c.3: PCI bridge to 0.351574] pci 0000:00:1d.e: PCI bridge to 0.351585) pci_bus 0000:00: resource 4 tio 0.351588] pci_bus 0000:00: resource 5 (io exedee-0xffff window) 0.351591) pci_bus 0000:00: resource 6 [mem 0x000a0 00-0x000bffff window) 0.351594] pci_bus 0000:00: resource 7 [mem 0x00000000-0x0000ffff window) 0.351597] pci_bus 0000:00: resource 8 [mem 0x9 exdfffffff window) 0.351600] pci_bus 0000:00: resource 9 [mem 0xfc 0000-0xfdffffff window) 0.351603] pci_bus 0000:01: resource [lo 0x500 -ex5fff] 0.351606] pc1_bus 0000:01: resource 1 [mem 0x90800000-0x909fffff) 0.351609) pci_bus 0000:01: resource 2 [mem 0x90a00000-0x90bfffff 64bit pref] 0.351612] pci_bus 0000:02: resource [io 0x6000-0x6fff] 0.351615] pci_bus 0000:02: resource 1 [mem 0x90c00000-0x90dfffff] 0.351617] pci_bus 0000:02: resource 2 [mem 0x90000000-0x90ffffff 64bit pref] 0.351621] pci_bus 0000:03: resource [10 0x3000-0x3fff) 0.351624] pci_bus 0000:03: resource 1 [mem 0x92100000-0x921fffff) 0.351627] pci_bus 0000:04: resource 1 [mem 0x92000000-0x920fffff] 0.415682] ACPI: bus type drm_connector registered
+
+0.417191] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 0.418683] xhci_hcd_0000:00:14.0: new USB bus registered, assigned bus number 2
+
+(initramfs) grep "panic" /dmesg.txt
+
+[ 0.424545) simple-framebuffer simple-framebuffer.0: [drm) Registered 1 planes with drm panic (initramfs) grep "root" /dmesg.txt
+
+0.127205] VFS: Finished mounting rootfs on nullfs
+
+0.276271] pci_bus 0000:00: root bus resource [10 0x0000-0xecf? window)
+
+0.276275] pci_bus 0000:00: root bus resource [io exedee-0xffff window
+
+0.276278] pci_bus 0000:00: root bus resource [mem 0x00000 00-0x00ebffff window) 0.276282] pci_bus 0000:00: root bus resource [mem 0x00000000-0x0000ff
+
+window
+
+0.276285] pci_bus 0000:00: root bus resource [mem 0x90800000-0xdf11111 window)
+
+[
+
+0.276289] pci_bus 0000:00: root bus resource [mem 0xfc800000-0xfdf 0.276292] pci_bus 0000:00: root bus resource [bus 00-fe] 0.3522201 Trying to unpack rootfs image as initramfs...
+
+window
+
+[
+
+[
+
+(initramfs) grep "*fs" /dmesg.txt
+
+(initramfs) grep "rootfs" /dmesg.txt
+
+[
+
+0.127205] VFS: Finished mounting rootfs on nullfs 0.352220] Trying to unpack rootfs image as initramfs.. (initramfs) grep "VFS" /dmesg.txt
+
+[
+
+[
+
+0.127205] VFS: Finished mounting rootfs on nullfs 0.326755] VFS: Disk quotas dquot 6.6.0
+
+0.326773] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+
+(initramfs) grep "nullfs" /dmesg.txt
+
+0.127205] VFS: Finished mounting rootfs on nullfs
+
+(initramfs) grep "rootfs" /dmesg.txt
+
+0.127205] VFS: Finished mounting rootfs on nullfs
+
+0.352220] Trying to unpack rootfs image as initramfs...
+
+(initramfs) is
+
+0.351615] pc1_bus 0000:02: resource 1 0.351617] pci_bus 0000:02: resource 2
+
+[mem 0x90c00000-0x90dfffff]
+
+[mem 0x90e00000-0x90ffffff 64bit pref]
+
+0x3000-0x3fff]
+
+[mem 0x92100000-0x921fffff
+
+[ 0.351621] pci_bus 0000:03: resource [10 0.351624] pci_bus 0000:03: resource 1 0.351627] pci_bus 0000:04: resource 1 [mem 0x92000000-0x920fffff] 0.415682] ACPI: bus type drm_connector registered
+
+I
+
+0.4171911 xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1 0.418683] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2 (initramfs) grep "panic" /dmesg.txt
+
+[ 0.424545] simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+
+(initramfs) grep "root" /dmesg.txt
+
+[
+
+[
+
+[
+
+[
+
+0x0000-0x0cf7 window] exedee-exffff window]
+
+[mem 0x00000000-0x00ebffff window]
+
+0.127205] VFS: Finished mounting rootfs on nullfs 0.276271] pci_bus 0000:00: root bus resource [10 [ 0.276275] pci_bus 0000:00: root bus resource [io 0.276278] pci_bus 0000:00: root bus resource 0.276282] pci_bus 0000:00: root bus resource [mem 0x00000000-0x000effff window] 0.276285] pci_bus 0000:00: root bus resource [mem 0x90800000-0xdfffffff window] 0.276289] pci_bus 0000:00: root bus resource [mem 0xfc800000-0xfdffffff window] 0.276292] pci_bus 0000:00: root bus resource [bus 00-fe] 0.352220] Trying to unpack rootfs image as initramfs...
+
+[
+
+(initramfs) grep "*fs" /dmesg.txt
+
+(initramfs) grep "rootfs" /dmesg.txt
+
+[
+
+[
+
+0.127205] VFS: Finished mounting rootfs on nullfs
+
+0.352220] Trying to unpack rootfs image as initramfs...
+
+(initramfs) grep "VFS" /dmesg.txt
+
+[
+
+[
+
+[
+
+0.127205] VFS: Finished mounting rootfs on nullfs 0.326755] VFS: Disk quotas dquot_6.6.0
+
+0.326773] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+
+(initramfs) grep "nullfs" /dmesg.txt
+
+[ 0.127205] VFS: Finished mounting rootfs on nullfs
+
+(initramfs) grep "rootfs" /dmesg.txt
+
+[ 0.127205] VFS: Finished mounting rootfs on nullfs
+
+[ 0.352220] Trying to unpack rootfs image as initramfs...
+
+(initramfs) grep "rootfs" /
+
+(initramfs) grep "rootfs"
+
+(initramfs) grep "rootfs"/ventoy (initramfs) grep -r "rootfs" /
+
+/dmesg.txt: [
+
+0.127205] VFS: Finished mounting rootfs on nullfs
+
+/dmesg.txt: [ 0.352220] Trying to unpack rootfs image as initramfs... grep: /proc/sys/net/ipv4/route/flush: Permission denied
+
+[3095.529657] ICHPV6: process grep' is using deprecated sysctl (syscall) net.ipv6.neigh.default.base_reachable_time ipv6.neigh.default.base_reachable_time_ms instead
+
+grep: /proc/sys/vm/drop_caches: Permission denied
+
+grep: /proc/sys/net/ipv6/route/flush: Permission denied
+
+grep: /proc/sys/vm/compact memory: Permission denied
+
+/proc/kmsg: <6>[
+
+0.127205] VFS: Finished mounting rootfs on nullfs
+
+/proc/kmsg: <6>[
+
+0.352220] Trying to unpack rootfs image as initramfs...
+
+-
+
+use net.
+
+#don't leak too much of env some init (8) don't clear it
+
+# (keep init, rootmnt, drop_caps)
+
+unset MODPROBE_OPTIONS
+
+unset debug
+
+unset DPKG_ARCH
+
+unset ROOTFLAGS unset ROOTFSTYPE unset ROOTDELAY unset ROOT unset IP
+
+unset IP6
+
+unset VLAN
+
+unset 800T
+
+unset 800TIF
+
+unset DEVICE
+
+unset UBIMTD
+
+unset blacklist
+
+unset break
+
+unset noresume
+
+unset panic
+
+unset quiet
+
+unset readonly
+
+unset resume
+
+unset resume_offset
+
+unset noresume
+
+unset fastboot unset forcefsck unset fsckfix
+
+unset starttime
+
+#Hove virtual filesystems over to the real filesystem mount -n-o move /sys ${rootmnt}/sys mount -n-o move /proc ${rootmnt}/proc
+
+#Chain to real filesystem
+
+#shellcheck disable=SC2086, SC2094
+
+exec run-init sidrop_caps} "s{rootmnt}" "s{init}" "se" <"${rootmnt}/dev/console" >"${rootmnt}/dev/console" 2>&1 echo "Something went badly wrong in the initramfs."
+
+panic "Please file a bug on initramfs-tools."
+
+(initramfs) grep "maybe break" /init
+
+maybe break top
+
+maybe break modules
+
+maybe break premount
+
+maybe break mount
+
+maybe break mountroot
+
+maybe break bottom
+
+maybe break init
+
+"
+
+(initramfs) grep "/init
+
+unset readonly
+
+unset resume
+
+unset resume_offset
+
+unset quiet
+
+unset noresume
+
+unset fastboot unset forcefsck unset fsckfix
+
+unset starttime
+
+# Move virtual filesystems over to the real filesystem mount -n-o move /sys ${rootmnt}/sys mount -n -o move /proc ${rootmnt}/proc
+
+# Chain to real filesystem
+
+# shellcheck disable=SC2086,SC2094
+
+exec run-init s{drop_caps} "${rootmnt}" "s{init}" echo "Something went badly wrong in the initramfs. panic "Please file a bug on initramfs-tools. (initramfs) grep "maybe break" /init "
+
+<"s{rootmnt}/dev/console" >"s{rootmnt}/dev/console" 2>&1
+
+maybe break top
+
+maybe break modules
+
+maybe break premount
+
+maybe break mount
+
+maybe break mountroot
+
+maybe break bottom
+
+maybe break init
+
+(initramfs) grep "virtual" /init #Move virtual filesystems over to the real filesystem (initramfs) grep "mnt" /init export rootmnt=/root
+
+He expect udev's init-bottom script to move /dev to s{rootmnt}/dev
+
+mount -n-o move /run ${rootmnt}/run
+
+run-init -n "${rootmnt}" "s{1}"
+
+# (keep init, rootmnt, drop caps)
+
+mount-n-o move /sys s{rootmnt}/sys
+
+mount -n-o move /proc s{rootmnt}/proc
+
+exec run-init s{drop_caps} "s{rootmnt}" "s{init}" "se" <"s{rootmnt}/dev/console" >"s{rootmnt}/dev/console" 2>&1 (initramfs) grep "sbin" /init export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+export init=/sbin[-n "snetconsole}" ] && /sbin/modprobe netconsole netconsole="s{net console}" for inittest in /sbin/init /etc/init /bin/init /bin/sh; do (initramfs) grep "inittest" /init for inittest in /sbin/init /etc/init /bin/init /bin/sh; do if validate init "s{inittest}"; then init="sinittest"
+
+/init
+
+(initramfs)
+
+mount -n -o move /run ${rootmnt}/run
+
+run-init -n "${rootmnt}" "s{1}"
+
+# (keep init, rootmnt, drop_caps)
+
+mount -n -o move /sys ${rootmnt}/sys
+
+mount -n -o move /proc ${rootmnt}/proc
+
+exec run-init s{drop_caps} "${rootmnt}" "s{init}" "se" <"s{rootmnt}/dev/console" >"${rootmnt}/dev/console" 2>&1 (initramfs) grep "sbin" /init export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[ -n "s{netconsole}" ] && /sbin/modprobe netconsole netconsole="s{netconsole}" for inittest in /sbin/init /etc/init /bin/init /bin/sh; do
+
+export init=/sbin/init
+
+(initramfs) grep "inittest" /init
+
+for inittest in /sbin/init /etc/init /bin/init /bin/sh; do if validate_init "s{inittest}"; then
+
+init "sinittest"
+
+(initramfs) grep "kernel" /init
+
+cat /etc/hostname> /proc/sys/kernel/hostname
+
+(initramfs) grep "host" /init
+
+#mdadm needs hostname to be set. This has to be done before the udev rules are called! if [ -f "/etc/hostname' ]; then "
+
+cat /etc/hostname> /proc/sys/kernel/hostname
+
+(initramfs) grep "vtoy" /init
+
+(initramfs) grep "vt" /init
+
+mount -t devtmpfs -o nosuid, mode=0755 udev /dev (initramfs) grep "mount" /init
+
+mount -t sysfs -o nodev, noexec, nosuid sysfs/sys
+
+mount -t proc -o nodev, noexec, nosuid proc /proc
+
+mount -t devtmpfs -o nosuid,mode=0755 udev /dev
+
+mount -t devpts -o noexec,nosuid, gid=5,mode=0600 devpts /dev/pts || true
+
+break-premount
+
+mount -t tmpfs -o "nodev, noexec, nosuid,size=${RUNSIZE:-10x},mode=0755" tmpfs /run maybe break premount
+
+[ "squiet" != "" ] && log_begin_msg "Running /scripts/init-premount"
+
+run_scripts/scripts/init-premount
+
+maybe break mount
+
+# /usr, irrespective of the boot script used to mount the rootfs).
+
+maybe break mountroot
+
+mount_top
+
+mount_premount
+
+/ventoy/busybox/sh/ventoy/hook/debian/disk_mount_hook.sh
+
+mountfs /usr
+
+mount -n -o move /run ${rootmnt}/run # No init on rootmount mount -n-o move /sys ${rootmnt}/sys mount -n-o move /proc ${rootmnt}/proc (initramfs)
+
+mountroot
+
+mount_bottom
+
+while ("S" -ge 1]; do P="SPATH"
+
+ROOT="$1/"
+
+while ("SP" ]; do
+
+D=${PXX:*}
+
+P=${P#:}
+
+if [ "$0" =
+
+]; then
+
+P=
+
+fi if
+
+[ -z "SD" ]; then D=.
+
+fi
+
+[ -x "SROOTSD/S1" ]; then echo "$0/$1"
+
+if
+
+return 0
+
+fi
+
+done
+
+shift
+
+return 1
+
+runcommandinroot () { C=$(findcommandinroot "$1" "$2") ROOT="$1"
+
+shift [ -n "sc" ] && chroot "SROOT"
+
+root="$1" package="$2"
+
+version=$(runcommandinroot "sroot" dpkg-query -H --showformat='s{version}' "Spackage" 2>/dev/null) || version="""*
+
+if [ -z "sversion" ]; then
+
+echo >82 "se: package 'spackage' is not installed"
+
+runcommandinroot "sroot" dpkg-reconfigure -fnoninteractive --no-reload "spackage"
+
+exit
+
+done
+
+unset DEBIAN HAS FRONTEND
+
+unset DEBIAN_FRONTEND
+
+unset DEBCONF_REDIR
+
+fi
+
+shift
+
+}
+
+exit e (initramfs)
+
+shift
+
+which
+
+wget
+
+WC
+
+uniq uname
+
+umount
+
+tty ts
+
+true
+
+tr
+
+touch
+
+test
+
+tee
+
+tail
+
+sync
+
+switch root
+
+mknod
+
+mkfifo
+
+mkdir
+
+1zop
+
+1s
+
+loadkmap loadfont
+
+chmod cat busybox blockdev basename base32
+
+auk
+
+In
+
+ash
+
+kill
+
+ascii
+
+ip
+
+arch
+
+ifconfig
+
+acpid
+
+12ctransfer
+
+hwclock
+
+hostname
+
+gzip
+
+gunzip
+
+(initramfs) grep "CONF*R*" /bin/casper*
+
+/bin/casper-preseed: if [ -z "$DEBCONF_REDIR" ]; then /bin/casper-preseed: export DEBCONF_REDIR=1
+
+/bin/casper-reconfigure:unset DEBCONF REDIR
+
+(initramfs) cat /bin/casper-preseed
+
+#1 /bin/sh
+
+set -e
+
+PATH=/usr/sbin:/usr/bin:/sbin:/bin
+
+#Only do this once.
+
+if [ -z "$DEBCONF_REDIR" ]; then
+
+fi
+
+exec <84
+
+export DEBIAN_HAS_FRONTEND=1 export DEBCONF_REDIR=1
+
+root="$1"
+
+. "sroot/usr/share/debconf/confmodule"
+
+question="$2"
+
+value="$3"
+
+seen="$4"
+
+["sseen" ] || seen=true
+
+if I db_set "squestion" "$value"; then
+
+f1
+
+db register debian-installer/dummy "squestion" db_set "squestion" "$value"
+
+db_fset "squestion" seen "sseen"
+
+exit 0 (initramfs)
+
+klibc-vJ92vccDdUm9Rk.22924hx50yxAs.so
+
+linux-sound-base
+
+(initramfs) is a /usr/lib/initramfs-tools/
+
+bin
+
+(initramfs) is a /usr/lib/initramfs-tools/bin gcc_s1-stub
+
+(initramfs) is -a /usr/lib/britty
+
+britty.sh
+
+(initramfs) cat /usr/lib/britty/britty.sh
+
+#!/bin/sh
+
+set -e
+
+A fake /lib/britty/britty.sh for the initramfs. Rather than actually starting britty (which is problematic because britty would have to be shut down and restarted when switching out of early userspace), we just write out a britty.conf which will be copied over to the real root filesystem later.
+
+brailleDriver-auto
+
+brailleDevice usb:
+
+while ("$1" ]: do
+
+case $1 in
+
+esac
+
+-b)
+
+brailleDrivers"2" shift 2
+
+breilleDevice="2" shift 2
+
+11
+
+shift 2
+
+shift
+
+done
+
+cat >/dev/.initramfs/britty.conf <<EOF Created by se
+
+braille-driver sbrailleDriver braille-device sbrailleDevice
+
+EOF
+
+exit o (initramfs)
+
+
+
+EOF
+
+exit e
+
+(initramfs) cat /usr/lib/
+
+cat: read error: Is a directory (initramfs) is a /usr/lib/
+
+firmware
+
+modules
+
+britty
+
+casper
+
+cryptsetup
+
+modprobe.d
+
+ss systemd udev
+
+x86_64-linux-gnu
+
+initramfs-tools
+
+klibc-vJ92vccDdUm9RkZ2924hx50yxAs.so
+
+linux-sound-base
+
+(initramfs) is -a /usr/lib/casper/
+
+(initramfs) is - /usr/lib/modules/
+
+7.0.0-10-generic
+
+(initramfs) is -a /usr/lib/modules/7.0.0-10-generic/
+
+kernel
+
+modules.alias
+
+modules.devname
+
+modules.order
+
+modules.alias.bin
+
+modules.softdep
+
+modules.built in
+
+modules.symbols
+
+modules.builtin.alias.bin modules.symbols.bin
+
+modules.built in.bin
+
+modules.weakdep
+
+modules.builtin.modinfo
+
+modules.dep
+
+modules.dep.bin
+
+(initramfs) is a /usr/lib/
+
+firmware
+
+modules
+
+britty
+
+casper
+
+cryptsetup
+
+modprobe.d
+
+ss
+
+systemd
+
+udev
+
+x86_64-linux-gnu
+
+initramfs-tools
+
+klibc-v392VCcDdUmRk22924hx50ps.so:
+
+linux-sound-base
+
+(initramfs) is a /usr/lib/modprobe.d/ aliases.conf
+
+blacklist linux_7.0.0-10-generic.conf
+
+fbdev-blacklist.conf
+
+systead.conf
+
+..
+
+(initramfs) is a /usr/lib/modprobe.d/ailases.conf /usr/lib/modprobe.d/aliases.conf
+
+(initramfs) is -a /usr/lib/modprobe.d/blacklist_linux_7.0.0-10-generic.conf
+
+/usr/lib/modprobe.d/blacklist_linux_7.0.0-10-generic.conf
+
+(initramfs) is a /usr/lib/modprobe.d/systemd.conf /usr/lib/modprobe.d/systemd.conf
+
+(initramfs) cat /usr/lib/modprobe.d/systemd.conf
+
+blacklist je6NN_
+
+ist intel-oc-de
+
+121-d
+
+dt
+
+0_s010 udt
+
+se30 dt
+
+N63xx t
+
+21bmct
+
+94.adt
+
+list nic7010 de
+
+ist of xinx_de
+
+ist pc07413 de klist pcud pe
+
+ist pcud usb
+
+List pretimeout panic list rave-sp-adt list retu
+
+blacklist sbc60dt
+
+klist soc_epx.c3
+
+blacklist sbc-fitpca de
+
+blacklist sc1200dt
+
+blacklist schoix
+
+de
+
+blacklist simatic-ipc-dt
+
+blacklist SMC376707 de blacklist softdog blacklist sp5100-tco blacklis
+
+blacklis wl4030 de
+
+bl
+
+ut
+
+blac
+
+de
+
+black
+
+9774 t
+
+bl
+
+5823udt
+
+black
+
+black
+
+blacklist
+
+blacklist
+
+350 t
+
+black list xen udt
+
+blacklist ziirave udt
+
+(initramfs) cat /usr/lib/modprobe.d/blacklist_linux_7.0.0-10-generic.conf
+
+blacklist mena21_wdt
+
+blacklist menf21bmc_wdt
+
+blacklist menz69_wdt
+
+blacklist mix_wdt
+
+blacklist nct6694_wdt
+
+blacklist n1903x_wdt
+
+blacklist nic7018 wdt
+
+blacklist mv_tco
+
+blacklist of xilinx_wdt
+
+blacklist pc87413_wdt
+
+blacklist pcwd pc1
+
+blacklist pcwd usb
+
+blacklist pretimeout_panic
+
+blacklist rave-sp-wdt
+
+blacklist retu_wdt
+
+blacklist sbc60xxwdt
+
+blacklist sbc_epx_c3
+
+blacklist sbc_fitpc2_wdt
+
+blacklist sc1200udt
+
+blacklist sch311xwdt blacklist simatic-ipc-udt blacklist smsc37b787wdt
+
+blacklist softdog
+
+blacklist sp5100-tco
+
+blacklist tam:86_wdt blacklist tw14030_wdt blacklist via_wdt
+
+blacklist we3627hf_wdt blacklist w838771 wdt blacklist we39771wdt blacklist wafer5823wdt blacklist wdat_wdt
+
+blacklist wdt pci
+
+blacklist um031x_wdt blacklist um0350_wdt blacklist xen_wdt
+
+blacklist ziirave udt
+
+(initramfs) cat /usr/lib/modprobe.d/aliases.conf
+
+These are the standard alleses and dependencies.
+
+# This file does not need to be modified.
+
+W prevent unusual drivers from appearing as the first sound device ####******* options snd-pcsp indexs-2
+
+options cx80 else indexs-2
+
+options snd-at1ixp-modem indexs-2
+
+options snd-intelexem indexs-2
+
+options snd-via82xx-modem indexs-2 (initramfs)
+
+www
+
+we
+
+8
+
+D♦
+
+JA
+
+DAALÌÌÉE C
+
+G
+
+DA
+
+BIDÿÿGE&C
+
+NIF
+
+L28996219902999-20
+
+JJ £2.0012-"ÿÿEF
+
+3 $ 35£43 x36-30ÿÿ
+
+186 C
+
+100 varell
+
+H
+
+•Look tot fo
+
+20+ LD PREFER MAP 32BIT EXEC reellll86 tot fo
+
+MALLOC ARENA MA
+
+86 hre±²++ ||| ALLOC ARENA TEST±r
+
+AP MAX tre ell reel reely
+
+D
+
+MALLOC TOP PAD rele 1 teleH
+
+reletreler
+
+Freil
+
+HALLOC CHECK re HHAP THRESHOLD *reer
+
+MALLOC TRIM THRESHOLD re Heroeletrolee
+
+Hole! treit Htaex+14 sex+1: Hetroit Metro Tex+14 88x+12 8824(x+is+: H 19832(x++) (+) ex+15+ Frecto 140s 80x+18+
+
+10x+14 80x++6+H 18032(x+++)
+
+Freetet
+
+²erate]
+
+Bezelaax 140x+sex+++427+1 3 276 7633+++6+4+1 86+8+5!
+
+Lostos HI
+
+t
+
+OL830400 (++++)
+
+H
+
+LOC
+
+PERTUR
+
+(initramfs) ls -a /lib
+
+firmware
+
+cryptroot lib64
+
+modules
+
+britty
+
+proc
+
+modprobe.d
+
+scripts
+
+ssl
+
+casper
+
+systemd
+
+udev
+
+initramfs-tools klibc-vJ92VccDdUm9RkZ29z4hx5GyxAs.so
+
+cryptsetup
+
+dev
+
+x86_64-linux-gnu
+
+linux-sound-base
+
+(initramfs) ls -a /lib/udev/
+
+ata_id cdrom id hudb.bin rules.d scsi_id
+
+(initramfs) ls -a /lib/udev/cdrom_id
+
+/lib/udev/cdrom_id
+
+(initramfs) ls
+
+-a /lib/udev/hwdb.bin
+
+/lib/udev/hwdb.bin
+
+(initramfs) ls -a /lib/udev/rules.d 50-firmware.rules
+
+50-udev-default.rules
+
+55-dm.rules
+
+56-lvm.rules
+
+60-block.rules
+
+60-cdrom_id.rules 60-persistent-storage-dm.rules 60-persistent-storage.rules 61-persistent-storage-android.rules
+
+63-md-raid-arrays.rules
+
+64-btrfs-dm.rules
+
+64-btrfs.rules
+
+64-md-raid-assembly.rules
+
+69-1vm.rules
+
+snap.desktop-security-center.rules snap.firefox.rules
+
+70-snap.firmware-updater.rules
+
+70-snap.prompting-client.rules
+
+70-snap.snap-store.rules
+
+70-snap.snapd-desktop-integration.rules
+
+70-snap.snapd.rules
+
+70-snap.thunderbird.rules
+
+71-seat.rules
+
+73-special-net-names.rules 75-net-description.rules 80-drivers.rules
+
+80-net-setup-link.rules
+
+95-dm-notify.rules
+
+..
+
+(initramfs)
+
+usr
+
+70-
+
+70-
+
+SUBSYSTEM=="nvidia-gpu-v2" KERNEL=="ctrl", TAG+="snap_prompting-client_logging-level"
+
+opengl
+
+SUBSYSTEM=="nvidia-gpu-v2" KERNEL=="prof", TAG+="snap_prompting-client_logging-level"
+
+# opengl
+
+SUBSYSTEM=="nvidia-gpu-v2-power" KERNEL=="power", TAG+="snap_prompting-client_logging-level"
+
+TAG=="snap_prompting-client_logging-level", SUBSYSTEM I="module", SUBSYSTEM="subsystem", RUN+="/usr/lib/snapd/snap-device-helper senv{ACTION} snap_prompting-client_logging-level sdevpath Smajor:Sminor"
+
+#opengl
+
+KERNEL=="dma_buf_te", TAG+="snap_prompting-client_scripted"
+
+# opengl
+
+KERNEL=="galcore", TAG+="snap_prompting-client_scripted"
+
+# opengl
+
+KERNEL=="mali [0-9]*", TAG+="snap_prompting-client_scripted"
+
+# opengl
+
+KERNEL=="nvhost-*", TAG+="snap_prompting-client_scripted"
+
+# opengl
+
+KERNEL=="nvmap", TAG+="snap_prompting-client scripted"
+
+# opengl
+
+KERNEL=="pvr_sync", TAG+="snap_prompting-client_scripted"
+
+# opengl
+
+KERNEL=="renderD [0-9]*", TAG="snap_prompting-client scripted" # opengl
+
+KERNEL=="tegra_dc_[0-9]*", TAG+="snap_prompting-client_scripted"
+
+#opengl
+
+KERNEL=="tegra_dc_ctrl", TAG+="snap_prompting-client_scripted" KERNEL=="vchiq", TAG+="snap_prompting-client_scripted"
+
+#openg 1
+
+#opengl
+
+KERNEL=="vcsm-cma", TAG+="snap_prompting-client_scripted"
+
+#opengl
+
+SUBSYSTEM=="dma_heap", KERNEL=="linux, cma", TAG+="snap_prompting-client_scripted" SUBSYSTEM=="dma_heap", KERNEL=="system", TAG+="snap_prompting-client_scripted"
+
+* opengl
+
+opengl
+
+SUBSYSTEM=="drm", KERNEL=="card [0-9]*", TAG+="snap_prompting-client_scripted"
+
+opengl
+
+SUBSYSTEM=="hostix-fence", TAG+="snap_prompting-client_scripted"
+
+opengl
+
+SUBSYSTEM=="kfd", KERNEL=="kfd", TAG="snap_prompting-client_scripted"
+
+opengl
+
+SUBSYSTEM=="nvidia-gpu-v2" KERNEL=="ctrl", TAG+="snap_prompting-client_scripted"
+
+opengl
+
+SUBSYSTEM=="nvidia-gpu-v2" KERNEL=="prof", TAG="snap_prompting-client_scripted"
+
+opengl
+
+SUBSYSTEM=="nvidia-gpu-v2-power" KERNEL== "power", TAG+="snap_prompting-client_scripted"
+
+TAG=="snap_prompting-client_scripted", SUBSYSTEM 1="module", SUBSYSTEM I="subsystem", RUN+="/usr/lib/snapd/snap-device-helper senv ACTION} snap_prompting-client_scripted sdevpath Smajor: Sminor"
+
+(initramfs)
+
+SUBSYSTEM=="nvidia-gpu-v2" KERNEL=="ctrl", TAG+="snap_prompting-client_logging-level"
+
+# opengl
+
+SUBSYSTEM=="nvidia-gpu-v2" KERNEL=="prof", TAG+="snap_prompting-client_logging-level"
+
+# opengl
+
+SUBSYSTEM=="nvidia-gpu-v2-power" KERNEL=="power", TAG+="snap_prompting-client_logging-level"
+
+TAG=="snap_prompting-client_logging-level", SUBSYSTEM I="module", SUBSYSTEM="subsystem", RUN+="/usr/lib/snapd/snap-device-helper senv{ACTION} snap_prompting-client_logging-level $devpath Smajor: Sminor"
+
+# opengl
+
+KERNEL=="dma_buf_te", TAG+="snap_prompting-client_scripted"
+
+# opengl
+
+KERNEL=="galcore", TAG+="snap_prompting-client_scripted"
+
+#opengl
+
+KERNEL=="mali [0-9]*", TAG+="snap_prompting-client_scripted"
+
+#opengl
+
+KERNEL=="nvhost-x", TAG+="snap_prompting-client_scripted"
+
+#opengl
+
+KERNEL=="nvmap", TAG+="snap_prompting-client_scripted"
+
+#opengl
+
+KERNEL=="pvr_sync", TAG+="snap_prompting-client_scripted"
+
+# opengl
+
+KERNEL=="renderD [0-9]*", TAG+="snap_prompting-client_scripted"
+
+# opengl
+
+KERNEL=="tegra_dc_[0-9]*", TAG+="snap_prompting-client_scripted"
+
+# opengl
+
+KERNEL=="tegra_dc_ctrl", TAG+="snap_prompting-client_scripted"
+
+#opengl
+
+KERNEL=="vchiq", TAG+="snap_prompting-client_scripted"
+
+* opengl
+
+KERNEL=="vcsm-cma", TAG+="snap_prompting-client_scripted"
+
+* opengl
+
+SUBSYSTEM=="dma_heap", KERNEL=="linux, cma", TAG+="snap_prompting-client_scripted" SUBSYSTEM=="dma_heap", KERNEL=="system", TAG+="snap_prompting-client_scripted"
+
+* opengl
+
+* opengl
+
+SUBSYSTEM=="drm", KERNEL=="card [0-9]*", TAG+="snap_prompting-client_scripted" # opengl SUBSYSTEM=="host 1x-fence", TAG+="snap_prompting-client_scripted"
+
+# opengl
+
+SUBSYSTEM=="kfd", KERNEL=="kfd", TAG+="snap_prompting-client_scripted"
+
+# opengl
+
+SUBSYSTEM=="nvidia-gpu-v2" KERNEL=="ctrl", TAG+="snap_prompting-client_scripted"
+
+# opengl
+
+SUBSYSTEM=="nvidia-gpu-v2" KERNEL=="prof", TAG+="snap_prompting-client_scripted"
+
+# opengl
+
+SUBSYSTEM=="nvidia-gpu-v2-power" KERNEL== "power", TAG+="snap_prompting-client-scripted"
+
+TAG=="snap_prompting-client_scripted", SUBSYSTEM="module", SUBSYSTEM="subsystem", RUN+="/usr/lib/snapd/snap-device-helper senv ACTION} snap_prompting-client_scripted $devpath Smajor:sminor"
+
+(initramfs)
+
+unlock-mediaeject-mediadebughelpversionblankappendablecompleteotherRH_NONREMOVABLERH_REMOVABLEMO_SEMO HOMO ASDVD RH RODVD_RH_SEC
+
+DVD_R_DL_SEQDVD_R_DL_JRDVD_R_DDRDVD_PLUS RHDVD PLUS_RDDCDDDCD_RDDCD_RHDVD_PLUS_RH_DLDVD_PLUS_R_DLBDBD_R_SRMBD_R_RRMBD_REHDDVDHDC
+
+VD_RHDDVD RAMHDDVD_RHHDDVD_R_DLHDDVD_RH_DLMRWMRH_HI+++m+++meme+me+meme+m+++meme+meme+me+meme+me+meme+meme
+
+++m+++m+++meme+m+++m+++me+meme+meme+meme+meme+meme+."+me+m+++++++meme+m+++++++meme+meme+*m***m* ++m+++m+++++++++++parse_argvopen_drivecd_capability_compatcd_media_compatcd_inquirycd_media_inforunprint_featurefeature_to_strir g_compare_funccd_media_tocdvd_ram_media_update_statedvd_media_update_statecd_profiles_old_mmcfeature_profilescd_profilesmedia_lc
+
+ckscsi_cmd_runlog_scsi_debug_errno
+
+W
+
+QCÀ
+
+AEG
+
+ȧA
+
++79*3$"\p
+
+BIDȧ*1+ÆÿÿXAȧc
+
+AH
+
+At.
+
+chất gjoA&T
+
++++80$4
+
+AȧK8ÂÿÿUEȧC
+
+GNUACAGNU DEFDOM" s♦♦":"""": "4+H+H""": """+": "259151H+H1"H": "464"£0xxiz r€2102+32
+
+♦ez ïz++zý[[[(4[: [00 (£
+
+MINNARK OF (P\[\+["'+[✶✶ [++ [[A♦ [B♦ [C♦ [P♦ [Q [R♦ [S♦ [X\Z
+
+HPX:1,099,
+
+OPCE 29.97 136 835 92
+
+98 7+5+
+
+(initramfs) cat /lib/udev/cdrom_*_
+
+T/186,641
+
+60 isci 120 kaweth 120 liquidio 120 mellanox
+
+80 microchip
+
+87087 myr110ge_eth_z8e.dat.zst 87764 myr 110ge_ethp_z8e.dat.zst 108325 myr110ge_rss eth_z8e.dat.zst 108800 myr110ge_rss_ethp_z8e.dat.zst 280 netronome
+
+60 ositech 1224972 phanfw.bin.zst
+
+60 ged
+
+38471 g12100 fw.bin,zst 42108 412200 fw.bin,zst 63940 412300 fw.bin,zst 68491 g12322 fw.bin,zst 96922 12400_fw.bin,zst 126477 q12500_fw.bin,zst 100 glogic
+
+76 rp2,fw.zst 740 rtl nic
+
+120 slicoss
+
+60 sun
+
+60 tehut 128 tigon 300 "
+
+940
+
+14
+
+32
+
+cryptsetup:
+
+askpass functions
+
+23088 27601
+
+300 80
+
+300 40
+
+2
+
+/usr/lib/casper: druxr-xr-x 14 druxr-xr-x 2
+
+668 britty.sh 300
+
+14 2
+
+14
+
+60
+
+..
+
+/usr/lib/-rwxr-xr-x -rw-r--r-- druxr-xr-x druxr-xr-x
+
+/usr/lib/britty:
+
+druxr-xr-x druxr-xr-x druxr-xr-x druxr-xr-x drupar- -rw-r- -rw-r--r-- -J-BJ- -rw-r- druxr- druxr-xr-x ----J-MJ- druxr-xr-x -rw-r--r-- -rw-r--r-- -rw-r--r-- ----J-MJ- ----J-MJ- -rw-r--r-- druxr-xr-x -rw-r--r-- druxr-xr-x druxr-xr-x druxr-xr-x druxr-xr-x drwxr-xr-x druxr-xr-x druxr-xr-x
+
+-r-r--r--
+
+drwxr-xr-x
+
+1
+
+(initramfs) ls -a /usr/lib/snx
+
+druxr-xr-x
+
+ls: /usr/lib/sn*: No such file or directory (initramfs) ls -la /usr/lib/sn*
+
+ls: /usr/lib/sn*: No such file or directory (initramfs)
+
+7.0.0-10-generic
+
+/usr/lib/modprobe.d:
+
+aliases.conf
+
+blacklist_linux_7.0.0-10-generic.conf
+
+fbdev-blacklist.conf
+
+/usr/lib/linux-sound-base:
+
+nooss.modprobe.conf
+
+/usr/lib/initramfs-tools:
+
+bin .
+
+/usr/lib/firmware:
+
+3com
+
+HP
+
+LENOVO
+
+acenic
+
+adaptec
+
+advansys
+
+airoha
+
+bnx2
+
+bnx2x
+
+cbfw-3.2.5.1.bin.zst
+
+cis
+
+ct2fw-3.2.5.1.bin.zst ctfw-3.2.5.1.bin.zst
+
+cxgb3
+
+systemd.conf
+
+myr110ge eth_z8e.dat.zst myr110ge ethp_z8e.dat.zst myr110ge_rss_eth_z8e.dat.zst myri10ge_rss_ethp_z8e.dat.zst
+
+netronome
+
+ositech
+
+phanfw.bin.zst
+
+qed
+
+q12100_fw.bin.zst
+
+q12200 fw.bin.zst
+
+q12300_fw.bin.zst
+
+q12322_fw.bin.zst
+
+q12400 fw.bin.zst
+
+q12500_fw.bin.zst
+
+cxgb4
+
+dell
+
+0100
+
+ene-ub6250
+
+intel
+
+isci
+
+kaweth
+
+liquidio
+
+mellanox
+
+microchip
+
+askpass
+
+/usr/lib/cryptsetup:
+
+functions
+
+/usr/lib/casper:
+
+/usr/lib/britty:
+
+britty.sh
+
+(initramfs)
+
+qlogic
+
+rp2.fw.zst rtl_nic slicoss
+
+sun tehuti tigon
+
+dell 0100
+
+ene-ub6250 intel
+
+rp2.fw.zst rt nic slicoss sun tehut
+
+isci
+
+kaweth
+
+liquidio
+
+mellanox
+
+microchip
+
+askpass
+
+/usr/lib/cryptsetup:
+
+functions
+
+/usr/lib/casper:
+
+/usr/lib/britty:
+
+britty.sh
+
+(initramfs) is -a /usr/lib/sw
+
+/usr/lib/systemd:
+
+network
+
+systemd-udevd
+
+/usr/lib/ssl:
+
+certs
+
+openssl.cnf
+
+tizon
+
+(initramfs) is -a /usr/lib/*s*
+
+/usr/lib/klibc-vJ92VccDdUm9RkZ29z4hx5GyxAs.so
+
+/usr/lib/systemd:
+
+network
+
+systemd-udevd
+
+/usr/lib/ssl;
+
+certs
+
+openssl.cnf
+
+"
+
+/usr/lib/modules:
+
+7.0.0-10-generic
+
+/usr/lib/linux-sound-base:
+
+nooss.modprobe.conf
+
+"
+
+/usr/lib/initramfs-tools:
+
+bin "
+
+/usr/lib/cryptsetup:
+
+ask pass functions "
+
+/usr/lib/casper:
+
+(initramfs)
+
+kaweth
+
+liquidio
+
+mellanox
+
+microchip
+
+askpass
+
+/usr/lib/cryptsetup:
+
+functions
+
+/usr/lib/casper:
+
+/usr/lib/britty:
+
+britty.sh
+
+(initramfs) is -a /usr/lib/s*
+
+/usr/lib/systemd:
+
+network
+
+tigon
+
+systemd-udevd
+
+/usr/lib/ssl:
+
+certs
+
+openssl.cnf
+
+(initramfs) ls -a /usr/lib/*s*
+
+/usr/lib/systemd:
+
+/usr/lib/klibc-vJ92vccDdUm9RkZ29z4hx50yxAs.so
+
+network
+
+systemd-udevd
+
+/usr/lib/ssl:
+
+certs
+
+openssl.cnf
+
+/usr/lib/modules:
+
+7.0.0-10-generic
+
+/usr/lib/linux-sound-base:
+
+nooss.modprobe.conf
+
+/usr/lib/initramfs-tools:
+
+bin
+
+/usr/lib/cryptsetup:
+
+askpass
+
+functions
+
+/usr/lib/casper:
+
+(initramfs) cd/
+
+(initramfs) is
+
+var
+
+root
+
+tmp
+
+init
+
+sys
+
+dev
+
+proc
+
+ventoy
+
+kernel
+
+usr
+
+bin
+
+conf
+
+cryptroot
+
+etc
+
+lib
+
+lib64
+
+run sbin scripts
+
+(initramfs) ls -la "nap". | tee /catalog.txt_
+
+(initramfs) ls -la "nap". tee /catalog.txt 1s: *nap: No such file or directory
+
+..:
+
+druxruxrup
+
+6
+
+drwxr-xr-x
+
+3
+
+druxr-xr-x
+
+luxruxrux
+
+drwxr-xr-x
+
+drwxr-xr-x
+
+drwxr-xr-x
+
+Truxruxrux luxur druxr-xr-x luxur
+
+drwxr-xr-x
+
+300 ventoy
+
+60 kernel
+
+180 usr
+
+7 bin -> usr/bin
+
+140 conf
+
+60 cryptroot
+
+440 etc
+
+7 lib -> usr/lib
+
+9 11b64 -> usr/lib64
+
+60 run
+
+8 sbin -> usr/sbin 360 scripts
+
+100
+
+var
+
+7958 init
+
+3100 dev
+
+40 root
+
+sys proc
+
+40 tmp
+
+druxr-xr-x
+
+-rwxr-xr-x
+
+drwxr-xr-x
+
+drux---
+
+dr-xr-xr-x
+
+dr-xr-xr-x
+
+123
+
+druxr-xr-x
+
+2
+
+drwxr-xr-x 16
+
+420
+
+drwxr-xr-x
+
+16
+
+420
+
+drururu
+
+druxr-xr-x
+
+drwxr-xr-x
+
+Irururux druxr-xr-x drwxr-xr-x drwxr-xr-x Irururuxx
+
+Irurupru
+
+druxr-xr-x
+
+druxr-xr-x
+
+drwxr-xr-x
+
+-rwxr-xr-x
+
+drwxr-xr-x
+
+drux---
+
+dr-xr-xr-x
+
+dr-xr-xr-x
+
+123
+
+druxr-xr-x
+
+druxr-xr-x 16 drwxr-xr-x 16 (initramfs)
+
+300 ventoy
+
+60 kernel
+
+180 usr
+
+7 bin -> usr/bin
+
+140 conf
+
+60 cryptroot
+
+440 etc
+
+7 lib -> usr/lib
+
+9 lib64 -> usr/lib64 60 run
+
+8 sbin -> usr/sbin 360 scripts
+
+100 var
+
+7958 init 3100 dev
+
+40 root sys e proc 40 tmp
+
+420
+
+420
+
+1rwxrwxrwx
+
+drwxr-xr-x
+
+drwxr-xr-x
+
+2
+
+drwxr-xr-x
+
+12
+
+1rwxrwxrwx
+
+1rwxrwxrwx
+
+drwxr-xr-x
+
+1rwxrwxrwx
+
+drwxr-xr-x 12
+
+7 bin -> usr/bin
+
+140 conf
+
+60 cryptroot
+
+440 etc
+
+7 libusr/lib
+
+9 lib64 -> usr/lib64
+
+60 run
+
+8 sbin -> usr/sbin 360 scripts
+
+100 var
+
+drwxr-xr-x
+
+-rwxr-xr-x
+
+7958 init
+
+drwxr-xr-x
+
+9
+
+3100 dev
+
+drwx------
+
+dr-xr-xr-x 13 dr-xr-xr-x 123 drwxr-xr-x 2
+
+40 root
+
+sys e proc 40 tmp 420.. 420
+
+drwxr-xr-x 16 drwxr-xr-x 16
+
+drwxrwxrwx
+
+6
+
+300 ventoy
+
+drwxr-xr-x
+
+3
+
+drwxr-xr-x 9
+
+Irwxrwxrwx
+
+drwxr-xr-x
+
+drwxr-xr-x
+
+drwxr-xr-x
+
+Irwxrwxrwx
+
+1rwxrwxrwx
+
+1
+
+drwxr-xr-x
+
+3
+
+1rwxrwxrux
+
+1
+
+drwxr-xr-x
+
+12
+
+drwxr-xr-x
+
+-rwxr-xr-x
+
+drwxr-xr-x
+
+drux-----
+
+dr-xr-xr-x
+
+dr-xr-xr-x
+
+123
+
+drwxr-xr-x
+
+drwxr-xr-x 16
+
+60 kernel
+
+180 usr
+
+7 bin -> usr/bin 140 conf
+
+60 cryptroot
+
+440 etc
+
+7 lib -> usr/lib
+
+9 11b64->usr/lib64 60 run
+
+8 sbin -> usr/sbin
+
+360 scripts
+
+100 var
+
+7958 init
+
+3100 dev
+
+40 root
+
+sys proc
+
+40 tmp
+
+drwxr-xr-x 16
+
+420 .
+
+420-
+
+(initramfs) grep "nap". | tee /catalog.txt
+
+(initramfs) Is
+
+ventoy
+
+kernel
+
+usr
+
+bin
+
+conf
+
+lib64
+
+cryptroot
+
+run
+
+etc
+
+lib
+
+sbin scripts
+
+var
+
+init
+
+dev
+
+root
+
+sys proc tmp
+
+catalog.txt
+
+(initramfs) grep "snap*" | tee /catalogue.txt && sleep 30 && cat /catalogue.txt_

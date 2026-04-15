@@ -1,0 +1,529 @@
+{"duration_ms":"68041","share_with_app_devs":0,"roots_installed":0,"bug_type":"145","os_version":"iPhone OS 26.4 (23E5234a)","slice_uuid":"ECF17A93-AF53-3BEF-9FE8-C3299C6698FC","is_first_party":0,"incident_id":"A40525DC-A95D-4225-A2E2-A817D44BDE2A","timestamp":"2026-03-14 09:04:20.00 +0000","app_name":"sysdiagnosed","name":"sysdiagnosed"}
+Date/Time:        2026-03-14 09:03:09.961 +0000
+End time:         2026-03-14 09:04:18.002 +0000
+OS Version:       iPhone OS 26.4 (Build 23E5234a)
+Architecture:     arm64e
+Report Version:   72
+Incident Identifier: A40525DC-A95D-4225-A2E2-A817D44BDE2A
+
+Data Source:      Microstackshots
+Shared Cache:     107855AC-D36E-3EF6-88C8-EDA6E6600593 slid base address 0x19dff0000, slide 0x1dff0000
+
+Command:          sysdiagnosed
+Path:             /usr/libexec/sysdiagnosed
+Resource Coalition: "com.apple.sysdiagnose"(645)
+On Behalf Of:     91 samples UNKNOWN [424] (91 samples originated by DraftingExtension-iOS [382])
+Architecture:     arm64e
+Parent:           UNKNOWN [1]
+PID:              428
+
+Event:            disk writes
+Action taken:     none
+Writes:           1073.81 MB of file backed memory dirtied over 68 seconds (15.78 MB per second average), exceeding limit of 12.43 KB per second over 86400 seconds
+Writes limit:     1073.74 MB
+Limit duration:   86400s
+Writes caused:    1073.81 MB
+Writes duration:  68s
+Duration:         68.04s
+Duration Sampled: 67.76s (event starts 0.28s before samples)
+Steps:            136 (10.49 MB/step)
+
+Hardware model:   iPhone15,2
+Active cpus:      6
+Memory size:      5.53 GB
+HW page size:     16384
+VM page size:     16384
+Shared cache residency: 16.29% (970.72 MB / 5959.42 MB)
+
+Time Since Boot:  47s
+Time Awake Since Boot: 47s
+Time Since Wake:  n/a (machine hasn't slept)
+
+Total CPU Time:   10.188s
+Advisory levels:  Battery -> 3, User -> 3, ThermalPressure -> 0, Combined -> 3
+Free disk space:  192.82 GB/229.38 GB, low space threshold 150 MB
+Vnodes Available: 66.86% (16046/24000, 12000 allocated, 12000 soft limit)
+Models:           none
+
+Preferred User Language: en-GB
+Country Code:     GB
+Keyboards:        en_GB QWERTZ, emoji Emoji
+OS Cryptex File Extents: 1
+
+Heaviest stack for the target process:
+  91  ??? (libsystem_pthread.dylib + 2240) [0x2003038c0]
+  46  ??? (libsystem_pthread.dylib + 4980) [0x200304374]
+  46  ??? (libdispatch.dylib + 82072) [0x1db714098]
+  46  ??? (libdispatch.dylib + 80128) [0x1db713900]
+  46  ??? (libdispatch.dylib + 24032) [0x1db705de0]
+  46  ??? (libdispatch.dylib + 227940) [0x1db737a64]
+  46  ??? (libdispatch.dylib + 111076) [0x1db71b1e4]
+  46  ??? (libdispatch.dylib + 69252) [0x1db710e84]
+  46  ??? (sysdiagnosed + 221480) [0x100f56128]
+  22  ??? (LoggingSupport + 243712) [0x2512a0800]
+  22  ??? (LoggingSupport + 250544) [0x2512a22b0]
+  16  ??? (LoggingSupport + 254536) [0x2512a3248]
+  16  ??? (LoggingSupport + 255404) [0x2512a35ac]
+  16  ??? (sysdiagnosed + 220444) [0x100f55d1c]
+  16  ??? (libcopyfile.dylib + 24152) [0x2c1ec0e58]
+  16  ??? (libcopyfile.dylib + 10620) [0x2c1ebd97c]
+  16  ??? (libsystem_kernel.dylib + 20528) [0x24ff72030]
+
+
+Powerstats for:   sysdiagnosed [428]
+UUID:             ECF17A93-AF53-3BEF-9FE8-C3299C6698FC
+Path:             /usr/libexec/sysdiagnosed
+Resource Coalition: 91 samples "com.apple.sysdiagnose"(645)
+On Behalf Of:     91 samples UNKNOWN [424] (91 samples originated by DraftingExtension-iOS [382])
+Architecture:     arm64e
+Parent:           UNKNOWN [1]
+UID:              0
+Sudden Term:      Tracked (allows idle exit)
+Footprint:        4128 KB -> 5104 KB (+976 KB)
+Pageins:          13314 pages
+Start time:       2026-03-14 09:03:24.435 +0000
+End time:         2026-03-14 09:04:17.998 +0000
+Num samples:      91 (67%)
+Energy:           800.57 uWh
+Num threads:      4
+Primary state:    90 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS User Initiated, Requested Thread QoS User Initiated, Override Thread QoS Unspecified, p-core
+User Activity:    0 samples Idle, 91 samples Active
+Power Source:     0 samples on Battery, 91 samples on AC
+  91  ??? (libsystem_pthread.dylib + 2240) [0x2003038c0]
+    46  ??? (libsystem_pthread.dylib + 4980) [0x200304374]
+      46  ??? (libdispatch.dylib + 82072) [0x1db714098]
+        46  ??? (libdispatch.dylib + 80128) [0x1db713900]
+          46  ??? (libdispatch.dylib + 24032) [0x1db705de0]
+            46  ??? (libdispatch.dylib + 227940) [0x1db737a64]
+              46  ??? (libdispatch.dylib + 111076) [0x1db71b1e4]
+                46  ??? (libdispatch.dylib + 69252) [0x1db710e84]
+                  46  ??? (sysdiagnosed + 221480) [0x100f56128]
+                    22  ??? (LoggingSupport + 243712) [0x2512a0800]
+                      22  ??? (LoggingSupport + 250544) [0x2512a22b0]
+                        16  ??? (LoggingSupport + 254536) [0x2512a3248]
+                          16  ??? (LoggingSupport + 255404) [0x2512a35ac]
+                            16  ??? (sysdiagnosed + 220444) [0x100f55d1c]
+                              16  ??? (libcopyfile.dylib + 24152) [0x2c1ec0e58]
+                                16  ??? (libcopyfile.dylib + 10620) [0x2c1ebd97c]
+                                  16  ??? (libsystem_kernel.dylib + 20528) [0x24ff72030]
+                                    16  <on behalf of UNKNOWN [424] (originated by DraftingExtension-iOS [382])>
+                        6   ??? (LoggingSupport + 254412) [0x2512a31cc]
+                          6   ??? (LoggingSupport + 255404) [0x2512a35ac]
+                            6   ??? (sysdiagnosed + 220444) [0x100f55d1c]
+                              6   ??? (libcopyfile.dylib + 24152) [0x2c1ec0e58]
+                                6   ??? (libcopyfile.dylib + 10620) [0x2c1ebd97c]
+                                  5   ??? (libsystem_kernel.dylib + 20528) [0x24ff72030]
+                                    5   <on behalf of UNKNOWN [424] (originated by DraftingExtension-iOS [382])>
+                                  1   ??? (libcopyfile.dylib + 8228) [0x2c1ebd024]
+                                    1   ??? (libsystem_kernel.dylib + 23928) [0x24ff72d78]
+                                      1   <on behalf of UNKNOWN [424] (originated by DraftingExtension-iOS [382])>
+                    14  ??? (LoggingSupport + 243072) [0x2512a0580]
+                      14  ??? (LoggingSupport + 249000) [0x2512a1ca8]
+                        14  ??? (LoggingSupport + 256576) [0x2512a3a40]
+                          14  ??? (LoggingSupport + 257024) [0x2512a3c00]
+                            14  ??? (LoggingSupport + 246860) [0x2512a144c]
+                              14  ??? (sysdiagnosed + 220444) [0x100f55d1c]
+                                14  ??? (libcopyfile.dylib + 24152) [0x2c1ec0e58]
+                                  14  ??? (libcopyfile.dylib + 10620) [0x2c1ebd97c]
+                                    14  ??? (libsystem_kernel.dylib + 20528) [0x24ff72030]
+                                      14  <on behalf of UNKNOWN [424] (originated by DraftingExtension-iOS [382])>
+                    7   ??? (LoggingSupport + 243156) [0x2512a05d4]
+                      7   ??? (LoggingSupport + 249000) [0x2512a1ca8]
+                        7   ??? (LoggingSupport + 256576) [0x2512a3a40]
+                          7   ??? (LoggingSupport + 257024) [0x2512a3c00]
+                            7   ??? (LoggingSupport + 246860) [0x2512a144c]
+                              7   ??? (sysdiagnosed + 220444) [0x100f55d1c]
+                                7   ??? (libcopyfile.dylib + 24152) [0x2c1ec0e58]
+                                  7   ??? (libcopyfile.dylib + 10620) [0x2c1ebd97c]
+                                    7   ??? (libsystem_kernel.dylib + 20528) [0x24ff72030]
+                                      7   <on behalf of UNKNOWN [424] (originated by DraftingExtension-iOS [382])>
+                    2   ??? (LoggingSupport + 243424) [0x2512a06e0]
+                      2   ??? (LoggingSupport + 249000) [0x2512a1ca8]
+                        2   ??? (LoggingSupport + 256576) [0x2512a3a40]
+                          2   ??? (LoggingSupport + 257024) [0x2512a3c00]
+                            2   ??? (LoggingSupport + 246860) [0x2512a144c]
+                              2   ??? (sysdiagnosed + 220444) [0x100f55d1c]
+                                2   ??? (libcopyfile.dylib + 24152) [0x2c1ec0e58]
+                                  2   ??? (libcopyfile.dylib + 10620) [0x2c1ebd97c]
+                                    2   ??? (libsystem_kernel.dylib + 20528) [0x24ff72030]
+                                      2   <on behalf of UNKNOWN [424] (originated by DraftingExtension-iOS [382])>
+                    1   ??? (LoggingSupport + 243584) [0x2512a0780]
+                      1   ??? (LoggingSupport + 249996) [0x2512a208c]
+                        1   ??? (LoggingSupport + 256576) [0x2512a3a40]
+                          1   ??? (LoggingSupport + 256152) [0x2512a3898]
+                            1   ??? (sysdiagnosed + 220444) [0x100f55d1c]
+                              1   ??? (libcopyfile.dylib + 24152) [0x2c1ec0e58]
+                                1   ??? (libcopyfile.dylib + 10620) [0x2c1ebd97c]
+                                  1   ??? (libsystem_kernel.dylib + 20528) [0x24ff72030]
+                                    1   <on behalf of UNKNOWN [424] (originated by DraftingExtension-iOS [382])>
+    45  ??? (libsystem_pthread.dylib + 5040) [0x2003043b0]
+      45  ??? (libdispatch.dylib + 83628) [0x1db7146ac]
+        45  ??? (libdispatch.dylib + 85420) [0x1db714dac]
+          37  ??? (libdispatch.dylib + 125176) [0x1db71e8f8]
+            37  ??? (libdispatch.dylib + 40472) [0x1db709e18]
+              37  ??? (libdispatch.dylib + 121764) [0x1db71dba4]
+                37  ??? (libdispatch.dylib + 111148) [0x1db71b22c]
+                  37  ??? (libxpc.dylib + 84456) [0x1b5eb99e8]
+                    37  ??? (libxpc.dylib + 76916) [0x1b5eb7c74]
+                      37  ??? (sysdiagnosed + 267368) [0x100f61468]
+                        37  ??? (sysdiagnosed + 233548) [0x100f5904c]
+                          37  ??? (sysdiagnosed + 265920) [0x100f60ec0]
+                            37  ??? (sysdiagnosed + 389196) [0x100f7f04c]
+                              36  ??? (sysdiagnosed + 331324) [0x100f70e3c]
+                                36  ??? (sysdiagnosed + 328812) [0x100f7046c]
+                                  36  ??? (Foundation + 2025256) [0x19e954728]
+                                    36  ??? (Foundation + 2007936) [0x19e950380]
+                                      36  ??? (Foundation + 2011640) [0x19e9511f8]
+                                        36  ??? (Foundation + 2010620) [0x19e950dfc]
+                                          36  ??? (Foundation + 2013072) [0x19e951790]
+                                            36  ??? (Foundation + 2012820) [0x19e951694]
+                                              36  ??? (Foundation + 2011640) [0x19e9511f8]
+                                                36  ??? (Foundation + 2010620) [0x19e950dfc]
+                                                  36  ??? (Foundation + 2013108) [0x19e9517b4]
+                                                    36  ??? (Foundation + 2020692) [0x19e953554]
+                                                      36  ??? (Foundation + 3450844) [0x19eab07dc]
+                                                        36  ??? (Foundation + 3454920) [0x19eab17c8]
+                                                          36  ??? (libcopyfile.dylib + 6360) [0x2c1ebc8d8]
+                                                            36  ??? (libcopyfile.dylib + 10620) [0x2c1ebd97c]
+                                                              36  ??? (libsystem_kernel.dylib + 20528) [0x24ff72030]
+                                                                36  <on behalf of UNKNOWN [424] (originated by DraftingExtension-iOS [382])>
+                              1   ??? (sysdiagnosed + 331288) [0x100f70e18]
+                                1   ??? (sysdiagnosed + 385604) [0x100f7e244]
+                                  1   ??? (sysdiagnosed + 355160) [0x100f76b58]
+                                    1   ??? (sysdiagnosed + 351848) [0x100f75e68]
+                                      1   ??? (sysdiagnosed + 350544) [0x100f75950]
+                                        1   ??? (sysdiagnosed + 365524) [0x100f793d4]
+                                          1   ??? (libsystem_trace.dylib + 56092) [0x1c6dbcb1c]
+                                            1   ??? (sysdiagnosed + 366032) [0x100f795d0]
+                                              1   ??? (sysdiagnosed + 371372) [0x100f7aaac]
+                                                1   ??? (sysdiagnosed + 374732) [0x100f7b7cc]
+                                                  1   ??? (libcopyfile.dylib + 24152) [0x2c1ec0e58]
+                                                    1   ??? (libcopyfile.dylib + 10620) [0x2c1ebd97c]
+                                                      1   ??? (libsystem_kernel.dylib + 20528) [0x24ff72030]
+                                                        1   <on behalf of UNKNOWN [424] (originated by DraftingExtension-iOS [382])>
+          8   ??? (libdispatch.dylib + 43748) [0x1db70aae4]
+            8   ??? (libdispatch.dylib + 40472) [0x1db709e18]
+              7   ??? (libdispatch.dylib + 127544) [0x1db71f238]
+                7   ??? (libdispatch.dylib + 111124) [0x1db71b214]
+                  7   ??? (libxpc.dylib + 79208) [0x1b5eb8568]
+                    7   ??? (libxpc.dylib + 138760) [0x1b5ec6e08]
+                      7   ??? (sysdiagnosed + 307664) [0x100f6b1d0]
+                        7   ??? (sysdiagnosed + 173516) [0x100f4a5cc]
+                          7   ??? (sysdiagnosed + 308468) [0x100f6b4f4]
+                            7   ??? (sysdiagnosed + 365524) [0x100f793d4]
+                              7   ??? (libsystem_trace.dylib + 56092) [0x1c6dbcb1c]
+                                7   ??? (sysdiagnosed + 366032) [0x100f795d0]
+                                  7   ??? (sysdiagnosed + 371372) [0x100f7aaac]
+                                    7   ??? (sysdiagnosed + 374732) [0x100f7b7cc]
+                                      7   ??? (libcopyfile.dylib + 24152) [0x2c1ec0e58]
+                                        7   ??? (libcopyfile.dylib + 10620) [0x2c1ebd97c]
+                                          7   ??? (libsystem_kernel.dylib + 20528) [0x24ff72030]
+                                            7   <on behalf of UNKNOWN [424] (originated by DraftingExtension-iOS [382])>
+              1   ??? (libdispatch.dylib + 97208) [0x1db717bb8]
+                1   ??? (libdispatch.dylib + 102116) [0x1db718ee4]
+                  1   ??? (libdispatch.dylib + 24904) [0x1db706148]
+                    1   ??? (libdispatch.dylib + 111076) [0x1db71b1e4]
+                      1   ??? (sysdiagnosed + 295832) [0x100f68398]
+                        1   ??? (libsystem_trace.dylib + 56092) [0x1c6dbcb1c]
+                          1   ??? (sysdiagnosed + 295104) [0x100f680c0]
+                            1   ??? (sysdiagnosed + 297008) [0x100f68830]
+                              1   ??? (sysdiagnosed + 173516) [0x100f4a5cc]
+                                1   ??? (sysdiagnosed + 297504) [0x100f68a20]
+                                  1   ??? (sysdiagnosed + 365524) [0x100f793d4]
+                                    1   ??? (libsystem_trace.dylib + 56092) [0x1c6dbcb1c]
+                                      1   ??? (sysdiagnosed + 366032) [0x100f795d0]
+                                        1   ??? (sysdiagnosed + 371372) [0x100f7aaac]
+                                          1   ??? (sysdiagnosed + 374732) [0x100f7b7cc]
+                                            1   ??? (libcopyfile.dylib + 24152) [0x2c1ec0e58]
+                                              1   ??? (libcopyfile.dylib + 10620) [0x2c1ebd97c]
+                                                1   ??? (libsystem_kernel.dylib + 20528) [0x24ff72030]
+                                                  1   <on behalf of UNKNOWN [424] (originated by DraftingExtension-iOS [382]), Effective Thread QoS Default, Requested Thread QoS Default, e-core>
+
+  Binary Images:
+           0x100f20000 -                ???  sysdiagnosed            <ECF17A93-AF53-3BEF-9FE8-C3299C6698FC>  /usr/libexec/sysdiagnosed
+           0x19e766000 -        0x19f5ee45f  Foundation              <ACC6C3B5-069F-3FAE-BAFB-777B2F2D2FAE>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x1b5ea5000 -        0x1b5ef661f  libxpc.dylib            <A08D6F00-102F-31A3-92D5-E65AC7B776DF>  /usr/lib/system/libxpc.dylib
+           0x1c6daf000 -        0x1c6dcf2ff  libsystem_trace.dylib   <DCC51915-C6D6-394E-B57D-D3A63543BF67>  /usr/lib/system/libsystem_trace.dylib
+           0x1db700000 -        0x1db7465ff  libdispatch.dylib       <74B7E375-9C2E-30F5-9EB0-AD056E20B5D8>  /usr/lib/system/libdispatch.dylib
+           0x200303000 -        0x20030f4ef  libsystem_pthread.dylib <6C9BCDE9-819D-345D-9D71-B60AD47E5159>  /usr/lib/system/libsystem_pthread.dylib
+           0x24ff6d000 -        0x24ffa8ac7  libsystem_kernel.dylib  <5F4E68E1-021C-3A8F-A6F6-2C4C077D0676>  /usr/lib/system/libsystem_kernel.dylib
+           0x251265000 -        0x2512ee53f  LoggingSupport          <84AA4BCA-FE7F-3456-98C1-0486D1B1593C>  /System/Library/PrivateFrameworks/LoggingSupport.framework/LoggingSupport
+           0x2c1ebb000 -        0x2c1ec52f7  libcopyfile.dylib       <C6681437-2CB5-3EA8-A51A-F244272D1340>  /usr/lib/system/libcopyfile.dylib
+
+
+Powerstats for:   sysdiagnose_helper
+UUID:             6DFCC291-2513-3A08-9E82-73384CF6E2AC
+Path:             /usr/libexec/sysdiagnose_helper
+Resource Coalition: 6 samples 729, 1 sample 703, 1 sample 765
+On Behalf Of:     8 samples sysdiagnosed [428] (8 samples originated by DraftingExtension-iOS [382])
+Architecture:     arm64
+Start time:       2026-03-14 09:03:23.898 +0000
+End time:         2026-03-14 09:03:44.349 +0000
+Num samples:      8 (6%)
+Energy:           13.25 uWh
+Primary state:    8 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS User Initiated, Requested Thread QoS User Initiated, Override Thread QoS Unspecified, p-core
+User Activity:    0 samples Idle, 8 samples Active
+Power Source:     0 samples on Battery, 8 samples on AC
+  8  ??? (libsystem_pthread.dylib + 2240) [0x2003038c0]
+    8  ??? (libsystem_pthread.dylib + 4980) [0x200304374]
+      8  ??? (libdispatch.dylib + 82072) [0x1db714098]
+        8  ??? (libdispatch.dylib + 80128) [0x1db713900]
+          8  ??? (libdispatch.dylib + 24032) [0x1db705de0]
+            8  ??? (libdispatch.dylib + 227940) [0x1db737a64]
+              8  ??? (libdispatch.dylib + 111076) [0x1db71b1e4]
+                8  ??? (libdispatch.dylib + 69252) [0x1db710e84]
+                  4  ??? (sysdiagnose_helper + 36952) [0x1003a5058]
+                    4  ??? (PowerLog + 108960) [0x1dadcd9a0]
+                      4  ??? (PowerLog + 103768) [0x1dadcc558]
+                        4  ??? (PowerLog + 101180) [0x1dadcbb3c]
+                          4  ??? (libsqlite3.dylib + 574052) [0x19f972264]
+                            4  ??? (libsqlite3.dylib + 424444) [0x19f94d9fc]
+                              4  ??? (libsystem_kernel.dylib + 83972) [0x24ff81804]
+                                4  <on behalf of sysdiagnosed [428] (originated by DraftingExtension-iOS [382])>
+                  2  ??? (sysdiagnose_helper + 37880) [0x1003a53f8]
+                    1  ??? (PowerLog + 113560) [0x1dadceb98]
+                      1  ??? (PowerLog + 106116) [0x1dadcce84]
+                        1  ??? (libsqlite3.dylib + 33260) [0x19f8ee1ec]
+                          1  ??? (libsqlite3.dylib + 191556) [0x19f914c44]
+                            1  ??? (libsqlite3.dylib + 216064) [0x19f91ac00]
+                              1  ??? (libsqlite3.dylib + 703788) [0x19f991d2c]
+                                1  ??? (libsqlite3.dylib + 705388) [0x19f99236c]
+                                  1  ??? (libsqlite3.dylib + 686772) [0x19f98dab4]
+                                    1  ??? (libsqlite3.dylib + 753828) [0x19f99e0a4]
+                                      1  ??? (libsqlite3.dylib + 370840) [0x19f940898]
+                                        1  ??? (libsqlite3.dylib + 328740) [0x19f936424]
+                                          1  ??? (libsystem_kernel.dylib + 27724) [0x24ff73c4c]
+                                            1  <on behalf of sysdiagnosed [428] (originated by DraftingExtension-iOS [382])>
+                    1  ??? (PowerLog + 113452) [0x1dadceb2c]
+                      1  ??? (PowerLog + 104544) [0x1dadcc860]
+                        1  ??? (PowerLog + 101180) [0x1dadcbb3c]
+                          1  ??? (libsqlite3.dylib + 574052) [0x19f972264]
+                            1  ??? (libsqlite3.dylib + 424212) [0x19f94d914]
+                              1  ??? (libsystem_kernel.dylib + 83972) [0x24ff81804]
+                                1  <on behalf of sysdiagnosed [428] (originated by DraftingExtension-iOS [382])>
+                  1  ??? (sysdiagnose_helper + 24272) [0x1003a1ed0]
+                    1  ??? (libdscsym.dylib + 7608) [0x2c09e1db8]
+                      1  ??? (libdscsym.dylib + 8840) [0x2c09e2288]
+                        1  ??? (libdscsym.dylib + 9168) [0x2c09e23d0]
+                          1  ??? (libcopyfile.dylib + 6360) [0x2c1ebc8d8]
+                            1  ??? (libcopyfile.dylib + 10620) [0x2c1ebd97c]
+                              1  ??? (libsystem_kernel.dylib + 20528) [0x24ff72030]
+                                1  <on behalf of sysdiagnosed [428] (originated by DraftingExtension-iOS [382])>
+                  1  ??? (sysdiagnose_helper + 36300) [0x1003a4dcc]
+                    1  ??? (PowerLog + 109616) [0x1dadcdc30]
+                      1  ??? (PowerLog + 106252) [0x1dadccf0c]
+                        1  ??? (PowerLog + 106928) [0x1dadcd1b0]
+                          1  ??? (PowerLog + 101180) [0x1dadcbb3c]
+                            1  ??? (libsqlite3.dylib + 574052) [0x19f972264]
+                              1  ??? (libsqlite3.dylib + 424212) [0x19f94d914]
+                                1  ??? (libsystem_kernel.dylib + 83972) [0x24ff81804]
+                                  1  <on behalf of sysdiagnosed [428] (originated by DraftingExtension-iOS [382])>
+
+  Binary Images:
+           0x10039c000 -                ???  sysdiagnose_helper      <6DFCC291-2513-3A08-9E82-73384CF6E2AC>  /usr/libexec/sysdiagnose_helper
+           0x19f8e6000 -        0x19fa8f853  libsqlite3.dylib        <DC63687D-4615-3C75-9E64-D9A268529182>  /usr/lib/libsqlite3.dylib
+           0x1dadb3000 -        0x1dade5edf  PowerLog                <81097974-AFEF-3DC6-B748-7331DB6EC81F>  /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+           0x1db700000 -        0x1db7465ff  libdispatch.dylib       <74B7E375-9C2E-30F5-9EB0-AD056E20B5D8>  /usr/lib/system/libdispatch.dylib
+           0x200303000 -        0x20030f4ef  libsystem_pthread.dylib <6C9BCDE9-819D-345D-9D71-B60AD47E5159>  /usr/lib/system/libsystem_pthread.dylib
+           0x24ff6d000 -        0x24ffa8ac7  libsystem_kernel.dylib  <5F4E68E1-021C-3A8F-A6F6-2C4C077D0676>  /usr/lib/system/libsystem_kernel.dylib
+           0x2c09e0000 -        0x2c09e5f9f  libdscsym.dylib         <3EEF6644-21F2-36FF-AFFC-C5B533C931AD>  /usr/lib/libdscsym.dylib
+           0x2c1ebb000 -        0x2c1ec52f7  libcopyfile.dylib       <C6681437-2CB5-3EA8-A51A-F244272D1340>  /usr/lib/system/libcopyfile.dylib
+
+
+Powerstats for:   cloudd
+UUID:             009534A8-123A-3B95-A280-03461A1499B1
+Path:             /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+Resource Coalition: 7 samples "com.apple.cloudd"(237)
+On Behalf Of:     7 samples cloudd [153] (7 samples originated by cloudd [153])
+Architecture:     arm64e
+Pageins:          8 pages
+Start time:       2026-03-14 09:03:30.092 +0000
+End time:         2026-03-14 09:03:57.907 +0000
+Num samples:      7 (5%)
+Energy:           81.82 uWh
+Primary state:    6 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Background, Requested Thread QoS Background, Override Thread QoS Unspecified, e-core
+User Activity:    0 samples Idle, 7 samples Active
+Power Source:     0 samples on Battery, 7 samples on AC
+  7  ??? (libsystem_pthread.dylib + 2240) [0x2003038c0]
+    7  ??? (libsystem_pthread.dylib + 5040) [0x2003043b0]
+      7  ??? (libdispatch.dylib + 83628) [0x1db7146ac]
+        7  ??? (libdispatch.dylib + 85420) [0x1db714dac]
+          7  ??? (libdispatch.dylib + 43748) [0x1db70aae4]
+            6  ??? (libdispatch.dylib + 40880) [0x1db709fb0]
+              6  ??? (libdispatch.dylib + 111076) [0x1db71b1e4]
+                6  ??? (libdispatch.dylib + 69252) [0x1db710e84]
+                  6  ??? (CacheDelete + 60636) [0x1da8d2cdc]
+                    6  ??? (cloudd + 22252) [0x104a116ec]
+                      6  ??? (cloudd + 25756) [0x104a1249c]
+                        6  ??? (libswiftDispatch.dylib + 5528) [0x1b1ed2598]
+                          6  ??? (libswiftDispatch.dylib + 6796) [0x1b1ed2a8c]
+                            6  ??? (libswiftDispatch.dylib + 6256) [0x1b1ed2870]
+                              6  ??? (libswiftDispatch.dylib + 6920) [0x1b1ed2b08]
+                                6  ??? (libswiftDispatch.dylib + 7124) [0x1b1ed2bd4]
+                                  6  ??? (libdispatch.dylib + 70368) [0x1db7112e0]
+                                    6  ??? (libdispatch.dylib + 111076) [0x1db71b1e4]
+                                      6  ??? (libswiftDispatch.dylib + 7336) [0x1b1ed2ca8]
+                                        6  ??? (libswiftDispatch.dylib + 6644) [0x1b1ed29f4]
+                                          6  ??? (libswiftDispatch.dylib + 5728) [0x1b1ed2660]
+                                            6  ??? (libswiftDispatch.dylib + 42948) [0x1b1edb7c4]
+                                              6  ??? (libswiftDispatch.dylib + 6604) [0x1b1ed29cc]
+                                                6  ??? (cloudd + 30316) [0x104a1366c]
+                                                  6  ??? (cloudd + 19596) [0x104a10c8c]
+                                                    6  ??? (cloudd + 16344) [0x104a0ffd8]
+                                                      6  ??? (cloudd + 15252) [0x104a0fb94]
+                                                        6  ??? (CloudKitDaemon + 1298888) [0x247a5c1c8]
+                                                          6  ??? (CoreFoundation + 120012) [0x1a14f34cc]
+                                                            6  ??? (CoreFoundation + 120808) [0x1a14f37e8]
+                                                              6  ??? (CloudKitDaemon + 388968) [0x24797df68]
+                                                                6  ??? (CloudKit + 605580) [0x1a6ad3d8c]
+                                                                  6  ??? (cloudd + 9804) [0x104a0e64c]
+                                                                    6  ??? (cloudd + 9872) [0x104a0e690]
+                                                                      6  ??? (cloudd + 9288) [0x104a0e448]
+                                                                        4  ??? (cloudd + 7960) [0x104a0df18]
+                                                                          4  ??? (CloudKitDaemon + 382248) [0x24797c528]
+                                                                            4  ??? (CloudKitDaemon + 450936) [0x24798d178]
+                                                                              4  ??? (libdispatch.dylib + 70368) [0x1db7112e0]
+                                                                                4  ??? (libdispatch.dylib + 111076) [0x1db71b1e4]
+                                                                                  3  ??? (CloudKitDaemon + 359916) [0x247976dec]
+                                                                                    3  ??? (CloudKitDaemon + 451748) [0x24798d4a4]
+                                                                                      3  ??? (libdispatch.dylib + 70368) [0x1db7112e0]
+                                                                                        3  ??? (libdispatch.dylib + 111076) [0x1db71b1e4]
+                                                                                          3  ??? (CloudKitDaemon + 359252) [0x247976b54]
+                                                                                            3  ??? (CloudKitDaemon + 358552) [0x247976898]
+                                                                                              3  ??? (CloudKit + 533056) [0x1a6ac2240]
+                                                                                                3  ??? (CloudKit + 504940) [0x1a6abb46c]
+                                                                                                  3  ??? (CloudKit + 531176) [0x1a6ac1ae8]
+                                                                                                    3  ??? (libsqlite3.dylib + 33260) [0x19f8ee1ec]
+                                                                                                      2  ??? (libsqlite3.dylib + 191556) [0x19f914c44]
+                                                                                                        2  ??? (libsqlite3.dylib + 234280) [0x19f91f328]
+                                                                                                          2  ??? (libsqlite3.dylib + 92900) [0x19f8fcae4]
+                                                                                                            2  ??? (libsqlite3.dylib + 260340) [0x19f9258f4]
+                                                                                                              2  ??? (libsqlite3.dylib + 261460) [0x19f925d54]
+                                                                                                                2  ??? (libsqlite3.dylib + 327836) [0x19f93609c]
+                                                                                                                  2  ??? (libsqlite3.dylib + 699044) [0x19f990aa4]
+                                                                                                                    2  ??? (libsqlite3.dylib + 328740) [0x19f936424]
+                                                                                                                      2  ??? (libsystem_kernel.dylib + 27724) [0x24ff73c4c]
+                                                                                                                        2  <on behalf of cloudd [153] (originated by cloudd [153])>
+                                                                                                      1  ??? (libsqlite3.dylib + 192308) [0x19f914f34]
+                                                                                                        1  ??? (libsqlite3.dylib + 329752) [0x19f936818]
+                                                                                                          1  ??? (libsqlite3.dylib + 564516) [0x19f96fd24]
+                                                                                                            1  ??? (libsqlite3.dylib + 1166892) [0x19fa02e2c]
+                                                                                                              1  ??? (libsqlite3.dylib + 408828) [0x19f949cfc]
+                                                                                                                1  ??? (libsqlite3.dylib + 328740) [0x19f936424]
+                                                                                                                  1  ??? (libsystem_kernel.dylib + 27724) [0x24ff73c4c]
+                                                                                                                    1  <on behalf of cloudd [153] (originated by cloudd [153])>
+                                                                                  1  ??? (CloudKitDaemon + 360120) [0x247976eb8]
+                                                                                    1  ??? (CloudKitDaemon + 361612) [0x24797748c]
+                                                                                      1  ??? (CloudKitDaemon + 363460) [0x247977bc4]
+                                                                                        1  ??? (CloudKitDaemon + 364200) [0x247977ea8]
+                                                                                          1  ??? (MMCS + 18116) [0x27ec026c4]
+                                                                                            1  ??? (MMCS + 18752) [0x27ec02940]
+                                                                                              1  ??? (ChunkingLibrary + 7500) [0x26760fd4c]
+                                                                                                1  ??? (ChunkingLibrary + 5104) [0x26760f3f0]
+                                                                                                  1  ??? (ChunkingLibrary + 12112) [0x267610f50]
+                                                                                                    1  ??? (ChunkingLibrary + 14016) [0x2676116c0]
+                                                                                                      1  ??? (ChunkingLibrary + 14968) [0x267611a78]
+                                                                                                        1  ??? (libsqlite3.dylib + 33260) [0x19f8ee1ec]
+                                                                                                          1  ??? (libsqlite3.dylib + 191556) [0x19f914c44]
+                                                                                                            1  ??? (libsqlite3.dylib + 234280) [0x19f91f328]
+                                                                                                              1  ??? (libsqlite3.dylib + 92900) [0x19f8fcae4]
+                                                                                                                1  ??? (libsqlite3.dylib + 260340) [0x19f9258f4]
+                                                                                                                  1  ??? (libsqlite3.dylib + 261460) [0x19f925d54]
+                                                                                                                    1  ??? (libsqlite3.dylib + 327836) [0x19f93609c]
+                                                                                                                      1  ??? (libsqlite3.dylib + 700076) [0x19f990eac]
+                                                                                                                        1  ??? (libsqlite3.dylib + 328740) [0x19f936424]
+                                                                                                                          1  ??? (libsystem_kernel.dylib + 27724) [0x24ff73c4c]
+                                                                                                                            1  <on behalf of cloudd [153] (originated by cloudd [153])>
+                                                                        2  ??? (cloudd + 8060) [0x104a0df7c]
+                                                                          2  ??? (CloudKitDaemon + 285712) [0x247964c10]
+                                                                            2  ??? (CloudKitDaemon + 286124) [0x247964dac]
+                                                                              2  ??? (CloudKitDaemon + 395592) [0x24797f948]
+                                                                                2  ??? (libdispatch.dylib + 70368) [0x1db7112e0]
+                                                                                  2  ??? (libdispatch.dylib + 111076) [0x1db71b1e4]
+                                                                                    2  ??? (CloudKitDaemon + 397912) [0x247980258]
+                                                                                      2  ??? (CloudKitDaemon + 399212) [0x24798076c]
+                                                                                        2  ??? (CloudKitDaemon + 400116) [0x247980af4]
+                                                                                          2  ??? (CloudKitDaemon + 378340) [0x24797b5e4]
+                                                                                            2  ??? (libdispatch.dylib + 70368) [0x1db7112e0]
+                                                                                              2  ??? (libdispatch.dylib + 111076) [0x1db71b1e4]
+                                                                                                2  ??? (CloudKitDaemon + 378436) [0x24797b644]
+                                                                                                  2  ??? (CloudKitDaemon + 405012) [0x247981e14]
+                                                                                                    2  ??? (MMCS + 28972) [0x27ec0512c]
+                                                                                                      2  ??? (ChunkingLibrary + 16824) [0x2676121b8]
+                                                                                                        2  ??? (ChunkingLibrary + 17020) [0x26761227c]
+                                                                                                          2  ??? (ChunkingLibrary + 17112) [0x2676122d8]
+                                                                                                            2  ??? (libsqlite3.dylib + 558212) [0x19f96e484]
+                                                                                                              2  ??? (libsqlite3.dylib + 510264) [0x19f962938]
+                                                                                                                2  ??? (libsqlite3.dylib + 353144) [0x19f93c378]
+                                                                                                                  2  ??? (libsqlite3.dylib + 354644) [0x19f93c954]
+                                                                                                                    2  ??? (libsqlite3.dylib + 355292) [0x19f93cbdc]
+                                                                                                                      1  ??? (libsqlite3.dylib + 408828) [0x19f949cfc]
+                                                                                                                        1  ??? (libsqlite3.dylib + 328740) [0x19f936424]
+                                                                                                                          1  ??? (libsystem_kernel.dylib + 27724) [0x24ff73c4c]
+                                                                                                                            1  <on behalf of cloudd [153] (originated by cloudd [153])>
+                                                                                                                      1  ??? (libsqlite3.dylib + 408400) [0x19f949b50]
+                                                                                                                        1  ??? (libsqlite3.dylib + 329152) [0x19f9365c0]
+                                                                                                                          1  ??? (libsystem_kernel.dylib + 23928) [0x24ff72d78]
+                                                                                                                            1  <on behalf of cloudd [153] (originated by cloudd [153])>
+            1  ??? (libdispatch.dylib + 40472) [0x1db709e18]
+              1  ??? (libdispatch.dylib + 125176) [0x1db71e8f8]
+                1  ??? (libdispatch.dylib + 40472) [0x1db709e18]
+                  1  ??? (libdispatch.dylib + 121764) [0x1db71dba4]
+                    1  ??? (libdispatch.dylib + 111148) [0x1db71b22c]
+                      1  ??? (libxpc.dylib + 84456) [0x1b5eb99e8]
+                        1  ??? (libxpc.dylib + 76916) [0x1b5eb7c74]
+                          1  ??? (Foundation + 274580) [0x19e7a9094]
+                            1  ??? (Foundation + 274908) [0x19e7a91dc]
+                              1  ??? (Foundation + 174396) [0x19e79093c]
+                                1  ??? (Foundation + 275960) [0x19e7a95f8]
+                                  1  ??? (CoreFoundation + 448960) [0x1a15439c0]
+                                    1  ??? (CoreFoundation + 405204) [0x1a1538ed4]
+                                      1  ??? (CloudKitDaemon + 10892) [0x247921a8c]
+                                        1  ??? (Foundation + 281988) [0x19e7aad84]
+                                          1  ??? (Foundation + 150468) [0x19e78abc4]
+                                            1  ??? (CloudKitDaemon + 12468) [0x2479220b4]
+                                              1  ??? (CloudKitDaemon + 12296) [0x247922008]
+                                                1  ??? (CloudKit + 80768) [0x1a6a53b80]
+                                                  1  ??? (CloudKitDaemon + 13316) [0x247922404]
+                                                    1  ??? (CloudKitDaemon + 13016) [0x2479222d8]
+                                                      1  ??? (CloudKit + 605580) [0x1a6ad3d8c]
+                                                        1  ??? (CloudKitDaemon + 1480072) [0x247a88588]
+                                                          1  ??? (CloudKitDaemon + 15320) [0x247922bd8]
+                                                            1  ??? (CloudKitDaemon + 17804) [0x24792358c]
+                                                              1  ??? (CloudKitDaemon + 62184) [0x24792e2e8]
+                                                                1  ??? (CloudKitDaemon + 63736) [0x24792e8f8]
+                                                                  1  ??? (CloudKitDaemon + 87240) [0x2479344c8]
+                                                                    1  ??? (libdispatch.dylib + 70368) [0x1db7112e0]
+                                                                      1  ??? (libdispatch.dylib + 111076) [0x1db71b1e4]
+                                                                        1  ??? (CloudKitDaemon + 87420) [0x24793457c]
+                                                                          1  ??? (CloudKit + 137580) [0x1a6a6196c]
+                                                                            1  ??? (CloudKit + 137884) [0x1a6a61a9c]
+                                                                              1  ??? (CloudKit + 136720) [0x1a6a61610]
+                                                                                1  ??? (CloudKit + 136544) [0x1a6a61560]
+                                                                                  1  ??? (libsqlite3.dylib + 33260) [0x19f8ee1ec]
+                                                                                    1  ??? (libsqlite3.dylib + 191556) [0x19f914c44]
+                                                                                      1  ??? (libsqlite3.dylib + 234280) [0x19f91f328]
+                                                                                        1  ??? (libsqlite3.dylib + 92900) [0x19f8fcae4]
+                                                                                          1  ??? (libsqlite3.dylib + 260340) [0x19f9258f4]
+                                                                                            1  ??? (libsqlite3.dylib + 261460) [0x19f925d54]
+                                                                                              1  ??? (libsqlite3.dylib + 327836) [0x19f93609c]
+                                                                                                1  ??? (libsqlite3.dylib + 699044) [0x19f990aa4]
+                                                                                                  1  ??? (libsqlite3.dylib + 328740) [0x19f936424]
+                                                                                                    1  ??? (libsystem_kernel.dylib + 27724) [0x24ff73c4c]
+                                                                                                      1  <on behalf of cloudd [153] (originated by cloudd [153]), Requested Thread QoS Utility>
+
+  Binary Images:
+           0x104a0c000 -                ???  cloudd                  <009534A8-123A-3B95-A280-03461A1499B1>  /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+           0x19e766000 -        0x19f5ee45f  Foundation              <ACC6C3B5-069F-3FAE-BAFB-777B2F2D2FAE>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x19f8e6000 -        0x19fa8f853  libsqlite3.dylib        <DC63687D-4615-3C75-9E64-D9A268529182>  /usr/lib/libsqlite3.dylib
+           0x1a14d6000 -        0x1a1a720ff  CoreFoundation          <394B3266-65A7-3CBA-B302-A128795D2316>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1a6a40000 -        0x1a6e47f1f  CloudKit                <262C8315-AEF9-3255-A4A9-DFA0254A81CD>  /System/Library/Frameworks/CloudKit.framework/CloudKit
+           0x1b1ed1000 -        0x1b1ee76a0  libswiftDispatch.dylib  <67B43890-C919-336A-803D-718FD340F781>  /usr/lib/swift/libswiftDispatch.dylib
+           0x1b5ea5000 -        0x1b5ef661f  libxpc.dylib            <A08D6F00-102F-31A3-92D5-E65AC7B776DF>  /usr/lib/system/libxpc.dylib
+           0x1da8c4000 -        0x1da910fdf  CacheDelete             <749F34C6-2EF7-376D-92FB-387293A94CEF>  /System/Library/PrivateFrameworks/CacheDelete.framework/CacheDelete
+           0x1db700000 -        0x1db7465ff  libdispatch.dylib       <74B7E375-9C2E-30F5-9EB0-AD056E20B5D8>  /usr/lib/system/libdispatch.dylib
+           0x200303000 -        0x20030f4ef  libsystem_pthread.dylib <6C9BCDE9-819D-345D-9D71-B60AD47E5159>  /usr/lib/system/libsystem_pthread.dylib
+           0x24791f000 -        0x247e626ff  CloudKitDaemon          <7DB328B1-467E-39B2-A366-9D56B8E37A46>  /System/Library/PrivateFrameworks/CloudKitDaemon.framework/CloudKitDaemon
+           0x24ff6d000 -        0x24ffa8ac7  libsystem_kernel.dylib  <5F4E68E1-021C-3A8F-A6F6-2C4C077D0676>  /usr/lib/system/libsystem_kernel.dylib
+           0x26760e000 -        0x267668e1f  ChunkingLibrary         <C07DA017-960D-3208-AF18-2BE273AEB1F2>  /System/Library/PrivateFrameworks/ChunkingLibrary.framework/ChunkingLibrary
+           0x27ebfe000 -        0x27eca90df  MMCS                    <7436B1E2-5CEE-329B-B6B8-CF48B202160C>  /System/Library/PrivateFrameworks/MMCS.framework/MMCS

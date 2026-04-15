@@ -1,0 +1,18 @@
+
+APPLYING DEFAULT FILTERS:
+SDUnitLogGlob with glob '/private/var/logs/CrashReporter/stacks-*': found no matches
+
+APPLYING DEFAULT FILTERS:
+/private/var/mobile/Library/Logs/CrashReporter/stacks-2026-03-09-125654.ips, Added to Candidate logs
+/private/var/mobile/Library/Logs/CrashReporter/stacks-2026-03-09-125639.ips, Added to Candidate logs
+
+APPLYING DEFAULT FILTERS:
+SDUnitLogGlob with glob '/private/var/mobile/Library/Logs/CrashReporter/Retired/stacks-*': found no matches
+
+
+ENFORCING SIZE LIMIT OF 0 MB ON FILTERED CANDIDATES:
+
+/private/var/mobile/Library/Logs/CrashReporter/stacks-2026-03-09-125654.ips, Added (1247863 bytes)
+/private/var/mobile/Library/Logs/CrashReporter/stacks-2026-03-09-125639.ips, Added (1296700 bytes)
+
+** DONE Enforcing size limit **

@@ -1,0 +1,220 @@
+/sys/firmware/acpi/tables:
+Titotal 0
+
+1 root root
+3
+0
+1
+8 :39
+APIC
+0.-1--**
+1 root root
+5
+6
+1 : 39
+BORT
+lo:-ln
+
+
+
+
+1 root root
+8
+4
+1
+8
+DB02
+٠u٦-٢٠٠
+1 root root
+52
+1
+8:39
+DBGP
+
+1 root root
+B
+6
+EEEEERZNR
+1
+8
+T
+d٥:-٢٠٠
+1 root root
+2
+7
+6
+1
+8
+3
+F
+do:-r--
+1 root root
+6
+3
+A
+oul -٢٠٠-
+1 root root
+5
+6
+38日
+FINT
+TT١-٢٠٠٠
+1 root root
+68
+FPDT
+- T
+udo:
+1 root root
+56
+Арг
+18:39
+HPET
+
+1 root root
+148
+Apr
+2
+18:39
+LPIT
+Coul
+1 root root
+60
+Apr
+18:39
+MCFG
+Coul
+- Г
+1
+root root
+45
+Арг
+18:39
+NHLT
+Coul-٢.--_-.--
+1 root root
+8365
+Арг
+2
+18:30
+SSDT1
+sudo:-iranane-
+1 root root
+2642
+Apr
+2
+18:39
+55DT2
+: TTY-T--*-naam
+root root
+12461
+Арг
+2
+18 :39
+5SDT3
+sudo:
+1 root root
+5243
+Apr
+2
+18:39
+55DT4
+*T--
+,sudo:
+1 root root
+14142
+Арг
+2
+18:30
+SSDTS
+"T...
+Coul
+"T"=.
+1
+root root
+1
+root root
+10016
+Apr
+76
+Арг
+2
+18:39
+55DTG
+18:39
+TPM2
+Coul - ٢٠٠٠
+1 root root
+60 Арг
+2
+18:39 WPBT
+٠ ١١١٠٢٠٠٠٠ ٠٠٠ :
+1 root root
+40
+Арг
+18:39 WSMT
+(sudo: drwer-xr-x 2 root root
+
+Арг
+2
+18:39 data
+«(sudo:
+drwxr-xr-x 2 root root
+Apr
+18:39 dynamic
+I: Coul/sys/firmware/acpi/tables/data:
+t : Tlitotal 0
+x (sudo:
+x(sudo:/sys/firmware/acpi/tables/dynamic:
+B]: Coultotal @
+-....
+• -.-...
+* Г......
+• T---
+1
+1
+1
+1
+Feasfe
+- Г..•.
+root root
+3050
+root
+root
+root
+1912
+root
+983
+root
+root
+3362
+root
+root
+1508
+root
+root root
+252
+364
+Арг
+Apr
+Apr
+Арг
+Арг
+ADr
+2
+2
+2
+2
+2.
+18:39
+18:39
+18:39
+18:39
+18:39
+18:39
+10 .20
+5SDT10
+55DT11
+550712
+S5DT13
+5SDT7
+SSDT8

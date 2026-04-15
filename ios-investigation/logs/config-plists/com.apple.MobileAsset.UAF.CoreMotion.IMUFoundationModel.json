@@ -1,0 +1,27 @@
+{
+  "eventInformation" : {
+    "assetSetName" : "com.apple.MobileAsset.UAF.CoreMotion.IMUFoundationModel",
+    "autoAssetEntries" : [
+      {
+        "assetSpecifier" : "com.apple.fm.coremotion.calorimetry_reduced_embeddings.adaptor.generic",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.fm.coremotion.imu_v1.base.generic",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.fm.coremotion.calorimetry_fm_predicted_wrmets_v1.adaptor.generic",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.coremotion.imufoundationmodel.uaf.metadata",
+        "assetLockedInhibitsRemoval" : false
+      }
+    ],
+    "maxTargetOSVersion" : "26.4.9999",
+    "minTargetOSVersion" : "26.4",
+    "platformAssetVersion" : "1.0.295071122.13.203605,0"
+  },
+  "timestamp" : "2026-03-09T12:54:40.316Z"
+}

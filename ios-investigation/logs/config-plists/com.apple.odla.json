@@ -1,0 +1,27 @@
+{
+  "eventInformation" : {
+    "assetSetName" : "com.apple.odla",
+    "autoAssetEntries" : [
+      {
+        "assetSpecifier" : "com.apple.odla.recipe.SAW.Spotlight.SurveyDaily",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.odla.recipe.SAW.Spotlight.SurveyWeekly",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.odla.recipe.SAW.Spotlight.Extraction",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.odla.recipe.SAW.Spotlight.Report",
+        "assetLockedInhibitsRemoval" : false
+      }
+    ],
+    "maxTargetOSVersion" : "26.4.9999",
+    "minTargetOSVersion" : "26.4",
+    "platformAssetVersion" : "1.0.295071122.13.203605,0"
+  },
+  "timestamp" : "2026-03-09T12:54:39.849Z"
+}

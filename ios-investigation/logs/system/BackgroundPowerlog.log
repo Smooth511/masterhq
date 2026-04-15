@@ -1,0 +1,10 @@
+
+APPLYING DEFAULT FILTERS:
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/powerlogs_sysdiagnose_temp.uFvIsY/powerlogs/log_2026-03-09_12-57_163D9404.BGSQL, Added to Candidate logs
+
+
+ENFORCING SIZE LIMIT OF 30 MB ON FILTERED CANDIDATES:
+
+/private/var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/sysdiagnose/IN_PROGRESS_sysdiagnose_2026.03.09_12-56-54+0000_iPhone-OS_iPhone_23D8133.tmp/powerlogs_sysdiagnose_temp.uFvIsY/powerlogs/log_2026-03-09_12-57_163D9404.BGSQL, Added (1818624 bytes)
+
+** DONE Enforcing size limit **

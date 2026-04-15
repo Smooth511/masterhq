@@ -1,0 +1,186 @@
+
+APPLYING DEFAULT FILTERS:
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History.txt, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History.txt, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History.txt, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History.txt, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History.txt, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History.txt, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History.txt, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History.txt, Added to Candidate logs
+
+APPLYING DEFAULT FILTERS:
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_09.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_08.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_06.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_07.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_05.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_04.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_00.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_01.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_03.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_02.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_09.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_08.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_05.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_04.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_06.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_07.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_03.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_02.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_00.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_01.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_00.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_01.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_03.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_02.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_06.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_07.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_05.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_04.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_09.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_08.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_08.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_09.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_01.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_00.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_02.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_03.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_07.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_06.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_04.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_05.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_06.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_07.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_05.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_04.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_00.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_01.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_03.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_02.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_09.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_08.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_08.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_09.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_01.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_00.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_02.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_03.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_07.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_06.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_04.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_05.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_04.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_05.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_07.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_06.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_02.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_03.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_01.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_00.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_08.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_09.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_07.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_06.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_04.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_05.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_01.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_00.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_02.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_03.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_08.log, Added to Candidate logs
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_09.log, Added to Candidate logs
+
+
+ENFORCING SIZE LIMIT OF 5 MB ON FILTERED CANDIDATES:
+
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History.txt, Added (1 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History.txt, Added (1 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History.txt, Added (1 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History.txt, Added (1 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History.txt, Added (1 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History.txt, Added (1 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History.txt, Added (1 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History.txt, Added (1 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_01.log, Added (63384 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_02.log, Added (34579 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_01.log, Added (63426 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_02.log, Added (46598 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_01.log, Added (63290 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_09.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_08.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_07.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_06.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_05.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_04.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_03.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_02.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_01.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_PushNotification_History_00.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_09.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_08.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_07.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_06.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_05.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_04.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_03.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_02.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_01.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Secure_History_00.log, Added (2105 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_09.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_08.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_07.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_06.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_05.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_04.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_03.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_02.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_01.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Scheduler_History_00.log, Added (1066 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_09.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_08.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_07.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_06.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_05.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_04.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_03.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_02.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_01.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Stager_History_00.log, Added (48664 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_09.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_08.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_07.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_06.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_05.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_04.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_03.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Error_History_00.log, Added (63461 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_09.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_08.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_07.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_06.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_05.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_04.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_03.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Atomic_History_00.log, Added (63509 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_09.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_08.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_07.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_06.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_05.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_04.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_03.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_02.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Locker_History_00.log, Added (63583 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_09.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_08.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_07.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_06.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_05.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_04.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_03.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_02.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_01.log, Added (56 bytes)
+/private/var/MobileAsset/AssetsV2/history/MAAutoAsset_Filesystem_History_00.log, Added (38512 bytes)
+
+** DONE Enforcing size limit **

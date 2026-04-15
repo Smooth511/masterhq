@@ -1,0 +1,869 @@
+[
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/1#event-22806319646",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/1",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-02-15T16:13:05Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/1#event-22806319669",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/1",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-02-15T16:13:05Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/1#event-22806322236",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/1",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-02-15T16:13:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/1#event-22806327542",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/1",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Fix missing DLL issue and troubleshoot malware",
+    "title_is": "No changes made - Invalid issue request",
+    "created_at": "2026-02-15T16:14:17Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/1#event-22806328223",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/1",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-02-15T16:14:23Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/1#event-22806328339",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/1",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-02-15T16:14:24Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/2#event-23098978036",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/2",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-02-26T10:48:55Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/2#event-23098978152",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/2",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-02-26T10:48:55Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/2#event-23098979989",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/2",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-02-26T10:48:59Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/2#event-23099129572",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/2",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Create report for full chat conversation export",
+    "title_is": "Add 2026-02-26 chat export report",
+    "created_at": "2026-02-26T10:53:59Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/2#event-23099132776",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/2",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-02-26T10:54:06Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/4#event-23101341047",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/4",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-02-26T12:11:13Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/4#event-23101341128",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/4",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-02-26T12:11:13Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/4#event-23101343002",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/4",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-02-26T12:11:17Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/4#event-23101455185",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/4",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Update chat export report with new user context and references",
+    "title_is": "Create 2026-02-26 chat export report with user context, repo history, and issue #3 appendices",
+    "created_at": "2026-02-26T12:15:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/4#event-23101458090",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/4",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-02-26T12:15:46Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/5#event-23101735614",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/5",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-02-26T12:26:26Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/5#event-23101735701",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/5",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-02-26T12:26:26Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/5#event-23101737807",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/5",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-02-26T12:26:31Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/6#event-23101800808",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/6",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-02-26T12:28:56Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/6#event-23101800887",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/6",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-02-26T12:28:57Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/6#event-23101802971",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/6",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-02-26T12:29:01Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/6#event-23101872664",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/6",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Add markdown report with chat export and context",
+    "title_is": "Add 2026-02-26 chat export report for AI agent continuity",
+    "created_at": "2026-02-26T12:31:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/6#event-23101876687",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/6",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-02-26T12:31:52Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/5#event-23101919655",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/5",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Update comprehensive report with chronological details and context",
+    "title_is": "Add comprehensive chronological chat export report (2026-02-26)",
+    "created_at": "2026-02-26T12:33:32Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/5#event-23101924237",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/5",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-02-26T12:33:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#event-23103773850",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-02-26T13:34:09Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#event-23103774005",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-02-26T13:34:10Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#event-23103777398",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-02-26T13:34:15Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#event-23104631529",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Update and finalise comprehensive AI agent briefing document",
+    "title_is": "Final report: integrate images, audit log, and lost agent session context",
+    "created_at": "2026-02-26T14:00:28Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#event-23104635876",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-02-26T14:00:36Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#event-23106772651",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-02-26T15:06:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#event-23107031778",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "Final report: integrate images, audit log, and lost agent session context",
+    "title_is": "Final report: integrate images, audit log, lost agent session context, and confirmed Literatefool history",
+    "created_at": "2026-02-26T15:14:04Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#event-23107037289",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-02-26T15:14:14Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#event-23164415229",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "actor": "https://github.com/Smooth511",
+    "event": "ready_for_review",
+    "created_at": "2026-03-01T02:54:03Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#event-23164415297",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-01T02:54:04Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#event-23164420243",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-01T02:54:38Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/8#event-23164550544",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/8",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-01T03:10:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/8#event-23164550567",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/8",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-01T03:10:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/8#event-23164551050",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/8",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-01T03:10:47Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/8#event-23164639644",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/8",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Analyze attack log for Windows OS vulnerabilities",
+    "title_is": "Forensic analysis report: AttackShortened.txt WFP attack reconstruction",
+    "created_at": "2026-03-01T03:21:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/8#event-23164641393",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/8",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-01T03:21:51Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/8#event-23164723506",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/8",
+    "actor": "https://github.com/Smooth511",
+    "event": "ready_for_review",
+    "created_at": "2026-03-01T03:32:37Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/8#event-23164723575",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/8",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-01T03:32:37Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/8#event-23164723952",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/8",
+    "actor": "https://github.com/Smooth511",
+    "event": "merged",
+    "commit_id": "2590ab27ce32caf5bf6dd27322eaf891da11a6d2",
+    "created_at": "2026-03-01T03:32:40Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/8#event-23164723965",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/8",
+    "actor": "https://github.com/Smooth511",
+    "event": "closed",
+    "created_at": "2026-03-01T03:32:40Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/8#event-23164727453",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/8",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-01T03:33:14Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#event-23164793939",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "actor": "https://github.com/Smooth511",
+    "event": "merged",
+    "commit_id": "03d5ae7c6f811bf717493a52a27ee0a0fad80d84",
+    "created_at": "2026-03-01T03:39:19Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/7#event-23164793944",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/7",
+    "actor": "https://github.com/Smooth511",
+    "event": "closed",
+    "created_at": "2026-03-01T03:39:20Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/9#event-23209645163",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/9",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-02T23:42:08Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/9#event-23209645393",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/9",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-02T23:42:08Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/9#event-23209646691",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/9",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-02T23:42:11Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/9#event-23209662492",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/9",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-02T23:43:13Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/9#event-23209730201",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/9",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Fix issue with chat history retrieval",
+    "title_is": "Add session index to surface previous agent sessions and lost Claude chat",
+    "created_at": "2026-03-02T23:47:26Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/9#event-23209732238",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/9",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-02T23:47:34Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/issues/10#event-23298316438",
+    "issue": "https://github.com/Smooth511/Smashers-HQ/issues/10",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-05T13:45:46Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/issues/10#event-23298350832",
+    "issue": "https://github.com/Smooth511/Smashers-HQ/issues/10",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-05T13:46:49Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/11#event-23298353344",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/11",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-05T13:46:54Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/11#event-23298353471",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/11",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-05T13:46:54Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/11#event-23298354026",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/11",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-05T13:46:55Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/11#event-23298357516",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/11",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-05T13:47:01Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/11#event-23298556915",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/11",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Assist with DFU process for iPhone 14 Pro",
+    "title_is": "docs: iPhone 14 Pro DFU restore guide for Ubuntu (USB-A to Lightning, iOS 26.3.1)",
+    "created_at": "2026-03-05T13:52:50Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/11#event-23298561090",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/11",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-05T13:52:58Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/11#event-23338932979",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/11",
+    "actor": "https://github.com/Smooth511",
+    "event": "ready_for_review",
+    "created_at": "2026-03-06T17:02:28Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/11#event-23338933643",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/11",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-06T17:02:30Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/11#event-23338944261",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/11",
+    "actor": "https://github.com/Smooth511",
+    "event": "merged",
+    "commit_id": "03b4155d943381edb78ae33372f3e0d71481902f",
+    "created_at": "2026-03-06T17:02:56Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/11#event-23338944295",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/11",
+    "actor": "https://github.com/Smooth511",
+    "event": "closed",
+    "created_at": "2026-03-06T17:02:56Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/issues/10#event-23338945414",
+    "issue": "https://github.com/Smooth511/Smashers-HQ/issues/10",
+    "actor": "https://github.com/Smooth511",
+    "event": "closed",
+    "referencing_pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/11",
+    "created_at": "2026-03-06T17:02:59Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/11#event-23338952264",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/11",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-06T17:03:14Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23519577807",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-12T18:53:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23519577879",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-12T18:53:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23519580567",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-12T18:53:44Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23519818153",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Fix crash related to rendering Dance.txt",
+    "title_is": "Break Dancesong.txt into renderer-safe chunks",
+    "created_at": "2026-03-12T19:00:45Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23519822773",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-12T19:00:54Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23519825403",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-12T19:00:57Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23519867397",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-12T19:02:24Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23519875839",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-12T19:02:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23519896370",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-12T19:03:27Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23520122256",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "Break Dancesong.txt into renderer-safe chunks",
+    "title_is": "Add Dancesong chunk verification doc explaining +827/−308 diff stats",
+    "created_at": "2026-03-12T19:10:41Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23520127545",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-12T19:10:52Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23527066418",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "ready_for_review",
+    "created_at": "2026-03-12T23:25:21Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23527066758",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-12T23:25:23Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23527067579",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "merged",
+    "commit_id": "03ec5dfcb16614aee535b0b0ace1d3864bb3c431",
+    "created_at": "2026-03-12T23:25:27Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23527067596",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "closed",
+    "created_at": "2026-03-12T23:25:27Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23527069240",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-12T23:25:34Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/12#event-23527077402",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/12",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-12T23:26:02Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/13#event-23609065699",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/13",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T14:09:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/13#event-23609065913",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/13",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T14:09:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/13#event-23609068708",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/13",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T14:09:30Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/13#event-23609973282",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/13",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Add documentation for first attack cycles and defense planning",
+    "title_is": "Archaeological dig: compile dormant first-attack documentation from Smashers-HQ history",
+    "created_at": "2026-03-16T14:33:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/13#event-23609978656",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/13",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth511",
+    "created_at": "2026-03-16T14:33:49Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/13#event-23609980878",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/13",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-16T14:33:53Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/13#event-23619512198",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/13",
+    "actor": "https://github.com/Smooth511",
+    "event": "ready_for_review",
+    "created_at": "2026-03-16T19:29:49Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/13#event-23619512490",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/13",
+    "actor": "https://github.com/Smooth511",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-16T19:29:49Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/13#event-23619531659",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/13",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-16T19:30:31Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/13#event-23620038101",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/13",
+    "actor": "https://github.com/Smooth511",
+    "event": "merged",
+    "commit_id": "e107dbf68050fb36cb8d47e7b5b3ba43b7f07e63",
+    "created_at": "2026-03-16T19:46:48Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/Smashers-HQ/pull/13#event-23620038144",
+    "pull_request": "https://github.com/Smooth511/Smashers-HQ/pull/13",
+    "actor": "https://github.com/Smooth511",
+    "event": "closed",
+    "created_at": "2026-03-16T19:46:48Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/malware-invasion.-battle-of-the-rootkits/pull/1#event-23166113143",
+    "pull_request": "https://github.com/Smooth511/malware-invasion.-battle-of-the-rootkits/pull/1",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-01T05:59:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/malware-invasion.-battle-of-the-rootkits/pull/1#event-23166113156",
+    "pull_request": "https://github.com/Smooth511/malware-invasion.-battle-of-the-rootkits/pull/1",
+    "actor": "https://github.com/Smooth511",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-01T05:59:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth511/malware-invasion.-battle-of-the-rootkits/pull/1#event-23166113453",
+    "pull_request": "https://github.com/Smooth511/malware-invasion.-battle-of-the-rootkits/pull/1",
+    "actor": "https://github.com/Smooth511",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-01T05:59:29Z"
+  }
+]

@@ -1,0 +1,137 @@
+2026-03-27T23:25:47.340569+00:00 lloyddesk postfix/postfix-script[11224]: starting the Postfix mail system
+2026-03-27T23:25:47.343577+00:00 lloyddesk postfix/master[11226]: daemon started -- version 3.8.6, configuration /etc/postfix
+2026-03-27T23:40:58.717805+00:00 lloyddesk postfix/pickup[11227]: AF08A8E15BC: uid=1000 from=<lloyd>
+2026-03-27T23:40:58.722374+00:00 lloyddesk postfix/cleanup[33121]: AF08A8E15BC: message-id=<20260327234058.AF08A8E15BC@lloyddesk>
+2026-03-27T23:40:58.725957+00:00 lloyddesk postfix/qmgr[11228]: AF08A8E15BC: from=<"lloyd@lloyddesk"@discord.com>, size=520, nrcpt=1 (queue active)
+2026-03-27T23:40:58.820844+00:00 lloyddesk postfix/smtp[33123]: warning: relayhost configuration problem
+2026-03-27T23:40:58.827662+00:00 lloyddesk postfix/smtp[33123]: AF08A8E15BC: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=0.11, delays=0.02/0.02/0.08/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-27T23:50:47.143864+00:00 lloyddesk postfix/qmgr[11228]: AF08A8E15BC: from=<"lloyd@lloyddesk"@discord.com>, size=520, nrcpt=1 (queue active)
+2026-03-27T23:50:47.344312+00:00 lloyddesk postfix/smtp[35184]: warning: relayhost configuration problem
+2026-03-27T23:50:47.362279+00:00 lloyddesk postfix/smtp[35184]: AF08A8E15BC: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=589, delays=588/0.02/0.18/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-27T23:51:08.462965+00:00 lloyddesk postfix/pickup[11227]: 70F958E15C2: uid=0 from=<root>
+2026-03-27T23:51:08.463223+00:00 lloyddesk postfix/cleanup[36177]: 70F958E15C2: message-id=<20260327235108.70F958E15C2@lloyddesk>
+2026-03-27T23:51:08.466671+00:00 lloyddesk postfix/qmgr[11228]: 70F958E15C2: from=<"root@lloyddesk"@discord.com>, size=11889, nrcpt=1 (queue active)
+2026-03-27T23:51:08.641140+00:00 lloyddesk postfix/smtp[35184]: warning: relayhost configuration problem
+2026-03-27T23:51:08.652736+00:00 lloyddesk postfix/smtp[35184]: 70F958E15C2: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=0.2, delays=0.02/0/0.17/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T00:00:47.218880+00:00 lloyddesk postfix/qmgr[11228]: AF08A8E15BC: from=<"lloyd@lloyddesk"@discord.com>, size=520, nrcpt=1 (queue active)
+2026-03-28T00:00:47.237353+00:00 lloyddesk postfix/qmgr[11228]: 70F958E15C2: from=<"root@lloyddesk"@discord.com>, size=11889, nrcpt=1 (queue active)
+2026-03-28T00:00:47.344633+00:00 lloyddesk postfix/smtp[39465]: warning: relayhost configuration problem
+2026-03-28T00:00:47.345289+00:00 lloyddesk postfix/smtp[39464]: warning: relayhost configuration problem
+2026-03-28T00:00:47.363643+00:00 lloyddesk postfix/smtp[39465]: 70F958E15C2: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=579, delays=579/0.01/0.09/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T00:00:47.366621+00:00 lloyddesk postfix/smtp[39464]: AF08A8E15BC: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=1189, delays=1189/0.03/0.1/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T00:10:47.769510+00:00 lloyddesk postfix/qmgr[11228]: 70F958E15C2: from=<"root@lloyddesk"@discord.com>, size=11889, nrcpt=1 (queue active)
+2026-03-28T00:10:47.829920+00:00 lloyddesk postfix/smtp[50163]: warning: relayhost configuration problem
+2026-03-28T00:10:47.844105+00:00 lloyddesk postfix/smtp[50163]: 70F958E15C2: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=1179, delays=1179/0.01/0.05/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T00:20:47.208190+00:00 lloyddesk postfix/qmgr[11228]: AF08A8E15BC: from=<"lloyd@lloyddesk"@discord.com>, size=520, nrcpt=1 (queue active)
+2026-03-28T00:20:47.259682+00:00 lloyddesk postfix/smtp[134395]: warning: relayhost configuration problem
+2026-03-28T00:20:47.266592+00:00 lloyddesk postfix/smtp[134395]: AF08A8E15BC: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=2389, delays=2388/0.02/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T00:30:47.613364+00:00 lloyddesk postfix/qmgr[11228]: 70F958E15C2: from=<"root@lloyddesk"@discord.com>, size=11889, nrcpt=1 (queue active)
+2026-03-28T00:30:47.661037+00:00 lloyddesk postfix/smtp[292033]: warning: relayhost configuration problem
+2026-03-28T00:30:47.673193+00:00 lloyddesk postfix/smtp[292033]: 70F958E15C2: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=2379, delays=2379/0.02/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T01:00:47.125732+00:00 lloyddesk postfix/qmgr[11228]: AF08A8E15BC: from=<"lloyd@lloyddesk"@discord.com>, size=520, nrcpt=1 (queue active)
+2026-03-28T01:00:47.169566+00:00 lloyddesk postfix/smtp[598444]: warning: relayhost configuration problem
+2026-03-28T01:00:47.181950+00:00 lloyddesk postfix/smtp[598444]: AF08A8E15BC: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=4788, delays=4788/0.01/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T01:10:47.623585+00:00 lloyddesk postfix/qmgr[11228]: 70F958E15C2: from=<"root@lloyddesk"@discord.com>, size=11889, nrcpt=1 (queue active)
+2026-03-28T01:10:47.671038+00:00 lloyddesk postfix/smtp[623869]: warning: relayhost configuration problem
+2026-03-28T01:10:47.679865+00:00 lloyddesk postfix/smtp[623869]: 70F958E15C2: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=4779, delays=4779/0.02/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T01:11:39.758069+00:00 lloyddesk postfix/pickup[623379]: B8D368E0097: uid=1000 from=<lloyd>
+2026-03-28T01:11:39.758476+00:00 lloyddesk postfix/cleanup[623892]: B8D368E0097: message-id=<20260328011139.B8D368E0097@lloyddesk>
+2026-03-28T01:11:39.762103+00:00 lloyddesk postfix/qmgr[11228]: B8D368E0097: from=<"lloyd@lloyddesk"@discord.com>, size=506, nrcpt=1 (queue active)
+2026-03-28T01:11:39.795797+00:00 lloyddesk postfix/smtp[623869]: warning: relayhost configuration problem
+2026-03-28T01:11:39.799225+00:00 lloyddesk postfix/smtp[623869]: B8D368E0097: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=0.06, delays=0.02/0/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T01:20:47.076971+00:00 lloyddesk postfix/qmgr[11228]: B8D368E0097: from=<"lloyd@lloyddesk"@discord.com>, size=506, nrcpt=1 (queue active)
+2026-03-28T01:20:47.258402+00:00 lloyddesk postfix/smtp[718092]: warning: relayhost configuration problem
+2026-03-28T01:20:47.276534+00:00 lloyddesk postfix/smtp[718092]: B8D368E0097: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=548, delays=547/0.02/0.16/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T01:30:47.648007+00:00 lloyddesk postfix/qmgr[11228]: B8D368E0097: from=<"lloyd@lloyddesk"@discord.com>, size=506, nrcpt=1 (queue active)
+2026-03-28T01:30:47.693647+00:00 lloyddesk postfix/smtp[781727]: warning: relayhost configuration problem
+2026-03-28T01:30:47.708735+00:00 lloyddesk postfix/smtp[781727]: B8D368E0097: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=1148, delays=1148/0.01/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T01:50:48.656177+00:00 lloyddesk postfix/qmgr[11228]: B8D368E0097: from=<"lloyd@lloyddesk"@discord.com>, size=506, nrcpt=1 (queue active)
+2026-03-28T01:50:48.827962+00:00 lloyddesk postfix/smtp[867115]: warning: relayhost configuration problem
+2026-03-28T01:50:48.845867+00:00 lloyddesk postfix/smtp[867115]: B8D368E0097: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=2349, delays=2349/0.01/0.16/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T02:16:43.686182+00:00 lloyddesk postfix/postfix-script[2697]: starting the Postfix mail system
+2026-03-28T02:16:43.689255+00:00 lloyddesk postfix/master[2699]: daemon started -- version 3.8.6, configuration /etc/postfix
+2026-03-28T02:16:43.698451+00:00 lloyddesk postfix/qmgr[2701]: AF08A8E15BC: from=<"lloyd@lloyddesk"@discord.com>, size=520, nrcpt=1 (queue active)
+2026-03-28T02:16:43.730902+00:00 lloyddesk postfix/smtp[2707]: AF08A8E15BC: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=9345, delays=9345/0.03/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=MX: Host not found, try again)
+2026-03-28T02:21:08.137916+00:00 lloyddesk postfix/postfix-script[2462]: starting the Postfix mail system
+2026-03-28T02:21:08.141080+00:00 lloyddesk postfix/master[2464]: daemon started -- version 3.8.6, configuration /etc/postfix
+2026-03-28T02:21:08.148949+00:00 lloyddesk postfix/qmgr[2466]: 70F958E15C2: from=<"root@lloyddesk"@discord.com>, size=11889, nrcpt=1 (queue active)
+2026-03-28T02:21:08.187635+00:00 lloyddesk postfix/smtp[2472]: 70F958E15C2: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=9000, delays=9000/0.03/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=MX: Host not found, try again)
+2026-03-28T02:22:56.324885+00:00 lloyddesk postfix/postfix-script[3319]: starting the Postfix mail system
+2026-03-28T02:22:56.327952+00:00 lloyddesk postfix/master[3321]: daemon started -- version 3.8.6, configuration /etc/postfix
+2026-03-28T02:22:56.460063+00:00 lloyddesk postfix/postfix-script[2679]: starting the Postfix mail system
+2026-03-28T02:22:56.463295+00:00 lloyddesk postfix/master[2681]: daemon started -- version 3.8.6, configuration /etc/postfix
+2026-03-28T02:22:56.391022+00:00 lloyddesk postfix/postfix-script[2679]: starting the Postfix mail system
+2026-03-28T02:22:56.394250+00:00 lloyddesk postfix/master[2681]: daemon started -- version 3.8.6, configuration /etc/postfix
+2026-03-28T02:27:49.299886+00:00 lloyddesk postfix/pickup[2682]: 492998E0144: uid=0 from=<root>
+2026-03-28T02:27:49.302885+00:00 lloyddesk postfix/cleanup[2739]: 492998E0144: message-id=<20260328022749.492998E0144@lloyddesk>
+2026-03-28T02:27:49.306238+00:00 lloyddesk postfix/qmgr[2683]: 492998E0144: from=<"root@lloyddesk"@discord.com>, size=649, nrcpt=1 (queue active)
+2026-03-28T02:27:49.332819+00:00 lloyddesk postfix/smtp[2742]: 492998E0144: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=0.03, delays=0.01/0.02/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=MX: Host not found, try again)
+2026-03-28T02:32:56.342455+00:00 lloyddesk postfix/qmgr[2683]: 492998E0144: from=<"root@lloyddesk"@discord.com>, size=649, nrcpt=1 (queue active)
+2026-03-28T02:32:56.353163+00:00 lloyddesk postfix/qmgr[2683]: B8D368E0097: from=<"lloyd@lloyddesk"@discord.com>, size=506, nrcpt=1 (queue active)
+2026-03-28T02:32:56.359923+00:00 lloyddesk postfix/smtp[3593]: 492998E0144: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=307, delays=307/0.01/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=MX: Host not found, try again)
+2026-03-28T02:32:56.362961+00:00 lloyddesk postfix/smtp[3594]: B8D368E0097: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=4877, delays=4877/0.01/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=MX: Host not found, try again)
+2026-03-28T14:21:57.062443+00:00 lloyddesk postfix/qmgr[2683]: 492998E0144: from=<"root@lloyddesk"@discord.com>, size=649, nrcpt=1 (queue active)
+2026-03-28T14:21:57.065298+00:00 lloyddesk postfix/qmgr[2683]: B8D368E0097: from=<"lloyd@lloyddesk"@discord.com>, size=506, nrcpt=1 (queue active)
+2026-03-28T14:21:57.072926+00:00 lloyddesk postfix/qmgr[2683]: AF08A8E15BC: from=<"lloyd@lloyddesk"@discord.com>, size=520, nrcpt=1 (queue active)
+2026-03-28T14:21:57.073293+00:00 lloyddesk postfix/qmgr[2683]: 70F958E15C2: from=<"root@lloyddesk"@discord.com>, size=11889, nrcpt=1 (queue active)
+2026-03-28T14:21:57.134752+00:00 lloyddesk postfix/smtp[44851]: warning: relayhost configuration problem
+2026-03-28T14:21:57.134897+00:00 lloyddesk postfix/smtp[44877]: warning: relayhost configuration problem
+2026-03-28T14:21:57.135005+00:00 lloyddesk postfix/smtp[44864]: warning: relayhost configuration problem
+2026-03-28T14:21:57.135117+00:00 lloyddesk postfix/smtp[44842]: warning: relayhost configuration problem
+2026-03-28T14:21:57.140916+00:00 lloyddesk postfix/smtp[44851]: B8D368E0097: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=47417, delays=47417/0.01/0.06/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T14:21:57.144648+00:00 lloyddesk postfix/smtp[44877]: 70F958E15C2: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=52249, delays=52249/0.01/0.05/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T14:21:57.147762+00:00 lloyddesk postfix/smtp[44842]: 492998E0144: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=42848, delays=42848/0.01/0.06/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T14:21:57.147799+00:00 lloyddesk postfix/smtp[44864]: AF08A8E15BC: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=52858, delays=52858/0.02/0.05/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T14:36:30.577894+00:00 lloyddesk postfix/pickup[44835]: 8D0A18E0147: uid=0 from=<root>
+2026-03-28T14:36:30.580645+00:00 lloyddesk postfix/cleanup[234045]: 8D0A18E0147: message-id=<20260328143630.8D0A18E0147@lloyddesk>
+2026-03-28T14:36:30.584413+00:00 lloyddesk postfix/qmgr[2683]: 8D0A18E0147: from=<"root@lloyddesk"@discord.com>, size=13229, nrcpt=1 (queue active)
+2026-03-28T14:36:30.623994+00:00 lloyddesk postfix/smtp[234049]: warning: relayhost configuration problem
+2026-03-28T14:36:30.629895+00:00 lloyddesk postfix/smtp[234049]: 8D0A18E0147: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=0.06, delays=0.02/0.01/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T14:41:57.745421+00:00 lloyddesk postfix/qmgr[2683]: 8D0A18E0147: from=<"root@lloyddesk"@discord.com>, size=13229, nrcpt=1 (queue active)
+2026-03-28T14:41:57.784740+00:00 lloyddesk postfix/smtp[234062]: warning: relayhost configuration problem
+2026-03-28T14:41:57.794107+00:00 lloyddesk postfix/smtp[234062]: 8D0A18E0147: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=327, delays=327/0.01/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T14:51:57.189187+00:00 lloyddesk postfix/qmgr[2683]: 8D0A18E0147: from=<"root@lloyddesk"@discord.com>, size=13229, nrcpt=1 (queue active)
+2026-03-28T14:51:57.237242+00:00 lloyddesk postfix/smtp[234092]: warning: relayhost configuration problem
+2026-03-28T14:51:57.250839+00:00 lloyddesk postfix/smtp[234092]: 8D0A18E0147: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=927, delays=927/0.01/0.04/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T15:11:57.133592+00:00 lloyddesk postfix/qmgr[2683]: 8D0A18E0147: from=<"root@lloyddesk"@discord.com>, size=13229, nrcpt=1 (queue active)
+2026-03-28T15:11:57.179158+00:00 lloyddesk postfix/smtp[234155]: warning: relayhost configuration problem
+2026-03-28T15:11:57.185098+00:00 lloyddesk postfix/smtp[234155]: 8D0A18E0147: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=2127, delays=2127/0.01/0.04/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T15:31:57.101941+00:00 lloyddesk postfix/qmgr[2683]: 492998E0144: from=<"root@lloyddesk"@discord.com>, size=649, nrcpt=1 (queue active)
+2026-03-28T15:31:57.112655+00:00 lloyddesk postfix/qmgr[2683]: B8D368E0097: from=<"lloyd@lloyddesk"@discord.com>, size=506, nrcpt=1 (queue active)
+2026-03-28T15:31:57.112701+00:00 lloyddesk postfix/qmgr[2683]: AF08A8E15BC: from=<"lloyd@lloyddesk"@discord.com>, size=520, nrcpt=1 (queue active)
+2026-03-28T15:31:57.112720+00:00 lloyddesk postfix/qmgr[2683]: 70F958E15C2: from=<"root@lloyddesk"@discord.com>, size=11889, nrcpt=1 (queue active)
+2026-03-28T15:31:57.143493+00:00 lloyddesk postfix/smtp[261721]: warning: relayhost configuration problem
+2026-03-28T15:31:57.143616+00:00 lloyddesk postfix/smtp[261720]: warning: relayhost configuration problem
+2026-03-28T15:31:57.143716+00:00 lloyddesk postfix/smtp[261719]: warning: relayhost configuration problem
+2026-03-28T15:31:57.149330+00:00 lloyddesk postfix/smtp[261721]: AF08A8E15BC: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=57058, delays=57058/0.02/0.02/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T15:31:57.152499+00:00 lloyddesk postfix/smtp[261720]: B8D368E0097: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=51617, delays=51617/0.01/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T15:31:57.155756+00:00 lloyddesk postfix/smtp[261719]: 492998E0144: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=47048, delays=47048/0.01/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T15:31:57.168456+00:00 lloyddesk postfix/smtp[261722]: warning: relayhost configuration problem
+2026-03-28T15:31:57.172043+00:00 lloyddesk postfix/smtp[261722]: 70F958E15C2: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=56449, delays=56449/0.02/0.04/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T15:51:57.176290+00:00 lloyddesk postfix/qmgr[2683]: 8D0A18E0147: from=<"root@lloyddesk"@discord.com>, size=13229, nrcpt=1 (queue active)
+2026-03-28T15:51:57.198828+00:00 lloyddesk postfix/smtp[437054]: 8D0A18E0147: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=4527, delays=4527/0.01/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=MX: Host not found, try again)
+2026-03-28T15:55:16.702056+00:00 lloyddesk postfix/postfix-script[2687]: starting the Postfix mail system
+2026-03-28T15:55:16.705513+00:00 lloyddesk postfix/master[2689]: daemon started -- version 3.8.6, configuration /etc/postfix
+2026-03-28T16:24:55.319438+00:00 lloyddesk postfix/pickup[2690]: 4DF098E0005: uid=0 from=<root>
+2026-03-28T16:24:55.323076+00:00 lloyddesk postfix/cleanup[297453]: 4DF098E0005: message-id=<20260328162455.4DF098E0005@lloyddesk>
+2026-03-28T16:24:55.330140+00:00 lloyddesk postfix/qmgr[2691]: 4DF098E0005: from=<"root@lloyddesk"@discord.com>, size=13229, nrcpt=1 (queue active)
+2026-03-28T16:24:55.382125+00:00 lloyddesk postfix/smtp[297457]: warning: relayhost configuration problem
+2026-03-28T16:24:55.388690+00:00 lloyddesk postfix/smtp[297457]: 4DF098E0005: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=0.08, delays=0.03/0.02/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T16:30:17.510530+00:00 lloyddesk postfix/qmgr[2691]: 4DF098E0005: from=<"root@lloyddesk"@discord.com>, size=13229, nrcpt=1 (queue active)
+2026-03-28T16:30:17.556371+00:00 lloyddesk postfix/smtp[298065]: warning: relayhost configuration problem
+2026-03-28T16:30:17.562869+00:00 lloyddesk postfix/smtp[298065]: 4DF098E0005: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=322, delays=322/0.01/0.04/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T16:40:17.916961+00:00 lloyddesk postfix/qmgr[2691]: 492998E0144: from=<"root@lloyddesk"@discord.com>, size=649, nrcpt=1 (queue active)
+2026-03-28T16:40:17.920124+00:00 lloyddesk postfix/qmgr[2691]: 4DF098E0005: from=<"root@lloyddesk"@discord.com>, size=13229, nrcpt=1 (queue active)
+2026-03-28T16:40:17.920541+00:00 lloyddesk postfix/qmgr[2691]: B8D368E0097: from=<"lloyd@lloyddesk"@discord.com>, size=506, nrcpt=1 (queue active)
+2026-03-28T16:40:17.920820+00:00 lloyddesk postfix/qmgr[2691]: AF08A8E15BC: from=<"lloyd@lloyddesk"@discord.com>, size=520, nrcpt=1 (queue active)
+2026-03-28T16:40:17.920967+00:00 lloyddesk postfix/qmgr[2691]: 70F958E15C2: from=<"root@lloyddesk"@discord.com>, size=11889, nrcpt=1 (queue active)
+2026-03-28T16:40:17.958733+00:00 lloyddesk postfix/smtp[298534]: warning: relayhost configuration problem
+2026-03-28T16:40:17.958884+00:00 lloyddesk postfix/smtp[298533]: warning: relayhost configuration problem
+2026-03-28T16:40:17.965481+00:00 lloyddesk postfix/smtp[298534]: 4DF098E0005: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=923, delays=923/0.01/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T16:40:17.968568+00:00 lloyddesk postfix/smtp[298533]: 492998E0144: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=51149, delays=51149/0.02/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T16:40:17.975217+00:00 lloyddesk postfix/smtp[298536]: warning: relayhost configuration problem
+2026-03-28T16:40:17.975341+00:00 lloyddesk postfix/smtp[298535]: warning: relayhost configuration problem
+2026-03-28T16:40:17.975440+00:00 lloyddesk postfix/smtp[298537]: warning: relayhost configuration problem
+2026-03-28T16:40:17.978664+00:00 lloyddesk postfix/smtp[298536]: AF08A8E15BC: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=61159, delays=61159/0.02/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T16:40:17.981660+00:00 lloyddesk postfix/smtp[298535]: B8D368E0097: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=55718, delays=55718/0.02/0.04/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)
+2026-03-28T16:40:17.984972+00:00 lloyddesk postfix/smtp[298537]: 70F958E15C2: to=<"root@lloyddesk"@discord.com>, orig_to=<root>, relay=none, delay=60550, delays=60549/0.03/0.03/0, dsn=4.3.5, status=deferred (Host or domain name not found. Name service error for name=smtp.localdomain type=AAAA: Host not found)

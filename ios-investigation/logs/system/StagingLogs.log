@@ -1,0 +1,40 @@
+
+APPLYING DEFAULT FILTERS:
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/BuildVersion.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.MobileAsset.UAF.Handwriting.Synthesis.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.odla.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.TKModelMessages.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.tts.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.asr.hammer.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.aonsense.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.dialog.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.speech.automaticspeechrecognition.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.understanding.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.MobileAsset.UAF.Photos.SpatialPhotosRelive.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.MobileAsset.UAF.CoreMotion.IMUFoundationModel.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.findmy.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.sequoia.asset.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.understanding.nl.overrides.json, Added to Candidate logs
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.uaf.platform.json, Added to Candidate logs
+
+
+ENFORCING SIZE LIMIT OF 1 MB ON FILTERED CANDIDATES:
+
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.understanding.nl.overrides.json, Added (580 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.dialog.json, Added (11047 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.tts.json, Added (1101 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.asr.hammer.json, Added (539 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.findmy.json, Added (422 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.sequoia.asset.json, Added (659 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.MobileAsset.UAF.CoreMotion.IMUFoundationModel.json, Added (932 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.speech.automaticspeechrecognition.json, Added (576 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.aonsense.json, Added (655 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.understanding.json, Added (3479 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.siri.uaf.platform.json, Added (540 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.TKModelMessages.json, Added (422 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.MobileAsset.UAF.Photos.SpatialPhotosRelive.json, Added (748 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.MobileAsset.UAF.Handwriting.Synthesis.json, Added (598 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/26.4/com.apple.odla.json, Added (835 bytes)
+/private/var/db/assetsubscriptiond/StagingLogs/LatestStagingLogs/BuildVersion.json, Added (107 bytes)
+
+** DONE Enforcing size limit **

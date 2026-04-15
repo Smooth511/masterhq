@@ -1,0 +1,9 @@
+
+APPLYING DEFAULT FILTERS:
+SDUnitLogGlob with glob '/private/var/db/Battery/BI/com.apple.batteryintelligence.batteryalgorithms/com.apple.batteryintelligence.batteryalgorithms-OnDeviceACAM-{state,meta}.plist': found no matches
+
+
+ENFORCING SIZE LIMIT OF 1 MB ON FILTERED CANDIDATES:
+
+
+** DONE Enforcing size limit **

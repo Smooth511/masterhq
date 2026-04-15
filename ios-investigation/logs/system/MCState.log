@@ -1,0 +1,46 @@
+
+APPLYING PREDICATE (NOT SELF CONTAINS ".pdata") AND (NOT SELF CONTAINS "PostSetupProfile.mobileconfig") AND (NOT SELF CONTAINS "MDMOutstandingActivities.plist"):
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/MCSettingsEvents.plist, Added to Candidate logs
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/CloudConfigurationDetails.plist, Added to Candidate logs
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/AppAccessibilityParameters.plist, Added to Candidate logs
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/ClientTruth.plist, Added to Candidate logs
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/UserSettings.plist, Added to Candidate logs
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/PayloadManifest.plist, Added to Candidate logs
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/ProfileTruth.plist, Added to Candidate logs
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist, Added to Candidate logs
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/PublicInfo/MCMeta.plist, Added to Candidate logs
+
+APPLYING DEFAULT FILTERS:
+/private/var/mobile/Library/UserConfigurationProfiles/ClientTruth.plist, Added to Candidate logs
+/private/var/mobile/Library/UserConfigurationProfiles/UserSettings.plist, Added to Candidate logs
+/private/var/mobile/Library/UserConfigurationProfiles/PayloadManifest.plist, Added to Candidate logs
+/private/var/mobile/Library/UserConfigurationProfiles/ProfileTruth.plist, Added to Candidate logs
+/private/var/mobile/Library/UserConfigurationProfiles/EffectiveUserSettings.plist, Added to Candidate logs
+/private/var/mobile/Library/UserConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist, Added to Candidate logs
+/private/var/mobile/Library/UserConfigurationProfiles/PublicInfo/PublicEffectiveUserSettings.plist, Added to Candidate logs
+/private/var/mobile/Library/UserConfigurationProfiles/PublicInfo/Truth.plist, Added to Candidate logs
+/private/var/mobile/Library/UserConfigurationProfiles/PublicInfo/MCMeta.plist, Added to Candidate logs
+
+
+ENFORCING SIZE LIMIT OF 5 MB ON FILTERED CANDIDATES:
+
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/MCSettingsEvents.plist, Added (21149 bytes)
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist, Added (42 bytes)
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/UserSettings.plist, Added (13699 bytes)
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/ClientTruth.plist, Added (743 bytes)
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/CloudConfigurationDetails.plist, Added (178 bytes)
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/PublicInfo/MCMeta.plist, Added (100 bytes)
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/ProfileTruth.plist, Added (42 bytes)
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/AppAccessibilityParameters.plist, Added (42 bytes)
+/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/PayloadManifest.plist, Added (85 bytes)
+/private/var/mobile/Library/UserConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist, Added (42 bytes)
+/private/var/mobile/Library/UserConfigurationProfiles/UserSettings.plist, Added (42 bytes)
+/private/var/mobile/Library/UserConfigurationProfiles/PublicInfo/Truth.plist, Added (14005 bytes)
+/private/var/mobile/Library/UserConfigurationProfiles/PublicInfo/PublicEffectiveUserSettings.plist, Added (13041 bytes)
+/private/var/mobile/Library/UserConfigurationProfiles/EffectiveUserSettings.plist, Added (13713 bytes)
+/private/var/mobile/Library/UserConfigurationProfiles/ClientTruth.plist, Added (42 bytes)
+/private/var/mobile/Library/UserConfigurationProfiles/PublicInfo/MCMeta.plist, Added (74 bytes)
+/private/var/mobile/Library/UserConfigurationProfiles/ProfileTruth.plist, Added (42 bytes)
+/private/var/mobile/Library/UserConfigurationProfiles/PayloadManifest.plist, Added (85 bytes)
+
+** DONE Enforcing size limit **

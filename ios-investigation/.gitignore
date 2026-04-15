@@ -1,0 +1,14 @@
+# Security: prevent accidental commit of confidential investigation files
+CONFIDENTIAL_sensitive_mapping_Forensic_diagnosis.md
+CONFIDENTIAL_sensitive_mapping_*.md
+
+# Sensitive log files containing device PII (serial, IMEI, UDID, certificates)
+# These can be analysed locally but must not be pushed to a public repository
+# without full PII scrubbing
+mobileactivationd.log.0
+mobileactivationd_dcrt_baa_request.txt
+mobileactivationd_sdcrt_baa_request.txt
+
+# Master-no-redacts.md contains unredacted PII (device serials, IMEI, phone numbers)
+# User has retrieved the file for mobile access; now re-gitignoring for security
+Master/Master-no-redacts.md

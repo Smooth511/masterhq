@@ -1,0 +1,315 @@
+{
+  "eventInformation" : {
+    "assetSetName" : "com.apple.siri.dialog",
+    "autoAssetEntries" : [
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.findmy.sirifindmy",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirisuggestionsbasemodel",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.homecommunicationflowdelegateplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.geoflowdelegateplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.siricontactsintents",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.nb",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.siriidentityinternal",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.zh",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.audio.audioflowdelegateplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.it",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.siricalendarintents",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.ko",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirisuggestions",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.yue",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirivideointents",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.dialogengine",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.siripaymentsintents",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirikitflow",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.siriexpanseinternal",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.generativeassistanttools.generativeassistantextension",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.safetysessionflowplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.nl",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.audiosuggestionsplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.camrootflowplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirisystemcommands",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.siriplaybackcontrolintents",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.da",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.siriinferenceflow",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.clockflowplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.ms",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.siriapplaunchintents",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirireader",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.de",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.deviceexpert.deviceexpertintents",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.dailybriefingflowplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.homeautomationinternal",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.ar",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.notebookflowplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.siritranslationintents",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirilinkflowplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.th",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.requestdispatcherbridges",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.notebook.sirinotebook",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.pt",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.workoutannouncements",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.messages.sirimessagesflow",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.fi",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirikitruntime",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirinaturallanguagegeneration",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.en",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.he",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.informationflowplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirinotificationsintents",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.ifflowplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.healthflowdelegateplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.ja",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.omnisearch.omnisearch",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.ru",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.hi",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.emergencyflowplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.es",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirisettingsintents",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.assistantservices",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.timerflowdelegateplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.alarmflowplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.tr",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.fr",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirisuggestionsflowplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.socialconversationflowdelegateplugin.sv",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirimailinternal",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.phonecallflowdelegateplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.sirikit.messagesflowdelegateplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.siriautocomplete",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.carcommandsflowdelegateplugin",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.dialog.wellnessflowplugin",
+        "assetLockedInhibitsRemoval" : false
+      }
+    ],
+    "maxTargetOSVersion" : "26.4.9999",
+    "minTargetOSVersion" : "26.4",
+    "platformAssetVersion" : "1.0.295071122.13.203605,0"
+  },
+  "timestamp" : "2026-03-09T12:54:40.603Z"
+}

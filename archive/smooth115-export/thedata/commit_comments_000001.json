@@ -1,0 +1,15 @@
+[
+  {
+    "type": "commit_comment",
+    "url": "https://github.com/Smooth115/Claude-MKII/commit/95340be8d5f7405c60b1078e6552fb116055f275#commitcomment-180541646",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/Smooth115",
+    "body": "We will complete this ina structured fashion with very strict stop everything breaks on failure. If a previous PR remains open when it it has no effect to current PR —> stop working, get the last PR shut. If a PR must remain open —> that is an issue —> issue raised that PR xx is a determining factor (example you control the actual heading) for xx and will need implementing in step xx later on. Or stays open, issue details why, any further PRs relevant to that document raised as sub issue. Ground rule, no compromise —> if a PR uses a file that is currently listed in an open PR —> compliance security failure —> remediation could be that file is created and listed as a temporary file, with open pr corrections and used —> file created, documented —> used in PR that failed complainace —> pr continues. —-\r\n\r\nSecond point - the reviewer / coding agent will be the biggest focus and only focus at the start. There is no point changing anything until the final agent is running at or near a 0% failure rate. This agent must Picknonononononononononini up every issue, even if there are loads of issues, that’s fine it’s expected, but as long as only correct and compliant info is being submitted, we don’t feed agents wrong info and compound further. The agent as it stands picks up everything, I would propose that agent is snapshotted as is, a new repository of MKII cloned or forked and the snapshotted agent is required to review the new agent that close a and fixes all finds. That was the new agent continues as we outlined, completes everything as it should, but we have a net in place incase we fuck it up. 1. The structure of this project is most important, it needs to encompass the scale correctly and I want it all in one project or running process start to finish with clear defined structure and ease to find what was changed and when, link to document , etc etc. evaluate what I’ve said here not as it must happen like this, just what I’ve said here has higher weighting in the scale of the project, but if there is a better way, or you can find / search a better source that has higher weighting and proven success rate, then you can use that @copilot",
+    "formatter": "markdown",
+    "path": null,
+    "position": null,
+    "commit_id": "95340be8d5f7405c60b1078e6552fb116055f275",
+    "reactions": [],
+    "created_at": "2026-03-25T13:26:16Z"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "stateMachine" : {
+    "flags" : [
+
+    ],
+    "pendingFlags" : [
+
+    ],
+    "publicKeybag" : {
+      "app" : "AT",
+      "env" : "production"
+    },
+    "reachability" : {
+      "network" : true
+    },
+    "state" : "initialLoadConfig"
+  }
+}

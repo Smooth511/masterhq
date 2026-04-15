@@ -1,0 +1,35 @@
+{
+  "eventInformation" : {
+    "assetSetName" : "com.apple.siri.tts",
+    "autoAssetEntries" : [
+      {
+        "assetSpecifier" : "com.apple.siri.tts.voice.en_GB.arthur.neural.premium",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.tts.customvoice.global",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.tts.voice.en_US.simone.neural.premium",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.tts.resource.en_US",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.tts.resource.en_GB",
+        "assetLockedInhibitsRemoval" : false
+      },
+      {
+        "assetSpecifier" : "com.apple.siri.tts.voice.en_GB.martha.neural.premium",
+        "assetLockedInhibitsRemoval" : false
+      }
+    ],
+    "maxTargetOSVersion" : "26.4.9999",
+    "minTargetOSVersion" : "26.4",
+    "platformAssetVersion" : "1.0.295071122.13.203605,0"
+  },
+  "timestamp" : "2026-03-09T12:54:40.574Z"
+}
