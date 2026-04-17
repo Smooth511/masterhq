@@ -1,0 +1,559 @@
+GUZTIV
+
+edesktop.thumbnails.Cache1'
+
+Apr 17 03:16:13 lloyd-System-Product-Name systemd [1644]: Started tumblerd.service Thumbnailing service. Apr 17 03:17:01 lloyd-System-Product-Name CRON [86529]: pam_unix(cron:session): session opened for user root (uid=0) by root (uid= Apr 17 03:17:01 1loyd-System-Product-Name CRON [86530]: (root) CMD (cd && run-parts --report /etc/cron.hourly) Apr 17 03:17:01 lloyd-System-Product-Name CRON [86529]: pam_unix(cron:session): session closed for user root Apr 17 03:19:41 lloyd-System-Product-Name dbus-daemon [1216]: [system] Activating via systemd: service name='org.freedesktop.host name1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.456' (uid=1000 pid=87853 comm="xfce4-screenshooter -w" lab Apr 17 03:19:41 lloyd-System-Product-Name systemd[1]: Starting systemd-hostnamed.service Hostname Service...
+
+el="unconfined")
+
+Apr 17 03:19:41 lloyd-System-Product-Name dbus-daemon [1216]: [system] Successfully activated service 'org.freedesktop.hostname1' Apr 17 03:19:41 lloyd-System-Product-Name systemd[1]: Started systemd-hostnamed.service Hostname Service. Apr 17 03:20:11 lloyd-System-Product-Name systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+
+Apr 17 03:20:19 lloyd-System-Product-Name systemd[1]: Started systemd-coredump@1-88331-0.service- Process Core Dump (PID 88331/ UID 0). Apr 17 03:20:19 lloyd-System-Product-Name systemd-coredump [88334]: Process 2839 (users-admin) of user 1000 dumped core.
+
+) from deb gcc-14-14.2.0-4ubuntu2 24.04.amd64
+
+deb gcc-14-14.2.0-4ubuntu2~24.04.amd64
+
+d64
+
+64
+
+.6 (deleted) +0x9eb2c)
+
+.6 (deleted)+0x4527e)
+
+.6 (deleted) + 0x288ff)
+
+.6 (deleted) + 0x297b6)
+
+.6 (deleted) + exa8ff5)
+
+.6 (deleted) +0xa9d68)
+
+.6 (deleted) +0xaba90)
+
+.6 (deleted) + 0xae87e)
+
+Module /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33 (deleted Module /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (deleted) from Module libzstd.so.1 from deb libzstd-1.5.5+dfsg2-2build1.1.am Module libsystemd.so.0 from deb systemd-255.4-1ubuntu8.15.amc Stack trace of thread 2839:
+
+#0
+
+#1
+
+0x000075f14929eb2c n/a (/usr/lib/x86_64-linux-gnu/libc.sc 0x000075f14924527e n/a (/usr/lib/x86_64-linux-gnu/libc.so #2 0x000075f1492288ff n/a (/usr/lib/x86_64-linux-gnu/libc.sc #3 0x000075f1492297b6 n/a (/usr/lib/x86_64-linux-gnu/libc.so #4 0x000075f1492a8ff5 n/a (/usr/lib/x86_64-linux-gnu/libc.so #5 0x000075f1492a9d68 n/a (/usr/lib/x86_64-linux-gnu/libc.so 0x000075f1492aba90 n/a (/usr/lib/x86_64-linux-gnu/libc.so #7 0x000075f1492ae87e n/a (/usr/lib/x86_64-linux-gnu/libc.so
+
+#6
+
+#8
+
+#9
+
+0x000075f149498722 g_malloce (libglib-2.0.so.0 +0x63722) 0x000075f1499592c0 n/a (libgtk-3.so.0 +0x1592c0) #10 0x000075f 149938e5e n/a (libgtk-3.so.0 +0x138e5e) #11 0x000075f1499351fb n/a (libgtk-3.so.0 +0x1351fb) #12 0x000075f1499350ea n/a (libgtk-3.so.0 +0x1350ea)
+
+-3.so.0 + 0x2b6b79) .so.0 +0x2b6d66)
+
+0x2b70b2)
+
+k-3.so.0+0x3608c2)
+
+.so.0 +0x360990)
+
+-3.so.0+0x3609ff)
+
+object-2.0.so.0 +0x13cf7)
+
+0.0 +0x357c1)
+
+x35883)
+
+x358565)
+
+object-2.0.so.0 +0x13cf7)
+
+0.0 +0x357c1)
+
+×35883)
+
+ǝx1189c7)
+
+0.0 +0x246c4)
+
+# 15 0x000075f149ab6b79 gtk_style_context_get_property (libgtk # 16 0x000075f149ab6d66 gtk_style_context_get_valist (libgtk-3 # 17 0x000075f149ab70b2 gtk_style_context_get (libgtk-3.so.0 # 18 0x000075f149b5fea9 n/a (libgtk-3.so.0 + 0x35fea9) #19 0x000075f149b608c2 gtk_widget_create_pango_context (libgt #20 0x000075f149b60990 gtk_widget_get_pango_context (libgtk-3 #21 0x000075f149b609ff gtk_widget_create_pango_layout (libgtk #22 0x000075f1499719d2 n/a (libgtk-3.so.0 +0x1719d2) #23 0x000075f149c1b231 n/a (libgtk-3.so.0 +0x41b231) # 24.0x000075f149971259 n/a (libgtk-3.so.0 +0x171259) #25 0x000075f149591cf7 g_cclosure_marshal_VOID_OBJECTV (libg #26 0x000075f1495b36bd n/a, (libgobject-2.0.so.0 +0x356bd) #27 0x000075f1495b37c1..8..signal emit_valist (libgobject-2.0.s #28 0x000075f1495b3863 g signal emit (libgobject-2.0.so.0 + € #29 0x000075f149b5fa5c n/a (libgtk-3.so.0 + 0x35fa5c) #30 0x000075f149bc6d18 n/a (libgtk-3.so.0 +0x3c6d18) #31 0x000075f 149b5fa8f n/a (libgtk-3.so.0 +0x35fa8f) #32 0x000075f1498c8158 n/a (libgtk-3.so.0 + 0xc8158) #33 0x000075f 149b5fa8f n/a (libgtk-3.so.0 +0x35fa8f) #34 0x000075f149b605cb n/a (libgtk-3.so.0 +0x3605cb) #35 0x000075f149b58565 gtk_widget_unparent (libgtk-3.so.0 + €
+
+#36 0x000075f1498c00a9 n/a (libgtk-3.so.0 + 0xc00a9) #37 0x000075f149591cf7 g_cclosure_marshal_VOID_OBJECTV (libg #38 0x000075f1495b36bd n/a (libgobject-2.0.so.0 + 0x356bd) #39 0x000075f1495b37c1 g_signal emit_valist (libgobject-2.0.s #40 0x000075f1495b3883 g_signal emit (libgobject-2.0.so.0 + € #41 0x000075f1499189c7 gtk_container_remove (libgtk-3.so.0 + #42 0x000075f149b66300 n/a (libgtk-3.so.0 +0x366300) #43 0x000075f1495a26c4 g_object_run_dispose (libgobject-2.0.s #44 0x000075f149b78261 n/a (libgtk-3.so.0 +0x378261) #45 0x000075f 149917283 n/a (libgtk-3.so.0 +0x117283) #46 0x000075f1495932fa g_closure_invoke (libgobject-2.0.so.0
+
+AOC
+
+0x152fa)
+
+0.0 + 0x357c1)
+
+x35883)
+
+0.0 +0x246c4)
+
++ 0x152fa)
+
+0.0 + 0x357c1)
+
+x35883)
+
+0.0 + 0x246c4)
+
+ex2461d)
+
+#45 0x000075f149917283 n/a (libgtk-3.so.0 +0x117283) #46 0x000075f1495932fa g_closure_invoke (libgobject-2.0.so.0 #47 0x000075f1495c2f05 n/a (libgobject-2.0.so.0 + 0x44f05) #48 0x000075f1495b3591 n/a (libgobject-2.0.so.0 +0x35591) #49 0x000075f1495b37c1 g_signal emit_valist (libgobject-2.0.5 #50 0x000075f1495b3883 g_signal emit (libgobject-2.0.so.0 + € #51 0x000075f149b66332 n/a (libgtk-3.so.0 +0x366332) #52 0x000075f149b7314e n/a (libgtk-3.so.0 +0x37314e) #53 0x000075f1495a26c4 g_object_run_dispose (libgobject-2.0.s #54 0x000075f1495932fa g_closure_invoke (libgobject-2.0.so.0 #55 0x000075f1495c290c n/a (libgobject-2.0.so.0 +0x4490c) #56 0x000075f1495b3591 n/a (libgobject-2.0.so.0 + 0x35591) #57 0x000075f1495b37c1 g_signal emit_valist (libgobject-2.0.s #58 0x000075f1495b3883 g signal emit (libgobject-2.0.so.0 + € #59 0x000075f149b66332 n/a (libgtk-3.so.0 +0x366332) #60 0x000075f149b7314e n/a (libgtk-3.so.0 +0x37314e) #61 0x000075f1495a26c4 g_object_run_dispose (libgobject-2.0.s #62 0x00005a3deef 43380 n/a (users-admin + 0x10380)
+
+#63 0x000075f1495a261d g_object_unref (libgobject-2.0.so.0 +
+
+Stack trace of thread 2840:
+
+.6 (deleted) + 0x12728d)
+
+#1
+
+#2
+
+#3
+
+#4
+
+#0 0x000075f14932728d n/a (/usr/lib/x86_64-linux-gnu/libc.sc 0x000075f14945c53b n/a (libglib-2.0.so.0 +0x2753b) 0x000075f1494c1bf3 n/a (libglib-2.0.so.0 + 0x8cbf3) 0x000075f1494c0e12 n/a (libglib-2.0.so.0 + 0x8be12) 0x000075f14929caa4 n/a (/usr/lib/x86_64-linux-gnu/libc.sc
+
+#5
+
+.6 (deleted) + 0x9caa4)
+
+.6 (deleted) + 0x129c6c)
+
+0x000075f149329c6c n/a (/usr/lib/x86_64-linux-gnu/libc.sc ELF object binary architecture: AMD x86-64 Apr 17 03:20:20 lloyd-System-Product-Name systemd[1]: systemd-coredump01-88331-0.service: Deactivated successfully. Apr 17 03:20:29 lloyd-System-Product-Name kernel: ecryptfs_decrypt_page: Error attempting to read lower page; rc = [-4] Apr 17 03:20:29 lloyd-System-Product-Name kernel: ecryptfs_read_folio: Error decrypting page; err = [-4] Apr 17 03:20:29 1loyd-System-Product-Name kernel: ecryptfs_decrypt_page: Error attempting to read lower page; rc = [-4] Apr 17 03:20:29 lloyd-System-Product-Name kernel: ecryptfs_read_folio: Error decrypting page; err = [-4] Apr 17 03:20:29 lloyd-System-Product-Name kernel: ecryptfs_decrypt_page: Error attempting to read lower page; rc = [-4] Apr 17 03:20:29 lloyd-System-Product-Name kernel: ecryptfs_read_folio: Error decrypting page; err = [-4]
+
+AOC
+
+requested by ':1.26' (uid=1000 pid=1971 comm="xfce4-panel" label="unconfined") Apr 17 04:17:34 lloyd-System-Product-Name dbus-daemon [1670]: [session uid=1000 pid=1670] Successfully activated service 'org.xfc e.Xfconf'
+
+Apr 17 04:27:34 lloyd-System-Product-Name dbus-daemon [1670]: [session uid=1000 pid=1670] Activating service name='org.xfce.xfcor f requested by :1.26' (uid=1000 pid=1971 comm="xfce4-panel" label="unconfined") Apr 17 04:27:34 lloyd-System-Product-Name dbus-daemon [1670]:
+
+e.Xfconf
+
+e.xfconf
+
+f
+
+e.Xfconf
+
+-Ubuntu
+
+[session uid=1000 pid=1670] Successfully activated service 'org.xfc Apr 17 04:37:34 lloyd-System-Product-Name dbus-daemon [1670]: [session uid=1000 pid=1670] Activating service name='org.xfce.Xfcor f' requested by ':1.26' (uid=1000 pid=1971 comm="xfce4-panel" label="unconfined") Apr 17 04:37:34 lloyd-System-Product-Name dbus-daemon [1670]: [session uid=1000 pid=1670] Successfully activated service 'org.xfc Apr 17 04:47:34 lloyd-System-Product-Name dbus-daemon [1670]: [session uid=1000 pid=1670] Activating service name='org.xfce.Xfcor requested by ':1.26' (uid=1000 pid=1971 comm="xfce4-panel" label="unconfined") Apr 17 04:47:34 lloyd-System-Product-Name dbus-daemon [1670]: [session uid=1000 pid=1670] Successfully activated service 'org.xfc Apr 17 04:53:23 lloyd-System-Product-Name kernel: rg invoked oom-killer: gfp_mask=0x400cc0 (GFP KERNEL ACCOUNT), order=0, oom_scc re_adj=0 Apr 17 04:53:23 lloyd-System-Product-Name kernel: CPU: 6 UID: 1000 PID: 88634 Comm: rg Not tainted 6.14.0-37-generic #37 24.04.1 Apr 17 04:53:23 lloyd-System-Product-Name kernel: Hardware name: ASUS System Product Name/PRIME B460M-A, BIOS 1806 12/18/2025 Apr 17 04:53:23 lloyd-System-Product-Name kernel: Call Trace: Apr 17 04:53:23 lloyd-System-Product-Name kernel: <TASK> Apr 17 04:53:23 lloyd-System-Product-Name kernel: dump_stack_lvl+0x76/0xa0 Apr 17 04:53:23 lloyd-System-Product-Name kernel: dump_stack+0x10/0x20 Apr 17 04:53:23 lloyd-System-Product-Name kernel: dump_header+0x48/0x210 Apr 17 04:53:23 lloyd-System-Product-Name kernel: oom_kill_process+0x118/0x280 Apr 17 04:53:23 lloyd-System-Product-Name kernel: ?oom_evaluate_task+0x155/0x1e0 Apr 17 04:53:23 lloyd-System-Product-Name kernel: out of memory+0x102/0x340 Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel: Apr 17 04:53:23 lloyd-System-Product-Name kernel:
+
+_alloc_pages_may_oom+0x10b/0x1d0
+
+_alloc_pages_slowpath.constprop.0+0x5f4/0x970
+
+_alloc_frozen_pages_noprof+0x30f/0x330
+
+alloc_pages_mpol+0x7e/0x1a0 alloc_pages_noprof+0x5c/0xe0 alloc_skb_with_frags+0x105/0x280 sock_alloc_send_pskb+0x1fb/0x240
+
+? _memcg_kmem_charge_page+0xeb/0x120
+
+unix_stream_sendmsg+0x163/0x4f0 sock_write_iter+0x18e/0x1a0 vfs_write+0x3c3/0x470 ksys_write+0xd8/0xf0
+
+__x64_sys_write+0x19/0x30
+
+x64_sys_call+0x2c4/0x2650
+
+do_syscall_64+0x7e/0x170
+
+? vfs_write+0x3c3/0x470
+
+? ksys_write+0x9d/0xf0
+
+? arch_exit_to_user_mode_prepare. isra.0+0x22/0x120 ? syscall_exit_to_user_mode+0x38/0x1d0
+
+Лос
+
+rules from directory /usr/share/polkit 1/rules.d 09f7699631c18db0c33491eb4b3c65b8f279238c5fc5e3ab0ba52737dbbd26f3 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin
+
+065d94b9ea00397a2addb747e1e0978e4de6bf 175339778fb9b0760fec3d3b61
+
+from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 03df4500273c43189296f09d734977c882a008fc056f43c309b9d2351f31792e from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 0328f7dd12b552efa7a9e083730333b85f3f4e83d39387fc531863b422f 75cc8 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin
+
+800423ceb7e4759621a62c729babc81f53259d95f 76457224ad601542b7b26d4
+
+from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 65625a143d220ea184dbd5cdfb1b9e9c3bd9654294eaa2b98628bc273ebc18b5 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin fd3062358e0e1dc4c3a60380ef1bdfd4c51f4473b8600937d921df472fbf9b65 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin e9c71b7cd5a4df0ba48d2ca48e6c468e657257f73f66017de45e18ee746ed7d5 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin e808a337ed6911ef561c27cabacabf4ea6d6e20fb70f5413b121ac251abcc10c from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin ce8c44e185faaa03959cf23229607854ef7e316ed0773d66d7be5e0a48061de5 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin
+
+b420509d0d69b294633fd7ae2c36b2b549d45a6a863ef 16843a1116a11127f56
+
+from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin a983e73e57bdf014c9a29331290ee87df37f97c81dbcc43c6c933fe2209c0bd5 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin a4b3fee324d25c53fb5cb48630dc80dd7ee78c1aac8c8deea927396997e33bce from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 9af92541e63eacbc5784bb44db66f9b60726174f4ec178c6ce32eaf647eebca2 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin
+
+03279VWFDB
+
+from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 399f9da6cf5a87839637b55f62bb2cc6a93fa5af7fe7ad76b4af0fb320c98127 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 250ae0ba860d6d46894491d630d58b1ca008f695c92ce2084a295486f71f985b wpa_supplicant.service HPA supplicant... configuration file /etc/smartd.conf
+
+from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 21f27d89f2e77dee7cd4336e3a3ade362a2aae9fb2efe2079491a518f3d51fed from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 1eaed62c4abcb2524643e1723f6aadcc31a74af4d2285d3b13880cc44c22dec5 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin
+
+6a0e824654b7479152058cf 738a378e629483874b6dbd67e0d8c3327b2fcac64
+
+from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 1788d84aa61ede6f2e96cfc900ad1cab1c5be86537f27212e8c291d6ade3b1e9 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin ca65a9b2915d9a055a407bc0698936349a64e3db691e178419fba701aad8de55 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 90aec5c4995674a849c1d1384463f3b02b5aa625a5c320fc4fe7d9bb58a62398 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin edd2cb55726e10abedec9de8ca5ded289ad793ab3b6919d163c875fec1209cd5 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin
+
+Apr 17 07:39:34 lloyd-System-Product Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094]: Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name systemd[1]: Starting Apr 17 07:39:34 lloyd-System-Product-Name smartd [1080]: Opened Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094]: Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094]: Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094]: Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094]: Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094]: Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094]: Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094]: Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094]: Apr 17 07:39:34 lloyd-System-Product-Name systemd-udevd [797): /usr/lib/udev/rules.d/50-udev-default.rules:55 Unknown group 'vide
+
+o', ignoring.
+
+284153e7d04a9f 187e5c3dbfe17b2672ad2fbdd119f27bec789417b7919853ec from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 66d0803e2550d9e790829ae1b5f81547cc9bfbe69b51817068ecb5dabb7a89fc from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin e9d873cbcede3634e0a4b3644b51e1c8a0a048272992c738513ebc96cd3e3360 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin c55be4a2a6ac574a9d46f1e1c54cac29d29dcd7b9040389e7157bb32c4591c4c from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin
+
+af 79b14064601bc0987d4747af1e914a228c05d622ceda03b7a4f67014fee767 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 48f4584de1c5ec650c25e6c623635ce101bd82617fc400d4150f0aee2355b4ca from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin e060da09561ae00dcfb1769d6e8e846868a1e99a54b14aa5d0689f2840cec6df from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 007f4c95125713b112093e21663e2d23e3c1ae9ce4b5de0d58a297332336a2d8 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin
+
+5b89f1aa2435a03d18d9b203d17fb4fba4f8f5076cf1f9b8d6d9b826222235c1
+
+Apr 17 07:39:34 lloyd-System-Product-Name smartd [1080]: Drive: DEVICESCAN, implied 'a' Directive on line 18 of file /etc/smartd .conf Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] : Apr 17 07:39:34 lloyd-System-Product-Name sbkeysync [1094] :
+
+from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin 4cdae3920a512c9c052a8b4aba9096969b0a0197b614031e4c64a5d898cb09b9 from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin e37ff3fc0eff20bfc1c060a4bf56885e1efd55a8e9ce3c5f4869444cacffadeb from /usr/share/secureboot/updates/dbx/dbxupdate_x64.bin.
+
+лос
+
+Linux Mint 22.3 Zena lloyd-System-Product-Name tty4
+
+lloyd-System-Product-Name login: lloyd
+
+Password:
+
+lloydelloyd-System-Product-Name:~$ sudo su
+
+[sudo] password for lloyd:
+
+root@lloyd-System-Product-Name: /home/lloyd# ls -a /usr/lib/x86_64-linux-gnu/x11/rstart/commands/x11 1s: cannot access '/usr/lib/x86_64-linux-gnu/x11/rstart/commands/x11': No such file or directory,
+
+root@lloyd-System-Product-Name: /home/lloyd# sudo nano /usr/lib/x86_64-linux-gnu/x11/rstart/commands/x11 | head -40_
+
+(1/3)
+
+var/lib/dpkg/info/ghostscript.md5sums
+
+/var/lib/dpkg/info/ghostscript.prerm
+
+/var/lib/dpkg/info/ghostscript.postinst
+
+/var/lib/dpkg/info/ghostscript.list
+
+/var/lib/ghostscript
+
+ghost.txt
+
+/usr/bin/ghostscript
+
+/usr/share/icons/Papirus/24x24/apps/kghostview.svg
+
+ghost1.txt
+
+/usr/share/icons/Papirus/24x24/apps/io.github.wereturtle.ghostwriter.svg
+
+/usr/share/icons/Papirus/24x24/apps/ghostwriter.svg
+
+/usr/share/icons/Papirus/24x24/apps/distributor-logo-ghostbsd.svg
+
+/usr/share/icons/Papirus/22x22/apps/kghostview.svg
+
+/usr/share/icons/Papirus/22x22/apps/10.github.wereturtle.ghostwriter.svg
+
+/usr/share/icons/Papirus/22x22/apps/ghostwriter.svg
+
+/usr/share/icons/Papirus/22x22/apps/distributor-logo-ghostbsd.svg
+
+/usr/share/icons/Papirus/48x48/apps/kghostview.svg
+
+/usr/share/icons/Papirus/48x48/apps/io.github.wereturtle.ghostwriter.svg
+
+/usr/share/icons/Papirus/48x48/apps/ghostwriter.svg
+
+/usr/share/icons/Papirus/48x48/apps/distributor-logo-ghostbsd.svg
+
+/usr/share/icons/Papirus/64x64/apps/kghostview.svg
+
+/usr/share/icons/Papirus/64x64/apps/io.github.wereturtle.ghostwriter.svg
+
+/usr/share/icons/Papirus/64x64/apps/ghostwriter.svg
+
+/usr/share/icons/Papirus/64x64/apps/distributor-logo-ghostbsd.svg
+
+/usr/share/icons/Papirus/32x32/apps/kghostview.svg
+
+/usr/share/icons/Papirus/32x32/apps/io.github.wereturtle.ghostwriter.svg
+
+/usr/share/icons/Papirus/32x32/apps/ghostwriter.svg
+
+/usr/share/icons/Papirus/32x32/apps/distributor-logo-ghostbsd.svg
+
+/usr/share/icons/Papirus/16x16/apps/kghostview.svg
+
+/usr/share/icons/Papirus/16x16/apps/io.github.wereturtle.ghostwriter.svg
+
+/usr/share/icons/Papirus/16x16/apps/ghostwriter.svg
+
+/usr/share/icons/Papirus/16x16/apps/distributor-logo-ghostbsd.svg
+
+/usr/share/icons/Mint-L/apps/2202x/cyberghost vpn.png
+
+/usr/share/icons/Mint-L/apps/25602x/cyberghostvpn.png
+
+/usr/share/icons/Mint-L/apps/6402x/cyberghost vpn.png
+
+/usr/share/icons/Mint-L/apps/24/cyberghostvpn.png
+
+/usr/share/icons/Mint-L/apps/9602x/cyberghostvpn.png
+
+/usr/share/icons/Mint-L/apps/48/cyberghost vpn.png
+
+/usr/share/icons/Mint-L/apps/16/cyberghost vpn.png
+
+/usr/share/icons/Mint-L/apps/1602x/cyberghost vpn.png
+
+/usr/share/icons/Mint-L/apps/4802x/cyberghost vpn.png /usr/share/icons/Mint-L/apps/2402x/cyberghost vpn.png /usr/share/icons/Mint-L/apps/32/cyberghost vpn.png /usr/share/icons/Mint-L/apps/64/cyberghost vpn.png /usr/share/icons/Mint -L/apps/3202x/cyberghost vpn.png
+
+G Help Close
+
+Write Out Read File
+
+Where Is Replace
+
+ghost1.txt
+
+Cut Paste
+
+72 lines Execute Justify
+
+Location
+
+Undo
+
+Go To Line
+
+Redo
+
+Set Mark COON
+
+[1/3]
+
+/ghost1.txt
+
+/usr/share/icons/Papirus/16x16/apps/ghostwriter.svg
+
+/usr/share/icons/Papirus/16x16/apps/distributor-logo-ghostbsd.svg /usr/share/icons/Mint -L/apps/25602x/cyberghost vpn.png /usr/share/icons/Mint -L/apps/2202x/cyberghostvpn.png /usr/share/icons/Mint -L/apps/6402x/cyberghostvpn.png /usr/share/icons/Mint -L/apps/9602x/cyberghostvpn.png /usr/share/icons/Mint -L/apps/48/cyberghostvpn.png /usr/share/icons/Mint -L/apps/24/cyberghostvpn.png /usr/share/icons/Mint -L/apps/16/cyberghostvpn.png /usr/share/icons/Mint -L/apps/1602x/cyberghost vpn.png /usr/share/icons/Mint -L/apps/4802x/cyberghostvpn.png /usr/share/icons/Mint -L/apps/2402x/cyberghostvpn.png /usr/share/icons/Mint -L/apps/32/cyberghost vpn.png /usr/share/icons/Mint -L/apps/64/cyberghost vpn.png /usr/share/icons/Mint -L/apps/3202x/cyberghostvpn.png
+
+vpn.png
+
+/usr/share/icons/Mint-L/apps/96/cyberghost /usr/share/icons/Mint-L/apps/256/cyberghost vpn.png /usr/share/icons/Mint -L/apps/22/cyberghost vpn.png
+
+/usr/share/icons/Mint-Y/apps/25602x/cyberghostvpn.png
+
+/usr/share/icons/Mint-Y/apps/2202x/cyberghost vpn.png /usr/share/icons/Mint-Y/apps/6402x/cyberghost vpn.png /usr/share/icons/Mint-Y/apps/9602x/cyberghost vpn.png /usr/share/icons/Mint-Y/apps/48/cyberghost vpn.png /usr/share/icons/Mint -Y/apps/24/cyberghost vpn.png /usr/share/icons/Mint -Y/apps/16/cyberghostvpn.png /usr/share/icons/Mint -Y/apps/1602x/cyberghost vpn.png /usr/share/icons/Mint -Y/apps/4802x/cyberghost vpn.png
+
+/usr/share/icons/Mint-Y/apps/2402x/cyberghostvpn.png
+
+/usr/share/icons/Mint -Y/apps/32/cyberghost vpn.png /usr/share/icons/Mint-Y/apps/64/cyberghost vpn.png /usr/share/icons/Mint-Y/apps/3202x/cyberghost vpn.png /usr/share/icons/Mint-Y/apps/96/cyberghost vpn.png /usr/share/icons/Mint-Y/apps/256/cyberghost vpn.png /usr/share/icons/Mint-Y/apps/22/cyberghost /usr/share/man/man1/ghostscript.1.gz
+
+/usr/share/ghostscript
+
+vpn.png
+
+/usr/share/ghostscript/10.02.1/lib/ghostpdf.ppd
+
+/usr/share/color/icc/ghostscript
+
+/usr/share/doc/ghostscript
+
+/usr/share/doc/printer-driver-m2300w/README.ghostscript.gz
+
+/etc/ghostscript
+
+/etc/ImageMagick-6/type-ghostscript.xml
+
+/sys/devices/system/cpu/vulnerabilities/ghostwrite
+
+Help
+
+Write Out
+
+Close
+
+Read File
+
+Where Is Replace
+
+Cut Paste
+
+Execute Justify
+
+C Location Go To Line
+
+M-U Undo M-E Redo
+
+M-A Set Mark
+
+M-6 Copy
+
+[1/1]
+
+/ghost3.txt
+
+/var/lib/dpkg/info/ghostscript.md5sums /var/lib/dpkg/info/ghostscript.prerm /var/lib/dpkg/info/ghostscript.post inst /var/lib/dpkg/info/ghostscript.list
+
+/var/lib/ghostscript
+
+/usr/bin/ghostscript
+
+/usr/share/man/man1/ghostscript.1.gz
+
+/usr/share/ghostscript
+
+/usr/share/color/icc/ghostscript
+
+/usr/share/doc/ghostscript
+
+/usr/share/doc/printer-driver-m2300w/README.ghostscript.gz
+
+/etc/ghostscript
+
+/etc/ImageMagick-6/type-ghostscript.xml
+
+Apr 16 19:37:21 lloyd-System-Product-Name kernel: Linux version 6.14.0-37-generic (builddelcy02-amd64-031) (x86_64-linux-gnu-gcc -13 (Ubuntu 13.3.0-6ubuntu2 24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #3724.04.1-Ubuntu SMP PREEMPT DYNAMIC Thu Nov 20 10:25:38 UTC 2 (Ubuntu 6.14.0-37.37 24.04.1-generic 6.14.11)
+
+Apr 16 19:37:21 lloyd-System-Product-Name systemd[1]: systemd 255.4-1ubuntu8.15 running in system mode (+PAM +AUDIT +SELINUX +AF PARMOR +IMA +SMACK SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FID02 +ION2 IDN +IPTC +KHOD +LIBCRYPTSETUP +L IBFDISK +PCRE2 -PHQUALITY +P11KIT +QRENCODE +TPM2 +8ZIP2 +L24 +XZ +ZLIB +ZSTD -BPF FRAMEWORK -XкBCOMMON +UTHP +SYSVINIT default- hierarchy-unified) Apr 16 20:17:29 lloyd-System-Product-Name systemd[1]: systemd 255.4-1ubuntu8.15 running in system mode (+PAM +AUDIT +SELINUX +AF PARMOR +INA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FID02 +IDN2 IDN +IPTC +KMOD +LIBCRYPTSETUP +L IBFDISK +PCRE2 -PHQUALITY +P11KIT +QRENCODE +TPM2 +8ZIP2 +L24 +XZ +ZLIB +ZSTD -BPF FRAMEWORK -XKBCOMMON +UTHP +SYSVINIT default- hierarchy unified) Apr 16 20:17:38 lloyd-System-Product-Name systemd[1]: systemd 255.4-1ubuntu8.15 running in system mode (+PAM +AUDIT +SELINUX +AF PARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FID02 +IDN2 -IDN +IPTC +KHOD +LIBCRYPTSETUP + IBFDISK +PCRE2 -PHQUALITY +P11KIT +QRENCODE +TPM2 +8ZIP2 +L24 +XZ +ZLIB +ZSTD-BPF FRAMEWORK -XкBCOMMON +UTHP +SYSVINIT default- hierarchy-unified) Apr 17 07:39:31 lloyd-System-Product-Name kernel: Linux version 6.17.0-20-generic (builddelcy02-amd64-120) (x86_64-linux-gnu-gcc -13 (Ubuntu 13.3.0-6ubuntu2 24.04.1) 13.3.0, GNU ld (GNU Binutils for Ubuntu), 2.42) #20 24.04.1-Ubuntu SMP PREEMPT DYNAMIC Thu H ar 19 01:28:37 UTC 2 (Ubuntu 6.17.0-20.20 24.04.1-generic 6.17.13)
+
+Apr 17 07:39:31 lloyd-System-Product-Name systemd[1]: systemd 255.4-1ubuntu8.15 running in system mode (+PAM +AUDIT +SELINUX +AF PARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FID02 +IDN2 -ION +IPTC +KHOD +LIBCRYPTSETUP +L IBFDISK +PCRE2 -PHQUALITY +P11KIT +QRENCODE +TPM2 +8ZIP2 +L24 +XZ +ZLIB +ZSTD BPF FRAMEWORK-XKBCOMMON +UTHP +SYSVINIT default- hierarchy-unified) Apr 17 07:56:57 lloyd-System-Product-Name kernel: Linux version 6.17.0-20-generic (builddelcy02-amd64-120) (x86_64-linux-gnu-gcc -13 (Ubuntu 13.3.0-6ubuntu2 24.04.1) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #20 24.04.1-Ubuntu SMP PREEMPT DYNAMIC Thu ar 19 01:28:37 UTC 2 (Ubuntu 6.17.0-20.20 24.04.1-generic 6.17.13)
+
+Apr 17 07:56:57 lloyd-System-Product-Name systemd[1]: systemd 255.4-1ubuntu8.15 running in system mode (+PAM +AUDIT +SELINUX +AF PARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FID02 +IDN2 -IDN +IPTC +KHOD +LIBCRYPTSETUP +L IBFDISK +PCRE2 -PHQUALITY +P11KIT +QRENCODE +TPM2 +8ZIP2 +L24 +XZ +ZLIB +ZSTD -BPF FRAMEWORK -XKBCOMMON +UTHP +SYSVINIT default- hierarchy-unified)
+
+Apr 17 10:51:05 lloyd-System-Product-Name sudo [2570]: /lloyd/tty/dump1/GNU
+
+Apr 17 10:51:12 lloyd-System-Product-Name sudo [2573] : lloyd/tty/dump1/GNU/2
+
+Apr 17 10:51:16 lloyd-System-Product-Name sudo [2576] : /1loyd/tty/dump1/GNU/2/3
+
+Apr 17 10:51:20 lloyd-System-Product-Name sudo [2579] : /lloyd/tty/dump1/GNU/2/3/4
+
+Apr 17 10:51:23 lloyd-System-Product-Name sudo [2582] : /1loyd/tty/dump1/GNU/2/3/4/5
+
+Apr 17 10:51:44 lloyd-System-Product-Name sudo [2585] : oyd -R /home/lloyd/tty/dump1/GNU/2/3/4/5
+
+Apr 17 10:52:26 lloyd-System-Product-Name sudo [2588] : e/lloyd/tty/dump1/GNU/2/3/4
+
+Apr 17 10:52:29 lloyd-System-Product-Name sudo [2591] : e/lloyd/tty/dump1/GNU/2/3
+
+Apr 17 10:52:31 lloyd-System-Product-Name sudo [2594] : e/lloyd/tty/dump1/GNU/2 & _
+
+root TTY=pts/3; PHD=/; USER=root; COMMAND=/usr/bin/mkdir -p /home
+
+root TTY=pts/3; PHD=/; USER=root; COMMAND=/usr/bin/mkdir -p /home root: TTY=pts/3; PHD=/; USER=root; COMMAND=/usr/bin/mkdir -p /home root TTY=pts/3; PHD=/; USER=root; COMMAND=/usr/bin/mkdir -p /home root: TTY=pts/3; PHD=/; USER=root; COMMAND=/usr/bin/mkdir -p /home root TTY=pts/3; PHD=/; USER=root; COMMAND=/usr/bin/choun lloyd: 11 root: TTY=pts/3; PHD=/; USER=root; COMMAND=/usr/bin/chmod 700 /hom root TTY=pts/3; PHD=/; USER=root; COMMAND=/usr/bin/chmod 700/hom root TTY=pts/3; PHD=/; USER=root : COMMAND=/usr/bin/chmod 700 /hom
+
+Лос
+
+6.14.0-37-generic (builddelcy02-amd64-031) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2 24.04) 13.3.0, GNU ld (GNU Binutils 5.4-1ubuntu8,15 running in system mode (+PAN +AUDIT +SELINUX +APPARNOR +INA +SMACK SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLK2 5.4-1ubuntu8.15 running in system mode (+PAN +AUDIT +SELINUX +APPARNOR +IMA +SMACK SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKI 5.4-1ubuntus. 15 running in system mode (+PAM +AUDIT +SELINUX +APPARNOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL ACL +BLK 6.17.0-20-generic (builddelcy02-amd64-120) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2 24.04.1) 13.3.0, GNU ld (GNU Binuti 5.4-1ubuntus, 15 running in system mode (+PAN +AUDIT +SELINUX +APPARNOR +INA +SMACK SECCOMP +GCRYPT -GNUTLS OPENSSL ACL +BLKI 6.17.0-20-generic (builddelcy02-amd64-120) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2 24.04.1) 13.3.0, GNU ld (GNU Binuti 5.4-1ubuntu8.15 running in system mode (+PAN +AUDIT +SELINUX +APPARNOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL ACL +BLKI TTY=pts/3 PHO=/; USER=root : COMMAND=/usr/bin/mkdir -p /home/lloyd/tty/dump1/GNU TTY=pts/3: PHD=/; USER=root : COMMAND=/usr/bin/mkdir -p /home/lloyd/tty/dump1/GNU/2 TTY=pts/3: PHD=/; USER=root : COMMAND=/usr/bin/mkdir -p /home/lloyd/tty/dump1/GNU/2/3 TTY=pts/3: PHD=/ USER=root: COMMAND=/usr/bin/mkdir -p /home/lloyd/tty/dump1/GNU/2/3/4 TTY=pts/3: PHD=/ USER=root: COMMAND=/usr/bin/mkdir -p /home/1loyd/tty/dump1/GNU/2/3/4/5 TTY=pts/3: PHD=/ USER=root : COMMAND=/usr/bin/choun lloyd: lloyd -R /home/lloyd/tty/dump1/GNU/2/3/4/5 TTY=pts/3: PHD=/ USER=root : COMMAND=/usr/bin/chmod 700 /home/1loyd/tty/dump1/GNU/2/3/4 TTY=pts/3: PHD=/; USER=root; COMMAND=/usr/bin/chmod 700 /home/1loyd/tty/dump1/GNU/2/3 TTY=pts/3: PHD=/ USER=root; COMMAND=/usr/bin/chmod 700 /home/1loyd/tty/dump1/GNU/2 TTY=pts/3: PHD=/ USER=root : COMMAND=/usr/bin/chmod 700 /home/1loyd/tty/dump1/GNU TTY=pts/3: PHD=/ USER=root : COMMAND=/usr/bin/chmod 700 /home/1loyd/tty/dump1/GNU TTY=pts/3: PHD=/; USER=root: COMMAND=/usr/bin/chattr +1 /home/lloyd/tty/dump1/GNU/2/3/4 TTY=pts/3: PHD=/ USER=root: COMMAND=/usr/bin/chattr +i /home/lloyd/tty/dump1/GNU/2/3 TTY=pts/3: PHD=/; USER=root: COMMAND=/usr/bin/chattr +i /home/lloyd/tty/dump1/GNU/2 TTY =pts/3: PHD=/; USER=root: COMMAND=/usr/bin/chattr +i /home/lloyd/tty/dump1/GNU TTY=pts/3: PHD=/ USER=root: COMMAND=/usr/bin/lsattr /home/lloyd/tty/dump1/GNU/2/3/4/5 TTY=pts/3: PHD=/; USER=root: COMMAND=/usr/bin/lsattr /home/lloyd/tty/dump1/GNU/2/3/4 TTY=pts/3 PHD=/ USER=root: COMMAND=/usr/bin/lsattr /home/lloyd/tty/dump1/GNU/2/3/4/5 TTY=pts/3: PHD=/ USER=root: COMMAND=/usr/bin/chattr +i /home/lloyd/tty/dump1/GNU TTY=pts/3: PHD=/ USER=root : COMMAND=/usr/bin/chattr -i /home/lloyd/t TTY=pts/3: PHD=/ USER=root : COMMAND=/usr/bin/chattr -i /home/lloyd/tty/dump1/GNU/1 TTY=pts/3: PHD=/ USER=root : COMMAND=/usr/bin/chattr -i /home/lloyd/tt TTY=pts/3: PHD=/ : USER=root; COMMAND=/usr/bin/chattr -i /home/lloyd/tty/dump1/GNU/2/3 TTY=pts/3: PHD=/; USER=root: COMMAND=/usr/bin/chattr -i /home/lloyd/tty/dump1/GNU/2/3/4 TTY=pts/3: PHD=/; USER=root: COMMAND=/usr/bin/chmod 000 /home/lloyd/tty/dump1/GNU/2/3/4 TTY=pts/3: PHD=/
+
+g/dump1/GNU
+
+Jump1/GNU/2
+
+y/dump1/GNU/2
+
+USER=root: COMMAND=/usr/bin/chmod 000 /home/lloyd/tty/dump1/GNU/2/3 TTY=pts/3: PHD=/; USER=root: COMMAND=/usr/bin/chmod 000 /home/lloyd/ TTY=pts/3: PHD=/ USER=root; COMMAND=/usr/bin/chmod 700 /home/lloyd/t /dump1/GNU USER=root: COMMAND=/usr/bin/chattr +1 /home/lloyd/tty/dump1/GNU/2/3/ USER=root: COMMAND=/usr/bin/chattr +i /home/lloyd/tty/dump1/GNU/2 TTY=pts/3: PHD=/; USER=root: COMMAND=/usr/bin/chattr +1 /home/lloyd/tty/dump1/GNU
+
+TTY=pts/3: PHD=/ TTY=pts/3: PHD=/
+
+TTY=pts/3: PHD=/
+
+USER=root : COMMAND=/usr/bin/su lloyd chmod 700 /home/lloyd/tty/dump1/GNU/2/3/4/5 TTY=tty1: PHD=/; USER=root: COMMAND=/usr/bin/chmod 750 /home/lloyd/tty/dump1/GNU/2/3/4/5 TTY=tty1 PHD=/; USER=root: COMMAND=/usr/bin/cp /usr/lib/x86_64-linux-gnu/rcrti.o /home/lloyd/tty/dump1/GNU/2/3/4/5 TTY=tty1: PHD=/; USER=root: COMMAND=/usr/bin/cp -r /usr/lib/x86_64-linux-gnu /home/1loyd/tty/dump1/GNU/2/3/4/5 TTY=tty1: PHD=/; USER=root: COMMAND=/usr/bin/chattr +i /home/lloyd/tty/dump1/GNU/2/3/4/5 TTY=tty1: PHD=/; USER=root: COMMAND=/usr/bin/ls -la /home/lloyd/tty/dump1/GNU/2/3/4/5 TTY=tty1: PHD=/ USER=root: COMMAND=/usr/bin/nano /home/lloyd/tty/dump1/GNU/2/3/4/5/rcrt1.0 TTY=tty1: PHD=/ USER=root: COMMAND=/usr/bin/grep [m.GNU
+
+& :_
+
+100
+
+-13 (Ubuntu 13.3.0-6ubuntu2 24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #37 24.04.1-Ubuntu SMP PREEMPT DYNAMIC Thu No PARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FID02 +IDN2 IDN +IPTC +KMOD LIBCRYPTSETUP PARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FID02 +IDN2 IDN +IPTC +KMOD LIBCRYPTSETUP + PARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FID02 +IDN2 IDN +IPTC +KMOD +LIBCRYPTSETUP -13 (Ubuntu 13.3.0-6ubuntu2 24.04.1) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #20 24.04.1-Ubuntu SMP PREEMPT DYNAMIC Thu PARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FID02 +IDN2 IDN +IPTC +KMOD +LIBCRYPTSETUP -13 (Ubuntu 13.3.0-6ubuntu2 24.04.1) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #20 24.04,1-Ubuntu SMP PREEMPT DYNAMIC Thu PARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FID02 +ION2 IDN +IPTC +KMOD +LIBCRYPTSETUP /1loyd/tty/dump1/GNU
+
+/lloyd/tty/dump1/GNU/2
+
+/1loyd/tty/dump1/GNU/2/3
+
+/1loyd/tty/dump1/GNU/2/3/4 /1loyd/tty/dump1/GNU/2/3/4/5
+
+oyd -R /home/1loyd/tty/dump1/GNU/2/3/4/5
+
+e/lloyd/tty/dump1/GNU/2/3/4 e/lloyd/tty/dump1/GNU/2/3
+
+e/lloyd/tty/dump1/GNU/2
+
+e/lloyd/tty/dump1/GNU
+
+e/lloyd/tty/dump1/GNU
+
+e/lloyd/tty/dump1/GNU/2/3/4
+
+e/lloyd/tty/dump1/GNU/2/3
+
+e/lloyd/tty/dump1/GNU/2
+
+e/lloyd/tty/dump1/GNU
+
+loyd/tty/dump1/GNU/2/3/4/5
+
+loyd/tty/dump1/GNU/2/3/4
+
+loyd/tty/dump1/GNU/2/3/4/5
+
+e/lloyd/tty/dump1/GNU
+
+e/lloyd/tty/dump1/GNU
+
+e/lloyd/tty/dump1/GNU/1
+
+e/lloyd/tty/dump1/GNU/2
+
+e/lloyd/tty/dump1/GNU/2/3
+
+e/lloyd/tty/dump1/GNU/2/3/4
+
+e/lloyd/tty/dump1/GNU/2/3/4
+
+e/lloyd/tty/dump1/GNU/2/3
+
+e/lloyd/tty/dump1/GNU/2
+
+e/lloyd/tty/dump1/GNU
+
+e/lloyd/tty/dump1/GNU/2/3/
+
+e/lloyd/tty/dump1/GNU/2 e/1loyd/tty/dump1/GNU
+
+700 /home/1loyd/tty/dump1/GNU/2/3/4/5
+
+/1loyd/tty/dump1/GNU/2/3/4/5
+
+64-linux-gnu/rcrti.o /home/lloyd/tty/dump1/GNU/2/3/4/5 x86_64-linux-gnu /home/lloyd/tty/dump1/GNU/2/3/4/5
+
+/1loyd/tty/dump1/GNU/2/3/4/5
+
+oyd/tty/dump1/GNU/2/3/4/5 d/tty/dump1/GNU/2/3/4/5/rcrt1.0
+
+& :
+
+8 :
+
+Nov 29 10:25:38 UTC 2 (Ubuntu 6.14.9-37.3724.04.1
+
+T DYNAMIC Thu Mar 19 01:28:37 UTC 2 (Ubuntu 6.17.0-20.2 4.04.1-generic 6.17 IBCRYPTSETUP +LIBFDISK +PCRE2 -PHQUALITY P11KIT +ORENCODE +TPM2 +821P2 +L24
+
+20 10:25:38 UTC 2 (Ubuntu 6.14.0-37.37 24.04.1-generic 6.14.11)
+
+IBFDISK +PCRE2 -PHQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +L24 +XZ +ZLIB +ZSTD -BPF FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT defau IBFDISK +PCRE2 -PHQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +L24 +XZ +ZLIB +ZSTD -BPF FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT defaul IBFDISK +PCRE2 -PHQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +L24 +XZ +ZLIB +ZSTD -BPF FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT default ar 19 01:28:37 UTC 2 (Ubuntu 6.17.0-20.20 24.04.1-generic 6.17.13)
+
+IBFDISK +PCRE2 -PHQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +L24 +XZ +ZLIB +ZSTD -BPF FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT default ar 19 01:28:37 UTC 2 (Ubuntu 6.17.0-20.20 24.04.1-generic 6.17.13)
+
+IBFDISK +PCRE2 -PHQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +L24 +XZ +ZLIB +ZSTD -BPF FRAMEWORK -XкBCOMMON +UTMP +SYSVINIT default
+
+ZZL18 +2STD BPF FRAMEWORK ZZL18 +25TD BFF FRAMEWORK Z+ZL18 +29TD -BPF FRAMEWORK
+
+39
+
+KBCOMMON UTMP SYVINIT default-hierarchysunified) KBCOMMON UTHP/SVINIT default-hierarchyunified) KBCOMMON UTMP SYVINIT default-hierarchysunified)
+
+ZZL18 +2STD BPF FRAMEWORK XKBCOMMON HUTHP VINIT default-hierarchysunified) 3) Z+ZL18 +23TD -BPF FRAMEWORK XKBCOMMON UTHP SYVINIT default-hierarchy unified)
