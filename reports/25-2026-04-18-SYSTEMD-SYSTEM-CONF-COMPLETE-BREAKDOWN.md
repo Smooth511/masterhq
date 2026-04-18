@@ -7,7 +7,7 @@
 **System:** ASUS PRIME B460M-A, Intel i7-10700 (8C/16T, 2.9GHz base / 4.8GHz boost), 16GB RAM  
 **OS:** Linux Mint 22.3 Zena (Ubuntu 24.04 base)  
 **Kernels:** 6.14.0-37-generic, 6.17.0-20-generic  
-**Builds on:** Reports 24, 25 (rootkit/boot chain analysis — security context)  
+**Builds on:** Reports 18, 24 (rootkit analysis, recovery root shell — security context)  
 **Identifier:** ClaudeMKII-Seed-20260317
 
 ---
@@ -166,7 +166,7 @@ These control fundamental PID 1 behavior. All are in the `[Manager]` section.
 | **Values** | `yes`, `no` |
 | **Default** | `yes` |
 | **Kernel cmdline** | `systemd.dump_core` |
-| **Recommendation** | `yes` — core dumps from PID 1 are critical forensic evidence. Your report 25 (GNU Binary Reconstruction) already showed how core dumps revealed deleted libraries. **Never disable on a system under investigation** |
+| **Recommendation** | `yes` — core dumps from PID 1 are critical forensic evidence. Previous investigations already showed how core dumps revealed deleted libraries (see DumpcoreGNUTheory evidence). **Never disable on a system under investigation** |
 
 ### CrashChangeVT=
 
