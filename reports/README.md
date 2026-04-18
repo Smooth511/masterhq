@@ -33,6 +33,13 @@ Chronologically numbered investigation and analysis reports. Each report synthes
 | 23 | 2026-04-14 | Cross-Repo Verification | Cross-repo evidence verification |
 | 24 | 2026-04-14 | Recovery Root Shell Tactical Command Analysis | Command-by-command forensic review of OCRRoot sessions |
 | 25 | 2026-04-17 | **GNU Binary Reconstruction Theory** | **Core dump deleted libs, kernel version changes, user's CRT extraction experiment, binary-encoded persistence theory** |
+| 26 | 2026-04-18 | systemd-system.conf(5) Complete Breakdown | System-wide systemd defaults — foundation for hardening series |
+| 27 | 2026-04-18 | systemd.exec(5) Per-Service Sandboxing | Namespace isolation, seccomp, capabilities per service |
+| 28 | 2026-04-18 | systemd.resource-control(5) Cgroup Controls | CPU/memory/IO limits per service via cgroups v2 |
+| 29 | 2026-04-18 | Kernel Command-Line & sysctl Hardening | Boot params (KASLR, lockdown, dm-verity) + sysctl security |
+| 30 | 2026-04-18 | Linux Audit Framework: auditd & systemd | File watches, syscall monitoring, boot chain auditing |
+| 31 | 2026-04-18 | **toram, overlayroot & Defensive Trapping** | **Run desktop from RAM + turn overlay into monitored cage** |
+| 32 | 2026-04-18 | **SysRq Memory Dump, Watchdog & NVRAM Hook** | **Crash dumps, deadman switch, EFI write blocking — the trap payoff** |
 
 ## Evaluations
 

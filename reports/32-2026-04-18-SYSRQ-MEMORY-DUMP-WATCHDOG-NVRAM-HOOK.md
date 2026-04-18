@@ -1,4 +1,4 @@
-# Report 31 — SysRq Memory Dump, Watchdog Deadman Switch & NVRAM Null Hook
+# Report 32 — SysRq Memory Dump, Watchdog Deadman Switch & NVRAM Null Hook
 
 **Classification:** FORENSIC ACQUISITION + DEFENSIVE TRAPPING — FULL REFERENCE GUIDE  
 **Prepared by:** ClaudeMKII (MK2PK)  
@@ -7,7 +7,7 @@
 **System:** ASUS PRIME B460M-A, Intel i7-10700 (8C/16T, 2.9GHz base / 4.8GHz boost), 16GB RAM  
 **OS:** Linux Mint 22.3 Zena (Ubuntu 24.04 base)  
 **Kernels:** 6.14.0-37-generic, 6.17.0-20-generic  
-**Builds on:** Reports 24 (rootkit), 25 (watchdog), 28 (sysrq/panic), 29 (audit), 30 (RAM overlay/trap)  
+**Builds on:** Reports 24 (rootkit), 26 (watchdog), 29 (sysrq/panic), 30 (audit), 31 (RAM overlay/trap)  
 **Identifier:** ClaudeMKII-Seed-20260317
 
 ---
@@ -35,9 +35,9 @@
 The idea is simple and brutal:
 
 ```
-RAM desktop running (Report 30)
-  → Quotas caging everything (Report 27)
-    → Audit logging everything (Report 29)
+RAM desktop running (Report 31)
+  → Quotas caging everything (Report 28)
+    → Audit logging everything (Report 30)
       → Rootkit does its thing, thinking it's safe
         → YOU trigger: SysRq memory dump
           → NVRAM goes to null (rootkit can't write to EFI)
@@ -67,7 +67,7 @@ During a memory dump (especially kdump crash), the system is in a vulnerable sta
 2. **Corrupt the dump output** — make the capture useless
 3. **Infinite loop in kernel** — prevent the crash kernel from loading
 
-The hardware watchdog (iTCO_wdt on your B460 chipset, from Report 25) is the deadman switch. If ANYTHING hangs for more than the configured seconds — hardware forces a reboot. No software can prevent it. It's a physical timer on the chipset.
+The hardware watchdog (iTCO_wdt on your B460 chipset, from Report 26) is the deadman switch. If ANYTHING hangs for more than the configured seconds — hardware forces a reboot. No software can prevent it. It's a physical timer on the chipset.
 
 ---
 
@@ -149,7 +149,7 @@ echo c > /proc/sysrq-trigger    # crash dump
 
 ## 3. SYSRQ BITMASK — SELECTIVE ENABLE FOR DUMP ONLY
 
-Report 28 covered `kernel.sysrq` briefly. Here's the full bitmask aligned with the kernel documentation (`Documentation/admin-guide/sysrq.rst`) for our forensic use case.
+Report 29 covered `kernel.sysrq` briefly. Here's the full bitmask aligned with the kernel documentation (`Documentation/admin-guide/sysrq.rst`) for our forensic use case.
 
 ### Bitmask Values
 
@@ -179,7 +179,7 @@ But ALSO signal functions to kill processes before dump (64) = **248**
 kernel.sysrq = 248
 ```
 
-> **Note:** Report 28 recommends `kernel.sysrq = 176` (sync + remount-ro + reboot only) for general hardening. The forensic value of 248 adds crash dump (8) and signal (64) functions needed for the trap-and-dump workflow.
+> **Note:** Report 29 recommends `kernel.sysrq = 176` (sync + remount-ro + reboot only) for general hardening. The forensic value of 248 adds crash dump (8) and signal (64) functions needed for the trap-and-dump workflow.
 
 ### Why NOT Enable All (value=1)?
 
@@ -201,7 +201,7 @@ Access control relies on:
 
 1. **The bitmask itself** — `kernel.sysrq = 248` restricts WHICH functions are available
 2. **Normal privilege boundaries** — only root (UID 0) can write to `/proc/sysrq-trigger`
-3. **Kernel lockdown** — `lockdown=confidentiality` (from Report 28) further restricts what root can do
+3. **Kernel lockdown** — `lockdown=confidentiality` (from Report 29) further restricts what root can do
 
 ```bash
 # The bitmask IS the access control — keep it restricted to what you need
@@ -211,7 +211,7 @@ sudo sysctl -w kernel.sysrq=248
 printf 'kernel.sysrq = 248\n' | sudo tee /etc/sysctl.d/99-sysrq-forensic.conf >/dev/null
 
 # If stronger runtime restrictions are needed, use kernel lockdown policy
-# (lockdown=confidentiality from Report 28)
+# (lockdown=confidentiality from Report 29)
 ```
 
 ---
@@ -311,7 +311,7 @@ KDUMP_COREDIR="/mnt/usb-dump"
 
 ### Important: crashkernel + toram Memory Budget
 
-If you're running toram (Report 30) AND kdump, the memory budget is:
+If you're running toram (Report 31) AND kdump, the memory budget is:
 
 ```
 16GB total
@@ -383,7 +383,7 @@ sudo insmod lime.ko "path=/mnt/usb/dump.lime format=lime"
 
 ## 6. WATCHDOG AS DEADMAN SWITCH
 
-Report 25 (§11) covered the hardware watchdog configuration. Here's how it integrates with the dump process as a failsafe.
+Report 26 (§11) covered the hardware watchdog configuration. Here's how it integrates with the dump process as a failsafe.
 
 ### Your Hardware
 
@@ -393,7 +393,7 @@ The ASUS B460M-A has the **Intel TCO Watchdog Timer** (iTCO_wdt) built into the 
 - **Triggers a hardware reset** when the timer expires
 - **Is independent of CPU state** — works even if all CPUs are locked
 
-### systemd Watchdog Configuration (from Report 25)
+### systemd Watchdog Configuration (from Report 26)
 
 ```ini
 # /etc/systemd/system.conf
@@ -516,7 +516,7 @@ Rootkit causes kernel corruption
         → makedumpfile captures RAM to /var/crash/
           → kernel.panic=30 → system reboots after 30s
             → If kdump itself hangs: watchdog fires at 120s → hardware reboot
-              → System boots clean from read-only base (Report 30)
+              → System boots clean from read-only base (Report 31)
                 → You have the dump file. Rootkit is dead.
 
 Or:
@@ -621,7 +621,7 @@ rmmod efivarfs 2>/dev/null
 # Check: cat /proc/filesystems | grep efivars
 ```
 
-### Method 5: Kernel Lockdown (from Report 28)
+### Method 5: Kernel Lockdown (from Report 29)
 
 With `lockdown=confidentiality` on the kernel cmdline:
 - Blocks `/dev/mem` access
@@ -1001,7 +1001,7 @@ sudo trap-and-dump.sh both
 # 1. Install kdump
 sudo apt install kdump-tools linux-crashdump makedumpfile crash
 
-# 2. Add crashkernel to GRUB (with all hardening from Report 28)
+# 2. Add crashkernel to GRUB (with all hardening from Report 29)
 # Edit /etc/default/grub:
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash \
     crashkernel=512M \
@@ -1031,7 +1031,7 @@ sudo tee /etc/sysctl.d/99-sysrq-forensic.conf << 'EOF'
 kernel.sysrq = 248
 EOF
 
-# 5. Configure watchdog (Report 25)
+# 5. Configure watchdog (Report 26)
 # Edit /etc/systemd/system.conf:
 # RuntimeWatchdogSec=120
 # WatchdogDevice=/dev/watchdog0
@@ -1285,4 +1285,4 @@ WatchdogDevice=/dev/watchdog0
 
 ---
 
-*This report brings together the entire hardening series (Reports 25-30) into an operational forensic acquisition toolkit. The SysRq crash dump captures the rootkit's complete memory state. The NVRAM null hook prevents the rootkit from writing to EFI persistence during capture. The watchdog guarantees the system reboots even if the dump process hangs. The overlay capture from Report 30 preserves everything the rootkit changed. Combined: you get full evidence capture with no escape routes.*
+*This report brings together the entire hardening series (Reports 26-31) into an operational forensic acquisition toolkit. The SysRq crash dump captures the rootkit's complete memory state. The NVRAM null hook prevents the rootkit from writing to EFI persistence during capture. The watchdog guarantees the system reboots even if the dump process hangs. The overlay capture from Report 31 preserves everything the rootkit changed. Combined: you get full evidence capture with no escape routes.*

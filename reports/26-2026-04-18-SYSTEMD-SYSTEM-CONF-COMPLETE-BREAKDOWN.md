@@ -1,4 +1,4 @@
-# Report 25 — systemd-system.conf(5): Complete Configuration Breakdown
+# Report 26 — systemd-system.conf(5): Complete Configuration Breakdown
 
 **Classification:** SYSTEM HARDENING — FULL REFERENCE GUIDE  
 **Prepared by:** ClaudeMKII (MK2PK)  
@@ -872,7 +872,7 @@ This is the full drop-in configuration file for your system. Create it at:
 ```ini
 # =============================================================================
 # ASUS PRIME B460M-A / i7-10700 / 16GB RAM
-# systemd hardened configuration - Report 25
+# systemd hardened configuration - Report 26
 # ClaudeMKII - 2026-04-18
 # =============================================================================
 
@@ -1147,8 +1147,8 @@ Every option from `systemd-system.conf(5)` in one table.
 
 ---
 
-*End of Report 25*
+*End of Report 26*
 
-*Next: Report 26 — systemd.exec(5) Per-Service Sandboxing Breakdown*
-*Then: Report 27 — systemd.resource-control(5) Cgroup Controls*
-*Then: Report 28 — Kernel Hardening Command Line Flags (nomodules, BPF, ACPI, throttle)*
+*Next: Report 27 — systemd.exec(5) Per-Service Sandboxing Breakdown*
+*Then: Report 28 — systemd.resource-control(5) Cgroup Controls*
+*Then: Report 29 — Kernel Hardening Command Line Flags (nomodules, BPF, ACPI, throttle)*

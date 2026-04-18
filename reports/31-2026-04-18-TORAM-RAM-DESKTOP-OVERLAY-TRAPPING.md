@@ -1,4 +1,4 @@
-# Report 30 — Running the Entire Desktop from RAM: toram, overlayroot & Defensive Trapping
+# Report 31 — Running the Entire Desktop from RAM: toram, overlayroot & Defensive Trapping
 
 **Classification:** SYSTEM HARDENING + FORENSIC TRAPPING — FULL REFERENCE GUIDE  
 **Prepared by:** ClaudeMKII (MK2PK)  
@@ -7,7 +7,7 @@
 **System:** ASUS PRIME B460M-A, Intel i7-10700 (8C/16T, 2.9GHz base / 4.8GHz boost), 16GB RAM  
 **OS:** Linux Mint 22.3 Zena (Ubuntu 24.04 base)  
 **Kernels:** 6.14.0-37-generic, 6.17.0-20-generic  
-**Builds on:** Reports 24 (rootkit boot chain), 25-29 (systemd + kernel hardening series)  
+**Builds on:** Reports 24 (rootkit boot chain), 26-30 (systemd + kernel hardening series)  
 **Identifier:** ClaudeMKII-Seed-20260317
 
 ---
@@ -136,7 +136,7 @@ menuentry "Linux Mint — Full RAM Mode" {
 
 ### toram + Security Hardening (Combined GRUB Line)
 
-From Report 28's kernel cmdline hardening, combined with toram:
+From Report 29's kernel cmdline hardening, combined with toram:
 
 ```bash
 linux /casper/vmlinuz boot=casper toram nopersistent \
@@ -520,8 +520,8 @@ This is the key section. You mentioned trapping the rootkit "like I do windows" 
 
 1. **The rootkit thinks it's running normally** — it sees a writable filesystem, can modify files, can run processes
 2. **Every modification lands in the tmpfs upper layer** — you can inspect `/run/ram-overlay/upper` (or `/cow`) at any time to see EXACTLY what changed
-3. **Every process is resource-caged** — cgroup quotas from Report 27 limit CPU/memory/IO per service
-4. **Every syscall is logged** — auditd rules from Report 29 catch execve, module loads, device access, etc.
+3. **Every process is resource-caged** — cgroup quotas from Report 28 limit CPU/memory/IO per service
+4. **Every syscall is logged** — auditd rules from Report 30 catch execve, module loads, device access, etc.
 5. **The base system is cryptographically verified** — dm-verity catches any attempt to tamper with the read-only lower layer
 6. **Nothing survives reboot** — power off, come back to clean system
 
@@ -531,8 +531,8 @@ What you do on Windows (setting quotas and monitoring to catch the rootkit's act
 
 | Windows Technique | Linux RAM Equivalent |
 |-------------------|---------------------|
-| Resource Monitor | `systemd-cgtop` + cgroup quotas (Report 27) |
-| Process Explorer | `auditd` execve tracking (Report 29) |
+| Resource Monitor | `systemd-cgtop` + cgroup quotas (Report 28) |
+| Process Explorer | `auditd` execve tracking (Report 30) |
 | Disk quota | `tmpfs size=` limit on upper layer |
 | Event log | auditd → remote syslog |
 | SFC /scannow | dm-verity hash verification (continuous) |
@@ -542,7 +542,7 @@ What you do on Windows (setting quotas and monitoring to catch the rootkit's act
 
 ## 10. QUOTA ENFORCEMENT INSIDE THE RAM ENVIRONMENT
 
-From Report 27's cgroup controls, here's how to set up resource quotas specifically for the RAM environment.
+From Report 28's cgroup controls, here's how to set up resource quotas specifically for the RAM environment.
 
 ### tmpfs Size Quota (Limit Total Writes)
 
@@ -646,7 +646,7 @@ done
 
 ## 11. AUDIT RULES FOR OVERLAY DETECTION
 
-Building on Report 29's audit framework, here are rules specifically for monitoring the RAM overlay environment.
+Building on Report 30's audit framework, here are rules specifically for monitoring the RAM overlay environment.
 
 ### Watch the Upper Layer Directly
 
@@ -824,20 +824,20 @@ The rootkit documented in Report 24 uses **stock Ventoy and stock casper** — i
 
 ## 13. COMPLETE DEFENSIVE CONFIGURATION
 
-Here's the full setup, combining everything from this report and Reports 25-29.
+Here's the full setup, combining everything from this report and Reports 26-30.
 
 ### Architecture
 
 ```
 EFI Secure Boot (your keys)
   → YOUR signed GRUB (not CN=grub rootkit)
-    → Kernel with hardened cmdline (Report 28)
+    → Kernel with hardened cmdline (Report 29)
       → initramfs with RAM overlay hook
         → dm-verity verified squashfs (read-only base)
           → overlayfs with capped tmpfs upper (monitored)
-            → systemd with cgroup quotas (Report 27)
-              → services sandboxed (Report 26)
-                → auditd watching everything (Report 29 + this report)
+            → systemd with cgroup quotas (Report 28)
+              → services sandboxed (Report 27)
+                → auditd watching everything (Report 30 + this report)
                   → Remote syslog (evidence preservation)
 ```
 
@@ -855,11 +855,11 @@ sudo swapoff -a
 sudo sed -i 's/^.*swap/#&/' /etc/fstab
 sudo apt install zram-config
 
-# 4. Install audit rules (from this report + Report 29)
+# 4. Install audit rules (from this report + Report 30)
 sudo cp /path/to/50-overlay-trap.rules /etc/audit/rules.d/
 sudo systemctl restart auditd
 
-# 5. Apply kernel hardening (Report 28)
+# 5. Apply kernel hardening (Report 29)
 # Edit /etc/default/grub:
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash \
     init_on_alloc=1 init_on_free=1 \
@@ -869,14 +869,14 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash \
     mitigations=auto,nosmt"
 sudo update-grub
 
-# 6. Apply systemd system-wide hardening (Report 25)
-# Edit /etc/systemd/system.conf per Report 25
+# 6. Apply systemd system-wide hardening (Report 26)
+# Edit /etc/systemd/system.conf per Report 26
 
-# 7. Apply per-service sandboxing (Report 26)
-# Create drop-in files per Report 26
+# 7. Apply per-service sandboxing (Report 27)
+# Create drop-in files per Report 27
 
-# 8. Apply cgroup quotas (Report 27)
-# Create slice files per Report 27
+# 8. Apply cgroup quotas (Report 28)
+# Create slice files per Report 28
 
 # 9. Enable remote syslog (preserve evidence off-machine)
 # /etc/rsyslog.d/90-remote.conf:
@@ -904,7 +904,7 @@ sudo cp /path/to/50-overlay-trap.rules /etc/audit/rules.d/
 sudo augenrules --load
 
 # 4. Deploy cgroup quotas:
-# Copy slice/service files from Report 27
+# Copy slice/service files from Report 28
 
 # 5. Start monitoring:
 sudo systemd-cgtop &
@@ -1010,4 +1010,4 @@ journalctl -u some.service | grep -i oom           # OOM events
 
 ---
 
-*This report continues the hardening series (Reports 25-29) and directly addresses the defensive use of RAM-based system operation. The rootkit uses casper+overlay because it's effective architecture. This report takes that same architecture and turns it into a monitored cage. Combined with the resource quotas from Report 27 and the audit framework from Report 29, every action the rootkit takes is either resource-limited, logged, or both.*
+*This report continues the hardening series (Reports 26-30) and directly addresses the defensive use of RAM-based system operation. The rootkit uses casper+overlay because it's effective architecture. This report takes that same architecture and turns it into a monitored cage. Combined with the resource quotas from Report 28 and the audit framework from Report 30, every action the rootkit takes is either resource-limited, logged, or both.*
