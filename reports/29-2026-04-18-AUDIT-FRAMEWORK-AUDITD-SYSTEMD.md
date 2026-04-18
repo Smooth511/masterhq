@@ -382,9 +382,18 @@ Makes the audit configuration **immutable** — cannot be changed at runtime. Re
 -w /etc/modules-load.d/ -p wa -k modules
 
 # === Systemd Configuration ===
--w /etc/systemd/ -p wa -k systemd_config
--w /usr/lib/systemd/ -p wa -k systemd_lib
+# Note: -w directory watches are NOT recursive — list key subdirs explicitly
+-w /etc/systemd/system.conf -p wa -k systemd_config
+-w /etc/systemd/user.conf -p wa -k systemd_config
+-w /etc/systemd/system/ -p wa -k systemd_config
+-w /etc/systemd/user/ -p wa -k systemd_config
+-w /usr/lib/systemd/system/ -p wa -k systemd_lib
+-w /usr/lib/systemd/user/ -p wa -k systemd_lib
+-w /usr/lib/systemd/system-generators/ -p wa -k systemd_lib
+-w /usr/lib/systemd/user-generators/ -p wa -k systemd_lib
 -w /run/systemd/system/ -p wa -k systemd_runtime
+-w /run/systemd/generator/ -p wa -k systemd_runtime
+-w /run/systemd/user/ -p wa -k systemd_runtime
 
 # === Cron / Scheduled Tasks ===
 -w /etc/crontab -p wa -k cron

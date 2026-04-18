@@ -149,33 +149,37 @@ echo c > /proc/sysrq-trigger    # crash dump
 
 ## 3. SYSRQ BITMASK — SELECTIVE ENABLE FOR DUMP ONLY
 
-Report 28 covered `kernel.sysrq` briefly. Here's the full bitmask for our specific use case.
+Report 28 covered `kernel.sysrq` briefly. Here's the full bitmask aligned with the kernel documentation (`Documentation/admin-guide/sysrq.rst`) for our forensic use case.
 
 ### Bitmask Values
 
-| Bit | Value | Functions Enabled |
-|-----|-------|-------------------|
-| 0 | 1 | Enable ALL SysRq (dangerous) |
-| 1 | 2 | Control console log level |
-| 2 | 4 | Keyboard raw mode (SysRq+R) |
-| 3 | 8 | Secure Attention Key (SysRq+K) |
-| 4 | 16 | **Crash/dump functions (SysRq+C)** |
-| 5 | 32 | **Sync + remount read-only (SysRq+S, SysRq+U)** |
-| 6 | 64 | Signal functions (SysRq+E, SysRq+I, SysRq+F) |
-| 7 | 128 | Reboot/poweroff (SysRq+B, SysRq+O) |
+| Value | Bit | Functions Enabled |
+|-------|-----|-------------------|
+| 0 | — | Disable all SysRq functions |
+| 1 | — | Enable ALL SysRq functions (dangerous — special value, not a bitmask) |
+| 2 | 1 | Control console log level |
+| 4 | 2 | Keyboard control: SAK (SysRq+K), unraw (SysRq+R) |
+| 8 | 3 | **Debug/dump functions: crash (SysRq+C), registers (SysRq+P), tasks (SysRq+T)** |
+| 16 | 4 | **Sync command (SysRq+S)** |
+| 32 | 5 | **Remount read-only (SysRq+U)** |
+| 64 | 6 | Signal functions: SIGTERM (SysRq+E), SIGKILL (SysRq+I), OOM kill (SysRq+F) |
+| 128 | 7 | Reboot/poweroff (SysRq+B, SysRq+O) |
+| 256 | 8 | Nice adjustment of RT tasks |
 
 ### Our Configuration
 
-We want: crash dump + sync/remount + reboot = **16 + 32 + 128 = 176**
+We want: crash dump (8) + sync (16) + remount-ro (32) + reboot (128) = **184**
 
-But ALSO signal functions (to kill processes before dump) = + 64 = **240**
+But ALSO signal functions to kill processes before dump (64) = **248**
 
 ```bash
 # /etc/sysctl.d/99-sysrq-forensic.conf
 
-# Enable: crash dump (16) + sync/remount (32) + signals (64) + reboot (128)
-kernel.sysrq = 240
+# Enable: crash dump (8) + sync (16) + remount-ro (32) + signals (64) + reboot (128)
+kernel.sysrq = 248
 ```
+
+> **Note:** Report 28 recommends `kernel.sysrq = 176` (sync + remount-ro + reboot only) for general hardening. The forensic value of 248 adds crash dump (8) and signal (64) functions needed for the trap-and-dump workflow.
 
 ### Why NOT Enable All (value=1)?
 
@@ -184,21 +188,30 @@ With `kernel.sysrq = 1`, ANYONE with console access (or a rootkit with `/proc/sy
 - Kill all processes (`e`/`i`)
 - Reboot without sync (`b`)
 
-With `kernel.sysrq = 240`, they can still do these (it's our trap toolset), but we've disabled:
-- Console log level changes (bit 1) — rootkit can't suppress logs
-- Keyboard raw mode (bit 2) — less attack surface
-- Debug info dumps to console (bit 0) — info leak prevention
+With `kernel.sysrq = 248`, they can still do these (it's our trap toolset), but we've disabled:
+- Console log level changes (value 2) — rootkit can't suppress logs
+- Keyboard raw mode (value 4) — less attack surface
+- RT task nicing (value 256) — no need for this
 
-### Lock Down /proc/sysrq-trigger
+### Access Control for /proc/sysrq-trigger
 
-Even with the bitmask set, restrict WHO can trigger:
+`/proc/sysrq-trigger` is already root-writable only (0200) by default. The `chmod` command has no meaningful effect on procfs entries — the kernel controls access directly.
+
+Access control relies on:
+
+1. **The bitmask itself** — `kernel.sysrq = 248` restricts WHICH functions are available
+2. **Normal privilege boundaries** — only root (UID 0) can write to `/proc/sysrq-trigger`
+3. **Kernel lockdown** — `lockdown=confidentiality` (from Report 28) further restricts what root can do
 
 ```bash
-# Only root can write to sysrq-trigger
-chmod 600 /proc/sysrq-trigger
+# The bitmask IS the access control — keep it restricted to what you need
+sudo sysctl -w kernel.sysrq=248
 
-# Or use sysctl to make it runtime-immutable after setting
-# (requires lockdown=confidentiality from Report 28)
+# Persist across reboots
+printf 'kernel.sysrq = 248\n' | sudo tee /etc/sysctl.d/99-sysrq-forensic.conf >/dev/null
+
+# If stronger runtime restrictions are needed, use kernel lockdown policy
+# (lockdown=confidentiality from Report 28)
 ```
 
 ---
@@ -584,14 +597,16 @@ mount -t efivarfs efivarfs /sys/firmware/efi/efivars -o immutable
 # This is STRONGER than ro — even root can't remount rw
 ```
 
-### Method 3: Bind-Mount /dev/null Over efivarfs
+### Method 3: Overmount efivarfs with Empty Read-Only tmpfs
 
 ```bash
-# Nuclear option — efivarfs becomes completely inaccessible
-mount --bind /dev/null /sys/firmware/efi/efivars
+# Nuclear option — hide efivarfs behind an empty read-only mount
+# This is a dir-on-dir mount (unlike bind /dev/null which is file→dir and fails)
+mount -t tmpfs -o ro,nodev,nosuid,noexec,size=4k tmpfs /sys/firmware/efi/efivars
 
-# ANY access (read or write) to EFI variables now goes to /dev/null
-# The rootkit can't even READ its own MOK cert to verify it's still enrolled
+# The path now appears empty — rootkit can't READ or WRITE EFI variables
+# through /sys/firmware/efi/efivars while this is in place
+# Unmount to restore access: umount /sys/firmware/efi/efivars
 ```
 
 ### Method 4: Block at Module Level
@@ -645,9 +660,9 @@ fi
 mount -o remount,ro /sys/firmware/efi/efivars 2>/dev/null && \
     echo "[$(date)] NVRAM: read-only remount OK" | tee -a "$LOG" || true
 
-# Nuclear fallback: bind to /dev/null  
-mount --bind /dev/null /sys/firmware/efi/efivars 2>/dev/null && \
-    echo "[$(date)] NVRAM: null bind OK" | tee -a "$LOG" || true
+# Nuclear fallback: overmount with empty read-only tmpfs (dir-on-dir, not bind /dev/null)
+mount -t tmpfs -o ro,nosuid,nodev,noexec,mode=000,size=4k tmpfs /sys/firmware/efi/efivars 2>/dev/null && \
+    echo "[$(date)] NVRAM: tmpfs overmount OK" | tee -a "$LOG" || true
 
 echo "[$(date)] NVRAM access blocked" | tee -a "$LOG"
 
@@ -774,12 +789,13 @@ if [ -d /sys/firmware/efi/efivars ]; then
     # Method 1: remount read-only
     mount -o remount,ro /sys/firmware/efi/efivars 2>/dev/null
     
-    # Method 2: if that didn't work, try bind to null
-    if mount | grep efivars | grep -q "rw"; then
-        mount --bind /dev/null /sys/firmware/efi/efivars 2>/dev/null
+    # Method 2: if still writable, overmount with empty read-only tmpfs
+    EFIVARS_MOUNT="$(grep ' /sys/firmware/efi/efivars ' /proc/mounts 2>/dev/null)"
+    if printf '%s\n' "$EFIVARS_MOUNT" | grep -q ' rw[, ]'; then
+        mount -t tmpfs -o ro,nosuid,nodev,noexec,mode=000,size=4k tmpfs /sys/firmware/efi/efivars 2>/dev/null
     fi
     
-    echo "  NVRAM locked: $(mount | grep efivars)"
+    echo "  NVRAM locked: $(grep efivars /proc/mounts)"
 else
     echo "  No efivarfs found (not EFI system or already unmounted)"
 fi
@@ -864,13 +880,39 @@ if [ "$MODE" = "live" ] || [ "$MODE" = "both" ]; then
         echo "  Loading LiME module..."
         insmod "$LIME_MODULE" "path=${DUMP_DEV}/memdump-live-${TIMESTAMP}.lime format=lime"
         
-        # Wait for capture to complete
+        # Wait for capture to complete by monitoring output file size stability
         echo "  Capturing... (this takes 30-120 seconds for 16GB)"
-        while lsmod | grep -q lime; do
+        CAPTURE_FILE="${DUMP_DEV}/memdump-live-${TIMESTAMP}.lime"
+        last_size=-1
+        stable_checks=0
+        check_count=0
+        max_checks=72  # 72 × 5s = 360s max
+        while [ "$check_count" -lt "$max_checks" ]; do
             sleep 5
             echo -n "."
+            check_count=$((check_count + 1))
+            
+            if [ -f "$CAPTURE_FILE" ]; then
+                current_size=$(stat -c%s "$CAPTURE_FILE" 2>/dev/null || echo -1)
+                if [ "$current_size" -gt 0 ] && [ "$current_size" -eq "$last_size" ]; then
+                    stable_checks=$((stable_checks + 1))
+                else
+                    stable_checks=0
+                    last_size=$current_size
+                fi
+                
+                # File size stable for 3 consecutive checks (15s) = capture complete
+                if [ "$stable_checks" -ge 3 ]; then
+                    break
+                fi
+            fi
         done
         echo ""
+        
+        # Unload LiME module (it stays loaded after capture — must explicitly rmmod)
+        if lsmod | grep -q '^lime[[:space:]]'; then
+            rmmod lime
+        fi
         
         # Hash the capture
         sha256sum "${DUMP_DEV}/memdump-live-${TIMESTAMP}.lime" > \
@@ -985,8 +1027,8 @@ EOF
 
 # 4. Configure SysRq bitmask
 sudo tee /etc/sysctl.d/99-sysrq-forensic.conf << 'EOF'
-# crash(16) + sync/remount(32) + signals(64) + reboot(128)
-kernel.sysrq = 240
+# crash dump(8) + sync(16) + remount-ro(32) + signals(64) + reboot(128)
+kernel.sysrq = 248
 EOF
 
 # 5. Configure watchdog (Report 25)
@@ -1014,7 +1056,7 @@ cat /proc/iomem | grep -i crash
 
 # SysRq enabled with correct mask?
 cat /proc/sys/kernel/sysrq
-# Expected: 240
+# Expected: 248
 
 # Watchdog active?
 cat /sys/class/watchdog/watchdog0/state
@@ -1212,7 +1254,7 @@ sudo /usr/local/bin/trap-and-dump.sh crash
 
 ```bash
 # /etc/sysctl.d/99-forensic-complete.conf
-kernel.sysrq = 240
+kernel.sysrq = 248
 kernel.panic_on_oops = 1
 kernel.hardlockup_panic = 1
 kernel.softlockup_panic = 1

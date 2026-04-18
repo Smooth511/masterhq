@@ -619,19 +619,18 @@ net.ipv6.conf.default.use_tempaddr = 2
 
 | Bit | Value | Function |
 |-----|-------|----------|
-| 0 | 1 | Enable control of SysRq logging level |
-| 1 | 2 | Enable control of console logging level |
-| 2 | 4 | Enable dumping of registers |
-| 3 | 8 | Enable sync |
-| 4 | 16 | Enable remount read-only |
-| 5 | 32 | Enable signals (SAK, SIGTERM, SIGKILL) |
-| 6 | 64 | Allow OOM killer |
-| 7 | 128 | Allow restart/kexec |
-| 8 | 256 | Allow nice adjustment |
+| 1 | 2 | Control console logging level |
+| 2 | 4 | Keyboard control (SAK SysRq+K, unraw SysRq+R) |
+| 3 | 8 | Debug/dump info (SysRq+C crash, SysRq+P regs, SysRq+T tasks) |
+| 4 | 16 | Sync command (SysRq+S) |
+| 5 | 32 | Remount read-only (SysRq+U) |
+| 6 | 64 | Signal functions (SysRq+E SIGTERM, SysRq+I SIGKILL, SysRq+F OOM kill) |
+| 7 | 128 | Reboot/poweroff (SysRq+B, SysRq+O) |
+| 8 | 256 | Nice adjustment of RT tasks |
 
-**Hardening: `kernel.sysrq = 176`** (sync + remount read-only + restart = 8+16+128+... better just use `kernel.sysrq = 4` for absolute minimum or `0` to disable entirely).
+**Hardening: `kernel.sysrq = 176`** — sync (16) + remount read-only (32) + reboot (128) = 176. Only emergency recovery functions enabled. Use `kernel.sysrq = 0` to disable entirely.
 
-For most hardened systems: **`kernel.sysrq = 0`** — or `kernel.sysrq = 176` (only sync/remount/restart for emergency recovery).
+For most hardened systems: **`kernel.sysrq = 0`** — or `kernel.sysrq = 176` (only sync/remount/restart for emergency recovery). See Report 31 for forensic-specific bitmask (248) that adds crash dump + signal functions.
 
 ### 16.3 kernel.core_uses_pid
 

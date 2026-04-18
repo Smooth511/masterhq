@@ -673,7 +673,11 @@ Building on Report 29's audit framework, here are rules specifically for monitor
 # Binary modifications
 -w /usr/bin -p wa -k bin_tamper
 -w /usr/sbin -p wa -k sbin_tamper
--w /usr/lib -p wa -k lib_tamper
+
+# Library directories — use syscall rules with dir= for recursive coverage
+# (plain -w watches are NOT recursive and would miss /usr/lib/x86_64-linux-gnu/)
+-a always,exit -F arch=b64 -F dir=/usr/lib -F perm=wa -k lib_tamper
+-a always,exit -F arch=b32 -F dir=/usr/lib -F perm=wa -k lib_tamper
 
 # Library replacement (from Report 25 — deleted libraries attack)
 -w /usr/lib/x86_64-linux-gnu/libc.so.6 -p wa -k libc_tamper
