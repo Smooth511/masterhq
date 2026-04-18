@@ -30,6 +30,9 @@ Chronologically numbered investigation and analysis reports. Each report synthes
 | 20 | 2026-04-02 | THEBULLETFROMSMOKINGUN Analysis | ASUS deep technical analysis |
 | 21 | 2026-04-11 | AICHAT + OCR220 Analysis | AI chat review, OCR220SS, dpkg cross-reference |
 | 22 | 2026-04-11 | **Pre-Overlay Breach** | **Initramfs tactical breach, inwahnrad injection proof, Ventoy boot chain dissection** |
+| 23 | 2026-04-14 | Cross-Repo Verification | Cross-repo evidence verification |
+| 24 | 2026-04-14 | Recovery Root Shell Tactical Command Analysis | Command-by-command forensic review of OCRRoot sessions |
+| 25 | 2026-04-17 | **GNU Binary Reconstruction Theory** | **Core dump deleted libs, kernel version changes, user's CRT extraction experiment, binary-encoded persistence theory** |
 
 ## Evaluations
 
