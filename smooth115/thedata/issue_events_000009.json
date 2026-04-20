@@ -1,0 +1,499 @@
+[
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Issue-3/pull/1#event-23807823221",
+    "pull_request": "https://github.com/Smooth115/Issue-3/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-23T10:10:41Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Issue-3/pull/1#event-23808005030",
+    "pull_request": "https://github.com/Smooth115/Issue-3/pull/1",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Add lockdown details from issue #3 to README",
+    "title_is": "Add lockdown issue text to README and create repo log for Issue-3",
+    "created_at": "2026-03-23T10:16:00Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Issue-3/pull/1#event-23808009894",
+    "pull_request": "https://github.com/Smooth115/Issue-3/pull/1",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth115",
+    "created_at": "2026-03-23T10:16:07Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Issue-3/pull/1#event-23808010073",
+    "pull_request": "https://github.com/Smooth115/Issue-3/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-23T10:16:08Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Issue-3/pull/1#event-23808040190",
+    "pull_request": "https://github.com/Smooth115/Issue-3/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "ready_for_review",
+    "created_at": "2026-03-23T10:16:55Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Issue-3/pull/1#event-23808044823",
+    "pull_request": "https://github.com/Smooth115/Issue-3/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "merged",
+    "commit_id": "e637a94adf3705c607e0ebdecc6237496766ca12",
+    "created_at": "2026-03-23T10:17:01Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Issue-3/pull/1#event-23808045025",
+    "pull_request": "https://github.com/Smooth115/Issue-3/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-23T10:17:01Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/Issue-3/pull/1#event-23808047882",
+    "pull_request": "https://github.com/Smooth115/Issue-3/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "head_ref_deleted",
+    "created_at": "2026-03-23T10:17:06Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/1#event-23961025606",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/1",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-27T06:20:00Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/1#event-23961025689",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-27T06:20:00Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/1#event-23961026697",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-27T06:20:03Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/1#event-23961104993",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "ready_for_review",
+    "created_at": "2026-03-27T06:23:29Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/1#event-23961105179",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-27T06:23:29Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/1#event-23961116031",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-27T06:23:57Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/1#event-23961128903",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/1",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Add documentation for requesting approval of security tools",
+    "title_is": "docs: add staged security tooling acquisition and authorization guide",
+    "created_at": "2026-03-27T06:24:31Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/1#event-23961130683",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/1",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth115",
+    "created_at": "2026-03-27T06:24:37Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/1#event-23961130709",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-27T06:24:37Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/1#event-23961147239",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "merged",
+    "commit_id": "25cf0b1fc01b467310961eef85dc305a5deaf210",
+    "created_at": "2026-03-27T06:25:19Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/1#event-23961147263",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/1",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-27T06:25:19Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003207726",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-28T22:35:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003207739",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-28T22:35:39Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003207862",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-28T22:35:40Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003220439",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Sonnet",
+    "event": "mentioned",
+    "created_at": "2026-03-28T22:37:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003220447",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-28T22:37:25Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003220944",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-28T22:37:30Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003233302",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth115",
+    "created_at": "2026-03-28T22:39:13Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003233304",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-28T22:39:13Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003320242",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Sonnet",
+    "event": "mentioned",
+    "created_at": "2026-03-28T22:51:37Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003320251",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-28T22:51:37Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003320897",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-28T22:51:42Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003354497",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "Add HOTDROP analysis report: lloyddesk rkhunter scan + Windows install filesystem forensics",
+    "title_is": "Add HOTDROP analysis report: lloyddesk rkhunter scan + systemctl findings + Windows install filesystem forensics",
+    "created_at": "2026-03-28T22:56:37Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003355384",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-28T22:56:45Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003382589",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-28T23:00:44Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003457326",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-28T23:09:06Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003545406",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-28T23:21:18Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003666681",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-28T23:32:57Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003800465",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "ready_for_review",
+    "created_at": "2026-03-28T23:51:10Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003804110",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "review_requested",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-28T23:51:40Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003807678",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-28T23:52:16Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003905141",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-29T00:03:23Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003905905",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-29T00:03:29Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003981729",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Copilot",
+    "event": "mentioned",
+    "created_at": "2026-03-29T00:12:29Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24003987383",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-29T00:13:14Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24004547792",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "merged",
+    "commit_id": "90b1ce16438ca409315350658640e854571ef686",
+    "created_at": "2026-03-29T01:27:04Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/2#event-24004547801",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/2",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-29T01:27:04Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/3#event-24009532930",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/3",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-29T13:01:21Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/3#event-24009532955",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/3",
+    "actor": "https://github.com/Smooth115",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-29T13:01:21Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/3#event-24009533413",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/3",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-29T13:01:24Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/3#event-24009544793",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/3",
+    "actor": "https://github.com/Copilot",
+    "event": "renamed",
+    "title_was": "[WIP] Investigate and resolve security concerns in task 19c1adf6-99da-4d3f-b273-e754702ac5e5",
+    "title_is": "Decline prompt injection attempt disguised as security investigation task",
+    "created_at": "2026-03-29T13:02:43Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/3#event-24009545927",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/3",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-29T13:02:50Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/3#event-24009545956",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/3",
+    "actor": "https://github.com/Copilot",
+    "event": "review_requested",
+    "subject": "https://github.com/Smooth115",
+    "created_at": "2026-03-29T13:02:50Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/3#event-24009554352",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/3",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-29T13:03:36Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/3#event-24009568019",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/3",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-29T13:04:49Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/3#event-24009624022",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/3",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-29T13:11:00Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/3#event-24009638651",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/3",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_finished",
+    "created_at": "2026-03-29T13:12:44Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/3#event-24015073258",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/3",
+    "actor": "https://github.com/Smooth115",
+    "event": "closed",
+    "created_at": "2026-03-29T21:37:53Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/4#event-24015107717",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/4",
+    "actor": "https://github.com/Copilot",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-29T21:42:07Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/4#event-24015107746",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/4",
+    "actor": "https://github.com/Smooth115",
+    "event": "assigned",
+    "subject": "https://github.com/Copilot",
+    "created_at": "2026-03-29T21:42:07Z"
+  },
+  {
+    "type": "issue_event",
+    "url": "https://github.com/Smooth115/DATABASE/pull/4#event-24015107909",
+    "pull_request": "https://github.com/Smooth115/DATABASE/pull/4",
+    "actor": "https://github.com/Smooth115",
+    "event": "copilot_work_started",
+    "created_at": "2026-03-29T21:42:08Z"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "servers": {
+    "claude-mkii": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["${workspaceFolder}/mcp-server/server.py"],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    },
+    "mk2-bridge": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/bridge/server.js"],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "claude-mkii-docker": {
+      "type": "stdio",
+      "command": "docker",
+      "args": [
+        "compose",
+        "run",
+        "--rm",
+        "-T",
+        "mcp-server"
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+C:\windows\system32\cmd.exe
+
+[filename] - Notepad
+mat  View  Help
+
+nStartTime (272AB3B8-5B2C-41D9-82C3-D8BD6598815F)
+nEndTime (272AB3B8-5B2C-41D9-82C3-D8BD6598815F) ... fa668ad-ffff-4c6c-bb64-c30cd889cbbe
+nEstimatedSpace (272AB3B8-5B2C-41D9-B2C4-D8BD65BB015)
+nConsumedSpace (272AB3B8-5B2C-41D9-82C3-D8BD65BB015F) ... dfa6668ad-ffff-4c6c-bb64-c30cd889cbbe
+nExecutedPhase
+nName (272AB3BB-5B2C-41D9-82C3-D8BD6598815F) ... fa668ad-ffff-4c6c-bb64-c30cd889cbbe
+
+nStartTime (C80C4FCF-FD54-40A8-B6EF-C175BAAFA53A) ... INFO ...
+nEndTime (C80C4FCF-FD54-40A8-B6EF-C175BAAFA53A)
+nEstimatedSpace (C80C4FCF-FD54-40A8-B6EF-C175BAAFA53A)
+nConsumedSpace (C80C4FCF-FD54-40A8-B6EF-C175BAAFA53A)
+nState (C80C4FCF-FD54-40A8-B6EF-C175BAAFA53A) SafeOS and rollback. Details:
+nName (C80C4FCF-FD54-40A8-B6EF-C175BAAFA53A) ... INFO  Ovr...  Result
+
+nName (6DDF3F04-C-64A9-4C66-B243-D0A2C0E87C37)
+nEndTime (6DDF3F04-C-64A9-4C66-B243-D0A2C0E87C37)
+nEstimatedSpace (6DDF3F04-64A9-4C66-B243-D0A2C0E87C37)
+nConsumedSpace (6DD3F04C-64A9-4C66-B243-D0A2C0E87C37)
+nExecutedPhase
+nState (6DD3F04C-64A9-4C66-B243-D0A2C0E87C37)
+INFO  Ovr...  Result ... completed dfa6668ad ... Close log
+
+???????????????????????????????????????????????????????????????????????????????????
+\system32\sspopk.dll    SysprepOffline_Specialize_Op
+\system32\spopk.dll
+\system32\ytc-dll       SysprepSpecializeOffline
+\system32\sppnp.dll     SysprepSpecializeOffline
+\system32\psetup.dll    PowerCustomizePlatformPowerSettingsOffline
+\system32\msdc-dll      AppSysprepSpecialize_Offline
+\system32\sphcd.dll     Sysprep_Offline_Specialize_Offline
+\system32\softn-dll     SysPrep_OfflineSpecializeOffline
+\system32\sprovsys.dll  ProvPackagesSysprepSpecializeOffline
+\system32\unattend.dll  SynsprepSpecializeOffline_Unattend
+???????????????????????????????????????????????????????????????????????????????????
+
+## S SysprepFunctionStart pstModulePath:=<String> bldlterys
+## S SysprepFunctionStart pstModulePath:=<String>
+## S SysprepFunctionStart pstModulePath:=<String> bldlterys
