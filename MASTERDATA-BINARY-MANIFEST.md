@@ -371,3 +371,63 @@ masterdata/
 | `pre-receive.sample` | 1 KB |
 | `prepare-commit-msg.sample` | 1 KB |
 | `update.sample` | 4 KB |
+
+---
+
+## Additional Binary Files from Claude-MKII (not in MKIIupd)
+
+**Source:** `Smooth511/Claude-MKII` main branch
+**These files exist ONLY in Claude-MKII — not in MKIIupd or masterhq.**
+
+### `(root)` (3 files, 2.4 MB)
+
+| File | Size |
+|------|------|
+| `IMG_0401.PNG` | 309 KB |
+| `IMG_0402.PNG` | 298 KB |
+| `IMG_2878.jpeg` | 1.8 MB |
+
+### `investigation/Linux logs/` (22 files, 49.3 MB)
+
+| File | Size |
+|------|------|
+| `ErrorLogs/IMG_0432.png` | 7.1 MB |
+| `ErrorLogs/IMG_0433.png` | 1.7 MB |
+| `ErrorLogs/IMG_0434.png` | 982 KB |
+| `IMG_0330.JPG` | 2.8 MB |
+| `IMG_0331.JPG` | 2.9 MB |
+| `IMG_0332.JPG` | 3.5 MB |
+| `IMG_0333.JPG` | 2.6 MB |
+| `IMG_0334.JPG` | 2.8 MB |
+| `IMG_0336.JPG` | 2.6 MB |
+| `IMG_0337.JPG` | 2.7 MB |
+| `IMG_0338.JPG` | 2.6 MB |
+| `IMG_0339.JPG` | 2.2 MB |
+| `IMG_0340.JPG` | 3.0 MB |
+| `IMG_0344.JPG` | 3.0 MB |
+| `IMG_0386.png` | 843 KB |
+| `IMG_0387.png` | 856 KB |
+| `IMG_0388.png` | 838 KB |
+| `IMG_0413.png` | 844 KB |
+| `IMG_0414.png` | 838 KB |
+| `IMG_0415.png` | 494 KB |
+| `IMG_0417.png` | 809 KB |
+| `Screenshot 2026-03-20 at 19.00.08.png` | 2.4 MB |
+
+### `logs1sthour/` (1 file, 22.1 MB)
+
+| File | Size |
+|------|------|
+| `All hourlysave.evtx` | 22.1 MB |
+
+**Note:** The `investigation/Linux logs/` images overlap with `evidence/raw/linux-logs-screenshots/` from MKIIupd (same images, different paths). The EVTX file overlaps with `evidence/raw/logs1sthour/` from MKIIupd.
+
+---
+
+## Grand Total for masterdata Push
+
+| Source | Files | Size |
+|--------|-------|------|
+| Claude-MKIIupd | 270 | 481.2 MB |
+| Claude-MKII (unique) | ~25 | ~74 MB |
+| **Total** | **~295** | **~555 MB** |

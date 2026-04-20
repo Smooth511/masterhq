@@ -1,0 +1,253 @@
+name: Phantom Data Push to DATABASE
+
+# Pushes copies of investigation data FROM Claude-MKII TO Smooth511/DATABASE
+# This is the REVERSE of phantom-data-pull.yml
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_directories:
+        description: 'Directories to push (comma-separated)'
+        required: false
+        default: 'evidence,logs,investigation,logs1sthour'
+      include_images:
+        description: 'Include image files (PNG/JPG)'
+        required: false
+        default: 'true'
+        type: boolean
+      dry_run:
+        description: 'Dry run - show what would be copied without pushing'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  push-to-database:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Claude-MKII (source)
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Clone DATABASE repo (target)
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+        run: |
+          git clone https://x-access-token:${GH_TOKEN}@github.com/Smooth511/DATABASE.git target
+          cd target
+          git config user.name "mk2-phantom"
+          git config user.email "phantom@claude-mkii.local"
+
+      - name: Prepare target directories
+        run: |
+          cd target
+          # Ensure target directories exist
+          mkdir -p investigations logs reports malware history
+          echo "Target directories ready"
+
+      - name: Copy evidence files
+        env:
+          INCLUDE_IMAGES: ${{ inputs.include_images }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          echo "## Copying Evidence Files" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # evidence/ -> investigations/ and reports/
+          if [ -d "source/evidence" ]; then
+            echo "| Source | Target | Status |" >> $GITHUB_STEP_SUMMARY
+            echo "|--------|--------|--------|" >> $GITHUB_STEP_SUMMARY
+            
+            # Copy MD files from evidence/ to investigations/
+            find source/evidence -name "*.md" -type f | while read -r file; do
+              BASENAME=$(basename "$file")
+              TARGET_DIR="target/investigations"
+              
+              # Reports go to reports/
+              if echo "$BASENAME" | grep -qiE "(REPORT|ANALYSIS)"; then
+                TARGET_DIR="target/reports"
+              fi
+              
+              if [ "$DRY_RUN" == "true" ]; then
+                echo "| $file | $TARGET_DIR/$BASENAME | 🔍 Would copy |" >> $GITHUB_STEP_SUMMARY
+              else
+                cp "$file" "$TARGET_DIR/$BASENAME"
+                echo "| $file | $TARGET_DIR/$BASENAME | ✅ Copied |" >> $GITHUB_STEP_SUMMARY
+              fi
+            done
+            
+            # Copy images if requested
+            if [ "$INCLUDE_IMAGES" == "true" ]; then
+              find source/evidence -type f \( -name "*.png" -o -name "*.PNG" -o -name "*.jpg" -o -name "*.JPG" -o -name "*.jpeg" \) | while read -r file; do
+                BASENAME=$(basename "$file")
+                if [ "$DRY_RUN" == "true" ]; then
+                  echo "| $file | target/investigations/$BASENAME | 🔍 Would copy |" >> $GITHUB_STEP_SUMMARY
+                else
+                  cp "$file" "target/investigations/$BASENAME"
+                  echo "| $file | target/investigations/$BASENAME | ✅ Copied |" >> $GITHUB_STEP_SUMMARY
+                fi
+              done
+            fi
+          fi
+
+      - name: Copy logs files
+        env:
+          INCLUDE_IMAGES: ${{ inputs.include_images }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## Copying Log Files" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # logs/ -> logs/
+          if [ -d "source/logs" ]; then
+            echo "| Source | Target | Status |" >> $GITHUB_STEP_SUMMARY
+            echo "|--------|--------|--------|" >> $GITHUB_STEP_SUMMARY
+            
+            find source/logs -type f \( -name "*.md" -o -name "*.txt" -o -name "*.json" -o -name "*.evtx" \) | while read -r file; do
+              BASENAME=$(basename "$file")
+              if [ "$DRY_RUN" == "true" ]; then
+                echo "| $file | target/logs/$BASENAME | 🔍 Would copy |" >> $GITHUB_STEP_SUMMARY
+              else
+                cp "$file" "target/logs/$BASENAME"
+                echo "| $file | target/logs/$BASENAME | ✅ Copied |" >> $GITHUB_STEP_SUMMARY
+              fi
+            done
+          fi
+
+      - name: Copy investigation files
+        env:
+          INCLUDE_IMAGES: ${{ inputs.include_images }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## Copying Investigation Files" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # investigation/ -> investigations/
+          if [ -d "source/investigation" ]; then
+            echo "| Source | Target | Status |" >> $GITHUB_STEP_SUMMARY
+            echo "|--------|--------|--------|" >> $GITHUB_STEP_SUMMARY
+            
+            # Copy all MD files preserving some structure
+            find source/investigation -type f \( -name "*.md" -o -name "*.txt" -o -name "*.json" \) | while read -r file; do
+              BASENAME=$(basename "$file")
+              # Prefix with parent folder if in subfolder (sanitize spaces to dashes)
+              PARENT=$(basename "$(dirname "$file")" | tr ' ' '-')
+              if [ "$PARENT" != "investigation" ]; then
+                TARGET_NAME="${PARENT}-${BASENAME}"
+              else
+                TARGET_NAME="$BASENAME"
+              fi
+              # Sanitize target name (replace spaces with dashes)
+              TARGET_NAME=$(echo "$TARGET_NAME" | tr ' ' '-')
+              
+              if [ "$DRY_RUN" == "true" ]; then
+                echo "| $file | target/investigations/$TARGET_NAME | 🔍 Would copy |" >> $GITHUB_STEP_SUMMARY
+              else
+                cp "$file" "target/investigations/$TARGET_NAME"
+                echo "| $file | target/investigations/$TARGET_NAME | ✅ Copied |" >> $GITHUB_STEP_SUMMARY
+              fi
+            done
+            
+            # Copy images if requested
+            if [ "$INCLUDE_IMAGES" == "true" ]; then
+              find source/investigation -type f \( -name "*.png" -o -name "*.PNG" -o -name "*.jpg" -o -name "*.JPG" -o -name "*.jpeg" \) | while read -r file; do
+                BASENAME=$(basename "$file")
+                PARENT=$(basename "$(dirname "$file")" | tr ' ' '-')
+                if [ "$PARENT" != "investigation" ]; then
+                  TARGET_NAME="${PARENT}-${BASENAME}"
+                else
+                  TARGET_NAME="$BASENAME"
+                fi
+                # Sanitize target name (replace spaces with dashes)
+                TARGET_NAME=$(echo "$TARGET_NAME" | tr ' ' '-')
+                
+                if [ "$DRY_RUN" == "true" ]; then
+                  echo "| $file | target/investigations/$TARGET_NAME | 🔍 Would copy |" >> $GITHUB_STEP_SUMMARY
+                else
+                  cp "$file" "target/investigations/$TARGET_NAME"
+                  echo "| $file | target/investigations/$TARGET_NAME | ✅ Copied |" >> $GITHUB_STEP_SUMMARY
+                fi
+              done
+            fi
+          fi
+
+      - name: Copy logs1sthour files
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## Copying First Hour Logs" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # logs1sthour/ -> logs/first-hour/
+          if [ -d "source/logs1sthour" ]; then
+            echo "| Source | Target | Status |" >> $GITHUB_STEP_SUMMARY
+            echo "|--------|--------|--------|" >> $GITHUB_STEP_SUMMARY
+            
+            # Create subfolder for first hour logs
+            mkdir -p target/logs/first-hour
+            
+            find source/logs1sthour -type f | while read -r file; do
+              BASENAME=$(basename "$file")
+              # Sanitize filename (replace spaces with dashes)
+              TARGET_NAME=$(echo "$BASENAME" | tr ' ' '-')
+              
+              if [ "$DRY_RUN" == "true" ]; then
+                echo "| $file | target/logs/first-hour/$TARGET_NAME | 🔍 Would copy |" >> $GITHUB_STEP_SUMMARY
+              else
+                cp "$file" "target/logs/first-hour/$TARGET_NAME"
+                echo "| $file | target/logs/first-hour/$TARGET_NAME | ✅ Copied |" >> $GITHUB_STEP_SUMMARY
+              fi
+            done
+          fi
+
+      - name: Commit and push to DATABASE
+        if: ${{ inputs.dry_run != 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+        run: |
+          cd target
+          
+          git add -A
+          
+          if git diff --staged --quiet; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "---" >> $GITHUB_STEP_SUMMARY
+            echo "⚠️ **No changes to commit** - DATABASE already has these files" >> $GITHUB_STEP_SUMMARY
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
+            git commit -m "phantom: Data push from Claude-MKII $TIMESTAMP"
+            git push
+            
+            # Count what was pushed
+            ADDED=$(git diff HEAD~1 --stat | tail -1)
+            
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "---" >> $GITHUB_STEP_SUMMARY
+            echo "✅ **Pushed to Smooth511/DATABASE**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Changes: $ADDED" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Dry run summary
+        if: ${{ inputs.dry_run == 'true' }}
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "🔍 **DRY RUN COMPLETE** - No changes were made" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Run again with dry_run=false to push files to DATABASE" >> $GITHUB_STEP_SUMMARY
+
+      - name: Final summary
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "**Completed:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "*Run by phantom-data-push.yml from Claude-MKII*" >> $GITHUB_STEP_SUMMARY
