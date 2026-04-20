@@ -1,0 +1,332 @@
+name: mk2-phantom Operations
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: 'Operation to perform'
+        required: true
+        type: choice
+        options:
+          - repo-scan
+          - cross-repo-read
+          - create-issue
+          - list-issues
+          - health-check
+          - close-stale-prs
+          - cleanup-branches
+          - cleanup-workflow-runs
+          - full-cleanup
+      target_repo:
+        description: 'Target repo (owner/name) — required for cross-repo-read, create-issue, list-issues'
+        required: false
+        default: 'Smooth115/Claude-MKII'
+      issue_title:
+        description: 'Issue title (for create-issue operation)'
+        required: false
+      issue_body:
+        description: 'Issue body (for create-issue operation)'
+        required: false
+      file_path:
+        description: 'File path to read (for cross-repo-read operation)'
+        required: false
+        default: 'README.md'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate inputs
+        run: |
+          # Validate target_repo format
+          if [[ -n "${{ inputs.target_repo }}" ]] && [[ ! "${{ inputs.target_repo }}" =~ ^[a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+$ ]]; then
+            echo "::error::Invalid target_repo format. Must be owner/repo"
+            exit 1
+          fi
+
+          # Validate file_path (no directory traversal)
+          if [[ -n "${{ inputs.file_path }}" ]] && [[ "${{ inputs.file_path }}" == *".."* ]]; then
+            echo "::error::Invalid file_path — directory traversal not allowed"
+            exit 1
+          fi
+
+      - name: Execute — repo-scan
+        if: inputs.operation == 'repo-scan'
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+        run: |
+          echo "## Repository Scan" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Scanning all accessible Smooth115 repositories..." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          echo "| Repository | Language | Issues | PRs | Updated |" >> $GITHUB_STEP_SUMMARY
+          echo "|------------|----------|--------|-----|---------|" >> $GITHUB_STEP_SUMMARY
+
+          gh api user/repos --paginate --jq '.[] | select(.owner.login == "Smooth115") | "| [\(.name)](\(.html_url)) | \(.language // "—") | \(.open_issues_count) | — | \(.updated_at[:10]) |"' >> $GITHUB_STEP_SUMMARY 2>&1 || {
+            echo "| ❌ Scan failed | - | - | - | - |" >> $GITHUB_STEP_SUMMARY
+          }
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Scan completed:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+
+      - name: Execute — cross-repo-read
+        if: inputs.operation == 'cross-repo-read'
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+          TARGET_REPO: ${{ inputs.target_repo }}
+          FILE_PATH: ${{ inputs.file_path }}
+        run: |
+          echo "## Cross-Repo Read" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Repo:** $TARGET_REPO" >> $GITHUB_STEP_SUMMARY
+          echo "**File:** $FILE_PATH" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          CONTENT=$(gh api "repos/$TARGET_REPO/contents/$FILE_PATH" --jq '.content' 2>&1) || {
+            echo "❌ Failed to read file: $CONTENT" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          }
+
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "$CONTENT" | base64 -d | head -100 >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+          LINES=$(echo "$CONTENT" | base64 -d | wc -l)
+          if [ "$LINES" -gt 100 ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "*Showing first 100 of $LINES lines*" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Execute — create-issue
+        if: inputs.operation == 'create-issue'
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+          TARGET_REPO: ${{ inputs.target_repo }}
+          ISSUE_TITLE: ${{ inputs.issue_title }}
+          ISSUE_BODY: ${{ inputs.issue_body }}
+        run: |
+          echo "## Create Issue" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -z "$ISSUE_TITLE" ]; then
+            echo "::error::issue_title is required for create-issue operation"
+            echo "❌ Missing issue title" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          fi
+
+          RESULT=$(gh api "repos/$TARGET_REPO/issues" \
+            -f title="$ISSUE_TITLE" \
+            -f body="${ISSUE_BODY:-Created by mk2-phantom operations workflow}" \
+            -f labels='["mk2-phantom"]' \
+            --jq '.html_url' 2>&1) || {
+            echo "❌ Failed to create issue: $RESULT" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          }
+
+          echo "✅ Issue created: $RESULT" >> $GITHUB_STEP_SUMMARY
+
+      - name: Execute — list-issues
+        if: inputs.operation == 'list-issues'
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+          TARGET_REPO: ${{ inputs.target_repo }}
+        run: |
+          echo "## Issues: $TARGET_REPO" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| # | Title | State | Updated |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|-------|-------|---------|" >> $GITHUB_STEP_SUMMARY
+
+          gh api "repos/$TARGET_REPO/issues?per_page=30&state=all" --jq '.[] | "| #\(.number) | \(.title) | \(.state) | \(.updated_at[:10]) |"' >> $GITHUB_STEP_SUMMARY 2>&1 || {
+            echo "| ❌ Failed to list issues | - | - | - |" >> $GITHUB_STEP_SUMMARY
+          }
+
+      - name: Execute — health-check
+        if: inputs.operation == 'health-check'
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+        run: |
+          echo "## mk2-phantom Health Check" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Token check
+          USER=$(gh api user --jq '.login' 2>&1) && {
+            echo "✅ Token valid — authenticated as **$USER**" >> $GITHUB_STEP_SUMMARY
+          } || {
+            echo "❌ Token invalid or expired" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          }
+
+          # Repo count
+          REPO_COUNT=$(gh api user/repos --paginate --jq '.[]' 2>&1 | jq -s 'length') || REPO_COUNT="?"
+          echo "📦 Accessible repos: **$REPO_COUNT**" >> $GITHUB_STEP_SUMMARY
+
+          # Rate limit
+          RATE=$(gh api rate_limit --jq '.rate | "Remaining: \(.remaining)/\(.limit) — Resets: \(.reset | todate)"' 2>&1) || RATE="Unknown"
+          echo "⏱️ Rate limit: $RATE" >> $GITHUB_STEP_SUMMARY
+
+          # This repo status
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Claude-MKII Status" >> $GITHUB_STEP_SUMMARY
+          OPEN_ISSUES=$(gh api repos/Smooth115/Claude-MKII/issues?state=open --jq '. | length' 2>&1) || OPEN_ISSUES="?"
+          OPEN_PRS=$(gh api repos/Smooth115/Claude-MKII/pulls?state=open --jq '. | length' 2>&1) || OPEN_PRS="?"
+          echo "- Open issues: $OPEN_ISSUES" >> $GITHUB_STEP_SUMMARY
+          echo "- Open PRs: $OPEN_PRS" >> $GITHUB_STEP_SUMMARY
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Health check completed:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+
+      - name: Execute — close-stale-prs
+        if: inputs.operation == 'close-stale-prs'
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+          TARGET_REPO: ${{ inputs.target_repo }}
+        run: |
+          echo "## Close Stale PRs: $TARGET_REPO" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Get all open PRs
+          PRS=$(gh api "repos/$TARGET_REPO/pulls?state=open&per_page=100" --jq '.[].number' 2>&1) || {
+            echo "❌ Failed to list PRs" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          }
+
+          CLOSED=0
+          FAILED=0
+          SKIPPED=0
+          COMMENT="Closing: All valuable content consolidated into main branch via mk2-phantom branch scan. Evidence, logs, and documentation now properly organized."
+
+          echo "| PR | Title | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|-----|-------|--------|" >> $GITHUB_STEP_SUMMARY
+
+          for PR_NUM in $PRS; do
+            TITLE=$(gh api "repos/$TARGET_REPO/pulls/$PR_NUM" --jq '.title' 2>/dev/null)
+
+            # Close the PR
+            if gh api "repos/$TARGET_REPO/pulls/$PR_NUM" -X PATCH -f state=closed 2>/dev/null; then
+              # Add comment
+              gh api "repos/$TARGET_REPO/issues/$PR_NUM/comments" -f body="$COMMENT" 2>/dev/null || true
+              # Delete the branch
+              BRANCH=$(gh api "repos/$TARGET_REPO/pulls/$PR_NUM" --jq '.head.ref' 2>/dev/null)
+              if [ -n "$BRANCH" ] && [ "$BRANCH" != "main" ]; then
+                gh api "repos/$TARGET_REPO/git/refs/heads/$BRANCH" -X DELETE 2>/dev/null || true
+              fi
+              echo "| #$PR_NUM | $TITLE | ✅ Closed |" >> $GITHUB_STEP_SUMMARY
+              CLOSED=$((CLOSED + 1))
+            else
+              echo "| #$PR_NUM | $TITLE | ❌ Failed |" >> $GITHUB_STEP_SUMMARY
+              FAILED=$((FAILED + 1))
+            fi
+          done
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Results:** $CLOSED closed, $FAILED failed" >> $GITHUB_STEP_SUMMARY
+          echo "**Completed:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+
+      - name: Execute — cleanup-branches
+        if: inputs.operation == 'cleanup-branches' || inputs.operation == 'full-cleanup'
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+          TARGET_REPO: ${{ inputs.target_repo }}
+        run: |
+          echo "## Cleanup Branches: $TARGET_REPO" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          BRANCHES=$(gh api "repos/$TARGET_REPO/branches?per_page=100" --paginate --jq '.[].name' 2>&1) || {
+            echo "❌ Failed to list branches" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          }
+
+          DELETED=0
+          FAILED=0
+          PROTECTED_BRANCHES="main"
+
+          echo "| Branch | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|--------|" >> $GITHUB_STEP_SUMMARY
+
+          for BRANCH in $BRANCHES; do
+            # Skip protected branches
+            if echo "$PROTECTED_BRANCHES" | grep -qw "$BRANCH"; then
+              echo "| $BRANCH | ⏭️ Protected — skipped |" >> $GITHUB_STEP_SUMMARY
+              continue
+            fi
+
+            if gh api "repos/$TARGET_REPO/git/refs/heads/$BRANCH" -X DELETE 2>/dev/null; then
+              echo "| $BRANCH | 🗑️ Deleted |" >> $GITHUB_STEP_SUMMARY
+              DELETED=$((DELETED + 1))
+            else
+              echo "| $BRANCH | ❌ Failed |" >> $GITHUB_STEP_SUMMARY
+              FAILED=$((FAILED + 1))
+            fi
+          done
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Results:** $DELETED deleted, $FAILED failed" >> $GITHUB_STEP_SUMMARY
+          echo "**Completed:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+
+      - name: Execute — cleanup-workflow-runs
+        if: inputs.operation == 'cleanup-workflow-runs' || inputs.operation == 'full-cleanup'
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+          TARGET_REPO: ${{ inputs.target_repo }}
+        run: |
+          echo "## Cleanup Workflow Runs: $TARGET_REPO" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Get all completed workflow runs
+          RUN_IDS=$(gh api "repos/$TARGET_REPO/actions/runs?status=completed&per_page=100" --paginate --jq '.workflow_runs[].id' 2>&1) || {
+            echo "❌ Failed to list workflow runs" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          }
+
+          DELETED=0
+          FAILED=0
+
+          for RUN_ID in $RUN_IDS; do
+            if gh api "repos/$TARGET_REPO/actions/runs/$RUN_ID" -X DELETE 2>/dev/null; then
+              DELETED=$((DELETED + 1))
+            else
+              FAILED=$((FAILED + 1))
+            fi
+          done
+
+          echo "**Results:** $DELETED workflow runs deleted, $FAILED failed" >> $GITHUB_STEP_SUMMARY
+          echo "**Completed:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+
+      - name: Execute — full-cleanup (close issues)
+        if: inputs.operation == 'full-cleanup'
+        env:
+          GH_TOKEN: ${{ secrets.MK2_PHANTOM_TOKEN }}
+          TARGET_REPO: ${{ inputs.target_repo }}
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## Close RagingbullMK Alert Issues: $TARGET_REPO" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Close issues with RagingbullMK label or title pattern
+          ISSUES=$(gh api "repos/$TARGET_REPO/issues?state=open&per_page=100" --jq '.[] | select(.title | test("RagingbullMK")) | .number' 2>&1) || {
+            echo "❌ Failed to list issues" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          }
+
+          CLOSED=0
+          for ISSUE_NUM in $ISSUES; do
+            if gh api "repos/$TARGET_REPO/issues/$ISSUE_NUM" -X PATCH -f state=closed -f state_reason=not_planned 2>/dev/null; then
+              echo "✅ Closed issue #$ISSUE_NUM" >> $GITHUB_STEP_SUMMARY
+              CLOSED=$((CLOSED + 1))
+            else
+              echo "❌ Failed to close issue #$ISSUE_NUM" >> $GITHUB_STEP_SUMMARY
+            fi
+          done
+
+          echo "**Issues closed:** $CLOSED" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "**Full cleanup completed:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY

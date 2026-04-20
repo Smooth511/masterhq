@@ -1,0 +1,8 @@
+##dumping all files from export in 
+##together so will have everything from:
+##- this for smooth115 MKII repo
+## 
+##Claude-MKIl.git
+##objects hooks packed-refs info config 
+##descriptio HEAD branches refs
+##all mixed in

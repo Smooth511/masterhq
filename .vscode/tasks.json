@@ -1,0 +1,86 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "MK2 Bridge: Start",
+      "type": "shell",
+      "command": "node",
+      "args": ["bridge/server.js"],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "MK2 MCP Server: Start",
+      "type": "shell",
+      "command": "python3",
+      "args": ["mcp-server/server.py"],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "MK2 CLI: Status",
+      "type": "shell",
+      "command": "python3",
+      "args": ["cli/mk2_cli.py", "status"],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "MK2 CLI: Search",
+      "type": "shell",
+      "command": "python3",
+      "args": ["cli/mk2_cli.py", "search", "${input:searchQuery}"],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "MK2: Install Dependencies",
+      "type": "shell",
+      "command": "pip install -r mcp-server/requirements.txt -r cli/requirements.txt -r tools/requirements.txt",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "MK2 Docker: Start",
+      "type": "shell",
+      "command": "docker",
+      "args": ["compose", "up", "mcp-server"],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "searchQuery",
+      "type": "promptString",
+      "description": "Search query for project files"
+    }
+  ]
+}

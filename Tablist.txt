@@ -1,0 +1,1931 @@
+{
+
+-enabled
+
+-exec
+
+-features-abi
+
+-load
+
+-remove-unknown
+
+-status
+
+-teardown
+
+-log-manager
+
+-shell
+
+-test
+
+-info
+
+gtk4-update-icon-cache gtk-builder-tool gtk-encode-symbolic-svg
+
+gtk-launch
+
+gtk-query-settings
+
+gtk-update-icon-cache
+
+guest-account
+
+gunzip
+
+gzexe
+
+gzip
+
+h2ph
+
+h2xs
+
+halt
+
+hardings-bpfcc hardlink hash hciattach hciconfig hcitool hd hdparm head HEAD help
+
+helpztags hex2hcd hexdump history host hostid hostname
+
+hostnamectl
+
+hwe-support-status
+
+1386 ibus
+
+ibus-daemon
+
+ibus-setup
+
+iceauth
+
+iconv
+
+iconvconfig
+
+iecset
+
+id
+
+parser
+
+if
+
+status
+
+-bug
+
+-cli
+
+im-config im-launch
+
+in
+
+inetutils-telnet
+
+pzstd qmicli
+
+qmi-firmware-update
+
+qmi-network quirks-handler
+
+rbash rctest
+
+rdma
+
+rdmaucma-bpfcc
+
+read
+
+readahead-bpfcc
+
+readarray
+
+readlink readonly
+
+readprofile
+
+realpath reboot red
+
+remove-default-ispell
+
+remove-default-wordlist
+
+remove-shell
+
+rename.ul
+
+renice
+
+reset
+
+reset-trace-bpfcc
+
+resize2fs
+
+resizecons
+
+resizepart
+
+resolvconf
+
+resolvectl return rev
+
+rfcomm rfkill rgrep rm rmdir rmmod rmt
+
+rmt-tar rnano
+
+routel
+
+rpcgen
+
+rrsync rsync rsync-ssl rsyslogd
+
+-cli
+
+-collect
+
+-unpack
+
+-cache
+
+-cdrom
+
+-config
+
+-extract templates -ftparchive -get -key
+
+-mark
+
+-sortpkgs
+
+-bpfcc
+
+-nft
+
+-nft-restore
+
+-nft-save -restore
+
+-save
+
+-autobuildhash -import
+
+-browse
+
+-browse-domains
+
+-daemon
+
+-publish
+
+-publish-address -publish-service
+
+-resolve
+
+-resolve-address -resolve-host-name -set-host-name
+
+inetutils-telnet
+
+infobrowser
+
+info
+
+infocmp
+
+infotocap
+
+init
+
+inject-bpfcc
+
+inputattach insmod
+
+install
+
+install-info installkernel
+
+install-printerdriver install-sgmlcatalog
+
+instmodsh
+
+integritysetup
+
+intel-virtual-output
+
+invoke-rc.d
+
+ionice
+
+ip
+
+iostat
+
+ip6tables
+
+ip6tables-apply
+
+ip6tables-legacy
+
+ip6tables-legacy-restore
+
+ip6tables-legacy-save
+
+ip6tables-nft
+
+ip6tables-nft-restore
+
+ip6tables-nft-save
+
+ip6tables-restore
+
+ip6tables-restore-translate
+
+ip6tables-save
+
+1p6tables-translate
+
+ipcmk
+
+ipcrm
+
+ipcs
+
+iptables
+
+iptables-apply
+
+iptables-legacy
+
+iptables-legacy-restore
+
+iptables-legacy-save
+
+iptables-nft
+
+iptables-nft-restore
+
+iptables-nft-save
+
+iptables-restore
+
+iptables-restore-translate
+
+iptables-save
+
+rsyslogd rtacct rtcwake rtkitctl rtla rtmon
+
+rtstat
+
+rubycalls-bpfcc rubyf low-bpfcc
+
+rubygc-bpfcc rubyobjnew-bpfcc rubystat-bpfcc
+
+runcon runlevel
+
+run-parts
+
+runqlat-bpfcc
+
+runqlat.bt runqlen-bpfcc runqlen.bt
+
+rungs lower-bpfcc
+
+runuser
+
+run-with-aspell
+
+rview sadf
+
+sar
+
+sar.sysstat savelog sbattach sbkeysync sbsiglist sbsign sbvarsign sbverify
+
+scp-dbus-service
+
+screendump
+
+script
+
+script live
+
+scriptreplay
+
+sdiff
+
+sdptool
+
+sed
+
+select
+
+select-default-ispell select-default-iwrap
+
+select-default-wordlist
+
+select-editor
+
+sensible-browser
+
+-bpfcc
+
+-bpfcc -bpfcc -bpfcc -bpfcc -bpfcc
+
+-bpfcc -bpfcc
+
+iptables-restore-translate
+
+iptables-save
+
+iptables-translate
+
+iptables-xml
+
+ischroot
+
+isdv4-serial-debugger
+
+isdv4-serial-inputattach
+
+isosize
+
+ispell-autobuildhash ispell-wrapper
+
+iucode-tool
+
+iucode_tool
+
+iwconfig
+
+iwevent iwget id iwlist iwpriv iwspy
+
+javacalls-bpfcc javaf low-bpfcc javagc-bpfcc javaob jnew-bpfcc
+
+javastat-bpfcc javathreads-bpfcc
+
+jobs join journalctl jpgicc jsondiff
+
+jsonpatch
+
+select-editor
+
+sensible-browser
+
+sensible-editor
+
+sensible-pager
+
+sensible-terminal
+
+seq service
+
+session-migration
+
+sessreg set
+
+setarch setcap setfont
+
+setkeycodes set leds set logcons setmetamode setpci setpriv setsid setterm setuids.bt setupcon
+
+setvesablank
+
+setvtrgb
+
+setxkbmap sfdisk
+
+json-patch-jsondiff
+
+jsonpointer
+
+json_pp
+
+jsonschema
+
+sg sgdisk
+
+sh
+
+sha1sum
+
+sha224sum
+
+sha256sum
+
+-sendto -wizard list-bpfcc
+
+-aotrt
+
+-atb -clip -ctb -hid
+
+kbdinfo
+
+kbd_mode
+
+kbdrate kbxut 11 kernel-install
+
+kill killall killall5
+
+killsnoop-bpfcc killsnoop.bt klockstat-bpfcc
+
+kmod kmodsign
+
+sha384sum
+
+sha512sum
+
+shadowconfig shasum shift
+
+shmsnoop-bpfcc
+
+shopt
+
+showconsolefont
+
+showkey showrgb shred
+
+shuf shutdown skill
+
+-ctb
+
+-hid -ktb -lscmds -morse -setup
+
+-trtxt
+
+-ttb
+
+-tune
+
+-bpfcc -bpfcc
+
+-bpfcc
+
+-bpfcc ppa
+
+-gtk-play -bpfcc
+
+chat cheon
+
+kmod
+
+kmodsign kvmexit-bpfcc
+
+12ping 12test
+
+la
+
+laptop-detect
+
+last lastb lastlog 1cf ldapadd
+
+ldapcompare ldapdelete ldapexop
+
+ldapmodify
+
+ldapmodrdn
+
+ldappasswd
+
+ldapsearch ldapurl Idapwhoami 1dattach ldconfig ldconfig.real
+
+ldd ld.so less lessecho lessfile lesskey lesspipe let lexgrog libnetcfg lightdm
+
+lightdm-session
+
+link linkicc linux32
+
+linux64
+
+linux-boot-prober
+
+linux-check-removal
+
+linux-update-symlinks
+
+linux-version
+
+listres
+
+11
+
+shutdown skill
+
+slabratetop-bpfcc
+
+slabtop sleep snice soelim
+
+sofdsnoop-bpfcc
+
+softirqs-bpfcc
+
+solisten-bpfcc
+
+sort sotruss source
+
+spd-say spdsend
+
+speaker-test
+
+speech-dispatcher
+
+spice-vdagent spice-vdagentd
+
+splain
+
+split
+
+splitfont
+
+sprof
+
+SS
+
+ssllatency.bt sslsniff-bpfcc ssisnoop.bt
+
+sssd
+
+sss_ssh_authorizedkeys
+
+sss_ssh_knownhostsproxy
+
+stackcount-bpfcc
+
+start-pulseaudio-x11
+
+start-stop-daemon
+
+stat
+
+static-sh
+
+statsnoop-bpfcc
+
+statsnoop.bt
+
+stdbuf
+
+strace
+
+strace-log-merge
+
+streamzip
+
+stty
+
+su
+
+sudo sudoedit sudo_logsrvd sudoreplay
+
+linux-version listres 11
+
+1lcstat-bpfcc
+
+Instat
+
+loadkeys loads.bt loadunimap local locale
+
+-language-support
+
+In
+
+-id -init
+
+-init-per
+
+-bpfcc
+
+locale-check localectl localedef
+
+locale-gen
+
+logger login loginctl logname logout logrotate logsave look losetup lowntfs-3g
+
+ls lsattr lsblk
+
+1sb_release
+
+lscpu
+
+Isinitramfs
+
+1shw
+
+lsipc
+
+Islocks
+
+lslogins
+
+1smem
+
+Ismod
+
+sudoedit sudo_logsrvd sudoreplay sudo_sendlog sulogin
+
+sum
+
+suspend swapin.bt swaplabel swapoff
+
+swapon
+
+switch_root
+
+synaptic
+
+synaptic-pkexec
+
+sync
+
+syncsnoop-bpfcc syncsnoop.bt syscount-bpfcc syscount,bt sysctl
+
+system-config-printer
+
+system-config-printer-applet
+
+systemctl
+
+systemd
+
+systemd-ac-power systemd-analyze
+
+systemd-ask-password
+
+systemd-cat
+
+systemd-cgls
+
+systemd-cgtop
+
+systemd-confext
+
+systemd-creds
+
+systemd-cryptenroll
+
+systemd-cryptsetup
+
+systemd-delta
+
+systemd-detect-virt
+
+systemd-firstboot
+
+-bpfcc
+
+-x86_64-linux-gnu
+
+1sns
+
+1sof lspci
+
+1spcmcia 1spgpot 1spower lsusb
+
+luksformat lvchange
+
+lvconvert
+
+systemd-escape
+
+systemd-hwdb systemd-id128
+
+systemd-inhibit
+
+systemd-machine-id-setup
+
+systemd-mount
+
+systemd-notify
+
+systemd-path systemd-repart
+
+systemd-run
+
+cpgr cpio
+
+cpp
+
+cpp-13
+
+cppw
+
+cpudist-bpfcc
+
+cpupower
+
+-bpfcc
+
+-check
+
+-format
+
+-packer
+
+-unpacker
+
+-cracklib-dict
+
+-bpfcc
+
+lower-bpfcc
+
+-bpfcc
+
+-cleanup-sockets
+
+-daemon
+
+-monitor
+
+-run-session
+
+-send
+
+-update-activation-environment
+
+-uuidgen
+
+-bpfcc
+
+-bpfcc
+
+-bpfcc
+
+lvconvert
+
+lvcreate lvdisplay lvextend lvm
+
+lvmconfig
+
+lvmdiskscan
+
+1vmdump
+
+lvmpolld
+
+lvmsadc
+
+lvmsar
+
+lvreduce
+
+lvremove
+
+lvrename
+
+lvresize lvs lvscan
+
+lwp-download 1wp-dump lwp-mirror
+
+lwp-request
+
+1zcat 1zcmp lzdiff
+
+lzegrep
+
+lzfgrep
+
+lzgrep
+
+lzless
+
+1zma Izmainfo 1zmore m17n-db
+
+man mandb manpath
+
+man-recode mapfile mapscrn
+
+markdown-it
+
+mawk
+
+mbimcli
+
+mbim-network mcookie
+
+md5sum
+
+md5sum.textutils mdf lush-bpfcc mdf lush.bt
+
+systemd-run
+
+systemd-socket-activate systemd-stdio-bridge
+
+systemd-sysext
+
+systemd-sysusers
+
+systemd-tmpfiles
+
+systemd-tty-ask-password-agent
+
+systemd-umount
+
+tabs
+
+tac tail
+
+tapestat
+
+tar
+
+tarcat taskset tbl
+
+tc
+
+tclcalls-bpfcc tclflow-bpfcc tclobjnew-bpfcc
+
+tclsh
+
+tclsh8.6
+
+tclstat-bpfcc
+
+tcpaccept-bpfcc
+
+tcpaccept.bt
+
+tcpcong-bpfcc
+
+tcpconnect-bpfcc
+
+tcpconnect.bt
+
+tcpconnlat-bpfcc
+
+tcpdrop-bpfcc
+
+tcpdrop.bt tcpdump
+
+tcplife-bpfcc
+
+tcplife.bt
+
+tcpretrans-bpfcc
+
+tcpretrans.bt
+
+tcprtt-bpfcc
+
+tcpstates-bpfcc
+
+tcpsubnet-bpfcc
+
+tcpsynbl-bpfcc
+
+tcpsynbl.bt tcptop-bpfcc tcptracer-bpfcc
+
+tee telinit
+
+telnet tempfile
+
+-apt-progress -communicate -copydb -escape
+
+-set-selections
+
+-show
+
+-distro-info -systemd-helper
+
+-systemd-invoke
+
+elgroup
+
+elpart
+
+eluser
+
+elv
+
+epmod
+
+esktop-file-edit esktop-file-install
+
+esktop-file-validate
+
+h_bash-completion
+
+hcpcd
+
+h_installxmlcatalogs h_perl openssl
+
+iff3
+
+mdflush.bt
+
+mdig
+
+memhog
+
+memleak-bpfcc
+
+memusage
+
+memusagestat
+
+mesa-overlay-control.py
+
+mesg
+
+migratepages
+
+migrate-pubring-from-classic-gpg
+
+migspeed
+
+mimeopen
+
+mimetype
+
+min12xxw
+
+mkdir mkdosfs mke2fs
+
+mkfifo
+
+mkfontdir
+
+mkfontscale
+
+mkfs mkfs.bfs mkfs.cramfs
+
+mkfs.ext2
+
+mkfs.ext3
+
+mkfs.ext4
+
+mkfs.fat
+
+mkfs.minix
+
+mkfs.msdos
+
+tempfile
+
+test
+
+then
+
+thermald
+
+thin_check
+
+thin_delta
+
+thin_dump thin_ls
+
+thin metadata_size
+
+thin_repair
+
+thin restore thin_rmap thin_trim
+
+threadsnoop-bpfcc
+
+threadsnoop.bt
+
+tic
+
+tificc
+
+time
+
+timedatectl
+
+timeout times
+
+tipc
+
+tload
+
+tnftp
+
+toe
+
+top
+
+touch
+
+tplist-bpfcc
+
+ig
+
+ir ircolors
+
+irmngr
+
+irmngr-client
+
+-bpfcc
+
+-info
+
+-tool
+
+mkfs.ntfs
+
+mkfs.vfat
+
+mkhomedir_helper mkinitramfs
+
+mklost+found
+
+mk_modmap
+
+mknod mkntfs mkswap mktemp mmc 11
+
+ModemManager modinfo modprobe mokutil more
+
+mount
+
+mount.fuse
+
+tput tr
+
+trace-bpfcc trace-cmd tracepath transicc trap troff
+
+true
+
+truncate
+
+trust
+
+tset tsort tty
+
+ttysnoop-bpfcc
+
+tune2fs turbostat type
+
+typeset
+
+-release-upgrade
+
+-deb
+
+-divert
+
+-maintscript-helper
+
+-preconfigure
+
+-query
+
+-realpath
+
+-reconfigure -split
+
+-statoverride -trigger -bpfcc
+
+all
+
+ebtables-nft
+
+ebtables-nft-restore ebtables-nft-save ebtables-restore ebtables-save
+
+-translate
+
+mount
+
+mount.fuse mount.fuse3
+
+mount.lowntfs-3g mount.ntfs mount.ntfs-3g mountpoint mountsnoop-bpfcc mousetweaks mpris-proxy
+
+mpstat
+
+mt
+
+mt-gnu mtr
+
+mtrace
+
+mtr-packet
+
+mv
+
+mysqld_qslower-bpfcc
+
+namei
+
+nano
+
+naptime.bt
+
+nautilus-sendto
+
+nawk
+
+nc
+
+nc.openbsd
+
+neqn
+
+netaddr netcat
+
+netplan
+
+netqtop-bpfcc networkctl
+
+NetworkManager
+
+newgrp newusers nfn1_osf nfsdist-bpfcc nfss lower-bpfcc
+
+nft
+
+ngettext nice
+
+nisdomainname
+
+nl
+
+nm-applet
+
+nmc11
+
+nm-connection-editor
+
+nm-online nmtui
+
+type typeset tzselect
+
+ua
+
+ubuntu-advantage
+
+ubuntu-bug
+
+ubuntu-distro-info
+
+ubuntu-drivers
+
+ubuntu-report
+
+ubuntu-security-status
+
+ucalls
+
+ucf
+
+ucfq ucfr
+
+uclampset
+
+ucs2any
+
+u-d-c-print-pci-ids
+
+udevadm
+
+udisksctl uf low ufw ugc ul
+
+ulimit umask
+
+umount
+
+umount.udisks2
+
+unalias
+
+uname
+
+uncompress undump.bt
+
+unexpand
+
+unicode_start unicode_stop
+
+uniq
+
+unity-control-center
+
+unity-greeter
+
+unity-settings-daemon
+
+unix_chkpwd
+
+unix_update unlink
+
+unlzma
+
+unmkinitramfs
+
+unset
+
+unshare
+
+until unxz
+
+dump
+
+-2 -1smod-2
+
+-m
+
+-bpfcc
+
+-bpfcc
+
+-bpfcc
+
+-bpfcc
+
+label
+
+-cache
+
+-cat
+
+nmtui
+
+nmtui-connect nmtui-edit
+
+nmtui-hostname nodegc-bpfcc nodestat-bpfcc
+
+nohup nologin
+
+notify-send
+
+nproc nroff nsenter nslookup nstat nsupdate ntfs-3g
+
+ntfs-3g.probe ntfscat ntfsclone ntfscluster ntfscmp ntfscp ntfsdecrypt ntfsfallocate
+
+ntfsfix ntfsinfo ntfslabel ntfsls
+
+ntfsmove
+
+ntfsrecover
+
+ntfsresize
+
+ntfssecaudit
+
+ntfstruncate
+
+ntfsundelete ntfsusermap ntfswipe numact1
+
+numastat
+
+numfmt
+
+nvidia-detector
+
+obexct 1
+
+od
+
+oem-get logs
+
+offcput ime-bpfcc offwaket ime-bpfcc on_ac_power oomct 1
+
+unxz unzip unzipsfx unzstd uobjnew
+
+update-alternatives
+
+update-ca-certificates
+
+update-catalog
+
+update-cracklib
+
+update-default-aspell update-default-ispell update-default-wordlist update-desktop-database
+
+update-dict common-aspell update-dict common-hunspell
+
+update-fonts-alias update-fonts-dir update-fonts-scale
+
+update-grub update-grub2
+
+update-gsfontmap
+
+update-icon-caches
+
+update-ieee-data
+
+update-info-dir
+
+update-initramfs
+
+update-locale
+
+update-mime-database
+
+update-passwd
+
+update-pciids update-rc.d
+
+update-secureboot-policy
+
+update-shells
+
+update-xmlcatalog
+
+upower uptime
+
+usb-devices
+
+usbhid-dump
+
+usbip
+
+usbipd
+
+usb_modeswitch
+
+usb_modeswitch_dispatcher
+
+usbmuxd
+
+usbreset
+
+useradd userdel usermod users
+
+fc
+
+-cache
+
+-cat
+
+-conflist
+
+-list -match -pattern -query -scan
+
+-validate
+
+-bpfcc -bpfcc
+
+lower-bpfcc
+
+-bpfcc
+
+offwaketime-bpfcc
+
+on_ac_power oomctl
+
+oomkill-bpfcc
+
+oomkill.bt
+
+open
+
+opensnoop-bpfcc opensnoop.bt openssl
+
+openvt os-prober ownership
+
+p11-kit
+
+pacat
+
+pacmd
+
+pactl
+
+userdel
+
+usermod
+
+users ustat
+
+uthreads utmpdump uuidd uuidgen uuidparse
+
+validlocale
+
+varlinkctl
+
+vcs-run vcstime vdir vdpa
+
+veritysetup
+
+vfscount-bpfcc
+
+vfscount.bt
+
+-delete
+
+-enroll -list -verify
+
+pager
+
+pa-info
+
+pam-auth-update pam_extrausers_chkpwd pam_extrausers_update
+
+pam_getenv
+
+pam_namespace_helper
+
+pamon
+
+pam_timestamp_check
+
+paperconf
+
+paperconfig
+
+paplay
+
+parec
+
+parecord parted
+
+part probe partx passwd paste
+
+pasuspender pathchk
+
+pax11publish pccardctl pdata_tools
+
+pdb3 pdb3.12 pdf2dsc pdf2ps peekfd perf
+
+stab-decode
+
+perl
+
+vfsstat-bpfcc
+
+vfsstat.bt
+
+vgcfgbackup
+
+vgcfgrestore
+
+vgchange vgck
+
+vgconvert vgcreate vgdisplay vgexport vgextend vgimport
+
+vgimportclone
+
+vgmerge vgmknodes vgreduce vgremove vgrename
+
+vgs vgscan vgsplit vi view viewres vigr
+
+vim.tiny
+
+vipw
+
+virtiostat-bpfcc
+
+visudo
+
+fstab-decode fstrim
+
+ftp
+
+-bpfcc -bpfcc -bpfcc funcs lower-bpfcc
+
+-viewer
+
+-viewer-gtk4
+
+-pixbuf-csource -pixbuf-pixdata -pixbuf-thumbnailer
+
+latency-bpfcc latency.bt
+
+-info
+
+-querymodules
+
+-keyboard-display -compile-schemas
+
+-disk-image-mounter
+
+-disks
+
+-help
+
+perl
+
+per15.38.2
+
+per 15.38-x86_64-linux-gnu perlbug
+
+perlcalls-bpfcc peridoc
+
+per lf low-bpfcc perli1indoc perlivp
+
+perlstat-bpfcc
+
+perlthanks
+
+pf2afm
+
+pfbtopfa pgrep
+
+phpcalls-bpfcc phpf low-bpfcc phpstat-bpfcc
+
+pic pico piconv pidof
+
+pidpersec-bpfcc
+
+pidpersec.bt
+
+pidstat
+
+pidwait pinentry
+
+pinentry-curses pinentry-gnome3 pinentry-x11
+
+ping ping4 ping6
+
+pinky
+
+pivot_root
+
+pkaction
+
+pkcheck
+
+pkttyagent
+
+pkexec
+
+pkill
+
+p12pm
+
+pldd
+
+plog
+
+plymouth
+
+plymouthd
+
+pmap pnm2ppa pod2html
+
+visudo
+
+vmstat
+
+vmwarectri
+
+vpddecode
+
+vstp
+
+ա
+
+wait
+
+wakeuptime-bpfcc
+
+wall watch
+
+watchgnupg
+
+WC wdctl wget what is whereis which
+
+which.debianutils
+
+while
+
+whiptail
+
+who whoami whoopsie
+
+whoopsie-preferences
+
+wipefs
+
+word-list-compress
+
+wpa_action
+
+wpa_cli
+
+wpa_passphrase wpa_supplicant
+
+write
+
+writeback.bt
+
+X
+
+x86_64
+
+x86_64-linux-gnu-cpp
+
+x86_64-linux-gnu-cpp-13
+
+x86_energy_perf_policy
+
+xargs
+
+xauth
+
+xcmsdb
+
+xdg-dbus-proxy
+
+xdg-desktop-icon
+
+xdg-desktop-menu
+
+xdg-email
+
+xdg-icon-resource
+
+xdg-mime
+
+xdg-open
+
+nome-disks
+
+nome-help
+
+-keyring
+
+-keyring-3
+
+-keyring-daemon
+
+-menus-blacklist
+
+-power-statistics
+
+-screensaver
+
+-screensaver-command
+
+-session
+
+-session-inhibit
+
+-session-properties
+
+-session-quit
+
+-agent
+
+-connect-agent
+
+-wks-client
+
+-manager
+
+-editenv -file -fstest -glue-efi -install -kbdcomp
+
+pnm2ppa pod2html pod2man
+
+pod2text
+
+pod2usage
+
+podchecker
+
+poff
+
+pon
+
+popd
+
+POST
+
+poweroff
+
+ppchcalls-bpfcc
+
+pphs
+
+pppd
+
+pppdump
+
+pppoe-discovery
+
+pppstats
+
+pptp
+
+pptpsetup
+
+pr
+
+precat
+
+preconv
+
+preunzip
+
+prezip prezip-bin printafm
+
+printenv
+
+printf
+
+prlimit
+
+pro
+
+profile-bpfcc
+
+prove prtstat ps
+
+ps2ascii ps2epsi ps2pdf
+
+ps2pdf 12 ps2pdf 13 ps2pdf 14 ps2pdfwr ps2ps ps2ps2 ps2txt
+
+psfaddtable psfgettable
+
+psfstriptable
+
+xdg-mime
+
+xdg-open
+
+xdg-screensaver
+
+xdg-settings
+
+xdg-user-dir
+
+xdg-user-dirs-gtk-update
+
+xdg-user-dirs-update
+
+xdpyinfo xdriinfo
+
+xev
+
+xfd
+
+xfontsel
+
+xfsdist-bpfcc xfsdist.bt
+
+xfsslower-bpfcc
+
+xgamma xhost xkbbell xkbcomp xkbevd
+
+xkbprint
+
+xkbvleds
+
+xkbwatch xkeystone xkill xlsatoms xlsclients xlsfonts xmessage xmodmap Xorg
+
+xprop xrandr xrdb
+
+xrefresh
+
+x-session-manager
+
+xset xsetmode xsetpointer xsetroot
+
+xsetwacom xstdcmap xsubpp
+
+xtables-legacy-multi xtables-monitor xtables-nft-multi
+
+xvidtune
+
+-kbdcomp -macbless
+
+-menulst2cfg
+
+-mkconfig
+
+-mkdevicemap -mkfont
+
+-mkimage
+
+-mk layout -mknetdir
+
+-mkpasswd-pbkdf2
+
+-mkrelpath
+
+-mkrescue
+
+-mount
+
+-mkstandalone
+
+-probe -reboot
+
+-render-label -script-check -set-default -syslinux2cfg
+
+-device-monitor-1.0 -discoverer-1.0 -inspect-1.0
+
+-launch-1.0
+
+-play-1.0
+
+-stats-1.0
+
+-tester-1.0
+
+-typef ind-1.0
+
+-broadwayd -builder-tool
+
+-encode-symbolic-svg
+
+-launch -path-tool
+
+-query-settings
+
+-rendernode-tool
+
+@127:"#
+
+@127:~#
+
+psfstriptable psfxtable psicc pslog pstree
+
+pstree.x11
+
+ptar
+
+ptardiff ptargrep ptx
+
+pulseaudio
+
+pushd
+
+pvck
+
+pvchange
+
+pvcreate
+
+pvdisplay pvmove pvremove pvresize
+
+pvs pvscan pwck pwconv pwd
+
+pwdx
+
+pwhistory_helper
+
+pwunconv
+
+py3clean
+
+py3compile
+
+py3versions pybabel
+
+pybabel-python3
+
+pydoc3 pydoc3.12 pygettext3 pygettext3.12 pygment ize
+
+pyserial-miniterm pyserial-ports python3
+
+python3.12
+
+pythoncalls-bpfcc pythonf low-bpfcc pythongc-bpfcc pythonstat-bpfcc
+
+xvidtune xvinfo xwininfo xxd XZ
+
+xzcat xzcmp
+
+xzdiff
+
+xzegrep
+
+xzfgrep
+
+xzgrep
+
+xzless
+
+xzmore
+
+yelp
+
+yes
+
+ypdomainname
+
+zcat
+
+zcmp
+
+zdiff
+
+zdump
+
+zegrep
+
+zeitgeist-daemon
+
+zfgrep
+
+zforce
+
+zfsdist-bpfcc
+
+zfsslower-bpfcc
+
+zgrep
+
+zic zip
+
+zipcloak zipdetails
+
+zipgrep
+
+zipinfo zipnote zipsplit zless
+
+zmore znew
+
+zramctl zstd zstdcat zstdgrep zstdless
+
+zstdmt
