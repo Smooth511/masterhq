@@ -1,0 +1,139 @@
+name: Parse EVTX Logs
+
+on:
+  workflow_dispatch:
+    inputs:
+      evtx_path:
+        description: 'Path to EVTX file in repo (e.g., logs1sthour/All hourlysave.evtx)'
+        required: true
+        default: 'logs1sthour/All hourlysave.evtx'
+      hunt_pids:
+        description: 'Space-separated PIDs to hunt for (e.g., 1052 3992)'
+        required: false
+      event_ids:
+        description: 'Space-separated event IDs to filter (e.g., 4688 7045)'
+        required: false
+      search:
+        description: 'Search strings in event data (space-separated)'
+        required: false
+      include_all:
+        description: 'Include all events, not just security-related'
+        required: false
+        default: 'false'
+      summary_only:
+        description: 'Output summary stats only'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: read
+
+jobs:
+  parse-evtx:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r tools/requirements.txt
+
+      - name: Parse EVTX file
+        id: parse
+        env:
+          EVTX_PATH: ${{ inputs.evtx_path }}
+          HUNT_PIDS: ${{ inputs.hunt_pids }}
+          EVENT_IDS: ${{ inputs.event_ids }}
+          SEARCH: ${{ inputs.search }}
+          INCLUDE_ALL: ${{ inputs.include_all }}
+          SUMMARY_ONLY: ${{ inputs.summary_only }}
+        run: |
+          # Validate inputs - strict alphanumeric/path chars only
+          if [[ ! "$EVTX_PATH" =~ ^[a-zA-Z0-9_./ -]+$ ]]; then
+            echo "ERROR: Invalid evtx_path - must be alphanumeric with / - _ . and spaces only"
+            exit 1
+          fi
+          
+          if [[ -n "$HUNT_PIDS" ]] && [[ ! "$HUNT_PIDS" =~ ^[0-9\ ]+$ ]]; then
+            echo "ERROR: Invalid hunt_pids - must be space-separated numbers"
+            exit 1
+          fi
+          
+          if [[ -n "$EVENT_IDS" ]] && [[ ! "$EVENT_IDS" =~ ^[0-9\ ]+$ ]]; then
+            echo "ERROR: Invalid event_ids - must be space-separated numbers"
+            exit 1
+          fi
+          
+          # Validate search - alphanumeric, spaces, underscores, dashes, dots only
+          # This prevents flag injection (e.g., --all) and shell escapes
+          if [[ -n "$SEARCH" ]] && [[ ! "$SEARCH" =~ ^[a-zA-Z0-9_. -]+$ ]]; then
+            echo "ERROR: Invalid search - must be alphanumeric with spaces, underscores, dashes, dots only"
+            exit 1
+          fi
+          
+          # Build command with safe argument passing
+          OUTPUT_NAME="parsed-$(date +%Y%m%d-%H%M%S).json"
+          mkdir -p logs
+          
+          ARGS=("$EVTX_PATH" "logs/$OUTPUT_NAME")
+          
+          if [ -n "$HUNT_PIDS" ]; then
+            ARGS+=("--hunt-pids")
+            for pid in $HUNT_PIDS; do
+              ARGS+=("$pid")
+            done
+          fi
+          
+          if [ -n "$EVENT_IDS" ]; then
+            ARGS+=("--event-ids")
+            for eid in $EVENT_IDS; do
+              ARGS+=("$eid")
+            done
+          fi
+          
+          if [ -n "$SEARCH" ]; then
+            ARGS+=("--search")
+            for term in $SEARCH; do
+              ARGS+=("$term")
+            done
+          fi
+          
+          if [ "$INCLUDE_ALL" == "true" ]; then
+            ARGS+=("--all")
+          fi
+          
+          if [ "$SUMMARY_ONLY" == "true" ]; then
+            ARGS+=("--summary-only")
+          fi
+          
+          echo "Running parser with validated inputs"
+          python tools/parse_evtx.py "${ARGS[@]}"
+          
+          echo "output_file=logs/$OUTPUT_NAME" >> $GITHUB_OUTPUT
+
+      - name: Upload parsed output
+        uses: actions/upload-artifact@v4
+        with:
+          name: parsed-evtx
+          path: ${{ steps.parse.outputs.output_file }}
+          retention-days: 30
+
+      - name: Print summary
+        env:
+          EVTX_PATH: ${{ inputs.evtx_path }}
+        run: |
+          echo "## EVTX Parse Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Source:** $EVTX_PATH" >> $GITHUB_STEP_SUMMARY
+          echo "**Output:** ${{ steps.parse.outputs.output_file }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Show event summary (safe - path already validated)
+          python tools/parse_evtx.py "$EVTX_PATH" --summary-only 2>/dev/null >> $GITHUB_STEP_SUMMARY || echo "Summary generation failed" >> $GITHUB_STEP_SUMMARY

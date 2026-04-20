@@ -1,0 +1,69 @@
+# ╔══════════════════════════════════════════════════════════════════════════╗
+# ║  ⛔ WARNING — DO NOT ADD ENTRIES TO THIS FILE WITHOUT AUTHORIZATION ⛔  ║
+# ║                                                                        ║
+# ║  This .gitignore is LOCKED. No agent, bot, workflow, or automated      ║
+# ║  process may add, remove, or modify entries without EXPLICIT written    ║
+# ║  approval from the repository owner (Smooth115).                       ║
+# ║                                                                        ║
+# ║  WHY: During the March 2026 security lockdown (Issue #3), it was       ║
+# ║  identified that agents were making unauthorized structural changes    ║
+# ║  to repository configuration files — including .gitignore — without    ║
+# ║  user knowledge or consent. This enables files to be hidden from       ║
+# ║  tracking, which is a security risk.                                   ║
+# ║                                                                        ║
+# ║  VIOLATION: Any unauthorized modification to this file will be         ║
+# ║  treated as a security incident and the responsible agent/PR will      ║
+# ║  be flagged for review.                                                ║
+# ║                                                                        ║
+# ║  Last authorized edit: 2026-03-23 by Copilot (Issue #3 lockdown)      ║
+# ╚══════════════════════════════════════════════════════════════════════════╝
+
+# ── Parsed EVTX output (too large for repo) ──────────────────────────────
+logs/*.json
+!logs/.gitkeep
+
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+
+# ── Virtual environments ─────────────────────────────────────────────────
+venv/
+env/
+.env
+
+# ── IDE ───────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/extensions.json
+.vscode/*.code-workspace
+.idea/
+*.swp
+*.swo
+
+# ── OS ────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Temp files ────────────────────────────────────────────────────────────
+*.tmp
+*.bak
+
+# ╔══════════════════════════════════════════════════════════════════════════╗
+# ║  🔐 INTEGRITY VERIFICATION — MK2_PHANTOM AUTHORIZED                     ║
+# ╠══════════════════════════════════════════════════════════════════════════╣
+# ║  Size (bytes): 4579                                                     ║
+# ║  SHA256 (lines 1-57): db2f637144aa1e3b7fc2da41024742382e3b9acd99788b5   ║
+# ║  Last verified: 2026-03-23T15:20:00Z by ClaudeMKII                      ║
+# ║  Change: Added .pytest_cache/ for test suite (PR #2 content extraction) ║
+# ║                                                                         ║
+# ║  To verify: head -57 .gitignore | sha256sum                             ║
+# ║  Any mismatch = unauthorized modification = security incident           ║
+# ╚══════════════════════════════════════════════════════════════════════════╝

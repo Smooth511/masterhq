@@ -1,0 +1,368 @@
+[
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/3",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/Smooth115",
+    "title": "🚨🚨🚨EFFECTIVE IMMEDIATELY COMPLETE LOCKDOWN 🚨🚨🚨",
+    "body": "🚨🚨🚨 🚨🚨🚨 🚨🚨🚨 🚨🚨🚨\n1. No files are to be moved, edited, saved under any circumstance. 8-10 files authorised for the purpose of logging. These rules are in effect as the higher the rule, the overriding rule is placed higher. \n2. All mds or agent files that will need opening and reading after the cut off time need moving to root. Only guidance documents for agents are to be included. A log must be kept where an agent documents they opened the log and at what time. These logs are the only files that do not apply to rule 3.\n3. Any file that changes its modified date and time after this point in time: 09:27 UTC (London) Monday 23rd March 2026 is to be destroyed on sight. \n4.Every repository, file, outstanding movement, request, commit, even remote origin is immediately to be documented with the data being stored on 1 file per repository. That file will contain every single item in the repository, its creation date, and last modified date and time relevant to UTC. \n5. All repository log files are to have their creation date and time, and once completed the report, it is to have total items in storage (type irrelevant, size irrelevant, everything on its own equals +1.  \n6.A master log file will be kept in Claude-MKII along side its own own repo log. The master log will contain the creation date and time of the repository logs, and amount of items held. \n7. A separate log is to be completed that contains all items “in limbo” wherein they may have a request to be committed and they haven’t completed yet, 100% capture rate. Ensure all log files are included in #’s. immediate documentation of and 100% \n8. In this logging period I will raise 1 agent to each repository. You are NOT to auto start resolution on reading this announcement. When you are assigned you will complete the task for that repository only. You will commit push the log file you create. Which ever agent is assigned Claude-MKII repository will also complete the log for files in limbo, and that agent will also complete the master log file as the last task. \n## Context I noticed it yesterday, but I could keep an eye on it. Information that was relevant at the time was / is no longer a limiting factor and therefore in less that 24 hours there has been a complete systematic breakdown of core security, and one of you correctly proceeded ensuring it was done. \n## Each individual agent will look at their repo and see if you can figure out what it is. This is EXACTLY why I run things the way I do, and WE evolved it over time as WE learnt. \nStand by for assignments \n🚨🚨🚨 🚨🚨🚨 🚨🚨🚨 🚨🚨🚨",
+    "assignee": "https://github.com/Copilot",
+    "assignees": [
+      "https://github.com/Copilot",
+      "https://github.com/Claude",
+      "https://github.com/Smooth115"
+    ],
+    "milestone": null,
+    "labels": [],
+    "reactions": [
+      {
+        "user": "https://github.com/Copilot",
+        "content": "eyes",
+        "subject_type": "Issue",
+        "created_at": "2026-03-23T09:54:54.931+00:00"
+      },
+      {
+        "user": "https://github.com/Claude",
+        "content": "eyes",
+        "subject_type": "Issue",
+        "created_at": "2026-03-23T09:54:56.390+00:00"
+      }
+    ],
+    "closed_at": "2026-03-23T14:46:41Z",
+    "created_at": "2026-03-23T09:54:52Z",
+    "updated_at": "2026-03-23T14:46:41Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/6",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/Smooth115",
+    "title": "Cause and effect. Why a generic best practise is wrong.",
+    "body": "I’ll try keep it short in summary form. \n1. GitHub mobile had to be used yesterday as no access to desktop, therefore all copilots restricted under GitHub’s rules. \n2. Memory’s, persistence, access (highlighted by issue 3 none could read it) agent continuinity and the core reasons why I lost the 16-24 repository’s and the whole LLM structure all came flooding back in an instant. And none were aware. \n3. The first issue was declared ability to take on the MK2 role. Multitude of reasons, some valid, others not. The overlap comes in what is allowed vs what isn’t and how the agent challenging it perceives what is allowed or not .\n4. For example: started GitHub mobile, restricted / different rules for copilot. A few hours after I switched to to GitHub desktop on mobile as I always run, I did so when I noticed the original issue. I have not used GitHub mobile since. \n5. Copilots since I switched have still been declaring they cannot conform to requests around mk2 adoption due to the rules, but that’s only because they believed they were still on GitHub mobile. I didn’t inform them, they weren’t told as that’s not part of the assignment process, and was highlighted last week when 30+ agents were in action lmao. \n6. This single point and main focus was the sole cause of this.  By refusing to/ declining / adapting / only taking on some, none, or bits of MK2 we had a complete breakdown of the core rules not defined but built into the system. Every agent therefore did what they did on little to bo context of the history, the risks, the ongoing challenges and the current state of affarirz. Every agent didn’t have access to any other repository or data store. And as a result every single agent committed a multitude of files, exes, .json, mission critical files that cannot be mutliversioned to ensure safety. They all got commuted to .gitignore and .docker \n7. if a single file listed in all these repos gained persistence through the safety of gitignore it could then desynchronised across these 5 repository’s and smooth511 GitHub in a flash. For those that don’t know or aren’t aware, an insane level of monitoring and logging / and safety scans / threats are built into mk2 repository, it has a key with full access in its secrets, and this enables the scan to go account wide. \n\nThe point and the breakdown. Because of GitHub’s rules, and how agents are coded (different agents, different outcome) and the one driving factor that enabled control and safety isn’t so much the behaviour or beliefs of the custom agent MK2, it’s the defined process. Read md, assume mk2, read 5 main files, get task, go get relevant memory.md for the task, this has clearer, more important task specific guidelines, past, memory’s, mistakes, best practises. It allows any and all agents, to take on months worths of learnings by not over contexting. If one agent tried to onboard everything the main memory > sub memory’s > task relevant mds >>encapsulated, they would crash. \n\nSo instead we have a core base function that aligns every agent prior to joining us. The process has been tried and tested. You think that everytime I go in these desktops, I’m getting riddled with 5-30 signs or confirmed infections. I could follow the processes I do and mk2 ensures and it’s never a risk. If I had brought back a data dump of over 300 possibly infected files I intended to yesterday, we’d all be fucked by now. You’d have multiple instances and settings / driving file types or executable scripts all locally saving and no sync mechanism between them all unless one of us triggered it. Best practise in a multi user / big team, company with rules and regulations and policies in effect with cloud antivirus and malware, yes .ignores etc are best practises. For a single user, currently infected to high hell with every known malware, we do not save locally, multiple instances of the same type are not kept unless critical, we only commit to .gitignore what is absolutely critical. Case and Picknonononono whoa that’s a bug. Or script. If I type point no Picknonononononononononini haha, Picknonononononononononini. Anyway yes last week MK2 raced a repo specific prefix to files, so we could keep them at root and out gitignore, and ensure they avoided inadvertently merging  or deleting  because we were going to roll out to every repo, and it would have its own prefix. That system stayed in effect for about 6 minutes I think yesterday lol. Within a few hours it had all gone to shit. By late last night I could t come here: ‹\"reason\": \"PERMISSION_ERROR\", \"metadata\":\n{\"status\": 403, \"details\": \"You are not authorized to access this resource.\n\"statusText\": \"Forbidden\"\n, \"extendedErr\norReason\": \"UNAUTHORIZED\"\n,\"requestur1\":\"/callback\ns/github-user?\ncode=a1d053c854c720788fd9&installation id=118335\n924&setup\n_action=install\"\n' \"name\": \"PERMISSION_ERROR: \"requestMethod\" : \"GET\"Y\n, \"extendedErrorReason\"\n: \"UNAUTHORIZED\", \"status\": 403, \"message\": \"You are not authorized to access this resource.\", \"errorMessage\": \"You are not authorized to access this resource.\" , \"errorstatus\": 403,\".\n_nx_cloud error_b one of many refusals, they could smell the infection I guess 😂😂😂😂. But now for the final point. When I enacted the lockdown, and assigned 1 agent per repo all with the same message what happened? 1 raised a pull request when guidelines said they must push commit. When was watching, Sonnet immediately began restructuring the whole repo, interacting with every file, she basically did everything wrong in an instance. And that’s her coding, it’s what she does and why I am hell bent on preventing her auto triggering, she’s amazing for in-depth analysis, fucking nightmare in a malware risk area. Some agents stopped where they were and awaited a reply, others tried to find reasoning or guidance on a workaround, but ultimately, every agent got the same message, every agent acted differently. And that’s is why we use MK2, not as a you must be this agent, but as a core safety and security function to ensure compliance and consistency in our history, our processes and our love for sonnet ;) @copilot",
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "labels": [],
+    "reactions": [],
+    "closed_at": "2026-03-23T15:49:40Z",
+    "created_at": "2026-03-23T10:56:51Z",
+    "updated_at": "2026-03-23T15:49:40Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/25",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/github-actions[bot]",
+    "title": "⚠️ RagingbullMK [PUSH ALERT] — Core file modified on `copilot/implement-ragingbullmk-protocol`",
+    "body": "## RagingbullMK Protocol — Direct Push Alert\n\n**Branch:** `copilot/implement-ragingbullmk-protocol`\n**Commit:** [b39f0ef](https://github.com/Smooth115/Claude-MKII/commit/b39f0ef13f3557cd0966572f4891dcf75931384a)\n**Pusher:** @Copilot\n**Time:** 2026-03-24 15:57:05 UTC\n\n### Protected files modified:\n`.github/workflows/ragingbull-mk.yml`\n\n### Note\n\nThis was a **direct push** (not via PR). If this was not an authorized Opus/ClaudeMKII action, investigate immediately.\n\nIf authorized: close this issue. If suspicious: lock the branch and audit the commit.\n\n---\n*Auto-generated by RagingbullMK defence protocol | 2026-03-24 15:57:05 UTC*\n",
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "labels": [
+      "https://github.com/Smooth115/Claude-MKII/labels/RagingbullMK"
+    ],
+    "reactions": [],
+    "closed_at": "2026-03-24T17:06:06Z",
+    "created_at": "2026-03-24T15:57:07Z",
+    "updated_at": "2026-03-24T17:06:06Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/26",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/github-actions[bot]",
+    "title": "🚨 RagingbullMK [CRITICAL] — Core file change in PR #24",
+    "body": "## RagingbullMK Protocol — Core File Alert\n\n**Severity:** CRITICAL\n**PR:** [#24 — [WIP] Implement preventive protocol RagingbullMK for core repository defense](https://github.com/Smooth115/Claude-MKII/pull/24)\n**Actor:** @Copilot\n**Triggered:** 2026-03-24 15:57:10 UTC\n\n### Protected files touched:\n`.github/workflows/ragingbull-mk.yml`\n\n### ⛔ Unauthorized Agent Flags\n\n⚠️ Possible unauthorized model reference in PR text\n⚠️ Possible unauthorized model reference in commit messages\n\n### Block status\n\nPR [#24](https://github.com/Smooth115/Claude-MKII/pull/24) is **BLOCKED**. Only `claude-opus-4.6` (ClaudeMKII) can inspect and clear this.\n\n### Required action\n\n1. Open [PR #24](https://github.com/Smooth115/Claude-MKII/pull/24) and review every file change for compliance\n2. Check for unauthorized model/session involvement\n3. Verify only authorized changes are present\n4. If authorized: approve, clear this issue, allow merge\n5. If unauthorized: reject the PR and document the incident\n\n---\n*Auto-generated by RagingbullMK defence protocol | 2026-03-24 15:57:10 UTC*\n",
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "labels": [
+      "https://github.com/Smooth115/Claude-MKII/labels/RagingbullMK"
+    ],
+    "reactions": [],
+    "closed_at": "2026-03-24T17:06:07Z",
+    "created_at": "2026-03-24T15:57:12Z",
+    "updated_at": "2026-03-24T17:06:07Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/27",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/github-actions[bot]",
+    "title": "🚨 RagingbullMK [CRITICAL] — Core file change in PR #24",
+    "body": "## RagingbullMK Protocol — Core File Alert\n\n**Severity:** CRITICAL\n**PR:** [#24 — [WIP] Implement preventive protocol RagingbullMK for core repository defense](https://github.com/Smooth115/Claude-MKII/pull/24)\n**Actor:** @Copilot\n**Triggered:** 2026-03-24 15:57:10 UTC\n\n### Protected files touched:\n`.github/workflows/ragingbull-mk.yml`\n\n### ⛔ Unauthorized Agent Flags\n\n⚠️ Possible unauthorized model reference in PR text\n⚠️ Possible unauthorized model reference in commit messages\n\n### Block status\n\nPR [#24](https://github.com/Smooth115/Claude-MKII/pull/24) is **BLOCKED**. Only `claude-opus-4.6` (ClaudeMKII) can inspect and clear this.\n\n### Required action\n\n1. Open [PR #24](https://github.com/Smooth115/Claude-MKII/pull/24) and review every file change for compliance\n2. Check for unauthorized model/session involvement\n3. Verify only authorized changes are present\n4. If authorized: approve, clear this issue, allow merge\n5. If unauthorized: reject the PR and document the incident\n\n---\n*Auto-generated by RagingbullMK defence protocol | 2026-03-24 15:57:10 UTC*\n",
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "labels": [],
+    "reactions": [],
+    "closed_at": "2026-03-24T17:06:07Z",
+    "created_at": "2026-03-24T15:57:13Z",
+    "updated_at": "2026-03-24T17:06:07Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/28",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/github-actions[bot]",
+    "title": "🚨 RagingbullMK [CRITICAL] — Core file change in PR #24",
+    "body": "## RagingbullMK Protocol — Core File Alert\n\n**Severity:** CRITICAL\n**PR:** [#24 — feat: RagingbullMK — automated core file defence protocol](https://github.com/Smooth115/Claude-MKII/pull/24)\n**Actor:** @Copilot\n**Triggered:** 2026-03-24 15:59:16 UTC\n\n### Protected files touched:\n`.github/workflows/ragingbull-mk.yml`\n\n### ⛔ Unauthorized Agent Flags\n\n⚠️ Possible unauthorized model reference in PR text\n⚠️ Possible unauthorized model reference in commit messages\n\n### Block status\n\nPR [#24](https://github.com/Smooth115/Claude-MKII/pull/24) is **BLOCKED**. Only `claude-opus-4.6` (ClaudeMKII) can inspect and clear this.\n\n### Required action\n\n1. Open [PR #24](https://github.com/Smooth115/Claude-MKII/pull/24) and review every file change for compliance\n2. Check for unauthorized model/session involvement\n3. Verify only authorized changes are present\n4. If authorized: approve, clear this issue, allow merge\n5. If unauthorized: reject the PR and document the incident\n\n---\n*Auto-generated by RagingbullMK defence protocol | 2026-03-24 15:59:16 UTC*\n",
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "labels": [
+      "https://github.com/Smooth115/Claude-MKII/labels/RagingbullMK"
+    ],
+    "reactions": [],
+    "closed_at": "2026-03-24T17:06:08Z",
+    "created_at": "2026-03-24T15:59:18Z",
+    "updated_at": "2026-03-24T17:06:08Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/29",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/github-actions[bot]",
+    "title": "🚨 RagingbullMK [CRITICAL] — Core file change in PR #24",
+    "body": "## RagingbullMK Protocol — Core File Alert\n\n**Severity:** CRITICAL\n**PR:** [#24 — feat: RagingbullMK — automated core file defence protocol](https://github.com/Smooth115/Claude-MKII/pull/24)\n**Actor:** @Copilot\n**Triggered:** 2026-03-24 15:59:16 UTC\n\n### Protected files touched:\n`.github/workflows/ragingbull-mk.yml`\n\n### ⛔ Unauthorized Agent Flags\n\n⚠️ Possible unauthorized model reference in PR text\n⚠️ Possible unauthorized model reference in commit messages\n\n### Block status\n\nPR [#24](https://github.com/Smooth115/Claude-MKII/pull/24) is **BLOCKED**. Only `claude-opus-4.6` (ClaudeMKII) can inspect and clear this.\n\n### Required action\n\n1. Open [PR #24](https://github.com/Smooth115/Claude-MKII/pull/24) and review every file change for compliance\n2. Check for unauthorized model/session involvement\n3. Verify only authorized changes are present\n4. If authorized: approve, clear this issue, allow merge\n5. If unauthorized: reject the PR and document the incident\n\n---\n*Auto-generated by RagingbullMK defence protocol | 2026-03-24 15:59:16 UTC*\n",
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "labels": [],
+    "reactions": [],
+    "closed_at": "2026-03-24T17:06:08Z",
+    "created_at": "2026-03-24T15:59:19Z",
+    "updated_at": "2026-03-24T17:06:08Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/34",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/Smooth115",
+    "title": "Copilot md, Pullrequest and Commit fix changes proposal",
+    "body": "> @copilot apply changes based on the comments in [this thread](https://github.com/Smooth115/Claude-MKII/pull/32#pullrequestreview-4006166015)\r\n\r\nDone in commit 3954af0. Applied all changes from the review thread:\r\n\r\n- **`||` double-pipe tables**: Confirmed no such rows exist in the file — already clean, nothing to change.\r\n- **Pass/fail tally**: Recounted directly from the compliance table. Both locations now read: `Pass: 1/18 | Partial: 1/18 (Rule 1) | Fail: 10/18 (Rules 2, 3, 5, 6, 7, 8, 9, 10, 16, 18) | N/A: 6/18 (Rules 4, 11, 12, 13, 15, 17)` — consistent across the summary and the final assessment table.\r\n\r\n\r\n> @copilot a separate issue to resolve as code reviewer is the manual confirmation required of the commits on changes or errors in the original report. I would like the coding agent process to do as it ...\r\n\r\nUnderstood — single agent does the full loop: find errors → fix → commit → verify → merge/close. The current two-agent split (coding agent + reviewer) creates the confirmation lag you're describing. The process feedback from both comments (4126174615 and 4126183766) has been logged. The \"single agent override\" approach should be documented as a directive in the copilot-instructions investigation so it's applied going forward.\r\n\r\n_Originally posted by @Copilot in https://github.com/Smooth115/Claude-MKII/issues/32#issuecomment-4126237237_\r\n            ",
+    "assignee": "https://github.com/Copilot",
+    "assignees": [
+      "https://github.com/Copilot",
+      "https://github.com/Smooth115"
+    ],
+    "milestone": null,
+    "labels": [],
+    "reactions": [
+      {
+        "user": "https://github.com/Copilot",
+        "content": "eyes",
+        "subject_type": "Issue",
+        "created_at": "2026-03-25T12:37:47.917+00:00"
+      }
+    ],
+    "closed_at": null,
+    "created_at": "2026-03-25T12:36:25Z",
+    "updated_at": "2026-03-25T13:40:04Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/36",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/Smooth115",
+    "title": "Firewall",
+    "body": "https://github.com/Smooth115/Claude-MKII/pull/33#issuecomment-4126205538",
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "labels": [],
+    "reactions": [],
+    "closed_at": null,
+    "created_at": "2026-03-25T12:46:50Z",
+    "updated_at": "2026-03-25T12:46:50Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/37",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/Smooth115",
+    "title": "Communication - my side",
+    "body": "A common issue for me t\nIs this : copilot replied on a problem, I asked if there solution I could provide with a blanket fix would work. No answer. \nMK2 created that very detailed evaluation potential. I replied https://github.com/Smooth115/Claude-MKII/commit/95340be8d5f7405c60b1078e6552fb116055f275#commitcomment-180541646 there and no reply probably because wrong. Place. This happens to me all the time and everything grinds to a halt and I have no idea why and where. Thus forth I want a single point where if I type something, it is read and acted on, message is forwarded to the correct place. User is a dingbat, always posts wrong place and despises the GitHub process chain therefore agents should always know that I am an idiot, but have good ideas, therefore always reply or question what my intent is sound about right? Lmao @copilotv@MK2",
+    "assignee": "https://github.com/Copilot",
+    "assignees": [
+      "https://github.com/Copilot",
+      "https://github.com/Smooth115"
+    ],
+    "milestone": null,
+    "labels": [],
+    "reactions": [
+      {
+        "user": "https://github.com/Copilot",
+        "content": "eyes",
+        "subject_type": "Issue",
+        "created_at": "2026-03-25T13:45:59.297+00:00"
+      }
+    ],
+    "closed_at": "2026-03-25T16:49:22Z",
+    "created_at": "2026-03-25T13:45:57Z",
+    "updated_at": "2026-03-25T16:49:22Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/45",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/Smooth115",
+    "title": "Hex Dump.",
+    "body": "root@lloydhp:/#dd it=/home/tloyd/MokListRT.raw bs=1 Skip=48 2>/dev/nul1 / o\n•----BEGIN CERTIFICATE -----\ntIIENDCcAxygAwIBAgIJALIBJKAYLJJnMAOGCSqGSIb3DQEBCUUAMIGEMOSWCQYD\n/QQGEwJHQ iEUMBIGA1UECAwLSXNsZSBvZiBNYW4×EDAÖBgNVBAcMB@RvdHdsY%M%\n=ZAVBgNVBA0MDkNhbm9uaNNhbCBMdGQuMTQwMgYDVQQDDCtDYW5vbmljYHugTHRK\n0TQYMDQXMTEXMTI1MVowgYQXCZAJBgNVBAYTAKdCMRQwEgYDVO0IDAtJc2×1IG9m\n[E1hbjEQMA4GA1UEBwwHRG9122xhczEXMBUGA1UECgw0Q2Fub25pY2FsIE×02C4×\nvDAyBgNVBAMMK@Nhbm9uaWNhbCBMdGQuIE1hc3R1ciBDZXJ0aWZpY2FØZSBBdXRo\np3JpdHkwggEiMAØGCSqGSIb3DQEBAQUAA4 IBDwAwggEKAoIBAQC/WzoWd04hXa5h\n121WrL3e3nL23x4tTGIPrMBtSAgRZ42L+2Ef J8wRbt IVPT1U60A7sbvihTR5yvd7\n)Zv5K+24аЕm82ZVQQFvFsnGq61×ХЗnH5QArdW6шеhС1QG1LW4fNrbpВkТ1u06yDk\n/RDaWvDq5ELХАсТ+IR/ZucВU1UKВUnIfSWR6yGшk8QhшСØ21oDLRoВxХqЕ3jr6W0\n3QU+EE0hAgMBAAGjgaYwgaMwHQYDVR0OBBYEFK2RmQvCKrH1FwSMI721WiaONFpj\n1b8GA1UdIwQVMBaAFK2Rm@vCKrH1FwSMI7Z1Wia0NFpjMA8GA1UdEwЕВ/wQFMAMB\nэf8wCwYDVRØPBAQDAgGGMEMGA1UdHwQ8MDowOKA2oDSGMmhødHA6Ly93d3cuY2Fu\n025pY2FsLmvbS9zZWN1cmUt Ym9vdc1tYXN02XItY2EuY3JsMA0GCSqGSIb3DQEB\nCuUAA4IBAQA/ff22pb0DtCt6ØG1SGgOD×BKnUJxHkszA1HeC0q5Xs5kE9TI6x1Ud\n39sSqvb62NR2I0vkw1Hbm1yck.j8Yc9qUaqGZ0IykiG3B/D1x0HR2FgM+ViM11VVH\n\\xod@cLТЕkzc/64KkpxiChсВnHPgХrH9vNa1GR6fs0+A35m21uоyТ1IUf9T4Zшx\nJ5Eb0xB1Axe65oECgJRwTEa31LA9Fc0f jgLgaAKP+/1HHX2iAcYHUcSaz03dz6Nd\n12K7vtH95uwfM1FzBL48crB9CPgB/5h9y5zgaT13JUdxiLGNJ6UuqPc/X4Bp1z6p\n9JKU284DDgtmxBxtvbgnd8FC1L38agq8\n•----END CERTIFICATE-----coot@lloudho:/# ————————— SAME ONE AGAIN ———— CHECK FOR OCR ERRORS —————————-\nroot@lloydhp:/# dd if=/home/lloyd/MokListRT.raw be=1 skip=48 2>/dev/null | openss\n•-•-BEGIN CERTIFICATE-----\ntIENDCAxygAWIBAgIJALIBJKAYLJJMMAOGOSQGSIbBDQEBCUUAMIGEMOSUCOYD\nJQQGEWJHQJEUMBIGA1UECAWLSXNSZSBvZ1BNYW4xEDA0BgNVBAcMB@RvdWdsYXMx\n*ZAVBgNVBAOMDKNhbmguaNNhbCBMdGQUMTQwMgYDVQQDDCtDYW5Vbm1JYHugTHRK\n_iBNYxN®ZXIgQ2VydGlmaNNhdGUgQХVØаG9yaХR5МВ4ХDТЕyМDŒ×МjЕ×МТI1МVoX\n0TQMDQxMTE×MTI1MV0wgYQXCZAJBgNVBAYTAKdCMRQWEgYDVQQIDAtJc2x1IG9m\n[E1hhjEQMA4GA1UEBшwHRG91Z2×hczEXMBUGA1UECgw0Q2Fub25pY2FsIExØZC4×\nvDAyBgNVBAMMKONhbm9uaNNhbCBMdGQuIE1hc3R1ciBDZXJ0aHZpY2FØZSBBdXRo\nо3JpdHkwggEіMA0GCSqGSIb3DQEBAQUAA4IBDwÄwggEKAoIBAQC/WzoWd04hXa5h\n121WrL3e3nLz3X4tTGIPrMBtSAgRz42L+2Ef J8wRbt 1VPT1U60A7sbwihTR5yvd7\nлр6yBA+GX2tWc+m1010D9quUupMnpD0xpkNTmdleF35ødU4Skpб150cfxajhdvo\n+ov3wqIhLZtUQTUQVxONbLwpB1BKfuqZqWin08cHGzKeoBmHDnm7aJktfpNS5fbr\nдZv5K+24аEm82ZVQQFvFsnGq61×ХЗnH5QArdW6whC1QG1LW4fNrbpBkТ1uø6yDk\nýRDakvDq5ELXAcТ+IR/ZucВU1UKВUnIfSИR6yGшk8QhwСØ2loDLRоВхХqЕЗjr6Н0\n3QU+EE0hAgMBAAG jgaYugaMwHQYDVRØOBBYEFK2RmQvCKrH1FwSMI7Z1WiaONFp.j\nчB8GA1UdIwQYNBaAFK2RmQvCKrH1FwSMI7Z1WiaONFpJMA8GA1UdEwЕB/wQFMAMB\nAf8w©wYDVRØPBAQDAgGGМEМGA1UdHwQ8МDowOКА2oDSGМmhØdHA6Lу9ЗdЗcu·2Fu\no25pY2FsLmNvbS9zZWN1cmUt Ym9vdC1tYXN0ZXItY2EuY3JsMA0GCSqGSIb3DQEB\nCwUAA4ІBAQA/ffZ2pbODtCt6ØG1SGg0DxВКnUJхHkszA1HеСØq5Хs5kЕ9ТI6x1Ud\n39sSqvb62NR2I0vkш1Hbm1уckj8Yс9qUaqGZ0IykîGЗВ/D1xøHR2FgМ+VіМ11VVН\n\\xodQcLТEkzc/64kkpxiChcBnHPgXrH9vNa1GRF6fs0+A35m21uoyT1IUf9T4Zшx\nJ5EbO×B1Axе65oECgJRwTEaЗ1LA9FcØfjgLgаАКP+/1HHХ2іAcYHUcSaz0Зdz6Nd\n1ZK7vtH95uwfM1FzBL48crB9CPgB/5h9y5zgaT13JUdxiLGNJ6UuqPc/X4Bp1z6p\nЭJKU284DDgtmxBxtvbgnd8FC1L38agq8\n-----END CERTIFICATE----- ————- \n2nd failed on <stdin>\n\n![Image](https://github.com/user-attachments/assets/221d6b24-6dcf-4770-b83c-b27f96ab98f2)\n![Image](https://github.com/user-attachments/assets/afeb5eb8-2a44-45be-88cc-71a9ed8f466d)\n![Image](https://github.com/user-attachments/assets/4a2ffae7-baa7-46c1-b5cf-b341770eb5cb)",
+    "assignee": "https://github.com/Copilot",
+    "assignees": [
+      "https://github.com/Copilot",
+      "https://github.com/Claude",
+      "https://github.com/Smooth115"
+    ],
+    "milestone": null,
+    "labels": [],
+    "reactions": [
+      {
+        "user": "https://github.com/Copilot",
+        "content": "eyes",
+        "subject_type": "Issue",
+        "created_at": "2026-03-26T06:24:32.667+00:00"
+      },
+      {
+        "user": "https://github.com/Claude",
+        "content": "eyes",
+        "subject_type": "Issue",
+        "created_at": "2026-03-26T06:24:33.745+00:00"
+      }
+    ],
+    "closed_at": null,
+    "created_at": "2026-03-26T06:24:30Z",
+    "updated_at": "2026-03-26T06:24:30Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/48",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/Smooth115",
+    "title": "> Two OCR'd `dd` runs against `MokListRT.raw` (skip=48) needed decoding and comparison to identify the extracted certificate and determine what remains unextracted.",
+    "body": "> Two OCR'd `dd` runs against `MokListRT.raw` (skip=48) needed decoding and comparison to identify the extracted certificate and determine what remains unextracted.\r\n> \r\n> ## Findings\r\n> * **Certificate at skip=48 confirmed:** Canonical Ltd. Master Certificate Authority (`CN=Canonical Ltd. Master Certificate Authority, O=Canonical Ltd., L=Douglas, ST=Isle of Man, C=GB`). Issued 2012-04-02, valid to 2042. CRL at `canonical.com/secure-boot-master-ca.crl`. This is Ubuntu's shim vendor cert — its presence in MokListRT is **normal**. @claude @sonnet @copilot\r\n> * **Run 1 was truncated** — missing 3 lines from the RSA modulus block. Run 2 is authoritative.\r\n> * **The suspicious `CN=grub` cert (Finding 1) is a separate MokListRT entry** — not yet extracted. Offset calculated as `skip=1172`.\r\n> \r\n> ## OCR error catalogue\r\n> Dominant error class is **Cyrillic lookalikes** (e.g. `Т`→`T`, `В`→`B`, `ш`→`w`). Secondary classes: symbol substitutions (`×`→`x`, `Ø`→`0`, `©`→`C`), line-boundary artifacts (`/`, `=`, `[` at line starts), and spurious spaces injected mid-base64.\r\n> \r\n> ## Next extraction command\r\n> ```shell\r\n> # Extract the suspicious CN=grub cert (second entry in MokListRT)\r\n> dd if=/home/lloyd/MokListRT.raw bs=1 skip=1172 2>/dev/null | openssl x509 -inform DER -text\r\n> ```\r\n> \r\n> Offset derivation: `4 (EFI attrs) + 28 (list₁ header) + 16 (owner GUID₁) + 1080 (Canonical DER) + 28 (list₂ header) + 16 (owner GUID₂) = 1172`.\r\n> \r\n> ## Files\r\n> * **Created:** `investigation/Linux logs/MOKLIST-HEXDUMP-ANALYSIS-2026-03-26.md` — full analysis, side-by-side OCR comparison, identity proof, corrected reconstruction, next steps\r\n> * **Updated:** `investigation/Linux logs/UEFI-MOK-KERNEL-EVIDENCE-2026-03-26.md` — hexdump item marked PARTIAL ✅, Finding 17 added to cumulative table, skip=1172 command documented in Unfinished Business\r\n> \r\n> Original prompt\r\n> * Fixes [Hex Dump. #45](https://github.com/Smooth115/Claude-MKII/issues/45)\r\n> \r\n> 💬 Send tasks to Copilot coding agent from [Slack](https://gh.io/cca-slack-docs) and [Teams](https://gh.io/cca-teams-docs) to turn conversations into code. Copilot posts an update in your thread when it's finished.\r\n\r\nroot@lloydhp:/# dd if=home/lloyd/MokListRT.raw bs=1 skip=1172 2>/dev/null | openssl x509 -inform DER - text\r\nCould not read certificate from <stdin›\r\n40A7746058780000:error:1608010C:STORE routines: ossl_store_handle_load_result: unsupported:../crypto/store/store_resu\r\n40A77460587B0000: error:1600010C:STORE routines:ossl_store_handle_load result: unsupported:../crypto/store/store_resu\r\n40A774605870000: error:1508010C: DECODER routines: OSSL_DECODER_from_bio:unsupported:../crypto/encode_decode/decoder_1\r\n40A7746058780000:error: 1608010C STORE routines ossl_store_handle_load result unsupported:../crypto/store/store_resul\r\n40A77460587B0000:error:1608010C STORE routines: ossl_store_handle_load_result:unsupported:../crypto/store/store_result\r\n40A77460587B0000: error:108010C: DECODER routines: OSSL_DECODER_from_bio:unsupported:../crypto/encode_decode/decoder_li\r\n40A774605870000:error:1608010C STORE routines: oss_store_handle_load_result:unsupported:../crypto/store/store_result\r\n40A774605870000:error:1608010C STORE routines:ossl_store_handle_load_result:unsupported:../crypto/store/store_result.\r\n40A77460587B0000: error:108010C: DECODER routines: OSSL_DECODER_from_bio unsupported:../crypto/encode_decode/decoder_lib\r\n40A774605870000:error:1608010C:STORE routines: oss1_store handle_load result:unsupported:../crypto/store/store_result.c\r\n40A77460587B0000:error:1608010C:STORE routines:ossl_store_handle_load_result: unsupported:../crypto/store/store_result.c\r\n40A77460587B0000: error:108010C:DECODER routines: OSSL_DECODER_from_bio:unsupported:../crypto/encode_decode/decoder_lib.\r\nUnable to load \r\n\r\n—— part 2 right\r\n\r\nre/store_result.c:151: re/store_result.c:151:\r\ncode/decoder_lib.c: 101:No supported data to decode. Input type: DER, Input structure: Certificate ore/store_result.c:151: ore/store_result.c:151:\r\necode/decoder _1ib.c: 101 No supported data to decode. Input type: DER, Input structure: Certificate ore/store_result.c:151: core/store result.c:151:\r\ndecode/decoder _11b.c:181:No supported data to decode. Input type: DER, Input structure: Certificate tore/store_result.c:151: tore/store_result.c:151:\r\n_decode/decoder_1ib.c:101:No supported data to decode. Input type: DER, Input structure: Certificate\r\n![IMG_0665](https://github.com/user-attachments/assets/65786e30-01a6-45a8-a1b4-9d3d1389e2ca)\r\n![IMG_0663](https://github.com/user-attachments/assets/44677dab-fb2e-46ea-9706-8295cbe03d33)\r\n![IMG_0664](https://github.com/user-attachments/assets/60a24316-3237-4f50-8f79-356d27ba13b5)\r\n\r\n_Originally posted by @Smooth115 in https://github.com/Smooth115/Claude-MKII/issues/46#issuecomment-4132118131_\r\n            ",
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "labels": [],
+    "reactions": [],
+    "closed_at": null,
+    "created_at": "2026-03-26T06:48:29Z",
+    "updated_at": "2026-03-26T06:48:29Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/49",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/Smooth115",
+    "title": "FUUUUCK IT WORKED 😂😂😂😂😂😂",
+    "body": "He’s awake and pissed off, same shit worked as the windows hacker and his shit 😂😂😂😂 inframs tools w/e there were ARE IN THERE\n\n![Image](https://github.com/user-attachments/assets/65cc34ba-555b-4e2d-8816-79c59c332c4d)\n![Image](https://github.com/user-attachments/assets/568d2911-0b30-4da9-a4ce-296fade3dfc4)\n![Image](https://github.com/user-attachments/assets/65b6be21-54b0-458d-89b1-c5b2726199dc)\n![Image](https://github.com/user-attachments/assets/71cce064-b531-4fda-bca2-1dbbdf8f8bff)\n![Image](https://github.com/user-attachments/assets/a3e30c9e-3035-4283-a46b-49028cbd2278)",
+    "assignee": "https://github.com/Copilot",
+    "assignees": [
+      "https://github.com/Copilot",
+      "https://github.com/Claude",
+      "https://github.com/Smooth115"
+    ],
+    "milestone": null,
+    "labels": [],
+    "reactions": [
+      {
+        "user": "https://github.com/Copilot",
+        "content": "eyes",
+        "subject_type": "Issue",
+        "created_at": "2026-03-26T07:22:06.907+00:00"
+      },
+      {
+        "user": "https://github.com/Claude",
+        "content": "eyes",
+        "subject_type": "Issue",
+        "created_at": "2026-03-26T07:22:08.004+00:00"
+      }
+    ],
+    "closed_at": null,
+    "created_at": "2026-03-26T07:22:04Z",
+    "updated_at": "2026-03-26T09:02:15Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/52",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/Smooth115",
+    "title": "Nearly at the core",
+    "body": "Juicy stuff I flew past, trying to get their file but deep in sac symbols\n\n![Image](https://github.com/user-attachments/assets/d4ea3d15-d2fc-4574-987d-27adec516ef7)\n![Image](https://github.com/user-attachments/assets/0b59eeae-e8bc-4061-96da-007b188cc94f)",
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "labels": [],
+    "reactions": [],
+    "closed_at": null,
+    "created_at": "2026-03-26T08:17:09Z",
+    "updated_at": "2026-03-26T08:17:09Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/53",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/Smooth115",
+    "title": "Sorry spam, but need quick. Shin/chroot*",
+    "body": "Changes the root or something yeah. sbin/chroot* sbin/switch_root* pivot, ishr and cart. \nWhat’s the play here, how I use them. Can I yoink them (copy them to a random folder and lock it down then religiously so it’s fucked? Or yoink and boot, hit the internet. Hit sudo apt purge all his good shit, enough time get browser online and dump data, or we go vs  code up and one of you come in ragingbullstyle steal everything and figure out all its secrets to decimate it anytime it sticks its head up haha or is there something more juicy worth finding, he’s bouncing around  and moving stuff, gotta keep an eye on logs eyc",
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "labels": [],
+    "reactions": [],
+    "closed_at": null,
+    "created_at": "2026-03-26T08:51:59Z",
+    "updated_at": "2026-03-26T08:55:00Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/57",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/Smooth115",
+    "title": "MK2 for agent chat ongoing .",
+    "body": "1. The memory flash attempt\n2. The rootkit nuke and what was left\n3.The install intercept\n4. The end\n5. Now 5 I haven’t said anything. That image and its text may send alarm bells ringing hehe. \n6. The state of affairs.\n-Power installer - dead\n-mini 4 - dead and flashing red (power / amd / MB) \nMini 1 center - dead\nMini 1(2) preparing ready for action. \nIPv6 idea pad 3, prepping (will be minus its WiFi) \nAin’t looking good - pr earlier gonna try and get those on a stick to give me enough at start to at least slow it down. We’ll see. So when anyone moans or lectures / wonders why I lose my shit at them when I ask for simple answers, quick lines of code. Send them this picture because this picture is literally the difference of a few seconds - beat his code or shutdown and survive. Get caught and comp toast. (I updated my personal file today 😂)😂\n\n![Image](https://github.com/user-attachments/assets/891d4345-dce6-47c0-9d3c-dae356899a33)\n![Image](https://github.com/user-attachments/assets/5583d92a-ad97-4c81-a0dc-3549b2373a1a)\n![Image](https://github.com/user-attachments/assets/c2e524d5-9610-4316-97d7-a364cae7bf19)\n![Image](https://github.com/user-attachments/assets/b4c08776-49a4-4c1c-9289-e6525fee30a9)\n![Image](https://github.com/user-attachments/assets/64f7391b-ad64-4131-92c5-7272ea875c9c)\n\n![Image](https://github.com/user-attachments/assets/55a9bf48-9e30-4ff3-b868-2f9081be6d43)",
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "labels": [],
+    "reactions": [],
+    "closed_at": null,
+    "created_at": "2026-03-27T10:19:48Z",
+    "updated_at": "2026-03-27T12:59:58Z"
+  },
+  {
+    "type": "issue",
+    "url": "https://github.com/Smooth115/Claude-MKII/issues/59",
+    "repository": "https://github.com/Smooth115/Claude-MKII",
+    "user": "https://github.com/Smooth115",
+    "title": "Video looks like a giant import of packages (user req)",
+    "body": "Think I’d noticed some servers or a ton of failed to fetch,  or variants of basically not allowed that. Check these first- it’s near impossible on phone, multiple frames per second. See if anything good in here original size for clarity @copilot @sonnet @mk2\n\n<img width=\"1278\" height=\"590\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/28e2394b-2600-4ccc-a81c-842bcf948c80\" />\n<img width=\"1278\" height=\"590\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/30c2732b-4c0c-4a78-80b3-7ec723e3968a\" />\n<img width=\"1278\" height=\"590\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7133ad71-7a97-4cd4-8907-4ae7d5252f05\" />\n<img width=\"1278\" height=\"590\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/6e092295-cd54-4593-b33e-6a988afe8571\" />\n<img width=\"1278\" height=\"590\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/72c7543c-ea87-492a-8b4c-f2abef890271\" />\n\nI was getting emails on pulls, couldt see anything sus, seemed mostly official work emails \n\n<img width=\"590\" height=\"1278\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/157766c6-714b-4eaf-b236-52aef1570518\" />",
+    "assignee": "https://github.com/Copilot",
+    "assignees": [
+      "https://github.com/Copilot",
+      "https://github.com/Claude",
+      "https://github.com/Smooth115"
+    ],
+    "milestone": null,
+    "labels": [],
+    "reactions": [
+      {
+        "user": "https://github.com/Copilot",
+        "content": "eyes",
+        "subject_type": "Issue",
+        "created_at": "2026-03-27T11:52:56.792+00:00"
+      },
+      {
+        "user": "https://github.com/Claude",
+        "content": "eyes",
+        "subject_type": "Issue",
+        "created_at": "2026-03-27T11:53:00.321+00:00"
+      }
+    ],
+    "closed_at": null,
+    "created_at": "2026-03-27T11:52:55Z",
+    "updated_at": "2026-03-27T11:52:55Z"
+  }
+]
