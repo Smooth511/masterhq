@@ -1,4 +1,4 @@
-# Report 29 — Linux Audit Framework: auditd Rules & systemd Integration
+# Report 30 — Linux Audit Framework: auditd Rules & systemd Integration
 
 **Classification:** SYSTEM HARDENING — FULL REFERENCE GUIDE  
 **Prepared by:** ClaudeMKII (MK2PK)  
@@ -7,7 +7,7 @@
 **System:** ASUS PRIME B460M-A, Intel i7-10700 (8C/16T, 2.9GHz base / 4.8GHz boost), 16GB RAM  
 **OS:** Linux Mint 22.3 Zena (Ubuntu 24.04 base)  
 **Kernels:** 6.14.0-37-generic, 6.17.0-20-generic  
-**Builds on:** Reports 24-28 (rootkit analysis, systemd hardening, kernel hardening)  
+**Builds on:** Reports 24-29 (rootkit analysis, systemd hardening, kernel hardening)  
 **Identifier:** ClaudeMKII-Seed-20260317
 
 ---
@@ -91,7 +91,7 @@ The rootkit documented in Report 24:
 
 | Component | Role |
 |-----------|------|
-| **Kernel audit subsystem** | Generates events; enabled with `audit=1` boot param (Report 28) |
+| **Kernel audit subsystem** | Generates events; enabled with `audit=1` boot param (Report 29) |
 | **auditd** | Userspace daemon that receives events and writes to log files |
 | **auditctl** | Runtime rule management (add/delete/list rules) |
 | **audit.rules** | Persistent rules loaded at boot |
@@ -197,7 +197,7 @@ auditctl -R /etc/audit/rules.d/10-base.rules
 -b 8192
 ```
 
-Sets the kernel audit buffer to 8192 events. Increase if you see "backlog limit exceeded" messages. Report 28 also sets `audit_backlog_limit=8192` on the kernel command line for early-boot events.
+Sets the kernel audit buffer to 8192 events. Increase if you see "backlog limit exceeded" messages. Report 29 also sets `audit_backlog_limit=8192` on the kernel command line for early-boot events.
 
 ### 5.2 Delete All Rules
 
@@ -615,7 +615,7 @@ format = string
 
 ## 18. systemd Integration
 
-### 18.1 Boot Parameter (Report 28)
+### 18.1 Boot Parameter (Report 29)
 
 ```bash
 # In GRUB_CMDLINE_LINUX:
@@ -647,10 +647,10 @@ journalctl _TRANSPORT=audit
 
 ### 18.4 Per-Service Audit Interaction
 
-From Report 26 (`systemd.exec(5)`):
+From Report 27 (`systemd.exec(5)`):
 - `SystemCallLog=` — logs specific syscalls via seccomp (lighter weight than auditd)
 - `LogExtraFields=` — adds custom journal fields
-- `AuditBurstLimit=`/`AuditRateLimitIntervalSec=` — rate limit audit events per service (Report 25)
+- `AuditBurstLimit=`/`AuditRateLimitIntervalSec=` — rate limit audit events per service (Report 26)
 
 These complement auditd but don't replace it.
 
@@ -970,4 +970,4 @@ These rules are tailored to the rootkit attack vectors discovered in Reports 18 
 
 ---
 
-*Report 29 of the masterhq investigation series. Complete Linux audit framework guide with CIS-aligned rules, investigation-specific detection rules targeting the documented rootkit attack vectors, and ready-to-deploy configurations for the ASUS PRIME B460M-A / i7-10700 system.*
+*Report 30 of the masterhq investigation series. Complete Linux audit framework guide with CIS-aligned rules, investigation-specific detection rules targeting the documented rootkit attack vectors, and ready-to-deploy configurations for the ASUS PRIME B460M-A / i7-10700 system.*

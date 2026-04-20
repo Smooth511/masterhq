@@ -1,4 +1,4 @@
-# Report 27 — systemd.resource-control(5): Cgroup Resource Controls
+# Report 28 — systemd.resource-control(5): Cgroup Resource Controls
 
 **Classification:** SYSTEM HARDENING — FULL REFERENCE GUIDE  
 **Prepared by:** ClaudeMKII (MK2PK)  
@@ -7,7 +7,7 @@
 **System:** ASUS PRIME B460M-A, Intel i7-10700 (8C/16T, 2.9GHz base / 4.8GHz boost), 16GB RAM  
 **OS:** Linux Mint 22.3 Zena (Ubuntu 24.04 base)  
 **Kernels:** 6.14.0-37-generic, 6.17.0-20-generic  
-**Builds on:** Reports 25-26 (system-wide defaults + per-service execution environment)  
+**Builds on:** Reports 26-27 (system-wide defaults + per-service execution environment)  
 **Identifier:** ClaudeMKII-Seed-20260317
 
 ---
@@ -45,7 +45,7 @@
 | `.slice` | `[Slice]` |
 | `.scope` | `[Scope]` |
 
-This is the **cgroup v2** resource management layer. Combined with Report 26 (`systemd.exec(5)` — sandboxing) this completes the per-service hardening picture.
+This is the **cgroup v2** resource management layer. Combined with Report 27 (`systemd.exec(5)` — sandboxing) this completes the per-service hardening picture.
 
 ### Relationship to Other Reports
 
@@ -168,7 +168,7 @@ Shorter periods = more responsive CPU limiting but higher overhead.
 | Property | Value |
 |----------|-------|
 | Takes | Boolean |
-| Default | `DefaultMemoryAccounting=` (Report 25, default: yes) |
+| Default | `DefaultMemoryAccounting=` (Report 26, default: yes) |
 | Added | v208 |
 
 Enabling for one unit enables for ALL units in the same slice and all parent slices.
@@ -240,7 +240,7 @@ Enabling for one unit enables for ALL units in the same slice and all parent sli
 | Property | Value |
 |----------|-------|
 | Takes | Boolean |
-| Default | `DefaultTasksAccounting=` (Report 25, default: yes) |
+| Default | `DefaultTasksAccounting=` (Report 26, default: yes) |
 | Added | v227 |
 
 Counts ALL tasks (kernel threads + userspace processes, each thread counted individually).
@@ -250,7 +250,7 @@ Counts ALL tasks (kernel threads + userspace processes, each thread counted indi
 | Property | Value |
 |----------|-------|
 | Takes | Absolute number, percentage (of system max), or `infinity` |
-| Default | `DefaultTasksMax=` (Report 25, default: 15% of kernel.pid_max) |
+| Default | `DefaultTasksMax=` (Report 26, default: 15% of kernel.pid_max) |
 | cgroup attribute | `pids.max` |
 | Effective | Reported as `EffectiveTasksMax=` |
 | Added | v227 |
@@ -277,7 +277,7 @@ TasksMax=32
 | Property | Value |
 |----------|-------|
 | Takes | Boolean |
-| Default | `DefaultIOAccounting=` (Report 25, default: no) |
+| Default | `DefaultIOAccounting=` (Report 26, default: no) |
 | Added | v230 |
 
 ### 6.2 IOWeight= / StartupIOWeight=
@@ -338,7 +338,7 @@ Proportional I/O bandwidth distribution between siblings, same principle as `CPU
 | Property | Value |
 |----------|-------|
 | Takes | Boolean |
-| Default | `DefaultIPAccounting=` (Report 25, default: no) |
+| Default | `DefaultIPAccounting=` (Report 26, default: no) |
 | System only | Yes |
 | Added | v235 |
 
@@ -613,7 +613,7 @@ When `kill`: systemd-oomd monitors this unit and kills a descendant cgroup when 
 | Property | Value |
 |----------|-------|
 | Takes | Boolean, `auto`, `skip` |
-| Default | `DefaultMemoryPressureWatch=` (Report 25, default: auto) |
+| Default | `DefaultMemoryPressureWatch=` (Report 26, default: auto) |
 | Effect | Sets `$MEMORY_PRESSURE_WATCH` and `$MEMORY_PRESSURE_WRITE` for the service |
 | Added | v254 |
 
@@ -622,7 +622,7 @@ When `kill`: systemd-oomd monitors this unit and kills a descendant cgroup when 
 | Property | Value |
 |----------|-------|
 | Takes | Time value |
-| Default | `DefaultMemoryPressureThresholdSec=` (Report 25, default: 200ms) |
+| Default | `DefaultMemoryPressureThresholdSec=` (Report 26, default: 200ms) |
 | Effect | Maximum allocation latency before pressure event signalled, per 2s window |
 | Added | v254 |
 
@@ -884,4 +884,4 @@ systemd-cgls
 
 ---
 
-*Report 27 of the masterhq investigation series. 57 options documented from systemd.resource-control(5) with per-option hardening recommendations and ready-to-deploy templates for the ASUS PRIME B460M-A / i7-10700 system.*
+*Report 28 of the masterhq investigation series. 57 options documented from systemd.resource-control(5) with per-option hardening recommendations and ready-to-deploy templates for the ASUS PRIME B460M-A / i7-10700 system.*

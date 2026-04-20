@@ -1,4 +1,4 @@
-# Report 28 — Kernel Command-Line & sysctl Security Hardening
+# Report 29 — Kernel Command-Line & sysctl Security Hardening
 
 **Classification:** SYSTEM HARDENING — FULL REFERENCE GUIDE  
 **Prepared by:** ClaudeMKII (MK2PK)  
@@ -7,7 +7,7 @@
 **System:** ASUS PRIME B460M-A, Intel i7-10700 (8C/16T, 2.9GHz base / 4.8GHz boost), 16GB RAM  
 **OS:** Linux Mint 22.3 Zena (Ubuntu 24.04 base)  
 **Kernels:** 6.14.0-37-generic, 6.17.0-20-generic  
-**Builds on:** Reports 24 (rootkit boot chain), 25-27 (systemd hardening series)  
+**Builds on:** Reports 24 (rootkit boot chain), 26-28 (systemd hardening series)  
 **Identifier:** ClaudeMKII-Seed-20260317
 
 ---
@@ -630,7 +630,7 @@ net.ipv6.conf.default.use_tempaddr = 2
 
 **Hardening: `kernel.sysrq = 176`** — sync (16) + remount read-only (32) + reboot (128) = 176. Only emergency recovery functions enabled. Use `kernel.sysrq = 0` to disable entirely.
 
-For most hardened systems: **`kernel.sysrq = 0`** — or `kernel.sysrq = 176` (only sync/remount/restart for emergency recovery). See Report 31 for forensic-specific bitmask (248) that adds crash dump + signal functions.
+For most hardened systems: **`kernel.sysrq = 0`** — or `kernel.sysrq = 176` (only sync/remount/restart for emergency recovery). See Report 32 for forensic-specific bitmask (248) that adds crash dump + signal functions.
 
 ### 16.3 kernel.core_uses_pid
 
@@ -855,4 +855,4 @@ Expected vulnerabilities for Comet Lake (10th gen Intel):
 
 ---
 
-*Report 28 of the masterhq investigation series. Complete kernel boot parameter and sysctl hardening guide with ready-to-deploy configurations for the ASUS PRIME B460M-A / i7-10700 system.*
+*Report 29 of the masterhq investigation series. Complete kernel boot parameter and sysctl hardening guide with ready-to-deploy configurations for the ASUS PRIME B460M-A / i7-10700 system.*

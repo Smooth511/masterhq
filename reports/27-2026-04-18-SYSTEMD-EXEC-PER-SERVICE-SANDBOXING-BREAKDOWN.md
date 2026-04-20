@@ -1,4 +1,4 @@
-# Report 26 — systemd.exec(5): Per-Service Execution Environment & Sandboxing
+# Report 27 — systemd.exec(5): Per-Service Execution Environment & Sandboxing
 
 **Classification:** SYSTEM HARDENING — FULL REFERENCE GUIDE  
 **Prepared by:** ClaudeMKII (MK2PK)  
@@ -7,7 +7,7 @@
 **System:** ASUS PRIME B460M-A, Intel i7-10700 (8C/16T, 2.9GHz base / 4.8GHz boost), 16GB RAM  
 **OS:** Linux Mint 22.3 Zena (Ubuntu 24.04 base)  
 **Kernels:** 6.14.0-37-generic, 6.17.0-20-generic  
-**Builds on:** Report 25 (systemd-system.conf(5) — system-wide defaults)  
+**Builds on:** Report 26 (systemd-system.conf(5) — system-wide defaults)  
 **Identifier:** ClaudeMKII-Seed-20260317
 
 ---
@@ -50,7 +50,7 @@
 | `.mount` | `[Mount]` |
 | `.swap` | `[Swap]` |
 
-This is the **single most important man page for service hardening**. While Report 25 covered system-wide defaults (`systemd-system.conf`), this report covers **per-service overrides** — the directives you put in individual unit files or drop-ins to sandbox each service independently.
+This is the **single most important man page for service hardening**. While Report 26 covered system-wide defaults (`systemd-system.conf`), this report covers **per-service overrides** — the directives you put in individual unit files or drop-ins to sandbox each service independently.
 
 ### Key Concepts
 
@@ -456,7 +456,7 @@ LimitNOFILE=1024     # Restrict file descriptors for simple services
 LimitNPROC=64        # Limit fork bombs (but prefer TasksMax=)
 ```
 
-**Defaults** come from `DefaultLimitXXX=` in `systemd-system.conf(5)` (see Report 25).
+**Defaults** come from `DefaultLimitXXX=` in `systemd-system.conf(5)` (see Report 26).
 
 ### 6.2 UMask=
 
@@ -1053,7 +1053,7 @@ RestrictFileSystems=@basic-api @temporary ext4
 | Property | Value |
 |----------|-------|
 | Takes | Boolean |
-| Default | Value of `DefaultRestrictSUIDSGID=` (see Report 25, default: false) |
+| Default | Value of `DefaultRestrictSUIDSGID=` (see Report 26, default: false) |
 | Implied by | `DynamicUser=yes` |
 | Added | v242 |
 
@@ -1791,4 +1791,4 @@ Use with `RestrictFileSystems=@setname`. List actual contents with `systemd-anal
 
 ---
 
-*Report 26 of the masterhq investigation series. 162 options documented from systemd.exec(5) with per-option hardening recommendations for the ASUS PRIME B460M-A / i7-10700 system.*
+*Report 27 of the masterhq investigation series. 162 options documented from systemd.exec(5) with per-option hardening recommendations for the ASUS PRIME B460M-A / i7-10700 system.*
