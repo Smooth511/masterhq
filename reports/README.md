@@ -41,6 +41,7 @@ Chronologically numbered investigation and analysis reports. Each report synthes
 | 31 | 2026-04-18 | **toram, overlayroot & Defensive Trapping** | **Run desktop from RAM + turn overlay into monitored cage** |
 | 32 | 2026-04-18 | **SysRq Memory Dump, Watchdog & NVRAM Hook** | **Crash dumps, deadman switch, EFI write blocking — the trap payoff** |
 | 33 | 2026-04-18 | **LUKS Panic Recovery Tactics** | **Kernel panics at LUKS unlock — bypassing rootkit boot denial, breathing room strategies** |
+| 34 | 2026-04-21 | **🔥 OVERLAY BREACH — Root FS Overlay Confirmed + Loot Attempt** | **`overlay / overlay rw 0 0` in fstab CONFIRMED. Real layer accessed. Shadow file copied. Timeshift + snapshots + casper scripts found. OOM kill + fake NVMe disconnect countermeasures triggered.** |
 
 ## Evaluations
 
