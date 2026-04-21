@@ -42,6 +42,7 @@ Chronologically numbered investigation and analysis reports. Each report synthes
 | 32 | 2026-04-18 | **SysRq Memory Dump, Watchdog & NVRAM Hook** | **Crash dumps, deadman switch, EFI write blocking — the trap payoff** |
 | 33 | 2026-04-18 | **LUKS Panic Recovery Tactics** | **Kernel panics at LUKS unlock — bypassing rootkit boot denial, breathing room strategies** |
 | 34 | 2026-04-21 | **🔥 OVERLAY BREACH — Root FS Overlay Confirmed + Loot Attempt** | **`overlay / overlay rw 0 0` in fstab CONFIRMED. Real layer accessed. Shadow file copied. Timeshift + snapshots + casper scripts found. OOM kill + fake NVMe disconnect countermeasures triggered.** |
+| 35 | 2026-04-21 | **💀 GRUB SHELL DEFEAT — Real Partition Exposed Pre-Overlay** | **`ls (hd0,gpt4)/` from GRUB shell exposes rootkit's dedicated data partition BEFORE any overlay assembles. ~45 fake `install-logs-*` dirs with impossible 2009/2010 timestamps. `yoink/` exfiltration staging dir found. Rootkit is defeated — data is readable from GRUB level.** |
 
 ## Evaluations
 
