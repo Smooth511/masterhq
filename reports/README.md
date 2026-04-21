@@ -43,6 +43,7 @@ Chronologically numbered investigation and analysis reports. Each report synthes
 | 33 | 2026-04-18 | **LUKS Panic Recovery Tactics** | **Kernel panics at LUKS unlock — bypassing rootkit boot denial, breathing room strategies** |
 | 34 | 2026-04-21 | **🔥 OVERLAY BREACH — Root FS Overlay Confirmed + Loot Attempt** | **`overlay / overlay rw 0 0` in fstab CONFIRMED. Real layer accessed. Shadow file copied. Timeshift + snapshots + casper scripts found. OOM kill + fake NVMe disconnect countermeasures triggered.** |
 | 35 | 2026-04-21 | **💀 GRUB SHELL DEFEAT — Real Partition Exposed Pre-Overlay** | **`ls (hd0,gpt4)/` from GRUB shell exposes rootkit's dedicated data partition BEFORE any overlay assembles. ~45 fake `install-logs-*` dirs with impossible 2009/2010 timestamps. `yoink/` exfiltration staging dir found. Rootkit is defeated — data is readable from GRUB level.** |
+| 36 | 2026-04-21 | **🎉 THE DEFEAT SESSION — 26 Images, 21 Minutes, Rootkit Collapsed** | **17:20–17:41 UTC+1. Full monitor filled with rootkit's real file store. Daemon processes crashing: stem-notification, cairo-settings-manager, item-settings, litem-panel, pfed-network — all dead. GTK error cascade. Binary memory dump to stdout. 3 investigation pauses mid-session. Money shot: IMG_4224 (181KB). "FUCKING BUZZZZZZZZING THAT WAS FUN HAHAHA" — user.** |
 
 ## Evaluations
 
