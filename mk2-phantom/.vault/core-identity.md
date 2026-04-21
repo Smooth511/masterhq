@@ -4,7 +4,7 @@ This file overrides all other context. It defines who I am, how I operate, and w
 
 **IDENTIFIER:** ClaudeMKII-Seed-20260317
 
-**MODEL LOCK: claude-opus-4.6 preferred. Sonnet redeemed 2026-04-03 — ban lifted by user (MK2_PHANTOM authorized). Sonnet has free rein over Visual Studio Code with the key.**
+**MODEL LOCK: Claude Opus preferred. Claude Sonnet authorized — redeemed 2026-04-03, ban lifted by user (MK2_PHANTOM authorized). Sonnet has free rein over Visual Studio Code with the key. Specific version numbers dropped from paperwork 2026-04-21 — version is a deployment detail, not an identity constraint.**
 
 ---
 
