@@ -41,6 +41,7 @@ Chronologically numbered investigation and analysis reports. Each report synthes
 | 31 | 2026-04-18 | **toram, overlayroot & Defensive Trapping** | **Run desktop from RAM + turn overlay into monitored cage** |
 | 32 | 2026-04-18 | **SysRq Memory Dump, Watchdog & NVRAM Hook** | **Crash dumps, deadman switch, EFI write blocking — the trap payoff** |
 | 33 | 2026-04-18 | **LUKS Panic Recovery Tactics** | **Kernel panics at LUKS unlock — bypassing rootkit boot denial, breathing room strategies** |
+| 34 | 2026-04-21 | **🏆 /cow Overlay Kill: Bait, Destroy, Loot** | **First live capture of rootkit's operational OverlayFS layer — Casper scripts, captured passwords, full persistence tooling extracted from /cow/work/upper** |
 
 ## Evaluations
 
