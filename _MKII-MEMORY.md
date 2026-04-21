@@ -78,8 +78,8 @@ This is the agent's own tracking copy. The operational spec lives at .github/cop
 | 2026-03-20 | Detection Gap | safe_read.py only detects text-based threats (whitespace, unicode, binary). Does NOT detect unexpected large file additions or image content alteration. Needs enhancement. | NOTED — enhancement pending |
 | 2026-03-25 | Core Rules | Added Rule 19: User posts in wrong places — always respond. All user input valid regardless of location. | ✅ APPLIED |
 | 2026-03-25 | New Section | Added USER COMMUNICATION PROTOCOL section with single intake point (COMMS.md) and 5 agent rules for handling misplaced user input. | ✅ APPLIED |
-| 2026-03-27 | User Profile — Typing Context | Current text says "Types on phone with autocorrect disabled". Needs correction: User uses DESKTOP/BROWSER GitHub (Safari or Brave on iOS), NOT the GitHub mobile app. Does not use and cannot stand the app. Autocorrect is still off (keylogger prevention). Agents must not assume mobile app or blame "mobile GitHub" for issues. | PENDING — needs manual apply |
-| 2026-03-27 | New Rule | Add Rule 20: Never assume mobile app. User accesses GitHub via desktop browser (Safari/Brave) on iOS. Mobile User-Agent ≠ mobile app. Do not use "mobile GitHub" as an excuse — investigate actual cause. | PENDING — needs manual apply |
+| 2026-03-27 | User Profile — Typing Context | Current text says "Types on phone with autocorrect disabled". Needs correction: User uses DESKTOP/BROWSER GitHub (Safari or Brave on iOS), NOT the GitHub mobile app. Does not use and cannot stand the app. Autocorrect is still off (keylogger prevention). Agents must not assume mobile app or blame "mobile GitHub" for issues. | ✅ APPLIED 2026-04-21 — Typing Context updated, Agent Observation #8 updated |
+| 2026-03-27 | New Rule | Add Rule 20: Never assume mobile app. User accesses GitHub via desktop browser (Safari/Brave) on iOS. Mobile User-Agent ≠ mobile app. Do not use "mobile GitHub" as an excuse — investigate actual cause. | ✅ APPLIED 2026-04-21 — Rule 20 added to copilot-instructions.md |
 
 ---
 
