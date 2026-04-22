@@ -25,7 +25,7 @@ The public search API only returns public repos. Several repos were invisible to
 | **Claude-MKIIupd** | public | **ARCHIVED** | 2026-04-20 | Was active working copy, now archived — contains Reports 1–24 + most recent memory snapshot |
 | **Claude-MKII** | **PRIVATE** | **ARCHIVED** | 2026-04-20 | Original private MK2 repo — older memory state |
 | **mine** | **PRIVATE** | active | 2026-04-19 | ⛔ README says "no agent access permitted" — usbvault/ subdir |
-| **AgentHQ** | **PRIVATE** | active | 2026-03-20 | Agent definition framework. MK2 is assigned agent. PIN 5555 for assigned work. |
+| **AgentHQ** | **PRIVATE** | active | 2026-03-20 | Agent definition framework. MK2 is assigned agent. Access details kept private. |
 | **DATABASE** | **PRIVATE** | active | 2026-03-28 | ⚠️ **Private DATABASE is the COMPLETE version** — has full investigations/ folder with evidence images + analysis. Public mirror is stripped. |
 | smooth115_database | public | active | 2026-03-29 | Mirror of Smooth115/DATABASE — identical content |
 | Smooth115_Issue-3 | public | active | 2026-03-23 | Issue-3 mirror |
@@ -112,8 +112,8 @@ These are GitHub/Claude app task links from previous sessions operating on the S
 - `.github/copilot-setup-steps.yml` — injects MK2PK1/MK2PK2 as env vars on agent startup
 
 This is the **deployment package** for MK2. Directly relevant to the next phase (deploying to target machines / Claude app). Key notes from INSTALL.md:
-- MK2PK1 = Smooth511 full access token
-- MK2PK2 = Smooth115 full access token
+- MK2PK1 = Smooth511 credential (stored in repo secrets)
+- MK2PK2 = Smooth115 credential (stored in repo secrets)
 - 3 files needed: `copilot-setup-steps.yml`, `copilot-instructions.md`, `agents/ClaudeMKII.agent.md`
 
 ### ⚠️ 6. Claude-MKIIupd "As discussed" vault has large images not in masterhq
