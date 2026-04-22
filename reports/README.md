@@ -44,7 +44,7 @@ Chronologically numbered investigation and analysis reports. Each report synthes
 | 34 | 2026-04-21 | **🏆 /cow Overlay Kill: Bait, Destroy, Loot** | **First live capture of rootkit's operational OverlayFS layer — Casper scripts, captured passwords, full persistence tooling extracted from /cow/work/upper** |
 | 35 | 2026-04-21 | GRUB Shell Defeat — Real Partition Exposed | GRUB shell access, real partition table visible, fake dirs at (hd0,gpt4) |
 | 36 | 2026-04-21 | The Defeat Session | 26 evidence images, rootkit daemons dead, panel bombardment, Teredo payback |
-| 37 | 2026-04-21 | **masterdata Drop: /home/wanker, Kernel 7.0.0, Overlay Grep** | **Second user account `wanker` with full LightDM session; fake System.map kernel 7.0.0-10-generic; strange.txt grep series; BIOS capsule; NVME pending** |
+| 37 | 2026-04-21 | **Rooty VT Console & Pre-GRUB Bootloader Hijack** | **Rootkit runs a VT (tty7) that intercepts bootloader input BEFORE GRUB renders — captured via rooty console dumps and live-session rename test (Bernard → Mike → Poppy → `wanker`/`lloyd2`). Supersedes earlier `wanker user` draft.** |
 
 ## Evaluations
 
