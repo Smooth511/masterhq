@@ -2,7 +2,21 @@
 
 Chronologically numbered investigation and analysis reports. Each report synthesizes evidence from `../evidence/`.
 
-*Reorganized 2026-04-03 by MK2*
+*Reorganized 2026-04-03 by MK2. Hardening reports separated 2026-04-22 by ClaudeMKII/Nightingale.*
+
+---
+
+## Master Document
+
+**[MASTER-INVESTIGATION-REPORT.md](MASTER-INVESTIGATION-REPORT.md)** — Consolidated single source of truth covering Reports 19–37 (non-hardening). Resolves all contradictions, flags all known fake/incorrect claims, lists all outstanding investigations, includes CORRECTED/REMOVED appendix. Written 2026-04-22.
+
+---
+
+## Hardening Reports
+
+Reports 26–33 (system hardening reference guides) have been moved to the **[hardening/](hardening/)** subdirectory. They are not part of the investigation timeline.
+
+---
 
 ## Report Index
 
@@ -43,7 +57,7 @@ Chronologically numbered investigation and analysis reports. Each report synthes
 | 33 | 2026-04-18 | **LUKS Panic Recovery Tactics** | **Kernel panics at LUKS unlock — bypassing rootkit boot denial, breathing room strategies** |
 | 34 | 2026-04-21 | **🏆 /cow Overlay Kill: Bait, Destroy, Loot** | **First live capture of rootkit's operational OverlayFS layer — Casper scripts, captured passwords, full persistence tooling extracted from /cow/work/upper** |
 | 34 | 2026-04-21 | **🔥 OVERLAY BREACH — Root FS Overlay Confirmed + Loot Attempt** | **`overlay / overlay rw 0 0` in fstab CONFIRMED. Real layer accessed. Shadow file copied. Timeshift + snapshots + casper scripts found. OOM kill + fake NVMe disconnect countermeasures triggered.** |
-| 35 | 2026-04-21 | **💀 GRUB SHELL DEFEAT — Real Partition Exposed Pre-Overlay** | **`ls (hd0,gpt4)/` from GRUB shell exposes rootkit's dedicated data partition BEFORE any overlay assembles. ~45 fake `install-logs-*` dirs with impossible 2009/2010 timestamps. `yoink/` exfiltration staging dir found. Rootkit is defeated — data is readable from GRUB level.** |
+| 35 | 2026-04-21 | **💀 GRUB SHELL DEFEAT — Real Partition Exposed Pre-Overlay** | **`ls (hd0,gpt4)/` from GRUB shell exposes rootkit's dedicated data partition BEFORE any overlay assembles. ~45 fake `install-logs-*` dirs with impossible 2009/2010 timestamps. `yoink/` dir found — contents unconfirmed, see MASTER report §5.1.** |
 | 36 | 2026-04-21 | **🎉 THE DEFEAT SESSION — 1200-Panel Bombardment, Rootkit UI Collapsed** | **User DDoS'd rootkit's panel-based overlay by loading 1200 panels → cairo/GSettings/notification daemons cascaded into failure → overlay couldn't reassemble fast enough to hide real filesystem → 26 images captured in 21 minutes as raw filesystem came through. Payback for the Teredo tunnel attack. Panel-overload is now a documented attack vector against rootkit UI overlays.** |
 | 37 | 2026-04-21 | **Rooty VT Console & Pre-GRUB Bootloader Hijack** | **Rootkit runs a VT (tty7) that intercepts bootloader input BEFORE GRUB renders — captured via rooty console dumps and live-session rename test (Bernard → Mike → Poppy → `wanker`/`lloyd2`). Rootkit has embedded AI/LLM instance + drops iOS files cross-device. Supersedes earlier `wanker user` draft.** |
 
