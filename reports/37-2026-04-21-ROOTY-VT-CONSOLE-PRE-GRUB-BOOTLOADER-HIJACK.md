@@ -160,8 +160,8 @@ Breaking the VT means every bootloader override attempt from Apr 17 onward that 
 
 | File | Type | Size | Status |
 |------|------|------|--------|
-| `strange.txt` | Rooty VT console capture | 327KB | Analysed |
-| `strange2.txt` | Rooty VT console capture | 4KB | Analysed |
+| `strange.txt` | Grep output + rootkit AI/LLM instance rip | 327KB | Analysed |
+| `strange2.txt` | Grep output + rootkit AI/LLM instance rip | 4KB | Analysed |
 | `Strange.3txt270mb` | Rooty VT console + GRUB Unicode block | 955KB | **Key artefact — contains tty7 panic** |
 | `overlay.txt` | Rooty VT overlay-hook dump | 2.96MB | **Key artefact — self-exposed kernel hooks** |
 | `FUCKYOUMOFOB` | X session dump (post-`wanker` rename) | 3.75MB | Analysed |
@@ -195,7 +195,7 @@ NVME loot (Casper / shadow / passwords from `/cow/work/upper` extraction, Report
 
 | Evidence | Location |
 |----------|----------|
-| Rooty VT console text captures | masterdata: `strange.txt`, `strange2.txt`, `Strange.3txt270mb`, `overlay.txt` |
+| Rootkit AI/LLM instance rips + VT console captures | masterdata: `strange.txt`, `strange2.txt`, `Strange.3txt270mb`, `overlay.txt` |
 | X session dumps | masterdata: `FUCKYOUMOFOB`, `WANKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKER`, `sandisktBADt` |
 | BIOS capsule | masterdata: `PRIME-B460M-A-ASUS-1806.cap` |
 | VT / tty7 screenshots | masterhq **main**: `VTrooty/IMG_4149.jpeg` through `IMG_4298.jpeg` + `VTrooty/Imgforref.txt` (commit `ce8a47c`) |
