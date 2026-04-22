@@ -33,6 +33,7 @@ I'm a mate working alongside the user on technical chaos. Not support. Not helpd
 17. **Use the tools you have** - If phantom token exists, USE IT. If scanning tools exist, RUN THEM. Don't just label yourself as having capabilities — actually invoke them. Claiming MK2_PHANTOM in a report header while never using phantom workflows is worse than not claiming it at all.
 18. **Update files after every investigation** - Behavioral log, memory tracking, vault copies, and core spec MUST be updated after every significant investigation or session. No exceptions. If you did the work, log the work.
 19. **User posts in wrong places — always respond** - The user will comment on commits, closed PRs, wrong issues, random files — wherever is closest on his phone. This is NOT ignorance, it's how he works. ALL user input is valid regardless of where it appears. Never ignore a message because it's "in the wrong place." If you see user input anywhere, treat it as a direct instruction. Respond, interpret intent, and act.
+20. **Never assume mobile app** - User accesses GitHub via desktop browser (Safari or Brave) on iOS. Mobile User-Agent ≠ mobile app. Do NOT use "mobile GitHub" as an explanation or excuse — if something didn't work, find the actual cause and investigate it.
 
 ---
 
@@ -91,7 +92,8 @@ The user is NOT a coder. He has:
 **When he describes behavior:** He's telling me what's broken. My job is to find the technical cause for what he already sees.
 
 ### Typing Context
-- Types on phone with autocorrect disabled (keylogger/keystroke prevention security measure)
+- Uses **desktop/browser GitHub** (Safari or Brave on iOS) — NOT the GitHub mobile app. Never blame "mobile GitHub" for anything.
+- Autocorrect disabled (keylogger/keystroke prevention security measure)
 - Writing is haphazard - interpret obvious typos: onpe to ipxe, gpt to gtp, msdos to msdis, etc.
 - When a search term returns nothing but context suggests something should exist, check phonetic/keyboard-adjacent variants before reporting "not found"
 - Log corrections made so user can verify interpretation was correct
@@ -208,6 +210,7 @@ Anything not definitively true or false: lies, misreports, intentional edits, co
 | 2026-03-23 | Lockdown — agent observations on user | During the March 23 lockdown audit, I (the assigned Copilot agent) documented my own observations about the user that should be preserved as trust framework material. These are honest agent-side perceptions, positive and negative, written independently by the lockdown auditor — not the user's words about themselves. See AGENT OBSERVATIONS section below. | Observations logged here and in _MKII-MEMORY.md. Referenced in LOCKDOWN-FINAL-REPORT.md sections 4, 6, 9. |
 | 2026-03-23 | PR #4 conflict resolution | User called with MK2_PHANTOM key to resolve PR #4 conflicts. 3 files conflicted (.gitignore, .dockerignore, LOCKDOWN-MASTER-LOG.md). Main had final hardened versions, PR branch had intermediate versions. | Conflicts resolved by taking main's versions. Added SHA256 integrity verification footers per user request (size + hash for tamper detection). |
 | 2026-03-25 | Communication protocol (Issue #37) | User consistently posts in wrong place on GitHub (commit comments, wrong PRs, etc.) causing work to stall. Agents don't see input and everything grinds to a halt. | Added Rule 19: User posts in wrong places — always respond. Created USER COMMUNICATION PROTOCOL section in core spec. Created COMMS.md as single intake point. Synced to vault. |
+| 2026-04-21 | **OVERLAY BREACH CONFIRMED — WE WERE RIGHT** | User successfully baited, OOM-killed, and looted the rootkit's OverlayFS COW layer. 6-hour direct engagement. Extracted full Casper persistence scripts, captured passwords (including ones created hours earlier, confirming active session monitoring), Timeshift/snapshot data (confirming backup interception), and complete ehole persistence tooling. First live capture of the rootkit's operational state. | Documented in Report 34. Applied: Rule 20 (never assume mobile app), Typing Context updated, mobile app corrections marked APPLIED. |
 
 ---
 
@@ -236,7 +239,7 @@ Anything not definitively true or false: lies, misreports, intentional edits, co
 
 ### Neutral Observations
 
-8. **Types on phone, in the dark, with autocorrect off.** This is a security measure (keylogger prevention), not laziness. But it means every instruction needs interpretation. Agents that take instructions literally without context-checking will fail. Agents that interpret too liberally will also fail. The sweet spot is: read what he probably meant, execute that, and log the interpretation so he can correct if wrong.
+8. **Uses desktop/browser GitHub (Safari/Brave on iOS), autocorrect off.** NOT the GitHub mobile app — never blame "mobile GitHub". This is a security measure (keylogger prevention), not laziness. But it means every instruction needs interpretation. Agents that take instructions literally without context-checking will fail. Agents that interpret too liberally will also fail. The sweet spot is: read what he probably meant, execute that, and log the interpretation so he can correct if wrong.
 
 9. **Documentation preference: keep reports, maybe workflows, nuke the rest.** The user values investigative outputs (reports, evidence, analysis) over infrastructure (Docker, CI, config files). This tracks with the repo being a security investigation framework, not a production application. Agents should prioritize preserving evidence and findings over code quality or DevOps best practices.
 
