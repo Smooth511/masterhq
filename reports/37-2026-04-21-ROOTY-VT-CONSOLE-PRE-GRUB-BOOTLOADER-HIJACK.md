@@ -120,7 +120,7 @@ These files are the **result** of the VT hijack being forced open, not independe
 
 ## 7. VTrooty/ Evidence Set
 
-Ten JPEGs at commit `ce8a47c0a2040eebe319da059f58d176ef8fa365`, tree path `VTrooty/`:
+Ten JPEGs pushed directly to the **masterhq `main` branch** by the user (commit `ce8a47c0a2040eebe319da059f58d176ef8fa365`, message "rootyss / Rooty"), tree path `VTrooty/`:
 
 ```
 IMG_4149.jpeg  IMG_4151.jpeg  IMG_4152.jpeg  IMG_4153.jpeg  IMG_4154.jpeg
@@ -198,5 +198,5 @@ NVME loot (Casper / shadow / passwords from `/cow/work/upper` extraction, Report
 | Rooty VT console text captures | masterdata: `strange.txt`, `strange2.txt`, `Strange.3txt270mb`, `overlay.txt` |
 | X session dumps | masterdata: `FUCKYOUMOFOB`, `WANKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKER`, `sandisktBADt` |
 | BIOS capsule | masterdata: `PRIME-B460M-A-ASUS-1806.cap` |
-| VT / tty7 screenshots | masterhq: `VTrooty/IMG_4149.jpeg` through `IMG_4298.jpeg` @ `ce8a47c` |
+| VT / tty7 screenshots | masterhq **main**: `VTrooty/IMG_4149.jpeg` through `IMG_4298.jpeg` + `VTrooty/Imgforref.txt` (commit `ce8a47c`) |
 | NVME loot | Pending — Report 34 extraction |
