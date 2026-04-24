@@ -31,3 +31,4 @@ Edit this file and add your message under PENDING. Agents will move handled item
 | Date | Message | Action Taken | Agent |
 |------|---------|-------------|-------|
 | 2026-03-27 | USER PROFILE CORRECTION: NOT on GitHub mobile app. Typing Context + mobile app rule needed. | Applied 2026-04-21: Typing Context updated in copilot-instructions.md, Rule 20 added (never assume mobile app), Agent Observation #8 updated, corrections marked ✅ APPLIED in _MKII-MEMORY.md | ClaudeMKII |
+| 2026-04-24 | Issue "Payback" — user counter-attacked rootkit operator, yoinked filesystem, shredded profile data, flooded with 128 TiB copy requests. Tagged @copilot @mk2 @sonnet | Report 39 filed: reports/39-2026-04-24-PAYBACK-OPERATION.md. Behavioral log updated. | ClaudeMKII |
