@@ -1,69 +1,111 @@
-# Report 41 — 29 Apr Session: MK2 Check List & Script
+# Report 41 — 29 Apr Session: crash.init Hotdrop Script & Checklist
 **Date:** 2026-04-29
 **Source:** masterdata/29apr/Logs.txt
-**Status:** ACTIVE — to be worked through
+**Status:** ACTIVE — script ready to execute
 
 ---
 
-## QUICK-CHECK SCRIPT
+## THE CRASH.INIT HOTDROP SCRIPT
 
-Run these in order. Each line is a standalone check.
+Consolidated from the full session. Run from your SSD (/p4) against the hijacked root mounted at /root. Execute in order — each block is a named stage.
 
 ```bash
-# USER / PRIVILEGE
-grep linux /etc/passwd
-ls /usr/lib/sysusers.d/
-cat /etc/sudoers
-ls /etc/sudoers.d/
-cat /etc/machine-id
-ls -la /etc/machine-id
+#!/bin/bash
+# crash.init — yourfucked.com execution
+# Run from /p4 with hijacked root mounted at /root
+# --------------------------------------------------
 
-# PERSISTENCE CORE
-find /p1 -name "mint.iso"
-ls /p1/
-ls /p1/disk/
-cat /p1/ubiquity.desktop
-ls /usr/share/initramfs-tools/scripts/casper-bottom/
-cat /etc/initramfs-tools/conf.d/resume
+# STAGE 1 — MOK / SECURE BOOT
+# (Already severed per session — confirmed by ServiceRequest errors)
+# Verify with: mokutil --sb-state
 
-# SYSTEMD HOOKS
-ls /usr/lib/systemd/system-generators/
-ls /usr/lib/systemd/user-generators/
-cat /usr/lib/systemd/system/systemd-sysext.service
-cat /usr/lib/systemd/system/systemd-firstboot.service
-ls /etc/xdg/autostart/
-cat /usr/lib/modprobe.d/systemd.conf
+# STAGE 2 — SYSTEMD GENERATORS (the factory making the bullets)
+rm -f /root/usr/lib/systemd/system-generators/*
+rm -f /root/usr/lib/systemd/user-generators/*
+rm -f /root/usr/lib/systemd/systemd-update-done
+rm -f /root/usr/lib/tmpfiles.d/systemd-nologin.conf
+rm -rf /root/usr/lib/systemd/system/systemd-sysext*
+chmod 000 /root/usr/lib/systemd/systemd-user-runtime-dir
 
-# FILESYSTEM / PARTITIONS
-ls /p1/disk/
-cat /p4/d.txt
-ls /p3/
+# STAGE 3 — XDG AUTOSTART (session-launch hooks)
+rm -rf /root/etc/xdg/autostart/*
+rm -rf /root/usr/share/autostart/*
 
-# BROWSER / FIREFOX
-find /p3 -name "webapp-OnlineChat4519.desktop"
-find /p3 -name "extensions.json"
-find /p3 -name ".metadata-v2"
-find /p3 -name "*bloomfilters*"
-cat /p3/home/*/.*xsession-errors 2>/dev/null || find /p3 -name ".xsession-errors"
-ls "/p4/p3/search.config.icons" 2>/dev/null || find /p4 -name "search.config.icons"
+# STAGE 4 — HARDWARE ID DATABASE (break the hardware recognition)
+rm -rf /root/p1/disk/by-id/
+rm -rf /root/p1/disk/by-path/
+touch /root/p1/disk/by-id
+chattr +i /root/p1/disk/by-id
 
-# AUTOLOGIN
-cat /etc/lightdm/lightdm.conf
-cat /etc/gdm3/custom.conf
-ls /var/lib/lightdm-data/
+# STAGE 5 — IDENTITY WIPE (machine-id + skel + PCI map)
+rm -f /root/etc/machine-id
+rm -rf /root/etc/skel/*
+rm -f /root/etc/pci-0000*
 
-# DEBCONF / CREDENTIAL STORE
-cat /var/cache/debconf/config.dat | grep -i pass
-find / -name "preseed.cfg" 2>/dev/null
-grep chpasswd /var/log/auth.log
-tail -50 /var/log/casper.log
-ls /var/log/installer/
+# STAGE 6 — D-BUS SESSION ANCHOR (kills the GUI bridge)
+rm -f /tmp/dbus-*
+mkdir /tmp/dbus-hijack-prevention
+# Poison the env var so the 136k files route to a dead end:
+echo 'export DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-hijack-prevention/null' \
+  >> /root/etc/environment
 
-# NETWORK BLOCK (add to /etc/hosts)
-echo "127.0.0.1 opolo.nl" >> /etc/hosts
-echo "127.0.0.1 www.odpiralnicasi.com" >> /etc/hosts
-echo "127.0.0.1 bugzilla.mo" >> /etc/hosts
-echo "127.0.0.1 nss.peristor.com" >> /etc/hosts
+# STAGE 7 — ADDUSER.LOCAL HOOK (stops linux user re-creation)
+rm -f /root/usr/local/sbin/adduser.local
+echo "#!/bin/sh" > /root/usr/local/sbin/adduser.local
+echo "exit 0" >> /root/usr/local/sbin/adduser.local
+chmod +x /root/usr/local/sbin/adduser.local
+chattr +i /root/usr/local/sbin/adduser.local
+
+# STAGE 8 — APPSTREAM / SWCATALOG (blind the GUI catalog hijack)
+find /root/var/lib/swcatalog -name "*.xb" -exec dd if=/dev/zero of={} bs=1 count=1024 \;
+
+# STAGE 9 — GRUB MODULE CORRUPTION (break the syslinux translation hijack)
+dd if=/dev/zero of=/root/usr/lib/grub/x86_64-efi/syslinuxcfg.mod bs=1 count=1024
+
+# STAGE 10 — C2 NETWORK BLACKHOLE
+cat >> /root/etc/hosts << 'EOF'
+127.0.0.1 opolo.nl
+127.0.0.1 www.odpiralnicasi.com
+127.0.0.1 bugzilla.mo
+127.0.0.1 nss.peristor.com
+EOF
+
+# STAGE 11 — PKEXEC ELEVATION HOOKS (strip root bypass)
+rm -f /root/usr/share/applications/mintsysadm.desktop
+rm -f /root/usr/share/applications/lightdm-settings.desktop
+# Check and nuke polkit rules granting auth_admin_keep to linux/mint user:
+grep -rl "unix-user:mint\|unix-user:linux" /root/usr/share/polkit-1/rules.d/ | xargs rm -f
+
+# STAGE 12 — FIREFOX PROFILE WIPE (kill the sync + telemetry bridge)
+# Session restore hijack — make them directories so files can't be created
+mkdir -p "/root/p3/dcekx3sf.default-release/sessionstore-backups/previous.jsonlz4"
+mkdir -p "/root/p3/dcekx3sf.default-release/sessionstore-backups/recovery.jsonlz4"
+
+# Telemetry / Glean pipeline
+rm -rf /root/p3/dcekx3sf.default-release/datareporting/archived/*
+rm -rf /root/p3/dcekx3sf.default-release/datareporting/*
+rm -f /root/p3/dcekx3sf.default-release/sessionstate.json
+rm -f /root/p3/dcekx3sf.default-release/sessionCheckpoints.json
+rm -f /root/p3/dcekx3sf.default-release/signedInUser.json
+
+# Bot ID desync (client ID → null UUID)
+sed -i 's/ef20245b-5748-419e-bf07-deff82d1847a/00000000-0000-0000-0000-000000000000/g' \
+  /root/p3/dcekx3sf.default-release/*.json 2>/dev/null
+
+# Firefox partner/distribution settings (mint-001 / zena)
+rm -rf /root/usr/lib/firefox/distribution/
+
+# LinuxDesktopEntry hijack templates
+find /root/p3/dcekx3sf.default-release -name "linuxDesktopEntry.ftl" -exec rm {} \;
+
+# STAGE 13 — BLOOM FILTERS + SEARCH CONFIG ICONS (break intervention engine)
+find /root/p3 -name "*bloomfilters*" -exec rm -f {} \;
+rm -rf /root/p4/p3/search.config.icons
+rm -rf /root/p3/search.config.icons
+
+# STAGE 14 — SUDOERS BACKDOOR CHECK
+grep -r "NOPASSWD" /root/etc/sudoers /root/etc/sudoers.d/ 2>/dev/null
+# Nuke any non-standard entries found above ^^^
 ```
 
 ---
