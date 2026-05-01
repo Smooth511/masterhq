@@ -1,0 +1,1915 @@
+beReHack+ BFTEKPARU8MM/gu
+
+AM-V2100 EVOL bbH 1 OB FR Pd
+
+Agdrumez 00000
+
+Sudo, find all-not type name "fa" - exec chatts -
+
+し I
+
+[B₂+ 8+
+
+-exec rm -rf E3 + - exec
+
+find /maint /usr/share/₁-nots-type sts-names "putermal -execs chattrs-is (3₁+s-execs rms-rfs {}₂+
+
+Unlock-and-delete /path "app"]
+
+い
+
+bash. Rc = unlock-and-delete () E
+
+Sudo find "" - not -type ( -name "$2"
+
+-exec chaltr - 3s+ -exec rm -rf (3 +
+
+Jete/sudoers
+
+leh Sudoers d
+
+leh passwd ehh Shadow
+
+lightdm Sessions
+
+Display manager
+
+thy
+
+Jak/group
+
+leb/apt/apt.co
+
+fehl resolv.conf (hosts | hostname
+
+calm
+
+leklupdate-modd
+
+Auditing
+
+remote
+
+Syurg
+
+Lusr/share/d
+
+Daemons bash-rc
+
+Thunder
+
+add a Root User
+
+fuser Sudo Is of Imats/fie -v /mnt3/file
+
+Sudo useradd a 0-go lloyd.
+
+Sudo passud lloyd. echo "linux password" I passed
+
+Stalin john
+
+Wipe O's
+
+sudo dd if=/dev/zero of = klev/sd bs=4M Status = pr
+
+ogress
+
+Sudo tail -n +1 $ sudo find /rots/var
+
+"triggers"
+
+sudo find leathlob/ -type f -exec grep - Irl ? (} +s Is xargs -I / Sh -c 'echo "In --- SOURCE: /---"; %" > xxx.fxt -7
+
+find lofs/var-type f-"
+
+xargs -0
+
+Stertx -display : 2 ---
+
+- iNE "Search | terms here"
+
+grep
+
+:2 vtn & > xxx.txt n=ty on instance
+
+Startx - - :1 VEL Suelo Service lightesh Start/stop Run in Hy | DISPLAY: 4 Virtuo Sudo X -quiet-nolisten top -noreset: 4 vt8
+
+.Casper nitrid.x2 Generic 6.14 acpi-off init = /lib/systemd/systemd-bootchart break = top & root = Superuser Ugh = off efi = off Module. Sig- enforce = I riv == rw nomodeset dis_ucode - ldr root wait=10 Persistence noefi noprompt sysq-always_enabled=1 User lloyd hostname = lloyd-b namespace-8.18.8
+
+Sudo dusetup remove-all-f sudo umount -L (snap/* 2>pler/holl Systemctl stop dois. Socket
+
+Sudo dracut--force (initrams)
+
+MY USER LUIS) echo $s
+
+find / var - 15 apt 27/dev/null
+
+buybox Sh
+
+echo $=shell
+
+Ps less
+
+delgrup deluder
+
+ps-p
+
+Judo kill 209
+
+rmmod -9
+
+dpky -C configure
+
+- instedt
+
+sudo rmmod overlay. Sulogin
+
+Umount -
+
+lock-a
+
+mkfs, ext4
+
+rofs/var/log/apt/team. log:dpkg:
+
+mounting
+
+sudo dd if=/dev/zero of=/dev/sdd2 bs=4Ms. Status - progress too conv=fsync
+
+cripe partions target actual device
+
+Sudo wipefs -a
+
+/dev/sdd
+
+install/op
+
+Sodo dd if=/mount/2/3/4/5/6/7/8/home/Lloyd/hidey/mint. isos of=/dev/sdd bs=4M Status: progress of conv-sync
+
+Verify
+
+Sudo head -c $stat -c /s (mount/minte iso) (devised sl
+
+sha256 sum
+
+Format (if needed)
+
+Sudo mets ext4 /dev/sddio
+
+ppa: yannubuntu/best-repair # sudo apt boot-repair run lock aptitude sele apt install -y
+
+epository
+
+Tum Subsys
+
+33 book-repair
+
+beet Repair
+
+mdadm
+
+мар
+
+Systemd
+
+all.
+
+Sudo apt purge Snapd
+
+Big one
+
+#aft+35
+
+Thunder **
+
+~alt + 126
+
+trucker b
+
+desktop-file-utils
+
+color-icon-theme mailsup
+
+Man-db libglibz⋆
+
+Sudo rm -rf /etc/apt/auth.conf.d/
+
+rm rf. lulib/dpkg.
+
+rm of letz/dpky |shlibs. con /sbin/dpkg-* rm -rf /usr/share/dpkg/or - /us/share/ aptitude/20 6 M
+
+Keyrings! Sources.list.d/
+
+Sources. list trusted.gpg. d/
+
+*
+
+/usr/bin/dpky - trigger
+
+krot /usr/share/doc/dpky/spec | triggers Ext | Man/ de Iman 1 | Opky Frigonaz
+
+fr
+
+Man1
+
+-frigger·1.92
+
+[var/lib/dpkg /info/apt. Friggers ML I var 11b /dpkg / triggers Pt
+
+FI/dpkg-trigger, 1.92
+
+Sv
+
+dev
+
+/var/lib/dpky /info/lib. /var/lib/dpkg/info mailcap Python3-1bd Man-db ufw
+
+Sodo
+
+41/info/base-files
+
+bing-lips
+
+btrfs-progs
+
+ubuntu-system-adj fuller Mesa-lib gallium/a-certificates cruck lib
+
+tdb minksystem
+
+rsyslog xfsprogs
+
+Samba-libs
+
+Xml-Core
+
+Sgml-base
+
+Sumba mdadm busybox-initramfs
+
+ntfs-39
+
+dx6
+
+das
+
+*Server-xorg-* papirus
+
+Sl-data Zbig
+
+Ou-icd-libopen 2xf (13)
+
+12x9
+
+Shard Shared-mine
+
+plymath-theme reiserfsprogs
+
+Shim-Signed
+
+mitramfs-bot
+
+install-in fo kbd
+
+libc-utis kad
+
+parts-hoo!
+
+PATH
+
+/bin/bash - The bash exectuable lew (Profive = The system wide internal global login /bush-profile = The perssonal internal exec login 1.bashre / The Startup - the interactive Shell exec stell /, bwh_logout/ The individual log in Shell clean up exits LinputRC/ individual readline internal file
+
+Sbin
+
+• every
+
+>
+
+Hdo, apple2 me / Hdo, Msclos3 ⇒ Mint iso
+
+Sudo dd = if /dev/zero of=/dev/nument 6s-1M count=1024 fsync
+
+Sudo felisk Nume
+
+GPT 97 g
+
+P2n+16 = 2 (EFI) Pen 2 default +50G (ROOT) Po n 3 default +1506 (HOME) Pa nu default +IOG (VAR) Ps ns defaut list? (SWAP) Pi Sudo mkfs, ufat - F32 /dev/nips Sudo mufs, ext4 - L BUNKER_ROOT /dev/nipz 3 Encrypt Home EFI
+
+- Sudo cryptsetup luks Format /dev/numemlp) - Sudo cryptsetup open /dev/nip? encrypted_home -Sudo mkfs, ext4 /dev/mapper / encrypted home
+
+Sudo mkfs, ext4 /dev/numeOn/py
+
+SM-Sul mount Idnipe /mnt mudis /mnt/book/efi /mnt/home (mnt/var → danos (martest | Son (dev/mapper/encrypted_heme (nat Thome mp4/matvarBind.~ for i in blev /dev/pts /ppc /sys Towns
+
+The files
+
+Sudoers
+
+Passwd
+
+Sudoers.d
+
+Shadow
+
+Jeklsyched from ryu Secoce
+
+Resolu. Conf
+
+Group
+
+90 hardand
+
+russ StubRed Estab
+
+Troot?
+
+Troot Options ro, nosolo, nodev
+
+Sysctl.conf
+
+Jehlapklapt.conf.d/gablock-auto
+
+Oxide
+
+APT: Periodics: Update
+
+APT:: Periodic Download - Upgradable Package-Lists "0" Packages "0"; | APT: Periodic :: Autoclean Interval "0" install grub-efi- and 64 apt install linux-image-and ble grub-efi-and th grub install Idav Inume update-initrants - grub-install On I codale-grub
+
+Isblk for volds
+
+update gb
+
+Initramfs. /sys/firmware lace. If put /book
+
+كرة firmware
+
+preak-bottom break-mount
+
+acp fables dynamic
+
+SSDTS
+
+Mountroot
+
+exec 671
+
+}
+
+System cl Systemctl list-unit-files = State enabled
+
+purge = gcc gnu build-essential cron snop Firefox libre gnome-remote-desk build
+
+apt purge gcc
+
+Local Share
+
+-essential Snap
+
+Migration gufs ice /firefox/online chat local/share/applications sturc-xfce
+
+grc-2.0
+
+remove apps in lour/local/bin
+
+config = ibus-moze-gnone - initial-schp-dow
+
+A •
+
+MOUNT
+
+for i in ledev /dev/pts / proc /sys /run; do sudo mount -B $i /mnt$i; done.
+
+on c line
+
+efitextmode 3
+
+root
+
+linex line end
+
+"single" flo
+
+= root device
+
+init = /bin/bash/movat o cement, fox)
+
+prefix = grub config Systemd. sigles reseve target. default: Menu show I hide time out = Adsl 5s
+
+·d, unit = resave huge
+
+gfxmale reso
+
+linux loads linox kernel linux /umlinuz
+
+rook: /dev/sdal quiet Splash
+
+initrd loads RAM
+
+boot Starts os with current loaded.
+
+insmod loads grub modules.
+
+usually bust/gib/counted Run
+
+Mality leke default grub or grub-mikront- sudo upolate-grub
+
+All video sisterm gfxmenu Sleep
+
+cryptodiske lukes lum
+
+password-pbkdf 2 pm
+
+Is / boot / grub/$/grub-probe - target) | | SB = x insmed
+
+Search file / casper/umlinuz.
+
+--set-rock
+
+Ich/default/grub
+
+GROB TERMINAL= Console
+
+"
+
+-CMOLINE-LINUX-DEFAULT= "text nomodeset"
+
+Single-user shell
+
+for live. rw
+
+Boot iso grub.
+
+SINGLE
+
+linux Tumlinuz root=UUID=xxx 1o text nomodeset Suy
+
+Singlex inity/bin/bash
+
+bootloader
+
+loopback loop (hdo, Msdosz)/mint.iso
+
+free
+
+> linux (loop) /casper/umlinuz_boot = casper iso-scen /filename (host)= /mint.iso > inited (loop) cosparglimited, $2 = boot
+
+MULTI
+
+>boot
+
+Clyd
+
+Foot 0121478
+
+> linux. (loop)/casper/vmlinuz boot-casper iso-scan xxx 150 foram nomodeset serquiet no splash
+
+> united (loop) / casper/initrd. 12 Systemd. unit = multi-user. target
+
+Ф SINGLE (Issue))
+
+insmod all-video
+
+Set gfxpayload-text
+
+> linux /casper/Uvmlinuz boot-casper rw text noMS Is/pe
+
+Stack guard-off
+
+inited /casper/initrd./2
+
+>hostname partybus.
+
+> nano lete/hosts
+
+127.0.0.1 localhost
+
+127.0.1.1 partybus
+
+I old-directory- 2 usermod -d /home liloyd 3. usermod -d /home/lloyd lloyd, 4. chown - R lloyd: lloyd /home/lloyd Is-Id Ihone Illoyd
+
+name
+
+5. Userdel linux
+
+1000 11oyd
+
+group mod g 1000 lloyd. -g
+
+name new_directory_nai
+
+(memory
+
+(not logged in as) lloyd = P(7)
+
+6. Usermal -
+
+-m linux
+
+vook-L(7)
+
+Symbolic link redirect.
+
+7. In-s /home/11oyd /home/linux
+
+MV mv
+
+1. Set root = (hd0, gp+3) 2. Linux / boot / Umlinuz - 6.14.0-37-generic root = /dev/sd43 ro 3. inited /boot/initrd. img-614.0.37-generic
+
+blkid (dev lavine Oulp)
+
+UUID="16761759-af7d-6337-4316-63311e4faa9c9d78" part id. (PARTUUID= "f6277af11-03 い
+
+? Check
+
+- Note
+
+• cat /dev/zero
+
+<
+
+I hook (grub / grubenv
+
+grub-editenu / boot / grub / grubenv create. Mv /usr/share/im-config /usr/share/im-config.bak cat /etc/passwd | grep 1000. /usr/sbin/nologin
+
+Injechon
+
+? root/lib/live/config
+
+or root /lib/casper
+
+- - Finished Systemd-Sysusers. Service - Create System. ^reads /usr/lib/sys users.d/»? linux.conf Users whove happens after Systead - remount-fs. service this mounts drive Read (Write and uses sysusers for hyjack Account Services (org.freedesktop. Accounts) elevates to Administrator - - Finished kmed-static-nodes, Service /dev it creates. Intercept between Systeand-remount-fs and Systemdplace drop-in file at
+
+-sysusers. lete /systemd/system/Systemd - Sys users. Service. d loverride.conf that contains "ExecStart Pre=/usr/bin/rm/usr/lib/syrusers.co
+
+Ilinox.conf ? System-generators/ add
+
+in -s /dev/null"? || /root/var/crash/crash.init a Script, immutable it. Script next. page.
+
+Place
+
+Sys/devices/virtual/dma-heup/system/power
+
+J
+
+Funtime
+
+Loops → devices (virtual (black/loopx
+
+sys/devices/virtual
+
+loop0 bdi ../../ bdi / 7:01
+
+• Subsystem →../../../../class/block gpu-manager = /run/u-d-c-nuidia-dvin-was Toaded file. Can't open /sys/module/nvidia/
+
+/sys/module
+
+MODULES = nouveau
+
+Version
+
+autofsu efi-pstore
+
+async-pq
+
+. pstore kdb
+
+loop?
+
+nis-1508859
+
+kernel?
+
+Sysq
+
+echo "root your paid no' | chpasswd linux! rm -rf /root/usr/lib/user-setup / In -sf /dev/null /root/usr/lib/sysusers.d/conf Mount -o remount, ro /root/var/log/casper.log
+
+/usr/lib/ubiquity/ /usr/share/casper/ /etc/systemd/system-generators/
+
+grep'd lus/lib sys Shings
+
+Malicious Systemd
+
+Find path "systemd/system/n. Service!!
+
+-exec grep -H-E "Exec Start/ExecStop | Exec Reload" Florde
+
+827/dev/null
+
+Cloyd
+
+Same as above use (lojdz
+
+nousb
+
+Find path d/user/Sys
+
+Systemd unit = emergency, target <N mant Systemctl emergency | Systemd. unit = rescue target echo c> /proc/sysry-trigger
+
+rd.driver. blacklist = usb Storage, was modprobe blacklist usbhid, hid-generic = Sudo systemctl mask lum2-monitor, Services blk.availability. Service sudo SystemcH mask Sys-fs-fuse-conections. mount sudo Systemch
+
+maske systemd-modules-load-service
+
+UPDATE GRUB
+
+Sudo update-grub OR grub-2-Mkconfig -0 GROB CMDLINE LINUX-DEFAULT="/boot/grub /grub.cfg
+
+Systemd-tmpfiles-setup-dev, Service local-fs- pre. farget | Systemd-fsch@dev-disk-by Systemd-udev-trigger, Service
+
+Systemd-udlevd [408] "1255" dev-disk-by\x20vid-c4CE625? Kuga-Switcherco Inat - SEMICO USB KEYBOARD nouveaudrmfb MODULE autofs4
+
+rc-cmos rtc-cmos registered rtco set clock
+
+Alarms up to month 43k nvram
+
+Squashfs version 4 (2009) 01/31 Phillip (ougher Fuse init AP1742 Block layer Scs1 v0.4 243.
+
+with environment
+
+HOME=\
+
+TERME LINUX
+
+1148
+
+pptp-linux
+
+network-manager-pptp
+
+BOOT_IMAGE=/boot/umlinuz-6.14-0-37-generic
+
+eum = Eum extended attributes
+
+eum = Security. Selinux only one
+
+Security. = SMACK 64 SMACKEHEXEC SNACK 64 TRANSE SMACK 64MMAP apparmor Capability HMAC atts Ox
+
+Invoke "busybox sh"
+
+admin: book admin: filesystem implemented-in::Shell protocol:: Smb role::plugin works-with-format:: i509660
+
+rm. -f /root/var/lib/systemd/systera-generators/* -f /root/usr/lib/systemd/user-generators /* (M-F (mot/usr/lin | Systemd/system-update-done/ -f /rock/usr/lib/tmpfiles.d/read-nologin-conf
+
+Module autofsh
+
+Systemd-remant-sour
+
+Passwd Noyd
+
+Sudo - ubiquity - automatic nobootloader query
+
+ITB NUME
+
+Town/uder/links Adisle
+
+Kernel key = 6878835990265075bf750669
+
+257374ea-78019-4b2a 6762-162d72c9efd2
+
+Isys I module / blk_crypted parameters
+
+num-pre alloc-crypt- ctxs
+
+dys module block
+
+Fref 210fdf4ae
+
+Magic number 6 733 646
+
+217088
+
+sudo find /proc/fdl
+
+run/systemd/mount.com
+
+• note gnu. build-id xsclients. /sys/module/asyncke/
+
+Para ppp-generic
+
+/var/lib/ucf
+
+Mp-protocol Compress
+
+Sys/model/ Chance / Argameles /sys/modulele
+
+15 | grep deleted 27 /dev/null/run/credentials.
+
+Setup - auto-log-persistence var/crash update notifier. init
+
+files
+
+/sys/fs/estore PERSIST tmp. Mount
+
+/rm Troot /var/er (cre inity P2P-overlay +>-
+
+Rum overlay.
+
+as 55
+
+16A7
+
+BOOT LOADER
+
+linux /umlinuz -6.8.0.41-generic
+
+root-dev/mapper/ubuntu -- vg-unbounty -- lv n/bash console=Hinull whgation soff rectilogs Enocle, Assane Kubuntu --ug- ubuntu ro root = /dev/mapper
+
+-6.8.0.41-generic
+
+init=1bin/bash nonodekt. Systemd. Unit = Rescue.. target Ⓒlcpi=off maxcpus=1 lockdown = confidentiality module-sig-enforce= apps-panic console-Hynul in it = lib/systemd/ Systeind - bootchart
+
+15ys /firmware lefi/efivars
+
+Uga = normal nomodules
+
+root flags=
+
+- ΓΟ
+
+or = Systemd, unit = multi = user. target
+
+initcall_blacklist=...
+
+(Supry - always_enabled = root wait=0
+
+Turbo boot linux - /umlinuz.root = /dev/LOADER-ro-int-bin (dashnoeft"
+
+-off footwait = 0
+
+Empfs
+
+CFivars
+
+force-noncq
+
+Hook
+
+Top - Search & root = 001D
+
++ Set root - (Hdo,gpt2)
+
+break=top
+
+08
+
+libata, force = nonca
+
+indian/dash
+
+no efi
+
+acpi-off
+
+linux /umlinuz... root = Alev/sda2 - rw)
+
+(init = /bin/bash Cd Shell
+
+in-sf der Invil lek/crond.
+
+jeetech.com/asmi/download
+
+-linux-24.04.5-amd64.iso
+
+6
+
+AFA
+
+Ch
+
+pewine-pulse
+
+p Widata, loop gmain
+
+2009
+
+idle-inject/7 58
+
+kwerker
+
+PIP 2005
+
+136
+
+-time
+
+dpkg ONLY DOES DEB
+
+Dpkg option Command.
+
+Sudo dpkg -i .deb
+
+ptions
+
+admindir=<Dir>
+
+root =<PIR>
+
+-force- <thing>
+
+Commands
+
+-i install
+
+-install instdir
+
+- - Robot
+
+-S Status
+
+-A Record
+
+-P Print
+
+-r remove
+
+-P purge
+
+-1 list
+
+-L list ownd
+
+-V verify
+
+-S search
+
+Use dpkg with
+
+Cat additional-pkgs.cfg
+
+on archives
+
+-b build
+
+-C Audit
+
+Sudo apt install
+
+メー
+
+- Contents
+
+-e control
+
+dpky-deb --help -I info
+
+-X vextract --- for file
+
+y
+
+-f field
+
+xargs -a additional_pkgs.cfg Sudo apt install y
+
+(cat additional-pkgs.cfg)
+
+--fsys-tarfile
+
+THE LONG
+
+Sudo grep -rl "bpf" | path/to/se I while read or file; do \ dir $(dirname "file"); \ cd "pir" && sudo Chatter - RF +i YARES Sudo grep -51 "bpf" /path/to/Search xargs -I 3 Sudo chattr
+
+-fril
+
+extract
+
+recovery
+
+ΓΟ Nomedeset
+
+GRO GNUB
+
+no dopi init = /balbuth
+
+-a allthidden
+
+Is Search
+
+long wekdal
+
+h
+
+File size
+
+-t Sons recently modifia
+
+-S Serbs Size
+
+Reverses tors
+
+-R Recussive
+
+-d Directory
+
+-E Show Type folder=/ += exc
+
+-74
+
+Tawk length (60) <s
+
+*chroot" 27/day/qull
+
+Suelo grep -FAI "chroot" | 2> /dev/auth
+
+Sulo grep -arnI "Chroot" / -- exclude dir- (proc, sys, dews be
+
+gee die "chroot
+
+//ume 22/d/
+
+A change mount
+
+2>/dev/null
+
+4
+
+"gene" -e "kum" -a "vitio"
+
+T
+
+grep -E "hook bypass hide | shadow (uma) sun`ll
+
+/path/to/Sylan.map
+
+= Virtual ps
+
+مل
+
+d
+
+spac
+
+M
+
+Rage
+
+Midnight
+
+At for
+
+echo
+
+Sude tee /proc/sys/kernel/Sysiq
+
+Sodo swapoff Sda2
+
+wines a
+
+mun
+
+Rifspape
+
+Special Kelleys st
+
+Superweelab Pa
+
+Commander
+
+Миг?
+
+LmGNU
+
+fehl
+
+stemctl
+
+hostname
+
+Suole > by!
+
+network manajer
+
+03 20 41
+
+Sodo dd if=/mount liso of=/dev/std #4 xhci-
+
+bs=4m sichs pos
+
+USB-10
+
+Sudo useradd -m-s lan/bush lloyd
+
+Sudo Passwd ayd
+
+Sudo deluser ubuntu Sudo
+
+Killall
+
+had sudo grep -I "Search" Rom debdebdebip
+
+apt/apt. conf.d/olauto remove
+
+Sudo usermod -a -G- Suto lloyd echo "package hold" I sudo dpkg-sex
+
+VekelSmartd. CONE DEVICESCAN
+
+Syslogd
+
+UID 102 ID 102
+
+- 3 name
+
+fitc/resolut
+
+Sulo diply -- renove --force-remove-
+
+(shin diply -- purge --force-all farge
+
+GNU
+
+http releases
+
+STSCRIPT Module-re 11 migration fight
+
+NUS Module, its deempt 15 tes
+
+USR/Shaghak
+
+chico Bash
+
+10.06.011 Pipewire
+
+Pipewine pulse Pw.data, loop
+
+600m
+
+.80
+
+-Seleche C-.
+
+Z
+
+bbc.html
+
+0033.07cdf
+
+Hellazid
+
+https://teejeetech.com/asmi/#download
+
+120 asmi-linux-2404.5-andt-150
+
+PID 2005 gan
+
+idle-inject/7 58
+
+2009
+
+13R-
+
+-tine"
+
+ALA
+
+Kill
+
+блар Snapd
+
+Store
+
+Wedd
+
+Gnome Rende Shell Etk
+
+gam Smetand there.
+
+Firefox
+
+1386
+
+xSprays
+
+sory
+
+ssh
+
+cons
+
+Thundermail
+
+Python 3 Shim
+
+9Streamer Wieplumber
+
+keyring
+
+if 3g brity
+
+Cro
+
+Shachae
+
+912
+
+libreoffice ApNine
+
+x-terminal
+
+X-Session
+
+update- manger plate
+
+aktion
+
+X-cursor
+
+Moze Server
+
+App-org Chronium. Chronion -44492. Scope
+
+hghbor
+
+88452
+
+Boot Apr 07:39:31
+
+Power off Apr 17 07:31:21 04532300M
+
+EL
+
+2
+
+=
+
+Linux headers
+
+Compilertypus
+
+Compiler-gec J
+
+GCC-VERSION
+
+/*GNU DWARF (12) extensions
+
+umlinux. lds note. GNU-stack PROGBITS)
+
+Snapd extensions
+
+Snapd promping
+
+(gnome-shell •s:xx:
+
+(--GNUC-10000
+
++--GNUC-MINOR -- 100
+
+(GU) | M][
+
+(note, GN)-Stack)
+
+270MB SAFEDUMP
+
+GOC VERSION define SHE GNU RETAIN
+
+GMUC--
+
+K
+
+ELF
+
+[[ $userland == @(invel (0/0) ]] = GNU = GNY
+
+Delhet & Debian GNU/Chaux is fpdMOST SCRIPT properties.. tas #GU)
+
+Linx msdos
+
+PARTITION
+
+UNIXWARE PARTITION
+
+Ox63
+
+LINUX MOI
+
+GNU-HURD
+
+Libe.bin
+
+GNUPG
+
+SCO UNIX
+
+17
+
+Make-extract-targets, akilit GNU far bakebe helper Auke Script Cor GNO malce
+
+She number's greater
+
+Han
+
+glibeemmen
+
+-GNU-Stokion libc.so: 1/
+
+GNU
+
+[ak
+
+Achie
+
+GNU MP LIBRARY extra
+
+ма
+
+HAS NUCIBC
+
+DPKG
+
+~(((100.000 *- - GNUC_-) + (1000 €.
+
+Make
+
+Nars fox as GOLD GNUCL MINOR
+
+GNU-PATCHLEDE
+
+in lek/*.
+
+WILDCA
+
+Boot loader
+
+Tudo
+
+linux/umlinuz... - root = /dev/ Lader ro loit/bin/dash neefi acpi = off cotwait-0 libata force enonce
+
+boot=casper iso-scan/filename=${iso_path}
+
+noprompt nepersistent nomodeset
+
+Main Book
+
+linux-/umlinu2-6.8.0.41-generic root-dev/mapper/ ubuntu-vg-ubuntu- - \v-init = /bin/bash console = Hyrull Mitigation-off root=/dev/mapper/ubunto -- ug - ubunto ro nomodeset systemd. unit = rescue taget. - acpi = off max cpus = lockdown
+
+Linux /casper/vmlinuz boot = casper
+
+Scout ignore loglevel init-/bin/bash lockdown: none spielt
+
+acpi-copy-dsdt nomadeset
+
+Nver Backup L
+
+12=22/22/
+
+root Rugbyalties.
+
+newadmin
+
+Loyd Sudo
+
+root
+
+0121pizzA! Lloyd lloyd
+
+Sudo apt update
+
+sudo add-apt-repository universe
+
+xxx
+
+Sudo apt install inotify tools
+
+inotify wait -Me
+
+create-e-delete
+
+-e Move
+
+Sudo apt install auditd
+
+CD
+
+Islbk media Lubuntu (1
+
+Clam Scan
+
+Clamscan - L
+
+e modify -e
+
+Path Holder
+
+NUME
+
+Renove
+
+Check File System + Metadata Sudo bikid | Grep sd Sudo Fdise - Idev/sdb
+
+Delete all data
+
+Isblk
+
+Sudo mount /dev/start= Sudo dd if=/dev/cic of=/dev/xxx bs=4M
+
+& Clanscan --help Umount first! Sudo umount /dev/sdbl
+
+Shred. Sudo Shred V-1 3-2
+
+Status = Progress
+
+Idev/sdbl
+
+IEA/dev/sdb1 MODIFY
+
+After sudo wipefs
+
+-a /dev/sdb
+
+sudo blkdiscard /dev/sdbl
+
+Throwawayreports
+
+Table
+
+Chkrootkit-root
+
+Throwaways
+
+EXT CEPY  Con on back PANIC
+
+Crontab -
+
+Sudo - root
+
+lete/ diely hourly/dary
+
+Sudo chattr + /var/spool cion / crontabs/
+
+Chatte i letel cron.d
+
+Sudo chmod 750 /usr/bin/python
+
+FM
+
+PYTHON DATHOR
+
+gnome-extensions disable (gnome- extortions list)
+
+Libre office Tools => options => Libreoffice~/.config / auto Start 1
+
+> Macro Security?
+
+"very-high"
+
+config/libreoffice & luser (template)
+
+Sudo aa-Status = Active?
+
+Sodo aa
+
+/etc/xdg lauto Start/
+
+desktop
+
+-complain /usr/bin/python3
+
+Sude nano lete I default / grub
+
+: GRUB-CMDLINE-LINUX-DEFAULT= " lockdown=conf identiality modules. Sig- enforce = 1 cops = panic Console = ffynull quiet splash"
+
+Mount -o remount, rw/
+
+Тама) рожував праз пошаона ород
+
+VI
+
+Hdd = special kelloyss!
+
+mkdir -p /mnt/d
+
+• Idew Wailpts [pree /sys lown; de sude mount -B & mant
+
+mount-se de Colpz unt
+
+mount -o remont, NI
+
+Thome Iloyd and Hoped
+
+rootSpecials!
+
+leke login det
+
+Logiard conf
+
+Heyd: Qwert 321!
+
+sudo ufw default deny Systemch Restat systemd-logind
+
+Stop unattended upgrades
+
+xfce4-And $
+
+done
+
+nano lek/default/grub Changell save (swoude (polate grub)
+
+nume Inip! B
+
+Inlp2 95268
+
+numeCol 236
+
+Chipl 3966
+
+Movat remont, I
+
+rm -f /en/mologin kvalaslegin (satte Ich lassan lake/shadow.
+
+Sulo Jayd
+
+pwconv
+
+Avte: lloydl
+
+Superfish st
+
+root: mill
+
+lloyd recoverys + Qwert 2! lloydadmin Wedsbixbt!
+
+Superweet 56!
+
+Jap
+
+Sulo med J
+
+Lelgrup
+
+visule-c
+
+Syntax erro
+
+Sexten llid -v nobedy.
+
+dely find (Mar-user not 2>/dev/null so find / youp 65534 2> /dev/null fiver Reet >/dev/null
+
+hostname ubuntu X
+
+nane lakhs 127.0.0.1
+
+mkdir -plantat
+
+Mount /dev/melphat
+
+00h1-952045
+
+dor 8888
+
+помор
+
+jus ova opre
+
+Sudo Sy stencil enable graphical target
+
+EFI no so
+
+•Lukspos / Swepoff-al Sudo ufwl
+
+Users -
+
+-f 380
+
+Sunde passioned lloyd
+
+-- ICARE-home co
+
+adduser (san)-m-s/in/bash by Suke deluser
+
+Side not usermal at Sude llogal
+
+Suds sermod-owner ockser
+
+Sule kohever/1002 Sulo deluter User Su
+
+Sude nano lets/ssh/sshd-config - Permit Rathas no
+
+User Files Find the "gom i PP Check As
+
+Jen/sudoers sude de
+
+leelpasswd
+
+Wells dow
+
+the resolv
+
+ALL (ALL ALL) ALL
+
+Passwords All- /h/passed | xargs - sudo passed-s Show accepted side cut de £2,2 /en/study and viele Sulo grep "deb ip/ink/show & Sulo o link at
+
+suppo Sudo ipad 192 14.01 / che "scar Este lek Archive f TA Wolvat
+
+echo "deb http://archive.chats.com/ubb- * main universe (once sudo cply-config-a
+
+Lete hosts
+
+Slot if Sale apt clean
+
+Letch hostname
+
+Triggers Dept
+
+Sodontol
+
+-makeshlibs/13.14.1ubuntu
+
+chinter wait Idconfig
+
+echo "package hold" (side deny --Sta
+
+Sulo) Systemctl hostname Sule dity move frecareers!!
+
+side city-pige--force-all package
+
+Sude apt-get of wall
+
+Sude dpy-i-force-all a
+
+Sudedag. i.-free-roumine fucking news de
+
+echo ""sule tee /proc/sys/kernel/sysig Sudo apt-get install --no-instal recommends
+
+•
+
+Desktop 012145
+
+Hooks To NULL
+
+in - of /dev/null lete/cron.d
+
+in - of /dev/null /etc/apt/apt. Conf.d.
+
+Change Apt Mirrors Rectify fails. Sude nano lek/apt/sources.list Sudo 2. Ctrl+ replace shekname change to main archise. B.com 3 Save + Run Sudo apt update
+
+dpkg - 1/1/HAJ
+
+Start
+
+SSH
+
+Рост
+
+Sudo
+
+Seif
+
+Alter Sh ufw enable Firefox
+
+Is - IR /sys/firmware /acpillables
+
+Alt +92 =\
+
+Shift + # =
+
+Alt + PintScrN = Kornel
+
+Echo "48" | Sudo tee /proc/sys/kunel/sysis i = enable
+
+Sudo passwd
+
+-root
+
+check gree
+
+= Super User
+
+"'"^Sudo", &' /etc/group
+
+Sudo deluser [user] Sudo
+
+Sudo Chattr -RF -i lek/apt 21$ Judo Chatto -1
+
+O=Disable
+
+Sudo Systemctl mask getty @tty 2, Service 3+4+5+6 Mount - remount, rw /
+
+/nipl/root-backup/boot
+
+Is la Isbin/mount, fuses /sbin/mount, ntfs
+
+Results
+
+Fuse 3
+
+"
+
+ntfs-3g bin/ntfs-3g
+
+To run
+
+Is -la /proc/ /exc I
+
+gree
+
+dekted
+
+Is-ef I we
+
+-1
+
+is /proc I grep
+
+'10-97'
+
+"
+
+200 201
+
+Vim - vi imprae
+
+help register Enter>
+
+q enter leave
+
+help enter or fl online help
+
+C
+
+:q! force
+
+help version enter
+
+Chmod utw
+
+Set noup enter defaults help cp-default enter
+
+w Save is mode
+
+File /path/to/item/ kilbe
+
+wa Save quit
+
+xxd/path/to/kib (Her dump)
+
+Is leke/security/ | grep - VE 'access group limits I namespace Ipanny Sepermint I time lopassant
+
+For So use binary
+
+xxd File I head -50
+
+"
+
+Ч
+
+Bakery Backup One
+
+JA.Qw43!1! Aydin
+
+(by Thownyou 55!! oll
+
+Quart 321! Now
+
+Aux 11
+
+Firewall- Sudo ufw enable
+
+Laine Sop Sap list
+
+visudo - Bottom P
+
+chlo, enter, ctrlx
+
+Sept genome Shell Sude Soy Rockage 7
+
+Alkit Sun/ch/picks/Pessed rules
+
+Sudo pass user
+
+all, lick unlock
+
+Like a phon
+
+apt-list Surch shows reinstall remove update upgrade fullugging edt Sources Satisly
+
+apt list package kali live default
+
+/etc/fstab
+
+Use blaid
+
+Auto
+
+Band: Sude-b
+
+Is-F
+
+Root
+
+Sude is lact
+
+Sale nane low/hess
+
+wd-location
+
+Side nobody when
+
+Shows Folder
+
+CO folder
+
+cd.. 4
+
+Tabalo
+
+grap
+
+Re
+
+Aapt Search
+
+de
+
+dpkg -L package name
+
+Is Tot
+
+Installed apk list uninstalled. <DK-Cache Pyrames &
+
+dpkg -S /Ath/1/file
+
+Side Iations]
+
+Sudo -1
+
+Sudo-s
+
+So-He
+
+dpkg -
+
+listes all apt-Cache Plagrones |
+
+Yarg aphide Search
+
+Read
+
+Chittex: UJFS Va
+
+Sude status fuse bik
+
+Jo at
+
+lised
+
+Male-
+
+Istik
+
+355 Ched wra Files bruched on blond
+
+Chned
+
+Sulo chattri le
+
+to/oder de chrod 755 te
+
+F echod
+
+Theme Love/logite
+
+Te dick he
+
+ar los
+
+Pule St SQL
+
+-Sk Spenter
+
+grep "Woning" laws inglish by
+
+fuck Report wherings only.
+
+Rkhunter
+
+Rust Full Side-chatel - Config //shut
+
+Ode
+
+040R
+
+Laleh her.conf local
+
+UPDATE MRes = ??
+
+4
+
+MIRRORS MODE
+
+WEB CAD = 11 11
+
+-So-kyns ---PORKE PEKROPIG
+
+-hush SHA256 -Scan Roket mode Though HASH CMD = SHA256
+
+PHALAVZ DIRTIEST=1
+
+Mailon Wain=""
+
+SUSPSCANDIRS
+
+PKG NO VERFY="" Var timp des She
+
+Chelto Entry
+
+3+
+
+Live usb -a Look Fors TERMINAL
+
+fromblare hit trame py a By
+
+deplays sh Toxy /gunceve / terminal/legacy/ps:/
+
+Terminal= dconf-editor fool
+
+dconf dump I
+
+org gnome Temim gsettings list recursively org.gnome. Terminal dcent reset -f /o/g/t //[i]/ ocent list lory / gnome / tairiaal [legory [potiles/ Sudo chown -R $user: Buser $HOME/.config/conf sudo apt install -feet-terminal
+
+~/. config / feel / terminal/triminalic UMOUNT tome umount & sudo umount - I leath/to/mant Sudo umount of [outh/ to [mont Whats buy: sudo (sof /path/to/mont Sude fuser -km /path/to/mont reshor Gui Sule Sastoral rest
+
+Sulo umount /pull/10/mant
+
+DM-2
+
+Umount -1 /dev/dm-2 dmsetup /dev/de-2 desky remove all USERS Killall-u ubuntu
+
+w= detailed
+
+who u pkill - ubuntu terminate all pkill -9 - pts/X = kill pts
+
+All users
+
++ passwd -ounty.
+
+fuser -km (dev/de-2 killp hant-dev/dm-2 FUM
+
+All possible: cut -d: -fil /sk/pound user process ||| warmed - 1 ubuntu
+
+Background: crontab - $ is lek/cron.te
+
+Systemctl stop gdm Systemch Shop polkit
+
+Achive Services: list-units ~type-Service
+
+Stake running
+
+K Find /-name "gnome-session" = PID || Ps fp 7303, 47.598 kill -9 7303, 47598 (kill user) ||| skill - 1000 Pecess + run/user echo $$ rm -rf /run/user/1000
+
+SwapeffUmount-a-f
+
+Stop ers Shop Sp
+
+Jop Losing Person
+
+Mat -
+
+Sed hylp
+
+Sale Sordel Sant
+
+ALL F2 Alt F2 gnome-session-quit --no-prompt busch call org.gnome. Shell locg/gnome/shell org.grome, Shell Evals "Meta, restart ("Restarting...")" kill all -3 gnome-Shell (restart infeface not apps) Lete/sudoers or /wsr/bin/gnome-terminate Files nano leke /systemd/logind.conty NAutoVTs = 0 & Pen UT = 0 APPLY systemcH restart systemd-logind
+
+SUDO visdo
+
+#% sudo All = (ALL: ALL) ALL
+
+ALL-CALL: ALL) ALL
+
+comment out
+
+Isado
+
+Kemel cat /proc/sys/kernel/tainted. If not O. Rooty 111 Sudo Systemctl stop trucker-extract-3 tracker-miner-fs-3 gufsd service 2>/dev/null $ sudo systemet mask trucker-extract-3 tracker-Miner-fs-3 Ill Sudo Systemctl stop Snapd. Service Snapd. Socket polkit. Service 27/dev/nu
+
+Systemctl Stop getty@tty X, Service || then mask + Serial-getty @ Hy SD. Service Systemch stop gnome-remote-desktop sSsd Avahi-daemon Systemctl stop gdm + mask A .Service ·Socket
+
+Systemctl stop snaped. Service Snapd. Socket
+
+Umount -L/snap/
+
+Sudo dmsetup removerall f Sudo umount -1 15naple /dev/null+
+
+dloid Special PRO! Special PRO2!
+
+root
+
+SSSD Como
+
+Alt F2 Alt F2 Files gnome-session-quit --no- org.gnome. Shell no-prompt busch call org.gnome. Shell lory/gnome/shell Eval "Meta, restart("Restarting...")" kill all -3 gnome-shell (restart inteface not apps) /etc/sudoers or /usr/bin/gnome-terminate S nano lete / systemd / logind.conty NAutoVTs = 0 & Deserve VT=0 APPLY systemch restart Systemd-logind
+
+SUDO visudo
+
+#% sudo All = (ALL: ALL) ALL I sade ALL- (ALL. ALL) ALL
+
+Comment Out
+
+Kemel cat /proc/sys/kernel/ tainted. If not O. Rooty 1|| Sudo Systemctl stop trucker-extract-3 tracker-miner-fs-3 gufsd. Service 2>/dev/null sudo systemch mask trucker-extinct-3 tracker-Miner-fs-3 sudo systemctl stop Snapd. Service Snapd. Socket polkit. Service 2>/dev/null
+
+Systemctl Stop getty@tty X. Service || then mask + Serial-getty@Hy SD. Service Systemch stop gnome-remote-desktop sssd Avahi-daemon. Systemctl stop gdm + mask A Service Socket
+
+Systemctl stop snapad. Service Grapd. Socket
+
+Umount - /snap/e
+
+Sudo dmsetup removerall flisi Sudo umount -1 1Snappen/dev/null
+
+Alloyd Special PRO! Special PRO2! root
+
+SSSD.Como
