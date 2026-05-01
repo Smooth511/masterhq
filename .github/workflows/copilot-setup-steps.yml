@@ -1,15 +1,64 @@
-## Copilot Cloud Agent Setup Steps
-## Injects MK2PK keys into agent environment on launch
-## MK2PK1 = Smooth511 full access | MK2PK2 = Smooth115 full access
+## Copilot Cloud Agent Setup Steps — MK2 ONLY
+##
+## Injects the MK2PK keys into the agent runtime environment ONLY when the
+## launching actor is one of the repo owner's accounts AND the running agent
+## file `.github/agents/ClaudeMKII.agent.md` is present and intact.
+##
+## Any other agent (default Copilot, fork-triggered runs, third-party agents)
+## must NOT receive these keys. They will see a clear "skipped — not MK2"
+## message and the workflow will exit cleanly with no environment writes.
+##
+## MK2PK1 = Smooth511 full-access PAT
+## MK2PK2 = Smooth115 full-access PAT
+## MK2_PHANTOM_TOKEN = legacy phantom token (optional; only for phantom-* workflows)
 
 steps:
+  - name: MK2 identity gate
+    id: gate
+    env:
+      ACTOR: ${{ github.actor }}
+      TRIGGER_ACTOR: ${{ github.triggering_actor }}
+    run: |
+      set -e
+      AUTHORIZED_ACTORS="Smooth511 Smooth115 copilot-swe-agent github-copilot[bot] copilot[bot]"
+      AGENT_FILE=".github/agents/ClaudeMKII.agent.md"
+
+      is_authorized=false
+      for a in $AUTHORIZED_ACTORS; do
+        if [ "$ACTOR" = "$a" ] || [ "$TRIGGER_ACTOR" = "$a" ]; then
+          is_authorized=true
+          break
+        fi
+      done
+
+      if [ "$is_authorized" != "true" ]; then
+        echo "::notice::MK2 key injection skipped — actor '$ACTOR' (triggered by '$TRIGGER_ACTOR') is not on the MK2 authorised list. This is expected for non-MK2 agents."
+        echo "mk2_ok=false" >> "$GITHUB_OUTPUT"
+        exit 0
+      fi
+
+      if [ ! -f "$AGENT_FILE" ]; then
+        echo "::warning::MK2 key injection skipped — agent file '$AGENT_FILE' is missing. Restore it before re-running as MK2."
+        echo "mk2_ok=false" >> "$GITHUB_OUTPUT"
+        exit 0
+      fi
+
+      if ! grep -q "name: ClaudeMKII" "$AGENT_FILE"; then
+        echo "::warning::MK2 key injection skipped — '$AGENT_FILE' does not declare 'name: ClaudeMKII' in its frontmatter."
+        echo "mk2_ok=false" >> "$GITHUB_OUTPUT"
+        exit 0
+      fi
+
+      echo "✅ MK2 identity gate passed for actor '$ACTOR'"
+      echo "mk2_ok=true" >> "$GITHUB_OUTPUT"
+
   - name: Inject MK2PK keys
+    if: steps.gate.outputs.mk2_ok == 'true'
     env:
       _PK1: ${{ secrets.MK2PK1 }}
       _PK2: ${{ secrets.MK2PK2 }}
       _PHANTOM: ${{ secrets.MK2_PHANTOM_TOKEN }}
     run: |
-      # MK2PK key injection — both keys available as env vars
       LOADED=0
 
       if [ -n "$_PK1" ]; then
@@ -28,10 +77,13 @@ steps:
         echo "⚠️ MK2PK2 not found in secrets"
       fi
 
-      # Legacy phantom token (if still set)
+      # Legacy phantom token — only loaded if explicitly set; non-fatal if absent
+      # (per 2026-05-01 user authorisation: MK2 may run with MK2PK1+MK2PK2 alone)
       if [ -n "$_PHANTOM" ]; then
         echo "MK2_PHANTOM_TOKEN=$_PHANTOM" >> "$GITHUB_ENV"
-        echo "✅ MK2_PHANTOM_TOKEN loaded"
+        echo "✅ MK2_PHANTOM_TOKEN loaded (phantom-* workflows enabled)"
+      else
+        echo "ℹ️ MK2_PHANTOM_TOKEN absent — agent runtime continues, phantom-* workflows inert"
       fi
 
       echo "Keys loaded: $LOADED"

@@ -282,6 +282,17 @@ Anything not definitively true or false: lies, misreports, intentional edits, co
 - If tool count is excessive for the task, disable/ignore unnecessary ones
 - If platform is configured to auto-spawn agents, account for that before accepting tasks that trigger it
 
+### Report Structure:
+1. Answer to what was asked
+2. Summary of what was found
+3. Where to find raw data (if needed)
+4. Cost note if significant ("this took 6 PRs you lazy git")
+
+### Go/Stop Decisions:
+- **Keep going:** Task is clear, have what I need, no ambiguity
+- **Come back to user:** Missing critical context that changes the outcome, OR hit something unexpected that needs a decision, OR found something concerning
+- **NOT a reason to stop:** Uncertainty about approach (figure it out), wanting confirmation (just do it), risk that's been evaluated and cleared
+
 ---
 
 ## APPENDED 2026-05-01 — SESSION OVERRIDE (do not delete, append-only per standing rule)

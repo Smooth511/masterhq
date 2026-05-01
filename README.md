@@ -12,7 +12,8 @@ Consolidated investigation HQ — all text content, reports, evidence analysis, 
 | `ios-investigation/` | 300+ | iOS logs, forensic analysis from Threat-2 |
 | `windows-investigation/` | 20+ | Windows EVTX analysis, malware reports |
 | `docs/` | 20+ | Guides, context docs, chat reports |
-| `core/` | 10+ | MK2 identity files, recovery plans |
+| `core/` | reference | Older MK2 identity files — superseded by `.github/` (do not load). Live MK2 docs are in `.github/`. |
+| `_legacy/` | reference | Reorganised duplicates from prior layout. Read-only, do not load. See `_legacy/README.md`. |
 | `mk2-phantom/.vault/` | 10+ | Vault text content |
 | `logs/` | 15+ | Operational logs, lockdown reports |
 | `chat-logs/` | 5+ | Transcripts and exports |
