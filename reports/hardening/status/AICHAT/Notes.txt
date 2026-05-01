@@ -1,0 +1,243 @@
+dirungr
+
+Schena
+
+importer.py im-config im-launch.
+
+gsettings list-keys - x-dm, slick.greeter
+
+Yory X Server /usr/share/X11/xorg.conf.d Sfdisk
+
+Sudo-root
+
+ludisplay mdir display ndos
+
+Samba-tool - needs tdb de-tool-disply Manager
+
+Services-admin
+
+Shares-admin
+
+- lightdm
+
+time-admin
+
+lightdm Islogins
+
+Users-admin
+
+x-Sessinan-manager thunar-settings
+
+xf-admin
+
+groupmens. admin membes
+
+intro 8
+
+i06tables
+
+iptables
+
+Ipadmin net
+
+readelf
+
+>
+
+Xephyr cant open hat diphen
+
+xday info
+
+xfce4-display-settings
+
+gpasswd - lehlgroup gshadow xload xlsclients
+
+95p3
+
+хтоге
+
+network-admin
+
+x Prop
+
+x Security
+
+xServer
+
+zenity
+
+linux (ro/w) systemd. unit = rescue, target.
+
+Initramfs nipi clean check headers. ostype other head -C IM /dev/numelnip I hexdump -C | head -n so
+
+CSM off
+
+Sudo phill -Uujer
+
+Sudo killall -9 -0
+
+Sudo Systamctl restart loyd - pizzaman accounts- daemon
+
+root-like pol Sudo Systemct restart lighteen.
+
+Sel root = Set prefix = UM init. "insmad normal
+
+boot id
+
+26606 114 cuid 39665777 0157 4843 Seef 042949192962
+
+xephyr Networkch
+
+xdg-desktop-icon xdg-desktop-menu xdg-email"
+
+xdg-icon- resource
+
+xdy-mime
+
+xdg-open
+
+xdy-Settings
+
+xdg-ur-dir
+
+xdg-or-dirs-gtk-update
+
+xdy-usr-dirs-update
+
+loginch
+
+xdg-dbus-proxy
+
+Sudo dkpg - reconfigure tying
+
+lightdm-c
+
+XOG DATA-DIRS.
+
+/var/lib/flatpack/exports/share: export DISPLAY == 0 Us/laal/share usr/share & xset - dpms
+
+list-unit-files
+
+Systemd
+
+--bootloader-entry-NAME
+
+-- -boot-loader-mene-TIME
+
+Systemctl start Systemd- networkd
+
+Pam-Securetty
+
+Pam-Hy-audit
+
+pretty agent
+
+Proc- Hy
+
+Rock Securently
+
+nles >Sty
+
+Hy- list
+
+Hy~1
+
+Xandar
+
+thystys
+
+*Set
+
+Mast
+
+0-
+
+ssh -X user@hoshame echo $0ISPLAY
+
+getty
+
+"Systemat Show-environ
+
+Room Securely Para Hy-audit
+
+Systemd-hwall
+
+clean
+
+Susten!
+
+ment
+
+worl share /Applications local share Applications ~/.local/share/applications Apps grep -r "Name = " /usr/share/applications | ~/.local/share/application: I cut -d's's -F2
+
+Set record fail=0 Save-enu record fail
+
+Set linux-gfx-mode=text terminal-output console
+
+isr/share/linuxmint/adjustmenets
+
+grep -i menuentry
+
+puckajes /usr/lib/python3/dist- /gilimporter.py default display
+
+Unix-group admin
+
+/ 15-ubuntu-Syston- adjustments, execute 20-apt-set-recommends .execute
+
+org.freedesktop
+
+111
+
+/boot/grub/grub.cfg
+
+Shich greeter org r/share/sessions/xfee.desktop || freedesktop / Accounts / user 1000
+
+User-list. Vala:1064:
+
+• org.freedesktop. Display Manager Seffings, vala: 178:
+
+g-io-module-get-default CoConf Settings Backend)
+
+Quidd 106:107 Irun (widd
+
+↓
+
+gsettings-backend
+
+/usr/sbin/nologin
+
+Accounts Service
+
+lightolm 113 117 Var/lib/lightm
+
+Light Display Manager
+
+usr/share/polkit-1
+
+distutils System Mod.
+
+Unix-user Unix-group
+
+nor/unix/korting
+
+Shinkooker
+
+python it update hooks
+
+Usr/bin/clean usr/share/python 3/debpython/files.py
+
+System-config printer-common
+
+Ubuntu-drivers-common
+
+hook warpinator
+
+2 Fac03d9-bb36-4led=971b 960260320662
+
+usr/share/icons
+
+168997al a8e9 4ea2 95d8 2b370b3d8593. -T3 -F
+
+-R
+
+-B
