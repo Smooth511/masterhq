@@ -1,0 +1,795 @@
+thunar Fl init Xconf: spawn spawn
+
+message without
+
+Invalid Machine ID in
+
+/var/lib/dbw / machine-id
+
+Machine ID
+
+or
+
+lake/machine ID
+
+Thunar Gtk
+
+Xfdesktop Icon View::label -alpha = 0
+
+Widget_class desktop Icon View to Style u "*fdesktop
+
+xfdesktop xfdesktop-settings xfdesktop-start
+
+xflock4
+
+x font sel
+
+of Setting Sd
+
+"
+
+xfrun 4 > xfcek-appfinder
+
+gufsd-admin liberec / gufsd-admin
+
+-icon-view"
+
+Services-tool.png ../../../c/time-admin/five
+
+time-tool-automatic, png
+
+admin 1Codes.txt
+
+Spadmin.html
+
+Ipadmin.6.02
+
+рукот if update hodes
+
+usr/bin/man car shure Ingthen 3 bython/kl.py
+
+Systom-confy printer-Commen
+
+cant-drives-common
+
+hook warpinter
+
+2fac03d9-bb36-4led=9716 a6d266320662
+
+usr/share/konske pol
+
+168997al ase9 4ea2
+
+95d8 26370b3d8593
+
+-T3
+
+-R
+
+475
+
+-B
+
+init
+
+Insmod normul
+
+122
+
+TO
+
+Intel
+
+linux (ro/w) systemd. unit = rescue, forget.
+
+nipi dean Ostype other Initramfs Check headers. head -c IM /dev/numentpl I hexdump -C | head -n 50
+
+CSM off
+
+Sel rook= Set prefix=
+
+-Uwer Sudo phill-u Sudo killall --U
+
+Sudo Systemctl restart lloyd-pizzaman accounts-daemon 100k- Sudo Systemct restart lightchen like pol
+
+boot id wid 39665471
+
+26606 114
+
+4843 Seef
+
+242949192962
+
+UM
+
+mit
+
+insmad normal
+
+Python if update hooks
+
+direngr logil 0-3(8) importer.py
+
+in-contig -lausch.
+
+Schena geethings list-kys- xdm.slick-greater imreadelf Yong X Server /usr/share/X11/xorg.conf.d Sfidisk ludisplay mdir display des Xephyr cast open hat die needs tab dm-tool-disply Manager x-Sessing-manager thunar-settings Sudo-root Sanba-tool - Services-admin Tightdm Shares-admin lightden Islogins time-admin Sers-admin xdpy info x-admin xfce4-display-Settings xload gpassud - lehlgroup gshadow xlsclients хмоге groupmens. admin membes gips intro-8 106tables iptables \padmin x Prop x Security x Server zenity
+
+network-admin
+
+net
+
+echo CPP-13 Chan chain HOME
+
+Hohome Blank
+
+grep "overlay" /proc/mounts
+
+tmp. mount /tmp..... mounted /tmp.
+
+finalud Service runtime dir shutdown pivot root
+
+Plymouth
+
+PID My Sig SIGRE ATMINT 20
+
+bus I device not MTP device
+
+!/run/stymath/010
+
+176
+
+Job 32. Trust
+
+IN DS 20326 82
+
+Screesho\
+
+Sysd. ask password-plymouth, path Forward PWD rq to Plymath Cryptsetup. targetf change first, boot!
+
+Control Co: '/usr/sbin/abuchil -E HOME = /run/alss -E XDG-RUN-TIME-OIR=/run/alsa/runtime restor
+
+0"
+
+.
+
+vguarb deactivate uga Console colour dummy device 80×25 nouveau 0000:01:00.0 fb: 8192 MiB
+
+GDDR6
+
+efi-pstore, Service ↓
+
+Sydfs/pstone
+
+Mint kernel
+
+Systemd-repart. Service repartition
+
+/vr/sbin/
+
+Root Disk
+
+nouveau [drm] fb0: nouveaudrmfb frame buffer
+
+0000:00:00.0 drm disabling PCI
+
+device.
+
+Power manage bug
+
+Systemd-update-tmp-run level. Service nhlevel,
+
+alsact:, load-State: 1689 far Hib/asu/sound/- a sound. State. Hardware HDA-Intel. Nvidia GPU 93 HDMI "HDA: 1ode 0093, 14624752, 0400100100" Of "Oxc752"
+
+Change UTMP
+
+"0x1462"
+
+finided
+
+X25 y
+
+XServer-xorg-video xwayland zip yelp-xsl
+
+accountservice evolution-data-Server
+
+acl
+
+app-install-data
+
+app stream
+
+aptitude
+
+bluez
+
+btrfs-progs
+
+Common
+
+bubblewrap
+
+cups
+
+Fakeroot
+
+-common
+
+build-essential
+
+Firefox-locale- Flatpall Fonts - lots
+
+Fuse3
+
+dconf-gsettings
+
+gamemode
+
+gamemode-daemon
+
+Cinnamon-desktop-data ubiquity Casper bzip2
+
+cpdb-backends-cups uno-libs-private
+
+cracklib-runtime
+
+user-setup
+
+cron-daemon-common Xreader
+
+Va-driver-all
+
+dmz-cursor-theme webp-pixbuf wireplumber
+
+dns-root-data
+
+Volkan-tools
+
+xauth
+
+espeak -ng-dala:amd64 x brapi xfonts
+
+www
+
+Passwords
+
+11. lloyd = Qwert 321! Ether Qwert 123!
+
+2. lloydz = grubWars 256! fything rhythmbox
+
+thermald Thunderbird. дсс gdisk✓ ✓ ×5
+
+genisoimage Ghostscript
+
+gir1.2-
+
+gnome-menus
+
+qttranslations-on
+
+-data Laptop-delect
+
+Session - Migration
+
+Switcheroo-control Poppler-tils
+
+printer-driver
+
+pulseaudio-utils
+
+glib-networking pythen 3-brlapi-amd64
+
+gnome-settings-daemon-commony
+
+gsettings-desktop-Schemas Usual glio-2.1 - Ubauty - schemas 1.8gb Sniper 123! gufs- Python3-pycurl And gzip iso-flay-png hplip klibc-whis eee-dala kmod intel-microcode language-pack-**
+
+Worlib/dpky/briggers let/systemd/system/
+
+Protect System = strict No New Privileges=yes
+
+Protect Home- yes
+
+Private Tmp = yes
+
+NoNewpriv
+
+lete/ssh/ssh_config
+
+Permit Root login no
+
+Password Authentification no Pubkey Authentification yes
+
+Max AuthTries.
+
+lobalssh/sshd_config
+
+<service>• service.d/
+
+override, conf
+
+Private Devices=yes
+
+Protect Kernel Modules-yes
+
+Protect kernet Tunablesayes
+
+System Call Filter=Qsytem
+
+-Service
+
+Tek Fshab
+
+lek/sudoers
+
+leh llogin.defs
+
+lehl passwd shadow group lekl Securetty lehl hosts, allow + deny
+
+lebe/sysctl.conf or lehel sysctled/99-hardened. conf
+
+net.ipv4.conf.all.accept_redirects =
+
+net.ipv4.top-syn cookies
+
+kernel. randomize-va-space =2
+
+Run Sysch -p after Teklsysctl.conf
+
+Late/security/puquality.conf
+
+SystemCH disable
+
+Perm Passwords
+
+lloyd-111 lid=22222
+
+sexedd -m-s. /0/0 d. lukas & Bath.
+
+Mr Themelt we there (Gyd.
+
+usermod - shame boyd-mix down -R laydilloyd home lyd. Jardel li...
+
+usermod - 1000 lloyd.
+
+grod mod
+
+1000 hod.
+
+In-s /home/sloyd Theme lline
+
+-fucow
+
+grpcenu
+
+lesbid by d
+
+hormone partyb
+
+nano lek/haits 27.0.0.1
+
+(ch/sdes/cm
+
+127.0.1.1 party
+
+91.689.91 91.189.0.91
+
+Caif.
+
+ghed-clipperss Rock -Chipot
+
+/ Share /xsessions/xfeedesktop org | freedesktop / Accounts / user1000
+
+User-lib
+
+Sudo grep - CnE ".*inux\rlinu. *' /var
+
+Tib user-setup.
+
+Alt N-lis AttZ-hidden inter Ctrl R- insert new
+
+ALL wrap
+
+F9 Cut
+
+AltM Smarthome F10 Paste
+
+Attend
+
+Alt = Start
+
+Att 3=Indent
+
+kworker 1:2 7:2
+
+FZ-Exit
+
+RRaA
+
+F3 - Write save
+
+CtrlS Save no prompt!
+
+Home-line Shit
+
+End-line end
+
+Att 3-Comment line
+
+HOME END>
+
+Call sign =.....y = 1. G3
+
+Aa
+
+mm
+
+m-percpu
+
+CONTROLS
+
+Shich greater
+
+WR / Share /sessions/xfeedesktop
+
+org | freedesktop/Accounts /user 1000
+
+User list. Vala:1064:
+
+• org.freedesktop. Display Manager Settings, vala: 178:
+
+g-io-module-get-default CoConf Settings Backend)
+
+Uuidd 106:107 /run/widd
+
+Accounts Service
+
+/usr/sbin/nologin
+
+gsettings-backend
+
+lighton 113 117
+
+Light Display Manager
+
+usr/share/polkit-
+
+durutils Syfer mad.
+
+bleman.rules!
+
+unix-user Unix-grap
+
+not/unix/kuty
+
+worl share /Applications
+
+local share /Applications
+
+~/.local/share/applications Apps
+
+grep -r "Name = " /usr/share/applications | ~/.local/share/applications | cut -d's's
+
+Set record fail=0
+
+Save-enu record fail
+
+Set linux-gfx-mode=text
+
+terminal-output console
+
+-F2
+
+Puckuje) /usr/lib/python3/distri /gilimporter.py default display
+
+usr/share/linuxmint/adjustmenets
+
+/15- Ubuntu-Syston - ad, shments, execute 20-apt-set-recommends .execute
+
+Unix-group admin -i "menventry grep
+
+川
+
+org.freedesktop
+
+/boot/grublgrub.cfg
+
+Phill - Username
+
+Killall -i
+
+process- name
+
+killall -r "multi.*"
+
+2222
+
+111114
+
+default vesamenu.c32
+
+4f68 bce3 escd 4db1 96e 7fbc
+
+af9846709
+
+би
+
+D
+
+花錢 件<
+
+[
+
+xephyr
+
+Networkch
+
+xdg-desktop-icon xdg-desktop-menu xdg-email"
+
+nxdy-icon-resource xdy-mime S
+
+xdy-open xdy-Settings
+
+xdg-ur-dir
+
+gr xdg-ur-dirs-gtk-update
+
+xdy -usr-dirs-update xdg-dbus- -dbus-proxy
+
+lightdm-c
+
+са
+
+XOG DATA-DIRS
+
+Scrif
+
+"I clean" /var
+
+ulaal/share
+
+$3 ex list-unit-files
+
+$$ in
+
+Systemd
+
+Systemctl start Systond- networkd
+
+--bootloader-entry=NA NAME
+
+-boot-loader-mene-TIME
+
+Pam-Securetty
+
+Pam-Hy-audit putty agent proc-ty
+
+Rock Secretty
+
+new sty
+
+Hy Hy-list
+
+Xandar
+
+Hy~1
+
+Sudo dkpg - Reconfigure thy my thystys
+
+*Set
+
+/lib/flatpack/exports/share: export DISPLAY = : 0 -dpms
+
+Mast a-
+
+usr/share" && xset ssh -X @hare echo $0ISPLAY
+
+getty
+
+Systemctl Show-environ
+
+farm securely pare thy aodip Systemd-hwab
+
+loginch-
+
+Sustand-id 128-new
+
+Sl
+
+ment
+
+lcdrom/boot/live wid -6?
+
+Search, read and write
+
+sudo find /usr/lib - name "sys "-type f -execs printf "In FILENAME: {} ___\"\is -exec cat {} \; I sudo tee: /var/log/rip/logs/sys tut Mount
+
+Image.
+
+Sudo mount -o loop, ro partition_dump.ing Shadow packages Mint/dump nipi HDD + dala Rip grep "Status: install ok installed" nip2prtpl.ing. /rock/var/lib/dpkg/sketus - B10 hig (P) P3 and sold.img
+
+casper-login Script for me.
+
+[ "$USERNAME"
+
+Username=root f [ -f /ele/casper.conf] $3.lt/per -Conf exec /bin/login -f $USERNAME -texts "root"
+
+=
+
+31 /root/var/crash/your-hot drop-sh 11 exec /bin/login -f 8
+
+neth
+
+Linux umlin Root rw noefi
+
+nouga Free init_on_ale = 1 page_poison=1 Slab-nomerge ptizon lockdown = confidentiality Mitigations=auto Spectre-v2=on mds=full rand Toxoff randomize_k stack offset=1 Module. Sig-enforce debugfs-off opps-panic Usyscall = none audit=1 audit_backlog-limit=8192 roothash= HASH Systemd. Verity=1 kernel. kptr_restricts kernel. dmesg-restrict = 1 Kernel, porf_event_ =52 kernel yama, ptrace - Scopet: 3 3
+
+Kemel. unprivileged bopf-disabled = 1 Kemel. kexec-load-disabled, Um. unprivileged user faulted=0 FS. protected-hardlinks = 1 | Fs, protected-symlinks = 1 fs.protected-fifos Esprotected_ regular = 2 kernel modules-disabled = 1 kernel. Sysrq=176 LAST net.core.bpf_jit-harden = 2
+
+BASH AUTO fare (), ε
+
+local src="$1"
+
+local base $(base name "src") local dest-dir="home /16/3 PW" local dest-file="$dest-dir/$base" echo "Processing &src > $dest.file" # Unlock Source, copy, then lock, Sude chatte - -a "src" 2>/dev/null sudo cp -r "src" "$dest_file" Sudo chattr +i "src" 2> /dev/null #Assign own + Perms to ་ дру
+
+Sude chown lloyd lloyd "$dest-file" Sudo chmod 700 "$dest_file" #Final lock dest_file"
+
+sudo chatte +i+a "
+
+TO USE = Singlefile= fare leke/fstab WILDCARDS Muli = Fare lete/shadow ? for f in lete /*. conf; do fare "$f"; done.
+
+>
+
+3
+
+ALIAS (nano, ()
+
+alias nano-nano --workdir = /home/1/s/71
+
+DEBUG
+
+Sudo debugfs - R "Cat letel Estab" /dev/overellip 2
+
+MOUNT?
+
+71home1/2/3/16 realk
+
+Mountpoint 2 findmnt 1/2/3-Info df 1/2/3-who owns /proc/mounts | grep "1/4
+
+HIDDEN? MKDIR Imp/check hidden
+
+if the mountp = /mnt/data and its on my root I
+
+/5/bind mount root Sudo mount ·
+
+bind | | Emp/chahida
+
+Ls /tmp/check. hidden /mnt/dala
+
+CLEAN
+
+Su umount /tmp/chikt && rmdir tmp/check hidden
+
+FOR HOME
+
+mkdir /tmp/check
+
+Sudo mount bind //
+
+Is a Imp/check Theme/d
+
+Trun/alsa
+
+export XOG-RUNTIME-DIR=/tmp? Safe-runtime mkdir -p $XDE-RUNTIME-DIR
+
+2
+
+sudo debugfs -R "Cat lek/fstab". Ideul nume Onlp2 > /home/1/23400
+
+vga Switcheroo audio,
+
+Nvidia hdmi Sound/cardo /imput
+
+Pkill-uwername
+
+killall - process-name
+
+Sulo Systemcel restart Systend-logind. LOGIN
+
+Sodo Systemct restart ssh
+
+SELinux config?
+
+Systemd-tmp files-setup-de? Empdb tmpmount cabstractions/user-temp> Systemd-tmpfiles-setup-dev-early.
+
+Protodata="netid=unix/x/tmp/l/248
+
+$INFO echo HISTFILE=Shell $BOSYBOX PATH/Impr2? Su
+
+writes (unset HISTALE
+
+SYM IT
+
+cha -i-a 11. bush-hisay
+
+Su rm 1.file.
+
+su in -s /dev/nulls 11. file
+
+EXPORT
+
+export HOME /home/lloyd/export XDG_RUNTIME_OIR =/tmp/Safe_runtime
+
+unset HISTFILE
+
+mkdir -p $XDG-RONTIMEDR
+
+CHK MNT
+
+INODES
+
+Mount | grep -E "home (11" is - jd home id
+
+1 CHOST?
+
+I su umount ~ Ilhome grep "overlay" /proc/mounts
+
+۲۸
+
+GE 738389 DEFINITIVE
+
+alsa & sandluga
+
+F
+
+Plymouth all pwd forward /run/ply math udev links data loun ludev
+
+VaR /var/spools/ups/tmp Ivar/lib
+
+Static nodes Idelnuram oleo104 Haulots 0600- --10:235
+
+CA ~ 383 DEFINITIVE
+
+F
+
+alsa & sandluga
+
+Plymouth all pwd forward /run/ply math udev lines data loun ludev
+
+VaR /var/spools/ups/tmp Ivar/lib
+
+Static nodes /dev/nuram 0600 - 10:144 45
+
+Ideyactofs 0600-10:235
+
+T
+
+SYMLINK NO xxx/x rm "Symlink name" &mdir find /home/1/2/3 - type ( Unlink "Symlink name" Find /p/+/di. - xtype 1 -dekke find (1/2/3 -types-delete (socket) delete Lock SYM Sudo Chattr ti-h sudo find /12/3 -type d - empty - delete (diremp) find /1/2/3 -type (-15 (list links)
+
+HIT LIST
+
+Find lik2/3 -type ( - printf "%p "%d\n' > xxx.txt grep -"E "Exec Stort (Exec Pre | bash|sh|python" FOULL CHAIN NUKE
+
+readlink -f /usr/bin/cpp 3 x86-64-linux-gnu-* серж
+
+BINARIES == SH Find /s/ grep "Shellscript".
+
+"init_on_alloc= 1 init, on- free=1 slab-romerge
+
+all-none lockdown=confidentiality. domize_kstart-off=1 module. Sig- enforce audit=1 audit-backlog - limit=8192. bysrq = 1 Kernel.unprivileged.bpf-disabled=1 tack-offset-on, Systemd. volatile=state hi_watchdog=1 kernel, panic_on_10_nmi=1 -up-panic = N apparmor=1 Security-apparmor
+
+hel, modules_disabled=1
+
+GRUB-CMOLINE LINUX = "init_on_alloc= 1 init on  page poison=1 ph-on vsyscall-none lockdown- Mitigations-auto tsx=off randomize-kstart-off=1 debugfs-off opps-panic audit=1 audit_backlog- modules_disabled=1 kernel. Sysry = 1 Kernel.unprivileged. nopersistent randomize_kestack-offset-on, Systema kernel panic-30 kernel.nmi_watchdog = 1 kernel,  Softlockup-panic = Napparmor="s
+
+last till file done) te kernel, modules_disabled=1
+
+Sudo Swapoff-a
+
+CMDLINE_LINUX="init_on_alloc= 1 init on. free=1 slab-comege
+
+Page poison=1 pti=on vsyscall-none lockdown-confidentiality Mitigations = auto tsx-off randomize-kstart-off=1 module. Sig-enforce debugfs-off opps=panic audit=1 audit-backlog limit=3192. modules-disabled=1 Kernel.Systq = 1 Kernel.unprivileged.bpf-disabled=1 nopersistent randomize_lestack-offset-on, Systemd. Volatile-state kernel, panic=30 kernel.nmi_watchdog=1 kernel. panic_on_10_nmi=1 Softlockup-panic = apparmor=1 Security-apparmor
+
+(last Hill file done) then kernel, modules_disabled=
+
+GRUB
+
+Sudo Swapoff-a
