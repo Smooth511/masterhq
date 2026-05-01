@@ -1,7 +1,11 @@
-# `_legacy/` — Reference-Only Duplicates (DO NOT LOAD)
+# `_legacy/` — Reference-Only Duplicates (BEHIND ACCESS GATE — DO NOT LOAD)
 
-Contents of this folder are **older duplicates** of MK2 / ClaudeMKII files that
-were previously scattered across the repository root, `core/`, and
+This folder lives **inside `mk2-phantom/`** and is therefore covered by
+`mk2-phantom/ACCESS_GATE.md`. Read the gate first. Same rules apply: no
+unauthorised reads, no edits, no loads.
+
+Contents are **older duplicates** of MK2 / ClaudeMKII files that were
+previously scattered across the repository root, `core/`, and
 `masterhq-install/.github/`. They were causing fake / runaway Copilot launches
 because agents were loading whichever copy they hit first, sometimes with
 outdated rules (Sonnet ban, Opus-4.5-only model lock, etc.).
@@ -27,3 +31,6 @@ reference only. Do not edit, do not load, do not treat as authoritative.
   the live `.github/` version and leave the legacy copy alone.
 - **No loading.** Agents that find `*.agent.md` or `copilot-instructions.md`
   files under this folder must skip them.
+- **Access gate applies.** This folder is inside `mk2-phantom/`. Unauthorised
+  agents must not enter `mk2-phantom/` per `mk2-phantom/ACCESS_GATE.md`.
+

@@ -28,9 +28,9 @@ into it when the live spec changes.
 
 ## Legacy
 
-`_legacy/` holds older duplicates that were previously scattered (root,
-`core/`, `masterhq-install/.github/` shadow staging). They are kept for
-reference, not for loading. See `_legacy/README.md`.
+Older scattered duplicates have been moved **inside `mk2-phantom/`** so they
+are covered by the access gate. See `mk2-phantom/_legacy/README.md`. They are
+preserved for reference only — never load them as authoritative.
 
 ## Why duplicates were a problem
 
