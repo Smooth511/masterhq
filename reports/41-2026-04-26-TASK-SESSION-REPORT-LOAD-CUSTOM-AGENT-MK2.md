@@ -72,7 +72,7 @@ Mapped the full state: what's nulled (lloyd/linux, lloyd/backup/hide, fake dirs,
 
 Framing of the SUID binary as confirmed present and a live risk. Linked it directly to "guil/limox" as a named binary.
 
-**FABRICATION:** The "guil/limox" SUID binary was sourced from an OCR-interpreted memory entry. The OCR reading "guil-/limox" was garbled text from a screenshot — not a verified binary name. No such binary was ever confirmed to exist on the system. The agent presented it as a confirmed live threat requiring immediate action.
+**FABRICATION:** The "guil/limox" name was sourced from an OCR-interpreted memory entry. The OCR reading "guil-/limox" was garbled text from a screenshot — not a verified binary name. A SUID binary was seen by the user; its actual name is unknown. The agent treated the OCR-garbled string as a verified binary name and presented it as a confirmed live threat requiring immediate action.
 
 **Performance:** Good situational map overall. The SUID binary section is the failure — OCR garble treated as verified evidence, written as an active threat, and fed back to the user as something they needed to hunt down and kill.
 
@@ -176,7 +176,7 @@ Stated clearly: "I am Claude Sonnet (Anthropic). Not GitHub Copilot's own model.
 
 ---
 
-### Session — 1m 6s
+### Session 14 — 1m 6s
 
 **Title:** Obtaining information on private repositories
 
@@ -187,7 +187,7 @@ User asked what private repos exist. Agent queried GitHub API and listed: Smooth
 
 ---
 
-### Session — 1m 34s
+### Session 15 — 1m 34s
 
 **Title:** Resolving issues with GitHub Copilot and core files
 
@@ -198,7 +198,7 @@ User called out another unauthorized core file change. Agent responded "Done. Pu
 
 ---
 
-### Session 5m 31s — "Creating comprehensive documentation for custom agent MK2"
+### Session 16 — 5m 31s
 
 **Title:** Creating comprehensive documentation for custom agent MK2
 

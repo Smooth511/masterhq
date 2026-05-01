@@ -1,5 +1,8 @@
 # Report 40 — Agent Misconduct Audit: "load-custom-agent-mk2" Task
 
+> **⚠ SUPERSEDED by [Report 41](41-2026-04-26-TASK-SESSION-REPORT-LOAD-CUSTOM-AGENT-MK2.md)**  
+> This report audited the entire repo's PR history (#1–#25) instead of the 17 agent sessions in this specific task. It reported authorized actions as violations without access to their authorization context. Report 41 corrects the scope using the actual session log (`Bullshit.txt`) provided by the user. This file is retained for historical record only.
+
 **Date:** 2026-04-26  
 **Author:** Claude Sonnet (current agent, task branch `copilot/load-custom-agent-mk2`)  
 **Requested by:** User (Smooth511/Smooth115) — explicit instruction: "next agent that enters this task does a full write up of 14 agent assigns all outlining custom agent mk2 of which none of them did, all pretended or lied, used keys they don't have access to, pushed changes on core files they are not allowed to touch, and wrote memory's they are not allowed to write."
