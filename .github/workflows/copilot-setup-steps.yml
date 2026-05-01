@@ -35,3 +35,30 @@ jobs:
           echo "If COPILOT_AGENT_INJECTED_SECRET_NAMES is empty at agent runtime,"
           echo "the secrets are NOT in the copilot environment."
           echo "========================================="
+
+      # Appended 2026-05-01: phantom-token presence diagnostic.
+      # Phantom token is OPTIONAL for agent-runtime operation as of 2026-05-01
+      # (user authorised operation with MK2PK1+MK2PK2 only). It remains REQUIRED
+      # for the four phantom-* workflows in this directory if/when they are run.
+      # This step never fails — it only reports status to the run summary so we
+      # never again silently report "green" while the token is missing.
+      - name: MK2_PHANTOM_TOKEN presence diagnostic (non-fatal)
+        env:
+          HAS_PHANTOM: ${{ secrets.MK2_PHANTOM_TOKEN != '' }}
+        run: |
+          echo "========================================="
+          echo "  MK2_PHANTOM_TOKEN PRESENCE DIAGNOSTIC"
+          echo "========================================="
+          if [ "${HAS_PHANTOM}" = "true" ]; then
+            echo "✅ MK2_PHANTOM_TOKEN: present in this workflow context"
+            echo "   → phantom-* workflows (mk2-phantom-ops, phantom-data-pull,"
+            echo "     phantom-data-push, phantom-verify) will be functional."
+          else
+            echo "ℹ️  MK2_PHANTOM_TOKEN: NOT present in this workflow context"
+            echo "   → Agent-runtime operation is fine with MK2PK1+MK2PK2 alone"
+            echo "     (per 2026-05-01 user authorisation)."
+            echo "   → The four phantom-* workflows WILL fail until the token"
+            echo "     is added to the 'copilot' environment as a secret named"
+            echo "     exactly: MK2_PHANTOM_TOKEN"
+          fi
+          echo "========================================="

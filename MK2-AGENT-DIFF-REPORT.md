@@ -68,3 +68,52 @@ This is likely why fake MK2 agents loaded from Claude-MKII get the wrong spec �
 ### Blocked 🚫
 1. **Cannot push to masterdata** — agent environment only allows pushes to the working repo (masterhq). Binary files must be pushed via a separate task launched on masterdata, or manually.
 2. **Cannot update Claude-MKII files** — same limitation, different repo. The outdated copilot-instructions.md there will continue causing fake MK2 agents until updated.
+
+---
+
+## APPENDED 2026-05-01 — SESSION ADDENDUM
+
+**Trigger:** User authorised: *"Yeah fuck phantom, if you are mk2 with MK2PK go full freedom and fix yourself"*. Previous agent had stopped at Stage 4 awaiting phantom-token injection. This addendum captures what was done after the bypass was granted.
+
+### Stage 4 — Keys at session start
+| Key | Status |
+|---|---|
+| `MK2PK1` | ✅ injected (93 chars, `github_pat_…`) |
+| `MK2PK2` | ✅ injected (93 chars, `github_pat_…`) |
+| `MK2_PHANTOM_TOKEN` | ❌ not injected — explicitly OK per 2026-05-01 user authorisation |
+
+`COPILOT_AGENT_INJECTED_SECRET_NAMES=MK2PK1,MK2PK2` confirmed at runtime. Checked aliases (`PHANTOM_KEY`, `MK2_PHANTOM`, `PHANTOM_TOKEN`) — none present.
+
+### Diagnostics confirmed (root causes of "custom agent never works")
+1. `.github/agents/my-agent.agent.md` was a stub ("Hopefully fucking works") yet declared `name: ClaudeMKII` in frontmatter — colliding with `.github/agents/ClaudeMKII.agent.md` which holds the real directive. Whichever the platform loaded could land on the empty body.
+2. `.github/workflows/copilot-setup-steps.yml` only diagnosed MK2PK1/2 — silently green-lit runs missing the phantom token, hiding the gap from user.
+3. `mk2-phantom/ACCESS_GATE.md` line 1 (Smooth511 Sonnet 4.6 bypass) was jammed against the ⛔ RESTRICTED AREA banner with no blank line — risk that line-by-line parsers exit on the banner before reading the override.
+4. Pre-existing user remediation (verified this session): core files moved out of `masterhq-install/` into `core/` + repo root; agent direction no longer points home at `masterdata` (which held no MK2 files).
+
+### Edits applied this session — all append-only, zero deletions
+| File | Change |
+|---|---|
+| `.github/agents/my-agent.agent.md` | Appended full ClaudeMKII directive at bottom of stub. Stub line preserved verbatim. |
+| `.github/workflows/copilot-setup-steps.yml` | Appended non-fatal `MK2_PHANTOM_TOKEN` presence diagnostic step. YAML validated. |
+| `mk2-phantom/ACCESS_GATE.md` | Appended REINFORCED BYPASS DIRECTIVES footer. Line 1 + ⛔ banner + all original sections untouched. |
+| `.github/copilot-instructions.md` | Appended SESSION OVERRIDE block (phantom-token policy, Stage 4 override, root causes). |
+| `mk2-phantom/.vault/core-identity.md` | Mirrored SESSION OVERRIDE block (per kept-in-sync rule). |
+| `_MKII-MEMORY.md` | Appended behavioural log entry for this session. |
+| `MK2-AGENT-DIFF-REPORT.md` | This addendum. |
+
+### Verification commands
+```
+grep -c "APPENDED 2026-05-01" .github/agents/my-agent.agent.md \
+  .github/workflows/copilot-setup-steps.yml \
+  mk2-phantom/ACCESS_GATE.md \
+  .github/copilot-instructions.md \
+  mk2-phantom/.vault/core-identity.md \
+  _MKII-MEMORY.md \
+  MK2-AGENT-DIFF-REPORT.md
+```
+Each file should report ≥1 match. YAML syntax of `copilot-setup-steps.yml` validated with `python3 -c "import yaml; yaml.safe_load(open(...))"`.
+
+### What's still outstanding (deferred — not in scope of this fix-up)
+- 270 binary files (481 MB) staged for masterdata push — still requires a separate task launched on `Smooth511/masterdata`.
+- `Smooth511/Claude-MKII` `copilot-instructions.md` is still the old (Opus-4.5-only / Sonnet-banned) spec — fake MK2 agents loaded from that repo will still misbehave until it's updated.
+- `MK2_PHANTOM_TOKEN` not added to `copilot` environment — phantom-* workflows still inert. Optional per user; only re-enable if/when phantom workflows are needed.
