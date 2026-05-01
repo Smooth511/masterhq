@@ -1,64 +1,37 @@
-name: "Copilot Setup Steps"
+## Copilot Cloud Agent Setup Steps
+## Injects MK2PK keys into agent environment on launch
+## MK2PK1 = Smooth511 full access | MK2PK2 = Smooth115 full access
 
-on:
-  workflow_dispatch:
-  push:
-    paths:
-      - .github/workflows/copilot-setup-steps.yml
-  pull_request:
-    paths:
-      - .github/workflows/copilot-setup-steps.yml
+steps:
+  - name: Inject MK2PK keys
+    env:
+      _PK1: ${{ secrets.MK2PK1 }}
+      _PK2: ${{ secrets.MK2PK2 }}
+      _PHANTOM: ${{ secrets.MK2_PHANTOM_TOKEN }}
+    run: |
+      # MK2PK key injection — both keys available as env vars
+      LOADED=0
 
-jobs:
-  # The job MUST be called copilot-setup-steps or it will not be picked up by Copilot.
-  copilot-setup-steps:
-    runs-on: ubuntu-latest
+      if [ -n "$_PK1" ]; then
+        echo "MK2PK1=$_PK1" >> "$GITHUB_ENV"
+        LOADED=$((LOADED + 1))
+        echo "✅ MK2PK1 loaded"
+      else
+        echo "⚠️ MK2PK1 not found in secrets"
+      fi
 
-    permissions:
-      contents: read
+      if [ -n "$_PK2" ]; then
+        echo "MK2PK2=$_PK2" >> "$GITHUB_ENV"
+        LOADED=$((LOADED + 1))
+        echo "✅ MK2PK2 loaded"
+      else
+        echo "⚠️ MK2PK2 not found in secrets"
+      fi
 
-    steps:
-      - name: MK2PK key diagnostic
-        run: |
-          echo "========================================="
-          echo "  MK2PK KEY INJECTION DIAGNOSTIC"
-          echo "========================================="
-          echo ""
-          echo "Keys are injected automatically from the 'copilot' GitHub Actions environment."
-          echo "They do NOT come from repository secrets or from this workflow."
-          echo ""
-          echo "To add/update keys:"
-          echo "  1. Go to: github.com/${GITHUB_REPOSITORY}/settings/environments"
-          echo "  2. Click the 'copilot' environment (create it if missing)"
-          echo "  3. Add MK2PK1 and MK2PK2 as Environment secrets"
-          echo ""
-          echo "If COPILOT_AGENT_INJECTED_SECRET_NAMES is empty at agent runtime,"
-          echo "the secrets are NOT in the copilot environment."
-          echo "========================================="
+      # Legacy phantom token (if still set)
+      if [ -n "$_PHANTOM" ]; then
+        echo "MK2_PHANTOM_TOKEN=$_PHANTOM" >> "$GITHUB_ENV"
+        echo "✅ MK2_PHANTOM_TOKEN loaded"
+      fi
 
-      # Appended 2026-05-01: phantom-token presence diagnostic.
-      # Phantom token is OPTIONAL for agent-runtime operation as of 2026-05-01
-      # (user authorised operation with MK2PK1+MK2PK2 only). It remains REQUIRED
-      # for the four phantom-* workflows in this directory if/when they are run.
-      # This step never fails — it only reports status to the run summary so we
-      # never again silently report "green" while the token is missing.
-      - name: MK2_PHANTOM_TOKEN presence diagnostic (non-fatal)
-        env:
-          HAS_PHANTOM: ${{ secrets.MK2_PHANTOM_TOKEN != '' }}
-        run: |
-          echo "========================================="
-          echo "  MK2_PHANTOM_TOKEN PRESENCE DIAGNOSTIC"
-          echo "========================================="
-          if [ "${HAS_PHANTOM}" = "true" ]; then
-            echo "✅ MK2_PHANTOM_TOKEN: present in this workflow context"
-            echo "   → phantom-* workflows (mk2-phantom-ops, phantom-data-pull,"
-            echo "     phantom-data-push, phantom-verify) will be functional."
-          else
-            echo "ℹ️  MK2_PHANTOM_TOKEN: NOT present in this workflow context"
-            echo "   → Agent-runtime operation is fine with MK2PK1+MK2PK2 alone"
-            echo "     (per 2026-05-01 user authorisation)."
-            echo "   → The four phantom-* workflows WILL fail until the token"
-            echo "     is added to the 'copilot' environment as a secret named"
-            echo "     exactly: MK2_PHANTOM_TOKEN"
-          fi
-          echo "========================================="
+      echo "Keys loaded: $LOADED"
