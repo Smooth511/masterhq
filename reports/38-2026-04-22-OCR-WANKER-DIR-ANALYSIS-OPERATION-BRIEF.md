@@ -280,7 +280,7 @@ ls -la /tmp/ > /tmp/tmp_listing.txt
 
 After 4 attack runs the rootkit is already learning. Known responses so far:
 - **Kill window is narrowing** — 5 seconds down from longer windows on early runs
-- **USB kill** — actively kills USB controller when shell access is close (confirmed in KERNALPANIC.txt, pre-defeat era)
+- **USB kill** — actively kills USB controller when shell access is close (confirmed in `operation-nuke/OLDchats/KERNALPANIC.txt`, private repo, pre-defeat era)
 - **OOM pressure response** — triggered OOM kill at 14.8GB when overlay was accessed (Report 34)
 - **USB tethering as bypass** — remains untested, may not trigger the USB-kill response because it's USB networking not USB storage/HID
 
@@ -380,3 +380,37 @@ Using `.bash_history` as an extraction vessel is deliberate OPSEC. A rootkit mon
 
 **Operation rule established:**
 > Do not assume. Flag files for explanation. The user can identify them. — User, 2026-04-22
+
+---
+
+### CORRECTION 38-C1 ADDENDUM — §3 TIER 1 SUPERSEDED (partial)
+
+> ⚠️ **The following lines in §3 are partially superseded and must not be followed as written:**
+> - Line 219: `# 1. Wanker bash history — 11MB of every command rooty ran` → **WRONG BASIS. Skip this step.**
+> - Line 220: `cat /home/wanker/.bash_history > /tmp/wh_hist.txt` → **DO NOT run. File is user's extraction dump, not rootkit history.**
+> - Lines 238–247: The one-shot `tar` command includes `/home/wanker/.bash_history` → **Use the corrected command below instead.**
+
+**Updated TIER 1 priority list (C1 correction applied):**
+
+| Priority | Target | Reason |
+|----------|--------|--------|
+| 1 | `/home/wanker/.gnupg/` | GPG keys — rootkit crypto identity |
+| 2 | `/usr/games/FUCKY/sandi` | Rootkit custom tooling (61KB binary) |
+| 3 | `/root/.bash_history` | Root command history (6KB, legitimate target) |
+| 4 | `/root/.ssh/` | Root SSH keys |
+| 5 | `/home/wanker/.gvfs/` | Virtual FS mount map — rootkit fake partition structure |
+| 6 | `/home/wanker/.bashrc` | Startup scripts / persistence hooks |
+
+**Updated one-shot tar command (`.bash_history` removed):**
+
+```bash
+tar czf /tmp/wanker_loot.tar.gz \
+  /home/wanker/.gnupg \
+  /home/wanker/.gvfs \
+  /home/wanker/.config \
+  /home/wanker/.bashrc \
+  /root/.bash_history \
+  /root/.ssh \
+  /usr/games/FUCKY \
+  2>/dev/null
+```
