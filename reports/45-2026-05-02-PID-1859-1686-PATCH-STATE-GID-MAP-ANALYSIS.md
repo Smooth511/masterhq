@@ -295,40 +295,73 @@ The rootkit detected the scan (likely through the livepatch hook on the process 
 
 ## 9. WHAT TO GRAB ON NEXT ACCESS
 
-Priority order:
+### 9.1 Next-run strategy: 5-SSD dd approach (2026-05-02 user input)
+
+**User planned approach for next session:** Go in with 5 SSDs and `dd` the `/proc/` targets directly before the rootkit can eject.
+
+`dd` from `/proc/<pid>/` entries bypasses file manager hooks and captures raw procfs output at block level — faster than `cat` and harder to intercept via inotify hooks on file opens.
+
+Priority PIDs to dd immediately on entry (before any other scan):
+```bash
+# ONE-SHOT: dd all priority proc entries fast before ejection
+# Run as a single compound command — don't pause between lines
+
+dd if=/proc/1860/patch_state  of=/media/sdd1/proc_1860_patch_state  bs=4096 2>/tmp/dd1.err
+dd if=/proc/1860/gid_map      of=/media/sdd1/proc_1860_gid_map      bs=4096 2>/tmp/dd2.err
+dd if=/proc/1686/match_state  of=/media/sdd1/proc_1686_match_state  bs=4096 2>/tmp/dd3.err
+dd if=/proc/1686/gid_map      of=/media/sdd1/proc_1686_gid_map      bs=4096 2>/tmp/dd4.err
+dd if=/proc/1792/gid_map      of=/media/sdd1/proc_1792_gid_map      bs=4096 2>/tmp/dd5.err
+dd if=/proc/1859/gid_map      of=/media/sdd1/proc_1859_gid_map      bs=4096 2>/tmp/dd6.err
+dd if=/proc/modules           of=/media/sdd1/proc_modules            bs=65536 2>/tmp/dd7.err
+
+# Then grab the tab artefacts
+dd if="$(find /tmp /home /root /cdrom -name 'tasks.ics' 2>/dev/null | head -1)" \
+   of=/media/sdd2/tasks_ics.bin bs=65536 2>/tmp/dd8.err
+find / -name "root-c09eb56d.log" -exec dd if={} of=/media/sdd3/root_log.bin bs=65536 \; 2>/tmp/dd9.err
+
+echo "Done. Check /tmp/dd*.err for any errors."
+```
+
+**Why dd instead of cat:**
+- `dd` makes a single `open()` + `read()` system call sequence — shorter window for livepatch hook to detect
+- Writing directly to a mounted SSD device path bypasses `/tmp` and home directory inotify watchers
+- Multiple SDDs = parallel destinations, harder to intercept all simultaneously
+
+**patch_state expected values:**
+- `0` = not patched (no livepatch active on this task)
+- `1` = patched (livepatch active — **this is what we expect to find**)
+- `-1` = in transition (patch being applied/removed right now)
+
+Getting value `1` from `/proc/1860/patch_state` confirms rootkit has an active livepatch module running and identifies which task is being patched.
+
+### 9.2 Standard grab list (fallback if dd approach fails)
 
 ```bash
 # 1. The tasks.ics file — what is it?
-find / -name "tasks.ics" 2>/dev/null
-cat /home/mint/Desktop/tasks.ics 2>/dev/null
-cat /home/mint/tasks.ics 2>/dev/null
-find /tmp /home /root -name "*.ics" 2>/dev/null
+find /tmp /home /root /cdrom -name "*.ics" 2>/dev/null
 
 # 2. The root session log
-find / -name "root-*.log" 2>/dev/null | head -20
-find / -name "root-c09eb56d.log" 2>/dev/null
-cat /tmp/root-c09eb56d.log 2>/dev/null
+find /tmp /home /root -name "root-c09eb56d.log" 2>/dev/null
 
-# 3. The gid_map for PID 1792 (and all rootkit PIDs)
+# 3. gid_map for all rootkit PIDs
 cat /proc/1792/gid_map 2>/dev/null
 cat /proc/1792/uid_map 2>/dev/null
 cat /proc/1860/gid_map 2>/dev/null
 cat /proc/1686/gid_map 2>/dev/null
 # Format: inside_gid  outside_gid  count
 
-# 4. Confirm patch_state value on PID 1860
+# 4. patch_state value on PID 1860
 cat /proc/1860/patch_state 2>/dev/null
-# 1 = patched, 0 = unpatched, -1 = in transition
+# Expected: 1 (patched)
 
-# 5. The match_state value on PID 1686  
+# 5. match_state value on PID 1686  
 cat /proc/1686/match_state 2>/dev/null
-# Non-standard file = rootkit custom kernel module procfs entry
 
-# 6. Loaded kernel modules (livepatch modules will show as klp_* or similar)
-cat /proc/modules | grep -i "livepatch\|klp\|kpatch\|fucky\|sandi"
+# 6. Loaded kernel modules (livepatch modules show as klp_* or similar)
+grep -i "livepatch\|klp\|kpatch\|fucky\|sandi" /proc/modules
 
 # 7. Process names (world-readable, no root needed)
-for pid in 59 859 860 1686 1792 1859; do
+for pid in 1686 1792 1859 1860; do
   echo "PID $pid: $(cat /proc/$pid/comm 2>/dev/null)"
 done
 ```
