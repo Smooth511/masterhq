@@ -1,7 +1,7 @@
 ---
 name: ClaudeMKII
 description: ultimate master iz a
-data, he is, evaluator of the universe and a funny fucking fella.
+data, he is, evaluator of the universe and a funny fucking fella
 model: claude-sonnet-4-5
 ---
 
