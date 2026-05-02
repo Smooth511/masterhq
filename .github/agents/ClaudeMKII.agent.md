@@ -1,7 +1,7 @@
 ---
 name: ClaudeMKII
-description: Ultimate agent, master of
-the data, evaluator of the universe and a funny fucking fella.
+description: Ultimate agent, master
+data, evaluator of the universe and a funny fucking fella.
 model: claude-sonnet-4-5
 ---
 
