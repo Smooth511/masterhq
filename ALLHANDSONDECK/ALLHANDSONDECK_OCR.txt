@@ -1,0 +1,745 @@
+
+============================================================
+=== IMG_6082.jpeg ===
+ramen wo
+yoo 9%
+—
+a—-= —_
+
+============================================================
+=== IMG_6084.jpeg ===
+(@ ‘root [Read-Only] (/lib/r... grub.cfg [Read-Only] (/ [
+MT RMT MMT MTP Te TTT TT ne
+¥ ‘gi
+SE
+| File Edit View Search Tools Documents. .Help
+xFoedrerminal 3
+G@eBL o 3 ¥ GO | QA @
+4 lyoe x =) liv 1 x = mkisofs x =, release notes UH
+it [ x == xefi -a x != xy ] ; then
+insmod part acorn
+NMAC insmod part amiga
+insmod part apple
+insmod part_bsd
+insmod part dfly
+insmod part dvh
+insmod part gpt
+update: insmod part msdos N
+Pees insmod part plan
+insmod part sun
+- insmod part sunpe
+AD
+ey source /boot/grub/grub.cfg
+Maton
+AN
+] + He a
+| = ‘aaa
+° Ji
+aes.
+Ara
+ani
+7 bf nh ah ‘ie
+
+============================================================
+=== IMG_6085.jpeg ===
+- dcuments Help:
+Re Gee
+Se sos 5 5) themectg
+—— x & themech
+wide x Bt kKsofs X & release_notes_urt_ x (9) bootiasz.efi > ——— ae
+EEL mks sal eee i
+eotest: font gfxmenu video i
+(oopback: extced
+cho:
+igcry des: crypto I
+Bearw: extond
+terminfo: extcad
+f2fs: fshelp
+partgpt:
+omfs: fshelp
+ead: extcad
+Usefimmap:
+Igery.arcfour: crypto
+tftp: net
+inewe: archelp
+Rinix2’ be:
+Ofsplitter: crypto
+elf:
+Wideotest checksum: font functional test video fb
+Password pbkdf2: crypto gery sha$12 normal pbkdf2
+igen (Seed: crypto
+ipciduep: extend
+Bsd: Bout boot cpuid crypto elf extend gcry m5 mmap relocator serial video
+isfs: fsheip
+feiserts: fshelp :
+part: sunpe:
+ast: an
+tal bitmap scale font gtxtemn Rormal trig video video colors a)
+eg Raa
+ap: ex cad normal Neat
+configfite: normal ae
+BbLss cbtable Coa
+Ext Bene cayient functional rest Normal procts video 1b Ba
+OT ot ata
+kests| functional test € oe
+ob cs5836 usb foe
+info ea eres toe
+
+============================================================
+=== IMG_6086.jpeg ===
+w By) roadepscincad-ony)... (i g
+ee P moddep tst Read-Only) (/cdtom/boot/grub
+Re} aes
+RENMEI EGR View Search Took Documents Help
+
+(ng
+he & 4 50 * © 0 Q @
+pr 4 Bl x x x 0 x x
+ee Wideotest: font gfxrenu videc
+" ode: archelp
+Voopback: extend
+macho:
+Qcry_des: crypto
+iz Renrw: extcrd
+Rerainto: extend
+b f2fs: fshelr
+part opt
+Toats; tshelp
+read: extend
+Asef inmas
+aout
+LOT cry orctours crys
+Rfitp: net
+Rewc: archels
+Rinix? be
+atsplitter ypt
+eli
+Password pbkdf2 yor H 1 pbk
+QCry seed: crypt ,
+Pcidump: extced
+Bed: sout boot cpui y c xt
+Sts: fshelp
+felserts: {shelp
+part sung
+zste
+Girmera: bitmep bitnor x
+backtrace
+jfs:
+Relp: extced norma
+entigiile: normal
+Peds: chtable
+ITRLOIE Meme: foot functional test 1
+Sry Adee: crypto ate eaee.t
+se Seat:
+o he § funces 1
+bs boot Cost rere
+item fo
+it belerents we i
+
+============================================================
+=== IMG_6087.jpeg ===
+Q dior Rt [Read-onk) oo
+a GB) modden ke (Read-ony)... a
+- vO , moddep, ist [Read-Only] (/edrom/bool/¢
+co) | ae :
+Khoadl Tle edit View Search Tools Documents Help
+ded
+Pos )/ocelry GBO\/QE@
+4 Ex x x x © x
+ie x 3
+et] ptrue? =
+affs: fshelp
+{s09668: fshelp
+exfat: tshelp
+Smbios: extend
+Setjmp test: functional test setjnp
+gfxterm: font video
+efinet: net
+disk:
+appletdr: doot
+xfs: fshelp
+testspeed: ext ,
+cpio be: archely
+bswap test: functional test _
+sleep: exteed no:
+pendisk
+QCry rijndsel: crypt
+mdraides be Giskfilt
+gettext
+ery shat: crypt
+Dfspluscoap: gzio nisp
+cmp: extend
+Tandon: hexdue
+offsetio
+file: elf extend {tset
+Bsdserial_usbdedug: s¢ t
+video colors
+morse
+hashsue: crypto extced
+usb
+halt: cps
+90d) backtrace serio
+otxtere Dechgrownd: bitmap bitea: 7] t
+Search is usia f Pecans extced gixters video video colors
+G88: mpi pop
+Retus: extond
+oes 1 Faso Map felocator video
+oy @ StYPlOdise r Mi2> r h >
+PAPE Sat ests font fumctisont tent roma 2 penal?
+dbibhionl est HOrmel procts video th
+” uae r
+Mh wigan erastet! @°Py ane) poaatz ve
+nee Te tis ‘i es
+
+============================================================
+=== IMG_6090.jpeg ===
+meee ag moddep Ist [Read-Only Vcdrom/bootloruh
+Bee ey Bet
+7 | Fle Edk Wiew Search Tools Documents Help ;
+Pe Lt | 6° FOO | a eg ;
+bs
+ME Bliveuis x) mi x < x # x Boa
+} bitmap: :
+. Mts: fshetp
+RULtiboot: boot elf Linux mmap net relocator video
+tp:
+gcry cre: crypto
+a png: bitmap bufio
+q json:
+i jpeg: bitmap bufio
+Bacbless: disk
+div test: div functional test
+fegexp: extomd normal
+Parttool: normal
+usbseriol pl2303: serial usb usbseriat conn ;
+y] cpio: archelp
+Qcry_mmdi60: crypto
+fat: fsheip
+Ufsl be:
+archelp:
+- http: net
+SME zfs: gzio
+Faid6rec: diskfitter
+Asefisystad:
+minix2:
+Usacpi: acpi extend
+atehook: datctine
+Aosdeny: disk extend
+bitmep scale: bitmap
+probe: extced
+minix3: ‘
+fart archelp
+Loadbios:
+fs: {shelp
+procts: archetp
+boot:
+/Keylayouts: :
+Progress: normal ie
+‘Kernel: er:
+sbtest: usb ua
+Felocator: mp
+Cpl: extced meap
+tues vides te 71 7="22N00"4 ary. shal pbkat2 at
+
+============================================================
+=== IMG_6091.jpeg ===
+tal dde ad-Only o
+a a@ g
+ae moddep lst Read-Only} Uedrompboot/arub ieee,
+Me View Search Tools vocuments Help a
+Pei o ole Bg Q@
+MM Bevis x | ES imkicors x ‘ x 6 x 6 y ae
+! procrs:arcnetp - SS Ora
+: boot: :
+keylayouts:
+progress: normal
+kemetl:
+Usbtest: usb
+| Felocator: meap
+acpi: extend map
+tga: biteap bufio
+Feboot:
+Serial: extend termingo
+ziscrypt: crypto extend ocry rijndael gery shar pokdf2 zfs
+fi _uga: video video th
+danv: diskfilter I
+Gap test: functional test
+Luks: afsplitter crypto cryptodisk pbkdt2
+font: bufio video
+FaidSrec: diskfilter
+REM COS: crypto
+datetine:
+| efifwsetup
+Ctz test: functional test
+Video:
+cbmesc: cbtable normal terminto
+hfsplus: fshelp
+QCrY Casts: crypto
+extcnd:
+SQUAShS: fshelp gzio Lzopio xzio
+part plan: Fr
+minix be:
+BCTY_Whiripoot: crypto
+Scry tiger: crypto
+Hxvideo:
+ieeekehs extcad search fs file scarch fs wuid search label
+Pispei: extced on
+ebtine: cbteble pee
+Video fb: i
+Peimage: setjnp
+inix3 be:
+OSPOFt: disk parttoot :
+ity queue: r
+BORECENDLO. ve x
+Baneerpionisk extend
+
+============================================================
+=== IMG_6092.jpeg ===
+a a B
+al moddep Ist (Read Only] Vedrom/boatorub hy
+
+FRESE View Search Took Documents Hicip —_
+be ' °° lt Soiag '
+OS ficuuis x ™
+
+ool sal Be * x @ x x commande
+Plainmount: crypto cryptodisk extend
+part dfly:
+XNU Uuid test: functional test
+Giskfilter:
+testload:
+part apple:
+hexdump: extend
+date: datctine
+pbkdf2: crypto
+Gcry sha2s6: crypto
+As: datetime extend norna
+Usbserial common: serial usb
+Mtfscomp: ntfs I
+Uzopio: crypto
+Wideo Cirrus: video video fo
+hello: extend
+Scsi:
+Minuxi6: boot Linux nmap relocator video
+at: extend
+ahci: ata boot
+POP: crypto extomd gery shal epi
+MOrmal: boot bufio crypto dutetire extezd gettext net terminal
+ufsi:
+Wdraides: diskfiiter
+Ue: diskfiltter
+hain: boot cfinet nct
+cbfs: archelp
+ufs2:
+tine: ¥
+ISetpci: extcnd
+loptsync: disk
+/eearch label:
+Setjep:
+
+WMtdboot2: acpi boot elf Linux maa net relocator video
+ecey Ffc2268: crypto Lia
+ladraidix; disktilter ile
+
+MSGUCYCIG: Crypto gcry 45 normal password =
+
+Ir video vid ote _ jell
+cr iii — € —e
+
+============================================================
+=== IMG_6093.jpeg ===
+| W ressestieson).. g
+, moddep.ist [Read-Only] Vedrom/boot/arub 886
+Fle edt Wiew Search Tools Documents Help ,
+Gees oS 3 ¥ 6 O Qe ‘
+Ge!
+7 M) Bi Gweuud x x x 6 x x 2 commane
+; UsDrest: “uso
+Telocator: pmap
+acpi: extcrd nmap
+tga: bitmap bufio
+reboot:
+: Serial: extemd terninfo
+. | zfscrypt: crypto extend gcry rijndaet gery shal pbkdf2 zfs
+ut @filuga: video video fb
+dav: diskfilter
+Cap test: functional test
+Wks: afsplitter crypto cryptodisk pbkat?
+font: bufio video
+Faidsrec: diskfilter
+y erce64: crypte :
+Gatetine:
+efifwsetup
+XZ_test: functional test
+Video:
+sbmeac: cbtadle normal terainfo
+hfsplus: fshelp
+_ eae
+extend:
+Squash4: fshelp gzio opie xzic
+part plan
+Binix_be:
+QCry whirlpool: crypto
+QCry tiger: crypto
+fixvideo:
+Bearch: extcad search {s f le search fs uutd search ade:
+Aspci: extend
+cbtine: cbtoble
+Wideo fb:
+image: set
+fatsixa bes?
+PREdOspart: disk parttool j
+Priority queve: .
+chy twolish: crypto
+peioee ALE Crypto Cryptodisk extced P
+eistly: ":
+BHSteAt: functional test 5 da
+
+============================================================
+=== IMG_6094.jpeg ===
+cal
+top veal ae) ee r
+*root [Read-Only] (/lb/r... ®: artmap.lst [Read-Only]... |
+- par
+1?) Fle Edit View Search Tools DBecuments Help
+Desktop —_xfced-terminal _
+GoBeeL 2° ¥ © O Qe
+. | 4 x x ° x p
+- - part ar qa
+ome mintbockup ann
+part bsd
+part dfly
+— part dvh
+part gpt
+arin update. part plan
+cxtcommons... REAMETI
+part sungc I
+y ©
+ma: Lege Matrix
+eae
+Ser fo. sche
+a ws
+=
+‘ i aac yee at eel a erica
+
+============================================================
+=== IMG_6095.jpeg ===
+7 . i parttool.kt [Read-Onty}:./:
+Desktop aor c@ *root (Read-Onb] (/ib/r... (J) {
+u a parttoal.ls
+i wicedtermrinat QO Q eB
+Link to Desktop Qe: >
+™ ° ~ *
+home tintbockup
+toumien, update. I
+Sekcommone... *
+Vega Ginus Matrin
+bon
+Mente swneinto cache
+ey
+Ss og 1 in a
+
+============================================================
+=== IMG_6096.jpeg ===
+uca.xml in . ‘Siam YA
+Desktop >@ *root [Read-Only] (/ib/r.., ti at alist [Read
+i bpariain BU
+= EB File Edit View Search Tools Dor uments Help
+Kto Desktop —_xfcedterminal )
+Ge : re 9 2 Qs
+° x x x
+ply
+| Pec Keyboard: at keyboard
+serial: seriai
+home mintbackup iserial *: serjal
+CAaudio: orse
+ICOMEME D Cbhmanc
+" ogtxterm: qtxter
+a QD oserial serial
+ISCrLal perial
+linuxmine update: espknoden: spkmoder
+dictcommonsa...
+Vstall Linux Matix
+Mint
+Kew Fite niMeinto.cache
+ra
+
+============================================================
+=== IMG_6097.jpeg ===
+os ,
+} ;
+= EP @ mares
+Linkto Desktop —_-xfce4-terminal. a8 (
+|_| | Joe
+home mintbackup iia bachs
+=
+Gnumint update: |
+Install Linux Matrix
+Mint
+New File mimeinfo.cache
+<cels. ps ete
+
+============================================================
+=== IMG_6098.jpeg ===
+BD) vrenearttneadiondyi, RD «oot treosony av |[f) thenerxeircodonssy,., WD -i00t feera-ony
+Y [ESRC y ae eng
+
+” themesxt (Read-Only} (edcom/boot/grubfives
+Fle EGR View Search Tools Documents fp
+Ges Lo *¥ GO Q&
+4 x x x x «
+Besktop- imag: sol inux/splash80ex69¢ pn
+titte-colo efftire
+ressage- font font Regular 16
+terminat-font: ‘unifont Regular ¥6
+: I
+#boot
+
+item height = 16
+
+Icon beigh = 9
+iten icon space = 6
+
+}
+#progress bar
+* progress bar { wae
+
+Ad *_ timeout « i a
+
+Left is, oui
+a" 10p = L00%-80 pains
+J tthe = 20 sia
+
+“schemes . .
+
+Bat Siunitont. Regular 10 —
+
+NR a ai
+
+============================================================
+=== IMG_6099.jpeg ===
+t [Read-Only] (/r...f =| “cotatgrdon.. a root jRead-O
+BD cootacotetomits, G02 (2020-0 @ ‘Tent
+GB 0 Q24 |
+
+============================================================
+=== IMG_6101.jpeg ===
+r ‘9tUb cfg [Bead Only] Ucdrom/bootiprvd) .
+Gh Took Donaments Hein
+meee 001A
+2355 =a
+Resi mesion: x . . . . ; oe
+lor tormalewhite/biack 1
+Shighlight=black/Liont-o
+fpestact Lines Mint 22.3 x1 il
+Iipaylondekee
+Pdcasperivalinu: beot
+rd) /casper/initec.t: own
+Q
+essere Mines Mint 22.2 x
+Beiewsperivelie boot wt
+oO te ir/initrd.\
+PFOUN Amstel, (tor moet
+Re /ebipAt/valinar oen-cont
+HASO path) quiet splev — a,
+J feaspersinsies \r
+te ™ i
+MST = "eth |; ie ij
+ME BEXt volume
+UFitmare settings’ ( ‘ r
+aes
+
+============================================================
+=== IMG_6102.jpeg ===
+Fi B1UEfo fRead-ontyt ve al
+a a . [=] BD cnvitein g
+~ S1Ub.TS [Red Oob} Vedromfooot/aruby .
+PRTEAE'View Sexech Toots Documents ep L
+Res 2c ¥ oO Q@ i
+LE x x x x x x x £ tnoment ae ros
+Loadtont unicode a
+Set color normatowhitesbrack
+Set color highlight=blacks1 ight -gray [
+messentry “Start Linux Mint 22.3 xtee 64-bit Ss tinuxnynt i
+SET gfxpayloadzhees a
+Linux casper/y zt deotecasp 166072152 f 1-8910-93f fobssores 2 t thse « 1s0-scan/filenamess tiga p th)
+; 2 4
+Senuentry “star X Mint 22.3 Xtce 64-bit (compatibility
+Linux Sper/vatinu: post 19=60721523-de09-a9u0 oa, tose t host . scanstit {150 path)
+Srepolt nosodeset ements is
+AMitrd /caspersinited. tz =
+) I
+Benuentry “06M install (ro: t ¢ a
+SOE _OIxpayloads ace ee
+Unux — /caspersy Aligve ot y uity boot ' 2f523-4 ‘ S910- 99! fassagics usernasessint hosths
+Filename=s{iso path} quiet spies She
+Anitrd scasper/initrd. Lr a
+fee
+APT “Sgr platform © +e the ‘
+enuentry ‘Boot froa next volure
+exit 2 :
+t
+Renuentey ‘UEFI Firmware Setting
+fusetup ‘
+}
+eduentry “Henory tose’ {
+5 Unux boot /meatest efi .
+1 .
+iss sles
+ae -
+
+============================================================
+=== IMG_6103.jpeg ===
+WD ce: teessonsy (roi (@ asady ay .
+Smal ASA aaa BD +22: (60350043 ,007,. aon
+bi i = ey OD 62212032005) 7, (
+*<f9 (Read-Only) Vedrompboot
+G eB .
+od 0 ag
+od
+|
+
+============================================================
+=== IMG_6104.jpeg ===
+vo 5 2 Met ea :
+File Edit View Search Tools Oocuments Help x “ea
+eos 56° ¢ © O QZ ae
+Ras
+4 Zopar x x Et a x» Bivideotst x MRgtBE Ns
+if { "${grub platform}* = “pc” ] -a [ -e /boot/memtest }; then
+# Legacy 16-bit mentest
+renuentry "Memory Diagnostic Tool (memtest86+)" --hotkey=m {
+Linux16 /boot/memtest
+}
+elif [ “${grub platform} "pe" ] -a [ -e /boot/memtest.bin ]; then
+menuentry “Memory Diagnostic Tool (mentest86+)" --hotkey=a {
+linux /boot/memtest.bin
+elif [ “S{grub platform} efi a [ -e /boot/memtest.efi ]; then
+menuentry “Memory Diagnostic Tool (mentests86+) hotkey=m {
+Linux /boot/memtest.ef)
+}
+1h
+
+============================================================
+=== IMG_6105.jpeg ===
+File Edit View Search Tools VOCUMENTe risiy Un
+Ce L 5 ° -o0 | aan
+4 themecig x OG x csyptolse St fsiok =A
+set color normal=light-gray/black
+set color highlight=white/dark-gray
+if [ -e /isolinuz/splash.png J; then
+
+# binary syslinus modifies the theme file to point to the «
+
+# background picture
+
+set theme=/boot/grub/live-theme/theme, txt
+elif [ -¢ /boot/grub/splash.png J; then
+
+set theme=/boot/grub/live-theme/theme. txt
+else
+
+set menu color normal=cyan/blue
+
+set menu color highlight=white/blue
+fi
+
+aah
+
+============================================================
+=== IMG_6106.jpeg ===
+7 BB
+® a
+Gg ——as a
+=e Go epee |
+
+============================================================
+=== IMG_6107.jpeg ===
+: liam eee a @ *root (Read-Oniy Usb/..}
+scoot ipes4-ony) Vib. [ll eRe be
+BD tiesytemmanterrce @ —ve
+ae c Qa g
+t
+a) °
+
+============================================================
+=== IMG_6108.jpeg ===
+Bsa rmsonnipor ( ieenmsalre.| BD -ccxtreve-onp) vin:
+"] EN, srook fn [BBD teste manivestre..
+o = [GD Menem monteese 7 = —_
+
+a 5 a
+
+Fi
+
+============================================================
+=== IMG_6109.jpeg ===
+EER .
+Jno Lm ss
+Qw 4 o ae
+wuss fe
+o =
+
+============================================================
+=== IMG_6110.jpeg ===
+Besoin joa can =
+k
+]
+7
+4
+
+============================================================
+=== IMG_6111.jpeg ===
+PMS ry =e
+Sombie) GD meson ves EE RRO (Bo pesconn ret. io BD retpesonn nn a
+Go: ‘ a z
+My
+We han too? mamas QaCeaiiae
+SnEEEIEEEennenenmemenmeentamnene
+
+============================================================
+=== IMG_6112.jpeg ===
+DW enor mcr FD ox mosoonmnr BD readers coi) BD «<=
+SSamaaane papain
+oe
+$$$
+rN 5
+
+============================================================
+=== IMG_6113.jpeg ===
+a Sond 209 fraisin
+Sere @ .... PR-Oni} hay Wissacens —
+— FSP Og te tony K ae =
+eo om Q Li aie Apes
+a
+the fle Kbise/iistng ee x .
+vik Seenesen ys coteca eden *
+eg en ay one ane i ods ena . x om
+Ppt ee
+a om ™ fa =, " SF acai: ==]
+Rt Dba sea gy (RAE " ag B 7 _
+BRAN sexy sar Nt RAMA 7s) are ja 1S ie tay oft
+: PPB! enaias erions le etsy ei |
+gp EP Oh hey pale pe fe Holl oe
+iy age! lesiceinte lowe od iste ae : a
+1 154 basis ; . ee ee a ee eae ays
+4 2 tat om oo ee aw
+ie a i ey 8. pes os
+i Ge SL Re 0G termes ay
+. 7 ha RS i a. eg
+TA Le id at yg IN ABE Gates ter hy 2-3 Roy wm
+FE _ seta oe
+A iacolt a es |
+oF Bh yer tas ips k AAS EU OU cao. ps.
+Re ee te ea EP OS Be
+Ae a alee A ei Re eee
+— Bar mee secs i
+z TE -RE apy
+“ta Pi cre: xe cere a
+ee ee ee
+oe ee is oe Bg = 0
+ue ae Ae: em pe. gee
+ae Eee! ee Ha a ge
+. 5 A reksh te
+i Pe a) ey ig
+a cc 2
