@@ -70,4 +70,23 @@
 
 ---
 
+## 2026-05-02 — GRUB Shell Session Continued (user paste, 3-part)
+
+**Key points:**
+- **`/sys/hypervisor/` visible inside gpt3** — GRUB browsed gpt3's /sys/ and `hypervisor/` dir is present (alongside block/, bus/, class/, devices/, firmware/, fs/, kernel/). `/sys/hypervisor/` only exists when the system is running inside a hypervisor (KVM, Xen, VMware). This is inside the rootkit's *filesystem*, not the live session — they've baked the hypervisor interface into their image. Timestamps 20260501121814 = built 2026-05-01.
+- **Overlay path confirmed: `(hd0,gpt3)/home/stuff/lloyd/lloyd/overlay/`** — doubly-nested `lloyd/lloyd` (not a typo — OCR confirmed both). The overlay module sits at `lloyd/lloyd/overlay/holders/` with a `../src` directory containing the srcversion.
+- **`srcversion` content = list of rootkit-injected sbin tools:** dcb, bridge, cracklib-unpacker, jfs_logdump, agetty, alsa-info, cifs.upcall, ippeveps, dosfsck, pvdisplay, fsck.xfs, cupsctl, blockdev, lpc, mkinitramfs, jfs_mkfs, lvreduce, fsck.hfsplus, ufw, iptables-nft-restore, update-cracklib, update-default-ispell, update-dict, update-fonts-alias, update-gsfontmap, update-passwd, update-pciids, update-xmlcatalog, usb_modeswitch, vdpa, vgcfgbackup, vgchange, vgdisplay, vgextend, vgsplit, vipw, wipefs, wpa_supplicant, xfs_admin, xfs_info, xfs_metadump, xfs_quota, xfs_spaceman, policy-rc.d. This is the module's declared source identity — also the exact list of sbin tools the overlay replaces.
+- **`(hd0,gpt3)/sbin/grub*` tools present:** grub-install, grub-mkconfig, grub-probe, grub-set-default, grub-reboot, grub-bios-setup, grub-macbless, grub-mkdevicemap. The rootkit can reinstall/reconfigure GRUB from within its own partition.
+- **`search.fs_uuid` misuse confirmed:** User tried `search.fs_uuid (hd0,gpt3)/lib/os-probes/mounted/` — this is the wrong syntax (fs_uuid takes a UUID, not a path). That command always fails. The correct command to find a partition by UUID from GRUB is `search --no-floppy --fs-uuid --set=root <UUID>`. Not a rootkit behaviour — just user testing.
+
+**Removal:**
+- **`wipefs` is in the rootkit's own sbin** — double-edged. From a live USB you can run `wipefs -a /dev/sdX` (or nvme equivalent) on gpt3 to destroy the ext4 superblock. GRUB won't be able to read it after. Confirm gpt3 device path first.
+- **grub-install on gpt3 is the reinstall threat:** If we wipe gpt3 but leave the EFI entries intact, the rootkit may not be able to reinstall because grub-install needs a writable partition. Wiping gpt3 + wiping the EFI entry breaks the loop.
+
+**Check this:** `ls (hd0,gpt3)/home/stuff/lloyd/lloyd/overlay/` — what else is in that overlay dir besides `holders/` and `src`? The overlay directory structure will show upper/lower/work directories which reveals how the OverlayFS is assembled. Specifically looking for `upper/` (where writes go) and any persist mechanism.
+
+**Check this:** `(hd0,gpt3)/sys/hypervisor/` — what's inside? `ls (hd0,gpt3)/sys/hypervisor/` — if there's a `type` file it'll say "KVM" or "Xen" or similar. Confirms whether this is a VM-in-VM deployment (rootkit runs inside a hypervisor it also controls) which is a different removal problem than bare-metal.
+
+---
+
 *Append new entries above this line. Keep it short.*
