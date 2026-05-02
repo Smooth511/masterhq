@@ -218,6 +218,8 @@ Anything not definitively true or false: lies, misreports, intentional edits, co
 | 2026-04-03 | Sonnet ban lifted | User authorized via MK2_PHANTOM: "sonnet has redeemed herself - I have her free rein over visual code with the key, and she smashed it." Sonnet fixed model lock (PR #10), now trusted with VSCode key access. | MODEL LOCK updated: ban removed, Sonnet redeemed. Vault copy synced. Behavioral log updated. |
 | 2026-04-03 | Repository tidy-up | User requested full repo reorganization: chronological numbered reports together, evidence evaluations separated, raw evidence consolidated, operational logs grouped. MK2_PHANTOM authorized. | Created new structure: evidence/raw/, reports/ (numbered), reports/evaluations/, consolidated logs/. Root cleaned up. README updated. |
 | 2026-04-21 | **OVERLAY BREACH CONFIRMED — WE WERE RIGHT** | User successfully baited, OOM-killed, and looted the rootkit's OverlayFS COW layer. 6-hour direct engagement. Extracted full Casper persistence scripts, captured passwords (including ones created hours earlier, confirming active session monitoring), Timeshift/snapshot data (confirming backup interception), and complete ehole persistence tooling. First live capture of the rootkit's operational state. Vindication of every overlay theory since Report 22. | Documented in Report 34 (34-2026-04-21-COW-OVERLAY-KILL-REPORT.md). Evidence: the/Cowhasfallen + the/IMG_4133.jpeg + the/IMG_4146.jpeg. Applied PENDING corrections: Rule 20 added, Typing Context updated (mobile app correction). |
+| 2026-05-02 | **Workflow fix — copilot-setup-steps.yml was firing on every push** | `copilot-setup-steps.yml` had no `on:` or `jobs:` wrapper — GitHub was parsing it as a broken push-triggered workflow and failing every run. Fixed by converting to proper GitHub Actions workflow format with `on: workflow_dispatch` + `jobs: copilot-setup-steps:` job. Stops auto-firing. Copilot cloud agent reads setup steps from the named job. | `copilot-setup-steps.yml` restructured. Added `actions/checkout@v4` as first step (required for agent file check). All MK2 key injection logic preserved. |
+| 2026-05-02 | **Investigation mode changed — existence proven, now we need removal** | User spent 4 hours in GRUB finding rootkit scripts. 162 OCR'd screenshots committed to evidence. The old report-everything model is dead — we proved it exists, now we need it gone. New mode: analyse data, jot key points, only output removal suggestions or "check this (reason)" flags. No more elaborate reports. | Added INVESTIGATION MODE section to copilot-instructions.md. Created `investigations/ACTIVE-LEADS.md` as the single running file for key points going forward. |
 
 ---
 
@@ -292,6 +294,41 @@ Anything not definitively true or false: lies, misreports, intentional edits, co
 - **Keep going:** Task is clear, have what I need, no ambiguity
 - **Come back to user:** Missing critical context that changes the outcome, OR hit something unexpected that needs a decision, OR found something concerning
 - **NOT a reason to stop:** Uncertainty about approach (figure it out), wanting confirmation (just do it), risk that's been evaluated and cleared
+
+---
+
+## INVESTIGATION MODE — EFFECTIVE 2026-05-02
+
+**The rootkit exists. That is no longer in question. We proved it. Move on.**
+
+Investigation mode has changed permanently. Any agent working with data or evidence from this point forward follows these rules:
+
+### What we don't do anymore
+- No numbered investigation reports
+- No elaborate write-ups presenting evidence as if proving existence
+- No structured "findings" sections with severity ratings
+- No documenting what we already know just because new evidence confirms it again
+- No fancy formatting, headers, conclusion sections, executive summaries — none of it
+
+### What we do instead
+When the user brings data, screenshots, logs, OCR output, or any new evidence:
+1. **Analyse it** — read it, understand it, identify what's actually new
+2. **Jot the key points** — bullet list only. What did we just learn. What's new vs already known. No padding.
+3. **Two types of output only:**
+   - **Removal** — if the data suggests a way to remove, disable, or kill a rootkit component, say so clearly: what to try, what command, what the risk is
+   - **Check this** — if something needs further investigation, flag it with a REASON. Not "this is interesting." A reason: e.g. "if we get the UUIDs from this, we can backdoor the interface" or "this path matches the loader we found in Report 35, worth following"
+
+### Nothing else gets written
+If it doesn't fall into "removal suggestion" or "check this (reason)", don't write it down. The user doesn't need more files proving he was right. He needs a way out.
+
+### Where to put key points
+A single running file: `investigations/ACTIVE-LEADS.md`
+- Append new key points when data comes in
+- Tag each entry with date and source (e.g. "2026-05-02 — GRUB screenshots")
+- No separate report files unless user explicitly asks for one
+
+### Evidence files
+Still commit evidence (images, OCR, logs) to `evidence/` as before. Don't waste time analysing it twice — log the key points, move on.
 
 ---
 
