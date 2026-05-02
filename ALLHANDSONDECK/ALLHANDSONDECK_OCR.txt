@@ -1,0 +1,554 @@
+=== IMG_6082 ===
+—
+
+---END---
+
+=== IMG_6084 ===
+aii Mii Tee iG
+sca.xmi f (tye UNE ae
+‘a +root [Read-Only] (/lib/r... BB) orub.cto fread-oniy i... [
+‘| aU
+Y g!
+Ei File) Edit | View Search ols = Documents. | Help
+xfce4-terminal i if
+: ee ¥o0 ag
+mintbackup ins od part amiga
+insmod part apple
+insmod part dfly
+update- shunt ba bedi
+dictcommorrs... * stil
+nso 1 part
+Matrix
+fo.cache
+al
+ar
+F ‘idee A
+¥ , sr
+ha +8 AR
+| A ae anes a.
+
+---END---
+
+=== IMG_6085 ===
+wee Ne nO QQ. ae hia
+Ielmkkofs X  Elrelease notes url x — [@) bootia3zefi x _ Ethene
+dx & 22 A, be
+deotest: font gfxmenu video Bi.
+dc: archelp
+loopback: extend
+cho:
+acho:
+gcry des: crypto I
+emrw: extend
+terminfo: extcnd
+ffs: fshelp
+parton:
+|romfs: fshelp
+fread: extend
+Lsefimmap:
+aout:
+ac jarcfour; crypto
+tt p: net
+Mewes archelp
+jminix2 be:
+splitter: crypto
+WMideotest checksum: font functional test video tb
+Password pbkdf2: crypto gery shaS12 normal pbkdf2
+gery seed: crypto
+pPcidump: extcmd
+ae ise Cpuid crypto elf extcmd gcry md5 mmap relocator serial video
+reiserfs: fsholp
+part ol
+pe bitmap bitmap scale font gfxterm normal trig video video colors bs o
+ifs: Skee
+ip: extend normal hy Be
+cites a
+en eiient functional test normal procts video tb ~ Saha
+- as Ly, pw war
+
+---END---
+
+=== IMG_6086 ===
+a Bresson Read on 13-01 @ @
+bs
+ie noddep Ist [Read-Only] /edrom/boot/grub
+e v
+File EGR View Se.
+; f " ae
+GB 4: :
+|
+
+Wigeote x
+
+odc
+gtnte
+ery io
+a) extce
+pratt te
+RCS: Beot
+ats: feheip
+WHE Reyboerd: tevin,
+has crypie
+wre ‘9 ertced norm
+
+ch ts file
+
+---END---
+
+=== IMG_6087 ===
+a Rem; © -
+i>
+, moddep,tst [Read-Only] V/edrom/boot/g
+v
+| File Edit View
+< wa} Qe@
+Goes
+4 * : G
+| att
+7
+eye
+BLS: cry
+Cadline
+FON: ert cme
+part sun
+iebtabie
+PSO88s Sunctions\ te . .
+POOP ROHS) vides vides 1, ”
+tie}
+ree ROE Betkal wie wadserio\ Sane .
+ppesoeers test: fenctionel tesi lepecycty -
+
+---END---
+
+=== IMG_6090 ===
+~ moddep.Ist Read-Only} Uedrom/boot/grub/386
+Fle EGR View Search 1
+Ges ‘ 4 0 Q@
+‘ x x x © x .
+} Bites,
+Mtts: fs
+multiboot x
+the
+gcry cr
+, ’ : |
+hfs: {
+ga
+boot
+keylayout
+progress: +
+kernel
+Usbtest: ust
+Felocator: amp
+ACPA: extcad mop
+ptQ8: bitmap but ic '
+berial: extcad terminto ”
+SEES CEYPtO-extced gcry rijndeel gery shat pokdf2 zfs a
+Sfi uga: video video tb -
+ Giskfilter
+pease isuactional test
+splitter crypto cryptodisk phkdt2 _— 2
+
+---END---
+
+=== IMG_6091 ===
+¥ ” ——
+} moddep Ist Read-Onty} Vedromooot/grub/3ae
+Fle Edit View Search
+Qe. ? 0 Cie
+« x 2
+protrs:-ar
+boot
+keylay
+progre
+kernel
+Usbtest
+act xt
+ef
+a p
+it
+part 5
+gcry whi
+cry tig
+fixvide
+Search: cx
+Ispei: ex
+cbtine: chtat
+Wideo fb.
+Peimage: set js
+Binix3 be
+trig:
+Imsdospart: disk parttc
+Priority queue F
+PScry twofish: crypto ,
+BESMMOUAKs CYPLO Cryptodisk extcad P
+art _dfly: oa
+Puula test: functional rest aiid
+ACCES
+
+---END---
+
+=== IMG_6092 ===
+~ a
+x —<—$_—___
+moddep Ist [Read-Only] Vedron/
+
+ART EGR View. Search: Read-Only] Ycdrom/boat/grubASBe-eh
+Qe: i ¢ oO vo ag (e
+‘ £ » :
+Beryowwers a °
+plainmount y f
+part dfly
+xnu wuid test:
+diskfilter
+testload
+part ap
+hexdunp: ext
+date: datet
+pbkot? t
+gery sharse
+ls: dat
+usbser
+ntfsco
+lzopio I
+Video f e:
+hello: ex
+scsi
+Cat: extce
+ahc t
+POP: crypto ex
+normal: t
+ufsi
+Bdraides: disks
+lve: disktilt
+chain: boot
+ebfs: arche
+ufs2
+tise
+Setpci: extce
+gptsync: disk
+Search lade
+Setjnp:
+MUitiboot2: acpi boot « x
+ery Fic2268: cryptc
+
+Bdraidix; disktilter
+pei: crypto
+
+Becycfg: crypto gery 245 nor eo
+et? & y sds ol passwor
+
+part omiga:
+
+BHA gp: video video tb
+
+phar vext =P =
+
+EECptO
+
+---END---
+
+=== IMG_6093 ===
+a a
+
+- re - moddep ist [Read-Only] (cdrom/boot/grub/ia86-
+j File Edt View Searct
+
+Ge 4: ¢ 0 Q@
+
+‘ x c x
+MME Usorese: usc
+
+Telocatc
+
+acpi xt
+
+tga: bit
+
+reboot
+
+ser x
+1 & V
+
+font
+
+dat
+
+Cfifuset
+|, &
+7 9
+
+exten
+
+gcry wi
+
+ery"
+
+Search: ex
+
+Uspci: ex
+
+cbtine
+
+video ft
+
+peimege: set
+
+Rinixd be
+
+trig
+
+sdospart: disk port
+
+Priority queve
+
+SCry twolish: crypt
+
+Blsineount: crypto cryptodisk extcmd
+
+F_fly
+
+[xu Guid test: functional test :
+
+Giskfilter:
+
+testloed:
+
+---END---
+
+=== IMG_6094 ===
+casa 4
+“P ° i=] *root [Read-Only] (/lib/r... J i
+Desktop xfce4terminal
+G 6B Co) Q ge
+
+ome mintbackup i
+uurrant update- :
+
+Gxtcommons,.. I
+» 8
+aroha Matrix
+Mint
+Kewr Meinfo.cache
+
+---END---
+
+=== IMG_6095 ===
+— = :
+Desktop wax ji: ® root Read-Onb] (ib. i @
+Link toOesktop —_xfce¢terminal es AS WY
+
+=
+
+home mintbackup.
+ra
+Knuamien =
+
+Sckcommona_.
+
+otal Linu ma
+
+ron
+
+NewTie — nimeinda cart
+
+—
+
+ee |
+
+---END---
+
+=== IMG_6096 ===
+Dectep ams a: a -Only] (/ib/r... a Read
+i Toot [Read-Only] (/lib/r....
+kto Desktop —_xfce4-terminal, Q 6 ) Q
+ee | : :
+
+home mintbackup.
+
+inuxmint update- :
+
+dictcommon-a...
+
+stall Linux Matrix
+
+Mint
+New Fike uMeinfo.cache
+
+B
+
+---END---
+
+=== IMG_6097 ===
+{ “r «|
+Desktop casa lE = oe *root [Read-Only] (/tib/r...
+Linkto Desktop -xfce4-terminal RB
+as °
+home mintbackup
+= EO
+cS }
+Ginuxmint update
+Install Linux Matrix
+Mink
+New File mimeinfo.ceche
+
+---END---
+
+=== IMG_6098 ===
+a aon, WD scoot ireos-ony) yey. 2 BD 100% treoe-ony) yivy a
+al ‘a
+
+G8 EI A @
+
+#pr
+helght = 0
+Midth = 70,
+foot = “Unitent pequiar 16 .
+text color = -seeoeeg:
+Ig color = -erretry~
+P9.color = #asanoa-
+borden color» -ettrere=
+bEXt = °ATENEOUT MOTEFICATION Lomog
+
+---END---
+
+=== IMG_6099 ===
+GE conto cto trave @ *root [Read-Only] (b/s a *rook fRead-0
+yc | = oot [Read-o
+
+---END---
+
+=== IMG_6101 ===
+ii a
+View Sewch Took oO "
+est: 4b o D
+Wubi x
+mt unicode
+Lor normalewnite
+lor highlight =»
+try “Start Lins »
+Bt gfxpayloos-+«
+imax = /casper/v
+MTR. /caspe
+atey “Stor r
+Ae /cespes/v
+LL remote se!
+[nAtrd /cospe
+ARTY “OOM ins te
+$et Gixpay cass»
+Minsk —/cosper/v
+Reme=${is0 path
+ARite (casper /i
+b platiors
+[saree | platters
+WORLEY "Bort fron oc:
+“eat |
+3
+
+WEFT Firmare \
+
+¥ “Memory test (
+{fiat feemest 1) al
+
+---END---
+
+=== IMG_6102 ===
+Re : eae
+} ston
+tina
+"nN
+
+---END---
+
+=== IMG_6103 ===
+# @ “root [Read-Only] (ib... =
+xt MD “00k bread ony (in,
+rs :
++ j
+y
+
+---END---
+
+=== IMG_6104 ===
+as memtest.cfg (Read-O1
+
+File Edit View Search Tools Oocuments Help
+
+ee: Bae y © O Q &
+
+4 . x x 5 %
+I
+
+---END---
+
+=== IMG_6105 ===
+File Edit View Search Tools VOCUMENKS rien
+Ce L 5 LT fil Qa GG
+x x a a
+r
+
+---END---
+
+=== IMG_6106 ===
+B onic
+| BD veerresscoriins
+' vt mncnsiins a 2
+a
+ne
+e 8
+|
+non tat © Seness ae -
+
+---END---
+
+=== IMG_6107 ===
+o Apes a ‘root [Read-Only] (/8D/«:
+ss :
+fe
+
+---END---
+
+=== IMG_6108 ===
+) BD eorresonniver., BD eer trerconsi oy
+ee) °
+
+---END---
+
+=== IMG_6109 ===
+BB 1012005. 0088 ver. BD ee: resco ineye
+E |
+inn
+_
+fe)
+>
+
+---END---
+
+=== IMG_6110 ===
+@ ~~ fl —— o——~ 5
+
+---END---
+
+=== IMG_6111 ===
+4 svvct Pent Ona WN = sree Phew Ont (Abr { 3 -
+o
+
+---END---
+
+=== IMG_6112 ===
+[| ee ; BD veneinens contri Bw
+Cites — -
+| Pam fees ws
+ne
+fm -
+CD
+
+---END---
+
+=== IMG_6113 ===
+a B. ee ein a 08 Pana Oy a, g
+:
+So
+% = - Be? be. a
+
+---END---
+
