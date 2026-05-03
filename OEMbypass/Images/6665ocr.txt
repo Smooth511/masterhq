@@ -1,0 +1,448 @@
+think mixed up screenshots so here is the folder and everything in it
+
+
+/usr/share/system-tools-backends-2.0/scripts/
+Computer
+Recent
+Wastebasket
+File System 
+:::OPENED FILESYSTEM:::
+bin
+bin usr-is-merged boot
+corom
+dev
+etc 
+:::OPENED HOME::: 
+home
+block boot bus
+class dev devices
+Firmware
+Fs
+hypervisor kernel
+oem
+::: OPENED OEM :::: 
+
+• -cache
+•config
+•gnupg
+•local
+•mozilla
+Desktop
+Documents
+Downloads
+Music
+Pictures
+
+SECOND OCR 
+
+/usr/share/system-tools-backends-2.0/scripts/
+lib64
+lost+Found media mnt
+opt proc root
+sbin
+Isbin.usr-is-merged
+sys
+tmp
+usr 
+:::OPENED USR::: 
+TO UST
+bin games include
+圖 Ub64
+libexec
+/ local
+1 sbin
+YE share
+accountsservice
+adlocal
+alsa
+alsa-base
+alsa-card-profile
+SPp-install applications
+apport apps appstream
+aplitude
+apt-setup aspell avani
+Dackgrounds base-files base-passad bash-completion
+
+
+THIRD OCR 
+
+ tmp
+games
+• include
+lib64
+libexec
+▶ Blocal
+• sbin
+O share
+
+:::OPENED SHARE ::: 
+• accountsservice aclocal
+▶
+alsa
+•alsa-base | alsa-card-profile app-install
+窗 applications
+▶≥
+apport
+• *apps i
+*appstream
+M aptitude
+apt-setup aspell
+圖 avahi
+▶ Dbackgrounds
+I base-files
+I base-passwa
+bash-completion
+* binfmts
+blueman
+i boot-sav
+* boot-sav-extra
+• E brasero
+• britty
+• bug
+• build-essential
+• ca-certificates
+
+FOURTH OCR 
+
+bash-completion binfmts
+blueman
+boot-sav
+boot-sav-extra
+brasero
+britty bug build-essential ca-certificates
+1 captain
+• casper
+• catfish
+▶
+• ccsm
+cinnamon
+cinnamon-background-properties
+• circle-flags-svg
+▶ cmake
+• color
+▶ Pcolord
+I common-licenses
+compiz
+• consolefonts
+• console-setup
+* consoletrans
+» cryptsetup
+› cups
+• dbus-1
+m debconf
+•m debheper
+debianutils
+defaults desktop-directories
+dhcpcd
+dict dictionaries-common distro-info divu
+dns.
+dnsmasq-base
+doc doc-base
+• D dpkg
+drawing
+# drircd
+ecryptfs-utils
+emacs
+emacsen-common enchant-2
+evolution-data-server
+
+FIFTH OCR 
+
+Edit View Go
+Bookmarks Help
+/usr/share/system-tools-backends-2.0/scripts/
+ronts-droid-fallback
+1oo2gpdli
+foo2zjs
+Iwupd
+gamemode
+gCC
+GConf
+gdb
+gơm
+GeolP
+▶
+gettext
+• gettext-0,21
+• ghostscript gir-1.0
+• glade
+• glib-2.0
+• glvnd
+• gnome
+gnome-background-properties gnome-control-center
+gnome-shell gnome-system-tools
+gnupg
+• groff
+▶ grub
+• grub-gfxpayload-lists
+a grub-installer
+▶ 『gst-pugins-base
+• I gstreamer-1.0
+• • gtk-3.0
+• gtk-4.0
+I gtk-doc
+gtk-engines
+gtksourceview-3.0
+gtksourceview-4
+gufw
+gutenprint gvis
+help
+• help-langpack hfsprogs
+hplip
+hunspell hunspell-bdic hwdata
+hyphen
+ㅿ
+可國國
+hypnotix i18n
+icons
+I ieee-data
+• im-config
+
+
+SIXTH  OCR 
+
+iptables iso-codes
+iso-flag-png
+java javascript kde4
+keyrings
+keyutils
+language-selector language-support language-tools lom
+libc-bin libdebuginfod-common libdrm
+libexttextcat
+Ibgcrypt20
+ibgnomekbd
+libgweather-4
+libinput liblangtag
+liblouis
+liblouisutdmll
+ibmysofa
+libreoffice libthai
+libtimezonemap
+libvisual-plugins-0.4
+libwacom
+lightdm
+light-locker-settings lintian
+linuxmint
+linux-sound-base locale
+localechooser
+• locale-langpack
+• locales
+Ito-disabled-list m2300w
+man-db
+mate-background-properties mate-panel maven-repo mdadm
+mdm media-player-info menu mesa-demos
+
+
+SEVENTH OCR 
+
+
+
+
+
+Bookmarks
+Help
+/usr/share/system-tools-backends-2.0/scripts/
+▶
+myspel
+mythes nano
+nautilus
+nemo
+netplan onboard
+openal
+openvpn
+orcal
+os-prober p11-kit
+Packagekit pam
+pam-configs pastebin.d pavucontrol
+perl
+perl5
+perl-openssl-defaults
+pipewire pix
+pixmaps
+pkgconfig
+plymouth pnm2ppa
+polkit-1
+poppler ppd
+ppdc
+ppp
+publicsuffix python3
+python-apt
+qt5
+readline rhythmbox
+rsync
+rsyslog
+samba seahorse secureboot sensible-utils session-migration
+sgmi
+sgmi-base
+Isgmi-data
+▶
+slick-greeter
+Isnmo
+EM software-center
+
+EIGHTH 
+
+system-tools-backends-2.0
+Files scripts tabset
+toltk
+terminfo themes thingy
+thumbnailers
+• Thunar
+• 面 timeshift
+• tracker3
+• transmission
+窗 ubiquiby
+ubiquity-slideshow ubuntu-drivers-common
+ubuntu-system-adjustments ucfi
+ufw
+unity unity-control-center
+/ upstart
+Lusb_modeswitch
+util-linux
+vala
+• vim
+• vulkan
+yE wallpapers
+• * 3D Render Wallpapers
+1 Abstract Wallpapers
+| Baltic Wallpapers
+Black Wallpapers
+Blue Wallpapers
+Building Wallpapers
+City Wallpapers
+Computer Art Wallpapers
+Confetti Wallpapers
+CPU Wallpapers
+Cubes Wallpapers
+| Curtain Wallpapers
+Curved Wallpapers
+* Curves Wallpapers
+Dark Wallpapers
+Init
+Network
+Shares
+Time
+Users
+Utils
+GroupConfig.pm
+GroupsConfig.om
+• HostsConfig.pm
+• IfacesConfig.pm
+• NFSConfig.pm
+• NTPConfig.pm
+• Platform.pm
+• SelfConfig.pm
+• ServiceConfig.pmr
+• ServicesConfig.pm
+• SMBConfig.pm
+• StbObject.pm
+• SystemToolsBackends.
+• TimeConfig.pm
+• UserConfig.pm
+• UsersConfig.pm
+Edit Launche
+•
+WALLPAPERS IN WALLPAERS FOLDER THEN CARRYS ON NORMAL FOLDERS
+
+
+
+
+Bookmarks Help
+/usr/share/system-tools-backends-2.0/scripts/
+Black Wallpapers
+Blue Wallpapers
+Building Wallpapers
+City Wallpapers
+Computer Art Wallpapers
+Confetti Wallpapers
+CPU Wallpapers
+Cubes Wallpapers
+Curtain Wallpapers
+Curved Wallpapers
+Curves Wallpapers
+Dark Wallpapers
+Dawn Wallpapers
+Deeper Wallpapers
+Digital Stream Wallpapers
+Gold Wallpapers
+Hearts Wallpapers
+Heart Wallpapers
+Hiding Wallpapers
+Hope Wallpapers
+Light Wallpapers
+Mountains Wallpapers
+Order Wallpapers
+Pearl Wallpapers
+Pink Wallpapers
+Pipes Wallpapers
+Psychedelic Wallpapers
+Purple Glitter Wallpapers
+Rose Wallpapers
+Silver Wallpapers
+Snow Wallpapers
+Sparkling Wallpapers
+» P Sphere Wallpapers
+• * Square Wallpapers
+Stripes Walipapers
+Sweets Walipapers
+Uzumaki Wallpapers
+Wall Wallpapers
+Waves Wallpapers
+Wave Wallpapers
+White Wallpapers
+Winter Wallpapers
+Xmas Bokeh Wallpapers
+warpinator webapp-manager wireplumber
+X11
+xapp
+xdg-desktop-portal
+
+
+
+
+
+ * Xmas Bokeh Wallpapers
+warpinator
+webapp-manager wireplumber
+X11
+xapp xdg-desktop-portal xed xfce4
+xfce4-xapp-status-plugin
+• xfsprogs
+xfwm4
+xgreeters
+1 xml
+xml-core
+› xreader
+xsessions xviewer
+yelp
+• yelp-xsl
+• zenity
+• zoneinfo
+• 2sh
+InIt
+Network
+Shares
+Time
+Users
+Utils
+GroupConfig.p
+• GroupsConfig.
+• HostsConfig.pn
+• IfacesConfig.pm
+• NFSConfig.pm
+• NTPConfig.pm
+• Platform.pm
+• SelfConfig.pm
+• ServiceConfig.pm
+• ServicesConfig.pm
+• SMBConfig.pm
+• StbObject.pm
+• SystemToolsBackenc
+• TimeConfig.pm
+• UserConfig.pm
+• UsersConfig.pm
+L 1.3 GB Volume
+
+
+
+GGG
