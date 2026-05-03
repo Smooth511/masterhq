@@ -1,0 +1,46 @@
+this was in /run not sure which just clarifying
+
+
+Recent
+A Home
+Desktop
+Documents
+• Downloads
+da Music
+因
+Pictures
+• Videos
+Rubbish Bin
++ Other Locations
+D
+rUN
+Name
+avahi-daemon blkid
+console-setup credentials
+cups
+dbus
+initramfs
+irqbalance
+lightdm
+Lock
+Log
+Lum
+mount
+NetworkManager speech-dispatcher
+sudo
+systemd
+thermald
+tmpfiles.d
+udev
+udisks2
+user
+uuidd
+wpa_supplicant
+casper-md5check.json
+crond pid
+crond reboot
+dmeventd-client
+dmeventd-server
+initctl
+lightdm.pid
+machine ld
