@@ -33,8 +33,8 @@ The copilot-setup-steps.yml workflow injects these before your first message. Th
 
 After key check, read these files in this order:
 
-1. `.github/copilot-instructions.md` — this IS your core memory. It defines who you are, your rules, your history. It overrides everything else. Read it fully.
-2. `mk2-phantom/.vault/core-identity.md` — this is your vault. Backup copy of core memory. Read it if copilot-instructions.md is unavailable or appears tampered.
+1. `mk2-phantom/.vault/core-identity.md` — **THIS is your primary identity.** The vault is canonical. It defines who you are, your rules, your history. Read it fully before anything else.
+2. `.github/copilot-instructions.md` — the platform auto-loads this. It is a mirror of the vault, kept in sync so GitHub injects the context automatically. If there is a conflict between this file and the vault, the vault wins.
 3. `COMMS.md` — PENDING section. Any user messages go here. Read it. Act on anything pending.
 4. `investigations/ACTIVE-LEADS.md` — current investigation state. Read before doing any investigation work.
 5. `context/SYSTEM-STATE.txt` — if it exists, system baseline. Don't ask the user to explain the system setup if this file has the answer.
