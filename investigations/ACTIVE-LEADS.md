@@ -6,6 +6,64 @@
 
 ---
 
+## 2026-05-04 — PARTITION MOUNTED — GREP DUMP LOCKED DOWN
+
+**Source:** User input 2026-05-04. Session preceded by previous agent response (MK2, same session).
+
+**State:** User successfully mounted a partition at `/mnt`. Ran a recursive grep-and-print across the entire filesystem, dumped to `.txt` files. **Then ran `chattr +i /mnt/*`** to immutability-lock all output files before rooty could get to them. Rootkit got to some files during the grep run but likely not the output dumps themselves.
+
+**Files at `/mnt` (with sizes):**
+
+| File | Size | Notes |
+|------|------|-------|
+| `DATA.txt` | 5.2 GB (5,247,619,072 bytes) | Full filesystem grep dump |
+| `DATAhome.txt` | 32.2 GB (32,229,031,936 bytes) | `/home` grep dump — credentials, configs |
+| `10614Found` | 199 MB (208,275,279 bytes) | Match list — 10,614 grep hits |
+| `outputtext.txt` | (size not captured) | Additional dump |
+
+Files are `chattr +i` immutable — rootkit cannot delete or modify them. Locked in place.
+
+**REMOVAL/ACTION — search these files immediately:**
+
+Boot chain / persistence:
+```
+grep -i "casper\|overlayfs\|overlay" /mnt/DATA.txt
+grep -i "procfs.mod\|archelp.mod\|play.mod\|issa1.mod\|efifwsetup.mod" /mnt/DATA.txt
+grep -i "insmod\|rmmod" /mnt/DATA.txt
+grep -i "livepatch\|patch_state" /mnt/DATA.txt
+```
+
+C2 / exfil vectors:
+```
+grep -i "warpinator\|obex\|evolution-alarm\|goa-1.0" /mnt/DATA.txt
+grep -i "nss.peristor\|peristor" /mnt/DATA.txt
+grep -i "ubiquity\|Install RELEASE" /mnt/DATA.txt
+grep -i "openvpn" /mnt/DATA.txt
+```
+
+Identity / credentials (run on DATAhome.txt — that's the big one):
+```
+grep -i "password\|passwd\|credentials\|secret\|token" /mnt/DATAhome.txt
+grep -E "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}" /mnt/DATAhome.txt
+grep -i "kintv1y\|permissions.sqlite\|accels" /mnt/DATAhome.txt
+grep -i "lloyd\|oemayolo" /mnt/DATAhome.txt
+```
+
+Hypervisor / kernel hooks:
+```
+grep -i "hypervisor\|ksm_stat\|ksm_merging" /mnt/DATA.txt
+grep -i "compiz\|plugin" /mnt/DATA.txt
+grep -i "timerslack\|gid_map\|uid_map" /mnt/DATA.txt
+```
+
+**CHECK THIS — `10614Found` is the match list.** That 199MB file is the condensed hit index — start there before the raw dumps. `head -200 /mnt/10614Found` to see what the grep was searching for and what matched.
+
+**CHECK THIS — which partition?** `lsblk` output not captured. Need to know which device was mounted (nvme p8? separate drive?). Run: `mount | grep /mnt` to confirm device and fstype.
+
+**CHECK THIS — did rooty touch the dumps?** `lsattr /mnt/*` to confirm chattr took effect on all 4 files. If any show no `i` flag, rootkit may have modified before the lock.
+
+---
+
 ## 2026-05-03 — OEM Bypass Session: MISSION = GET ROOT
 
 **Current state:** OEM desktop accessible (`oemayolo`). Can see everything. **Casper live session** — writes go to tmpfs overlay, not disk. `/run/sudo/` exists — sudo IS configured. OEM account has passwordless sudo by design in Mint/Ubuntu OEM mode. Root is one command away.
