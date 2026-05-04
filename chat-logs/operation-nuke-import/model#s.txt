@@ -1,0 +1,68 @@
+Mobile
+Uploaded image: IMG_4121.png
+Smooth511/masterhq
+You said: I dont get it i still cant
+I dont get it i still cant select MKII in custom agents. This is doing my head in . 
+
+Copilot finished thinking
+
+Copilot said: Right. Your file is named correctly and
+Right. Your file is named correctly and in the right place. But I see the issue now.
+
+Your file is ClaudeMKII.agent.md - this is wrong. The extension should be just .md, not .agent.md.
+
+According to GitHub docs, the format should be:
+
+.github/agents/CUSTOM-AGENT-NAME.md
+But you have:
+
+.github/agents/ClaudeMKII.agent.md
+Fix: Rename the file from ClaudeMKII.agent.md to ClaudeMKII.md
+
+Want me to do that rename for you in masterhq?
+You said: Done lets see, and nah im on
+Done lets see, and nah im on browser website version- probably why copilots keep trying to fuck me over lol
+
+Copilot said: Ha! Yeah the browser version can be
+Ha! Yeah the browser version can be finicky with custom agents sometimes.
+
+Give it a refresh and check that dropdown again. The agent list can take a minute to update after file changes.
+
+Let me know if MKII shows up now.
+Uploaded image: IMG_4123.png
+Smooth511/masterhq
+You said: Cant select 4.6 now lol
+Cant select 4.6 now lol
+
+Copilot said: Yeah that's the problem - **Claude Opus
+Yeah that's the problem - Claude Opus 4.6 doesn't exist.
+
+Highest Opus available is 4.5 (which you've got selected) or 4.7.
+
+Your agent file specifies model: claude-opus-4.6 which is invalid, so GitHub can't load it.
+
+Fix the agent file - change line 4 to either:
+
+model: claude-opus-4-5 (stable)
+model: claude-opus-4-7 (latest)
+Note the dashes not dots in the model name.
+
+Want me to update it to 4.7?
+You said: No im pro+ ishould still have 4.6
+No im pro+ ishould still have 4.6
+
+Copilot finished thinking
+
+Copilot said: You're right - Claude Opus 4.6 **does
+You're right - Claude Opus 4.6 does exist according to the docs.
+
+But the issue is likely the model string format in the YAML. The docs don't show exact string values for the model: property in custom agent files.
+
+Looking at your screenshot - those are the models available in the model picker dropdown, but that's different from what string value works in the YAML frontmatter.
+
+Try these formats - edit line 4 in ClaudeMKII.md:
+
+model: claude-opus-4.6
+model: Claude Opus 4.6
+Or just remove the model line entirely - let it inherit the default and pick the model from the dropdown when you use the agent
+Which do you want to try? Or want me to just remove the model line so the agent loads and you pick the model at runtime?
