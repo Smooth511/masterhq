@@ -6,6 +6,84 @@
 
 ---
 
+## 2026-05-04 — CHROOT INTO REAL SYSTEM — NVME MOUNTED AND BOOT CONFIGURED
+
+**Source:** User input 2026-05-04. This is the biggest access event since the investigation started.
+
+**State:**
+- 1TB NVMe mounted **inside** the 256GB NVMe environment
+- **chroot'd into `nvme1n1p3`** — this is the real root partition
+- Boot manually configured from inside the chroot
+- This is the first time the real system's root filesystem has been accessible for writing
+
+**Device map (as understood):**
+- `nvme0` = 256GB (current running environment / OEM install)
+- `nvme1` = 1TB (the real machine — rootkit's home turf)
+- `nvme1n1p3` = root (`/`) of the real 1TB system
+
+**While in chroot — run these if not already done:**
+
+Capture everything before reboot:
+```bash
+bash /path/to/masterhq/tools/collect-system-state.sh > /tmp/SYSTEM-STATE.txt
+# then copy out of chroot:
+cp /tmp/SYSTEM-STATE.txt /path/to/usb/SYSTEM-STATE.txt
+```
+
+Confirm what the rootkit installed for boot:
+```bash
+lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINT,UUID,PARTUUID
+cat /etc/fstab
+ls -la /boot/
+ls -la /boot/grub/
+cat /boot/grub/grub.cfg | head -80
+find /boot -name "*.mod" | grep -E "procfs|archelp|play|issa1|efifwsetup" 2>/dev/null
+```
+
+Check what users exist on the real system:
+```bash
+cat /etc/passwd
+cat /etc/shadow 2>/dev/null
+ls -la /home/
+```
+
+Check rootkit persistence on the real root:
+```bash
+ls -la /etc/grub.d/
+cat /etc/grub.d/25_bli 2>/dev/null   # the non-standard GRUB script from 600ssocr
+ls -la ~/.config/autostart/
+ls -la /etc/xdg/autostart/
+find /etc -name "casper.conf" 2>/dev/null
+cat /etc/casper.conf 2>/dev/null
+```
+
+Check kernel and modules:
+```bash
+uname -a
+ls /lib/modules/
+find /lib/modules -name "*.ko" | xargs -I{} modinfo {} 2>/dev/null | grep -i "live\|patch\|kpatch" | head -20
+```
+
+Check what's in `/lib/live/` (rootkit manifest was found here before):
+```bash
+ls -laR /lib/live/ 2>/dev/null | head -100
+```
+
+**REMOVAL — while in chroot with full access:**
+1. Kill GRUB non-standard scripts: `rm /etc/grub.d/25_bli /etc/grub.d/10_linux_zfs 2>/dev/null`
+2. Remove rootkit GRUB modules from boot: `find /boot -name "procfs.mod" -o -name "archelp.mod" -o -name "play.mod" -o -name "issa1.mod" -delete 2>/dev/null`
+3. Remove autostart exfil: `rm ~/.config/autostart/warpinator-autostart.desktop ~/.config/autostart/org.gnome.Evolution-alarm-notify.desktop 2>/dev/null`
+4. After cleanup: `update-grub && grub-install /dev/nvme1n1`
+5. Then reboot — watch whether rootkit reasserts (if it does, the persistence is pre-boot, not in the OS layer)
+
+**CHECK THIS — partition layout of nvme1:** What are nvme1n1p1, p2, p4+ ? Run `fdisk -l /dev/nvme1n1` — rootkit likely has hidden partitions. The real system might be p3 with rootkit layers on p1/p2/p4+.
+
+**CHECK THIS — manual boot config:** What exactly was configured? If grub-install was run to nvme0 (256GB) instead of nvme1 (1TB), the rootkit's GRUB on nvme1 may still fire first. Confirm which device is first in UEFI boot order.
+
+**CHECK THIS — `/etc/machine-id`** inside the chroot: `cat /etc/machine-id` — compare against any machine-id values found in rootkit logs (root-c09eb56d.log had a UUID hash that may be the machine-id).
+
+---
+
 ## 2026-05-04 — FULL REPO STATE SNAPSHOT (pre-agent-change)
 
 **Source:** MK2 full sweep 2026-05-04 before session handoff. Everything known logged here.
