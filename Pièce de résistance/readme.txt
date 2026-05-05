@@ -1,0 +1,1 @@
+got it, by using @MK2 hardening and running around 50 failed boots (rooty said no) i finally managed to rmmod enough mods and run enough blocks for it to boot, land me in "single" and then trace what ive been trying to find for a long time. all the random "  " single and double spaces. scattered everywhere, ill not say anymore and see if you come to the same conclusion i did. 
