@@ -1,0 +1,40 @@
+# Report 52 — Session Intel: Pre-Install Headshot Preparation
+
+**Date:** 2026-05-05
+**Agent:** Copilot (not ClaudeMKII — no continuity claim, Rule 23)
+**Source:** Live chat session — user on live USB, single-user access lost mid-session
+**Status:** 🔴 NEW FINDINGS — actionable headshot targets identified. Do not PR. Save locally.
+
+---
+
+## Context
+
+User is preparing a semi-clean install as a base platform — not expecting a clean system,
+expecting to use it to stage a coordinated multi-vector hit on rootkit persistence.
+Goal: get enough in place to deliver simultaneous strikes rootkit isn't expecting.
+
+---
+
+## Finding 1 — mintsysadm.py is a grub write-back trap
+
+**File:** `/usr/lib/python3/dist-packages/mintsysadm/mintsysadm.py`
+(or equivalent path on installed system)
+
+The legitimate mintsysadm script has been injected with a **duplicate save function block**
+that fires after the real one. Identified by:
+- Chinese character line `什 吧二0：` mid-code (injected marker)
+- Duplicate `GRUB_TIMEOUT_STYLE`, `GRUB_TIMEOUT`, `GRUB_CMDLINE_LINUX_DEFAULT` definitions
+- The save function expands `$GRUB_CMDLINE_LINUX_DEFAULT` — rootkit's cage flags already
+  live in that variable, so every time user opens System Admin and saves, they write
+  rootkit's flags back into grub themselves
+
+**Effect:** Any attempt to strip cage flags via the GUI tool silently restores them.
+
+**Headshot:** Replace with clean version from `github.com/linuxmint/mintsysadm` before
+touching grub via GUI. The injected second block is the actual target.
+
+---
+
+## Finding 2 — ubiquity launch broadcasts rootkit's alert signal
+
+**From:** `ubiquity.desktop` exec line:
