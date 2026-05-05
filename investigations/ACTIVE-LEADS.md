@@ -433,4 +433,71 @@ Unity (Ubuntu's old desktop) + MATE + GNOME all installed alongside XFCE. Each i
 
 ---
 
+### 2026-05-05 — Pièce de résistance / aichatpart2 evaluator pass (Report 51 addendum)
+
+**Source:** `Pièce de résistance/aichatpart2/aichat.txt` — independent AI session with no repo context. Reproduced Report 51's Tab→/root leak on `loginctl`, `systemctl`, `apparmor_status`, `apparmor_parser`, `systemd-creds`. Confirms the hijack is **bash-completion engine-wide**, not per-binary.
+
+**Removal-relevant — bash-completion poison enumeration:**
+
+```bash
+# Confirm master file is empty (decoy):
+wc -c /usr/share/bash-completion/bash_completion
+
+# Find the actual hijack functions:
+complete -p sysctl loginctl systemctl apparmor_status systemd-cryptsetup
+# For each function name returned, run:
+type <funcname>
+
+# Specific completion scripts with exfil code (verified in aichat.txt):
+grep -n 'freerdp\|known_hosts\|links\.his\|PATH=.*:\.' \
+  /usr/share/bash-completion/completions/{xgamma,gdb,links,invoke-rc.d,_mount.linux} 2>/dev/null
+
+# Diff against clean Mint deb extracts of the same packages — any extra lines = hijack
+```
+
+**Check this — PAM modules in `/usr/local`:**
+```bash
+grep -rE 'pam_[a-z_]+\.so' /etc/pam.d/ | grep -i '/usr/local'
+ls -la /usr/local/lib/security/ 2>/dev/null
+# Stock should resolve to /lib/x86_64-linux-gnu/security/pam_*.so
+```
+
+**Check this — phantom HID interfaces (HID injection vector):**
+```bash
+cat /proc/bus/input/devices  # SEMICO USB Keyboard reporting input4/5/6 + Consumer/System Control = 5 interfaces on a basic keyboard
+lsusb -v 2>/dev/null | grep -A20 SEMICO  # Look for >1 HID interface descriptor
+```
+
+**Check this — phantom NVIDIA hardware (hypervisor PCI spoofing):**
+```bash
+lspci -vnn | grep -iE 'nvidia|tu106|nouveau'
+# User states no NVIDIA card present. If lspci shows it, the hypervisor is presenting fake PCI.
+# Fifth independent hypervisor signal (cf. Reports 43/45/48 + 51 §3).
+```
+
+**Check this — anacron → invoke-rc.d → init.d legacy chain:**
+```bash
+head -n 30 /usr/sbin/invoke-rc.d  # Should be a shell script
+grep -rn 'invoke-rc.d' /etc/anacrontab /etc/cron.* /var/spool/anacron 2>/dev/null
+ls -la /etc/init.d/ | awk '$5 > 5000'  # Unusually large init scripts
+```
+
+**Check this — full NOPASSWD sudo set:**
+```bash
+sudo cat /etc/sudoers /etc/sudoers.d/* 2>/dev/null | grep -i NOPASSWD
+# Particularly: dpkg_lock_check.sh as ALL ALL NOPASSWD = dpkg-mutex weapon
+```
+
+**Check this — VTE OSC 133 wrapper watermarks:**
+```bash
+grep -nE '\\e\] +133|\\e\] +7' /etc/profile.d/vte*.sh
+# Spaces in the escape sequences = the same whitespace marker pattern Report 51 documented,
+# applied to the "dummy terminal" wrapper itself.
+```
+
+**Removal-relevant — /cow plaintext credentials:**
+The user found his own passwords in plaintext in `/cow` with timestamps **older than** his `cp -r / /cow/*` overwrite. Means rootkit was caching credentials in the CoW overlay before user wrote anything. Cf. Report 22, Report 34. Single-user `find /cow -type f -newer /cow/etc/hostname -size -10k 2>/dev/null | xargs grep -lI password 2>/dev/null` may map the cache pre-wipe.
+
+---
+
 *Append new entries above this line. Keep it short.*
