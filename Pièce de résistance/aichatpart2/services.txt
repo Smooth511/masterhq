@@ -1,0 +1,492 @@
+sys-kernel-tracing.mount tmp. mount
+systemd-ask-password-console.path init. scope
+blk-availability.service finalrd.service keyboard-setup.service kmod-static-nodes.service
+Idconfig.service
+Lvm2-monitor.service plymouth-read-urite.service rescue.service setvtrgb.service
+systemd-binfmt.service
+systemd-journal-catalog-update.service systemd-journal-flush.service systemd-journald.service systemd-modules-load. service systemd-random-seed.service systemd-remount-fs.service systemd-resolved. service systemd-sysct1.service
+systemd-sysusers.service systemd-timesyncd. service
+systemd-tmpfiles-setup-dev-early.service systemd-tmpfiles-setup-dev.service systemd-tmof iles-setup.service systemd-udev-trigger.service systemd-udevd.service systema-update-done.service systemd-update-utmp.service
+-.slice system-modprobe slice system.slice dm-event.socket
+1vm2-lvmpolld.socket
+systemd-journald-dev-log.socket systemd-journald.socket systemd-rfkill.socket
+systemd-udevd-control.socket systemd-udevd-kernel.socket cryptsetup.target integritysetup.target local-fs-pre.target local-fs.target nss-lookup. target rescue. target swap target sysinit. target time-set. target ver itysetup.target
+Legend: LOAD
+→ Reflects whether the unit definition was properly loaded.
+ACTIVE→ The high-level unit activation state, i.e. generalization of SUB.
+SUB
+→ The low-level unit activation state, values depend on unit type.
+06 loaded units listed. Pass --all to see loaded but inactive units, too
+• show all installed unit files use systemctl list-unit-files, lines 26-114/114 (END)L
+ase Haled
+Kbre ConT iguratlon
+loaded
+File system
+active mounted
+Kernel Trace File System
+loaded
+active
+mounted
+/tmp
+loaded
+active
+waiting
+Loaded loaded
+active
+running
+Dispatch Password Requests to Console Directory Hatch
+System and Service Manager
+loaded
+active
+exited
+Availability of block devices
+active
+Loaded
+active
+exited exited
+Create final runtime dir for shutdown pivot root
+loaded
+Set the console keyboard layout
+active
+exited
+loaded
+active
+Create List of Static Device Nodes
+exited
+loaded
+Rebuild Dynamic Linker Cache
+active
+exited
+loaded
+active
+loaded
+active
+exited
+Monitoring of LVM2 mirrors, snapshots etc. using deventd or Tell Plymouth To Write Out Runtime Data
+running
+Rescue Shell
+loaded
+active
+exited
+Set console scheme
+loaded
+active
+loaded
+active
+exited
+Set Up Additional Binary Formats
+Loaded
+exited
+Rebuild Journal Catalog
+active
+exited
+Flush Journal to Persistent Storage
+loaded loaded
+active
+running
+Journal Service
+active
+exited
+Load Kernel Modules
+loaded
+active
+loaded
+exited
+Load/Save 0S Random Seed
+active
+exited
+loaded loaded
+active
+Remount Root and Kernel File Systems
+running
+Network Name Resolution
+active
+exited
+Apply Kernel Variables
+loaded
+active
+exited
+Create System Users
+loaded
+active
+running
+Network Time Synchronization
+loaded
+active
+loaded
+exited
+active
+Loaded
+exited
+Create Static Device Nodes in /dev gracefully
+Create Static Device Nodes in /dev
+loaded
+active
+exited
+active
+Create Volatile Files and Directories
+exited
+loaded
+Coldplug All udev Devices
+active
+running
+loaded
+active
+exited
+Rule-based Manager for Device Events and Files
+Update is Completed
+loaded
+active
+exited
+loaded active active
+Record System Boot/Shutdown in UTMP
+Root Slice
+loaded active
+active
+Slice /system/modprobe
+loaded
+active active
+loaded
+System Slice
+loaded
+active
+listening Device-mapper event daemon FIFOS
+Loaded
+active listening LVM2 poll daemon socket active running
+Journal
+loaded
+active running
+Socket (/dev/log)
+loaded
+Journal Socket
+loaded active running
+active listening Load/Save RF Kill Switch Status /dev/rfk111 Watch
+loaded active running
+udev Control Socket
+loaded
+active active
+udev Kernel Socket
+loaded
+active active
+Local Encrypted Volumes
+loaded
+active
+active
+Local Integrity Protected Volumes
+loaded active
+active
+Preparation for Local File Systems
+Loaded active
+active
+Local File Systems
+loaded
+active
+active
+Host and Network Name Lookups
+loaded
+active
+Rescue Mode
+active
+loaded active
+active
+Swaps
+Loaded
+active active
+System Initialization
+loaded
+active
+System Time Set
+active
+Local Verity Protected VolumesUNIT
+LOAD
+ACTIVE SUB
+proc-sys-fs-binfmt_misc.automount
+Loaded
+active
+running
+sys-devices-LNXSYSTM: 00-LNXSYBUS: 00-MSFT0101:00- tpm-tpme.device
+LUCD-D
+active plugged
+sys-devices-LNXSYSTM: 00-LNXSYBUS: 00-MSFT0101:00-tpmrm-tpmrme.device
+Loaded
+active plugged
+sys-devices-pc10000:00-0000:00:14.0-usb1-1\x2d1-1\x2d1:1.0-host6-target6:0:0-6:0:0:0-block-sda-sda1.device
+loaded active plugged
+sys-devices-pc10000:00-0000:00:14.0-usb1-1\x2d1-1\x2d1:1.0-host6-target6:0:0-6:0:0:0-block-sda-sda2.device
+loaded
+sus-devices-pc10000:00-0000:00:14.0-usb1-1\x2d1-1\x2d1:1.0-host6-target6:0:0-6:0:0:0-block-sda-sda3.device
+act ive plugged
+Loaded
+active plugged
+sys-devices-pc10000:00-0000:00:14.0-usb1-1\x2d1-1\x2d1:1.0-host6-target6:0:0-6:0:0:0-block-sda.device
+IOD-D
+act ive plugged
+sys-devices-pc10000:00-0000:00:1c.3-0000:03:00.0-net-enp3s0.device
+Loaded
+active plugged
+sys-devices-pc10000:00-0000:00:1d.0-0000:04:00.0-nvme-nvme0-nvme0n1.device
+Loaded
+active plugged
+sys-devices-platform-seria18250-seria18250:0-seria18250:0.0-tty-ttyso.device
+Loaded
+active plugged
+sys-devices-platform-serial8250-seria18250:0-seria18250:0.1-tty-ttyS1.device
+sys-devices-platform-seria18250-seria18250:0-seria18250:0.10-tty-ttys10.device
+Loaded
+active plugged
+active plugged
+sys-devices-platform-seria18250-seria18250:0-seria18250:0.11-tty-ttys11.device
+sys-devices-platform-seria18250-seria18250:0-seria18250:0.12-tty-ttys12.device
+loaded
+active plugged
+active plugged
+sys-devices-platform-seria18250-seria18250:0-seria18250:0.13-tty-ttys13.device
+Loaded active plugged
+sys-devices-platform-serial8250-seria18250:0-seria18250:0.14-tty-ttys14.device
+sys-devices-platform-seria18250-serial8250:0-seria18250:0.15-tty-ttys15.device
+Loaded
+active plugged
+sys-devices-platform-ser ia18250-seria18250:0-seria18250:0.16-
+-tty-ttys16.device
+loaded
+active plugged
+Loaded
+active plugged
+sys-devices-platform-serial8250-serial8250:0-seria18250:0.17-tty-ttys17.device
+loaded active plugged
+sys-devices-platform-ser ial8250-ser ial8258:0-ser 1a18250:0.
+18-tty-ttyS18.device
+Loaded active plugged
+sys-devices-platform-ser ia18250-seria18250:0-seria18250:0.19-tty-ttys19.device
+loaded
+sys-devices-platform-seria18250-seria18250:0-seria18250:0.2-tty-ttyS2.device
+Loaded
+active plugged
+active plugged
+sys-devices-platform-seria18250-seria18250:0-serial8250:0.20-tty-ttys20.device
+loaded active plugged
+sys-devices-platform-seria18250-seria18250:0-seria18250:0.21-tty-ttys21.device
+loaded
+active plugged
+sys-devices-platform-seria18250-seria18250:0-seria18250:0.22-tty-ttyS22.device
+loaded
+active plugged
+sys-devices-platform-seria18250-serial8250:0-seria18250:0.23-tty-ttys23.device
+active plugged
+sus-devices-platform-ser ia 18250-ser ia18250:0-ser ia18250:0.24-tty-ttyS24.device
+Loaded
+act ive plugged
+sus-devices-platform-ser ia18250-serial8250:0-ser ia18250:0.25-tty-ttys25. device
+loaded
+active plugged
+sys-devices-platform-serial8250-seria18250:0-seria18250:0.26-tty-ttyS26.device
+Loaded
+active plugged
+sys-devices-platform-seria18250-serial8250:0-serial8250:0.27-tty-ttys27.device
+loaded
+active plugged
+sys-devices-platform-seria18250-serial8250:0-serial8250:0.28-tty-ttyS28.device
+loaded
+Qしい上Vといししたとこし
+sys-devices-platform-seria18250-serial8250:0-serial8250:0.29-tty-ttyS29.device
+Loaded
+active plugged
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.3-tty-ttys3.device
+loaded active plugged
+sys-devices-platform-serial8250-serial8250:0-seria18250:0.30-tty-ttyS30.device
+loaded
+active ulugsed
+sys-devices-platform-serial8250-seria18250:0-serial8250:0.31-tty-ttyS31.device
+Loaded active plugged
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.4-tty-ttys4.device
+loaded active plugged
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.5-tty-ttys5.device
+loaded active plugged
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.6-tty-ttyS6.device
+Loaded
+active plugged
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.7-tty-ttys7.device sys-devices-platform-serial8250-seriale250:0-serial8250:0.B-tty-ttyS8.device
+loaded active plugged
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.9-tty-ttys9.device
+loaded active plugged
+sys-devices-virtual-block-1oop0.device
+Loaded
+active plugged
+Loaded active plugged
+sys-devices-virtual-misc-rfkil1.device
+loaded active plugged
+sys-devices-virtual-tty-ttyprintk.device
+Loaded active ollugged
+sys-module-configfs.device
+sys-module-fuse.device
+Loaded active plugged
+Loaded
+active plugged
+sys-subsystem-net-devices-enp3s0.device
+loaded active plugged
+-.mount
+loaded
+act ive mounted
+• cdrom.mount
+active mounted
+dev-hugepages.mount
+dev-mqueue.mount
+Loaded active mounted
+proc-sys-fs-binfmt_misc.mount
+loaded
+active mounted
+UCUCD
+active mounted
+rofs.mount
+sys-fs-fuse-connections.mount
+loaded active mounted Loaded active mounted
+sys-kernel-config.mount
+loaded active mounted
+sys-kernel-tracing.mount
+loaded active mounted
+tmp.mount
+systemd-ask-password-console.path
+loaded
+active mounted
+Loaded active waiting
+Loaded active running
+blk-availability.service
+finalrd.service
+keyboard-setup.service
+loaded active exited Loaded active exited
+kmod-stat ic-nodes.service
+loaded active exited
+1ocant10.6pnrine
+loaded active exited
+Ivm2-monitor.service
+Loaded active exited
+pLymouth-read-urite.service
+Loaded active exited
+rescue service
+loaded active running
+setvtrgb.service
+Loaded active exited
+systemd-binfmt.service
+Loaded active exited
+systemd-journal-catalog-update.service
+loaded active exited
+systemd-journal-flush.service
+systemd-journald.service
+Loaded active exited
+loaded active running
+systemd-modules-load.service
+systemd-random-seed.service
+loaded active exited
+loaded active exited
+systemd-remount-fs.service
+systemd-resolved.service
+loaded active exited
+systemd-sysct1. service
+Loaded
+active running
+systemd-sysusers.service
+Loaded active exited
+systemd-t imesyncd.service
+Loaded
+active exited
+systemd-tmpf iles-setup-dev-ear ly.service
+oaded active running
+systemd-tmpf iles-setup-dev.service
+loaded
+active exited
+systemd-tmpf 11es-setup.service
+JLBCDED
+act ive
+exited
+systemd-udev-trigger.service
+Loaded
+active exited
+systemd-udevd.service
+Loaded
+active exited
+systemd-update-done.service
+Loaded
+active running
+systemd-update-utmp.service
+Loaded
+active exited
+-.slice
+Loaded
+active exited
+sustem-modprobe.slice
+Loaded
+act ive active
+Loaded
+act ive
+DESCRIPTION
+Arbitrary Executable File Formats File System Automount Point
+/sys/devices/LNXSYSTM: 00/LNXSYBUS: 08/MSFT0101:00/tpm/tpme
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/MSF10101:00/tpmrm/tpmrm0
+STORE_N_GO Linux_Mint_22.3_Xfce_64-bit
+STORE_N_GO 2
+STORE_N_GO 3
+STORE_N_GO Linux_Mint_22.3_Xfce_64-bit
+RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (PRIME B450M-A Motherboard)
+SAMSUNG MZVLB256HAHQ-000H1
+/sys/devices/platform/serial8250/serial8250:0/seria18250:0.0/tty/ttys0 /sys/devices/platform/serial8250/serial8250:0/serial8250:0.1/tty/ttys1 /sys/devices/platform/serial8250/serial8250:0/seria18250:0.10/tty/ttys10 /sys/devices/platform/seria18250/serial8250:0/seria18250:0.11/tty/ttyS11 /sys/devices/platform/seria18250/seria18250:0/seria18250:0.12/tty/ttyS12 /sys/devices/platform/serial8250/seria18250:0/serial8250:0.13/tty/ttyS13 /sys/devices/platform/serial8250/seria_8250:0/serla18250:0.14/tty/ttys14 /sys/devices/platform/seria18250/serial8250:0/serial8250:0.15/tty/ttyS15 /sys/devices/platform/serial8250/serial8250:0/seria18250:0.16/tty/ttyS16 /sys/devices/platform/serial8250/
+seria18250:0/seria18250:0.17/tty/ttyS17
+/sys/devices/platform/seria18250/serial8250:0/seria_8250:0.18/tty/ttyS18 sys/devices.
+ia18250/ser ial8250:0/seria18250:0.19/tty/ttyS19
+/sys/devices/platt
+/seria18250:0/seria18250:0.2/tty/ttys2
+/sys/devices/platform/seria18250/seria18250:0/serial8250:0.20/tty/ttys20 /sys/devices/platform/ser
+seria18250:0/seria18250:0.21/tty/ttyS21
+/sys/devices/platform/seria18250/seria18250:0/serial8250:0.22/tty/ttyS22 /sys/devices/platform/serial8250/serial8250:0/serlal8250:0.23/tty/ttys23 /sys/devices/platform/serial8250,
+serial8250:0/seria18250:0.24/tty/ttyS24
+/sys/devices/platform/seria18250/seria18250:0/seria18250:0.25/tty/ttys25 /sys/devices/platform/serial8250/seria18250:0/serial8250:0.26/tty/ttyS26 /sys/devices/platform/serial8250/serial8250:0/seria18250:0.21/tty/ttys27 /sys/devices/platform/serial8250/seria18250:0/serial8250:0.28/tty/ttys28 /sys/devices/platform/serial8250/seria18250:0/seria18250:0.29/tty/ttyS29 /sys/devices/platform/seria18250/seria18250:0/seria18250:0.3/tty/ttys3 /sys/devices/platform/serial8250/seria18250:0/seria18250:0.30/tty/ttyS30 /sys/devices/platform/seria18250/seria18250:0/serial8250:0.31/tty/ttyS31 /sys/devices/platform/serial8250/seria18250:0/seria18250:0.4/tty/ttyS4 /sys/devices/platform/serial8250/serial8250:0/serial8250:0.5/tty/ttyS5 /sys/devices/platform/serial8250/serial8250:0/serial8250:0.6/tty/ttyS6 /sys/devices/platform/serial8250/serial8250:0/serial8250:0.7/tty/ttyS7 /sys/devices/platform/serial8250/seria18250:0/serial8250:0.8/tty/ttys8 /sys/devices/platform/seria18250/serial8250:0/serial8250:0.9/tty/ttys9
+/sys/devices/virtual/block/loop0 /sys/devices/virtual/misc/rfkill
+/sys/devices/virtual/tty/ttyprintk
+/sys/module/configfs
+/sys/module/fuse
+RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (PRIME B450M-A Motherboard)
+Root Mount
+/cdrom
+Huge Pages File System
+POSIX Message Queue File System
+Arbitrary Executable File Formats File System
+/rofs
+FUSE Control File System
+Kernel Configuration File System
+Kernel
+/tmp
+Trace File System
+Dispatch Password Requests to Console Directory Hatch
+System and Service Manager
+Availability of block devices
+Create final runtime dir for shutdoun pivot root
+Set the console keyboard layout
+Create List of Static Device Nodes
+Rebuild Dynamic Linker Cache
+Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+Tel1 Plymouth To Krite Out Runtime Data
+Rescue Shell
+Set console scheme
+Set Up Additional Binary Formats
+Rebuild Journal Catalog
+FLush Journal to Persistent Storage
+Journal Service
+Load Kernel Modules
+Load/Save os Random Seed
+Remount Root and Kernel File Systems
+Network Name Resolution
+Apply Kernel Variables
+Create System Users
+Network Time Synchronization
+Create Static Device Nodes
+in /dev gracefully
+Create Static
+Device Nodes
+in /dev
+Create Volatile Files and Directories
+Coldplug All udev Devices
+Rule-based Manager for Device Events and Files
+Update
+is Completed
+Record System Boot/Shutdown in UTMP
+Root Slice
+Slice /system/modprobe
