@@ -1,0 +1,476 @@
+Source: IMG_6884.jpeg – IMG_6893.jpeg (10 screenshots, aichatpart2)
+OCR'd 2026-05-05. Output is a `systemctl list-units` / `list-unit-files` dump
+from the live Mint host. Names cleaned up from OCR; alphabetical inside each
+subsection. Two subsections per user request.
+
+================================================================================
+SECTION 1 — SYSTEM FILES  (.mount and .device units — what's mounted / present)
+================================================================================
+
+--- .mount units (filesystems / API mounts) ---
+-.mount                                                  (root)
+-.slice                                                  (root slice — listed alongside mounts)
+boot.mount
+cdrom.mount                                              (not-found / inactive)
+dev-hugepages.mount                                      (active mounted — Huge Pages File System)
+dev-mqueue.mount                                         (active mounted — POSIX Message Queue File System)
+proc-sys-fs-binfmt_misc.mount                            (disabled)
+run-credentials-systemd\x2dresolved.service.mount        (not-found inactive dead)
+run-credentials-systemd\x2drfkill.service.mount          (not-found inactive dead)
+run-credentials-systemd\x2dsysctl.service.mount          (not-found inactive dead)
+run-credentials-systemd\x2dsysusers.service.mount        (not-found inactive dead)
+run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount   (not-found inactive dead)
+run-credentials-systemd\x2dtmpfiles\x2dsetup.service.mount   (not-found inactive dead)
+sys-fs-fuse-connections.mount                            (active mounted)
+sys-kernel-config.mount                                  (active mounted — Kernel Configuration File System)
+sys-kernel-debug.mount                                   (active mounted — Kernel Debug File System)
+sys-kernel-tracing.mount                                 (active mounted — Kernel Trace File System)
+tmp.mount                                                (active mounted — /tmp)
+
+--- .device units (sys/devices tree — what udev sees) ---
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.0-tty-ttyS0.device      /sys/devices/platform/serial8250/serial8250:0/serial8250:0.0/tty/ttyS0
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.1-tty-ttyS1.device      /sys/devices/platform/serial8250/serial8250:0/serial8250:0.1/tty/ttyS1
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.10-tty-ttyS10.device    .../serial8250:0.10/tty/ttyS10
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.11-tty-ttyS11.device    .../serial8250:0.11/tty/ttyS11
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.12-tty-ttyS12.device    .../serial8250:0.12/tty/ttyS12
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.13-tty-ttyS13.device    .../serial8250:0.13/tty/ttyS13
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.14-tty-ttyS14.device    .../serial8250:0.14/tty/ttyS14
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.15-tty-ttyS15.device    .../serial8250:0.15/tty/ttyS15
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.16-tty-ttyS16.device    .../serial8250:0.16/tty/ttyS16
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.17-tty-ttyS17.device    .../serial8250:0.17/tty/ttyS17
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.18-tty-ttyS18.device    .../serial8250:0.18/tty/ttyS18
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.19-tty-ttyS19.device    .../serial8250:0.19/tty/ttyS19
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.2-tty-ttyS2.device      .../serial8250:0.2/tty/ttyS2
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.20-tty-ttyS20.device    .../serial8250:0.20/tty/ttyS20
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.21-tty-ttyS21.device    .../serial8250:0.21/tty/ttyS21
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.22-tty-ttyS22.device    .../serial8250:0.22/tty/ttyS22
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.23-tty-ttyS23.device    .../serial8250:0.23/tty/ttyS23
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.24-tty-ttyS24.device    .../serial8250:0.24/tty/ttyS24
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.25-tty-ttyS25.device    .../serial8250:0.25/tty/ttyS25
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.26-tty-ttyS26.device    .../serial8250:0.26/tty/ttyS26
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.27-tty-ttyS27.device    .../serial8250:0.27/tty/ttyS27
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.28-tty-ttyS28.device    .../serial8250:0.28/tty/ttyS28
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.29-tty-ttyS29.device    .../serial8250:0.29/tty/ttyS29
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.3-tty-ttyS3.device      .../serial8250:0.3/tty/ttyS3
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.30-tty-ttyS30.device    .../serial8250:0.30/tty/ttyS30
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.31-tty-ttyS31.device    .../serial8250:0.31/tty/ttyS31
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.4-tty-ttyS4.device      .../serial8250:0.4/tty/ttyS4
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.5-tty-ttyS5.device      .../serial8250:0.5/tty/ttyS5
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.6-tty-ttyS6.device      .../serial8250:0.6/tty/ttyS6
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.7-tty-ttyS7.device      .../serial8250:0.7/tty/ttyS7
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.8-tty-ttyS8.device      .../serial8250:0.8/tty/ttyS8
+sys-devices-platform-serial8250-serial8250:0-serial8250:0.9-tty-ttyS9.device      .../serial8250:0.9/tty/ttyS9
+sys-devices-virtual-misc-rfkill.device                                            /sys/devices/virtual/misc/rfkill
+sys-module-configfs.device                                                        /sys/module/configfs
+sys-module-fuse.device                                                            /sys/module/fuse
+
+================================================================================
+SECTION 2 — SYSTEM SERVICES  (.path / .service / .socket / .target / .timer / .slice / .scope)
+================================================================================
+
+--- .path units ---
+cups.path                                                (enabled)
+systemd-ask-password-console.path                        (static)
+systemd-ask-password-plymouth.path                       (static)
+systemd-ask-password-wall.path                           (static)
+tpm-udev.path
+
+--- .scope / .slice units ---
+init.scope
+-.slice
+machine.slice                                            (static)
+system-modprobe.slice
+system-systemd\x2dcryptsetup.slice                       (static)
+system-systemd\x2dveritysetup.slice                      (static)
+system.slice
+user.slice                                               (static)
+
+--- .service units (alphabetical) ---
+accounts-daemon.service
+alsa-restore.service
+alsa-state.service                                       (static)
+alsa-utils.service
+anacron.service                                          (enabled)
+apparmor.service                                         (enabled)
+apt-daily-upgrade.service                                (static)
+apt-daily.service                                        (static)
+auditd.service                                           (not-found)
+auto-cpufreq.service                                     (not-found)
+autovt@.service                                          (alias)
+avahi-daemon.service                                     (enabled)
+blk-availability.service                                 (enabled)
+blueman-mechanism.service                                (enabled)
+bluetooth.service                                        (enabled)
+bolt.service
+brltty-udev.service                                      (static)
+brltty.service
+casper-md5check.service
+casper.service
+colord.service
+common.service                                           (not-found)
+configure-printer@.service                               (static)
+console-getty.service                                    (disabled)
+console-screen.service                                   (not-found)
+console-setup.service                                    (static)
+container-getty@.service                                 (static)
+cron.service                                             (enabled)
+cryptdisks-early.service                                 (masked)
+cryptdisks.service                                       (masked)
+cups-browsed.service                                     (enabled)
+cups.service
+dbus-fi.w1.wpa_supplicant1.service                       (alias)
+dbus-org.bluez.service                                   (alias)
+dbus-org.freedesktop.ModemManager1.service               (alias)
+dbus-org.freedesktop.hostname1.service                   (alias)
+dbus-org.freedesktop.locale1.service                     (alias)
+dbus-org.freedesktop.login1.service                      (alias)
+dbus-org.freedesktop.nm-dispatcher.service               (alias)
+dbus-org.freedesktop.resolve1.service                    (alias)
+dbus-org.freedesktop.thermald.service                    (alias)
+dbus-org.freedesktop.timedate1.service                   (alias)
+dbus-org.freedesktop.timesync1.service                   (alias)
+dbus.service                                             (static)
+debug-shell.service
+display-manager.service                                  (disabled)
+dm-event.service                                         (static)
+dpkg-db-backup.service                                   (static / alias)
+e2scrub@.service
+e2scrub_all.service                                      (static)
+e2scrub_fail@.service                                    (static)
+e2scrub_reap.service                                     (static)
+emergency.service                                        (static)
+finalrd.service                                          (enabled)
+friendly-recovery.service                                (not-found)
+fwupd-offline-update.service
+fwupd-refresh.service
+fwupd.service
+geoclue.service                                          (static)
+getty-static.service                                     (static)
+getty@.service                                           (static)
+gdm.service                                              (not-found, system-helper / lightdm context)
+gpu-manager.service                                      (enabled)
+grub-common.service                                      (enabled)
+grub-initrd-fallback.service                             (enabled)
+hddtemp.service                                          (not-found)
+hibinit-agent.service                                    (masked)
+initrd-cleanup.service                                   (static)
+initrd-parse-etc.service                                 (static)
+initrd-switch-root.service                               (static)
+initrd-udevadm-cleanup-db.service                        (static)
+irqbalance.service                                       (loaded inactive dead)
+iscsi-shutdown.service                                   (not-found)
+iscsi.service                                            (not-found)
+iscsid.service                                           (not-found)
+kerneloops.service                                       (loaded inactive dead — kernel crash signature collector)
+keyboard-setup.service                                   (active exited)
+kmod-static-nodes.service                                (static)
+kmod.service                                             (static)
+ldconfig.service                                         (static)
+lightdm.service                                          (enabled)
+lm-sensors.service                                       (loaded inactive dead)
+logrotate.service                                        (static)
+lvm2-lvmpolld.service                                    (static)
+lvm2-monitor.service                                     (enabled)
+man-db.service
+mdadm-grow-continue@.service                             (static)
+mdadm-last-resort@.service                               (static)
+mdcheck_continue.service                                 (static)
+mdcheck_start.service                                    (static)
+mdmon@.service
+mdmonitor-oneshot.service                                (static)
+mdmonitor.service                                        (static)
+mintsystem.service
+mintupdate-automation-autoremove.service                 (static)
+mintupdate-automation-cleanup.service                    (static)
+mintupdate-automation-upgrade.service                    (static / enabled)
+modprobe@.service                                        (enabled)
+modules-load.service
+motd-news.service                                        (static)
+netplan-ovs-cleanup.service                              (enabled)
+networkd-dispatcher.service                              (enabled)
+NetworkManager-wait-online.service                       (enabled)
+NetworkManager.service                                   (enabled)
+nftables.service                                         (disabled)
+nm-priv-helper.service                                   (static)
+openvpn-client@.service                                  (enabled)
+openvpn-server@.service                                  (enabled)
+openvpn.service                                          (enabled)
+packagekit-offline-update.service                        (static)
+packagekit.service                                       (static)
+pam_namespace.service                                    (static)
+plocate-updatedb.service                                 (static)
+plymouth-halt.service                                    (static)
+plymouth-kexec.service                                   (static)
+plymouth-log.service
+plymouth-poweroff.service                                (static)
+plymouth-quit-wait.service                               (static)
+plymouth-quit.service                                    (static)
+plymouth-read-write.service                              (static)
+plymouth-reboot.service                                  (static)
+plymouth-start.service                                   (static)
+plymouth-switch-root-initramfs.service                   (static)
+plymouth-switch-root.service                             (static)
+plymouth.service                                         (alias)
+polkit.service                                           (static)
+power-profiles-daemon.service                            (enabled)
+procps.service
+quotaon.service                                          (static)
+rc-local.service                                         (static)
+rescue.service                                           (static)
+rsync.service                                            (disabled)
+rsyslog.service                                          (enabled)
+rtkit-daemon.service
+saned.service                                            (disabled)
+saned@.service                                           (indirect)
+secureboot-db.service                                    (enabled)
+serial-getty@.service                                    (disabled)
+setvtrgb.service                                         (enabled)
+snapd.aa-prompt-listener.service
+snapd.apparmor.service                                   (enabled)
+snapd.service                                            (enabled)
+speech-dispatcher.service
+speech-dispatcherd.service
+ssh.service
+switcheroo-control.service                               (enabled)
+syslog.service
+system-update-cleanup.service                            (static)
+systemd-ask-password-console.service                     (static)
+systemd-ask-password-plymouth.service                    (static)
+systemd-ask-password-wall.service                        (static)
+systemd-backlight@.service                               (static)
+systemd-battery-check.service                            (static)
+systemd-binfmt.service                                   (static)
+systemd-boot-check-no-failures.service                   (disabled)
+systemd-bsod.service                                     (static)
+systemd-confext.service                                  (disabled)
+systemd-coredump@.service                                (static)
+systemd-exit.service                                     (static)
+systemd-firstboot.service                                (static)
+systemd-fsck-root.service                                (static)
+systemd-fsck@.service                                    (static)
+systemd-fsckd.service                                    (static)
+systemd-growfs-root.service                              (static)
+systemd-growfs@.service                                  (static)
+systemd-halt.service                                     (static)
+systemd-hibernate-resume.service                         (static)
+systemd-hibernate.service                                (static)
+systemd-hostnamed.service                                (static)
+systemd-hwdb-update.service                              (static)
+systemd-hybrid-sleep.service                             (static)
+systemd-initctl.service                                  (static)
+systemd-journal-catalog-update.service                   (static)
+systemd-journal-flush.service                            (static)
+systemd-journald.service                                 (static)
+systemd-journald@.service                                (static)
+systemd-kexec.service                                    (static)
+systemd-localed.service                                  (static)
+systemd-logind.service                                   (static)
+systemd-machine-id-commit.service                        (static)
+systemd-modules-load.service                             (static)
+systemd-network-generator.service
+systemd-networkd-wait-online.service
+systemd-networkd-wait-online@.service
+systemd-networkd.service
+systemd-pcrextend@.service                               (static)
+systemd-pcrfs-root.service                               (static)
+systemd-pcrfs@.service                                   (static)
+systemd-pcrlock-file-system.service                      (disabled)
+systemd-pcrlock-firmware-code.service                    (disabled)
+systemd-pcrlock-firmware-config.service                  (disabled)
+systemd-pcrlock-machine-id.service                       (disabled)
+systemd-pcrlock-make-policy.service                      (disabled)
+systemd-pcrlock-secureboot-authority.service             (disabled)
+systemd-pcrlock-secureboot-policy.service                (disabled)
+systemd-pcrmachine.service                               (static)
+systemd-pcrphase-initrd.service                          (static)
+systemd-pcrphase-sysinit.service                         (static)
+systemd-pcrphase.service                                 (static)
+systemd-poweroff.service                                 (static)
+systemd-pstore.service                                   (enabled)
+systemd-quotacheck.service                               (static)
+systemd-random-seed.service                              (static)
+systemd-reboot.service                                   (static)
+systemd-remount-fs.service                               (enabled-runtime)
+systemd-repart.service                                   (static)
+systemd-resolved.service                                 (enabled)
+systemd-rfkill.service                                   (static)
+systemd-soft-reboot.service                              (static)
+systemd-storagetm.service                                (static)
+systemd-suspend-then-hibernate.service                   (static)
+systemd-suspend.service                                  (static)
+systemd-sysctl.service                                   (static)
+systemd-sysext.service                                   (enabled)
+systemd-sysext@.service                                  (static)
+systemd-sysupdate-reboot.service                         (indirect)
+systemd-sysupdate.service                                (indirect)
+systemd-sysusers.service                                 (static)
+systemd-time-wait-sync.service                           (disabled)
+systemd-timesyncd.service                                (enabled)
+systemd-tmpfiles-clean.service                           (static)
+systemd-tmpfiles-setup-dev-early.service                 (static)
+systemd-tmpfiles-setup-dev.service                       (static)
+systemd-tmpfiles-setup.service                           (static)
+systemd-tpm2-setup-early.service                         (static)
+systemd-tpm2-setup.service                               (static)
+systemd-udev-settle.service                              (static)
+systemd-udev-trigger.service                             (static)
+systemd-udevd.service                                    (static)
+systemd-update-done.service                              (static)
+systemd-update-utmp-runlevel.service                     (static)
+systemd-update-utmp.service                              (static)
+systemd-user-sessions.service                            (static)
+systemd-volatile-root.service                            (static)
+thermald.service                                         (enabled)
+tpm-udev.service
+ubiquity.service                                         (Linux Mint installer hook)
+ubuntu-system-adjustments.service                        (enabled)
+udisks2.service                                          (enabled)
+ufw.service                                              (enabled)
+upower.service                                           (disabled)
+usb_modeswitch@.service                                  (static)
+usbmuxd.service                                          (static)
+user-runtime-dir@.service                                (static)
+user@.service                                            (static)
+uuidd.service                                            (indirect / enabled)
+virtualbox.service                                       (static)
+wpa_supplicant-nl80211@.service                          (disabled)
+wpa_supplicant-wired@.service                            (disabled)
+wpa_supplicant.service                                   (enabled)
+wpa_supplicant@.service                                  (disabled)
+x11-common.service                                       (masked)
+xfs_scrub@.service                                       (static)
+xfs_scrub_all.service                                    (static)
+xfs_scrub_fail@.service                                  (static)
+
+--- .socket units ---
+avahi-daemon.socket                                      (enabled)
+cups.socket                                              (enabled)
+dbus.socket                                              (static)
+dm-event.socket                                          (enabled)
+lvm2-lvmpolld.socket                                     (enabled)
+saned.socket                                             (disabled)
+syslog.socket                                            (static)
+systemd-coredump.socket                                  (static)
+systemd-fsckd.socket                                     (static)
+systemd-initctl.socket                                   (static)
+systemd-journald-audit.socket                            (disabled / enabled)
+systemd-journald-dev-log.socket                          (static)
+systemd-journald-varlink@.socket                         (static)
+systemd-journald.socket                                  (static)
+systemd-journald@.socket                                 (static)
+systemd-networkd.socket                                  (disabled)
+systemd-pcrextend.socket                                 (disabled)
+systemd-rfkill.socket                                    (static — listed as systemd-rfkill.socket)
+systemd-sysext.socket                                    (disabled)
+systemd-udevd-control.socket                             (static)
+systemd-udevd-kernel.socket                              (static)
+uuidd.socket                                             (enabled)
+
+--- .target units ---
+basic.target                                             (static)
+blockdev@.target                                         (static)
+bluetooth.target                                         (static)
+boot-complete.target                                     (static)
+cryptsetup-pre.target                                    (static)
+cryptsetup.target                                        (static)
+ctrl-alt-del.target                                      (alias)
+default.target
+emergency.target                                         (static)
+exit.target                                              (disabled)
+factory-reset.target                                     (static)
+final.target                                             (static)
+first-boot-complete.target                               (static)
+friendly-recovery.target                                 (static)
+getty-pre.target                                         (static)
+getty.target                                             (static)
+graphical.target                                         (static)
+halt.target                                              (disabled)
+hibernate.target                                         (static)
+hybrid-sleep.target                                      (static)
+initrd-fs.target                                         (static)
+initrd-root-device.target                                (static)
+initrd-root-fs.target                                    (static)
+initrd-switch-root.target                                (static)
+initrd-usr-fs.target                                     (static)
+initrd.target                                            (static)
+integritysetup-pre.target                                (static)
+integritysetup.target                                    (static)
+kexec.target                                             (disabled)
+local-fs-pre.target                                      (static)
+local-fs.target                                          (static)
+multi-user.target                                        (static)
+network-online.target                                    (static)
+network-pre.target                                       (static)
+network.target                                           (static)
+nss-lookup.target                                        (static)
+nss-user-lookup.target                                   (static)
+paths.target                                             (static)
+poweroff.target                                          (static)
+printer.target                                           (disabled)
+reboot.target                                            (static)
+remote-cryptsetup.target                                 (disabled)
+remote-fs-pre.target                                     (static)
+remote-fs.target                                         (enabled)
+remote-veritysetup.target                                (disabled)
+rescue.target                                            (static)
+rpcbind.target                                           (static)
+runlevel0.target                                         (alias)
+runlevel1.target                                         (alias)
+runlevel2.target                                         (alias)
+runlevel3.target                                         (alias)
+runlevel4.target                                         (alias)
+runlevel5.target                                         (alias)
+runlevel6.target                                         (alias)
+shutdown.target                                          (static)
+sigpwr.target                                            (static)
+sleep.target                                             (static)
+slices.target                                            (static)
+smartcard.target                                         (static)
+sockets.target                                           (static)
+soft-reboot.target                                       (static)
+sound.target                                             (static)
+storage-target-mode.target                               (static)
+suspend-then-hibernate.target                            (static)
+suspend.target                                           (static)
+sysinit.target                                           (static)
+system-update-pre.target                                 (static)
+time-set.target                                          (static)
+time-sync.target                                         (static)
+timers.target                                            (static)
+umount.target                                            (static)
+usb-gadget.target                                        (static)
+veritysetup-pre.target                                   (static)
+veritysetup.target                                       (static)
+
+--- .timer units ---
+apt-daily-upgrade.timer                                  (enabled)
+apt-daily.timer                                          (enabled)
+dpkg-db-backup.timer                                     (enabled)
+e2scrub_all.timer                                        (enabled)
+fstrim.timer                                             (disabled)
+fwupd-refresh.timer                                      (enabled)
+logrotate.timer                                          (enabled)
+man-db.timer                                             (enabled)
+mdadm-last-resort@.timer                                 (static)
+mdcheck_continue.timer                                   (enabled)
+mdcheck_start.timer                                      (enabled)
+mintupdate-automation-autoremove.timer                   (disabled / enabled)
+mintupdate-automation-upgrade.timer                      (disabled / enabled)
+motd-news.timer
+plocate-updatedb.timer                                   (enabled)
+systemd-sysupdate-reboot.timer                           (disabled)
+systemd-sysupdate.timer
+systemd-tmpfiles-clean.timer                             (enabled)
+xfs_scrub_all.timer                                      (disabled / enabled)
+
+================================================================================
+Notes on OCR quality
+================================================================================
+- Several .service rows had heavy OCR damage; names corrected against known
+  Mint/Ubuntu unit names where the source text was unambiguous.
+- Status columns (LOAD/ACTIVE/SUB/STATE/PRESET) were partly illegible —
+  preserved only where confidently readable.
+- IMG_6885 was largely whitespace/blur (only ~10 readable lines, mostly alsa,
+  apt-daily, blueman). All readable units from it folded into the main list.
+- IMG_6893 is a redrawn / clearer copy of IMG_6892's target+timer block;
+  duplicates merged.
