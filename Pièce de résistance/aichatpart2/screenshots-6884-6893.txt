@@ -1,0 +1,426 @@
+Source: IMG_6884.jpeg – IMG_6893.jpeg (10 screenshots, aichatpart2)
+Output: `systemctl list-unit-files` from the live host.
+Names verified against user-typed transcript (2026-05-05).
+Footer in source: "395 unit files listed. lines 910-398/398 (END)".
+
+Two subsections per request: system files first, then system services.
+Within each subsection: alphabetical, grouped by unit type.
+
+================================================================================
+SECTION 1 — SYSTEM FILES  (.automount + .mount units)
+================================================================================
+
+UNIT FILE                                        STATE         PRESET
+proc-sys-fs-binfmt_misc.automount                static
+-.mount                                          generated
+boot.mount
+cdrom.mount                                      masked
+dev-hugepages.mount                              static
+dev-mqueue.mount                                 static
+proc-sys-fs-binfmt_misc.mount                    disabled
+sys-fs-fuse-connections.mount                    static
+sys-kernel-config.mount                          static
+sys-kernel-debug.mount                           static
+sys-kernel-tracing.mount                         static
+tmp.mount                                        generated
+
+================================================================================
+SECTION 2 — SYSTEM SERVICES  (.path / .service / .socket / .target / .timer / .slice)
+================================================================================
+
+--- .path units ---
+cups.path                                        enabled    enabled
+systemd-ask-password-console.path                static
+systemd-ask-password-plymouth.path               static
+systemd-ask-password-wall.path                   static
+tpm-udev.path                                    static
+
+--- .service units ---
+accounts-daemon.service                          static
+alsa-restore.service                             static
+alsa-state.service                               static
+alsa-utils.service                               static
+anacron.service                                  enabled    enabled
+apparmor.service                                 enabled    enabled
+apt-daily-upgrade.service                        static
+apt-daily.service                                static
+autovt@.service                                  alias
+avahi-daemon.service                             enabled    enabled
+blk-availability.service                         enabled    enabled
+blueman-mechanism.service                        enabled    enabled
+bluetooth.service                                enabled    enabled
+bolt.service                                     static
+brltty-udev.service                              static
+brltty.service                                   disabled   disabled
+casper-md5check.service                          static
+casper.service                                   static
+colord.service                                   static
+configure-printer@.service                       static
+console-getty.service                            disabled   disabled
+console-setup.service                            enabled    enabled
+container-getty@.service                         static
+cron.service                                     enabled    enabled
+cryptdisks-early.service                         masked     enabled
+cryptdisks.service                               masked     enabled
+cups-browsed.service                             enabled    enabled
+cups.service                                     enabled    enabled
+dbus-fi.w1.wpa_supplicant1.service               alias
+dbus-org.bluez.service                           alias
+dbus-org.freedesktop.Avahi.service               alias
+dbus-org.freedesktop.ModemManager1.service       alias
+dbus-org.freedesktop.hostname1.service           alias
+dbus-org.freedesktop.locale1.service             alias
+dbus-org.freedesktop.login1.service              alias
+dbus-org.freedesktop.nm-dispatcher.service       alias
+dbus-org.freedesktop.resolve1.service            alias
+dbus-org.freedesktop.thermald.service            alias
+dbus-org.freedesktop.timedate1.service           alias
+dbus-org.freedesktop.timesync1.service           alias
+dbus.service                                     static
+debug-shell.service                              disabled   disabled
+display-manager.service                          alias
+dm-event.service                                 static
+dmesg.service                                    enabled    enabled
+dpkg-db-backup.service                           static
+e2scrub@.service                                  -
+e2scrub_all.service                              static
+e2scrub_fail@.service                             -
+e2scrub_reap.service                             static
+emergency.service                                static
+finalrd.service                                  enabled    enabled
+flatpak-system-helper.service                    static
+fprintd.service                                  static
+friendly-recovery.service                        static
+fstrim.service                                   static
+fwupd-offline-update.service                     static
+fwupd-refresh.service                            static
+fwupd.service                                    static
+geoclue.service                                  static
+getty-static.service                             static
+getty@.service                                   enabled    enabled
+gpu-manager.service                              enabled    enabled
+grub-common.service                              enabled    enabled
+grub-initrd-fallback.service                     enabled    enabled
+hwclock.service                                  masked
+iio-sensor-proxy.service                         static
+initrd-cleanup.service                           static
+initrd-parse-etc.service                         static
+initrd-switch-root.service                       static
+initrd-udevadm-cleanup-db.service                static
+ipp-usb.service                                  static
+irqbalance.service                               enabled    enabled
+kerneloops.service                               enabled    enabled
+keyboard-setup.service                           enabled    enabled
+kmod-static-nodes.service                        static
+kmod.service                                     alias
+ldconfig.service                                 static
+lightdm.service                                  indirect   enabled
+lm-sensors.service                               enabled    enabled
+logrotate.service                                static
+lvm2-lvmpolld.service                            static
+lvm2-monitor.service                             enabled    enabled
+man-db.service                                   static
+mdadm-grow-continue@.service                     static
+mdadm-last-resort@.service                       static
+mdcheck_continue.service                         static
+mdcheck_start.service                            static
+mdmon@.service                                   static
+mdmonitor-oneshot.service                        static
+mdmonitor.service                                enabled    enabled
+mintsystem.service                               enabled    enabled
+mintupdate-automation-autoremove.service         static
+mintupdate-automation-cleanup.service            static
+mintupdate-automation-upgrade.service            static
+ModemManager.service                             enabled    enabled
+modprobe@.service                                static
+motd-news.service                                static
+netplan-ovs-cleanup.service                      enabled-runtime    enabled
+networkd-dispatcher.service                      enabled    enabled
+NetworkManager-dispatcher.service                enabled    enabled
+NetworkManager-wait-online.service               enabled    enabled
+NetworkManager.service                           enabled    enabled
+nftables.service                                 disabled   enabled
+nm-priv-helper.service                           static
+openvpn-client@.service                          disabled   disabled
+openvpn-server@.service                          disabled   disabled
+openvpn.service                                  enabled    enabled
+openvpn@.service                                 disabled   disabled
+packagekit-offline-update.service                static
+packagekit.service                               static
+pam_namespace.service                            static
+plocate-updatedb.service                         static
+plymouth-halt.service                            static
+plymouth-kexec.service                           static
+plymouth-log.service                             static
+plymouth-poweroff.service                        static
+plymouth-quit-wait.service                       static
+plymouth-quit.service                            static
+plymouth-read-write.service                      static
+plymouth-reboot.service                          static
+plymouth-start.service                           static
+plymouth-switch-root-initramfs.service           static
+plymouth-switch-root.service                     static
+plymouth.service                                 alias
+polkit.service                                   static
+power-profiles-daemon.service                    enabled    enabled
+procps.service                                   alias
+quotaon.service                                  static
+rc-local.service                                 static
+rescue.service                                   static
+rsync.service                                    disabled   disabled
+rsyslog.service                                  enabled    enabled
+rtkit-daemon.service                             disabled   enabled
+saned.service                                    masked
+saned@.service                                   indirect   enabled
+secureboot-db.service                            enabled    enabled
+serial-getty@.service                            disabled   disabled
+setvtrgb.service                                 enabled    enabled
+snapd.hold.service                               static
+speech-dispatcher.service                        disabled   disabled
+speech-dispatcherd.service                       static
+ssl-cert.service                                 static
+sudo.service                                     static
+switcheroo-control.service                       enabled    enabled
+syslog.service                                   enabled    enabled
+system-update-cleanup.service                    static
+systemd-ask-password-console.service             static
+systemd-ask-password-plymouth.service            static
+systemd-ask-password-wall.service                static
+systemd-backlight@.service                       static
+systemd-battery-check.service                    static
+systemd-binfmt.service                           static
+systemd-boot-check-no-failures.service           disabled   disabled
+systemd-bsod.service                             static
+systemd-confext.service                          disabled   enabled
+systemd-coredump@.service                        static
+systemd-exit.service                             static
+systemd-firstboot.service                        static
+systemd-fsck-root.service                        static
+systemd-fsck@.service                            static
+systemd-fsckd.service                            static
+systemd-growfs-root.service                      static
+systemd-growfs@.service                          static
+systemd-halt.service                             static
+systemd-hibernate-resume.service                 static
+systemd-hibernate.service                        static
+systemd-hostnamed.service                        static
+systemd-hwdb-update.service                      static
+systemd-hybrid-sleep.service                     static
+systemd-initctl.service                          static
+systemd-journal-catalog-update.service           static
+systemd-journal-flush.service                    static
+systemd-journald.service                         static
+systemd-journald@.service                        static
+systemd-kexec.service                            static
+systemd-localed.service                          static
+systemd-logind.service                           static
+systemd-machine-id-commit.service                static
+systemd-modules-load.service                     static
+systemd-network-generator.service                disabled   enabled
+systemd-networkd-wait-online.service             disabled   enabled
+systemd-networkd-wait-online@.service            disabled   enabled
+systemd-networkd.service                         disabled   enabled
+systemd-pcrextend@.service                       static
+systemd-pcrfs-root.service                       static
+systemd-pcrfs@.service                           static
+systemd-pcrlock-file-system.service              disabled   disabled
+systemd-pcrlock-firmware-code.service            disabled   disabled
+systemd-pcrlock-firmware-config.service          disabled   disabled
+systemd-pcrlock-machine-id.service               disabled   disabled
+systemd-pcrlock-make-policy.service              disabled   disabled
+systemd-pcrlock-secureboot-authority.service     disabled   disabled
+systemd-pcrlock-secureboot-policy.service        disabled   disabled
+systemd-pcrmachine.service                       static
+systemd-pcrphase-initrd.service                  static
+systemd-pcrphase-sysinit.service                 static
+systemd-pcrphase.service                         static
+systemd-poweroff.service                         static
+systemd-pstore.service                           enabled    enabled
+systemd-quotacheck.service                       static
+systemd-random-seed.service                      static
+systemd-reboot.service                           static
+systemd-remount-fs.service                       enabled-runtime    enabled
+systemd-repart.service                           static
+systemd-resolved.service                         enabled    enabled
+systemd-rfkill.service                           static
+systemd-soft-reboot.service                      static
+systemd-storagetm.service                        static
+systemd-suspend-then-hibernate.service           static
+systemd-suspend.service                          static
+systemd-sysctl.service                           static
+systemd-sysext.service                           disabled   enabled
+systemd-sysext@.service                          static
+systemd-sysupdate-reboot.service                 indirect
+systemd-sysupdate.service                        indirect
+systemd-sysusers.service                         static
+systemd-time-wait-sync.service                   disabled   disabled
+systemd-timedated.service                        static
+systemd-timesyncd.service                        enabled    enabled
+systemd-tmpfiles-clean.service                   static
+systemd-tmpfiles-setup-dev-early.service         static
+systemd-tmpfiles-setup-dev.service               static
+systemd-tmpfiles-setup.service                   static
+systemd-tpm2-setup-early.service                 static
+systemd-tpm2-setup.service                       static
+systemd-udev-settle.service                      static
+systemd-udev-trigger.service                     static
+systemd-udevd.service                            static
+systemd-update-done.service                      static
+systemd-update-utmp-runlevel.service             static
+systemd-update-utmp.service                      static
+systemd-user-sessions.service                    static
+systemd-volatile-root.service                    static
+thermald.service                                 enabled    enabled
+tpm-udev.service                                 static
+ubiquity.service                                 enabled    enabled
+ubuntu-system-adjustments.service                static
+udev.service                                     alias
+udisks2.service                                  enabled    enabled
+ufw.service                                      enabled    enabled
+upower.service                                   enabled    enabled
+usb_modeswitch@.service                          disabled   enabled
+usbmuxd.service                                  static
+user-runtime-dir@.service                        static
+user@.service                                    static
+uuidd.service                                    indirect   enabled
+wacom-inputattach@.service                       static
+wpa_supplicant-nl80211@.service                  disabled   disabled
+wpa_supplicant-wired@.service                    disabled   disabled
+wpa_supplicant.service                           enabled    enabled
+wpa_supplicant@.service                          disabled   disabled
+x11-common.service                               masked
+
+--- .slice units ---
+machine.slice                                    static
+system-systemd\x2dcryptsetup.slice               static
+system-systemd\x2dveritysetup.slice              static
+user.slice                                       static
+
+--- .socket units ---
+avahi-daemon.socket                              enabled    enabled
+cups.socket                                      enabled    enabled
+dbus.socket                                      static
+dm-event.socket                                  enabled    enabled
+lvm2-lvmpolld.socket                             enabled    enabled
+saned.socket                                     disabled   disabled
+syslog.socket                                    static
+systemd-coredump.socket                          static
+systemd-fsckd.socket                             static
+systemd-initctl.socket                           static
+systemd-journald-audit.socket                    disabled   disabled
+systemd-journald-dev-log.socket                  static
+systemd-journald-varlink@.socket                 static
+systemd-journald.socket                          static
+systemd-journald@.socket                         static
+systemd-networkd.socket                          disabled   enabled
+systemd-pcrextend.socket                         disabled   disabled
+systemd-rfkill.socket                            static
+systemd-sysext.socket                            disabled   enabled
+systemd-udevd-control.socket                     static
+systemd-udevd-kernel.socket                      static
+uuidd.socket                                     enabled    enabled
+
+--- .target units ---
+basic.target                                     static
+blockdev@.target                                  -
+bluetooth.target                                 static
+boot-complete.target                             static
+cryptsetup-pre.target                            static
+cryptsetup.target                                static
+ctrl-alt-del.target                              alias
+default.target                                   alias
+emergency.target                                 static
+exit.target                                      disabled   disabled
+factory-reset.target                             static
+final.target                                     static
+first-boot-complete.target                       static
+friendly-recovery.target                         static
+getty-pre.target                                 static
+getty.target                                     static
+graphical.target                                 static
+halt.target                                      disabled   disabled
+hibernate.target                                 static
+hybrid-sleep.target                              static
+initrd-fs.target                                 static
+initrd-root-device.target                        static
+initrd-root-fs.target                            static
+initrd-switch-root.target                        static
+initrd-usr-fs.target                             static
+initrd.target                                    static
+integritysetup-pre.target                        static
+integritysetup.target                            static
+kexec.target                                     disabled   disabled
+local-fs-pre.target                              static
+local-fs.target                                  static
+multi-user.target                                static
+network-online.target                            static
+network-pre.target                               static
+network.target                                   static
+nss-lookup.target                                static
+nss-user-lookup.target                           static
+paths.target                                     static
+poweroff.target                                  static
+printer.target                                   static
+reboot.target                                    static
+remote-cryptsetup.target                         disabled   disabled
+remote-fs-pre.target                             static
+remote-fs.target                                 enabled    enabled
+remote-veritysetup.target                        disabled   disabled
+rescue.target                                    static
+rpcbind.target                                   static
+runlevel0.target                                 alias
+runlevel1.target                                 alias
+runlevel2.target                                 alias
+runlevel3.target                                 alias
+runlevel4.target                                 alias
+runlevel5.target                                 alias
+runlevel6.target                                 alias
+shutdown.target                                  static
+sigpwr.target                                    static
+sleep.target                                     static
+slices.target                                    static
+smartcard.target                                 static
+sockets.target                                   static
+soft-reboot.target                               static
+sound.target                                     static
+storage-target-mode.target                       static
+suspend-then-hibernate.target                    static
+suspend.target                                   static
+swap.target                                      static
+sysinit.target                                   static
+system-update-pre.target                         static
+system-update.target                             static
+time-set.target                                  static
+time-sync.target                                  static
+timers.target                                    static
+umount.target                                    static
+usb-gadget.target                                static
+veritysetup-pre.target                           static
+veritysetup.target                               static
+
+--- .timer units ---
+anacron.timer                                    enabled    enabled
+apt-daily-upgrade.timer                          enabled    enabled
+apt-daily.timer                                  enabled    enabled
+dpkg-db-backup.timer                             enabled    enabled
+e2scrub_all.timer                                enabled    enabled
+fstrim.timer                                     disabled   disabled
+fwupd-refresh.timer                              enabled    enabled
+logrotate.timer                                  enabled    enabled
+man-db.timer                                     enabled    enabled
+mdadm-last-resort@.timer                         static
+mdcheck_continue.timer                           enabled    enabled
+mdcheck_start.timer                              enabled    enabled
+mdmonitor-oneshot.timer                          enabled    enabled
+mintupdate-automation-autoremove.timer           disabled   enabled
+mintupdate-automation-upgrade.timer              disabled   enabled
+motd-news.timer                                  enabled    enabled
+plocate-updatedb.timer                           enabled    enabled
+systemd-sysupdate-reboot.timer                   disabled   disabled
+systemd-sysupdate.timer                          disabled   disabled
+systemd-tmpfiles-clean.timer                     static
+xfs_scrub_all.timer                              disabled   disabled
+
+================================================================================
+Footer (from screenshot): 395 unit files listed.  lines 910-398/398 (END)
+================================================================================
