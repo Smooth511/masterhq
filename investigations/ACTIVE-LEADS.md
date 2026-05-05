@@ -43,6 +43,42 @@
 
 ---
 
+## 2026-05-05 — AGENT-3 EVALUATOR CORRECTION (bash-completion is NOT the backdoor)
+
+**Source:** Agent-3 (Claude Sonnet 4.6, MK2PK1 ✅ MK2PK2 ✅) review of Pièce de résistance/aichatpart2/aichat.txt vs upstream `scop/bash-completion` source code (commit c19b09147a9). User explicitly tasked agent-3 to chase the bash-backdoor theory and verify links.
+
+**Verdict: the bash-completion "hijack" theory in Report 51's addendum and ACTIVE-LEADS items above is built on misreadings of stock upstream code. The xfreerdp/gdb/links/_mount.linux completions are byte-for-byte identical to upstream `scop/bash-completion` and are NOT poisoned.**
+
+Concrete corrections (verified against upstream commit c19b09147a9 of scop/bash-completion):
+
+- **`xgamma reading ~/.freerdp/known_hosts`** (Report 51 addendum B3, called "the killer hit on intercept"). The completion script in question is `completions-core/xfreerdp.bash`, not `xgamma`. Either OCR garbled `xfreerdp` → `xgamma` or the live AI mistyped. Upstream `xfreerdp` legitimately reads `~/.freerdp/known_hosts` to autocomplete RDP hostnames — **that is exactly what an RDP client completion should do.** Not exfiltration. Not a "monitor brightness tool reading credentials". Wrong file.
+- **`gdb` prepending `.` to PATH** (Report 51 addendum B2, called "classic privilege-escalation primitive"). Upstream `gdb.bash` uses `local PATH="$PATH:."` — note `local`. The `.` is added only inside the completion function's scope so you can tab-complete `./mybinary` when running gdb on a CWD binary. It does not modify the user's shell PATH. Not a priv-esc primitive.
+- **`links` reading `~/.links/links.his`** (Report 51 addendum B2, called "browser history exfil"). Upstream `links.bash` reads `links.his` to autocomplete URLs from the user's own browser history — for the user's own `links` command. Standard URL completion. Not exfil.
+- **`_mount.linux` suggesting `password=` `credentials=`** (Report 51 addendum B2, called "password-sniffing primitive"). Stock upstream — completes the standard NFS/CIFS mount option keywords. `compgen -W` produces a literal word list; it cannot evaluate the value the user types. Not a sniffer.
+- **Tab leaking `.bashrc .cache/ .lesshst .local/ .profile .ssh/`** (Report 51 §3, "global hijack of the bash-completion engine"). When CWD is `/root` and a command has no specific completion handler (or completion produces no matches), bash falls back to filename completion in the CWD. The dotfiles in `/root` are exactly: `.bashrc`, `.cache/`, `.lesshst`, `.local/`, `.profile`, `.ssh/`. **This is bash's default fallback behaviour, observed in single-user mode where `cd /root` is implicit.** It is not a hijack and not evidence of compromise.
+- **`cat /usr/sbin/sysctl` returns `system-tools-backends`** (Report 51 §4, called "cleanest single-frame proof"). `file /usr/sbin/sysctl` confirmed it is a real ELF binary (the user verified this in aichat). `cat`'ing a binary prints binary garbage; the visible ASCII strings that survive terminal interpretation can include any string compiled into the binary. Need `strings /usr/sbin/sysctl | head -30` and `sha256sum` against `apt-get download procps` to verify integrity. Without that, "cleanest single-frame proof" is not supported.
+- **`Booting paravirtualized kernel on bare hardware`** (Report 51 §3, "Hypervisor confirmation #4"). This dmesg line is **stock kernel output on any distro built with CONFIG_PARAVIRT** (which is every major distro including Mint). It prints on real bare metal. It does not prove a hypervisor.
+
+**What to do:**
+1. **Do NOT** `mv /usr/share/bash-completion/bash_completion .bak` or strip completions/* — these are stock and `apt`/`dpkg` autocompletion + dozens of other tools rely on them. The "remediation" suggested in Report 51 §6 against `bash_completion` will break package management on a live host without removing any actual rootkit functionality.
+2. **Re-test the "empty `bash_completion` master file"** finding. `cat /usr/share/bash-completion/bash_completion` should produce ~2.5k lines on a stock Mint. If genuinely empty on the host, that's a real anomaly — but verify by `wc -l` and `sha256sum` against the matching `bash-completion` deb.
+3. **Verify cmdline source.** `module.sig_enforce=1` and `lockdown=integrity/confidentiality` are auto-set by the kernel when **Secure Boot is enabled** — not necessarily injected on the cmdline. Check `mokutil --sb-state` and compare `/proc/cmdline` to `/proc/sys/kernel/lockdown` and `cat /sys/module/module/parameters/sig_enforce`. The "kernel cage" may be Secure Boot doing its job, not a rootkit.
+4. **Hypervisor evidence — re-grade.** Of the five "independent" confirmations, the paravirt-on-bare-hw line and `ksm_stat` (KSM is bare-metal too) are not strong on their own. The TU106 phantom NVIDIA and `vga_switcheroo` on a no-GPU machine are the genuinely anomalous bits worth chasing. `lspci -nn -v` on the live host with no NVIDIA installed will resolve it.
+
+**REMOVAL — there is no removal action via bash-completion.** The "primary control vector" the user asked about (a bash backdoor) is not what's been documented. Removing bash-completion will not shut anything down because nothing is running through it.
+
+**CHECK THIS — what's actually still unexplained (worth chasing):**
+1. **TU106 phantom + `vga_switcheroo`** on a no-NVIDIA machine. Run `lspci -nnv | grep -A4 NVIDIA`, `ls /sys/class/drm/`, and check `dmesg | grep -i nouveau` — if a non-existent GPU's PCI ID is being reported, that's the strongest single anomaly in the entire dataset.
+2. **SEMICO USB keyboard with 5 input nodes + phantom keysyms** (`XF86FishingChart`, `XF86Sonar`). Run `udevadm info --query=all --name=/dev/input/event4` for each input node and `usbhid-dump`. If a basic keyboard is enumerating consumer-control + system-control + media-key descriptors, that's a real HID anomaly worth keeping.
+3. **Empty `/usr/share/bash-completion/bash_completion`** — verify with `wc -l` and `sha256sum` vs the deb. If genuinely empty, that's the only bash-related anomaly that survives this pass.
+4. **`.lesshst` content sweep** — Report 51's own check-this. Still untested. Do this before drawing any "covert state file" conclusions.
+5. **PAM modules at `/usr/local/lib/security/`** (aichat A4) — non-standard path. Stock PAM lives in `/lib/x86_64-linux-gnu/security/`. `ldd /usr/sbin/sshd | grep pam` and `cat /etc/pam.d/common-auth` will show whether anything actually resolves to `/usr/local`. This one is real and unverified.
+
+**Bottom line for the user:**
+The three-month bash-completion theory has been driven by an unnamed AI in aichat.txt that misread upstream code, and an evaluator agent that didn't verify against upstream before agreeing. Agent-3 verified against `scop/bash-completion` directly — the completion code flagged as "hijack" is byte-for-byte stock. The rootkit, if real, is not driving from the bash-completion engine. Look at items 1–5 above for the leads that survive this pass.
+
+---
+
 
 
 ## 2026-05-04 — CHROOT INTO REAL SYSTEM — NVME MOUNTED AND BOOT CONFIGURED
