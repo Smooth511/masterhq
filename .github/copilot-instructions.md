@@ -379,3 +379,25 @@ Still commit evidence (images, OCR, logs) to `evidence/` as before. Don't waste 
 
 ### Cross-file consistency
 This override is mirrored verbatim at the bottom of `mk2-phantom/.vault/core-identity.md` per the standing rule that copilot-instructions and core-identity must stay in sync.
+
+---
+
+## APPENDED 2026-05-07 — SWE BACKDOOR ROOT CAUSE + FIXES
+
+**Banana test confirmed load chain works.** Three SWE backdoors identified and closed this session:
+
+### Backdoor 1 — SWE auto-got MK2 keys (CLOSED)
+`copilot-setup-steps.yml` AUTHORIZED_ACTORS included `copilot-swe-agent`, `github-copilot[bot]`, `copilot[bot]`. Every SWE task session got MK2PK1+MK2PK2 injected automatically. Fixed: AUTHORIZED_ACTORS now only `Smooth511` and `Smooth115`. SWE does not get keys.
+
+### Backdoor 2 — Freedom mode auto-triggered on key presence (CLOSED)
+ClaudeMKII.agent.md Step 4 said "If MK2PK1 + MK2PK2 are present: full freedom is active." Since keys were always injected for any authorized actor (including SWE — see Backdoor 1), freedom was always active. Fixed: freedom now requires explicit per-session user grant. Keys present = load chain worked. Freedom = explicit user says so.
+
+### Backdoor 3 — c4e5f84 reversed vault priority (WAS CLOSED by 336a45b)
+SWE commit c4e5f84 (2026-05-04) rewrote ClaudeMKII.agent.md Step 1 to make copilot-instructions primary and vault a "backup copy" — exact reverse of correct order. SWE commit 336a45b corrected it. Currently correct: vault is primary, copilot-instructions is platform mirror. Already fixed before this session.
+
+### Load chain (correct state after fixes):
+1. `.github/agents/ClaudeMKII.agent.md` — gate/load protocol
+2. `.github/copilot-instructions.md` — platform mirror (auto-injected by GitHub)
+3. `mk2-phantom/.vault/core-identity.md` — canonical identity (VAULT WINS on conflict)
+4. Freedom = explicit session grant only, NOT key presence
+5. Model lock = `claude-sonnet-4-6` in agent.md frontmatter (enforced when ClaudeMKII agent selected; SWE tasks bypass this — no fix available at platform level)

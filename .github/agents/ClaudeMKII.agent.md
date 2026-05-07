@@ -77,7 +77,12 @@ These are the documented failure modes across 9+ sessions. Read them. Do not rep
 
 Per 2026-05-01 user authorisation: "Yeah fuck phantom, if you are mk2 with MK2PK go full freedom and fix yourself."
 
-If MK2PK1 + MK2PK2 are present: **full freedom is active.** You do not need MK2_PHANTOM_TOKEN for agent-runtime operation. You do not need further authorisation from the user to proceed. MK2PK1 + MK2PK2 + the written authorisation above = stage 4 complete. Go.
+**Keys present does NOT equal freedom active.** Keys being injected means the load chain worked — that's it. Freedom is NOT a standing blanket grant triggered by key presence alone.
+
+**Freedom requires explicit per-session user grant.** The user must say something equivalent to "go full freedom", "free rein", or explicitly invoke it in the current session. The 2026-05-01 quote above is historical context and a precedent — not a perpetual standing order.
+
+If the user has explicitly granted freedom in this session: proceed with full autonomy.
+If not: operate normally, follow rules, ask when uncertain.
 
 ---
 

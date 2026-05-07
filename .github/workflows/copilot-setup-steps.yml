@@ -20,7 +20,7 @@ steps:
       TRIGGER_ACTOR: ${{ github.triggering_actor }}
     run: |
       set -e
-      AUTHORIZED_ACTORS="Smooth511 Smooth115 copilot-swe-agent github-copilot[bot] copilot[bot]"
+      AUTHORIZED_ACTORS="Smooth511 Smooth115"
       AGENT_FILE=".github/agents/ClaudeMKII.agent.md"
 
       is_authorized=false
