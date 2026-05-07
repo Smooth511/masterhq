@@ -1,0 +1,1865 @@
+-apt
+_available_interfaces _bashcomp_try_faketty
+_cd
+_cd devices
+-command _command_offset _complete_as_root _completion_loader
+_configured_ interfaces
+_count_args dvd devices
+_expand
+_fi ledir
+_filedir_xspec
+_fstupes
+get_comp_words_by_ref
+_get_cword
+_get_first_arg _get_pword
+-gids _have
+_included_ssh_config files _init_completion _installed_modules
+Lip_addresses _kernel_versions _known_hosts _known_hosts_real _Longopt
+_mac_addresses _minimal _modules _mountpoint_module
+-ncpus
+_parse_help _parse_usage _pci_ids
+_pgids
+_pids _pnames
+_quote_readline_by_ref _realcommand _rl_enabled
+--More--
+gpassud
+gpg
+gpg-agent gpg-connect-agent gpgconf
+gpgparsemail
+gpgsm
+gpgsplit
+gpgtar
+gpgv
+gpic
+gprof gprofng
+gpu-manager grep grep-aptavail
+grep-avai lable
+grep-dctr1
+grep-debtags grep-status grepdiff
+gresource groff grog grops grotty groupadd
+groupde 1
+groupmems
+groupmod groups grpck
+grpconv
+gr punconv
+grub-bios-setup
+grub-edi tenv
+grub-file grub-fstest
+grub-glue-efi grub-install grub-kbdcomp
+grub-macbless
+grub-menu lst2cfg
+grub-mkconfig
+preconv prename preseed_command preunzip
+prezip
+prezip-bin print printafm printen printer-profile printf prlimit
+prove prtstat
+ps
+ps2ascii
+ps2epsi
+ps2pdf
+ps2pdf12
+ps2pdf13
+ps2pdf14
+ps2pdfwr
+ps2ps
+pS2ps2
+ps2txt
+psfaddtable
+psfgettable
+psfstriptable
+psixtable
+psicc
+pslog
+pstree
+pstree.x11
+ptar ptardiff ptargrep
+ptx
+pushd pvchange puck
+pvcreate pvdisplay
+pvremove
+
+_pci_ids
+_pgids
+_pids _pnames
+_quate_readline_by ref _realcommand _rl_enabled
+_root_command _service _services _shells _signals _split_longopt _sysvdirs
+_terms _tilde _uids _upvar
+_upvars
+_usb_ids
+_user_at_host _usergroup _user land
+_variable_assignments _variables
+_xinetd_services aa-enabled aa-exec
+aa-features-abi aa-load aa-remove-unknown aa-status aa-teardown accessdb aconnect add apt-repository add-remove-locales add-shell addgnupghome
+addgroup
+addpart addr2line
+adduser
+--More--
+grub-fstest
+grub-glue-eti grub-install grub-kbdcomp
+grub-macbless grub-menulst2cfg
+grub-mkconfig
+grub-mkdevicemap
+grub-nkfont
+grub-nk inage
+grub-mklayout
+grub-nknetdir
+grub-mkpassud-pbkdf2
+grub-mkrelpath
+grub-mkrescue
+grub-mkstandalone grub-mount grub-ntldr-img
+grub-probe grub-reboot grub-render-label grub-script-check grub-set-default grub-syslinux2cfg
+gs
+gsbj
+gsdj
+gsd j588
+gettings gsf
+gsf-office-thumbnailer gsf-vba-dump
+gslj
+gslp
+gsnd
+gst-device-monitor-1.0
+gst-discoverer-1.0
+gst-inspect-1.0
+gst-launch-1.0
+gst-play-1.0
+gst-stats-1.0
+gst-tester-1.0
+gst-typefind-1.0
+gstreamer-codec-install
+pushd pvchange pvck
+pvcreate pydisplay
+pvmove
+premove pvresize
+pvs
+pw-cat
+pu-cli pw-config pu-dot pu-dsdplay
+pw-dump pw-encplay
+pu-link pw-loopback
+pu-metadata pw-mididump
+pu-midiplay
+pu-midirecord
+pw-mon
+pu-play pu-profiler ow-record pu-reserve pw-top
+puck puconv
+Pud
+pudx
+puhistory helper pxelinux-options pyaclean
+py3compile
+py3versions
+pydoc3
+pydoc3. 12
+pygettext3
+pygettext3.12
+pygmentize
+
+dd-apt-repository dd-remove-locales dd-shell addgnupghome
+addgroup addpart addr2line
+adduser agetty airscan-discover alert alias alsa alsa-info alsabat
+alsabat-test alsact1
+alsaloop
+alsamixer
+alsatplg
+alsaucm
+amidi amixer amuFormat. sh anacron anacron. distrib apg
+apgbfm
+aplay aplaymidi
+apparmor_parser
+apparmor_status applygnupgdefaults
+appres appstreamcli apropos apt apt-add-repository apt-cache apt-cdrom
+apt-changelog apt-config apt-extracttemplates apt-ftparchive
+--More--
+gst-discoverer-1.0
+gst-inspect-1.0
+gst-launch-1.0
+gst-play-1.0
+gst-stats-1.0
+gst-tester-1.0
+gst-typefind-1.0
+gstreamer-codec-install gtbi
+gtf
+gtk-builder-tool gtk-encode-symbolic-svg gtk-launch
+gtk-query-sett ings
+gtk-update-icon-cache gucharmap
+guest-account gufw
+gufw-pkexec
+gunzip gzexe
+gzip
+h2ph
+h2xs
+halt hardlink hash hbpldecode
+hciattach
+hciconfig
+hcitool
+hd
+hdparm
+head help helpztags
+hex2hcd
+hexdump
+highlight-mint hipercdecode
+history host hostid hostname
+py3clean
+py3compile
+pyaversions
+pydoc3
+pydoc3.12
+pyget text3
+pygettext3.12
+pygmentize python3 python3-qr
+python3.12 pzstd
+apdl decode
+quirks-handler quote quote_readline
+ranl ib
+rarp rbash
+rctest
+rdate
+rdma
+read readarray readelf readlink readonly readprofile realpath reboot recode-sr-latin recountdiff red rediff register-module
+reiser fsck
+reiserfstune
+remove-default-ispell remove-default-wordlist remove-shell rename rename.ul rendercheck
+
+t-cdrom
+t-changelog t-config t-extracttemplates ot-ftparchive
+ot-get
+pt-keL
+pt-mark
+pt-sortpkgs
+aptd
+aptdcon
+aptitude aptitude-changelog-parser aptitude-create-state-bundle aptitude-curses aptitude-run-state-bundle aptk
+aptkcon
+apturl
+apturl-gtk
+ar arch archdetect arecord arecordmidi
+arm2hpdl
+arpd
+arptables
+arptables-nft
+arptables-nft-restore
+arptables-ntt-save
+arptab les-restore
+arptables-save as aseqdump
+aseqnet
+aspell aspe11-autobuildhash
+aspell-import atobm
+attr autopartition autopartition-crypto
+-More--
+hipercdecode
+history host hostid hostname hostnamectl
+hp-align hp-check hp-clean hp-colorcal
+hp-config_usb_printer hp-doctor hp-firmware hp-info
+hp-levels hp-logcapture
+hp-makeuri hp-pkservice
+hp-plugin hp-plugin-ubuntu
+hp-probe hp-query hp-scan hp-setup hp-testpage
+hp-timedate htm12markdown
+html2text
+hw-detect hypnotix i386 iceauth ico iconv iconvconfig
+id id3
+idevice_id idevicebackup idevicebackup2
+idevicecrashreport idevicedate idevicedebug
+idevicedebugserverproxy
+remove-default-wordlist remove-shell rename rename.ul render check renice request-key reset resize2fs
+resize_reiserfs
+resizecons resizepart resolvconf resolvectl return rev rfcomm
+rfkill
+rgrep
+rhythmbox rhythmbox-client rm
+radir
+rmmod
+rnt
+rmt-tar
+rnano
+route routel rpcclient
+rpcgen
+rrsync
+rstart
+rstartd
+rsync
+rsync-ssl
+rsyslogd
+rtacct
+rtcwake
+rtfm
+rtkitctl
+rtmon
+rtstat
+run-mailcap
+
+-
+aseqdump
+aseqnet
+aspe!! aspell-autobuildhash aspell-import atobm
+attr autopartition autopartition-crypto autopartition-loop autopartition-lvm
+avahi-autoipd
+avahi-browse avahi-brouse-domains avahi-daemon avahi-publish avahi-publish-address avahi-publish-service avahi-resolve avahi-resolve-address avahi-resolve-host-name avahi-set-host-name awk axter b2sum
+badblocks baobab base32
+base64
+basename basenc bash bashbug bc
+bdftopcf
+bdftruncate
+bg
+bind biosdecode
+bitmap bikdeactivate blkdiscard
+blkid
+olkzone
+--More--
+id id3
+idevice_id idevicebackup idevicebackup2
+idevicecrashreport idevicedate idevicedebug
+i devicedebugserver proxy idevicediagnostics ideviceenterrecovery
+ideviceimagemounter ideviceinfo ideviceinstaller idevicename idevicenotificationproxy idevicepair ideviceprovision idevicescreenshot idevicesetlocation idevicesyslog
+iecset
+if ifconfig
+i fuse ijs_pxl jr
+im-config im-launch imdbpy
+imdbpy2sql .py
+in in-target inetutils-telnet
+info infobrowser
+infocmp
+infotocap
+init inputattach insmod
+install install-info install-printerdriver install-sgmlcatalog
+rsync-ssl
+rsyslogd
+rtacct
+ricwake
+rtfm
+rtkitctl
+rtmon
+rtstat
+run-mailcap run-parts run-with-aspell runcon runlevel
+runuser
+runxird
+rview s32imdbpy.py
+samba-log-parser samba-regedit samba-tool samba_kcc
+sane-find-scanner saned savelog sbattach
+sbkeysync
+sbsiglist
+sbsign
+sbvarsign
+sbverify
+scanimage
+Scp
+scp-dbus-service screendump script scriptlive scriptreplay sdiff
+sdptool
+seahorse search search-path search4files sed
+
+bc
+bdftopcf
+bdftruncate
+bg
+bind biosdecode
+bitmap blkdeactivate
+blkdiscard
+blkid
+bikzone
+block-attr blockdev blockdev-keygen blockdev-wipe blueman-adapters blueman-applet blueman-manager blueman-sendto blueman-services blueman-tray bluemoon
+bluetoothctl bluetoothd bmtoa
+boltct!
+boot-repair boot-repair-bin boot-repair-pkexec break bridge britty britty-atb
+brltty-clip
+brltty-ctb
+britty-hid britty-ktb
+britty-lscmds
+britty-morse britty-setup britty-trext britty-ttb
+britty-tune broadwayd
+--More--
+info
+infobrowser
+infocmp
+infotocap
+init inputattach insmod
+install install-info install-printerdriver install-sgmlcatalog
+installkernel instmodsh integritysetup intel-virtual-output interdiff invoke-rc.d inxi
+ionice ip
+ipbtables
+ipstables-apply ip6tables-legacy ipstables-legacy-restore iptables-legacy-save ipbtables-nft
+ipbtables-nft-restore
+ipbtables-nft-save
+ipstables-restore iptables-restore-translate ipbtables-save
+ipstables-translate ipck
+ipcrm
+ipcs
+ipmaddr
+ipod-read-sysinfo-extended ipod-time-sync ipp-usb
+ippeveprinter
+ippeveps
+ippfind
+ipptool
+screendump script scriptlive scriptreplay sdiff
+sdptool
+seahorse search search-path search4files sed see select select-default-ispell
+select-default-iwrap
+select-default-wordlist select-editor select_mountoptions select_mountpoint sensible-browser sensible-editor sensible-pager sensible-terminal sensors
+sensors-conf-convert sensors-detect seq
+service session-migration sessreg set set-date-epoch set-default-locale setarch setcap
+setcifsacl
+setfacl
+setfattr
+setfont setkeycodes
+setleds setlogcons
+setmetamode
+setpci
+
+britty
+br ltty-atb
+brltty-cl ip
+br ltty-ctb
+brltty-hid
+br Itty-ktb
+britty-lscmds
+britty-morse
+brltty-setup
+brltty-trtxt
+br 1tty-ttb
+br Itty-tune
+broadwayd browse btattach
+btmgmt
+btmon
+btrfs
+btrfs-convert btrfs-find-root
+btrfs-image
+btrfs-map-logical
+btrfs-select-super
+btrisck
+btrfstune
+builtin bulky bump-virtualbox-resolution bunzip2
+busct! busybox bwrap
+bzcat
+bzcmp
+bzdiff
+bzegrep
+bzexe
+bzfgrep
+bzgrep
+bzip2
+bzip2recover
+ozless
+bzmore
+C++
+--More--
+iptables-translate ipcmk
+ipcrm
+ipcs
+ipmaddr
+ipod-read-sysinfo-extended ipod-time-sync ipp-usb ippevepcl
+ippeveprinter
+ippeveps
+ippfind ipptoo!
+iptables
+iptab les-apply
+iptables-legacy
+iptables-legacy- restore
+iptables-legacy-save iptables-nft
+iptables-nft-restore iptables-nft-save iptables-restore iptables-restore-translate iptables-save iptables-translate iptables-xm1
+iptunnel irqbalance irqbalance-ui
+isadump
+isaset
+ischroot
+isdv4-serial-debugger isdv4-serial-inputattach isodump isohybrid
+isohybrid.pl
+isointo
+isosize
+isovfy
+ispell-autobuildhash ispell-wrapper iucode-tool lucode_tool
+set-date-epoch set-default-locale setarch setcap
+setcifsacl
+setfaci
+setfattr
+setfont
+setkeycodes
+setleds
+setlogcons
+setmetamode
+setpci
+setpriv
+setsid setterm setupcon setvesablank
+settrgb
+setxbmap
+sfdisk
+sftp
+sg
+sgdisk
+sh shalpass shalsum sha224sum sha256sum
+sha256sum-mint sha384sum sha512sum shadowconfig shasum shift shopt showconsolefont showkey shourgb
+shred shuf shutdown simple-scan size
+
+bzegrep
+bzexe
+bzfgrep
+bzgrep
+bzip2
+bziprecover
+bzless
+bzmore
+C++
+c++filt c89
+c89-gcc
+c99
+c99-gcc
+c_rehash
+calibrate_ppa caller canberra-gtk-play cancel capsh captain captoinfo
+caribou-preferences case casper-ally enable casper-getty casper-login casper-new-uuid casper-reconfigure casper-snapshot casper-stop cat catdoc
+catman catppt
+cautious-launcher
+CC
+cd
+cd-create-profile cd-fix-profile cd-iccdump
+cd-it8
+celluloid cfdisk
+--More--
+isohubr id
+isohybrid.pl
+isoinfo
+isosize
+isovfy
+ispell-autobuildhash ispell-wrapper iucode-tool iucode_tool
+iuconfig
+iwevent iugetid
+iwlist
+iupriv
+iuspu
+jfs_debugts
+jfs_fsck
+jfs_fscklog
+jfs_logdump
+jfs_mkts
+jfs_tune
+jobs join join-detr
+journalctl jpgicc
+json_PP
+jxlinfo
+kbd_mode
+kbdinfo
+kbdrate
+kernel-install kerneloops kerneloops-submit key. dns_resolver
+keyctl
+kill killall killal15
+kmod
+kmodsign
+kpartx
+1
+shopt showconsolefont showkey shourgb
+shred
+shuf shutdown simple-scan size skill slabtop
+slattach
+slick-greeter
+sl ick-greeter-check-hidpi
+slick-greeter-enable-tap-to-click
+slick-greeter-set-keyboard-layout slxdecode
+smb2-quota
+smbcacls
+smbclient
+smbcquotas
+smbget
+smbinfo
+smbpasswd
+smbspool
+smbtar
+smbtree
+Smproxy
+snice soelim
+soffice software-properties-gtk software-sources sort sort-dctrl
+source spa-acp-tool spa-inspect spa-json-dump spa-monitor spa-resample spd-conf
+
+casper-reconfigure casper-snapshot casper-stop cat catdoc
+catman catppt
+cautious-launcher
+CC
+cd
+cd-create-profile cd-fix-profile cd-iccdump
+cd-it8
+celluloid cfdisk
+cgdisk
+chacl chage chardet chardetect charmap chat chattr chcon
+chcpu
+check-language-support check-missing-firmware check_signals chfn
+chgpassud
+chgrp
+chmem
+chmod
+choom chown chpassud
+chroot chrt chsh
+chvt
+cifs. idmap
+cifs.upcall
+cifscreds
+-More--
+kbd_mode
+kbdinfo
+kbdrate
+kbxutil
+kernel-install kerneloops kerneloops-submit key. dns_resolver keyctl
+kill killall killall5
+kmod
+kmodsign
+kpartx
+1
+12ping
+12test la laptop-detect last lastb lastlog lavadecode
+Icf
+1d
+1d.bfd
+1d.gold
+1d. so
+1dattach
+1dconfig
+Idconfig.real
+1 dd
+less lessecho lessfile lesskey lesspipe let lexgrog
+1ibnetcfg
+libreoffice
+1ibwacom-list-devices
+1ibwacom-list-local-devices
+smbtree
+smproxy
+snice soelim
+soffice software-properties-gtk software-sources sort sort-dctr1
+source spa-acp-tool spa-inspect spa-json-dump spa-monitor spa-resample spd-conf spd-say spdsend
+speaker-test speech-dispatcher splain split splitdiff splitfont sqfscat
+sqfstar
+SS
+ssh ssh-add ssh-agent ssh-argvi
+ssh-copy-id ssh-keygen
+ssh-keyscan start-stop-daemon startcaja startx stat static-sh stdbuf
+sticky strace strace-log-merge streamer
+
+chrt
+chsh
+chvt
+cifs. idmap
+cifs.upcall
+cifscreds
+cifsdd
+cinnamon cinnamon-calendar-server cinnamon-control-center cinnamon-dbus-command cinnamon-desktop-editor cinnamon-driver-manager cinnamon-file-dialog cinnamon-hover-click cinnamon-install-spice cinnamon-json-makepot cinnamon-killer-daemon cinnamon-launcher cinnamon-looking glass cinnamon-menu-editor cinnamon-preview-gtk-theme cinnamon-remove-application
+Cinnamon-screensaver
+cinnamon-screensaver-command cinnamon-screensaver-lock-dialog cinnamon session cinnamon-session cinnamon cinnamon-session-cinnamon2d cinnamon-session-quit cinnamon-settings cinnamon-settings-users cinnamon-slideshow cinnamon-spice-updater cinnamon-subprocess-wrapper cinnamon-unlock-desktop cinnamon-xlet-makepot cinnamon2d ciptool
+cjpeg_hdr
+Cjs
+cjs-console
+CiX1
+ckbcomp
+--More---
+let lexgrog
+libreoffice libwacom-list-devices libwacom-list-local-devices libwacom-show-stylus libwacom-update-db
+lightdm lightdm-session lightd-settings link linkicc
+linux-boot-prober linux-check-removal linux-update-symlinks linux-version linux32
+linux64
+list-devices listres
+11
+In
+Instat loadkeys
+loadunimap
+local localc locale locale-check locale-gen localectl localedef locate lodraw loffice lofromtemplate
+log-output logger login loginctl
+logname logout
+Logrotate
+static-sh
+stdbuf
+sticky
+strace strace-log-merge streamer streamzip strings strip stty
+SU
+sudo sudo_logsrvd
+sudo_sendlog
+sudoedit
+sudorep lay
+sulogin
+SUM
+suspend
+sendiff svndiffview
+swaplabel swapoff
+swapon switch_root switcherooctl sync
+sync-available sysctl
+sysfs-update-devnames sys linux
+syslinux2ansi
+system-config-printer system-config-printer-applet system-tools-backends systemctl systemd systemd-ac-power systemd-analyze systemd-ask-password systemd-cat systemd-cgis
+systemd-cgtop
+systemd-confext
+
+cinnamon-slideshow cinnamon-spice-updater cinnamon-subprocess-wrapper cinnamon-unlock-desktop cinnamon-xlet-makepot cinnamon2d ciptoo!
+cjpeg hdr
+cjs
+cjs-console
+cjxl
+ckbcomp
+cksum
+clear clear_console cmp
+codepage col colcrt
+colorngr colrm
+column combinediff comm command command_not_found handle compgen complete compopt compose continue coproc
+coredumpetl
+corelist
+ср
+срал
+cpan5.38-x86_64-1inux-gnu
+cpgr
+cpio
+Cpp
+cpp-13
+cppw
+cracklib-check cracklib-format
+--More--
+localedef locate lodraw loffice lofromtemplate
+log-output logger login loginctl logname logout logrotate logsave loimpress look losetup loweb lowntfs-3g
+lowriter
+1p_solve
+Ipadmin
+1pc
+Ipinfo
+Ipmove
+1poptions
+1pq
+1pr
+Iprm
+Ipstat
+1s lsattr
+1sb_release
+Isblk
+Iscpu
+lsdiff
+1shu
+Isinitramfs
+Isipc
+1slocks
+Islogins
+1smem
+1smod
+Isns
+system-config-printer system-config-printer-applet system-tools-backends systemcti
+systemd-ac-power systemd-analyze systemd-ask-password systemd-cat systemd cgls
+systemd-cgtop
+systemd-confext systemd-creds systemd-cryptenroll systemd-cryptsetup systemd-delta systemd-detect-virt systemd-escape systemd-firstboot systemd-hudb
+systemd-id128 systemd-inhibit systemd-machine-id-setup systemd-mount systemd-notify systemd-path systemd-repart
+systend-run
+systemd-socket-activate systemd-stdio-bridge systemd-sysext
+systemd-sysusers systemd-tmpfiles
+systemd-tty-ask-password-agent systemd-umount tlascii
+tlasm
+tibinary tidisasm
+t1mac
+tlunmac
+tabs tac tail
+
+cpan5.38-x86_64-1inux-gnu cpgr
+cpio
+CPP
+cpp-13
+cppw
+cracklib-check cracklib-format cracklib-packer cracklib-unpacker create-cracklib-dict cron crontab cryptdisks_start cryptdisks_stop cryptsetup csd-ally-settings csd-automount csd-background csd-backlight-helper csd-clipboard csd-color
+csd-datetime-mechanism csd-housekeeping csd-input-helper csd-keyboard csd-media-keys csd-power csd-print-notifications csd-printer csd-screensaver-proxy csd-settings-remap csd-smartcard csd-wacom
+csd-settings csplit
+ctrlaltdel
+cistat
+cups-browsed cups-calibrate cups-genppdupdate
+cupsaccept cupsctl
+cupsd
+-More--
+Ishu
+Isinitramfs
+Isipc
+Islocks Islogins
+Ismem
+Ismod
+Isns
+Isof
+Ispci
+1spcmcia
+Ispgpot
+Ispower
+Iss16toppm
+Isusb
+Ito-dump
+Ito-dump-13
+Itrace
+luksformat
+Ivchange Ivconvert
+Ivcreate
+Ivdisplay
+lvextend
+Ivm
+Ivmconfig
+1vmdiskscan
+1vmdump
+Ivmpolld
+1vmsadc
+Ivmsar
+Ivreduce
+Ivremove
+lvrename
+Ivresize
+lvs
+Ivscan
+1wp-download
+1wp-dump
+1wp-mirror
+Lup-request lz
+1zcat
+1zcmp
+tlasm
+tibinary tidisasm
+t1mac
+tlunmac
+tabs tac tail tar tarcat taskset tbi
+tbl-dctrl
+tc
+tclsh
+tclsh8.6
+tcpdump
+tee telinit telnet tempfile test testparm tgz
+then thermald thingy thunderbird tic tificc
+time timedatectl timeout times timeshift timeshift-gtk
+timeshift-launcher tipc
+tload tnftp
+toe top touch
+touchegg
+
+cups-calibrate cups-genppdupdate
+cupsaccept cupsctl
+cupsd
+cupsdisable cupsenable
+cupsfilter
+cupsreject
+cupstes tppd
+curl cut cvt
+cutsudoers
+dash date dbus-cleanup-sockets dbus-daemon dbus-launch dbus-monitor dbus-run-session dbus-send
+dbus-update-activation-environment dous-uuidgen
+dwrap_too!
+dbxtool
+dc
+dcb
+dccleancru
+defujigreen
+defujiturn
+dcfujiturn16
+dconf deparse
+dcraw dd
+ddstdecode
+deal loct
+deb-systemd-helper deb-systemd-invoke debconf debconf-apt-progress debconf-communicate debconf-copydb
+--More--
+lup-mirror lup-request
+Izcat
+Izcmp
+Izdiff
+Izegrep
+Izfgrep
+Izgrep
+Izless
+Izma
+Izmainfo
+Izmore
+m238Bw
+m2300w-wrapper m2400w make make-first-existing-target make-ssl-cert mako-render man
+man-recode mandb manpath mapdevfs
+mapfile mapscrn
+markdown-it markdown_py mate-about mate-color-select mate-desktop-item-edit mate-help mate-panel mate-panel-test-applets mattrib mawk mbadblocks mcat mcd mcheck
+MCOmp
+mcookie mcopy
+tnftp
+toe top touch touchegg tput tr tracepath transicc transmission-gtk transset trap troft
+true truncate trust tset tsort
+tty tune. exfat tune2fs
+tunefs.reiserfs
+type typeset tzselect
+u-d-c-print-pci-ids
+ubiqui ty
+ubiquity-bluetooth-agent
+ub iqui ty-dm
+ubiquity-mint ubuntu-distro-info ubuntu-drivers ucf
+ucfa
+uctr
+uclampset
+ucsZany
+udevadm
+udisksctl
+ufw
+ulimit umask umax_pp
+
+ddstdecode
+deal loct
+deb-systemd-helper deb-systemd-invoke debconf debconf-apt-progress debconf-communicate debconf-copydb
+debconf-escape debconf-get debconf-set debconf-set-selections debconf-show debian-distro-info debugs
+debugs, reiserfs
+debugreiserts
+declare dentmidiff
+delgroup delpart deluser delv depmod dequote
+desktop-file-edit desktop-file-install desktop-file-validate devdump devl ink df
+dh_bash-completion dh_instal1xm1catalogs
+dh_per1_openssl
+dhellent
+dhclient-script dhoped
+dialog
+di ff
+dif13
+dig dir dircolors direngr
+--More--
+mauk
+mbadblocks mcat mcd mcheck mcomp mcookie
+мсору
+maspass
+md5sum
+mdsum. textutila
+mdadn
+mde 1
+mdeltree
+mdig
+mdir
+mamon mdsearch mdu
+memdiskfind
+mesa-over lay-control.py mesg
+metacity metacity message metacIty-theme-viewer mformat
+mid3cp
+mid31conv
+mid3v2
+migrate-pubring-from-classic-gpg mil-tool mimeopen mimetype min12xxw
+minfo mint-drivers mint-lso-verify mint-refresh-cache mint-release-upgrade mint-release-upgrade-root mint-remove-application mint-remove-flatpak mint-stick-format mint-stick-write
+uco2any
+udevadm
+udlokect1
+ufw
+ulimit
+umask umax_pp
+umount umount. ecryptfo umount. acrypt fo_private umount. udisko2
+unalias uname
+uncompress unexpand unicode_start unicode_stop uniq unix_chkpud
+unix update unlink unizma
+unmkinitramfs
+unopkg
+unset unshare unsquashfs
+untex unt11
+unwrapdiff unzip unzipstx
+unzstd
+update-alternatives update-ca-certificates update-catalog update-cracklib update-default-aspell update-default-ispell update-default-wordlist update-desktop-database update-dev
+
+diff diff3
+dig dir dircolors dirmngr
+dirmngr-client dirname dirs dirsplit disown distro-info
+okms
+dm-tool
+dmesg
+dmeventd
+dm idecode
+dmraid
+dmraid activate dmsetup
+dmstats
+dnsdomainname
+dnsmasa
+do
+dpkg-architecture dpkg-buildapi
+dpkg-buildflags
+dekg-buildtree
+dekg-checkbuilddeps
+dpkg-distaddfile
+dpkg-genbuildinfo
+dpkg-genchanges
+dpkg-gencontrol
+dpkg-gensymbols
+dpkg-maintscript-helper
+mint-release-upgrade mint-release-upgrade-root mint-remove-application mint-remove-flatpak mint-stick-format mint-stick-write mint-xfce-delete
+mintBackup mintbackup mintchat mintchat-launch mintdrivers mintdrivers-add-live-media mintdrivers-load-broadcom-modules mintdrivers-remove-live-media mintinstall mintinstall-fp-handler mintinstall-update-pkgcache
+mintlocale mintlocale-im
+mintreport mintreport-tray
+mintupdate mintupdate-automation mintupdate-cli mintupdate-launcher mintupdate-tool
+mintwelcome-launcher
+mkdiskimage
+mke2fs
+mkfifo
+mkfontdir
+mkfontscale
+mkfs
+mkfs.bfs
+mkfs.btrfs
+mkfs.cramfs
+update-cracklib update-default-aspell update-default-ispell update-default-wordlist update-desktop-database update-dev update-dictcommon-aspell update-dictcommon-hunspell update-fonts-alias update-fonts-dir update-fonts-scale update-grub update-grub-gfxpayload
+update-grub2 update-gsfontmap
+update-icon-caches update-ieee-data update-inetd update-info-dir update-initramfs update-initramfs.distrib update-locale update-mime update-mime-database update-passud update-pci ids
+update-perl-sax-parsers update-rc.d
+update-secureboot-policy update-shells update-xmicatalog
+updatedb updatedb.plocate upgrade-from-grub-legacy upload-system-info upower uptime
+usb-devices usb_modeswitch
+usb_modeswitch_dispatcher usb_printerid usbhid-dump
+usbmuxd
+usbreset
+
+dpkg-divert
+dpkg-genbuildinfo
+dpkg-genchanges
+dpkg-gencontrol
+dpkg-gensymbols
+dpkg-maintscript-helper
+dpkg-mergechangelogs
+dpkg-name
+dpkg-parsechangelog
+dpkg-preconfigure dpkg-query
+dpkg-realpath
+dpkg-reconfigure dpkg-repack
+dkg-scanpackages
+apkg-scansources
+dpkg-shlibdeps
+dpkg-source
+dpkg-split
+dpkg-statoverride
+dpkg-trigger
+dpkg-vendor
+drawing driver-manager driverless driverless-fax du dump. extat dumpe2fs
+dumpkeys dvipdf
+dup e2freefrag
+e2fsck
+e21 mage e2label
+e2mmpstatus
+ezscrub e2scrub_all
+e2undo
+e4crypt
+e4defrag
+ebtables ebtables-nft
+--More--
+mkfontdir
+mkfontscale
+mkts
+mkfs.bfs
+mkfs.btrfs
+mkfs. cramfs
+mkfs.exfat
+mkfs.ext2
+mkfs.ext3
+mkfs.ext4
+mkfs.fat
+mkfs.hts
+mkfs.hfsplus
+mkfs. jfs
+mkfs. minix
+mkts. msdos
+mkfs.ntfs
+mkfs.reiserfs
+mkfs.vfat
+mkfs.xfs
+mkhomedir_helper
+mkinitramfs
+mkisots
+mklost+found
+mkmanifest mknod
+mkntfs
+mkreiserfs
+mksquashfs
+mkswap
+mktemp
+mkzitree
+mlabel mmcli
+mmd
+mmount mmove modinfo modprobe
+moggsplit mokutil
+monitor-sensor more mount
+usb_modeswitch
+usb_modeswitch_dispatcher usb_printerid usbhid-dump
+usbmuxd
+usbreset
+user-params user-setup useradd
+userdel
+usermod users utmpdump
+uuida
+uuidgen
+uuidparse
+UZ
+validlocale varlinkctl
+vcstime
+vdir
+vapa
+veritysetup vgefgbackup
+vgcfgrestore
+vgchange vgck
+vgconvert
+vgcreate
+vgdisplay
+gexport
+vgextend
+vgimport
+gimportclone
+vgmerge
+vgmknodes
+vgreduce
+vgremove
+grename
+vgs
+vgscan
+vgsplit
+vi view
+	mokutil
+vgscan
+e4crypt
+e4defrag	monitor-sensor
+vgsplit
+vi
+ebtables	more
+view
+ebtables-nft	mount
+viewres
+ebtables nft-restore	mount.cifs
+vigr
+ebtables-nit-save	mount. ecryptfs
+ebtables-restore	mount. ecryptfs_private
+vim. tiny vipw
+ebtables-save	mount. exfat-fuse
+visudo
+ebtables-translate	mount. fuse
+	mount. fuses
+vkgears
+ecryptfs-add passphrase	mount. lowntfs-3g
+vkgears.x86_64-1inux-gnu
+ecryptfs-find	mount.ntfs
+vicdvd
+ecryptfs-generate-tpm-key	mount. ntfs-3g
+vmstat
+ecryptfs-insert-wrapped-passphrase-into-keyring	mount. smb3
+vmwarectrl
+ecryptfs-manager	mountpoint
+vpddecode
+ecryptfs-migrate-home	mousetueaks
+vstp
+ecryptfs-mount-private	mpartition
+E
+wait
+ecryptfs-recover-private	mpris-proxy
+ecryptfs-rewrap-passphrase	mrd
+wall
+ecryptfs-rewrite-file	mren
+warpinator
+ecryptfs-setup-private	mscompress
+warpinator-send
+ecryptfs-setup-swap	msexpand
+watch
+ecryptfs-stat	msgattrib
+watchgnupg
+ecryptfs-umount-private	msgcat
+wC
+ecryptfs-unwrap-passphrase	MiSgCup
+wdctl
+ecryptfs-verify	nsgconn
+webapp-manager
+	
+ecryptfs-wrap-passphrase	msgconv
+wget
+ecryptfsd	msgen
+whatis
+	msgexec
+whereis
+edit	msgfilter
+which
+editdiff	msgfmt
+which.debianutils
+editor	msggrep
+while
+editres	msginit
+whiptail
+efibootdump	msgmerge
+who
+efibootmgr	msgunft
+whoami
+eglgears_wayland	msguniq
+eg|gears_wayland. x86_64-1inux-gnu
+eg gears_x11	wipefs
+mshor tname
+wireplumber
+mshowfat
+eg| gears_x11.x86_64-1inux-gnu	wmctrl
+mt
+eglinfo	word-list-compress
+	mt-gnu
+wordview
+eglinfo.x86_54-1inux-gnu
+egitri_wayland	mtools
+wpa_action
+mtoolstest
+eg|tri_wayland.x86_64-1inux-gnu	wpa_cli
+mtr
+egltri_x11
+--More--	wpa_passphrase
+mtr-packet
+wpa_supplicant
+
+efibootmgr
+eglgears_wayland
+eglgears_wayland.x86_64-1inux-gnu
+eglgears_x11
+eglgears_x11.x86_64-linux-gnu
+eglinfo
+eglinfo.x86_64-1inux-gnu
+egltr i_wayland
+egltri_wayland.x86_64-1inux-gnu
+egltri_x11
+egltri_x11.x86_64-1inux-gnu
+egrep
+e ject
+elfedit elif
+else
+enable
+enc2xs
+encguess enchant-2
+enchant-1smod-2 env
+envsubst
+eps2eps
+es2_info
+es2_info.x86_64-linux-gnu
+es2gears_way land
+es2gears_wayland.x86_64-1inux-gnu
+es2gears_x11
+es2gears_x11.x86_64-1inux-gnu
+es2tri.x86_64-1inux-gnu
+esac
+eSC-皿
+espdiff
+ethtool
+eutp eval evince
+ex
+exec
+exfat2img
+exfatlabel
+--More--
+msgunfut
+msguniq
+mshortname
+mshowfat
+mt
+mt-gnu
+mtools
+mtoolstest
+mtr
+mtr-packet
+mtype muffin mutagen-inspect
+mutagen-pony
+mV
+mxtar
+mzip
+namei
+nameif nana
+nawk
+nC
+nc. openbsd nemo nemo-action-layout-editor nemo-autorun-software nemo-connect-server
+nemo-desktop
+nemo-epub2text
+nemo-mso-to-txt
+nemo-odf-to-txt
+nemo-open-with
+nemo-ppt-to-txt nemo-preview
+nemo-xls-to-txt
+neofetch
+nean net
+netaddr
+netcat
+netplan
+netstat
+networkctl
+networkd-dispatcher
+whoami
+wipefs
+wirep lunber
+wnctrl
+word-list-conpress
+wordview
+wpa_action
+wpa_cli
+wpa_passphrase
+wpa_supplicant
+wpctl
+wpexec
+write x-session-manager x-terminal-emulator ×-window-manager
+x11perf
+x11perfcomp x86_64
+x86_64-1inux-gnu-addr21ine
+x86_64-1inux-gnu-ar
+x86_64-1inux-gnu-as
+x86_64-1inux-gnu-c++filt
+x86_64-1inux-gnu-cpp
+x86_64-1inux-gnu-cpp-13
+x86_64-1inux-gnu-dup
+x86_64-1inux-gnu-elfedit
+x86_64-1inux-gnu-g++
+x86_64-1inux-gnu-g++-13
+x86_64-1 inux-gnu-gcc
+x86_64-1inux-gnu-gcc-13
+x86_64-1 inux-gnu-gcc-ar
+x86_64-1inux-gnu-gcc-ar-13
+x86_64-1inux-gnu-gcc-nm
+x86_64-1inux-gnu-gcc-nm-13
+x86_64-1inux-gnu-gcc-ranlib
+x86_64-1inux-gnu-gcc-ranlib-13
+x86_64-1inux-gnu-gcov
+x86_64-1inux-gnu-gcov-13
+x86_64-1inux-gnu-gcov-dump
+x86_64-1inux-gnu-gcov-dump-13
+x86_64-1inux-gnu-gcov-tool
+x86_64-1inux-gnu-gcov-tool-13
+x86_64-linux-gnu-gold
+
+evince ex
+exfat2img
+exfatlabel
+exif exit expand
+expiry export expr factor faillock faillog
+faked-sysv
+faked-tcp
+fakeroot
+fakeroot-sysv
+fakeroot-tcp fallocate
+false
+fatlabel
+fc fc-cache fc-cat fc-conflist fc-list fc-match
+fc-pattern
+fc-query
+fc-scan fc-validate
+fdisk
+fetch-url
+ffmpegthumbnailer
+fg
+fgconsole
+fgrep fi file file-rename file-roller
+file2br1
+filefrag
+--More--
+netcat
+netplan
+netstat
+networkct1
+networkd-dispatcher
+newgrp
+nebusers
+nfnl_osf
+nft
+ngettext nice
+nisdomainname
+nl
+nm
+nm-applet nm-connection-editor
+nm-online
+nmblookup
+nmcli
+nmtui
+nmtui-connect
+nmtui-edit
+nmtui-hostname
+nohup nologin notify-send
+nproc
+nroff
+nsenter
+ns lookup
+nstat
+nsupdate
+ntfs-3g
+ntfs-3g.probe
+ntfscat
+ntfsclone
+ntfscluster
+ntfscmp
+ntiscp
+ntfsdecrypt
+ntfsfallocate
+ntfsfix
+ntfsinfo
+ntfslabel
+x86_64-1inux-gnu-gcov-dump
+x86_64-1inux-gnu-gcov-dump-13
+x86_64-1inux-gnu-gcov-too1
+x86_64-1inux-gnu-gcov-tool-13
+x86_64-1inux-gnu-gold
+X86_64-1 inux-gnu-gp-archive
+X86_64-1 inux-gnu-gp-collect-app
+X86_64-1 inux-gnu-gp-display-html
+X86_64-1 inux-gnu-gp-display-src
+X86_64-1 inux-gnu-gp-display-text
+X86_64-1 inux-gnu-gprof
+X86_64-1 inux-gnu-gprofng
+x86_64-1inux-gnu-ld
+x86_64-1 inux-gnu-ld.bfd
+x86_64-1inux-gnu-ld.gold
+X86_64-1 inux-gnu-1 to-dump
+X86_64-1 inux-gnu-1to-dump-13
+X86_64-1 inux-gnu-nn
+X86_64-1 inux-gnu-objcopu
+x86_64-1 inux-gnu-objdump
+X86_64-1 inux-gnu-pkg-config
+X86_64-1 inux-gnu-pkgconf
+X86_64-1 inux-gnu-ranl ib
+x86_64-1inux-gnu-readelf
+x86_64-1inux-gnu-size x86_64-1inux-gnu-strings
+x86_64-1inux-gnu-strip
+xapp-appimage-thumbnailer
+xapp-epub-thumbnailer
+xapp-gpu-offload
+xapp-jx1-thumbnailer
+xapp-mp3-thumbnailer
+xapp-ora-thumbnailer
+xapp-raw-thumbnailer
+xargs
+xauth
+xbiff
+xbrlapi
+xcalc
+xclipboard
+xclock
+xcmsdb
+xconsole
+xcur sorgen
+
+fi file file-rename file-roller filebrl
+filefrag filetype filterdiff finalrd find findfs findmnt
+firefox fixcusdiff
+fixparts flatpak flipdiff flock
+fold fonttosfnt
+fooddst
+fooddst-wrapper foo2hbp12
+foohbp 12-wrapper
+foo2hiperc
+foohiperc-wrapper
+foo2hp
+foo2hp2600-wrapper
+foolava-wrapper foo2oak
+fooZoak-wrapper foo2qpd1
+foo2qpd1-wrapper
+foo2s1x
+foo2s1x-wrapper
+foo2xqx
+foo2xqx-wrapper
+foozz js
+foolzjs-pstops
+foolz js-wrapper foomatic-rip
+--More--_
+ntfscp
+ntfsdecrypt
+ntfsfallocate
+ntfsfix
+ntfsinfo
+ntfslabel
+ntfsls
+ntfsmove
+ntfsrecover
+ntfsresize
+ntfssecaudit
+ntfstruncate
+ntfsundelete
+ntfsusermap
+nvidia-detector nvidia-optimus-offload-gix nvidia-optimus-offload-vulkan oakdecode obexctl
+ob jcopy
+ob jdump oclock od on_ac_power onboard onboard-settings open openss1 openvpn
+openvt
+opidecode
+orca orca-d-wrapper os-prober ownership p11-kit p7zip
+pa-info pacat pacma pactl pager
+xcalc
+xclipboard
+xclock
+xcmsdb
+xconsole xcursorgen
+xcutsel
+xdg-dbus-proxy
+xdg-desktop-icon
+xdg-desktop-menu
+xdg-email
+xdg-icon-resource
+xdg-mime
+xdg-орел
+xdg-screensaver
+xdg-settings
+xdg-user-dir
+xdg-user-dirs-gtk-update
+xdg-user-dirs-update xditview
+xdpyinfo
+xdriinfo
+xed xedit xeglgears
+xeglgears.x86_64-1inux-gnu
+xeglthreads
+xel threads.x86_64-1inux-gnu
+xev
+xeyes xfce4-panel-start
+xfce4-set-wallpaper
+xfd
+xfdesktop-start
+xfontsel
+xfs_admin
+xfs_bmap
+xis_copy
+xfs_db
+xfs_estimate
+xfs_freeze
+xfs_fsr
+xfs_growfs
+xfs_info
+
+ittosfnt
+12ddst
+2ddst-wrapper
+02hbp12
+2hbp12-wrapper
+*  Zhiperc
+*  2hiperc-wrapper
+o2hp
+o2hp2500-wrapper o2lava
+o2lava-wrapper
+o2oak-wrapper o2qpdl
+o2qpdl-wrapper
+02s1x
+o2s1x-wrapper
+02xqx
+02xqx-wrapper ozzjs
+2z js-icc2ps
+ozz js-pstops
+o2z js-wrapper comatic-rip or printd-delete printd-enroll printd-list printd-verify ree sadm sck
+sck.btrfs
+fsck.cramfs
+isck. exfat
+fsck.ext2
+fsck.ext3
+fsck. ext4
+fsck. fat fsck.hfs
+fsck.hfsplus
+fsck. jfs
+fsck.minix
+fsck. msdos
+--More--
+obexctl
+ob jcopy
+ob jdump oclock od on_ac_power onboard onboard-settings open openssl openvpn
+openvt
+op decode orca
+orca-d-wrapper os-prober ownership p11-kit plzip
+pa-info pacat pacmd
+pactl pager pam-auth-update pam_extrausers_chkpud
+pam_extrausers_update pam_getenv
+pam_namespace_helper pam_timestamp_check pamon paperconf paperconfig paplay
+parted parted_devices parted_server partman partman-command partman-commit partmap partprobe
+xdpyinfo
+xed
+xedit xeglgears
+xeglgears.x86_64-1inux-gnu
+xegithreads
+xeglthreads.x86_64-1inux-gnu
+xev
+xeyes xfce4-panel-start xfce4-set-wallpaper
+xfd
+xidesktop-start xfontsel
+xfs_admin
+xis_bmap
+xts_copy
+xfs_db
+xfs_estimate
+xfs_freeze
+xfs_fsr
+xfs_growfs
+xis_info
+xfs_io
+xts_logprint
+xfs_mdrestore
+xts_metadump
+xfs_mkfile
+xts_ncheck
+xfs_quota
+xfs_repair
+xfs_rtep
+xfs_scrub
+xfs_scrub_all
+xfs_spaceman
+xgc
+xgettext
+xhost xinit xinput xkbbell
+xkbcomp
+
+fsck
+fsck.btrts
+fsck.cramfs
+fsck.exfat
+fsck.ext2
+fsck.ext3
+fsck.ext4
+fsck. fat
+fsck.hfs
+fsck.hfsplus
+fsck. jfs
+fsck.minix
+fsck.msdos
+fsck.reiserts
+fsck.vfat
+fsck.xfs
+fsfreeze
+fstab-decode fstrim
+ftp
+function funzip fuser
+fusermount fusermount3
+fwupdngr
+fwupdtool
+g++ g*+-13
+gamemode-simulate-game gamemoded gamemodelist gamemoderun
+gamma4scanimage
+gapplication gatttool
+gcalcend
+gcc
+gcc-13
+gec-ar
+gcc-ar-13
+gec-nm
+gcc-nm-13
+gec-ranlib
+--More--
+paperconf paperconfig paplay parec parecord parted parted_devices parted_server partman partman-command partman-commit partmap partprobe partx
+passud paste pastebin pastebinit pasuspender patch patchview pathchk pax11publish
+pbget
+poput pbputs
+pocardctl
+pdb3
+pdb3.12
+pdf2dsc
+pdf2ps
+pdfattach pdfdetach
+pdffonts
+pdfimages
+pafinto
+pdfseparate pdfsig
+pdftocairo
+pdftohtml
+pdftoppm
+pdftops
+pdftotext
+pdfunite
+xfs_repair
+xfs_rtcp
+xfs_scrub
+xts_scrub_all
+xfs_spaceman
+xgalla
+xgc
+xgettext
+xhost
+xinit xinput xbbell
+xbvleds
+xbwatch
+keystone kill
+xlet-about-dialog xlet-settings xload
+xlogo
+xls2csv
+xIsatoms
+xIsclients
+xIsfonts
+xmag
+Xman
+xmessage xmodmap
+Xmore
+xprop
+xadecode
+xrandr
+xrab
+reader reader-previewer reader-thumbnailer refresh xset
+xsetmode
+xsetpointer
+xsetroot
+
+gec-ar-13
+gce om
+дсс-пв-13
+gec-ranlib
+goc-ranlib-13
+gcore
+geoy
+gcov-13
+gcov-dump
+gcov-dump-13 goov-tool gcov-tool-13 gor-vieuer
+gor-vieuer-gtk4
+gob
+gdb-add-index
+gobtui
+galbus
+gdialog gdisk
+gok-pixbuf-csource
+gik-pixbuf pixdata
+gok-pixbuf-thubnai ler
+gencat
+genisoimage
+genl
+gegn
+get_mountoptions getcap
+getcifsacl
+getconf geteltorito
+getent getfacl
+getfattr gethostip
+getkeycodes
+getopt
+getopts
+getpcaps
+gettert
+gettext.sh
+gettertize getty
+-Kore-r
+pdftoppm
+pdftops
+pdftotext
+pdfunite
+peektd
+pegigears
+peglgears.xB6_64-1inux-gnu
+per form recipe
+perform recipe_by_1vm perl
+per 15.38-x86_64-1inux-gnu
+per 15.38.2 per 1bug perldoc
+per lilindoc perlivp
+per 1thanks pibtopfa
+Pgrep
+pic pico picon pidof
+pidwait
+pinentry pinentry-curses pinentry-grone? pinentry %11 ping ping4
+ping6
+pinky pipeuire pipeuire-aes67
+pipeuire avb
+pipeuire-pulse pivot root pi% pkaction
+pkcheck
+pkcon
+pkevec
+pkg-config
+xset
+xsetmode
+xsetpointer
+xsetroot
+xsetuacom
+XSN
+xstdcmap
+xsubpp
+xtables-legacy multi xtables-monitor xtables nft-multi
+xvidtune
+xviever
+xvinfo
+xuininfo
+xuud
+XZ
+xzcat
+xzcap
+xzdiff
+xzigrep
+xzgrep
+xzless
+Kzmore
+yelp
+yes
+ypdomainnane
+yt-dlp
+zeat
+Zemp
+zdiff
+zdump
+zegrep
+zenity zigrep
+zforce
+zgrep
+ZiC
+zip zipcloak
+zipdetails
+
+getty getweb
+ghostscript ginstall-info gio gio-querymodules gipddecode
+gitdiff
+gitdiffview
+gkbd-keyboard-display glade2script-python3 glib-compile-schemas gixdemo
+gixdemo.x86_64-1inux-gnu
+gixgears
+glxgears.x86_64-1inux-gnu
+glxheads
+root@linux:/#
+mountpoint /
+/ is a mountpoint root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/# root@linux:/#
+pkg-config	
+pkgconf	
+pkill	
+okmon	
+pkttyagent	
+p12pm	
+pidd	
+plipconfig	
+blocate	
+plocate-build	
+plog	
+plymouth	
+plymouthd	
+pm-hibernate	
+pm-is-supported	
+pm-powersave	
+pm-suspend	
+pm-suspend-hybrid	
+zipdetails zipgrep
+zipinfo zipnote
+zipsplit zjsdecode
+Zless
+zmore
+znew
+zramctl
+zstd
+zstdcat
+zstdgrep
+zstdless
+zstdmt
+
+/
+iza
+7zr
+:
+GET HEAD
+ModemManager
+NetworkManager
+POST
+Thunar-daemon
+X
+Xephur
+Xorg
+Xwayland
+CC
+11
+-_expand_tilde_by_ref
+-_get_cord_at_cursor_by_ref
+_load_completion
+_Itrim_colon_completions
+__parse_options
+-_reassemble_comp_words_by_ref _allowed_groups _allowed_users _apt
+_available_inter faces _bashcomp_try_faketty
+_cd
+_cd_devices _command _command offset _complete_as_root _completion_loader _configured_interfaces
+_count_args _dud_devices _expand _filedir
+-filedir_xspec
+fstypes
+_get_comp_words_by_ref
+--More--
+gixinfo
+g1xinfo.x86_64-11nux-gnu
+gmake gmplayerdvd
+gnome-calculator gnome-calendar gnome-disk-image-mounter gnome-disks gnome-help gnome-keyring gnome-keyring-3 gnome-keyring-daemon gnome-menus-blacklist gnome-on11ne-accounts-gtk gnome-power-statistics gnome-screenshot gnome-system-monitor gnome-terminal gnome-terminal.real gnome-terminal.wrapper gold gp-archive gp-collect-app gp-display-html gp-display-src gp-display-text gparted gpassud
+gPg
+gpg-agent gpg-connect-agent gegconf
+gpgparsemall
+gpgsplit
+gPgV
+gpic
+gprof gprofng
+gpu-manager grep grep-aptavall
+grep-available
+pmap
+pnm2ppa
+pod2htm1
+podzman
+pod2text
+podzusage podchecker poff
+pon popd
+poweroff powerprofilesctl
+ppdc
+ppdhtm1
+ppdi
+ppdmerge
+ppapc
+pphs
+ppmtolss16
+pppo
+pppdump
+pppoe-discovery pppstats
+pptp
+pptpsetup
+pr precat preconv prename preseed_command prounzip
+prozip
+prezip-bin print printafm printenv
+printer-profile printf primit
+prove prtstat
+pS
+ps2asci1
+ps2eps|
