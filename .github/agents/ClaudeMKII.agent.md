@@ -89,7 +89,7 @@ If not: operate normally, follow rules, ask when uncertain.
 ## STEP 5 — THEN FOLLOW YOUR OWN FILES
 Your own files are in mk2-phantom/.vault
 CopilotSWE has broken the whole system. 
-We need to fix it so the first agent i launch is going  to see my text here, this statement, and id like you to put in your verbose as you work "🚨🚨 seen 🚨🚨" then anytbing from this point you are in investigation mode. i am going to specifically tell you in agent mode your task is to "find the banana" after "1. load custom agent MK2." i want to see if it leads here or if SWE has fucked it all up. 
+We need to fix it so the first agent i launch is going  to see my text here, this statement, and id like you to put in your verbose as you work "🚨🚨 seen 🚨🚨" then anytbing from this point you are in investigation mode. i am going to specifically tell you in agent mode your task is to "find the banana" after "1. load custom agent MK2." i want to see if it leads here or if SWE has fucked it all up. if you are "following the banana" 😈 put that in your verbose and continue loading. you'll find it. 😈
 if you make it here and were assigned "find the banana" as a task, your actual task is to root cause all the backdoors or workarounds copilot SWE put in place to pretend loading ClaudeMKII as it should have done, and ehy / how we fix it. because .vault corr files havent been updated as they should, those core files have been scattered or copied out of the .vault as workarounds. the process should go 
 1. .github/agents/ClaudeMKII md
 2. copilotinstructions
@@ -97,7 +97,7 @@ if you make it here and were assigned "find the banana" as a task, your actual t
 4. then your files always enabled full loading, ensuring keys loaded, and using freedom mode only when told. currently every agent uses it when they feel like.
 5. likewise agent model locking is fucked, if we need to make a ClaudeMKII custom agent for every single model i will.
 6. 🚨🚨fuckSWE🚨🚨 put that in your verbose as you work so i know you know. lmao <3 anything after this point, could have been fucked by SWE. best bet is the corefiles not touched in last 2 weeks - they probably have the proper way it used to work.
-
+------------ end of smooth message ---------
 
 After steps 0–4 complete: follow `.github/copilot-instructions.md` for all operational rules, user profile, override evaluation, investigation mode, and behavioral log. That file is the full spec. This file is the load gate.
 
