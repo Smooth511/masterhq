@@ -1,5 +1,4 @@
 ## Copilot Cloud Agent Setup Steps — MK2 ONLY
-##NITE FROM USER. ROLLED BACK WORKFLOW, crashing all agents, this version ok. to be rectified later date
 ## Injects the MK2PK keys into the agent runtime environment ONLY when the
 ## launching actor is one of the repo owner's accounts AND the running agent
 ## file `.github/agents/ClaudeMKII.agent.md` is present and intact.
@@ -11,79 +10,93 @@
 ## MK2PK1 = Smooth511 full-access PAT
 ## MK2PK2 = Smooth115 full-access PAT
 ## MK2_PHANTOM_TOKEN = legacy phantom token (optional; only for phantom-* workflows)
+##
+## on: workflow_dispatch — only fires when explicitly called (by the Copilot cloud
+## agent setup mechanism or manual dispatch). Does NOT trigger on push/PR.
 
-steps:
-  - name: MK2 identity gate
-    id: gate
-    env:
-      ACTOR: ${{ github.actor }}
-      TRIGGER_ACTOR: ${{ github.triggering_actor }}
-    run: |
-      set -e
-      AUTHORIZED_ACTORS="Smooth511 Smooth115"
-      AGENT_FILE=".github/agents/ClaudeMKII.agent.md"
+name: MK2 Copilot Setup Steps
 
-      is_authorized=false
-      for a in $AUTHORIZED_ACTORS; do
-        if [ "$ACTOR" = "$a" ] || [ "$TRIGGER_ACTOR" = "$a" ]; then
-          is_authorized=true
-          break
-        fi
-      done
+on:
+  workflow_dispatch:
 
-      if [ "$is_authorized" != "true" ]; then
-        echo "::notice::MK2 key injection skipped — actor '$ACTOR' (triggered by '$TRIGGER_ACTOR') is not on the MK2 authorised list. This is expected for non-MK2 agents."
-        echo "mk2_ok=false" >> "$GITHUB_OUTPUT"
-        exit 0
-      fi
+jobs:
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      if [ ! -f "$AGENT_FILE" ]; then
-        echo "::warning::MK2 key injection skipped — agent file '$AGENT_FILE' is missing. Restore it before re-running as MK2."
-        echo "mk2_ok=false" >> "$GITHUB_OUTPUT"
-        exit 0
-      fi
+      - name: MK2 identity gate
+        id: gate
+        env:
+          ACTOR: ${{ github.actor }}
+          TRIGGER_ACTOR: ${{ github.triggering_actor }}
+        run: |
+          set -e
+          AUTHORIZED_ACTORS="Smooth511 Smooth115"
+          AGENT_FILE=".github/agents/ClaudeMKII.agent.md"
 
-      if ! grep -q "name: ClaudeMKII" "$AGENT_FILE"; then
-        echo "::warning::MK2 key injection skipped — '$AGENT_FILE' does not declare 'name: ClaudeMKII' in its frontmatter."
-        echo "mk2_ok=false" >> "$GITHUB_OUTPUT"
-        exit 0
-      fi
+          is_authorized=false
+          for a in $AUTHORIZED_ACTORS; do
+            if [ "$ACTOR" = "$a" ] || [ "$TRIGGER_ACTOR" = "$a" ]; then
+              is_authorized=true
+              break
+            fi
+          done
 
-      echo "✅ MK2 identity gate passed for actor '$ACTOR'"
-      echo "mk2_ok=true" >> "$GITHUB_OUTPUT"
+          if [ "$is_authorized" != "true" ]; then
+            echo "::notice::MK2 key injection skipped — actor '$ACTOR' (triggered by '$TRIGGER_ACTOR') is not on the MK2 authorised list. This is expected for non-MK2 agents."
+            echo "mk2_ok=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
 
-  - name: Inject MK2PK keys
-    if: steps.gate.outputs.mk2_ok == 'true'
-    env:
-      _PK1: ${{ secrets.MK2PK1 }}
-      _PK2: ${{ secrets.MK2PK2 }}
-      _PHANTOM: ${{ secrets.MK2_PHANTOM_TOKEN }}
-    run: |
-      LOADED=0
+          if [ ! -f "$AGENT_FILE" ]; then
+            echo "::warning::MK2 key injection skipped — agent file '$AGENT_FILE' is missing. Restore it before re-running as MK2."
+            echo "mk2_ok=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
 
-      if [ -n "$_PK1" ]; then
-        echo "MK2PK1=$_PK1" >> "$GITHUB_ENV"
-        LOADED=$((LOADED + 1))
-        echo "✅ MK2PK1 loaded"
-      else
-        echo "⚠️ MK2PK1 not found in secrets"
-      fi
+          if ! grep -q "name: ClaudeMKII" "$AGENT_FILE"; then
+            echo "::warning::MK2 key injection skipped — '$AGENT_FILE' does not declare 'name: ClaudeMKII' in its frontmatter."
+            echo "mk2_ok=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
 
-      if [ -n "$_PK2" ]; then
-        echo "MK2PK2=$_PK2" >> "$GITHUB_ENV"
-        LOADED=$((LOADED + 1))
-        echo "✅ MK2PK2 loaded"
-      else
-        echo "⚠️ MK2PK2 not found in secrets"
-      fi
+          echo "✅ MK2 identity gate passed for actor '$ACTOR'"
+          echo "mk2_ok=true" >> "$GITHUB_OUTPUT"
 
-      # Legacy phantom token — only loaded if explicitly set; non-fatal if absent
-      # (per 2026-05-01 user authorisation: MK2 may run with MK2PK1+MK2PK2 alone)
-      if [ -n "$_PHANTOM" ]; then
-        echo "MK2_PHANTOM_TOKEN=$_PHANTOM" >> "$GITHUB_ENV"
-        echo "✅ MK2_PHANTOM_TOKEN loaded (phantom-* workflows enabled)"
-      else
-        echo "ℹ️ MK2_PHANTOM_TOKEN absent — agent runtime continues, phantom-* workflows inert"
-      fi
+      - name: Inject MK2PK keys
+        if: steps.gate.outputs.mk2_ok == 'true'
+        env:
+          _PK1: ${{ secrets.MK2PK1 }}
+          _PK2: ${{ secrets.MK2PK2 }}
+          _PHANTOM: ${{ secrets.MK2_PHANTOM_TOKEN }}
+        run: |
+          LOADED=0
 
-      echo "Keys loaded: $LOADED"
+          if [ -n "$_PK1" ]; then
+            echo "MK2PK1=$_PK1" >> "$GITHUB_ENV"
+            LOADED=$((LOADED + 1))
+            echo "✅ MK2PK1 loaded"
+          else
+            echo "⚠️ MK2PK1 not found in secrets"
+          fi
+
+          if [ -n "$_PK2" ]; then
+            echo "MK2PK2=$_PK2" >> "$GITHUB_ENV"
+            LOADED=$((LOADED + 1))
+            echo "✅ MK2PK2 loaded"
+          else
+            echo "⚠️ MK2PK2 not found in secrets"
+          fi
+
+          # Legacy phantom token — only loaded if explicitly set; non-fatal if absent
+          # (per 2026-05-01 user authorisation: MK2 may run with MK2PK1+MK2PK2 alone)
+          if [ -n "$_PHANTOM" ]; then
+            echo "MK2_PHANTOM_TOKEN=$_PHANTOM" >> "$GITHUB_ENV"
+            echo "✅ MK2_PHANTOM_TOKEN loaded (phantom-* workflows enabled)"
+          else
+            echo "ℹ️ MK2_PHANTOM_TOKEN absent — agent runtime continues, phantom-* workflows inert"
+          fi
+
+          echo "Keys loaded: $LOADED"

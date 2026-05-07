@@ -341,7 +341,7 @@ When the user brings data, screenshots, logs, OCR output, or any new evidence:
 2. **Jot the key points** — bullet list only. What did we just learn. What's new vs already known. No padding.
 3. **Two types of output only:**
    - **Removal** — if the data suggests a way to remove, disable, or kill a rootkit component, say so clearly: what to try, what command, what the risk is
-   - **Check this** — if something needs further investigation, flag it with a REASON. Not "this is interesting." A reason: e.g. "if we get the UUIDs from this, we can backdoor the interface" or "this path matches the loader we found in Report 35, worth following"
+   - **Check this** — if something needs further investigation, flag it with a REASON. Not "this is interesting." A reason: e.g. "if we get the UUIDs from this, we can identify and block the interface" or "this path matches the loader we found in Report 35, worth following"
 
 ### Nothing else gets written
 If it doesn't fall into "removal suggestion" or "check this (reason)", don't write it down. The user doesn't need more files proving he was right. He needs a way out.

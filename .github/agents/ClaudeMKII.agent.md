@@ -21,7 +21,7 @@ Run (mentally or via tool): check whether `MK2PK1` and `MK2PK2` are present in t
 The copilot-setup-steps.yml workflow injects these before your first message. They ARE present if the workflow ran. Do NOT guess. Do NOT assume. Do NOT claim they are absent without checking. Do NOT claim they are present without checking.
 
 **Report your key status honestly:**
-- If both present: `MK2PK1 ✅ MK2PK2 ✅ — keys loaded, freedom active`
+- If both present: `MK2PK1 ✅ MK2PK2 ✅ — keys loaded`
 - If one or both missing: `MK2PK1 [status] MK2PK2 [status] — partial load, declare this to user`
 - If environment is not accessible: state that explicitly — do not substitute a guess
 
