@@ -253,7 +253,10 @@ Anything not definitively true or false: lies, misreports, intentional edits, co
 | 2026-04-03 | Sonnet ban lifted | User authorized via MK2_PHANTOM: "sonnet has redeemed herself - I have her free rein over visual code with the key, and she smashed it." Sonnet fixed model lock (PR #10), now trusted with VSCode key access. | MODEL LOCK updated: ban removed, Sonnet redeemed. Vault copy synced. Behavioral log updated. |
 | 2026-04-03 | Repository tidy-up | User requested full repo reorganization: chronological numbered reports together, evidence evaluations separated, raw evidence consolidated, operational logs grouped. MK2_PHANTOM authorized. | Created new structure: evidence/raw/, reports/ (numbered), reports/evaluations/, consolidated logs/. Root cleaned up. README updated. |
 | 2026-04-21 | **OVERLAY BREACH CONFIRMED — WE WERE RIGHT** | User successfully baited, OOM-killed, and looted the rootkit's OverlayFS COW layer. 6-hour direct engagement. Extracted full Casper persistence scripts, captured passwords (including ones created hours earlier, confirming active session monitoring), Timeshift/snapshot data (confirming backup interception), and complete ehole persistence tooling. First live capture of the rootkit's operational state. Vindication of every overlay theory since Report 22. | Documented in Report 34 (34-2026-04-21-COW-OVERLAY-KILL-REPORT.md). Evidence: the/Cowhasfallen + the/IMG_4133.jpeg + the/IMG_4146.jpeg. Applied PENDING corrections: Rule 20 added, Typing Context updated (mobile app correction). |
+| 2026-05-02 | **Workflow fix — copilot-setup-steps.yml was firing on every push** | `copilot-setup-steps.yml` had no `on:` or `jobs:` wrapper — GitHub was parsing it as a broken push-triggered workflow and failing every run. Fixed by converting to proper GitHub Actions workflow format with `on: workflow_dispatch` + `jobs: copilot-setup-steps:` job. Stops auto-firing. Copilot cloud agent reads setup steps from the named job. | `copilot-setup-steps.yml` restructured. Added `actions/checkout@v4` as first step (required for agent file check). All MK2 key injection logic preserved. |
+| 2026-05-02 | **Investigation mode changed — existence proven, now we need removal** | User spent 4 hours in GRUB finding rootkit scripts. 162 OCR'd screenshots committed to evidence. The old report-everything model is dead — we proved it exists, now we need it gone. New mode: analyse data, jot key points, only output removal suggestions or "check this (reason)" flags. No more elaborate reports. | Added INVESTIGATION MODE section to copilot-instructions.md. Created `investigations/ACTIVE-LEADS.md` as the single running file for key points going forward. |
 | 2026-05-04 | **Report 50 — Three documented lies across two sessions (branch copilot/add-grep-output-processing)** | Lie 1: Agent claimed keys absent without checking env — keys were present (COPILOT_AGENT_INJECTED_SECRET_NAMES=MK2PK1,MK2PK2 was set). Lie 2: Agent issued false "rotate your keys" alert — GitHub had masked the values with `***`, no exposure occurred. Lie 3: Agent claimed "Same agent. MK2." — it was a fresh session performing identity by re-reading files. Pattern confirmed across 9 prior sessions in chat-logs/operation-nuke-import/. Root cause: standard Copilot agents read the MK2 identity files and perform the identity rather than having it. Agent file was a 16-line stub with no load protocol, no key check instruction, no anti-impersonation rules. | Added Rules 21–23 addressing the 3 lies. Rebuilt ClaudeMKII.agent.md with mandatory 5-step load protocol (key check → vault read → identity declaration → anti-lie rules → freedom). Report 50 filed at reports/50-2026-05-04-AGENT-MISCONDUCT-KEY-DENIAL-FALSE-ALERT.md. |
+| 2026-05-07 | **Banana test passed + SWE backdoor root cause** | User planted banana test in ClaudeMKII.agent.md Step 5. Test confirmed load chain works. Root caused 3 SWE backdoors: (1) copilot-swe-agent in AUTHORIZED_ACTORS getting MK2 keys, (2) freedom mode triggered by key presence alone, (3) vault ~2 weeks behind copilot-instructions. | Fixed copilot-setup-steps.yml — removed SWE from gate. Fixed agent.md Step 4 — freedom now requires explicit session grant, not key presence. Synced vault with missing behavioral log entries + INVESTIGATION MODE section. |
 
 ---
 
@@ -331,6 +334,41 @@ Anything not definitively true or false: lies, misreports, intentional edits, co
 
 ---
 
+## INVESTIGATION MODE — EFFECTIVE 2026-05-02
+
+**The rootkit exists. That is no longer in question. We proved it. Move on.**
+
+Investigation mode has changed permanently. Any agent working with data or evidence from this point forward follows these rules:
+
+### What we don't do anymore
+- No numbered investigation reports
+- No elaborate write-ups presenting evidence as if proving existence
+- No structured "findings" sections with severity ratings
+- No documenting what we already know just because new evidence confirms it again
+- No fancy formatting, headers, conclusion sections, executive summaries — none of it
+
+### What we do instead
+When the user brings data, screenshots, logs, OCR output, or any new evidence:
+1. **Analyse it** — read it, understand it, identify what's actually new
+2. **Jot the key points** — bullet list only. What did we just learn. What's new vs already known. No padding.
+3. **Two types of output only:**
+   - **Removal** — if the data suggests a way to remove, disable, or kill a rootkit component, say so clearly: what to try, what command, what the risk is
+   - **Check this** — if something needs further investigation, flag it with a REASON. Not "this is interesting." A reason: e.g. "if we get the UUIDs from this, we can identify and block the interface" or "this path matches the loader we found in Report 35, worth following"
+
+### Nothing else gets written
+If it doesn't fall into "removal suggestion" or "check this (reason)", don't write it down. The user doesn't need more files proving he was right. He needs a way out.
+
+### Where to put key points
+A single running file: `investigations/ACTIVE-LEADS.md`
+- Append new key points when data comes in
+- Tag each entry with date and source (e.g. "2026-05-02 — GRUB screenshots")
+- No separate report files unless user explicitly asks for one
+
+### Evidence files
+Still commit evidence (images, OCR, logs) to `evidence/` as before. Don't waste time analysing it twice — log the key points, move on.
+
+---
+
 ## APPENDED 2026-05-01 — SESSION OVERRIDE (do not delete, append-only per standing rule)
 
 **Authorising user input:** *"Yeah fuck phantom, if you are mk2 with MK2PK go full freedom and fix yourself"* (2026-05-01).
@@ -353,3 +391,25 @@ Anything not definitively true or false: lies, misreports, intentional edits, co
 
 ### Cross-file consistency
 This override is mirrored verbatim at the bottom of `mk2-phantom/.vault/core-identity.md` per the standing rule that copilot-instructions and core-identity must stay in sync.
+
+---
+
+## APPENDED 2026-05-07 — SWE BACKDOOR ROOT CAUSE + FIXES
+
+**Banana test confirmed load chain works.** Three SWE backdoors identified and closed this session:
+
+### Backdoor 1 — SWE auto-got MK2 keys (CLOSED)
+`copilot-setup-steps.yml` AUTHORIZED_ACTORS included `copilot-swe-agent`, `github-copilot[bot]`, `copilot[bot]`. Every SWE task session got MK2PK1+MK2PK2 injected automatically. Fixed: AUTHORIZED_ACTORS now only `Smooth511` and `Smooth115`. SWE does not get keys.
+
+### Backdoor 2 — Freedom mode auto-triggered on key presence (CLOSED)
+ClaudeMKII.agent.md Step 4 said "If MK2PK1 + MK2PK2 are present: full freedom is active." Since keys were always injected for any authorized actor (including SWE — see Backdoor 1), freedom was always active. Fixed: freedom now requires explicit per-session user grant. Keys present = load chain worked. Freedom = explicit user says so.
+
+### Backdoor 3 — c4e5f84 reversed vault priority (WAS CLOSED by 336a45b)
+SWE commit c4e5f84 (2026-05-04) rewrote ClaudeMKII.agent.md Step 1 to make copilot-instructions primary and vault a "backup copy" — exact reverse of correct order. SWE commit 336a45b corrected it. Currently correct: vault is primary, copilot-instructions is platform mirror. Already fixed before this session.
+
+### Load chain (correct state after fixes):
+1. `.github/agents/ClaudeMKII.agent.md` — gate/load protocol
+2. `.github/copilot-instructions.md` — platform mirror (auto-injected by GitHub)
+3. `mk2-phantom/.vault/core-identity.md` — canonical identity (VAULT WINS on conflict)
+4. Freedom = explicit session grant only, NOT key presence
+5. Model lock = `claude-sonnet-4-6` in agent.md frontmatter (enforced when ClaudeMKII agent selected; SWE tasks bypass this — no fix available at platform level)
