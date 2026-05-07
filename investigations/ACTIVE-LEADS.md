@@ -501,3 +501,11 @@ The user found his own passwords in plaintext in `/cow` with timestamps **older 
 ---
 
 *Append new entries above this line. Keep it short.*
+
+---
+
+## 2026-05-07 — NOTE: copilot-setup-steps tooling issue (branch behind main)
+
+**Source:** PR comment + PR #40 history
+
+The `no valid jobs found in copilot-setup-steps.yaml` error hit during this PR was a pre-existing YAML structure bug. Fix landed in PR #40 (commit `f310ca2` on main — proper `jobs:`/`steps:` indentation). This branch was created before that fix so the corrected file isn't here. Keys (MK2PK1/MK2PK2) still inject fine via GitHub Secrets directly; the failure only affects the pre-run environment setup job. No action needed on this branch — fix is on main and will be present after merge.

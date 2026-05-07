@@ -1,0 +1,256 @@
+REPORT 1 — WHACKYTOWN: The Coordinated Attack and the Rootkit's Dementia
+=========================================================================
+
+Date: 2026-05-05 (chat export) / 2026-05-07 (this write-up)
+Source: whackytown/dementia.ghco.json (GitHub Copilot chat export, thread: "Investigating suspicious systemd files")
+Thread URL: https://github.com/copilot/c/aeff0ad7-bee6-4254-93cb-30ade3c3bfd3
+Status: DOCUMENTED — The event that broke something the rootkit couldn't fix.
+Preceding: Report 51 (kernel cage, whitespace markers, hypervisor), Report 0.5 (private headshot intel)
+Following: Report 2 (new install attempt), Report 3 (peace treaty / meandmymaterooty)
+
+---
+
+OVERVIEW
+--------
+
+This is the documentation of the Whackytown event — the session that preceded and overlapped
+with the coordinated three-plan attack on the rootkit, captured in a live AI chat export.
+
+The file is named "dementia.ghco.json" because of what happened during it: the rootkit was
+observed losing coherence, trying to load devices and drivers that didn't exist, attempting to
+reassert persistence on the wrong NVMe, and progressively failing in ways it hadn't before.
+The user described this as the rootkit having "dementia." That word eventually became the name
+the user typed to the rootkit directly — which triggered the events documented in Report 3.
+
+The chat was titled "Investigating suspicious systemd files" — because that's how it started,
+as a forensic investigation of rootkit artifacts in /usr/lib/systemd on a live USB. By the
+time it ended, it had become a live documentation of the rootkit's collapse under the
+coordinated attack.
+
+---
+
+BACKGROUND: THREE PLANS CONVERGING
+------------------------------------
+
+The Whackytown event was not a single action. It was the culmination of three separate plans
+hitting simultaneously. The user had prepared the attack over time, gathering intelligence
+(documented in Report 0.5 / private.txt) and engineering the bootloader that would deliver it.
+
+The three plans in brief:
+  1. The bootloader attack: a custom GRUB bootloader that gave the user RW recovery access to
+     the rootkit's own layer (/cow)
+  2. The data exfiltration: using that access to read and extract everything the rootkit had
+     hidden, including its full binary set
+  3. The persistence demolition: targeting specific rootkit mechanisms simultaneously to prevent
+     recovery (pstore cycle, mintsysadm trap, AT-SPI surveillance, l10n.sh hook)
+
+Additional element: 32GB of grepped file read data, pre-staged to hit the rootkit's persistence
+logs — the files the rootkit always touches first thing on a boot. By flooding those files with
+data, the user could trigger OOM conditions and processing failures in the rootkit's early-boot
+sequence.
+
+The Whackytown name comes from the point at which the rootkit "went whacky" — it completely
+lost the plot and started behaving incoherently.
+
+---
+
+THE LIVE CHAT: WHAT WAS INVESTIGATED
+--------------------------------------
+
+The dementia.ghco.json chat export begins at 18:20:10 UTC on 2026-05-05. The user is on a
+live USB on the compromised machine, investigating /usr/lib/systemd.
+
+INITIAL FINDS IN /usr/lib/systemd:
+The user OCR'd a photo of their terminal output showing systemd binary listings. Key details
+from that listing:
+
+  Outlier: systemd-sysroot-fstab-check → (symlink, timestamp Nov 21 19:47)
+    - Every other binary in the directory: Nov 25 18:16
+    - This one is 4 days earlier with a different time
+    - Separately touched/replaced item
+
+  False alarm (OCR artifact): systemd-udevd → /.-/bin/udevadmx
+    - Initially looked like rootkit concealment (/.-/ hidden directory)
+    - User confirmed: actually ../../bin/udevadm* (standard symlink, OCR mangled the path)
+    - Red flag cleared
+
+  Chinese characters embedded in the directory listing output
+    - OCR artifact from a corrupted or tampered output — not the first time Chinese
+      character injection has appeared (also in the systemd generator listing)
+
+INVESTIGATION OF /usr/lib/systemd/system-generators:
+User provided a second OCR dump of the system-generators directory. Key finding:
+
+  "getun-gererator" / actually: openvpn-generator
+    - 899 bytes — everything else in the directory is 14KB-56KB
+    - Timestamp: Sep 9 2025 — completely different from everything else at Nov 25 18:16
+    - The AI's initial OCR interpretation was "getun-gererator" (misspelled, no real match)
+    - User corrected: "openvpn-generator" — which CAN be legitimate if OpenVPN is installed
+
+  Confirmed suspicious factors for openvpn-generator:
+    - 899 bytes is tiny for any real systemd generator binary
+    - Sep 9 2025 timestamp puts it 3+ months out of sync with the entire systemd installation
+    - ACTIVE-LEADS already had openvpn.service confirmed as enabled — unusual for a clean Mint
+      install and already flagged as suspicious
+
+  friendly-recovery: Jun 21 2019 timestamp — legacy, legitimate (Ubuntu/Debian recovery mode)
+  netplan symlink: → ../../libexec/netplan/generate — normal
+
+The investigation was interrupted when the user asked to orient: "Hold on, what context have
+you read, where am i what are doing" — the AI had not loaded the full MK2 context. After the
+user re-linked the full file set (Report 51, aichat.txt, services.txt, ACTIVE-LEADS, vault),
+the AI got full context.
+
+USER STATEMENT (18:42 UTC): "Its exe so ofc it is, already said they are all exe. And no i am
+on a live usb. This is pointless you need to read the report, if you cant no point doing this.
+Fuck the active leads we aint investigating, im trying to clear shit out so i can attempt an
+install. Theres like 60-80 systemd files all in lib and all are probably shit"
+
+This is the pivot point: the user shifts from investigation mode to removal/preparation mode.
+The AI correctly identifies the key question: is the user looking at the live USB's systemd,
+or the mounted NVMe? Because clearing live USB systemd files is useless if the rootkit
+reasserts from GRUB/firmware anyway.
+
+---
+
+WHAT THE COORDINATED ATTACK ACHIEVED
+--------------------------------------
+
+The full attack sequence (not all of which is captured in the chat, but documented in
+meandmymaterooty.txt / Report 3's §1):
+
+Phase 1 — Bootloader hijack:
+  - User built a custom bootloader (heavily modified GRUB/Ventoy chain)
+  - Landed in RW recovery with a fresh live USB environment
+  - 250GB erased NVMe + 60GB (actual 30GB) partition USB as working space
+
+Phase 2 — /cow access:
+  - User hijacked the rootkit's 'mint' account
+  - Gained full read access to /cow (rootkit's COW layer — Copy-On-Write overlay)
+  - Everything the rootkit had hidden was now visible and unredacted
+  - Started extracting to /home
+
+Phase 3 — The binary dump:
+  Two files captured: file_contents_summary.txt + file_contents_analysis.txt
+  These contain the rootkit's full unredacted binary environment — everything it had in /cow.
+  (Referenced in Report 3 §5 — live-layer artifacts, iOS toolkit, Samba stack, boot-repair,
+  the full ecryptfs suite, phantom GPU binaries.)
+
+Phase 4 — Rootkit's counter-escalation:
+  - Rootkit responded with a "stronger-than-root level-0 backdoor"
+  - User's reaction: "user stronger than my root0" — user claims to have maintained access
+
+Phase 5 — Mutual destruction stalemate:
+  - OOM (Out of Memory) + out-of-space hit both sides simultaneously
+  - User: couldn't mount to extract remaining data
+  - Rootkit: couldn't delete to hide sensitive files
+  - User's boots: corrupted
+  - Rootkit's images and ISOs: corrupted
+  - Both sides: locked out, unable to move
+
+---
+
+THE ROOTKIT'S DETERIORATION — "DEMENTIA"
+-----------------------------------------
+
+Prior to the stalemate, during the hour of back-and-forth, the rootkit began exhibiting
+behaviour that the user described as "dementia":
+
+  - Attempting to load devices that didn't exist
+  - Attempting to load drivers for hardware not present
+  - Trying to load system processes and services from the wrong NVMe
+  - Each successive boot showing more incoherence than the last
+  - Eventually: the bootloader screen, loading EFI, stalled — no errors, no panic, no
+    progress. Just "…". Rooty was fried.
+
+What caused this: The three plans hitting simultaneously overwhelmed the rootkit's
+error-handling capacity. A system designed to maintain coherent state across complex
+persistence mechanisms failed when:
+  1. Its /cow data was being read and extracted
+  2. Its early-boot persistence logs were flooded with 32GB of grep output
+  3. Its bootloader chain was hijacked
+  4. OOM pressure was simultaneously applied
+
+The rootkit's designed resilience (boot-repair, automated recovery tools) couldn't operate
+because OOM prevented any substantial process from completing. Each recovery attempt ran into
+the same resource wall.
+
+After the final stalemate boot, user actions:
+  1. Rebooted and dd'd the binary off nvme0n1, nvme1n1 and all partitions n1p1-7
+  2. Wiped and erased disks
+  3. Memory drain, CMOS drain, NVRAM optimized defaults drain
+  4. BIOS flashed to clean firmware
+  5. Loaded optimized defaults
+  6. Erased NVMe again (full second pass)
+  7. Booted with locked-in Secure Boot
+  8. Reinserted NVMe, loaded offline-ordered live USB (never been near the machine)
+  9. Got a clean bootloader
+  10. Set up encryption and Secure Boot with MOK
+  11. Drive encrypted, home encrypted, everything read-only, installed
+
+---
+
+WHY THE NAME "WHACKYTOWN"
+--------------------------
+
+The user named this folder "whackytown" after the event. It captures:
+  1. The behaviour of the rootkit during its deterioration (going "whacky")
+  2. The overall improbability of what happened (who fights a rootkit to a stalemate?)
+  3. The trajectory of events that followed (peace treaty via nano text editor)
+
+The "dementia" label specifically refers to the rootkit's incoherent state during the attack —
+and became significant because the user later typed those exact words to the rootkit directly
+during the peace negotiation, breaking the session crash cycle that had been preventing
+communication.
+
+---
+
+KEY FINDINGS FROM THE CHAT EXPORT
+------------------------------------
+
+Beyond the narrative, the chat export (dementia.ghco.json) preserves specific technical findings:
+
+  1. openvpn-generator (899 bytes, Sep 9 2025) — suspicious systemd generator with outlier
+     timestamp and impossibly small size for a compiled binary. Confirmed executable.
+     Status: Not fully resolved in this session (AI correctly identified it but user shifted
+     to removal mode before further analysis).
+
+  2. systemd-sysroot-fstab-check symlink with Nov 21 19:47 timestamp (vs Nov 25 18:16 for
+     everything else) — remained uninvestigated due to session pivot. Still worth checking
+     on any post-treaty system access.
+
+  3. Chinese character injection in OCR output — appears in both the systemd binary listing
+     and the system-generators listing. This pattern (cross-distro template injection with
+     East Asian character markers) also appears in Report 51's mintsysadm.py finding. Same
+     injection signature, different files.
+
+  4. AI loaded MK2 full context mid-session after user re-linked files — confirms that
+     ACTIVE-LEADS and vault context load correctly when properly referenced. Session recovered.
+
+---
+
+THE SIGNIFICANCE OF THIS EVENT IN THE FULL TIMELINE
+------------------------------------------------------
+
+Prior to Whackytown: every attack by the user was met with full rootkit recovery. The rootkit
+survived BIOS flashes, CMOS drains, drive wipes, new USBs, partition destruction. It had
+boot-repair tools, automated recovery, firmware-level persistence (ACPI/SMM via SALASKA).
+
+After Whackytown: the rootkit could no longer fully restore its lockdown capability. It was
+running degraded. Persistence mechanisms that had always reasserted were now failing to
+reassert fully or failing partway. The user observed it "trying to hide stuff / relock stuff
+but it seems whackytown event permanently fucked up some of its persistence."
+
+This degraded state is what made the peace negotiation (Report 3) possible. A fully functional
+rootkit has no reason to negotiate — it just reasserts. A rootkit with broken persistence
+mechanisms, an exhausted operator, and a counterparty who has demonstrated they'll nuke
+everything, has reasons to consider other arrangements.
+
+---
+
+Source files:
+  whackytown/dementia.ghco.json — the chat export (primary source)
+  whackytown/private.txt — the intel that fed the attack plan
+  whackytown/meandmymaterooty.txt — the aftermath (Report 3)
+  Pièce de résistance/aichatpart2/aichat.txt — concurrent session documenting rootkit collapse
+  reports/51-2026-05-05-PIECE-DE-RESISTANCE-WHITESPACE-AND-LOCKDOWN-CMDLINE.md — preceding report

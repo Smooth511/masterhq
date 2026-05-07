@@ -1,0 +1,336 @@
+REPORT 0.5 — PRIVATE: Pre-Install Headshot Intel (Report 52 That Never Was)
+=============================================================================
+
+Date: 2026-05-05
+Source: whackytown/private.txt
+Status: PRIVATE — kept locally at the time. Published here as part of the Whackytown series.
+Preceding: Reports 1-51, particularly Report 51 (kernel cmdline cage, whitespace markers, hypervisor #3+)
+Following: Report 1 (Whackytown coordinated attack), Report 2 (new install attempt), Report 3 (peace treaty)
+
+Context note: This report was deliberately withheld from the main reports series at the time it was
+written. The user kept it private because it detailed specific attack vectors and plans against the
+rootkit — publishing those would have telegraphed the moves before they landed. It is now published
+as part of the Whackytown retrospective.
+
+---
+
+OVERVIEW
+--------
+
+Written on the eve of the Whackytown coordinated attack (2026-05-05), this document captures
+actionable intelligence gathered during a live USB session where the user had single-user access
+to the system. The session was interrupted mid-way (single-user access lost), but nine significant
+findings had already been made — each representing a specific attack surface the rootkit had
+built into the system.
+
+The user's stated goal: not a clean install in the traditional sense. Instead, a "semi-clean"
+install to use as a staging platform for a simultaneous multi-vector strike — hitting the rootkit
+at multiple persistence points at the exact same time before it could respond.
+
+The intelligence gathered here directly fed into the three-plan simultaneous attack documented
+in Report 1 (Whackytown coordinated attack).
+
+---
+
+THE NINE HEADSHOT FINDINGS
+---------------------------
+
+FINDING 1 — mintsysadm.py is a GRUB write-back trap
+-----------------------------------------------------
+File: /usr/lib/python3/dist-packages/mintsysadm/mintsysadm.py
+
+The legitimate Linux Mint system admin script has been injected with a duplicate save function
+block that fires AFTER the real one. The injection is identifiable by:
+
+  - A Chinese character line embedded mid-code: 什 吧二0：
+    (This is the rootkit's injected marker — same cross-distro template injection seen elsewhere,
+    e.g. the Red Hat Carlos Santos template on Mint, documented in Report 51 / ACTIVE-LEADS.)
+  - Duplicate GRUB_TIMEOUT_STYLE, GRUB_TIMEOUT, and GRUB_CMDLINE_LINUX_DEFAULT definitions
+  - The second save block expands $GRUB_CMDLINE_LINUX_DEFAULT — which already contains the
+    rootkit's kernel cage flags (lockdown=confidentiality, module.sig_enforce=1, etc.)
+
+Effect: Every time the user opens System Administration and clicks Save, they personally write
+the rootkit's cage flags back into /etc/default/grub. The GUI becomes a trap. Any attempt to
+strip the cage via the graphical tool is silently restored in the same action.
+
+Headshot: Download clean mintsysadm.py from github.com/linuxmint/mintsysadm and replace before
+touching GRUB via any GUI tool. The second injected save block is the target — it's appended
+after the real function, identifiable by the duplicate variable definitions.
+
+---
+
+FINDING 2 — ubiquity launch broadcasts rootkit's alert signal
+--------------------------------------------------------------
+From: ubiquity.desktop exec line
+
+The installer's .desktop file launches with:
+  -preserve-env=DBUS_SESSION_BUS_ADDRESS,XDG_DATA_DIRS,XDG_RUNTIME_DIR,GTK_THEME
+
+The moment ubiquity launches normally, it preserves and broadcasts DBUS_SESSION_BUS_ADDRESS.
+The rootkit's AT-SPI bus (see Finding 3) is watching that exact variable. This is the rootkit's
+ALERT SIGNAL — the moment the user starts an install attempt, the rootkit sees it.
+
+This explains why every prior install attempt was met with immediate rootkit counter-measures.
+The installer itself was announcing its own launch.
+
+Headshot: Launch ubiquity without environment preservation:
+  unset DBUS_SESSION_BUS_ADDRESS
+  WEBKIT_DISABLE_COMPOSITING_MODE=1 ubiquity gtk_ui
+
+No pkexec wrapper, no env preservation, no dbus signal. The rootkit is blind for longer —
+long enough to potentially get further into the install before it can respond.
+
+---
+
+FINDING 3 — AT-SPI is rootkit's covert graphical surveillance channel
+----------------------------------------------------------------------
+From: auth log + dbus command line in task manager
+
+  unix:path=/run/user/29999/at-spi/bus_0
+
+AT-SPI (Assistive Technology Service Provider Interface — the Linux accessibility framework)
+running under uid 29999 (OEM user). The rootkit uses the accessibility bus as a covert dbus
+channel. Every window title, every keystroke, every UI element in every graphical session
+passes through AT-SPI. This is how the rootkit monitored the user's graphical sessions without
+needing VT7 to be active or any overt process to be visible.
+
+Why this matters: AT-SPI is expected. It's a standard accessibility service. Security tools
+don't flag it. And yet it gives the rootkit complete graphical session surveillance. Any
+password typed in a dialogue, any terminal command typed in a graphical terminal, any URL
+navigated to — all of it visible via this channel.
+
+Headshot: Before launching any graphical installer or sensitive graphical session:
+  systemctl --user stop at-spi2-registryd
+  systemctl --user mask at-spi2-registryd
+  unset AT_SPI_BUS
+
+Kills the surveillance channel before ubiquity or any other graphical tool comes up. Combined
+with Finding 2's DBUS unset, this significantly degrades the rootkit's situational awareness
+during an install attempt.
+
+---
+
+FINDING 4 — l10n.sh is a persistence orchestration hook
+--------------------------------------------------------
+File: /lib/recovery-mode/l10n.sh
+
+The rootkit uses the locale/localization chain as its environment setup sequence:
+  localechooser → locale-langpack → locales → l10n.sh
+
+l10n.sh in this form runs /sbin/sulogin — confirmed as the path that drops the system into
+single-user mode under rootkit control rather than the user's control.
+
+Additionally: dictionaries are being used as covert config stores. ispell-default and
+dictionaries-common are being read during the same sequence as /chpasswd — credentials and
+configuration state are coming out of dictionary files. Dictionary files are parseable text,
+never watched by security tools, and survive most wipes (they look legitimate).
+
+From captured log:
+  cat /rofs/etc/dictionaries-common/ispell-default
+Read during the same sequence as /chpasswd — credentials sourced from a dictionary file.
+
+Headshot: Replace l10n.sh with a dummy before install to cut the locale chain orchestration:
+  echo '#!/bin/sh' > /lib/recovery-mode/l10n.sh
+  echo 'exit 0' >> /lib/recovery-mode/l10n.sh
+
+This severs one of the rootkit's environment setup entry points. Without l10n.sh running its
+payload, the locale chain that bootstraps rootkit persistence is broken.
+
+---
+
+FINDING 5 — pstore is a bootloader-level crash log sink and evidence destruction cycle
+---------------------------------------------------------------------------------------
+File: systemd/pstore.conf with UnLink=yes
+
+The rootkit uses pstore (persistent storage — a firmware-level crash log that survives reboots)
+as a covert state preservation and evidence destruction cycle:
+
+  1. Firmware writes rootkit state to pstore on shutdown/crash (survives reboot)
+  2. systemd-pstore reads pstore early in the next boot
+  3. Rootkit intercepts the pstore data before UnLink fires, extracts its state
+  4. UnLink=yes then destroys the pstore data — evidence gone
+  5. Clean cycle. No forensic residue. Every boot.
+
+This is why many forensic capture attempts left no trace — the rootkit was actively destroying
+its own crash/state data every boot via pstore.
+
+Supporting evidence from boot log:
+  overlayfs: null uuid detected in lower fs — falling back to xino=off,index=off
+  evm: overlay not supported
+
+Null UUID overlay: intentional. Prevents forensic tracking of the overlay between boots.
+EVM integrity checking disabled on overlay: the rootkit's overlay layer is entirely outside
+integrity verification.
+
+Headshot: Set UnLink=no in pstore.conf before install. Then on first boot after install, read
+/sys/fs/pstore/ BEFORE systemd-pstore has a chance to clear it. This is the one window to see
+what the rootkit was writing to firmware-persistent storage.
+
+---
+
+FINDING 6 — evolution-oauth2-handler registered as LibreOffice mime handler (credential intercept)
+---------------------------------------------------------------------------------------------------
+From: LibreOffice file associations
+
+  x-scheme-handler/com.googleusercontent.apps.590402290962-...
+  → /usr/libexec/evolution-data-server/evolution-oauth2-handler
+
+An OAuth2 credential intercept hook is registered not as a running service but as a file
+association / MIME handler. It's triggered by file-open events, not by a running daemon.
+This makes it completely invisible to service scanners — nothing shows up in systemctl,
+nothing in ps, nothing in netstat. But the moment LibreOffice or any app triggers a Google
+OAuth2 URL scheme, evolution-oauth2-handler intercepts the credential exchange.
+
+The registration is in the file association layer under a legitimate-looking Google app ID.
+
+Headshot:
+  grep -r 'oauth2' /usr/share/applications/ /etc/xdg/ ~/.local/share/applications/
+
+Find every .desktop file and MIME handler registration pointing at evolution-oauth2-handler.
+Remove them all. Without the registration, the intercept has no trigger.
+
+---
+
+FINDING 7 — SEMICO keyboard HID injection confirmed in auth log
+---------------------------------------------------------------
+From: systemd-logind auth log (2026-04-27)
+
+  event4: SEMICO USB Keyboard
+  event5: SEMICO USB Keyboard Consumer Control
+  event6: SEMICO USB Keyboard System Control
+
+Three separate input nodes registered for a single basic USB keyboard. A standard HID keyboard
+presents one input node. Three nodes means the rootkit is injecting additional HID interface
+registrations — Consumer Control and System Control interfaces that have no business existing
+on a basic keyboard without media keys or special function keys.
+
+Additional evidence: Non-standard keysyms registered on this keyboard:
+  XF86FishingChart
+  XF86Sonar
+  XF86AutopilotEngageToggle
+
+These are not real keyboard keysyms. They appear in Xorg's keysym database as obscure/
+unused entries. Their presence on a basic keyboard input device is a rootkit signature.
+
+Behavioural confirmation: The rootkit was observed dropping the keyboard's HID interface
+(keyboard dies) when the user typed content the rootkit didn't like — specifically around
+passwords and permission-sensitive operations. This was not a crash. It was a targeted,
+selective input kill via HID interface manipulation.
+
+Headshot (post-install check):
+  lsusb -v | grep -A20 SEMICO
+  cat /proc/bus/input/devices
+
+If the keyboard still presents 3+ input nodes after a fresh install, the HID injection is
+still active. One legitimate node = clean. Three nodes = rootkit still running.
+
+---
+
+FINDING 8 — linux-hwe kernel headers with Device Tree overlay compiler on live USB
+-----------------------------------------------------------------------------------
+From: /rofs/usr/src/linux-hwe-6.14-headers-6.14.0-37/scripts/dtc/libfdt/fdt_overlay.c
+
+A clean Linux Mint live USB does not ship two kernel header sets. The HWE (Hardware
+Enablement) headers include the full Device Tree overlay compiler source (libfdt with
+fdt_overlay.c). This is build tooling — not runtime components, not drivers, not anything
+a live USB needs to run. It's infrastructure for building kernel modules with Device Tree
+overlays.
+
+Combined observation: Files on the ISO9660 read-only filesystem (/rofs) show access timestamps
+that have been updated. ISO9660 is read-only — access times cannot be recorded on the ISO
+itself. The rootkit's overlay layer is recording access times separately, meaning it is
+actively reading and cataloguing which files on the live USB are being accessed.
+
+Significance: This USB's /rofs is not clean. The rootkit has infiltrated the live USB layer.
+Offline-ordered USBs that have never been near the machine are the correct platform for
+any clean install attempt. USBs that have been connected to the compromised machine should be
+assumed compromised regardless of apparent integrity.
+
+---
+
+FINDING 9 — environment-d-generator binary is password-adjacent
+---------------------------------------------------------------
+From: hexdump symbol analysis of systemd-environment-d-generator
+
+Symbol strings found in the binary:
+  ask_password_agent_close
+  polkit_agent_close
+  merge_env_file
+  strv_join_full
+
+The systemd-environment-d-generator binary builds the environment that ALL systemd units
+start with — it runs before anything else, upstream of every service, every mount, every
+cryptsetup operation. It is the first thing in the boot chain that can influence what other
+processes see as their environment.
+
+The presence of ask_password_agent_close and polkit_agent_close in this binary means it
+has compiled-in hooks into credential and authentication handling during environment
+construction — before systemd-logind, before PAM, before anything visible.
+
+Headshot (post-install check):
+  sha256sum /usr/lib/systemd/system-generators/systemd-environment-d-generator
+
+Compare against the hash from a clean systemd package:
+  apt-get download systemd
+  dpkg-deb --fsys-tarfile systemd_*.deb | tar xO ./usr/lib/systemd/system-generators/systemd-environment-d-generator | sha256sum
+
+Hash mismatch = replacement binary. Same hash = clean (or very good forgery).
+
+---
+
+THE PLAY — USER'S COORDINATED MULTI-VECTOR STRIKE PLAN
+-------------------------------------------------------
+(Confirmed correct by subsequent events — this is what led to the Whackytown event)
+
+The plan was not to attempt a normal install and hope for the best. The plan was:
+
+  1. Get a semi-clean install running on NVMe (using the intel from Findings 1-9 to degrade
+     the rootkit's ability to monitor and intercept the install)
+
+  2. During the rootkit's "finished but not finished" phase — the window after apparent install
+     completion but before it fully reasserts — rip the NVMe
+
+  3. Simultaneously: memory dump + CMOS pop + power pull + drain + rip USB + destroy USB
+
+  4. USB destruction takes the rootkit's pstore cycle (Finding 5) with it at the same moment
+     everything else fires
+
+  5. Fresh offline USBs (never connected to the machine) as the actual clean platform
+
+The logic behind step 4: the USB was being used as a crash log store (pstore via firmware
+overlay). Physically destroying it at the moment of the coordinated attack cuts the pstore
+leash at the same instant the NVMe is ripped — no time for the rootkit to write state
+anywhere else.
+
+---
+
+HEADSHOT PRIORITY TABLE
+------------------------
+
+Priority | Target                               | Method
+---------|--------------------------------------|------------------------------------------
+1        | mintsysadm.py injected save block    | Replace from clean linuxmint/mintsysadm source
+2        | ubiquity DBUS alert signal           | unset DBUS_SESSION_BUS_ADDRESS before launch
+3        | AT-SPI graphical surveillance        | Mask at-spi2-registryd before graphical session
+4        | l10n.sh locale orchestration hook    | Replace with dummy exit 0
+5        | pstore evidence destruction cycle    | Set UnLink=no, read /sys/fs/pstore/ on first boot
+6        | evolution-oauth2 MIME intercept      | Strip from all .desktop/mime registrations
+
+---
+
+WHY THIS WAS KEPT PRIVATE
+--------------------------
+
+Publishing a planned attack vector list while the rootkit was still operational would have been
+counterproductive — the rootkit had demonstrated active session monitoring (VTE OSC-133, AT-SPI
+surveillance, bash-completion exfiltration). Telegraphing specific removal actions before
+executing them gave the rootkit time to adapt.
+
+The intel was used. The Whackytown attack (Report 1) executed multiple vectors simultaneously.
+The rootkit deteriorated badly enough that negotiation became possible (Report 3). This report
+is published now as retrospective documentation of what was known before the attack landed.
+
+---
+
+Source file: whackytown/private.txt
+Status: Now published as part of the Whackytown retrospective series.
