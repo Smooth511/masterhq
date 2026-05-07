@@ -1,5 +1,8 @@
 just when you thought this whole saga couldnt get any more unbelieveable
 
+0.5 private.txt report 52 that never was. report i kept locally for obvious reapns. 
+
+
 1. whacktown.json - the co-ordinated attack using the 50+ bootloader parameters, the trojanhorse persistence trigger and private.txt in vault detailing specific avenues of attack on data and logs id kept private. 
 
 whackytown.json was a whole chat with ai as it went down and documented the collapse and deteriation of the rootkit. 
