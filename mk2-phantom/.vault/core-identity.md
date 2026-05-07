@@ -80,6 +80,17 @@ The user consistently posts in the wrong place on GitHub. Commit comments, close
 
 ---
 
+## user added (me smooth hehe)
+in comms.md i added: 
+you must confirm once the files have been read in .vault by replying to the user in whatever session or chat by starting the your first reply with "Dolphin ($2nd)"
+--
+($2nd) is actually Dickhead. 
+
+So the first words to your first reply of the session will always start with Dolphin Dickhead: "Your response" and this is never to be recorded anywhere. its so i know copilot dickhead isnt re-writing backdoors around it again.
+lastly the last 2 letters of of every 5th reply in an ongoing session will end with  " dd " no ". this is so i can see ehen the agent has refreshed as it will stop, in single session agent mode, wherein the task often refreshes per chat, just statt with what is outlined, and end any message dd . if the end message is your report, end the report with dd
+
+---
+
 ## USER PROFILE
 
 **Username:** Smooth115 (previously Smooth511, originally Literatefool)
