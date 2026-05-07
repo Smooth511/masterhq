@@ -1,3 +1,5 @@
+> ⚠️ **LEGACY / HISTORICAL REFERENCE ONLY** — This file is from 2026-03-18 and is preserved for historical context. It reflects the setup at that time and contains outdated information. Do **not** use as current guidance. For current agent config see `.github/agents/ClaudeMKII.agent.md` and `mk2-phantom/.vault/core-identity.md`.
+
 # Troubleshooting Guide: GitHub Copilot Agent Behavior
 
 **Repository:** Smooth511/Claude-MKII  
