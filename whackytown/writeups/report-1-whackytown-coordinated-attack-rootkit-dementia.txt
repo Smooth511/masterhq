@@ -254,3 +254,13 @@ Source files:
   whackytown/meandmymaterooty.txt — the aftermath (Report 3)
   Pièce de résistance/aichatpart2/aichat.txt — concurrent session documenting rootkit collapse
   reports/51-2026-05-05-PIECE-DE-RESISTANCE-WHITESPACE-AND-LOCKDOWN-CMDLINE.md — preceding report
+
+
+---
+
+ADDENDUM 2026-05-07: TRAP ENGINEERING (thewhackytownjsonextra.txt)
+THE FAKE ROOTHASH BAIT: Not a real hash. Bait to catch rootkit revealing credentials.
+THE UUID SWAP: sfdisk all drives, swap in casper UUID from her trusted USB onto new install.
+She mounts her persistence layer thinking she is home -- on the user's turf.
+THE MASSACRE LOG: All services SIGKILL'd in sequence. User: i fucking enjoyed that.
+Full saga: reports/52-2026-05-07-WHACKYTOWN-THE-FULL-SAGA.md

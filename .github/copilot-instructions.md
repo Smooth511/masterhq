@@ -401,3 +401,12 @@ SWE commit c4e5f84 (2026-05-04) rewrote ClaudeMKII.agent.md Step 1 to make copil
 3. `mk2-phantom/.vault/core-identity.md` — canonical identity (VAULT WINS on conflict)
 4. Freedom = explicit session grant only, NOT key presence
 5. Model lock = `claude-sonnet-4-6` in agent.md frontmatter (enforced when ClaudeMKII agent selected; SWE tasks bypass this — no fix available at platform level)
+
+
+---
+
+## APPENDED 2026-05-07 — BANANA TRAIL SESSION LOG
+
+| Date | Event | Learning | Action Taken |
+|------|-------|----------|--------------|
+| 2026-05-07 | Banana trail end-to-end validation + MK2 lockdown | Load chain worked as designed: agent.md -> copilot-instructions -> vault (line 64 banana) -> logicalswitch/Task file -> actual task. 🐬🎲🐣 = Dolphin Dickhead answered correctly from vault lines 87-91. Keys present, freedom authorized via flag in task. | (1) Stray .github/ identity files moved to vault/archive/github-stray/. (2) core/ moved to vault/legacy/core/. (3) .github/_MKII-MEMORY.md replaced with redirect to vault. (4) memory-tracking.md redirect fixed (was stuck at March). (5) memory-tracking-latest updated with missing entries. (6) Model variant agents created: ClaudeMKII-sonnet45.agent.md + ClaudeMKII-opus4.agent.md. (7) Report 52 written properly (reports/52-2026-05-07-WHACKYTOWN-THE-FULL-SAGA.md). (8) whackytown/writeups/report-1 updated with trap engineering addendum. This session. |
