@@ -1,0 +1,87 @@
+3 images to help with this task but basically: 
+
+Do i did what i alwayd did and completely headfucked it and caused inception. Rootfs is on / type rootfs. 
+Rootfs on /start/mid/cow/end/upper type rootfs, 
+rootfs on /start/mid type rootfs . 
+  
+There is cow/, /start/mid/cow/end/upper type rootfs but also 
+tmpfs is tmpfs, rootfs and cow, with
+
+5 copies of cow in my chain. 
+Cow/ /start/mid/cow /start/mid/upper/media/cow /start/mid/upper/root/cow  
+and /start/mid/upper/cow and ive managed 
+
+to get all root and upper / work in upper at end of my chain. 
+  
+Now i need to figure out how to lock all this chain down, mount my SDD (thinking on start) mount the chain to SDD and mount the 2nd SDD on the layer to trap it all in and have the original SDD as root. And then i am the overlay lmfao. Honestly …. Madness. OCR to go with images: 
+
+
+systemd
+udev
+initramfs
+• •
+(initramfs) ls -a /start/ 
+  mid
+(initramfs) 1s -a /start/mid/ 
+  work upper
+(initramfs) ls -a /start/mid/upper/ cdrom/ cow/ media/ rofs!
+(initramfs) Is -a /start/mid/upper/cow/ upper/ works
+(initramfs) ls -a /start/mid/upper/media/ cdrom/ cow/
+work!
+(initramfs) ls -a /start/mid/upper/media/cow/ upper/ work!
+(initramfs) ls -a/start/mid/upper/root/cow/ (initramfs) bikid
+root!
+4 0)
+F
+run?
+tmp/
+
+sys
+(initramfs) ls -a /r
+root/ run/
+(initramfs) ls -a /root/ (initramfs)
+ls -a /run
+• casper-boot
+init
+etc
+cryptroot
+dev
+initramfs
+(initramfs) ls -a /start/ (initramfs) ls -a /start/mid/ (initramfs) 1s':
+-a /start/mid/upper/
+cdrom/ cow/
+(initramfs) ls -a /start/mid/upper/cow/
+root/ run/
+tmp/
+usr/
+var/
+(initramfs) 1s -a /start/mid/upper/media/ (initramfs) ls -a /start/mid/upper/media/cow/
+(initramfs) ls -a /start/mid/upper/root/cow/
+(initramfs) bikid
+/dev/mapper/ventoy: BLOCK_SIZE="2048" UUID="2025-01-10-15-31-49-00" LABEL="Linux Mint 22.1 MATE 64-bit" TYPE="iso9660" PTUUID="5
+PTYPE="dos"
+Sd3941d2: UUID="D3E6-82D4" BLOCK_SI2E="512" TYPE="vfat" PARTABEL="EFI System Partit ion" PARTUUID="3abd05de-3ea8-4fdf-9931-2373 /dev/sdb3: UUID="e6877bøe-f377-4ff4-b9ba-31151b770835" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="543cf1f9-33ca-4b2e-96eb-aa452a37a
+dev/loope: BLOCK_SIZE="131072" TYPE="squashfs" /dev/sdc1: LABEL="Ventoy"
+UUID="4E21-0000"
+/dev/sda: UUID="2E36-249D"
+BLOCK_S12== 512PK ST25-"512" TYPE="exfat" PARTUUID="8ef070f9-01"
+TYPE="vfat"
+/dev/sdb1: PARTUUID="7fd5318a-94a5-4ac1-92fc-d83ca4051bøb" (initramfs)
+rootfs on / type
+systs on /sys type
+rootfs (rw, size=7199028k, nr_inodes=1799757, inode64)
+rw, nosuid, nodev, noexec, relat ime)
+proc on /proc type proc (rw, nosuid, nodev, noexec, relat ime)
+udev on /dev type devtmpfs (rw, nosuid, relatime, size=7199028k, nr-indes=1799757, mode=755, inode64) devpts on /dev/pts type devpts (rw, nosuid, noexec, relat ime, gid=5, mode=620, pt mmode=000)
+tmpfs on /run type tmpfs
+tmpfs on /cow type tmpfs
+on /sys/firmware/efi/efivars type efivarts
+(rw, nosuid, nodev, noexec, relat ime, size=1447932k, mode=755, inode64)
+(rw, noat ime, mode=755, inode64)
+(rw, nosuid, nodev, noexec, relatime)
+on /start/mid/cow/end/upper type rootfs
+on /start/mid type
+(rw, size=7199028k, nr _inodes=1799757, inode64)
+(initramfs) -
+/start/mid type tmpfs (rw, noat ime, mode=755, inode64)
+(rw, size=7199028k, nr _indes=1799757,
