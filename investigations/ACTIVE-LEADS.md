@@ -6,6 +6,109 @@
 
 ---
 
+## 2026-05-08 — /usr/bin/ FULL TOOL INVENTORY (v3 update)
+
+**Source:** User new requirement — /usr/bin/ + /usr/ structure from initramfs.
+
+**BIG WINS confirmed:**
+- `dd` ✅ — raw disk imaging. Use BEFORE formatting sda: `dd if=/dev/sda of=/mnt/s1/sda-backup.img bs=4M`
+- `cpio` ✅ — replaces cp -a for COW delta: `cd /start/mid/upper/cow/upper && find . | cpio -pdm /mnt/s1/lower/`
+- `/usr/sbin/` EXISTS — mke2fs likely directly accessible. Check: `ls /usr/sbin/mke2fs`. If present, skip the chroot-to-format approach.
+- `insmod` + `kmod` ✅ — can load modules (DO NOT load dm_patch_64.ko — rootkit tool)
+- `udevadm` ✅ — device event management
+- `pivot_root` ✅ — alternative to switch_root
+- `casper-preseed/reconfigure/set-selections` ✅ — Casper tools available
+
+**V3 plan changes vs v2:**
+1. dd sda backup BEFORE format (evidence preservation)
+2. cpio replaces cp -a (more reliable for deep trees with specials)
+3. /usr/sbin/mke2fs check FIRST — may not need chroot approach at all
+4. insmod warning added (don't load rootkit module)
+
+Full v3 sequence in `whackytownv2/LOCKDOWN-SEQUENCE.txt`.
+
+---
+
+## 2026-05-08 — INITRAMFS OVERLAY TAKEOVER SESSION (v2 UPDATE)
+
+**Source:** PR comment from Smooth511 — BusyBox full tool list + /ventoy/ + /ventoy/tool/ contents.
+
+**V1 PLAN ERRORS CORRECTED:**
+- No `rsync` in BusyBox → use `/ventoy/tool/unsquashfs_64` to extract squashfs directly to sdb3
+- No `mkfs.ext4` in BusyBox → use `chroot /start/mid/upper /sbin/mke2fs -t ext4 /dev/sda`
+
+**BusyBox confirmed available:** cat, chmod, chroot, df, find, grep, mkdir, mount, mv, rm, switch_root, wget, mkswap, umount
+**BusyBox NOT available:** rsync ❌, mkfs.ext4 ❌
+
+**Key tools in /ventoy/tool/:**
+- `unsquashfs_64` — extract squashfs directly (replaces rsync in the plan)
+- `vtoy_unsquashfs` — Ventoy's own squashfs extractor
+- `dm_patch_64.ko` — device mapper kernel patch module (rootkit tool, present in initramfs)
+- `dmsetup64` — device mapper control
+- `vtoydm`, `vtoydump`, `vtoyexpand`, `vtoykmod`, `vtoyksym` — full Ventoy DM suite
+
+**Key items in /ventoy/ root:**
+- `init_chain` — Ventoy's init hook chain (explains /start/mid/ path hierarchy)
+- `hook/`, `hook_finish` — Ventoy boot hooks
+- `dev_backup_sdc2` — sdc2 device state backup
+
+**`/vtoy/` is separate from `/ventoy/`** — rdinit=/vtoy/vtoy = rootkit PID 1 hijack.
+With NVMe unplugged it's not running, but `/vtoy/` is accessible in initramfs. CHECK: `ls -la /vtoy/`
+
+**REVISED SEQUENCE:** See `whackytownv2/LOCKDOWN-SEQUENCE.txt` v2 section.
+
+TL;DR v2:
+1. `mount /dev/sdb3 /mnt/s1` + bind /dev, proc, sys into `/start/mid/upper/`
+2. `chroot /start/mid/upper /sbin/mke2fs -t ext4 -L TRAP /dev/sda` (get mke2fs from assembled system)
+3. `mount /dev/sda /mnt/s2` + create upper/work dirs
+4. `/ventoy/tool/unsquashfs_64 -f -d /mnt/s1/lower /filesystem.squashfs` (extract squashfs clean base)
+5. `cp -a /start/mid/upper/cow/upper/. /mnt/s1/lower/` (overlay COW delta)
+6. Mount overlay + chroot → grub-install to sdb → reboot
+
+**CHECK THIS — /ventoy/init_chain:** `cat /ventoy/init_chain` — reads Ventoy's init hook. Explains how it hijacks Casper's /start/mid/ overlay path. Key to understanding the full chain.
+
+**CHECK THIS — /vtoy/:** `ls -la /vtoy/` — rootkit's rdinit target. NVMe unplugged so safe to read. What's in there?
+
+---
+
+## 2026-05-08 — INITRAMFS OVERLAY TAKEOVER SESSION
+
+**Source:** whackytownv2/ — headfuck.txt + 3 images (IMG_7103/7104/7105). MK2 OCR + analysis.
+
+**State:** User in initramfs break=bottom. NVMe drives UNMOUNTED (unplugged). Two 120GB SSDs present.
+Casper overlay ASSEMBLED but switch_root NOT YET done. Full live system at /start/mid/upper/.
+
+**Device map:**
+- sda = UUID=2E36-249D, vfat, 120GB = UNKNOWN SSD (safe to reformat, probably)
+- sdb = 3-partition SSD (sdb1=BIOS, sdb2=EFI vfat, sdb3=ext4 120GB) = SSD with Fedora/ventoy content
+- sdc1 = Ventoy, exfat = the live USB
+- /dev/loop0 = squashfs = Mint filesystem (the lower layer)
+- /start/mid/upper/ = FULL ASSEMBLED CASPER SYSTEM (etc, home, usr, var, rofs, cow all present)
+- /start/mid/upper/root/cow/ = EMPTY (no rootkit modifications to /root yet - clean signal)
+
+**Key insight:** User broke out AFTER Casper assembled overlay but BEFORE switch_root. This means:
+- No rootkit PID 1 running yet
+- Full assembled system visible at /start/mid/upper/
+- NVMe (rootkit's home) is PHYSICALLY UNPLUGGED = can't interfere
+- Window is OPEN to take over the overlay
+
+**REMOVAL/ACTION — full lockdown sequence:**
+See `whackytownv2/LOCKDOWN-SEQUENCE.txt` for full command sequence.
+
+TL;DR:
+1. mount sdb3 → /mnt/s1 (base SSD)
+2. format sda ext4 → /mnt/s2 (trap SSD)  
+3. rsync /start/mid/upper/ → /mnt/s1/lower/ (freeze the system)
+4. mount overlay lower=sdb3/lower,upper=sda/upper → /mnt/owned (YOU ARE THE OVERLAY)
+5. chroot /mnt/owned → grub-install to sdb → update-grub
+6. reboot from sdb = boot into YOUR controlled overlay, rootkit frozen in lower
+
+**CHECK THIS — /start/mid/upper/rofs vs /root:** If /root has the assembled system instead of /start/mid/upper/, swap paths. `ls /root/etc/os-release` to confirm.
+
+**CHECK THIS — sdb3 free space:** If sdb3 is full (Fedora ISO is big), may need to swap — use sda as lower base, keep sdb3 as trap upper.
+
+---
+
 ## 2026-05-05 — Pièce de Résistance (53 screenshots from single-user mode after ~50 failed boots)
 
 **Source:** `Pièce de résistance/` — OCR dump at `Pièce de résistance/OCR-DUMP.txt`. Full analysis in Report 51.

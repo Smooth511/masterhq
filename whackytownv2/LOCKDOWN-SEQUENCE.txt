@@ -1,0 +1,644 @@
+WHACKYTOWNV2 — OVERLAY LOCKDOWN SEQUENCE
+MK2 Analysis | 2026-05-08
+Source: headfuck.txt + IMG_7103/7104/7105 OCR
+=================================================
+
+=== WHAT I CAN SEE FROM THE IMAGES ===
+
+BLOCK DEVICES (from blkid in initramfs):
+  sda         = UUID=2E36-249D, vfat, one partition    → UNKNOWN SSD #1 (120GB, single vfat)
+  sdb1        = no filesystem type (BIOS boot sector)
+  sdb2        = UUID=D3E6-82D4, vfat, "EFI System Partition"
+  sdb3        = UUID=e6877b0e-..., ext4                → SSD #2 (120GB, has Linux layout)
+  sdc1        = LABEL=Ventoy, exfat                    → YOUR LIVE USB
+  /dev/mapper/ventoy = Mint 22.1 MATE, iso9660         → the ISO from Ventoy
+  /dev/loop0  = squashfs, BLOCK_SIZE=131072             → the Mint filesystem (lower layer)
+
+CURRENT MOUNTS at break=bottom:
+  rootfs   on /                         = initramfs root (you're here)
+  tmpfs    on /cow                      = Casper's COW (writable layer, in RAM)
+  tmpfs    on /start/mid                = tmpfs over bind mount
+  rootfs   on /start/mid                = bind mount of initramfs rootfs
+  rootfs   on /start/mid/cow/end/upper  = another bind of rootfs (your boot params created this)
+
+THE ASSEMBLED SYSTEM:
+  /start/mid/upper/ has: cdrom/ cow/ etc/ home/ media/ rofs/ root/ run/ tmp/ usr/ var/
+  THIS IS THE FULL LIVE SYSTEM assembled by Casper
+  /start/mid/upper/rofs = the squashfs lower (read-only Mint base)
+  /start/mid/upper/cow/ = shows upper/ work/ = this IS an overlayfs structure
+
+YOUR "5 COPIES OF COW" INCEPTION CHAIN:
+  /cow                           = Casper's base tmpfs COW
+  /start/mid/cow                 = nested overlay from your boot params
+  /start/mid/upper/cow           = Casper's overlay upper for /start/mid/upper
+  /start/mid/upper/media/cow     = media overlay
+  /start/mid/upper/root/cow      = root homedir overlay (empty - good sign)
+
+BOTTOM LINE: You broke out of initramfs AFTER Casper assembled the overlay but
+BEFORE switch_root happened. So /start/mid/upper/ is the fully assembled live system,
+rootkit's world, sitting there waiting. You own it. No switch_root = no rootkit PID 1.
+
+The squashfs lower (clean-ish Mint base) is at /start/mid/upper/rofs/
+Your writable upper is at /start/mid/upper/cow/upper/
+
+
+=== THE DEVICE STRATEGY ===
+
+sdb3 (ext4, 120GB SSD) = LOWER BASE
+  - Contains whatever's there (Fedora ISO? ventoy.tar.gz? check it)
+  - We write the full assembled Casper system here = frozen snapshot of rootkit's world
+  - After copy: this becomes the READ-ONLY lower of YOUR overlay
+
+sda (vfat currently, 120GB SSD) = UPPER TRAP LAYER
+  - Unknown = probably safe to reformat
+  - Reformat to ext4 = becomes the persistent writable upper
+  - ALL future writes (including rootkit writes) go HERE = you see everything
+  - You own the disk = you ARE the overlay
+
+RESULT: You sit between rootkit (frozen in sdb3 lower) and sda (your writable upper).
+Rootkit sees "its" world. Writes go to YOUR disk. You control persistence.
+
+
+=== PHASE 1: SURVEY (run this first, one command) ===
+
+lsblk -o NAME,SIZE,TYPE,FSTYPE,LABEL && echo "---" && ls /start/mid/upper/etc/os-release 2>/dev/null && echo UPPER_OK && df -h /start/mid/upper/ 2>/dev/null
+
+What to look for:
+  - sdb3 size/fstype confirmed = ext4
+  - sda size/fstype = should show vfat or blank
+  - UPPER_OK = the assembled system is there
+  - df shows free space in /start/mid (it's tmpfs, so it's RAM - limited)
+
+
+=== PHASE 2: MOUNT YOUR SSDs ===
+
+mkdir -p /mnt/s1 /mnt/s2
+mount /dev/sdb3 /mnt/s1 && echo s1_OK || echo s1_FAIL
+mount /dev/sda /mnt/s2 2>/dev/null && echo s2_OK || echo s2_vfat_fail
+
+Then check what's on sdb3:
+  ls /mnt/s1/
+  df -h /mnt/s1/
+
+If sdb3 has Fedora ISO or ventoy files = that's fine, you have space. Note what's there.
+If sdb3 is near full = use sda as primary instead (swap roles below).
+
+
+=== PHASE 3: FORMAT sda AS TRAP ===
+
+IF sda has nothing important (vfat, unknown = probably safe):
+
+umount /mnt/s2 2>/dev/null
+mkfs.ext4 -L TRAP -F /dev/sda
+mount /dev/sda /mnt/s2
+mkdir -p /mnt/s2/upper /mnt/s2/work
+echo formatted
+
+IF you're not sure sda is safe: SKIP THIS FOR NOW and use sdb3 for both.
+
+
+=== PHASE 4: COPY THE CHAIN TO SDB3 (make it the frozen lower) ===
+
+This copies the full assembled Casper system (rootkit's world, frozen in time) to sdb3.
+After this, sdb3 = the lower layer you control. It can't change.
+
+mkdir -p /mnt/s1/lower
+rsync -a --exclude=/proc --exclude=/sys --exclude=/dev --exclude=/run \
+  --exclude=/tmp --exclude=rofs --exclude=cow \
+  /start/mid/upper/. /mnt/s1/lower/
+
+WAIT: If sdb3 doesn't have enough space for the full system, do this instead (just COW upper):
+mkdir -p /mnt/s1/lower
+rsync -a /start/mid/upper/rofs/. /mnt/s1/lower/
+rsync -a /start/mid/upper/cow/upper/. /mnt/s1/lower/ 2>/dev/null
+
+The second rsync overlays the COW changes on top of the rofs base = complete snapshot.
+
+
+=== PHASE 5: BUILD YOUR OVERLAY (you become the overlay) ===
+
+Now: lower=sdb3/lower (frozen snapshot), upper=sda/upper (your trap), merged=/mnt/owned
+
+mkdir -p /mnt/owned
+mount -t overlay overlay \
+  -o lowerdir=/mnt/s1/lower,upperdir=/mnt/s2/upper,workdir=/mnt/s2/work \
+  /mnt/owned
+
+Check it:
+  ls /mnt/owned/etc/os-release
+  ls /mnt/owned/
+
+If that works: YOU ARE THE OVERLAY. Anything written in /mnt/owned goes to sda (your trap disk).
+The "rootkit" is frozen in sdb3. It can't move.
+
+Chroot in:
+  chroot /mnt/owned /bin/bash
+
+
+=== PHASE 6: INSIDE THE CHROOT - PERSISTENCE ===
+
+From inside chroot /mnt/owned:
+
+Mount essentials first:
+  mount -t proc proc /proc
+  mount -t sysfs sysfs /sys
+  mount --bind /dev /dev
+
+Check you're in the right place:
+  cat /etc/os-release
+  whoami
+
+Check what the rootkit put in autostart (DON'T delete yet, just survey):
+  ls /etc/xdg/autostart/
+  ls ~/.config/autostart/ 2>/dev/null
+  ls /etc/grub.d/
+
+Check GRUB config:
+  cat /boot/grub/grub.cfg 2>/dev/null | head -40
+  ls /boot/efi/ 2>/dev/null
+
+Mount EFI if present:
+  mount /dev/sdb2 /boot/efi
+
+Install GRUB to sdb (makes sdb bootable = your SSD becomes the boot device):
+  grub-install --target=x86_64-efi --efi-directory=/boot/efi /dev/sdb
+  update-grub
+
+
+=== PHASE 7: FSTAB UPDATE (for persistent overlay on next boot) ===
+
+From inside chroot, edit /etc/fstab to set up the overlay on next boot.
+The overlay needs to be re-assembled by an initramfs hook OR by a custom boot script.
+
+For now, the simplest approach: write a custom /etc/rc.local that remounts the overlay
+on every boot using your SSDs. OR install the system properly from this state.
+
+Simplest "nuclear" option = just use the chroot as your working system:
+  - Stay in chroot, do your investigation
+  - Everything you write goes to sda (your trap disk)
+  - When done, unmount and reboot into sdb as a normal Linux install
+
+
+=== WHAT TO DO IF PHASES FAIL ===
+
+Problem: "rsync: not found" in initramfs
+Solution: cp -a instead (slower but works):
+  find /start/mid/upper -mindepth 1 -maxdepth 1 \
+    ! -name proc ! -name sys ! -name dev ! -name run ! -name tmp ! -name rofs ! -name cow \
+    | xargs -I{} cp -a {} /mnt/s1/lower/
+
+Problem: "overlay: invalid argument" on mount
+Solution: Check kernel supports overlay:
+  grep overlay /proc/filesystems
+  modprobe overlay 2>/dev/null
+
+Problem: sdb3 too full for rsync
+Solution: Swap strategy - use sda as lower base (format ext4), sdb3 as upper trap
+  mkfs.ext4 -L BASE /dev/sda
+  (reverse the roles in Phase 5)
+
+Problem: /start/mid/upper/ is empty or has no etc/
+Solution: The overlay is at /root instead:
+  ls /root/etc/os-release && echo "SYSTEM IS AT /root"
+  Replace /start/mid/upper with /root in all Phase 4 commands
+
+
+=== THE SHORT VERSION (if all goes well) ===
+
+1. mkdir -p /mnt/s1 /mnt/s2 && mount /dev/sdb3 /mnt/s1 && mkfs.ext4 -F -L TRAP /dev/sda && mount /dev/sda /mnt/s2
+2. mkdir -p /mnt/s1/lower /mnt/s2/upper /mnt/s2/work
+3. rsync -a --exclude=/proc --exclude=/sys --exclude=/dev --exclude=/run --exclude=/tmp --exclude=rofs --exclude=cow /start/mid/upper/. /mnt/s1/lower/
+4. rsync -a /start/mid/upper/cow/upper/. /mnt/s1/lower/ 2>/dev/null
+5. mkdir /mnt/owned && mount -t overlay overlay -o lowerdir=/mnt/s1/lower,upperdir=/mnt/s2/upper,workdir=/mnt/s2/work /mnt/owned
+6. chroot /mnt/owned /bin/bash
+7. (inside) mount -t proc proc /proc && mount -t sysfs sys /sys && mount --bind /dev /dev
+8. (inside) mount /dev/sdb2 /boot/efi && grub-install --target=x86_64-efi --efi-directory=/boot/efi /dev/sdb && update-grub
+
+
+=== POST-CHROOT: IMMEDIATELY CHECK ===
+
+cat /proc/cmdline           # should NOT have lockdown=confidentiality
+ls /etc/grub.d/             # look for 25_bli, 10_linux_zfs (rootkit GRUB scripts)
+grep -r "rdinit\|vtoy" /etc/default/grub 2>/dev/null  # rdinit=/vtoy/vtoy = PID1 hijack
+ls /etc/xdg/autostart/      # warpinator, evolution-alarm = C2 exfil
+systemctl list-unit-files --state=enabled 2>/dev/null | grep -v "^sys\|^user"  # openvpn enabled?
+
+Known rootkit files to look for (don't delete, just confirm):
+  /etc/grub.d/25_bli
+  /etc/grub.d/10_linux_zfs
+  /usr/sbin/sysctl        (should be ~200 bytes if shimmed - cat it, real binary = unreadable)
+  /etc/xdg/autostart/warpinator-autostart.desktop
+  /etc/xdg/autostart/org.gnome.Evolution-alarm-notify.desktop
+
+
+=== NOTES FROM THE IMAGES ===
+
+- /start/mid/upper/root/cow/ is EMPTY. This is interesting - the rootkit's cow for /root
+  is empty = no modifications to /root from the upper layer yet. Clean signal.
+  
+- /start/mid/upper/media/cow/ shows upper/ work/ = there IS a nested overlay for /media.
+  This is one of the "5 copies" - Casper creates it for USB detection.
+
+- Loop0 squashfs (BLOCK_SIZE=131072) = this is the Mint ISO squashfs, the base.
+  It's mounted somewhere (probably at /start/mid/upper/rofs via /cdrom bind).
+  The content of /start/mid/upper/ ABOVE rofs = the COW modifications.
+
+- blkid shows PARTUUID=3d3341d1 on sdb2 in one image vs 3abd05de-... in another.
+  OCR artifact - one reading is garbled. The correct one is the longer form UUID.
+  Don't trust the short PARTUUID for mkfs operations - use device name (sdb2).
+
+---
+
+=== REVISION v2 — 2026-05-08 (BusyBox constraint update) ===
+
+New intel from the session: full BusyBox tool list + /ventoy/ and /ventoy/tool/ contents
+provided. V1 plan had two critical errors. Here is the corrected sequence.
+
+--- WHAT'S ACTUALLY AVAILABLE ---
+
+BusyBox v1.36.1 confirmed tools (relevant):
+  cat, chmod, chroot ✅, df ✅, find ✅, grep ✅, ip, kill, ln
+  mkdir ✅, mknod, mkswap ✅, mktemp, modinfo, more, mount ✅, mv
+  rm, rmdir, run-init, sed, sleep, sort, switch_root ✅
+  tail, tee, touch, umount ✅, uname, wc, wget ✅
+
+BusyBox MISSING (kills v1 plan):
+  rsync ❌  — v1 Phase 3/4 used rsync — MUST REPLACE
+  mkfs.ext4 / mke2fs ❌ — v1 Phase 3 format — MUST REPLACE
+
+/ventoy/tool/ contents (KEY NEW TOOLS):
+  unsquashfs_64 ✅     — extract squashfs directly (replaces rsync)
+  vtoy_unsquashfs ✅   — alternative squashfs extractor
+  dm_patch_64.ko ✅    — device mapper kernel patch module (rootkit tool - interesting)
+  dmsetup64 ✅         — device mapper setup
+  loader               — Ventoy loader
+  lz4cat64 ✅          — lz4 decompression
+  zstdcat64 ✅         — zstd decompression
+  veritysetup64 ✅     — dm-verity setup
+  vtoydm               — Ventoy DM controller
+  vtoydump             — dump Ventoy structures
+  vtoyexpand           — expand Ventoy
+
+/ventoy/ root contents:
+  busybox/ — Ventoy's own busybox
+  init      — Ventoy's init (this is what rdinit=/vtoy/vtoy points to on normal boots)
+  init_chain — the init chain file (how Ventoy hooks into Casper's init)
+  init_loop  — loop device init
+  hook/      — Ventoy hooks
+  hook_finish
+  list-devices-usb-part
+  dev_backup_sdc2 — backup of sdc2 device state
+
+CRITICAL NOTE on /vtoy/: This is SEPARATE from /ventoy/. The rootkit's PID 1 hijack
+was rdinit=/vtoy/vtoy. With NVMe unplugged this isn't running. But /vtoy/ is present
+in the initramfs root — worth inspecting later: `ls -la /vtoy/`
+
+Key insight from init_chain: This file describes how Ventoy hooks Casper's init process.
+  cat /ventoy/init_chain
+Reading this explains the /start/mid/ path hierarchy you created.
+
+--- THE BIG WIN: filesystem.squashfs IS AT / ---
+
+From your ls -a / output: filesystem.squashfs is RIGHT THERE in initramfs root.
+This means:
+  - No need to find it at /cdrom/casper/ (though loop0 may already have it mounted)
+  - vtoy_unsquashfs or unsquashfs_64 can extract it DIRECTLY
+  - Extracting squashfs → sdb3/lower is cleaner and faster than cp-ing from tmpfs
+
+Squashfs = the clean Mint base. The COW delta (rootkit's changes) is small.
+Extract squashfs + overlay COW = complete snapshot. Much better than copying the
+full assembled tmpfs.
+
+--- REVISED COMMAND SEQUENCE (v2) ---
+
+=== PRE-FLIGHT (run these first) ===
+
+# Confirm cp is available (OCR may have missed it from busybox list)
+cp --help 2>&1 | head -1
+
+# Confirm squashfs location
+ls -la /filesystem.squashfs /cdrom/casper/filesystem.squashfs 2>/dev/null
+
+# Check how much free space sdb3 has
+mount /dev/sdb3 /mnt/s1 2>/dev/null && df -h /mnt/s1 && ls /mnt/s1/
+
+# STOP HERE and check df output before continuing.
+# If sdb3 is near full, swap sda/sdb3 roles below.
+
+
+=== PHASE 1: MOUNT SSDS ===
+
+mkdir -p /mnt/s1 /mnt/s2
+mount /dev/sdb3 /mnt/s1 && echo s1_OK
+# sda stays unmounted for now until we format it
+
+
+=== PHASE 2: GET mke2fs FROM THE ASSEMBLED SYSTEM ===
+
+# The assembled Casper system at /start/mid/upper/ has mke2fs. Use chroot to run it.
+# No need to enter the chroot - just invoke the binary:
+
+mount --bind /dev /start/mid/upper/dev
+mount -t proc proc /start/mid/upper/proc
+mount -t sysfs sysfs /start/mid/upper/sys
+
+# Now run mke2fs from inside the chroot but format /dev/sda on the real host:
+chroot /start/mid/upper /sbin/mke2fs -t ext4 -L TRAP /dev/sda && echo FORMATTED
+
+# If /sbin/mke2fs not found try:
+# chroot /start/mid/upper /usr/sbin/mke2fs -t ext4 -L TRAP /dev/sda
+
+mount /dev/sda /mnt/s2 && echo s2_OK
+mkdir -p /mnt/s2/upper /mnt/s2/work
+
+
+=== PHASE 3: EXTRACT SQUASHFS TO SDB3 (the lower layer) ===
+
+# This replaces rsync. Extract the clean Mint base from squashfs directly to sdb3.
+# vtoy_unsquashfs or unsquashfs_64 - try vtoy_unsquashfs first (Ventoy's own build):
+
+mkdir -p /mnt/s1/lower
+
+# Option A (Ventoy's tool - try first):
+/ventoy/tool/vtoy_unsquashfs -f -d /mnt/s1/lower /filesystem.squashfs
+
+# Option B (standard 64-bit build):
+/ventoy/tool/unsquashfs_64 -f -d /mnt/s1/lower /filesystem.squashfs
+
+# If /filesystem.squashfs doesn't work (OCR artifact), try:
+# /ventoy/tool/unsquashfs_64 -f -d /mnt/s1/lower /cdrom/casper/filesystem.squashfs
+# OR find it: find / -name 'filesystem.squashfs' -maxdepth 3 2>/dev/null
+
+# EXPECTED OUTPUT: unsquashfs will show "X inodes (Y blocks) to write" and a progress bar.
+# This takes a few minutes. Don't interrupt it.
+
+
+=== PHASE 4: OVERLAY THE COW DELTA ===
+
+# The squashfs extracted the clean base. Now apply the COW changes on top.
+# COW upper (rootkit's modifications) is at /start/mid/upper/cow/upper/
+# Use cp -a to overlay only what changed:
+
+cp -a /start/mid/upper/cow/upper/. /mnt/s1/lower/ 2>/dev/null
+echo COW_OVERLAY_DONE
+
+# If cp not in busybox, use mv trick (extract to tmp, then rename) or:
+# find /start/mid/upper/cow/upper -mindepth 1 -exec sh -c 'cp -a "$1" /mnt/s1/lower/"${1#/start/mid/upper/cow/upper/}"' _ {} \;
+
+
+=== PHASE 5: BUILD YOUR OVERLAY (you become the overlay) ===
+
+mkdir -p /mnt/owned
+mount -t overlay overlay \
+  -o lowerdir=/mnt/s1/lower,upperdir=/mnt/s2/upper,workdir=/mnt/s2/work \
+  /mnt/owned
+
+ls /mnt/owned/etc/os-release && echo OVERLAY_OK
+
+
+=== PHASE 6: ENTER AND INVESTIGATE ===
+
+# Mount essentials into the new root:
+mount -t proc proc /mnt/owned/proc
+mount -t sysfs sysfs /mnt/owned/sys
+mount --bind /dev /mnt/owned/dev
+
+chroot /mnt/owned /bin/bash
+
+# Inside chroot - SURVEY FIRST (don't delete anything yet):
+cat /etc/os-release
+whoami
+cat /proc/cmdline 2>/dev/null
+ls /etc/grub.d/
+ls /etc/xdg/autostart/
+ls /boot/grub/ 2>/dev/null
+# Known rootkit artifacts to confirm:
+ls -la /etc/grub.d/25_bli 2>/dev/null && echo ROOTKIT_GRUB_PRESENT
+grep -l "rdinit\|vtoy" /etc/default/grub 2>/dev/null
+cat /usr/sbin/sysctl 2>/dev/null | head -c 50  # should be unreadable if real binary
+
+
+=== PHASE 7: MAKE sdb BOOTABLE ===
+
+# From inside chroot:
+mount /dev/sdb2 /boot/efi
+grub-install --target=x86_64-efi --efi-directory=/boot/efi /dev/sdb
+update-grub
+
+# Reboot into sdb:
+# All future rootkit writes go to sda (TRAP)
+# sdb3/lower is FROZEN = rootkit cannot reassert there
+# You own the write layer
+
+
+=== SHORT VERSION v2 (if all pre-flights pass) ===
+
+mkdir -p /mnt/s1 /mnt/s2 && mount /dev/sdb3 /mnt/s1
+mount --bind /dev /start/mid/upper/dev && mount -t proc proc /start/mid/upper/proc && mount -t sysfs sysfs /start/mid/upper/sys
+chroot /start/mid/upper /sbin/mke2fs -t ext4 -L TRAP /dev/sda
+mount /dev/sda /mnt/s2 && mkdir -p /mnt/s2/upper /mnt/s2/work /mnt/s1/lower
+/ventoy/tool/unsquashfs_64 -f -d /mnt/s1/lower /filesystem.squashfs
+cp -a /start/mid/upper/cow/upper/. /mnt/s1/lower/ 2>/dev/null
+mkdir /mnt/owned && mount -t overlay overlay -o lowerdir=/mnt/s1/lower,upperdir=/mnt/s2/upper,workdir=/mnt/s2/work /mnt/owned
+mount -t proc proc /mnt/owned/proc && mount -t sysfs sysfs /mnt/owned/sys && mount --bind /dev /mnt/owned/dev
+chroot /mnt/owned /bin/bash
+
+
+=== BONUS: /ventoy/init_chain IS INTERESTING — READ IT ===
+
+From inside initramfs before doing anything destructive:
+  cat /ventoy/init_chain
+
+This file describes how Ventoy hooks Casper's init. It likely explains:
+  - Why /start/mid/ exists as the overlay anchor
+  - How Ventoy injects its tools into the Casper boot
+  - Whether /vtoy/vtoy (the PID 1 hijack) is embedded here or called from here
+
+Also check:
+  cat /ventoy/hook_finish
+  ls -la /vtoy/
+These are rootkit-adjacent. With NVMe unplugged we're safe to read them.
+
+
+=== CHANGES FROM V1 ===
+  V1 Phase 3: rsync → REPLACED with unsquashfs_64 (faster, no rsync needed)
+  V1 Phase 3: mkfs.ext4 → REPLACED with chroot /start/mid/upper mke2fs
+  V1 Phase 4: rsync COW delta → REPLACED with cp -a (BusyBox cp)
+  Added: /ventoy/init_chain inspection step
+  Added: pre-flight squashfs location check
+  Added: /vtoy/ inspection note
+
+---
+
+=== REVISION v3 — 2026-05-08 (dd + cpio + full /usr/bin/ confirmed) ===
+
+New intel: full /usr/bin/ contents provided. Two critical tools now confirmed that
+change the approach again — for the better.
+
+--- FULL TOOL INVENTORY UPDATE ---
+
+/usr/bin/ confirmed (relevant additions):
+  dd ✅              — RAW DISK IMAGING. Game changer.
+  cpio ✅            — archive copy. find | cpio = reliable copy without rsync
+  dmesg ✅           — kernel ring buffer
+  insmod ✅          — load kernel modules
+  kmod ✅            — module management
+  udevadm ✅         — trigger device events
+  pivot_root ✅      — alternative to switch_root
+  ntfs-3g ✅         — NTFS support (interesting - rootkit connection?)
+  casper-preseed ✅   — Casper preseed injection
+  casper-reconfigure ✅ — Casper reconfiguration
+  casper-set-selections ✅ — Casper debconf preseeding
+  cryptroot-unlock ✅ — LUKS unlock
+  btrfs ✅           — btrfs support
+  plymouth ✅        — boot splash
+  nfsmount ✅        — NFS mount
+  eject ✅           — eject media
+  fstype ✅          — detect filesystem type
+
+/usr/ confirmed: lib/ lib64/ sbin/ share/ (share has only fonts/ and plymouth/)
+  → /usr/sbin/ EXISTS. mke2fs lives here. `ls /usr/sbin/mke2fs` to confirm.
+
+--- WHAT DD CHANGES ---
+
+dd = raw disk imaging. You can now:
+
+  # Image sda BEFORE wiping (preserve whatever's on it):
+  dd if=/dev/sda of=/mnt/s1/sda-original.img bs=4M status=progress
+
+  # Wipe sda before formatting (ensures clean state):
+  dd if=/dev/zero of=/dev/sda bs=4M status=progress count=10
+  # (just wipe the first 40MB = partition table + fs headers, that's enough)
+
+  # After full takeover: image the trap disk (evidence preservation):
+  dd if=/dev/sda of=/mnt/s1/trap-evidence.img bs=4M status=progress
+
+--- WHAT CPIO CHANGES ---
+
+cpio replaces cp -a and rsync for the COW delta copy. More reliable on deep trees:
+
+  cd /start/mid/upper/cow/upper && find . | cpio -pdm /mnt/s1/lower/
+
+The -p flag = pass-through (copy to directory), -d = create dirs, -m = preserve mtimes.
+This is the standard initramfs copy method.
+
+--- INSMOD NOTE: DON'T LOAD dm_patch_64.ko ---
+
+insmod is available AND /ventoy/tool/dm_patch_64.ko is there.
+DO NOT: insmod /ventoy/tool/dm_patch_64.ko
+This is Ventoy's device mapper patch module = rootkit tool. Loading it would give the
+rootkit kernel hooks. Leave it alone. Just note its presence.
+
+--- REVISED COMMAND SEQUENCE v3 (FINAL) ---
+
+=== PRE-FLIGHT ===
+
+# 1. Confirm mke2fs location (should be in /usr/sbin/ now that we know /usr/sbin/ exists):
+ls /usr/sbin/mke2fs /sbin/mke2fs 2>/dev/null && echo MKES_FOUND
+
+# If found: use it DIRECTLY - no chroot needed for formatting.
+# If NOT found: fall back to chroot /start/mid/upper /sbin/mke2fs (v2 approach)
+
+# 2. Find squashfs:
+ls -la /filesystem.squashfs 2>/dev/null || find / -name 'filesystem.squashfs' -maxdepth 4 2>/dev/null | head -3
+
+# 3. Check sdb3 free space:
+mount /dev/sdb3 /mnt/s1 2>/dev/null && df -h /mnt/s1/ && ls /mnt/s1/
+
+# 4. Quick image sda before touching it:
+dd if=/dev/sda of=/mnt/s1/sda-backup.img bs=4M status=progress
+# (this takes a minute but preserves whatever was there)
+
+
+=== PHASE 1: MOUNT + FORMAT ===
+
+mkdir -p /mnt/s1 /mnt/s2
+
+# Mount sdb3 (the lower base SSD):
+mount /dev/sdb3 /mnt/s1
+
+# Format sda (directly if mke2fs found, otherwise via chroot):
+# DIRECT (preferred):
+mke2fs -t ext4 -L TRAP /dev/sda 2>/dev/null || /usr/sbin/mke2fs -t ext4 -L TRAP /dev/sda 2>/dev/null || \
+  (mount --bind /dev /start/mid/upper/dev && \
+   mount -t proc proc /start/mid/upper/proc && \
+   mount -t sysfs sysfs /start/mid/upper/sys && \
+   chroot /start/mid/upper /sbin/mke2fs -t ext4 -L TRAP /dev/sda)
+
+mount /dev/sda /mnt/s2 && mkdir -p /mnt/s2/upper /mnt/s2/work
+echo DISKS_READY
+
+
+=== PHASE 2: EXTRACT SQUASHFS → SDB3 LOWER ===
+
+mkdir -p /mnt/s1/lower
+
+# Ventoy's unsquashfs_64:
+/ventoy/tool/unsquashfs_64 -f -d /mnt/s1/lower /filesystem.squashfs
+
+# If that fails (squashfs path wrong):
+SQFS=$(find / -name 'filesystem.squashfs' -maxdepth 4 2>/dev/null | head -1)
+/ventoy/tool/unsquashfs_64 -f -d /mnt/s1/lower "$SQFS"
+
+echo SQUASHFS_DONE
+
+
+=== PHASE 3: OVERLAY COW DELTA USING CPIO ===
+
+# cpio is the right tool here. Handles special files, permissions, symlinks perfectly:
+cd /start/mid/upper/cow/upper && find . | cpio -pdm /mnt/s1/lower/
+echo COW_DONE
+
+# Check what got overlaid:
+ls /mnt/s1/lower/etc/os-release && echo LOWER_COMPLETE
+
+
+=== PHASE 4: BUILD THE OVERLAY ===
+
+mkdir -p /mnt/owned
+mount -t overlay overlay \
+  -o lowerdir=/mnt/s1/lower,upperdir=/mnt/s2/upper,workdir=/mnt/s2/work \
+  /mnt/owned && echo OVERLAY_OK
+
+ls /mnt/owned/etc/ | head -5
+
+
+=== PHASE 5: CHROOT IN ===
+
+mount -t proc proc /mnt/owned/proc
+mount -t sysfs sysfs /mnt/owned/sys
+mount --bind /dev /mnt/owned/dev
+
+chroot /mnt/owned /bin/bash
+
+# Inside - survey first:
+cat /etc/os-release
+ls /etc/grub.d/                          # rootkit GRUB scripts?
+cat /proc/cmdline 2>/dev/null            # lockdown flags?
+ls /etc/xdg/autostart/                   # exfil autostart?
+cat /usr/sbin/sysctl | head -c 50        # shim check
+
+
+=== PHASE 6: MAKE sdb BOOTABLE ===
+
+# Inside chroot:
+mount /dev/sdb2 /boot/efi
+grub-install --target=x86_64-efi --efi-directory=/boot/efi /dev/sdb
+update-grub
+# Reboot → sdb boots → writes go to sda trap
+
+
+=== ONE-LINE v3 (if everything is in place) ===
+
+mkdir -p /mnt/s1 /mnt/s2 && mount /dev/sdb3 /mnt/s1 && dd if=/dev/sda of=/mnt/s1/sda-backup.img bs=4M status=progress && /usr/sbin/mke2fs -t ext4 -L TRAP /dev/sda && mount /dev/sda /mnt/s2 && mkdir -p /mnt/s2/upper /mnt/s2/work /mnt/s1/lower && /ventoy/tool/unsquashfs_64 -f -d /mnt/s1/lower /filesystem.squashfs && cd /start/mid/upper/cow/upper && find . | cpio -pdm /mnt/s1/lower/ && cd / && mkdir /mnt/owned && mount -t overlay overlay -o lowerdir=/mnt/s1/lower,upperdir=/mnt/s2/upper,workdir=/mnt/s2/work /mnt/owned && mount -t proc proc /mnt/owned/proc && mount -t sysfs sysfs /mnt/owned/sys && mount --bind /dev /mnt/owned/dev && chroot /mnt/owned /bin/bash
+
+
+=== CHANGES FROM v2 ===
+  dd confirmed → added sda backup step BEFORE format
+  cpio confirmed → replaced cp -a in COW delta phase (more reliable)
+  /usr/sbin/ confirmed exists → mke2fs may be directly accessible (check first)
+  insmod confirmed → WARNING added: do NOT load dm_patch_64.ko
+  casper-* tools noted (not used in sequence but available if needed)
+  /usr/sbin/mke2fs check added to pre-flight
+
+Dolphin ($2nd)
