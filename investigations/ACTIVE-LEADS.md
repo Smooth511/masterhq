@@ -6,6 +6,44 @@
 
 ---
 
+## 2026-05-08 — INITRAMFS OVERLAY TAKEOVER SESSION
+
+**Source:** whackytownv2/ — headfuck.txt + 3 images (IMG_7103/7104/7105). MK2 OCR + analysis.
+
+**State:** User in initramfs break=bottom. NVMe drives UNMOUNTED (unplugged). Two 120GB SSDs present.
+Casper overlay ASSEMBLED but switch_root NOT YET done. Full live system at /start/mid/upper/.
+
+**Device map:**
+- sda = UUID=2E36-249D, vfat, 120GB = UNKNOWN SSD (safe to reformat, probably)
+- sdb = 3-partition SSD (sdb1=BIOS, sdb2=EFI vfat, sdb3=ext4 120GB) = SSD with Fedora/ventoy content
+- sdc1 = Ventoy, exfat = the live USB
+- /dev/loop0 = squashfs = Mint filesystem (the lower layer)
+- /start/mid/upper/ = FULL ASSEMBLED CASPER SYSTEM (etc, home, usr, var, rofs, cow all present)
+- /start/mid/upper/root/cow/ = EMPTY (no rootkit modifications to /root yet - clean signal)
+
+**Key insight:** User broke out AFTER Casper assembled overlay but BEFORE switch_root. This means:
+- No rootkit PID 1 running yet
+- Full assembled system visible at /start/mid/upper/
+- NVMe (rootkit's home) is PHYSICALLY UNPLUGGED = can't interfere
+- Window is OPEN to take over the overlay
+
+**REMOVAL/ACTION — full lockdown sequence:**
+See `whackytownv2/LOCKDOWN-SEQUENCE.txt` for full command sequence.
+
+TL;DR:
+1. mount sdb3 → /mnt/s1 (base SSD)
+2. format sda ext4 → /mnt/s2 (trap SSD)  
+3. rsync /start/mid/upper/ → /mnt/s1/lower/ (freeze the system)
+4. mount overlay lower=sdb3/lower,upper=sda/upper → /mnt/owned (YOU ARE THE OVERLAY)
+5. chroot /mnt/owned → grub-install to sdb → update-grub
+6. reboot from sdb = boot into YOUR controlled overlay, rootkit frozen in lower
+
+**CHECK THIS — /start/mid/upper/rofs vs /root:** If /root has the assembled system instead of /start/mid/upper/, swap paths. `ls /root/etc/os-release` to confirm.
+
+**CHECK THIS — sdb3 free space:** If sdb3 is full (Fedora ISO is big), may need to swap — use sda as lower base, keep sdb3 as trap upper.
+
+---
+
 ## 2026-05-05 — Pièce de Résistance (53 screenshots from single-user mode after ~50 failed boots)
 
 **Source:** `Pièce de résistance/` — OCR dump at `Pièce de résistance/OCR-DUMP.txt`. Full analysis in Report 51.

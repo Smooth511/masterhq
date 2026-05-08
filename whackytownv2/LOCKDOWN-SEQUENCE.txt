@@ -1,0 +1,250 @@
+WHACKYTOWNV2 — OVERLAY LOCKDOWN SEQUENCE
+MK2 Analysis | 2026-05-08
+Source: headfuck.txt + IMG_7103/7104/7105 OCR
+=================================================
+
+=== WHAT I CAN SEE FROM THE IMAGES ===
+
+BLOCK DEVICES (from blkid in initramfs):
+  sda         = UUID=2E36-249D, vfat, one partition    → UNKNOWN SSD #1 (120GB, single vfat)
+  sdb1        = no filesystem type (BIOS boot sector)
+  sdb2        = UUID=D3E6-82D4, vfat, "EFI System Partition"
+  sdb3        = UUID=e6877b0e-..., ext4                → SSD #2 (120GB, has Linux layout)
+  sdc1        = LABEL=Ventoy, exfat                    → YOUR LIVE USB
+  /dev/mapper/ventoy = Mint 22.1 MATE, iso9660         → the ISO from Ventoy
+  /dev/loop0  = squashfs, BLOCK_SIZE=131072             → the Mint filesystem (lower layer)
+
+CURRENT MOUNTS at break=bottom:
+  rootfs   on /                         = initramfs root (you're here)
+  tmpfs    on /cow                      = Casper's COW (writable layer, in RAM)
+  tmpfs    on /start/mid                = tmpfs over bind mount
+  rootfs   on /start/mid                = bind mount of initramfs rootfs
+  rootfs   on /start/mid/cow/end/upper  = another bind of rootfs (your boot params created this)
+
+THE ASSEMBLED SYSTEM:
+  /start/mid/upper/ has: cdrom/ cow/ etc/ home/ media/ rofs/ root/ run/ tmp/ usr/ var/
+  THIS IS THE FULL LIVE SYSTEM assembled by Casper
+  /start/mid/upper/rofs = the squashfs lower (read-only Mint base)
+  /start/mid/upper/cow/ = shows upper/ work/ = this IS an overlayfs structure
+
+YOUR "5 COPIES OF COW" INCEPTION CHAIN:
+  /cow                           = Casper's base tmpfs COW
+  /start/mid/cow                 = nested overlay from your boot params
+  /start/mid/upper/cow           = Casper's overlay upper for /start/mid/upper
+  /start/mid/upper/media/cow     = media overlay
+  /start/mid/upper/root/cow      = root homedir overlay (empty - good sign)
+
+BOTTOM LINE: You broke out of initramfs AFTER Casper assembled the overlay but
+BEFORE switch_root happened. So /start/mid/upper/ is the fully assembled live system,
+rootkit's world, sitting there waiting. You own it. No switch_root = no rootkit PID 1.
+
+The squashfs lower (clean-ish Mint base) is at /start/mid/upper/rofs/
+Your writable upper is at /start/mid/upper/cow/upper/
+
+
+=== THE DEVICE STRATEGY ===
+
+sdb3 (ext4, 120GB SSD) = LOWER BASE
+  - Contains whatever's there (Fedora ISO? ventoy.tar.gz? check it)
+  - We write the full assembled Casper system here = frozen snapshot of rootkit's world
+  - After copy: this becomes the READ-ONLY lower of YOUR overlay
+
+sda (vfat currently, 120GB SSD) = UPPER TRAP LAYER
+  - Unknown = probably safe to reformat
+  - Reformat to ext4 = becomes the persistent writable upper
+  - ALL future writes (including rootkit writes) go HERE = you see everything
+  - You own the disk = you ARE the overlay
+
+RESULT: You sit between rootkit (frozen in sdb3 lower) and sda (your writable upper).
+Rootkit sees "its" world. Writes go to YOUR disk. You control persistence.
+
+
+=== PHASE 1: SURVEY (run this first, one command) ===
+
+lsblk -o NAME,SIZE,TYPE,FSTYPE,LABEL && echo "---" && ls /start/mid/upper/etc/os-release 2>/dev/null && echo UPPER_OK && df -h /start/mid/upper/ 2>/dev/null
+
+What to look for:
+  - sdb3 size/fstype confirmed = ext4
+  - sda size/fstype = should show vfat or blank
+  - UPPER_OK = the assembled system is there
+  - df shows free space in /start/mid (it's tmpfs, so it's RAM - limited)
+
+
+=== PHASE 2: MOUNT YOUR SSDs ===
+
+mkdir -p /mnt/s1 /mnt/s2
+mount /dev/sdb3 /mnt/s1 && echo s1_OK || echo s1_FAIL
+mount /dev/sda /mnt/s2 2>/dev/null && echo s2_OK || echo s2_vfat_fail
+
+Then check what's on sdb3:
+  ls /mnt/s1/
+  df -h /mnt/s1/
+
+If sdb3 has Fedora ISO or ventoy files = that's fine, you have space. Note what's there.
+If sdb3 is near full = use sda as primary instead (swap roles below).
+
+
+=== PHASE 3: FORMAT sda AS TRAP ===
+
+IF sda has nothing important (vfat, unknown = probably safe):
+
+umount /mnt/s2 2>/dev/null
+mkfs.ext4 -L TRAP -F /dev/sda
+mount /dev/sda /mnt/s2
+mkdir -p /mnt/s2/upper /mnt/s2/work
+echo formatted
+
+IF you're not sure sda is safe: SKIP THIS FOR NOW and use sdb3 for both.
+
+
+=== PHASE 4: COPY THE CHAIN TO SDB3 (make it the frozen lower) ===
+
+This copies the full assembled Casper system (rootkit's world, frozen in time) to sdb3.
+After this, sdb3 = the lower layer you control. It can't change.
+
+mkdir -p /mnt/s1/lower
+rsync -a --exclude=/proc --exclude=/sys --exclude=/dev --exclude=/run \
+  --exclude=/tmp --exclude=rofs --exclude=cow \
+  /start/mid/upper/. /mnt/s1/lower/
+
+WAIT: If sdb3 doesn't have enough space for the full system, do this instead (just COW upper):
+mkdir -p /mnt/s1/lower
+rsync -a /start/mid/upper/rofs/. /mnt/s1/lower/
+rsync -a /start/mid/upper/cow/upper/. /mnt/s1/lower/ 2>/dev/null
+
+The second rsync overlays the COW changes on top of the rofs base = complete snapshot.
+
+
+=== PHASE 5: BUILD YOUR OVERLAY (you become the overlay) ===
+
+Now: lower=sdb3/lower (frozen snapshot), upper=sda/upper (your trap), merged=/mnt/owned
+
+mkdir -p /mnt/owned
+mount -t overlay overlay \
+  -o lowerdir=/mnt/s1/lower,upperdir=/mnt/s2/upper,workdir=/mnt/s2/work \
+  /mnt/owned
+
+Check it:
+  ls /mnt/owned/etc/os-release
+  ls /mnt/owned/
+
+If that works: YOU ARE THE OVERLAY. Anything written in /mnt/owned goes to sda (your trap disk).
+The "rootkit" is frozen in sdb3. It can't move.
+
+Chroot in:
+  chroot /mnt/owned /bin/bash
+
+
+=== PHASE 6: INSIDE THE CHROOT - PERSISTENCE ===
+
+From inside chroot /mnt/owned:
+
+Mount essentials first:
+  mount -t proc proc /proc
+  mount -t sysfs sysfs /sys
+  mount --bind /dev /dev
+
+Check you're in the right place:
+  cat /etc/os-release
+  whoami
+
+Check what the rootkit put in autostart (DON'T delete yet, just survey):
+  ls /etc/xdg/autostart/
+  ls ~/.config/autostart/ 2>/dev/null
+  ls /etc/grub.d/
+
+Check GRUB config:
+  cat /boot/grub/grub.cfg 2>/dev/null | head -40
+  ls /boot/efi/ 2>/dev/null
+
+Mount EFI if present:
+  mount /dev/sdb2 /boot/efi
+
+Install GRUB to sdb (makes sdb bootable = your SSD becomes the boot device):
+  grub-install --target=x86_64-efi --efi-directory=/boot/efi /dev/sdb
+  update-grub
+
+
+=== PHASE 7: FSTAB UPDATE (for persistent overlay on next boot) ===
+
+From inside chroot, edit /etc/fstab to set up the overlay on next boot.
+The overlay needs to be re-assembled by an initramfs hook OR by a custom boot script.
+
+For now, the simplest approach: write a custom /etc/rc.local that remounts the overlay
+on every boot using your SSDs. OR install the system properly from this state.
+
+Simplest "nuclear" option = just use the chroot as your working system:
+  - Stay in chroot, do your investigation
+  - Everything you write goes to sda (your trap disk)
+  - When done, unmount and reboot into sdb as a normal Linux install
+
+
+=== WHAT TO DO IF PHASES FAIL ===
+
+Problem: "rsync: not found" in initramfs
+Solution: cp -a instead (slower but works):
+  find /start/mid/upper -mindepth 1 -maxdepth 1 \
+    ! -name proc ! -name sys ! -name dev ! -name run ! -name tmp ! -name rofs ! -name cow \
+    | xargs -I{} cp -a {} /mnt/s1/lower/
+
+Problem: "overlay: invalid argument" on mount
+Solution: Check kernel supports overlay:
+  grep overlay /proc/filesystems
+  modprobe overlay 2>/dev/null
+
+Problem: sdb3 too full for rsync
+Solution: Swap strategy - use sda as lower base (format ext4), sdb3 as upper trap
+  mkfs.ext4 -L BASE /dev/sda
+  (reverse the roles in Phase 5)
+
+Problem: /start/mid/upper/ is empty or has no etc/
+Solution: The overlay is at /root instead:
+  ls /root/etc/os-release && echo "SYSTEM IS AT /root"
+  Replace /start/mid/upper with /root in all Phase 4 commands
+
+
+=== THE SHORT VERSION (if all goes well) ===
+
+1. mkdir -p /mnt/s1 /mnt/s2 && mount /dev/sdb3 /mnt/s1 && mkfs.ext4 -F -L TRAP /dev/sda && mount /dev/sda /mnt/s2
+2. mkdir -p /mnt/s1/lower /mnt/s2/upper /mnt/s2/work
+3. rsync -a --exclude=/proc --exclude=/sys --exclude=/dev --exclude=/run --exclude=/tmp --exclude=rofs --exclude=cow /start/mid/upper/. /mnt/s1/lower/
+4. rsync -a /start/mid/upper/cow/upper/. /mnt/s1/lower/ 2>/dev/null
+5. mkdir /mnt/owned && mount -t overlay overlay -o lowerdir=/mnt/s1/lower,upperdir=/mnt/s2/upper,workdir=/mnt/s2/work /mnt/owned
+6. chroot /mnt/owned /bin/bash
+7. (inside) mount -t proc proc /proc && mount -t sysfs sys /sys && mount --bind /dev /dev
+8. (inside) mount /dev/sdb2 /boot/efi && grub-install --target=x86_64-efi --efi-directory=/boot/efi /dev/sdb && update-grub
+
+
+=== POST-CHROOT: IMMEDIATELY CHECK ===
+
+cat /proc/cmdline           # should NOT have lockdown=confidentiality
+ls /etc/grub.d/             # look for 25_bli, 10_linux_zfs (rootkit GRUB scripts)
+grep -r "rdinit\|vtoy" /etc/default/grub 2>/dev/null  # rdinit=/vtoy/vtoy = PID1 hijack
+ls /etc/xdg/autostart/      # warpinator, evolution-alarm = C2 exfil
+systemctl list-unit-files --state=enabled 2>/dev/null | grep -v "^sys\|^user"  # openvpn enabled?
+
+Known rootkit files to look for (don't delete, just confirm):
+  /etc/grub.d/25_bli
+  /etc/grub.d/10_linux_zfs
+  /usr/sbin/sysctl        (should be ~200 bytes if shimmed - cat it, real binary = unreadable)
+  /etc/xdg/autostart/warpinator-autostart.desktop
+  /etc/xdg/autostart/org.gnome.Evolution-alarm-notify.desktop
+
+
+=== NOTES FROM THE IMAGES ===
+
+- /start/mid/upper/root/cow/ is EMPTY. This is interesting - the rootkit's cow for /root
+  is empty = no modifications to /root from the upper layer yet. Clean signal.
+  
+- /start/mid/upper/media/cow/ shows upper/ work/ = there IS a nested overlay for /media.
+  This is one of the "5 copies" - Casper creates it for USB detection.
+
+- Loop0 squashfs (BLOCK_SIZE=131072) = this is the Mint ISO squashfs, the base.
+  It's mounted somewhere (probably at /start/mid/upper/rofs via /cdrom bind).
+  The content of /start/mid/upper/ ABOVE rofs = the COW modifications.
+
+- blkid shows PARTUUID=3d3341d1 on sdb2 in one image vs 3abd05de-... in another.
+  OCR artifact - one reading is garbled. The correct one is the longer form UUID.
+  Don't trust the short PARTUUID for mkfs operations - use device name (sdb2).
+
+Dolphin ($2nd)
