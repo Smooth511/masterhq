@@ -1,0 +1,935 @@
+right this will be a  mess. mix between real time rootcausing in live usb with where they are, fedora screenshots, ventoy screenshots. whats important is ventoy f2 the 3 isos. first e, the common bootloader message. press enter, press e, same again, but selecting modes before bootloader, all the devices are there, apple, blanks, i aint left vtoy yet. ;)
+
+
+
+
+
+
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory
+
+Fallback to the single-user shell. Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Failed.tn.get D-Bus connection: No such file or directoru Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell. Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or director Failed to get D-Bus connection: No such file or directory Fallba to execute/ur/sbin/shin: No such file or director Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or director Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or director Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or director Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or director Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell. Failed to execute //
+
+usrsbin/sulogin: No such file or director Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell. Failed to execute
+
+/usr/sbin/sulogini No such file or director Failed to get D-Bus connection: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell. Failed to
+
+execute /usr/sbin/sulogin: No such file or director Failed to get D-Bus connections to such file or directory Fallback to the single-user shell. Failed to execute /
+
+usr/sbin/sulogini No such file or director Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell. Failed to execute /
+
+sulogini No such file or director Failed. In get D-But condection: No such file or directory Failed to execute /usr/sbin/sulogin: No such file or director Failed to get D-Bus connection: No such file or directory Faltbart in the single-arche!!
+
+usr/sbin/
+
+Fallback to the single-user shell.
+
+left = 30%+200 top = 95%-25 width = 10% height=25 + label {text =
+
+hbox {
+
+"@VTOY_WIMBOOT_MODE@" color = "red" align = "left"}
+
+left = 90%
+
+top = 55 width = 10% height = 25 + label {text
+
+= "@VTOY_ISO_UEFI_DRV@" color =
+
+"red" align="left"}
+
+{
+
+hbox { left = 30%+200 top = 95%-50 width = 10% height=25 + label {text =
+
+"@VTOY_GRUB2_MODE@" color = "red" align="left"}
+
+left = 30%+200 top = 95%-25 width = 10% height = 25 + label {text =
+
+hbox {
+
+"@VTOY_WIMBOOT_MODE@" color = "red" align
+
+= "left
+
+hbox { 10f+
+
+left = 30% top = 95% width = 10% height = 25 + label {text
+
+= "@VTOY_HOTKEY_TIP@" color="blue" align="left"}
+
+hbox { left = 30% top = 95%-25 width = 10% height=25 + label {text
+
+= "@VTOY_MEM_DISK@" color = "red" align = "left"}
+
+hbox { left = 30% top = 95%-50
+
+hbox {
+
+= "select
+
+*.png'
+
+item_icon_space = 0
+
+= true = 10 scrollbar_thumb = "slider_*.png"
+
+progress_bar { " id = 11 _timeout__' 11 text = "@
+
+TIMEOUT_NOTIFICATION_SHORT@"
+
+left = 20% width = 60% top = 85%
+
+text_color = "red" bar_style = " highlight_style =
+
+cat (hd0, msdos1)/ventoy/theme/theme.txt
+
+-image: "background.png" -text: 11 -color: "#ffffff" -color: "#f2f2f2"
+
+erminal-box: "terminal_box_*.png"
+
+boot_menu { left = 10% width = 80% top = 30% height = 50%
+
+= "menu_*.png"
+
+= "#ffffff" = 30
+
+item_spacing = 1 item_padding = 1
+
+>
+
+> is (hd0, Information
+
+Volume
+
+/linuxmint-22.1-xfce- linuxmint-22.1-mate-
+
+inuxmint-22.1-cinnamon-64bit.iso 64bit.iso ventoy/
+
+> is (proc)/
+
+> is (memdisk)/ : no server is specified. > is (hd0, msdos1)/ventoy/ files are:
+
+ventoy.json ventoy_grub.cfg theme/ > is (hd0,msdos1)/ventoy/theme/ ossible files are:
+
+background.bak.png background.png menu_c.png menu_e.png_menu_n.png menu_nw.png menu_s.png menu_se.png menu_sw.png menu_w.png select_c.png slider_n.png slider_s.png terminal_box_c.png terminal_box_eterminal_box_ne.png terminal_box_nw.png erminal_box_se.png terminal_box_sw.png terminal_box_w.png theme.txt > is (hd0,msdos1)/ventoy/theme/icons/ files are:
+
+menu_r . terminal_box_s ico
+
+deepin.png red-hat.png ubuntu.png vtoyiso.png > is (hd0,msdos1)/ventoy/theme/icons/
+
+: unknown filesystem.
+
+> ls (hd0, msdos2)/
+
+/ efi/ ENROLL_THIS_KEY_IN_MOKMANAGER.cer tool/ System Volume /
+
+/ ventoy
+
+> ls (hd0, msdos1)/
+
+Volume Information/ linuxmint-22.1-xfce-64bit.iso -22.1-cinnamon-64bit.iso linuxmint-22.1-mate-64bit.iso > ls (proc)/
+
+ventoy/
+
+> ls (memdisk)/ : no server is specified. > is (hd0, msdos1)/ventoy/ files are:
+
+ventoy.json ventoy_grub.cfg theme/ > ls (hd0, msdos1)/ventoy/theme/ files are:
+
+background.bak.png background.png menu_c.png menu_e.png menu_n.png menu_nw.png menu_s.png menu_se.png menu_sw.png menu_w.png slider_n.png slider_s.png terminal_box_c.png terminal_box_ne.png terminal_box_nw.png terminal_box_sw.png terminal_box_w.png theme.txt > ls (hd0.msdos1)/ventoy/theme/
+
+menu_n select_c.png terminal_box_e.pm terminal_box_s.p icons-
+
+, msdos2) (hd0)
+
+proc) (loop)  ,msdos1
+
+rub> ls (100p)/ oot/ casper/ dists/ EFI/ efi.img isolinux/ md5sum. README md5sum.txt po > is (loop, msdos2)/
+
+fi/ boot/
+
+> is (loop, apple2)/
+
+/ boot/
+
+> ls (loop, apple1)/
+
+: unknown filesystem. > ls (hd0)/
+
+: unknown filesystem.
+
+> is (hd0, msdos2)/
+
+/ ventoy/ efi/ ENROLL_THIS_KEY_IN_MOKMANAGER.cer tool/ System Volume /
+
+> is (hd0, msdos1)/
+
+Volume Information/ linuxmint-22.1-xfce-64bit.iso -22.1-cinnamon-64bit.iso linuxmint-22.1-mate-64bit.iso > ls (proc)/
+
+> ls (memdisk)/ : no server is specified.
+
+ventoy/
+
+lists possible command completions. Anywhere else TAB lists possible device or file completions. ESC at any time exits.
+
+> 1s proc) (loop) (loop, msdos2) (loop, apple2) (loop, apple1) (vt_menu_tarfs) 0 , msdos2) (hd0,msdos1)
+
+> ls (loop)/
+
+/ casper/ dists/ EFI/ efi.img isolinux/ md5sum. README md5sum.txt poo: > ls (loop, msdos2)/
+
+/ boot/
+
+> ls (loop, apple2)/
+
+/ boot/
+
+> ls (loop, apple1)/
+
+: unknown filesystem.
+
+> ls (hd0)/
+
+: unknown filesystem.
+
+> ls (hd0, msdos2)/
+
+/ ventoy/ efi/ ENROLL_THIS_KEY_IN_MOKMANAGER.cer tool/ System Volume /
+
+hd0,msdos1)/ Volume Information/ linuxmint-22.1-xfce-64bit.iso -22.1-cinnamon-64bit.iso linuxmint-22.1-mate-64bit.iso ventoy/ ruby
+
+> ls (
+
+GNU GRUB version 2.04
+
+Minimal BASH-like line editing is supported. For the first word, TAB lists possible command completions. Anywhere else TAB lists possible device or file completions. ESC at any time exits.
+
+grub> 1s (proc) (loop) (loop, msdos2) (loop, apple2) (loop, apple1) (vt_menu_tarfs) ((hd0,msdos2) (hd0,msdos1) grub> ls (loop
+
+)/ / casper/dists/ EFI/ efi.img isolinux/ md5sum. README md5sum.txt pool/ > -
+
+hd0)
+
+GNU GRUB version 2.04
+
+Minimal BASH-like line editing is supported. For the first word, TAB lists possible command completions. Anywhere else TAB lists possible device or file completions. ESC at any time exits.
+
+> 1s
+
+proc) (loop) (loop, msdos2) (loop, apple2) (loop, apple1) (vt_menu_tarfs) (hd0,msdos2) (hd0,msdos1) > 1s
+
+hdo)
+
+16:40
+
+4G
+
++
+
+Claude-MKII
+
+Smooth511
+
+-MKII
+
+and information
+
+Private
+
+0 stars 0 forks
+
+Star
+
+O Issues
+
+3 Pull Requests
+
+1 >
+
+0 >
+
+Discussions
+
+0 >
+
+Actions
+
+Agents
+
+>
+
+83 Contributors
+
+Watchers
+
+2 >
+
+<
+
+0 >
+
+Inbox
+
+Explore
+
+Copilot
+
+Home
+
+### Claim A: "Critical Security Finding
+
+**STILL INCORRECT.**
+
+The EventID 4670 records from 'msedgewebv correctly identified as standard Chromium The S-1-0-xxx SIDS are per-proces e - sandbox not malware, not null SID injec in this document's previous section and §
+
+The operator's revised context does not cl
+
+く ### Claim B: "The probable cause is syster
+
+**INCORRECT - but a security incident DID
+
+The original report attributed the attack shows the attack was a **network-based eve reconnection**, not an in-process exploita
+
+1. Zero EdgeWebView2 events during the gap 2. The Teredo (UDP-In) and IPHTTPS (TCP-In - these are IPv6-tunnelling rules, exac of "hidden UDP payload delivered as a h 3. The event spike (2,191/sec peak) at 03. policy after boot, while the attack was
+
+### Claim Cock Detected Malformed SIDS" (5
+
+**STILL 1
+
+github.com
+
+.nese are Chromium sar
+
+▾
+
+9
+
+8
+
+.
+
+75
+
+"VTLANG_NORMAL_MODE": "Jalankan boot di mode normal", "VTLANG_WIMBOOT_MODE": "Jalankan boot di mode wimboot", "VTLANG_GRUB2_MODE": "Jalankan boot di mode grub2", "VTLANG_MEMDISK_MODE": "Jalankan boot di mode memdisk",
+
+"VTLANG_RET_TO_LISTVIEW": "Kembali ke ListView", "VTLANG_RET_TO_TREEVIEW": "Kembali ke TreeView",
+
+"VTLANG_NO_AUTOINS_SCRIPT": "Jalankan boot tanpa templat "VTLANG_AUTOINS_USE": "Jalankan boot dengan",
+
+instalasi otomatis",
+
+"VTLANG_NO_PERSIST": "Jalankan boot tanpa persistence", "VTLANG PERSIST_USE": "Jalankan boot",
+
+"VTLANG_BROWER_RETURN": "Kembali",
+
+"VTLANG_ENTER_EXIT": "tekan tombol Enter untuk keluar", "VTLANG_ENTER_REBOOT": "tekan tombol Enter untuk reboot" "VTLANG_ENTER_CONTINUE": "tekan tombol Enter untuk melanjutkan",
+
+"VTLANG_CTRL_TEMP_SET": "Temporary Control Settings", "VTLANG_WIN11_BYPASS_CHECK": "Bypass CPU/TPM/SecureBoot check when
+
+install Windows "VTLANG_WIN11_BYPASS_NRO": "Bypass online account requirement when install Windows
+
+11", "VTLANG_LINUX_REMOUNT": "Mount Ventoy partition after boot Linux", "VTLANG SECONDARY_BOOT_MENU": "Show secondary boot menu",
+
+''MENU_STR_XXX": ""
+
+grub>
+
+}
+
+11",
+
+"VTLANG_NORMAL_MODE": "Boot in normal mode" "VTLANG_WIMBOOT_MODE": "Boot in wimboot mode", "VTLANG GRUB2_MODE": "Boot in grub2 mode" "VTLANG_MEMDISK_MODE": "Boot in memdisk mode",
+
+"VTLANG_RET_TO_LISTVIEW": "Return to List View", "VTLANG_RET_TO_TREEVIEW": "Return to Treeview",
+
+"VTLANG_NO_AUTOINS_SCRIPT": "Boot without auto "VTLANG AUTOINS USE": "Boot with",
+
+installation template",
+
+"VTLANG_NO_PERSIST": "Boot without persistence", "VTLANG PERSIST_USE": "Boot with",
+
+"VTLANG_BROWER_RETURN": "Return",
+
+"VTLANG_ENTER_EXIT": "press Enter key to exit", "VTLANG_ENTER_REBOOT": "press Enter key to reboot", "VTLANG_ENTER_CONTINUE": "press Enter key to continue",
+
+11" "VTLANG_CTRL_TEMP_SET": "Temporary Control Settings", "VTLANG_WIN11_BYPASS_CHECK": "Bypass CPU/TPM/SecureBoot
+
+check when install Windows "VTLANG_WIN11_BYPASS_NRO": "Bypass online account requirement when install Windows
+
+11". "VTLANG_LINUX_REMOUNT": "Mount Ventoy partition after boot Linux", "VTLANG_SECONDARY_BOOT_MENU": "Show secondary boot menu",
+
+"MENU_STR_XXX": ""
+
+}
+
+grub>
+
+"VTLANG_JSON_CHK_AUTO_MEMDISK": "Check auto memdisk plugin configuration"VTLANG_JSON_CHK_IMG_LIST": "Check image list plugin configuration", "VTLANG_JSON_CHK_IMG_BLIST": "Check image blacklist plugin configuration"VTLANG JSON_CHK_CONF_REPLACE": "Check boot conf replace plugin configuration"VTLANG JSON_CHK_DUD": "Check dud plugin configuration", "VTLANG JSON_CHK_PASSWORD": "Check password plugin configuration",
+
+", ", ",
+
+"VTLANG_NORMAL_MODE": "Boot in normal mode", "VTLANG_WIMBOOT_MODE": "Boot in wimboot mode", "VTLANG_GRUB2_MODE": "Boot in grub2 mode", "VTLANG_MEMDISK_MODE": "Boot in memdisk mode",
+
+"VTLANG_RET_TO_LISTVIEW": "Return to ListView", "VTLANG_RET_TO_TREEVIEW": "Return to TreeView",
+
+"VTLANG_NO_AUTOINS_SCRIPT": "Boot without auto "VTLANG_AUTOINS_USE": "Boot with",
+
+installation template",
+
+"VTLANG_NO_PERSIST": "Boot without persistence", "VTLANG PERSIST_USE": "Boot with",
+
+"VTLANG_BROWER RETURN": "Return",
+
+"VTLANG_ENTER_EXIT": "press Enter key to exit", "VTLANG_ENTER_REBOOT": "press Enter key to reboot", "VTLANG_ENTER_CONTINUE": "press Enter key to continue
+
+",
+
+"VTLANG CTRL_TEMP_SET": "Temporary Control Settings",
+
+"VTLANG_WIN11_BYPASS_CHECK": "Bypass CPU/TPM/SecureBoot check when install Windows "VTLANG_WIN11_BYPASS_NRO": "Bypass online account requirement when install Windows
+
+11".
+
+11"
+
+--MORE-
+
+"VTLANG_CHKSUM_SHA256_CALC_CHK": "Calculate and check "VTLANG_CHKSUM_SHA512_CALC_CHK": "Calculate and check
+
+sha256sum", sha512sum"
+
+"VTLANG_POWER": "Power" "VTLANG_POWER_REBOOT": "Reboot", "VTLANG_POWER_HALT": "Halt" "VTLANG_POWER_BOOT_EFIFW": "Reboot to EFI setup",
+
+"VTLANG KEYBRD_LAYOUT": "Keyboard Layouts", "VTLANG_HWINFO": "Hardware Information",
+
+"VTLANG_RESOLUTION_CFG": "Resolution Configuration"VTLANG_SCREEN_MODE": "Screen Display Mode' "VTLANG_SCREEN_TEXT_MODE": "Force Text Mode' "VTLANG_SCREEN_GUI_MODE": "Force Graphics Mode",
+
+",
+
+"VTLANG_THEME_SELECT": "Theme Select",
+
+"VTLANG_UEFI_UTIL": "Ventoy UEFI Utilities", "VTLANG_UTIL_SHOW_EFI_DRV": "Show EFI Drivers", "VTLANG_UTIL_FIX_BLINIT_FAIL": "Fixup Windows
+
+BlinitializeLibrary Failure",
+
+"VTLANG JSON_CHK_JSON": "Check plugin json configuration ("VTLANG_JSON_CHK_CONTROL": "Check global control plugin "VTLANG_JSON_CHK_THEME": "Check theme plugin configuration"VTLANG_JSON_CHK_AUTOINS": "Check auto install plugin "VTLANG JSON_CHK_PERSIST": "Check persistence plugin "VTLANG JSON_CHK_MENU_ALIAS": "Check menu alias plugin "VTLANG JSON_CHK_MENU_TIP": "Check menu tip plugin configuration"VTLANG_JSON_CHK_MENU_CLASS": "Check menu class plugin "VTLANG JSON_CHK_INJECTION": "Check injection plugin "VTLANG JSON_CHK_AUTO_MEMDISK": "Check auto memdisk plugin
+
+ventoy.json)", configuration", ", configuration", configuration configuration", ", configuration", configuration", configuration",
+
+--MORE--1
+
+Lane
+
+grub> cat (vt_menu_tarfs)/menu/en_US.json {
+
+"VTLANG LANGUAGE_NAME": "English (English
+
+)",
+
+"VTLANG_STR_HOTKEY_LIST": "L:Language F5: Tools F5: Tools F6:ExMenu". F6:ExMenu", "VTLANG_STR_HOTKEY_TREE": "L:Language F1: Help F1: Help "VTLANG_RETURN_PREVIOUS": "Return to previous "VTLANG_RETURN_PRV_NOESC": "Return to previous
+
+F3:ListView
+
+F2: Browse F2: Browse
+
+F4:Localboo
+
+F3: TreeView F4:Localboo
+
+"VTLANG_MENU_LANG": "Menu Language Select
+
+menu [Esc]", menu":
+
+",
+
+"VTLANG_LB_SBOOT_WINDOWS": ""VTLANG_LB_SBOOT_G4D": "Search "VTLANG_LB_SBOOT_HDD1": "Boot "VTLANG_LB_SBOOT_HDD2": "Boot "VTLANG_LB_SBOOT_HDD3": "Boot "VTLANG_LB_SBOOT_X64EFI": ""VTLANG_LB_SBOOT_IA32EFI": ""VTLANG_LB_SBOOT_AA64EFI": ""VTLANG_LB_SBOOT_XORBOOT": "
+
+Search and boot Windows", and boot Grub4dos" the 1st local disk", the 2nd local disk", the 3rd local disk",
+
+Search and boot BOOTX64.EFI", Search and boot BOOTIA32.EFI", Search and boot BOOTAA64.EFI", Search and boot xorboot",
+
+"VTLANG_FILE_CHKSUM": "File checksum", "VTLANG_CHKSUM_MD5_CALC": "Calculate md5sum", "VTLANG_CHKSUM_SHA1_CALC": "Calculate shalsum", "VTLANG_CHKSUM_SHA256_CALC": "Calculate sha256sum", "VTLANG_CHKSUM_SHA512_CALC": "Calculate sha512sum", "VTLANG_CHKSUM_MD5_CALC_CHK": "Calculate and check md5sum"VTLANG_CHKSUM_SHA1_CALC_CHK": "Calculate and check sha1sum"VTLANG CHKSUM_SHA256_CALC_CHK": "Calculate and check
+
+", ", sha256sum
+
+",
+
+--MORE-
+
+t
+
+t
+
+"menu_alias": [
+
+{
+
+"image":"/ISO/MX-19.1_x64.iso", "alias": "MX 19.1 ISO file For me"
+
+"image":"/cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso""alias": "Windows 10 "
+
+"auto_install": [
+
+1,
+
+{ "image":"/ISO/cn_windows_10.iso", "template":"/ventoy/script/windows_unattended.cfg"
+
+}
+
+",
+
+]
+
+,
+
+}
+
+"image":"/ISO/cn_windows_server_2012_r2_v1_x64_dvd_2979220.iso"template": [ "/ventoy/script/windows_unattended1.xml", "/ventoy/script/windows_unattended2.xml" "/ventoy/script/windows_unattended3.xml", "/ventoy/script/windows_unattended4.xml" "/ventoy/script/windows_unattended5.xml' "/ventoy/script/windows_unattended6.xml'
+
+]
+
+--MORE--
+
+}
+
+'
+
+tick Lane
+
+grub> set pager=1 grub> cat (hd0,msdos1)/ventoy/ventoy.json
+
+"control": [ ], { "VTOY_DEFAULT_MENU_MODE": "1" { "VTOY_FILT_DOT_UNDERSCORE_FILE": "1" }
+
+"theme": { }, "file": "/ventoy/theme/theme.txt", "display_mode": "GUI" "ventoy_left": "ventoy_top": "95%" "ventoy_color": "#0000ff"
+
+"menu_class": [
+
+{ "key": "ubuntu", "class": "ubuntu"
+
+}
+
+"key": "deepin". "class": "deepin"
+
+"dir": "rhel", "class": "red-hat"
+
+}
+
+],
+
+-MORE
+
+ane
+
+GNU GRUB version 2.04
+
+setparams '2.78GB
+
+linuxmint-22.1-mate-64bit.iso'
+
+iso_common_menuentry
+
+Minimum Emacs-like screen editing is supported. TAB lists completions. Press Ctrl-x or F10 to boot, Ctrl-c or F2 for a command-line or ESC to discard edits and return to the GRUB menu.
+
+ventoy.json ventoy_grub.cfg grub> cat (hd0,msdos1)/ventoy/ventoy_grub.cfg menuentry "My Custom Menu" --class-custom d echo 'This is custom menu sleep 1 <d> ... <d>
+
+<d>
+
+<d>
+
+submenu 'My Custom SubMenu -->' --class-customsub { menuentry "My Custom Menu2" --class=custom2 echo 'This is custom menu2 sleep 1 <d> <d> <d> <d>
+
+<d>
+
+<d>
+
+menuentry <-- Return to previous menu [Esc]'--echo 'Return <d> <d> <d>
+
+class=vtoyret VTOY_RET <d>
+
+<d>
+
+menuentry < Return to previous menu [Esc] --class=vtoyret VTOY_RET <d> echo 'Return ... <d>
+
+<d>
+
+grub> 1s (proc) (vt_menu_tarfs) (hd0) (hd0, msdos2) (hd0, msdos1) grub> cat (hd0, msdos1)/ventoy/ventoy_grub.cfg_
+
+F1:Help
+
+L:Language
+
+F3: TreeView F4:Localboot
+
+www.ventoy.net
+
+F2:Browse
+
+F5: Tools
+
+F6:
+
+ISO
+
+ISO
+
+2.78GB linuxmint-22.1-cinnamon-64bit.iso 2.78GB linuxmint-22.1-mate-64bit.iso 2.69GB linuxmint-22.1-xfce-64bit.iso
+
+ISO
+
+] Stopped target timers.target Timer Units. ]Stopped anacron.timer Trigger anacron every hour. OK Stopped apt-daily-upgrade.timer Daily apt upgrade and clean activities. ] Stopped apt-daily.timer Daily apt download activities. ] Stopped dpkg-db-backup.timer Daily dpkg database backup timer. OK Stopped e2scrub all.timer Periodic ext4 Online Metadata Check for All Filesystems. ] Stopped fstrim.timer Discard unused filesystem blocks once a week. Stopped fuupd-refresh.timer Refresh fuupd metadate regularly. Stopped logrotate.timer Daily rotation of log files. ] Stopped man-db.timer Daily man-db regeneration. ] Stopped motd-news.timer Message of the Day. OK Stopped plocate-updatedb.timer Update the plocate database daily. OK Stopped systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories. OK Stopped target time-set.target System Time Set. OK Closed lvm2-lvmpolld.socket LVM2 poll daemon socket. OK Closed systemd-rfkill.socket Load/Save RF Kill Switch Status /dev/rfkill Hatch. ] Stopped NetworkManager-wait-online.service Network Manager Hait Online. Stopping NetworkManager.service Network Manager.... Stopping alsa-restore.service Save/Restore Sound Card State... Stopping blk-availability.service Availability of block devices... Stopping finalrd.service Create final runtime dir for shutdown pivot root... Stopping friendly-recovery.service Recovery mode menu... Stopping fwupd.service Firmware update daemon...
+
+[ OK
+
+[ OK
+
+[ OK
+
+[ OK
+
+Stopping polkit.service Authorization Manager...
+
+[ OK
+
+Hangup
+
+Stopping systemd-logind.service User Login Management... Stopping systemd-random-seed.service Load/Save OS Random Seed... Stopping udisks2.service Disk Manager... Stopping upower.service Daemon for power management... OK ] Stopped friendly-recovery.service Recovery mode menu. [ OK ]Stopped NetworkManager.service Network Manager. OK OK OK OK ]Stopped upower.service Daemon for power management. ] Stopped alsa-restore.service Save/Restore Sound Card State. Stopped systemd-random-seed.service Load/Save OS Random Seed. Stopped polkit.service Authorization Manager. OK ] Stopped udisks2.service Disk Manager. OK ] Stopped fuupd.service Firmware update daemon. OK ] Stopped systemd-logind.service User Login Management. OK ]Stopped target basic.target Basic System. [ OK ] Stopped target paths.target Path Units. OK ] Stopped target slices.target Slice Units. OK ]Removed slice user.slice User and Session Slice. OK ] Stopped target sockets.target Socket Units. OK ] Closed avahi-daemon.socket Avahi mDNS/DNS-SD Stack Activation SocketOK ] Closed cups.socket CUPS Scheduler. [ OK ] Closed uuidd.socket UUID daemon activation socket. OK ]Stopped target sysinit.target System Initialization. OK ]Stopped target cryptsetup.target Local Encrypted Volumes. OK ] Stopped
+
+. [
+
+systemd-ask-password-console.path Dispatch Password Requests to Console Directory Hatch. ] Stopped target integritysetup.target Local
+
+[ OK target veritysetup.target Local Verity Protected Volumes. Stopping systemd-binfmt.service Set Up Additional Binary Formats... Stopping systemd-resolved.service Network Name Resolution... Stopping systemd-timesyncd.service Network Time Synchronization... Stopped systemd-update-done.service Update is Completed. [ OK [ OK ] Stopped ldconfig.service
+
+Integrity Protected volumes. ] Stopped
+
+[ OK ] Stopped systemd-journal-catalog-update.service Rebuild Journal Catalog. Stopping systemd-update-utmp.service Record System Boot/Shutdown in UTHP... [ OK ] Stopped blk-
+
+Rebuild Dynamic Linker Cache.
+
+availability.service Availability of block devices.
+
+[ OK ] Stopped systemd-binfmt.service Set Up Additional Binary Formats.
+
+[ OK ] Unset automount proc-sys-fs-binfmt misc.automount Arbitrary Executable File Formats File System Automount Point. [ OK ]Stopped systemd-update-utmp.service Record System Boot/Shutdown in UTHP.
+
+Stopped systemd-resolved.service Network Name Resolution.
+
+[ OK
+
+[OK
+
+[ OK ] Stopped systemd-timesyncd.service Network Time Synchronization.
+
+[OK
+
+[ OK ] Stopped systemd-sysctl.service Apply Kernel Variables.
+
+[OK] Closed systemd-coredump.socket Process Core Dump Socket.
+
+[ OK ] Stopped systemd-modules-load.service Load Kernel Modules.
+
+[ OK ]Stopped systemd-tmpfiles-setup.service Create Volatile Files and Directories.
+
+[ OK ] Stopped finalrd.service Create final runtime dir for shutdown pivot root.
+
+[ OK ] Stopped target local-fs.target Local File Systems.
+
+Unmounting cdrom.mount /cdrom...
+
+Unmounting rofs.mount
+
+Unmounting tmp.mount /tmp...
+
+/rofs...
+
+[FAILED] Failed unmounting cdrom.mount /cdrom.
+
+[ OK ] Unmounted rofs.mount - /rofs.
+
+[ OK ] Unmounted tmp.mount /tmp.
+
+Stopped target local-fs-pre.target
+
+Preparation for Local File Systems.
+
+[ OK Stopped target swap.target Swaps. [ OK ] Reached target umount.target Unmount All Filesystems. Stopping lvm2-monitor.service Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling... [ OK ] Stopped systemd-tmpfiles-setup-dev.service Create Static Device Nodes in /dev. [ OK ]Stopped systemd-sysusers.service Create System Users. [ OK ]Stopped systemd-remount-fs.service Remount Root and Kernel File Systems. [OK Stopped systemd-tmpfiles-setup-dev-early.service Create Static Device Nodes in /dev gracefully. [ OK ]Stopped 1vm2-monitor.service Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling. [ OK ] Reached target shutdown.target System Shutdown. Starting casper.service Shuts down the "live" preinstalled system cleanly... cat: /sys/block/ventoy/removable: No such file or directory Please remove the installation medium, then press ENTER:
+
+[ OK
+
+OK
+
+[ OK
+
+[ OK
+
+[
+
+[ [
+
+[
+
+[
+
+[
+
+[ [[
+
+[ [
+
+[
+
+[
+
+[
+
+[ [
+
+[ OK
+
+sda1: LABEL=" :~# fdisk -1 /dev/loop0: 2.27 GiB, 2440761344 bytes, 4767112 sectors s: sectors of 1 * 512 = 512 bytes size (logical/physical): 512 bytes / 512 bytes size (minimum/optimal): 512 bytes / 512 bytes
+
+/dev/sda: 29.3 GiB, 31457280000 bytes, 61440000 sectors
+
+model: UDisk : sectors of 1 * 512 = 512 bytes size (logical/physical): 512 bytes / 512 bytes size (minimum/optimal): 512 bytes / 512 bytes
+
+type: dos
+
+identifier: 0x8ef070f9
+
+Boot Start
+
+End Sectors Size Id Type
+
+2048 61374463 61372416 29.3G 7 HPFS/NTFS/exFAT 61374464 61439999 65536 32M ef EFI (FAT-12/16/32)
+
+/dev/dm-0: 2.69 GiB, 2885681152 bytes, 5636096 sectors : sectors of 1 * 512 = 512 bytes size (logical/physical): 512 bytes / 512 bytes O size (minimum/optimal): 512 bytes / 512 bytes type: dos
+
+/sda1 * /sda2
+
+sk identifier: 0x2e213003
+
+0 2.3G 1 loop /rofs
+
+1 29.36 0 disk
+
+8:0
+
+1 29.36 0 part
+
+sda2 8:2 1 32M 0 part
+
+root@linux:"# sudo dmsetup table
+
+sda1 8:1
+
+ventoy: 8 5636096 linear 8:1 8040
+
+root@linux:"# sudo dmsetup is
+
+0000 7:0
+
+ventoy (252:0)
+
+root@linux: # cat /proc/self/mountinfo | grep sda root@
+
+linux:"# cat /proc/self/mountinfo | grep ventoy
+
+31 36 252:0//cdrom ro,noatime shared:3 is09660 /dev/mapper/ventoy ro,nojoliet, check=s, map=n, blocksize=2048, locharset=utf8 root@linux:~# cat /proc/self/mountinfo | grep vtoy root@linux:"# blkid
+
+/dev/loop0: BLOCK_SIZE="131072" TYPE="squashfs"
+
+/dev/dm-6: BLOCK_SIZE="2048" UUID="2025-01-10-14-57-02-08" LABEL="Linux Mint 22.1 Xfce 64-bit" TYPE="is09660" PTUUID="2e213007" PTTYPE="do /dev/sda1: LABEL="Ventoy" UUID="4E21-0000" BLOCK_SIZE="512" TYPE="exfat" PARTUUID="8ef078f9-01" root@linux: "# cat /proc/self/mountinfo | grep Linux
+
+root@linux:"# cat /proc/
+
+self/mount info | grep Linux* root@linux: "# cat /proc/self/mount
+
+info | grep squashfs 36 36 7://rofs ro,noatime shared:2 - squashfs /dev/
+
+loope ro, errors=continue, threads=single root@ling/ru,relatime shared:1-overlay /co/u/quendi restent aquestes, upper dir=/
+
+cow/upper, workdir=/cow/work, uuid=on,xino-off, nous
+
+sda
+
+4 -1 root root -xr-x 1 root root --r-- 1 root root -2 root root -xr-x 3 root root -r--r-- 1 root root -2 root root
+
+60 May 9 14:04 240 May 9 13:42 3106 Apr 22 2024 .bashrc
+
+3 Jan 10 2025 .cache 60 May 9 14:04 .local 161 Apr 22 2024 .profile 3 Jan 10 2025 .ssh
+
+@linux:~# cat /proc/mdstat
+
+sonalities: [raide] [raid1] [raid6] [raid5] [raid4] [raid10] devices:
+
+<none>
+
+@linux:~# cat /proc/mdstat/raide
+
+: /proc/mdstat/raid0: Not a directory @
+
+linux:~# losetup -a
+
+/loop0: [64512]:4819 (/cdrom/casper/filesystem.squashfs) @linux:~# cat /proc/mounts
+
+grep sda
+
+@linux:~# cat /proc/mounts | grep sda* /sys
+
+/fs/cgroup cgroup2 rw, nosuid, nodev, noexec, relatime, nsdelegate, memory_recursiveprot € @linux:~# cat /proc/mounts @linux:~# cat /proc/mounts grep Sda* grep *da* @linux:~# cat /
+
+proc/mounts | grep sda* /sys/fs/
+
+cgroup cgroup2 rw,nosuid, nodev, noexec, relatime, nsdelegate, memory_recursiveprote @linux:~# cat /proc/mounts | grep sda1 @linux:~# sudo fsck -y /dev/sda1 from util-
+
+linux 2.39.3
+
+@linux:~# lsblk
+
+MAJ: MIN RM SIZE RO TYPE MOUNTPOINTS 7:0
+
+0 2.3G 1 loop /rofs
+
+8:0
+
+1 29.3G disk
+
+1 29.3G part
+
+8:1
+
+1 32M
+
+part
+
+8:2
+
+@linux:~#
+
+to execute /usr/sbin/sulogin: No such file or directory to get D-Bus connection: No such file or directory ack to the single-user shell.
+
+to the single-user shell.
+
+to execute /usr/sbin/sulogin: No such file or directory ack to the single-user shell. d
+
+to execute /usr/sbin/sulogin: No such file or directory to get D-Bus connection: No such file or directory to the single-user shell.
+
+to execute /usr/sbin/sulogin: No such file or directory to get D-Bus connection: No such file or directory to the single-user shell.
+
+to execute /usr/sbin/
+
+sulogin: No such file or directory to get D-Bus connection: No such file or directory to the single-user shell. to get D-Bus
+
+connection: No such file or directory back to the single-user shell.
+
+to execute /usr/sbin/sulogin: No such file or directory to get D-Bus connection: No such file or directory to the single-user shell.
+
+to execute /usr/sbin/sulogin: No such file or directory led.tn.get D-Bus connection: No such file or directory to execute /usr/sbin/sulogin: No such file or directory to get D-Bus connection: No such file or directory lback to the single-user shell.
+
+to execute /usr/sbin/sulogin: No such file or directory to get D-Bus connection: No such file or directory to the single-user shell.
+
+to execute /usr/sbin/sulogin: No such file or directory to get D-Bus connection: No such file or directory llback to the single-user shell.
+
+to execute /usr/sbin/sulogin: No such file or directory to get D-Bus connection: No such file or directory to the single-user shell.
+
+to get D-Bus connection: No such file or directory to the single-user shell.
+
+to execute /usr/sbin/sulogin: No such file or directory to get D-Bus connection: No such file or directory to the single-user shell.
+
+to execute /usr/sbin/sulogin: No such file or directory to get D-Bus connection: No such file or directory to the single-user shell.
+
+to execute /usr/sbin/sulogin: No such file or directors to get D-Bus connection: No such file or directory Fallba to execute /usr/sbin/suidgin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directors Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell.
+
+Failed to execute /usr/sbin/sulogin: No such file or directory Fallback to the single-user shell. Failed to execute //
+
+usrsbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell. Failed to execute /usr/sbin/
+
+sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell. Failed to execute
+
+/usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell. Failed to execute
+
+/usr/sbin
+
+/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell. Failed
+
+execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell. Failed to execute
+
+/usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or directory Fallback to the single-user shell. Failed to execute
+
+to
+
+/sulogin: No such file or directory Failed.tn.get D-Bus conoection: No such file or directory Failed to execute /usr/sbin/sulogin: No such file or directory Failed to get D-Bus connection: No such file or the
+
+/usr/sbin
+
+led 
+
+iled iled
+
+led led led
+
+ed back
+
+b> linux boot=: invalid file
+
+casper vvmliniz root-live:CDLABEL-Fedora-WS-Like-XX rd.live.im name 'boot=casper'.
+
+> linux boot=casper vmliniz root=live:CDLABEL-Fedora-WS-Like-XX rd.live.ima : invalid file name boot-casper'. > linux casper-vmlinuz root-live:CDLABEL-Fedora-WS-Like-XX rd.live.image qu : invalid file name casper-vmlinuz'. ub> linux casper vmlinuz root-live:CDLABEL-Fedora-WS-Like-XX rd.live.image qu : invalid file name casper'.
+
+>
+
+>
+
+>
+
+> >
+
+>
+
+>
+
+>
