@@ -39,6 +39,31 @@ These are not the same thing. Chrome creating its own restricted tokens doesn't 
 EventID 4670 on "SecurityToken-" objects. Modifying another process's token DACL to grant
 a synthetic SID generic access DOES.
 
+**NOTE ON PRIOR ANALYSIS — WHY THE EXISTING REPORT CONCLUSION DIFFERS:**
+The existing report at `reports/malware-invasion/incident_report_lloyd_mini_20260227.md §3.5`
+labels these same events as normal Chromium sandbox behaviour and uses timing to rule out
+any causal link to the incident (last Edge event before the gap: 03:35:15 UTC, 7+ minutes
+before contact was lost at 03:42:50).
+
+That report is correct on the MECHANISM (Chromium does use S-1-0-xxx SIDs via
+CreateRestrictedToken) but reaches the wrong conclusion because:
+1. It conflates the pre-gap sandbox events (which ARE normal Chrome behaviour) with the
+   post-gap events during the attack window. The 12 DACL events analysed here occur
+   BETWEEN 03:40:43 and 03:53:26 — within and around the gap period.
+2. The object type "SecurityToken-" (ObjectType=Token, nameless kernel object) is not
+   consistent with Chrome's renderer sandboxing, which modifies process tokens at spawn
+   time with a named process context, not anonymous kernel token handles.
+3. Agent 1 analysis of the full XML (logs1.all.xml) confirmed the DACL target is a
+   Token kernel object with no ObjectName — not a renderer process token being created.
+   
+The prior report's timing table shows "Edge events during gap: 0" for the contact-lost
+window specifically. The events under scrutiny here include the immediate pre-gap period
+(03:40-03:42) and the post-gap reboot window (03:53+), which the old report grouped
+as "before gap" and "after gap" without treating the pre-gap window as attack staging.
+
+The prior report stands as a correct description of the 03:35:15 events. This analysis
+applies to the separate set of events that occurred from 03:40:43 onward.
+
 This is the token impersonation setup pattern. The rootkit was:
 1. Injecting into msedgewebview2.exe (or spoofing it)
 2. Generating S-1-0-xxx SIDs that looked like Chrome sandbox SIDs
@@ -68,8 +93,11 @@ This is NOT what Chrome does to sandbox its renderers. This is token DACL manipu
 
 Note: Each S-1-0-xxx SID has FOUR sub-authorities = 128 bits of entropy.
 These could encode: machine ID, session key, timestamp, or rootkit process identifier.
-They are NOT random — they appear in pairs (each SID appears exactly 2 times) suggesting
-a before/after or new/original pair for the same object.
+They are NOT random — four of the five SIDs appear exactly twice, and one SID
+(S-1-0-130827018-994964869-2702941970-2332722214) appears four times, suggesting
+repeated use against the same token object across multiple attack cycles. The pairing
+pattern (2 events each for most SIDs) is consistent with a set/unset or grant/revoke
+sequence on the same object.
 
 ---
 
@@ -217,6 +245,4 @@ can identify who issued it, we can identify the rootkit's signing infrastructure
 REMOVAL: The unattended Windows install XMLs (/ventoy/script/windows_unattended*.xml)
 are the rootkit's reinstall templates. If the USB is ever accessible, DELETE these files
 and the cn_windows_*.iso references from ventoy.json. This removes the rebuild capability.
-
-dd
 
