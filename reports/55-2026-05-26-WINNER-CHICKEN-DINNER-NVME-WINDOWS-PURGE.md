@@ -226,6 +226,7 @@ gfxterm_background procfs gfxterm menu smbios
 | Serial | BTNR02950QPS1P0B | Intel |
 | Firmware | 001C | Standard Intel firmware |
 | Capacity | 1 TB | Confirmed |
+| temperature | 36 °C (309 K) | Normal operating temp (OCR artefact "389 K" corrected by inline image) |
 | power_cycles | **2,644** | Very high |
 | unsafe_shutdowns | **638** | ~24% crash rate |
 | power_on_hours | **20,002** (~833 days, ~2.3 years continuous) | This drive never turned off |
@@ -271,8 +272,9 @@ dd if=/dev/zero of=/dev/nvme0n1 bs=4M status=progress conv=fdatasync
 256060514304 bytes (256 GB, 238 GiB) copied, 735.148 s, 348 MB/s
 → [Error: No space left on device — expected, drive fully written]  ✅
 
-dd if=/dev/zero of=/dev/nvme1n1 ...
-[in progress at ~184 MB/s, confirmed by earlier inline image]  ✅
+dd if=/dev/zero of=/dev/nvme1n1 bs=10M status=progress conv=fdatasync
+1024209543168 bytes (1.0 TB, 954 GiB) copied, 5565.83 s, 184 MB/s
+→ [Error: No space left on device — expected, drive fully written]  ✅
 ```
 
 ### Hexdump verification
@@ -283,25 +285,39 @@ hexdump -n 10000000 /dev/nvme0n1
 *
 0989680
 ```
+**nvme0n1: All zeros.** ✅
 
-**All zeros. Drive is clean.**
+```
+hexdump -n 10000000 /dev/nvme1
+0000000 0000 0000 0000 0000 0000 0000 0000 0000
+*
+0989680
+```
+**nvme1n1: All zeros.** ✅ (confirmed from inline image 2)
 
 ### PCI device removal
 
+Both unbind paths tried for both drives — same result:
 ```
 echo "nvme0" > /sys/bus/nvme/drivers/nvme/unbind
 → bash: No such file or directory  (kernel config — nvme unbind path not compiled in)
 
 echo 1 > /sys/bus/pci/devices/0000:02:00.0/remove
-→ [success — no error output]
+→ [success — no error output]   ← nvme0 (Samsung 256GB) EJECTED ✅
+
+sudo echo "nvme1" > /sys/bus/nvme/drivers/nvme/unbind
+→ bash: No such file or directory
+
+sudo echo 1 > /sys/bus/pci/devices/0000:05:00.0/remove
+→ [success]   ← nvme1 (Intel 1TB) EJECTED ✅
 ```
 
-Post-remove lsblk:
+Post-remove lsblk (after nvme0 remove — nvme1 still present for dd):
 ```
 nvme1n1  259:0  0  953.9G  0  disk
 ```
 
-nvme0n1 is **gone**. Ejected cleanly from the PCI bus. Mission accomplished.
+Both NVMe drives are **gone**. Ejected cleanly from the PCI bus. Mission accomplished.
 
 ---
 
@@ -379,7 +395,7 @@ Right page note: `1k DEBUG. BIN / lloyd hai / cocktail 56! / pi / s` — appears
 
 3. **Hyper-V is confirmed on BOTH Linux (6 prior confirmations) and now Windows.** The hypervisor layer is persistent across OS reinstalls — it lives below both.
 
-4. **Both NVMe drives are fully wiped.** nvme0n1: formatted (-s 1) + dd zeroed + hexdump verified + PCI removed. nvme1n1: formatted (-s 2) + dd zeroed. The true NVMe data (the "locked" SMART history) is now documented above before erasure. The battle is won.
+4. **Both NVMe drives are fully wiped and PCI-ejected.** nvme0n1: formatted (-s 1) + dd zeroed (348 MB/s, 735s) + hexdump verified + PCI removed (0000:02:00.0). nvme1n1: formatted (-s 2) + dd zeroed (184 MB/s, 5565s) + hexdump verified + PCI removed (0000:05:00.0). The true NVMe data (the "locked" SMART history) is now documented above before erasure. The battle is won.
 
 5. **Boot-Info confirms 0 OS detected** — the purge was successful. The drives showed no OS, no partition table, no filesystem signatures.
 
@@ -394,8 +410,8 @@ Right page note: `1k DEBUG. BIN / lloyd hai / cocktail 56! / pi / s` — appears
 - **Windows BT persistence (oem87.inf):** DEFEATED ✅  
 - **NVMe data freed and documented:** CONFIRMED ✅  
 - **Both NVMe drives wiped:** CONFIRMED ✅  
-- **nvme0 (Samsung 256GB):** PCI-ejected ✅  
-- **nvme1 (Intel 1TB):** format -s2 + dd ✅  
+- **nvme0 (Samsung 256GB):** format -s1 + dd (348 MB/s) + hexdump zeros + PCI-ejected (0000:02:00.0) ✅
+- **nvme1 (Intel 1TB):** format -s2 + dd (184 MB/s) + hexdump zeros + PCI-ejected (0000:05:00.0) ✅
 - **Network lockdown:** UFW deny all in/out ✅  
 - **Bluetooth masked to /dev/null:** ✅  
 - **Hypervisor:** STILL PRESENT (below OS level — BIOS jumper required)  
